@@ -5,10 +5,13 @@ import json
 import re
 import sqlite3
 from contextlib import contextmanager
+from pathlib import Path
 
 from harness.common import DATA, iso, now_ist
 
-DB = DATA / "app" / "app.db"
+import os
+
+DB = Path(os.environ["APP_DB"]) if os.environ.get("APP_DB") else DATA / "app" / "app.db"   # Railway: /data/app.db (volume)
 EMAIL = re.compile(r"^[A-Za-z0-9._%+-]{1,64}@[A-Za-z0-9.-]{1,190}\.[A-Za-z]{2,24}$")
 
 

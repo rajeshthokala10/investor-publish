@@ -1,0 +1,15 @@
+# Publishing the website: the batch commits refreshed content and pushes; GitHub Actions deploys to Railway.
+auto_publish: true
+branch: main
+remote: origin
+paths:                      # only these are committed by the batch (never code, secrets or raw research)
+  - data/app/site.json
+  - data/app/metrics.json
+  - data/app/clusters.json
+  - data/app/builders.json
+  - data/app/news_refresh.json
+  - data/app/magazine-cover.png
+  - reports/daily
+  - reports/magazine
+  - reports/weekly
+site_url: https://web-production-b8fbb.up.railway.app

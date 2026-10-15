@@ -35,7 +35,7 @@ def load_env(path: Path = ROOT / ".env") -> dict:
                 k, v = line.split("=", 1)
                 env[k.strip()] = v.strip().strip('"').strip("'")
     env.update({k: v for k, v in os.environ.items() if k in ("SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASSWORD",
-                                                              "EMAIL_TO", "APP_SECRET")})
+                                                              "EMAIL_TO", "APP_SECRET", "SITE_ADMIN_URL", "ADMIN_TOKEN")})
     return env
 
 
@@ -50,12 +50,27 @@ def _ensure_log():
                        sent_at TEXT NOT NULL, mode TEXT NOT NULL, status TEXT NOT NULL, UNIQUE(edition, email))""")
 
 
+def remote_subscribers(env: dict) -> list[str]:
+    """Subscribers who signed up on the deployed website (SITE_ADMIN_URL + ADMIN_TOKEN in .env)."""
+    url, token = env.get("SITE_ADMIN_URL"), env.get("ADMIN_TOKEN")
+    if not url or not token:
+        return []
+    import requests
+    try:
+        r = requests.get(url.rstrip("/") + "/api/admin/subscribers", headers={"Authorization": f"Bearer {token}"}, timeout=20)
+        r.raise_for_status()
+        return [s["email"].lower() for s in r.json()["subscribers"] if s.get("status") != "unsubscribed"]
+    except Exception:
+        return []
+
+
 def recipients(env: dict, cfg: dict) -> list[str]:
     from app.store import db
     out = [e.strip().lower() for e in env.get("EMAIL_TO", "").split(",") if e.strip()]
     if cfg["send_to_subscribers"]:
         with db() as con:
             out += [r[0] for r in con.execute("SELECT email FROM subscribers WHERE status != 'unsubscribed' ORDER BY id")]
+        out += remote_subscribers(env or load_env())
     seen, uniq = set(), []
     for e in out:
         if e not in seen:

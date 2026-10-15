@@ -167,6 +167,22 @@
     }).join("");
   }
 
+  function topBuilders(list) {
+    const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+    const row = (r) => `<li><span class="bl">${esc(r.label)}<small>${esc(r.period)} · ${esc(r.scope)}</small></span>
+      <b>${esc(r.value)}</b><a href="${esc(r.url)}" target="_blank" rel="noopener" class="bs">${esc(r.source)}</a></li>`;
+    $("#builder-cards").innerHTML = list.map((b) => `
+      <article class="builder tb reveal"><div class="bhead"><div class="mono">${esc(initials(b.name))}</div><div><h3>${esc(b.name)}</h3>
+        ${b.headline ? `<span class="bml">${esc(b.headline)}</span>` : ""}</div></div>
+        <h4 class="bsec">Projects</h4>
+        <ul class="brows">${b.projects.length ? b.projects.map(row).join("") : `<li class="nd">Project count not disclosed in the latest published sources</li>`}</ul>
+        <h4 class="bsec">Sales value</h4>
+        <ul class="brows">${b.sales.map(row).join("") || `<li class="nd">Not disclosed</li>`}</ul>
+        ${b.other.length ? `<h4 class="bsec">Also reported</h4><ul class="brows">${b.other.map(row).join("")}</ul>` : ""}
+        ${b.bengaluru_projects.length ? `<div class="tags">${b.bengaluru_projects.map((p) => `<span>${esc(p)}</span>`).join("")}</div>` : ""}
+      </article>`).join("");
+  }
+
   /* ---------- plans, towns, zones ---------- */
   function plans(rows) {
     $("#plans-list").innerHTML = rows.map((r) => `
@@ -386,7 +402,7 @@
     const safe = (fn) => { try { fn(); } catch (err) { if (window.console) console.error(err); } };
     safe(() => quotes(s.quotes || [])); safe(() => heroStats(s.metrics.kpis)); safe(() => kpis(s.metrics.kpis));
     safe(() => news(s.news)); safe(() => clusters(s.clusters || [])); safe(() => growthCharts(s.metrics.series));
-    safe(() => areaChart(s.metrics.area_prices)); safe(() => builders(s.metrics.builders, s.metrics.tracked_developers));
+    safe(() => areaChart(s.metrics.area_prices)); safe(() => (s.top_builders?.length ? topBuilders(s.top_builders) : builders(s.metrics.builders, s.metrics.tracked_developers)));
     safe(() => plans(s.plans)); safe(() => towns(s.growth_towns, s.zones)); safe(() => magazine(s)); safe(() => status(s));
     // never show an empty band: hide any section whose content container rendered nothing
     [["#builder-cards", "#builders"], ["#plans-list", "#plans"], ["#towns-list", "#towns"], ["#charts", null], ["#kpis", null],

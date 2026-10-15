@@ -175,7 +175,7 @@ def install_evening() -> str:
     p = PLIST_DIR / f"{EVENING_LABEL}.plist"
     subprocess.run(["launchctl", "bootout", f"gui/{_uid()}/{EVENING_LABEL}"], capture_output=True)
     plist = dict(build_plist(), Label=EVENING_LABEL, StartCalendarInterval={"Hour": slot.hour, "Minute": slot.minute},
-                 ProgramArguments=[sys.executable, "-m", "harness.cli", "batch", "--steps", "refresh,site"],
+                 ProgramArguments=[sys.executable, "-m", "harness.cli", "batch", "--steps", "refresh,site,publish"],
                  StandardOutPath=str(LOGS / "evening.out.log"), StandardErrorPath=str(LOGS / "evening.err.log"))
     with open(p, "wb") as fh:
         plistlib.dump(plist, fh)

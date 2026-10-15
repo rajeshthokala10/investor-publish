@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+data/app/app.db
+data/app/outbox/
+data/app/downloads/
+data/raw/
+data/runs/
+data/history/
+data/processed/
+logs/
+tests/
+.pytest_cache/
+**/__pycache__/
+reports/**/*.html

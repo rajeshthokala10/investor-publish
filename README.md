@@ -11,6 +11,8 @@ make help          # all commands
 Email: `make email-preview` (dry run) · `make email` (sends "Bangalore RealEstate Delta" from info@raditsoftware.com;
 needs SMTP settings in `.env`, see [Operations](docs/OPERATIONS.md#bangalore-realestate-delta-email))
 
+Live site: https://web-production-b8fbb.up.railway.app · deploys from `main` after CI. See [Deployment](docs/DEPLOYMENT.md).
+
 Docs: [Architecture](docs/ARCHITECTURE.md) · [Operations](docs/OPERATIONS.md) · [API](docs/API.md) · [Roadmap](docs/ROADMAP.md)
 
 ## Web application

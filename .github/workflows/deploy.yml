@@ -1,0 +1,70 @@
+name: CI and Railway deploy
+
+# Deployment model:
+#  * Railway's service "web" is connected to this repo (branch main) with "Wait for CI" enabled, so Railway
+#    builds and deploys a push to main only after this workflow's checks pass.
+#  * The "smoke" job then waits for the new deployment and checks the live site.
+#  * Optional manual deploy via the Railway CLI if a project token is stored as secret RAILWAY_TOKEN
+#    (Railway dashboard -> project -> Settings -> Tokens) and the workflow is run by hand.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      cli_deploy:
+        description: "Also deploy with the Railway CLI (needs secret RAILWAY_TOKEN)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      # Chrome is preinstalled on ubuntu-latest (PDF rendering in the offline pipeline test).
+      # The Claude CLI is not installed here: research agents are skipped and tests use fixtures.
+      - run: python -m pytest -q tests
+      - name: Docker build check
+        run: docker build -t brei-web:ci .
+
+  cli-deploy:
+    needs: test
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.cli_deploy }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install -g @railway/cli
+      - run: railway up --service "${{ vars.RAILWAY_SERVICE || 'web' }}" --ci --detach
+
+  smoke:
+    needs: test
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.SITE_URL != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Wait for Railway to deploy, then check the live site
+        run: |
+          sleep 240
+          for i in $(seq 1 60); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "${{ vars.SITE_URL }}/healthz" || true)
+            if [ "$code" = "200" ]; then
+              curl -sf "${{ vars.SITE_URL }}/" | grep -q 'id="site-data"' && echo "live site healthy" && exit 0
+            fi
+            sleep 15
+          done
+          echo "live site not healthy" && exit 1

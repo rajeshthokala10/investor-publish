@@ -1,0 +1,240 @@
+{
+  "cost_usd": 0.3992305,
+  "finished": "2026-10-15T09:37:24+05:30",
+  "is_error": false,
+  "prompt_key": null,
+  "prompt_sha": "48461df6eb",
+  "started": "2026-10-15T09:33:12+05:30",
+  "structured_output": {
+    "builders": [
+      {
+        "bengaluru_projects": [
+          "Sobha OneWorld (East Bengaluru)",
+          "Sacred Grove by the Lake (Chikka Tirupathi)"
+        ],
+        "figures": [
+          {
+            "excerpt": "152.69 mn sft completed, 589 developments",
+            "label": "Developments completed (Q4 FY26 deck)",
+            "metric": "total_projects",
+            "period": "as of 31 Mar 2026 (Q4 FY26)",
+            "published_at": "2026-05",
+            "publisher": "Sobha Limited (investor presentation)",
+            "scope": "company_wide",
+            "unit": "developments",
+            "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+            "value": 589
+          },
+          {
+            "excerpt": "41.93 mn sft, 53 projects under development",
+            "label": "Projects under development",
+            "metric": "ongoing_projects",
+            "period": "as of 31 Mar 2026 (Q4 FY26)",
+            "published_at": "2026-05",
+            "publisher": "Sobha Limited (investor presentation)",
+            "scope": "company_wide",
+            "unit": "projects",
+            "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+            "value": 53
+          },
+          {
+            "excerpt": "highest-ever quarterly sales bookings of ₹3,656 crore in Q1 FY27",
+            "label": "Sales value Q1 FY27",
+            "metric": "sales_value",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-07-03",
+            "publisher": "askfuzz.ai",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+            "value": 3656
+          },
+          {
+            "excerpt": "Bangalore recorded its strongest-ever quarterly sales, registering sales value of Rs 2,067 crore, accounting for 56.5% of the company's total sales.",
+            "label": "Bengaluru sales value Q1 FY27",
+            "metric": "sales_value",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-07-03",
+            "publisher": "askfuzz.ai",
+            "scope": "bengaluru",
+            "unit": "INR crore",
+            "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+            "value": 2067
+          },
+          {
+            "excerpt": "23.35 lakh square feet during the quarter",
+            "label": "Sales area Q1 FY27",
+            "metric": "sales_area",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-07-03",
+            "publisher": "askfuzz.ai",
+            "scope": "company_wide",
+            "unit": "lakh sq ft",
+            "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+            "value": 23.35
+          },
+          {
+            "excerpt": "Three projects were launched in Bengaluru and Gurgaon, totaling 6.89 million sq ft of saleable area.",
+            "label": "Q1 FY27 launches (saleable area)",
+            "metric": "launches",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-07-03",
+            "publisher": "askfuzz.ai",
+            "scope": "company_wide",
+            "unit": "mn sq ft",
+            "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+            "value": 6.89
+          }
+        ],
+        "headline": "Sobha is Bengaluru-headquartered and Bengaluru was its largest market in Q1 FY27, contributing Rs 2,067 crore (56.5%) of sales, driven by the Sobha OneWorld and Sacred Grove by the Lake launches.",
+        "name": "Sobha Limited"
+      },
+      {
+        "bengaluru_projects": [
+          "Godrej Vanantara (Bannerghatta Road)",
+          "Godrej Hoskote (14-acre, East Bengaluru)",
+          "Godrej Indiranagar (7-acre)",
+          "Godrej Yeshwanthpur (4-acre)",
+          "Godrej Royale Woods",
+          "Godrej Park Retreat"
+        ],
+        "figures": [
+          {
+            "excerpt": "reporting a 22% year-over-year increase in booking value to ₹8,651 crores",
+            "label": "Booking value Q1 FY27",
+            "metric": "sales_value",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-08-04",
+            "publisher": "Investywise",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.investywise.com/godrej-properties-q1-fy27-financial-results-presentation/",
+            "value": 8651
+          },
+          {
+            "excerpt": "Bengaluru led with a booking value of ₹3,798 crores and sold area of 3.3 million sq. ft. (1,886 units).",
+            "label": "Bengaluru booking value Q1 FY27",
+            "metric": "sales_value",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-08-04",
+            "publisher": "Investywise",
+            "scope": "bengaluru",
+            "unit": "INR crore",
+            "url": "https://www.investywise.com/godrej-properties-q1-fy27-financial-results-presentation/",
+            "value": 3798
+          },
+          {
+            "excerpt": "Collections also saw a robust 18% YoY rise to ₹4,348 crores.",
+            "label": "Collections Q1 FY27",
+            "metric": "collections",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-08-04",
+            "publisher": "Investywise",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.investywise.com/godrej-properties-q1-fy27-financial-results-presentation/",
+            "value": 4348
+          },
+          {
+            "excerpt": "FY2026 booking value grew 16% YoY to INR 34,171 crore. This was achieved through the sale of 17,515 units",
+            "label": "Booking value FY26",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "Free Press Journal",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "value": 34171
+          },
+          {
+            "excerpt": "Mumbai Metropolitan Region contributing Rs 10,313 crore, followed by Bengaluru at Rs 8,802 crore and NCR at Rs 7,410 crore",
+            "label": "Bengaluru booking value FY26",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "Free Press Journal",
+            "scope": "bengaluru",
+            "unit": "INR crore",
+            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "value": 8802
+          }
+        ],
+        "headline": "Bengaluru was Godrej Properties' largest market in Q1 FY27 with Rs 3,798 crore of bookings (44% of the total), led by the Godrej Vanantara launch on Bannerghatta Road.",
+        "name": "Godrej Properties"
+      },
+      {
+        "bengaluru_projects": [
+          "Whitefield mixed-use project (~2 mn sft, with Bain Capital)",
+          "Kanakapura Road premium 2-acre parcel"
+        ],
+        "figures": [
+          {
+            "excerpt": "completed 280+ buildings amounting to over 83 million sq. ft. of developed space",
+            "label": "Buildings completed (dated, Jan 2024)",
+            "metric": "total_projects",
+            "period": "as of Jan 2024",
+            "published_at": "2024-01-08",
+            "publisher": "Brigade Enterprises (NSE press release)",
+            "scope": "company_wide",
+            "unit": "buildings (280+)",
+            "url": "https://nsearchives.nseindia.com/corporate/BRIGADE_08012024182959_PressReleaseSignedMoUworth3400Cr.pdf",
+            "value": 280
+          },
+          {
+            "excerpt": "ongoing projects totaling 32.54 mn sft",
+            "label": "Ongoing projects area Q1 FY27",
+            "metric": "ongoing_projects",
+            "period": "as of 30 Jun 2026 (Q1 FY27)",
+            "published_at": "2026-08-13",
+            "publisher": "Investywise",
+            "scope": "company_wide",
+            "unit": "mn sft",
+            "url": "https://www.investywise.com/?p=107106",
+            "value": 32.54
+          },
+          {
+            "excerpt": "upcoming launches planned at 16.39 mn sft",
+            "label": "Upcoming launches Q1 FY27",
+            "metric": "launches",
+            "period": "as of 30 Jun 2026 (Q1 FY27)",
+            "published_at": "2026-08-13",
+            "publisher": "Investywise",
+            "scope": "company_wide",
+            "unit": "mn sft",
+            "url": "https://www.investywise.com/?p=107106",
+            "value": 16.39
+          },
+          {
+            "excerpt": "achieved presales of INR 1,061 Cr with a volume of 0.74 mn sft",
+            "label": "Pre-sales Q1 FY27",
+            "metric": "sales_value",
+            "period": "Q1 FY27 (Apr-Jun 2026)",
+            "published_at": "2026-08-13",
+            "publisher": "Investywise",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.investywise.com/?p=107106",
+            "value": 1061
+          },
+          {
+            "excerpt": "Brigade Enterprises Ltd's pre-sales dipped 5 per cent last fiscal to Rs 7,424 crore, primarily due to delays in securing approvals to launch some of its residential projects.",
+            "label": "Pre-sales FY26",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-05",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-fy26-pre-sales-dip-5-to-7424-crore-on-delays-in-fresh-supply",
+            "value": 7424
+          }
+        ],
+        "headline": "Bengaluru is Brigade's core market, contributing 58% of pre-sales in Q1 FY27, with new Bengaluru pipeline including a ~2 mn sft Whitefield mixed-use project with Bain Capital and a Kanakapura Road parcel.",
+        "name": "Brigade Enterprises"
+      }
+    ]
+  },
+  "subtype": "success",
+  "task": "builders_research_focus"
+}

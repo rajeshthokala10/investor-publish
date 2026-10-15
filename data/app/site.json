@@ -238,7 +238,7 @@
       "title": "Bengaluru Property Review — October 2026"
     }
   },
-  "generated_at": "2026-10-15T09:18:22+05:30",
+  "generated_at": "2026-10-15T09:40:23+05:30",
   "growth_towns": [
     {
       "claim_ids": [
@@ -1558,6 +1558,215 @@
     {
       "author": "Bengaluru Property Review",
       "text": "Location is a promise; infrastructure is how the city keeps it."
+    }
+  ],
+  "top_builders": [
+    {
+      "bengaluru_projects": [
+        "Sobha One World (Hoskote)",
+        "Sobha Magnus",
+        "Sobha Royal Pavilion",
+        "Sobha Windsor"
+      ],
+      "headline": "Bengaluru is Sobha's largest market, contributing ₹2,067 crore (56.5%) of its record Q1 FY27 sales and ₹4,478 crore of FY26 sales value.",
+      "name": "Sobha Limited",
+      "other": [
+        {
+          "label": "Sales area Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Bajaj Broking",
+          "url": "https://www.bajajbroking.in/share-market-news/sobha-jumps-7percent-after-record-q1-sales-profit-triples",
+          "value": "2.34 mn sq ft"
+        },
+        {
+          "label": "Sales area FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": "5.54 mn sq ft"
+        }
+      ],
+      "projects": [
+        {
+          "label": "Completed developments",
+          "period": "as of Q4 FY26 (31 Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Sobha Limited (investor presentation)",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": "589 developments"
+        },
+        {
+          "label": "Projects under development",
+          "period": "as of Q4 FY26 (31 Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Sobha Limited (investor presentation)",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": "53 projects"
+        },
+        {
+          "label": "Developments completed",
+          "period": "as of 31 Mar 2026 (Q4 FY26)",
+          "scope": "Company-wide",
+          "source": "Sobha Limited (investor presentation)",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": "589 developments"
+        }
+      ],
+      "sales": [
+        {
+          "label": "Sales bookings FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": "₹8,135.9 crore"
+        },
+        {
+          "label": "Bengaluru sales value FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Bengaluru",
+          "source": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": "₹4,478 crore"
+        },
+        {
+          "label": "Sales bookings Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Bajaj Broking",
+          "url": "https://www.bajajbroking.in/share-market-news/sobha-jumps-7percent-after-record-q1-sales-profit-triples",
+          "value": "₹3,656 crore"
+        },
+        {
+          "label": "Sales bookings Q4 FY26",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": "₹2,039.3 crore"
+        }
+      ]
+    },
+    {
+      "bengaluru_projects": [
+        "Godrej Vanantara",
+        "Godrej Woodscapes",
+        "Godrej Splendour",
+        "Godrej Woodland",
+        "Godrej Royale Woods"
+      ],
+      "headline": "",
+      "name": "Godrej Properties",
+      "other": [
+        {
+          "label": "Area sold Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Realty n More",
+          "url": "https://realtynmore.com/godrej-properties-posts-record-q1-fy27-booking/",
+          "value": "6.2 million sq ft"
+        },
+        {
+          "label": "Collections Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Realty n More",
+          "url": "https://realtynmore.com/godrej-properties-posts-record-q1-fy27-booking/",
+          "value": "₹4,348 crore"
+        }
+      ],
+      "projects": [],
+      "sales": [
+        {
+          "label": "Booking value FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+          "value": "₹34,171 crore"
+        },
+        {
+          "label": "Bengaluru booking value FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Bengaluru",
+          "source": "Free Press Journal",
+          "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+          "value": "₹8,802 crore"
+        },
+        {
+          "label": "Booking value Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Realty n More",
+          "url": "https://realtynmore.com/godrej-properties-posts-record-q1-fy27-booking/",
+          "value": "₹8,651 crore"
+        },
+        {
+          "label": "Bengaluru booking value Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Bengaluru",
+          "source": "Investywise",
+          "url": "https://www.investywise.com/godrej-properties-q1-fy27-financial-results-presentation/",
+          "value": "₹3,798 crore"
+        }
+      ]
+    },
+    {
+      "bengaluru_projects": [
+        "Brigade Cornerstone Utopia Phase 2",
+        "Brigade Morgan Heights",
+        "Brigade Meadows Township"
+      ],
+      "headline": "",
+      "name": "Brigade Enterprises",
+      "other": [
+        {
+          "label": "Sales area FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Sahi",
+          "url": "https://www.sahi.com/news/brigade-enterprises-targets-21-growth-in-fy27-pre-sales-to-9-000-crore",
+          "value": "6.13 mn sq ft"
+        }
+      ],
+      "projects": [
+        {
+          "label": "Buildings completed",
+          "period": "as of Jan 2024",
+          "scope": "Company-wide",
+          "source": "Brigade Enterprises (NSE press release)",
+          "url": "https://nsearchives.nseindia.com/corporate/BRIGADE_08012024182959_PressReleaseSignedMoUworth3400Cr.pdf",
+          "value": "280 buildings (280+)"
+        },
+        {
+          "label": "Ongoing projects area Q1 FY27",
+          "period": "as of 30 Jun 2026 (Q1 FY27)",
+          "scope": "Company-wide",
+          "source": "Investywise",
+          "url": "https://www.investywise.com/?p=107106",
+          "value": "32.54 mn sq ft"
+        }
+      ],
+      "sales": [
+        {
+          "label": "Pre-sales FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Outlook Business",
+          "url": "https://www.outlookbusiness.com/amp/story/corporate/brigade-enterprises-fy26-pre-sales-dip-5-to-7424-crore-on-delays-in-fresh-supply",
+          "value": "₹7,424 crore"
+        },
+        {
+          "label": "Pre-sales Q1 FY27",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "scope": "Company-wide",
+          "source": "Multibagg",
+          "url": "https://www.multibagg.ai/market-pulse/articles/brigade-enterprises-q1fy27-profit-margins-cmt1yt7li4g8i0zpbzfsb9rdl",
+          "value": "₹1,061 crore"
+        }
+      ]
     }
   ],
   "zones": [

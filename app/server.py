@@ -37,10 +37,22 @@ SECURITY_HEADERS = {
 }
 
 
+def _is_local(request: Request) -> bool:
+    return request.client is not None and request.client.host in ("127.0.0.1", "::1", "testclient")
+
+
+def _has_admin_token(request: Request) -> bool:
+    import hmac as _hmac
+    import os
+    token = os.environ.get("ADMIN_TOKEN", "")
+    given = request.headers.get("authorization", "").removeprefix("Bearer ").strip()
+    return bool(token) and _hmac.compare_digest(given, token)
+
+
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
-    if request.url.path.startswith("/api/") and (request.client is None or
-                                                 request.client.host not in ("127.0.0.1", "::1", "testclient")):
+    # /api/* is private: this machine, or the admin token (used by the publishing batch to read subscribers)
+    if request.url.path.startswith("/api/") and not (_is_local(request) or _has_admin_token(request)):
         return JSONResponse({"detail": "Not found"}, status_code=404)
     response = await call_next(request)
     for k, v in SECURITY_HEADERS.items():
@@ -62,8 +74,8 @@ class Subscription(BaseModel):
 
 
 def local_only(request: Request):
-    if request.client is None or request.client.host not in ("127.0.0.1", "::1", "testclient"):
-        raise HTTPException(403, "Admin endpoints are available from this machine only.")
+    if not (_is_local(request) or _has_admin_token(request)):
+        raise HTTPException(403, "Admin endpoints require this machine or the admin token.")
 
 
 @app.get("/api/site")
@@ -113,7 +125,14 @@ def download(name: str):
     if name not in ALLOWED_DOWNLOADS:
         raise HTTPException(404, "Not found")
     path = DOWNLOADS / name
-    if not path.exists():
+    if not path.exists():      # deployed image: serve straight from the committed reports
+        from harness.common import REPORTS
+        latest = lambda pattern, folder: (sorted((REPORTS / folder).glob(pattern)) or [None])[-1]  # noqa: E731
+        path = {"magazine-latest.pdf": latest("bengaluru-property-review-*.pdf", "magazine"),
+                "bangalore-realestate-delta-latest.pdf": latest("????-??-??.pdf", "daily"),
+                "daily-brief-latest.pdf": latest("????-??-??.pdf", "daily"),
+                "magazine-cover.png": APP_DATA / "magazine-cover.png"}.get(name)
+    if path is None or not path.exists():
         raise HTTPException(404, "Not published yet")
     media = "application/pdf" if name.endswith(".pdf") else "image/png"
     disposition = "attachment" if name.endswith(".pdf") else "inline"
@@ -124,6 +143,14 @@ def download(name: str):
 def admin_subscribers(request: Request):
     local_only(request)
     return {"subscribers": store.list_subscribers()}
+
+
+@app.delete("/api/admin/subscribers/{email}")
+def admin_delete_subscriber(email: str, request: Request):
+    local_only(request)
+    with store.db() as con:
+        n = con.execute("DELETE FROM subscribers WHERE email=?", (email.strip().lower(),)).rowcount
+    return {"deleted": n}
 
 
 @app.post("/api/admin/refresh")

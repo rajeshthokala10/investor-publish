@@ -91,6 +91,41 @@ def news(daily: dict) -> dict:
     return {"insights": insights, "headlines": stories[:40], "evening_refresh": ev.get("generated_at") if ev else None}
 
 
+def _fmt_value(f: dict) -> str:
+    v, u = f["value"], f["unit"].lower()
+    num = f"{v:,.0f}" if float(v).is_integer() else f"{v:,.2f}".rstrip("0").rstrip(".")
+    if "crore" in u:
+        return f"₹{num} crore"
+    if "bn" in u or "billion" in u:
+        return f"₹{num} bn"
+    return f"{num} {f['unit']}".replace("mn sft", "mn sq ft")
+
+
+def top_builders() -> list[dict]:
+    """Sobha, Godrej Properties, Brigade: project counts + sales value, each with period, scope and source."""
+    data = read_json(APP_DATA / "builders.json", {})
+    out = []
+    for b in data.get("builders", []):
+        seen, projects, sales, other = set(), [], [], []
+        for f in b["figures"]:
+            key = (f["metric"], f["value"])
+            if key in seen:
+                continue
+            seen.add(key)
+            row = {"label": f["label"].split(" (")[0], "value": _fmt_value(f), "period": f["period"],
+                   "scope": "Bengaluru" if f["scope"] == "bengaluru" else "Company-wide", "source": f["publisher"], "url": f["url"]}
+            if f["metric"] in ("total_projects", "completed_projects", "ongoing_projects", "bengaluru_projects"):
+                projects.append(row)
+            elif f["metric"] == "sales_value":
+                sales.append(row)
+            elif f["metric"] in ("sales_area", "collections"):
+                other.append(row)
+        sales.sort(key=lambda r: ("Q" in r["period"].split()[0], r["scope"] != "Company-wide"))
+        out.append({"name": b["name"], "headline": b.get("headline", ""), "projects": projects[:3], "sales": sales[:4],
+                    "other": other[:2], "bengaluru_projects": b.get("bengaluru_projects", [])[:5]})
+    return out
+
+
 def build_site(log=None) -> dict:
     daily_json = latest("????-??-??.json", REPORTS / "daily")
     daily = read_json(daily_json, {}) if daily_json else {}
@@ -108,6 +143,7 @@ def build_site(log=None) -> dict:
                                  "pages": 10, "size_mb": round(mag_pdf.stat().st_size / 1e6, 1)}
         if mag_html and cover_thumbnail(mag_html, DOWNLOADS / "magazine-cover.png"):
             downloads["magazine"]["cover"] = "magazine-cover.png"
+            shutil.copy2(DOWNLOADS / "magazine-cover.png", APP_DATA / "magazine-cover.png")   # committed for deploys
     daily_pdf = daily_json.with_suffix(".pdf") if daily_json else None
     if daily_pdf and daily_pdf.exists():
         shutil.copy2(daily_pdf, DOWNLOADS / "bangalore-realestate-delta-latest.pdf")
@@ -123,6 +159,7 @@ def build_site(log=None) -> dict:
                      "cover": issue.get("cover"), "editor_note": issue.get("editor_note", [])},
         "news": news(daily),
         "metrics": {k: metrics.get(k, []) for k in ("kpis", "series", "area_prices", "builders", "tracked_developers")},
+        "top_builders": top_builders(),
         "plans": issue.get("gov_rows", []),
         "growth_towns": issue.get("growth_towns", []),
         "zones": [{"zone": z["zone"], "title": z["title"], "standfirst": z["standfirst"],

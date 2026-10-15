@@ -6,6 +6,8 @@
   metrics   dashboard KPIs, growth series, area prices, top builders (validated)
   site      data/app/site.json + downloads for the web app
   clusters  planned cities & growth clusters (weekly re-research) + one-page articles
+  builders  Sobha / Godrej / Brigade project counts and sales value (weekly)
+  publish   commit refreshed website content and push -> GitHub Actions deploys to Railway
   refresh   evening news refresh (RSS + metro/government research, last 12 h) -> website news
   email     "Bangalore RealEstate Delta" email to EMAIL_TO + subscribers (dry run without SMTP settings)
 
@@ -28,7 +30,7 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
     from harness.metrics_build import build_metrics
     from harness.weekly import build_weekly
 
-    steps = steps or ["daily", "magazine", "weekly", "clusters", "metrics", "site", "email"]
+    steps = steps or ["daily", "magazine", "weekly", "clusters", "builders", "metrics", "site", "publish", "email"]
     lock = RunLock(LOGS / ".batch.lock")
     if not lock.acquire():
         print("Another batch is running")
@@ -66,6 +68,17 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
                     from harness.clusters import build_clusters
                     c = build_clusters(log)            # re-researched when older than config/clusters.yaml refresh_days
                     results[step] = f"ok ({len(c.get('clusters', []))} clusters)"
+                elif step == "builders":
+                    from harness.builders import OUT as BOUT, build_builders
+                    from harness.common import parse_date, read_json
+                    last = parse_date(read_json(BOUT, {}).get("generated_at"))
+                    if last and (today - last).days < 7:
+                        results[step] = "skipped (refreshed weekly)"
+                    else:
+                        results[step] = f"ok ({len(build_builders(log).get('builders', []))} builders)"
+                elif step == "publish":
+                    from harness.publish_content import publish_content
+                    results[step] = publish_content(log)
                 elif step == "refresh":
                     from harness.news_refresh import refresh
                     r = refresh(log)

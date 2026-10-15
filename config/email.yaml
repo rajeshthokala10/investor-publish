@@ -19,4 +19,4 @@ smtp:
 attachments:
   daily_pdf: true                  # 5-page daily brief
   magazine_pdf_when_new: true      # attach the magazine on the first email after a new issue
-site_url: http://127.0.0.1:8787    # used for links in the email; change when the site is public
+site_url: https://web-production-b8fbb.up.railway.app    # public site (Railway)

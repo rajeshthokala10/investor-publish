@@ -345,3 +345,14 @@ body.shielded main, body.devtools main, body.shielded footer, body.devtools foot
 .more-clusters { padding-bottom: 50px; } .more-clusters h4 { font: 800 14px var(--sans); letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
 .more-clusters div { display: flex; flex-wrap: wrap; gap: 8px; } .more-clusters a { text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-weight: 600; font-size: 14px; background: var(--card); }
 @media (max-width: 980px) { .gb-grid, .art-body { grid-template-columns: 1fr; } .gb-map, .art-body aside { position: static; } .gb-cards { grid-template-columns: 1fr; } }
+
+/* top builders (Sobha, Godrej, Brigade) */
+#builder-cards:has(.tb) { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
+.tb .bsec { margin: 4px 0 0; font: 800 11.5px var(--sans); letter-spacing: 1.2px; text-transform: uppercase; color: var(--red); }
+.brows { list-style: none; margin: 0; padding: 0; }
+.brows li { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "l v" "s s"; gap: 0 12px; padding: 8px 0; border-top: 1px solid var(--line); }
+.brows .bl { grid-area: l; font-size: 13.5px; font-weight: 600; } .brows .bl small { display: block; font-weight: 400; color: var(--muted); font-size: 11.5px; }
+.brows b { grid-area: v; font: 800 18px var(--sans); color: var(--navy); white-space: nowrap; align-self: center; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brows b { color: #9cc4f5; } }
+.brows .bs { grid-area: s; font-size: 11.5px; color: var(--muted); }
+.brows .nd { display: block; color: var(--muted); font-size: 13px; font-style: italic; }
