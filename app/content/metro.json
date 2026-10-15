@@ -1,0 +1,57 @@
+{
+  "as_of": "October 2026",
+  "note": "Schematic network map, not to scale; selected stations. Line status as reported by BMRCL and covered in this month's Bengaluru Property Review. Train animation is illustrative, not live positions.",
+  "lines": [
+    {"id": "purple", "name": "Purple Line", "color": "#7b3fa0", "status": "operational", "status_label": "Operational",
+     "termini": ["Whitefield (Kadugodi)", "Challaghatta"],
+     "stations": [
+       ["Challaghatta", 52, 478], ["Kengeri", 82, 458], ["Rajarajeshwari Nagar", 128, 430], ["Mysuru Road", 178, 398],
+       ["Vijayanagar", 222, 368], ["Hosahalli", 246, 352], ["Magadi Road", 272, 340], ["Majestic", 300, 330],
+       ["Vidhana Soudha", 330, 326], ["Cubbon Park", 352, 330], ["MG Road", 376, 336], ["Halasuru", 398, 330],
+       ["Indiranagar", 422, 322], ["Baiyappanahalli", 450, 308], ["KR Pura", 490, 290], ["Hoodi", 528, 284],
+       ["Kundalahalli", 556, 296], ["Whitefield (Kadugodi)", 590, 292]]},
+    {"id": "green", "name": "Green Line", "color": "#1f9d55", "status": "operational", "status_label": "Operational",
+     "termini": ["Madavara", "Silk Institute"],
+     "stations": [
+       ["Madavara", 104, 146], ["Nagasandra", 134, 172], ["Jalahalli", 158, 192], ["Peenya", 182, 212],
+       ["Yeshwanthpur", 218, 240], ["Rajajinagar", 250, 268], ["Sampige Road", 280, 298], ["Majestic", 300, 330],
+       ["KR Market", 306, 366], ["Lalbagh", 314, 396], ["Jayanagar", 322, 424], ["RV Road", 330, 446],
+       ["Banashankari", 320, 470], ["JP Nagar", 306, 494], ["Konanakunte Cross", 288, 526],
+       ["Thalaghattapura", 268, 562], ["Silk Institute", 252, 592]]},
+    {"id": "yellow", "name": "Yellow Line", "color": "#e8b100", "status": "operational", "status_label": "Operational",
+     "termini": ["RV Road", "Bommasandra"],
+     "stations": [
+       ["RV Road", 330, 446], ["Jayadeva Hospital", 362, 456], ["BTM Layout", 386, 461], ["Central Silk Board", 412, 466],
+       ["Bommanahalli", 430, 490], ["Kudlu Gate", 450, 516], ["Hosa Road", 464, 536], ["Electronic City", 482, 560],
+       ["Hebbagodi", 500, 588], ["Bommasandra", 516, 614]]},
+    {"id": "pink", "name": "Pink Line", "color": "#e75480", "status": "under_construction", "status_label": "Under construction",
+     "termini": ["Kalena Agrahara", "Nagawara"],
+     "stations": [
+       ["Kalena Agrahara", 360, 560], ["Hulimavu", 362, 532], ["IIMB", 362, 510], ["JP Nagar 4th Phase", 362, 488],
+       ["Jayadeva Hospital", 362, 456], ["Tavarekere", 358, 428], ["Dairy Circle", 352, 404], ["Lakkasandra", 362, 378],
+       ["MG Road", 376, 336], ["Shivajinagar", 380, 306], ["Cantonment", 390, 284], ["Tannery Road", 410, 262],
+       ["Nagawara", 430, 236]]},
+    {"id": "blue", "name": "Blue Line", "color": "#1f6fd1", "status": "under_construction", "status_label": "Under construction",
+     "termini": ["Central Silk Board", "KIA Airport"],
+     "stations": [
+       ["Central Silk Board", 412, 466], ["HSR Layout", 440, 452], ["Agara Lake", 462, 432], ["Bellandur", 490, 410],
+       ["Marathahalli", 520, 376], ["ISRO", 522, 344], ["DRDO Sports Complex", 510, 314], ["KR Pura", 490, 290],
+       ["Horamavu", 470, 266], ["Kalyan Nagar", 450, 248], ["Nagawara", 430, 236], ["Kempapura", 400, 216],
+       ["Hebbal", 360, 206], ["Jakkur Cross", 364, 166], ["Yelahanka", 360, 130], ["Bettahalasuru", 380, 96],
+       ["KIA Airport", 402, 58]]},
+    {"id": "orange", "name": "Orange Line (Phase 3)", "color": "#f07c1a", "status": "approved", "status_label": "Approved · tenders",
+     "termini": ["JP Nagar 4th Phase", "Kempapura"],
+     "stations": [
+       ["JP Nagar 4th Phase", 362, 488], ["Kamakya", 250, 484], ["Mysuru Road", 178, 398], ["Nagarbhavi", 176, 344],
+       ["Sumanahalli", 182, 298], ["Peenya", 182, 212], ["BEL Circle", 262, 192], ["Hebbal", 360, 206],
+       ["Kempapura", 400, 216]]},
+    {"id": "orange2", "name": "Orange Line (Magadi Road)", "color": "#f07c1a", "status": "approved", "status_label": "Approved · tenders",
+     "termini": ["Hosahalli", "Kadabagere"],
+     "stations": [["Hosahalli", 246, 352], ["Sunkadakatte", 170, 340], ["Kadabagere", 96, 330]]},
+    {"id": "red", "name": "Red Line (Sarjapur–Hebbal)", "color": "#c62828", "status": "proposed", "status_label": "Proposed · DPR",
+     "termini": ["Sarjapur", "Hebbal"],
+     "stations": [
+       ["Sarjapur", 576, 528], ["Dommasandra", 540, 494], ["Agara Lake", 462, 432], ["Koramangala", 404, 414],
+       ["Dairy Circle", 352, 404], ["Mekhri Circle", 330, 250], ["Hebbal", 360, 206]]}
+  ]
+}

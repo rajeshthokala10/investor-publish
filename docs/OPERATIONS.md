@@ -15,7 +15,26 @@
 | Label | What | Install / remove |
 |---|---|---|
 | `com.bengaluru-rei.daily` | 06:00 IST: daily pipeline (with retries), then magazine (if month missing), weekly, metrics, site | `make schedule` / `python -m harness.cli schedule uninstall` |
+| `com.bengaluru-rei.evening` | 18:00 IST: evening news refresh (RSS + metro/government research, last 12 h) → website news + `reports/daily/<date>-evening.md`; no PDF, no email | installed with `make schedule` |
 | `com.bengaluru-rei.web` | Website on 127.0.0.1:8787, auto-restart, starts at login | `make web-install` / `make web-stop` |
+
+## Daily Edition (06:00 IST)
+The daily PDF is a 5-page broadsheet newspaper (`harness/daily_paper.py`, prompt `prompts/daily_writer.md`):
+- **Page 1:** front page with the lead and second stories, Metro Watch and In Brief.
+- **Page 2:** Metro & Transport, with the network map and the line status board.
+- **Page 3:** City Development, with the projects-in-the-pipeline box.
+- **Page 4:** Government & Policy, with What to Watch.
+- **Page 5:** Around Bengaluru by zone, with the growth-towns box.
+
+No market statistics appear in this edition. If the writer is unavailable, the condensed analyst layout is used instead.
+
+## Website content protection
+- Page data is embedded server-side. `/api/*` answers only on this machine, and no API docs are served.
+- Deterrents in `app/static/guard.js`:
+  - no right-click, devtools/view-source/save/print shortcuts, text copy or image drag;
+  - the page blurs when the window loses focus (screen-capture tools) or when devtools look open;
+  - printing is disabled and a light watermark is shown.
+- Browsers cannot technically prevent OS screenshots or phone cameras; these measures deter casual copying.
 
 ## Logs
 `logs/run-<date>.jsonl` (all steps), `logs/source_failures.jsonl`, `logs/launchd.{out,err}.log` (batch),

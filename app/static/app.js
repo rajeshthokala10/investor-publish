@@ -197,11 +197,102 @@
 
   function status(s) {
     const t = s.generated_at ? new Date(s.generated_at) : null;
-    $("#updated").textContent = t ? `Updated ${t.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" })} IST · next refresh 6:00 IST` : "";
-    fetch("/api/status").then((r) => r.json()).then((st) => {
-      const j = st.jobs?.[0];
-      $("#status-line").textContent = `${st.subscribers} subscriber${st.subscribers === 1 ? "" : "s"} · last batch ${j ? `${j.status} (${relTime(j.finished_at || j.started_at)})` : "—"}`;
-    }).catch(() => {});
+    const ev = s.news?.evening_refresh ? new Date(s.news.evening_refresh) : null;
+    const last = ev && t && ev > t ? ev : t;
+    $("#updated").textContent = last ? `Updated ${last.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" })} IST · refreshed daily at 6:00 and 18:00 IST` : "";
+  }
+
+  function heroStats(list) {
+    const pick = (list || []).slice(0, 3);
+    $("#hero-stats").innerHTML = pick.map((k) => `<div><b>${esc(k.display)}</b><span>${esc(k.label)}</span></div>`).join("");
+  }
+
+  /* ---------- metro network with moving trains ---------- */
+  function metro(m) {
+    const svg = $("#metro-svg"), NS = "http://www.w3.org/2000/svg";
+    const tip = $("#metro-tip");
+    $("#metro-asof").textContent = m.as_of || "";
+    $("#metro-note").textContent = m.note || "";
+    const mk = (tag, attrs, parent = svg) => { const n = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); parent.appendChild(n); return n; };
+    const DASH = { operational: "", under_construction: "9 6", approved: "3 6", proposed: "2 7" };
+    const gLines = mk("g", {}), gStations = mk("g", {}), gTrains = mk("g", {});
+    const stations = new Map();
+    m.lines.forEach((ln) => ln.stations.forEach(([n, x, y]) => {
+      const s = stations.get(n) || { x, y, lines: [] }; s.lines.push(ln); stations.set(n, s);
+    }));
+    const paths = m.lines.map((ln) => {
+      const d = ln.stations.map(([, x, y], i) => `${i ? "L" : "M"}${x} ${y}`).join(" ");
+      const casing = mk("path", { d, fill: "none", stroke: "#fff", "stroke-width": 9, "stroke-linecap": "round", "stroke-linejoin": "round", opacity: .9 }, gLines);
+      const p = mk("path", { d, fill: "none", stroke: ln.color, "stroke-width": 5.5, "stroke-linecap": "round", "stroke-linejoin": "round",
+        "stroke-dasharray": DASH[ln.status] || "", class: "mline", "data-line": ln.id }, gLines);
+      const len = p.getTotalLength();
+      // cumulative distance of each station along the path (for "now passing")
+      const marks = []; let acc = 0;
+      ln.stations.forEach(([n, x, y], i) => { if (i) { const [, px, py] = ln.stations[i - 1]; acc += Math.hypot(x - px, y - py); } marks.push([n, acc]); });
+      const scale = len / (acc || 1);
+      return { ln, p, casing, len, marks: marks.map(([n, a]) => [n, a * scale]) };
+    });
+    const terminals = new Set(m.lines.flatMap((ln) => [ln.stations[0][0], ln.stations[ln.stations.length - 1][0]]));
+    stations.forEach((s, name) => {
+      const inter = s.lines.length > 1;
+      const c = mk("circle", { cx: s.x, cy: s.y, r: inter ? 5.5 : 3.2, fill: "#fff", stroke: "#0f1720", "stroke-width": inter ? 2.2 : 1.4, class: "mst" }, gStations);
+      c.addEventListener("mouseenter", () => { tip.innerHTML = `<b>${esc(name)}</b> · ${s.lines.map((l) => `<i style="background:${l.color}"></i>${esc(l.name)}`).join(" ")}`; tip.classList.add("on"); });
+      c.addEventListener("mouseleave", () => tip.classList.remove("on"));
+      if (inter || terminals.has(name)) {
+        const t = mk("text", { x: s.x + 8, y: s.y - 7, class: "mlabel" }, gStations); t.textContent = name;
+      }
+    });
+    // trains: one per line, shuttling terminal to terminal; hollow = not yet in passenger service
+    const trains = paths.map((P, i) => {
+      const g = mk("g", { class: "train" }, gTrains);
+      const live = P.ln.status === "operational";
+      mk("rect", { x: -9, y: -4.5, width: 18, height: 9, rx: 4.5, fill: live ? P.ln.color : "#fff", stroke: live ? "#fff" : P.ln.color,
+        "stroke-width": live ? 1.6 : 2, opacity: live ? 1 : .85 }, g);
+      mk("rect", { x: -5, y: -2.2, width: 3, height: 3, rx: .8, fill: live ? "#fff" : P.ln.color, opacity: .9 }, g);
+      mk("rect", { x: 2, y: -2.2, width: 3, height: 3, rx: .8, fill: live ? "#fff" : P.ln.color, opacity: .9 }, g);
+      const speed = live ? 38 : 22;                       // px per second (schematic)
+      return { P, g, speed, offset: (i * 0.37) % 1 };
+    });
+    // legend with "now passing" readout
+    const legend = $("#metro-legend");
+    legend.innerHTML = m.lines.filter((ln) => ln.id !== "orange2").map((ln) => `
+      <button class="ml" data-line="${esc(ln.id)}"><i style="background:${ln.color}"></i>
+        <span class="mn">${esc(ln.name)}</span><span class="ms ${esc(ln.status)}">${esc(ln.status_label)}</span>
+        <span class="mt">${esc(ln.termini.join(" ↔ "))}</span><span class="mnow" id="now-${esc(ln.id)}"></span></button>`).join("");
+    legend.addEventListener("mouseover", (e) => { const b = e.target.closest(".ml"); if (b) focusLine(b.dataset.line); });
+    legend.addEventListener("mouseleave", () => focusLine(null));
+    function focusLine(id) {
+      paths.forEach(({ ln, p, casing }) => {
+        const on = !id || ln.id === id || (id === "orange" && ln.id === "orange2");
+        p.style.opacity = on ? 1 : .15; casing.style.opacity = on ? .9 : .1;
+      });
+      trains.forEach((t) => t.g.style.opacity = !id || t.P.ln.id === id ? 1 : .15);
+    }
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let t0 = null, lastText = 0;
+    function frame(ts) {
+      if (t0 === null) t0 = ts;
+      const sec = (ts - t0) / 1000;
+      trains.forEach((t) => {
+        const L = t.P.len, cycle = 2 * L / t.speed;
+        let u = ((sec / cycle) + t.offset) % 1;                 // 0..1 round trip
+        const forward = u < 0.5, d = (forward ? u * 2 : (1 - u) * 2) * L;
+        const a = t.P.p.getPointAtLength(Math.max(0, d - 1)), b = t.P.p.getPointAtLength(Math.min(L, d + 1));
+        const ang = Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI;
+        const pt = t.P.p.getPointAtLength(d);
+        t.g.setAttribute("transform", `translate(${pt.x.toFixed(1)} ${pt.y.toFixed(1)}) rotate(${ang.toFixed(0)})`);
+        if (ts - lastText > 400) {
+          const marks = t.P.marks; let near = marks[0];
+          for (const mk2 of marks) if (Math.abs(mk2[1] - d) < Math.abs(near[1] - d)) near = mk2;
+          const to = forward ? t.P.ln.termini[1] : t.P.ln.termini[0];
+          const el = document.getElementById(`now-${t.P.ln.id}`);
+          if (el) el.textContent = near[0] === to ? `arriving at ${to}` : `at ${near[0]} → towards ${to}`;
+        }
+      });
+      if (ts - lastText > 400) lastText = ts;
+      if (!reduce) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
   }
 
   /* ---------- subscribe ---------- */
@@ -212,7 +303,7 @@
       const fd = new FormData(f);
       msg.className = "form-msg"; msg.textContent = "Subscribing…";
       try {
-        const r = await fetch("/api/subscribe", { method: "POST", headers: { "Content-Type": "application/json" },
+        const r = await fetch("/subscribe", { method: "POST", headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: fd.get("email"), name: fd.get("name") || "", interests: fd.getAll("interests") }) });
         const j = await r.json();
         msg.textContent = j.message || (j.detail ? "Please check your details." : "Done.");
@@ -236,12 +327,15 @@
   async function main() {
     skyline($("#hero-skyline"));
     menu(); subscribe();
-    let s;
-    try { s = await (await fetch("/api/site")).json(); }
-    catch { $("#updated").textContent = "Could not load data from the server."; return; }
-    if (s.detail) { $("#updated").textContent = s.detail; return; }
-    quotes(s.quotes); kpis(s.metrics.kpis); news(s.news); growthCharts(s.metrics.series); areaChart(s.metrics.area_prices);
-    builders(s.metrics.builders, s.metrics.tracked_developers); plans(s.plans); towns(s.growth_towns, s.zones); magazine(s); status(s);
+    const el = document.getElementById("site-data");
+    if (!el) return;
+    const s = JSON.parse(el.textContent);
+    $("#year").textContent = new Date().getFullYear();
+    if (s.metro?.lines) metro(s.metro);
+    if (!s.metrics) return;
+    quotes(s.quotes || []); heroStats(s.metrics.kpis); kpis(s.metrics.kpis); news(s.news); growthCharts(s.metrics.series);
+    areaChart(s.metrics.area_prices); builders(s.metrics.builders, s.metrics.tracked_developers); plans(s.plans);
+    towns(s.growth_towns, s.zones); magazine(s); status(s);
     reveal();
   }
   main();

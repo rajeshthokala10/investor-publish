@@ -16,7 +16,8 @@ from analysis.prices import normalise_price
 from analysis.trackers import merge_projects, project_id, rollback_edition, update_infra
 from harness import agent
 from harness.collect_rss import collect as collect_rss
-from harness.common import (HISTORY, PROCESSED, iso, load_config, now_ist, parse_date, read_json, sha, write_json)
+from harness.common import (HISTORY, IST, PROCESSED, PROMPTS, iso, load_config, now_ist, parse_date, read_json, sha,
+                            write_json)
 from harness.registry import classify_source, geo_check, originator_group, primary_corridor, region_of
 from harness.runtime import Budget, BudgetExceeded, Checkpoints, Http, RunLog
 from noise_removal.dedupe import (classify_against_history, dedupe_articles, staleness, story_fingerprint,
@@ -91,8 +92,13 @@ def collect(ctx: Ctx, plan: dict) -> dict:
         prompt = agent.build_research_prompt(task, ctx.window, _leads(rss["items"], task["lead_regions"],
                                                                       cfg["leads_per_task"]))
         prior = read_json(path)
+        # Reuse within an edition unless the prompt template or the task focus changed (RSS leads
+        # differ on every collection, so they are not part of the key - restarts never pay twice).
+        template = PROMPTS / "research_agent.md"
+        key = sha(template.read_text(encoding="utf-8"), task["focus"], task["cadence"])
+        newer = prior and prior.get("finished", "") >= iso(datetime.fromtimestamp(template.stat().st_mtime, IST))
         if prior and prior.get("structured_output") and not prior.get("is_error") \
-                and prior.get("prompt_sha") == sha(prompt):
+                and (prior.get("prompt_key") == key or (not prior.get("prompt_key") and newer)):
             ctx.log("agent_reuse_checkpoint", task=task["id"])        # restart: do not pay twice
             return task["id"], {"ok": True, "data": prior["structured_output"], "cost_usd": 0.0,
                                 "started": prior["started"], "finished": prior["finished"], "reused": True}
@@ -100,7 +106,7 @@ def collect(ctx: Ctx, plan: dict) -> dict:
         if not abudget.reserve(per):
             return task["id"], {"ok": False, "error": "run agent budget exhausted", "cost_usd": 0.0}
         remaining_min = max(ctx.budget.time_left() / 60 - 10, 1)
-        res = agent.run_agent(prompt, schema, name=task["id"], out_path=path, budget_usd=per,
+        res = agent.run_agent(prompt, schema, name=task["id"], out_path=path, budget_usd=per, prompt_key=key,
                               timeout_min=min(cfg["task_timeout_minutes"], remaining_min), log=ctx.log)
         abudget.settle(per, res["cost_usd"])
         return task["id"], res

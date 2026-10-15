@@ -40,6 +40,8 @@ tasks:
     cadence: daily
     lead_regions: [east, north, south, west, peripheral, unmapped]
     focus: |
+      City development news first: new roads, flyovers, underpasses, tunnel roads, ring roads,
+      water and drainage projects, lake works, layouts and townships, civic decisions.
       Government and infrastructure actions affecting Bengaluru property: BMRCL,
       K-RIDE, NHAI, BDA, BMRDA, Greater Bengaluru Authority and its corporations, BWSSB,
       KIADB, Karnataka cabinet decisions, Karnataka RERA orders, stamp duty / guidance
@@ -48,6 +50,18 @@ tasks:
       tendered, awarded, under construction, operational) ONLY from the text of the
       source, and record both publication date and the date of the underlying event.
       Prefer the agency's own website or press release over news coverage.
+
+  - id: metro_watch
+    cadence: daily
+    lead_regions: [east, north, south, west, peripheral, unmapped]
+    focus: |
+      Namma Metro and rail news for Bengaluru in the window: BMRCL announcements, line-by-line
+      progress (Purple, Green, Yellow, Pink, Blue/airport line, Phase 3, Sarjapur–Hebbal Red
+      Line), trial runs, CMRS safety inspections, opening dates, station works, tenders and
+      contracts, fares, feeder services, train frequency, rolling stock, ridership records,
+      disruptions, and K-RIDE suburban rail corridors. Include what ministers, BMRCL, the
+      state government or the Union government said, with dates. Prefer bmrc.co.in,
+      kride.in, government press releases and established newspapers.
 
   - id: social_signals
     cadence: daily

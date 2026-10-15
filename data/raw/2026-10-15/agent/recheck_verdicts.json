@@ -1,4 +1,11 @@
 {
+  "C-1af360e4e4": [
+    {
+      "claim_id": "C-1af360e4e4",
+      "reason": "Article dated 29 Sep 2026 says NCR highest at 12% 'followed by Bengaluru at 8%'.",
+      "verdict": "supported"
+    }
+  ],
   "C-1f5de2ea12": [
     {
       "claim_id": "C-1f5de2ea12",
@@ -47,6 +54,18 @@
       "verdict": "unable"
     }
   ],
+  "C-2f6c1f2523": [
+    {
+      "claim_id": "C-2f6c1f2523",
+      "reason": "TNM article of 20 Aug 2026 reports ORRCA asking a pause of the Rs 450-crore revamp until the Blue Line is complete, and traffic police data of 13.5 km queues by 9:30 am on working days.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-2f6c1f2523",
+      "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
+      "verdict": "supported"
+    }
+  ],
   "C-3783e7919a": [
     {
       "claim_id": "C-3783e7919a",
@@ -56,6 +75,25 @@
     {
       "claim_id": "C-3783e7919a",
       "reason": "Page gives about 15,285 units sold, up 1% YoY and down 7% QoQ.",
+      "verdict": "supported"
+    }
+  ],
+  "C-3ee4af89b4": [
+    {
+      "claim_id": "C-3ee4af89b4",
+      "reason": "Swarajya report of 16 Aug 2026 cites the Times of India and quotes the BMRCL official: 'The deadline for starting train operations will now be pushed to 2027'.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-3ee4af89b4",
+      "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
+      "verdict": "supported"
+    }
+  ],
+  "C-44b6990bcb": [
+    {
+      "claim_id": "C-44b6990bcb",
+      "reason": "Page shows 24% YoY and 3% QoQ growth to Rs 9,785/sq ft and 15,603 units sold in Q1 2026, reported by ANI on 27 May 2026.",
       "verdict": "supported"
     }
   ],
@@ -107,6 +145,25 @@
       "verdict": "supported"
     }
   ],
+  "C-55ac794229": [
+    {
+      "claim_id": "C-55ac794229",
+      "reason": "Page confirms ORRCA with over 500 companies, rejected WFH as a substitute, opposed the Rs 450-crore work before the Metro opens, and the minister directed an October 2026 start.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-55ac794229",
+      "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
+      "verdict": "supported"
+    }
+  ],
+  "C-56a2b9dbc8": [
+    {
+      "claim_id": "C-56a2b9dbc8",
+      "reason": "Page reports Bengaluru at 43,140 units in Jan-Sep 2026, second behind Mumbai, with sales up 5% YoY.",
+      "verdict": "supported"
+    }
+  ],
   "C-5909c9e3dc": [
     {
       "claim_id": "C-5909c9e3dc",
@@ -143,6 +200,18 @@
       "verdict": "supported"
     }
   ],
+  "C-69efcf6f51": [
+    {
+      "claim_id": "C-69efcf6f51",
+      "reason": "Page dated 15 Sep 2026 reports NHAI started Sadahalli underpass work on Ballari Road at an estimated Rs 35 crore, with about one year to complete.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-69efcf6f51",
+      "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
+      "verdict": "supported"
+    }
+  ],
   "C-6eb9b59f59": [
     {
       "claim_id": "C-6eb9b59f59",
@@ -152,6 +221,30 @@
     {
       "claim_id": "C-6eb9b59f59",
       "reason": "Page gives March 2028 for the full Blue Line, Sept/Oct 2027 for Nagawara-Hebbal airport, and a delayed Yelahanka IAF-airport section.",
+      "verdict": "supported"
+    }
+  ],
+  "C-8a66c38724": [
+    {
+      "claim_id": "C-8a66c38724",
+      "reason": "Deccan Herald AMP page returned HTTP 403, so the page could not be read.",
+      "verdict": "unable"
+    },
+    {
+      "claim_id": "C-8a66c38724",
+      "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+      "verdict": "unable"
+    }
+  ],
+  "C-961687ce2f": [
+    {
+      "claim_id": "C-961687ce2f",
+      "reason": "Page gives 700 m, six lanes, Rs 350 million, September 2026 excavation, 15 months of night work, dated 15 July 2026.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-961687ce2f",
+      "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
       "verdict": "supported"
     }
   ],
@@ -167,6 +260,18 @@
       "verdict": "supported"
     }
   ],
+  "C-a20a3fedd5": [
+    {
+      "claim_id": "C-a20a3fedd5",
+      "reason": "Article supports the not-feasible-in-2026 point, but describes unfinished works at Marathahalli and Central Silk Board, not specifically stations.",
+      "verdict": "not_supported"
+    },
+    {
+      "claim_id": "C-a20a3fedd5",
+      "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+      "verdict": "supported"
+    }
+  ],
   "C-a9856886e4": [
     {
       "claim_id": "C-a9856886e4",
@@ -176,6 +281,25 @@
     {
       "claim_id": "C-a9856886e4",
       "reason": "Page gives about 2,800 sites, Rs 8.7-29 lakh deposit, 5,700 challans with 1,700 paid, and a Nov 15 extension under consideration from the Oct 15 deadline; the DH Oct 31 part was not checked.",
+      "verdict": "supported"
+    }
+  ],
+  "C-aa236f5422": [
+    {
+      "claim_id": "C-aa236f5422",
+      "reason": "ThePrint (29 Sep 2026) states the 30/45/up-to-90 m widths from as narrow as 10 m and that land must be left vacant for new layouts or houses.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-aa236f5422",
+      "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
+      "verdict": "supported"
+    }
+  ],
+  "C-ad429d01df": [
+    {
+      "claim_id": "C-ad429d01df",
+      "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
       "verdict": "supported"
     }
   ],
@@ -213,6 +337,25 @@
       "claim_id": "C-b9e388c703",
       "reason": "Page shows a Knight Frank report with sales up 5% YoY and Bengaluru prices up around 4% YoY; the price figure is not explicitly attributed to Knight Frank.",
       "verdict": "supported"
+    }
+  ],
+  "C-bb90c3d21a": [
+    {
+      "claim_id": "C-bb90c3d21a",
+      "reason": "Page gives Bengaluru sales of about 16,670 units, 12% annual growth, no Bengaluru inventory figure, and about 6,30,590 seven-city inventory.",
+      "verdict": "supported"
+    }
+  ],
+  "C-c55b9ea49a": [
+    {
+      "claim_id": "C-c55b9ea49a",
+      "reason": "Deccan Herald returned HTTP 403, so the page could not be read.",
+      "verdict": "unable"
+    },
+    {
+      "claim_id": "C-c55b9ea49a",
+      "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+      "verdict": "unable"
     }
   ],
   "C-d4e0591cc1": [
@@ -272,6 +415,25 @@
     {
       "claim_id": "C-f18860ffba",
       "reason": "Page, an ANI report dated 13 May 2026, cites Cushman & Wakefield for about 57% of Bengaluru's Jan-Mar 2026 launches in the eastern corridor.",
+      "verdict": "supported"
+    }
+  ],
+  "C-f4fd3a0255": [
+    {
+      "claim_id": "C-f4fd3a0255",
+      "reason": "Page shows Rs 9,931/sq ft, 26% YoY growth leading all cities, and sales down to 14,186 from 15,628 in Apr-Jun 2026 (PropTiger).",
+      "verdict": "supported"
+    }
+  ],
+  "C-fe40c889d3": [
+    {
+      "claim_id": "C-fe40c889d3",
+      "reason": "Page says the HC on 3 Sep 2026 asked the state to arrange a presentation that the tunnel won't affect lake flow; petitioners seek to quash the DPR and say lake land was diverted.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-fe40c889d3",
+      "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
       "verdict": "supported"
     }
   ]

@@ -160,3 +160,35 @@ def web_status() -> dict:
     r = subprocess.run(["launchctl", "print", f"gui/{_uid()}/{WEB_LABEL}"], capture_output=True, text=True)
     state = next((l.split("=", 1)[1].strip() for l in r.stdout.splitlines() if l.strip().startswith("state =")), None)
     return {"loaded": r.returncode == 0, "state": state, "url": f"http://127.0.0.1:{WEB_PORT}"}
+
+
+# ------------------------------------------------------------------------------ evening news refresh
+EVENING_LABEL = "com.bengaluru-rei.evening"
+
+
+def install_evening() -> str:
+    if platform.system() != "Darwin":
+        return f"CRON_TZ=Asia/Kolkata\n0 18 * * * cd {ROOT} && {sys.executable} -m harness.cli batch --steps refresh,site"
+    s = load_config("schedule")
+    hh, mm = (int(x) for x in s["evening_run_time"].split(":"))
+    slot = datetime.combine(datetime.now(ZoneInfo(s["timezone"])).date(), time(hh, mm), tzinfo=ZoneInfo(s["timezone"])).astimezone()
+    p = PLIST_DIR / f"{EVENING_LABEL}.plist"
+    subprocess.run(["launchctl", "bootout", f"gui/{_uid()}/{EVENING_LABEL}"], capture_output=True)
+    plist = dict(build_plist(), Label=EVENING_LABEL, StartCalendarInterval={"Hour": slot.hour, "Minute": slot.minute},
+                 ProgramArguments=[sys.executable, "-m", "harness.cli", "batch", "--steps", "refresh,site"],
+                 StandardOutPath=str(LOGS / "evening.out.log"), StandardErrorPath=str(LOGS / "evening.err.log"))
+    with open(p, "wb") as fh:
+        plistlib.dump(plist, fh)
+    r = subprocess.run(["launchctl", "bootstrap", f"gui/{_uid()}", str(p)], capture_output=True, text=True)
+    return f"Evening refresh installed ({slot.hour:02d}:{slot.minute:02d} local)" if r.returncode == 0 else f"bootstrap failed: {r.stderr.strip()}"
+
+
+def evening_status() -> dict:
+    r = subprocess.run(["launchctl", "print", f"gui/{_uid()}/{EVENING_LABEL}"], capture_output=True, text=True)
+    s = load_config("schedule")
+    hh, mm = (int(x) for x in s["evening_run_time"].split(":"))
+    tz = ZoneInfo(s["timezone"])
+    now = datetime.now(tz)
+    nxt = datetime.combine(now.date(), time(hh, mm), tzinfo=tz)
+    nxt = nxt if nxt > now else nxt + timedelta(days=1)
+    return {"loaded": r.returncode == 0, "next_run_ist": nxt.isoformat()}

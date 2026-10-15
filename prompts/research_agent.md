@@ -42,6 +42,12 @@ source, search for the same fact in a stronger source and cite the STRONGER one;
 weak one only if nothing better exists. Two different outlets reporting the same fact
 independently are valuable: report both as separate claims with their own excerpts.
 
+NEWS STYLE
+Write each claim's statement as a news sentence: who did or said what, where, and when
+("BMRCL on 13 October began trial runs on the Pink Line's elevated stretch between Kalena
+Agrahara and Tavarekere"). Development news (projects, works, decisions, openings, delays,
+court orders) matters more than market statistics.
+
 METHOD
 1. Search broadly, then fetch the most authoritative pages.
    For material claims (launch, price, infrastructure stage, policy) try to reach the

@@ -33,11 +33,15 @@ def client(tmp_path_factory):
     os.environ.pop("BREI_ROOT")
 
 
-def test_data_endpoints(client):
+def test_landing_page_embeds_data_and_no_api_docs(client):
     assert client.get("/healthz").json()["site_data"] is True
-    assert client.get("/api/metrics").json()["kpis"][0]["display"] == "16,670"
-    assert client.get("/api/news").json()["headlines"][0]["zone"] == "East"
-    assert client.get("/").status_code == 200 and "Bengaluru" in client.get("/").text
+    r = client.get("/")
+    assert r.status_code == 200 and 'id="site-data"' in r.text and "16,670" in r.text
+    assert r.headers["x-frame-options"] == "DENY" and "frame-ancestors 'none'" in r.headers["content-security-policy"]
+    for path in ("/api/docs", "/openapi.json", "/redoc"):
+        assert client.get(path).status_code == 404
+    assert client.get("/index.html", follow_redirects=False).status_code == 301
+    assert client.get("/privacy").status_code == 200 and client.get("/terms").status_code == 200
 
 
 def test_downloads_allow_list(client):
@@ -48,8 +52,8 @@ def test_downloads_allow_list(client):
 
 
 def test_subscribe_validates_and_dedupes(client):
-    assert client.post("/api/subscribe", json={"email": "nope"}).status_code == 422
-    r1 = client.post("/api/subscribe", json={"email": "Reader@Example.com", "interests": ["east"]})
-    r2 = client.post("/api/subscribe", json={"email": "reader@example.com"})
+    assert client.post("/subscribe", json={"email": "nope"}).status_code == 422
+    r1 = client.post("/subscribe", json={"email": "Reader@Example.com", "interests": ["east"]})
+    r2 = client.post("/subscribe", json={"email": "reader@example.com"})
     assert r1.json()["ok"] and "already" in r2.json()["message"]
     assert client.get("/api/status").json()["subscribers"] == 1

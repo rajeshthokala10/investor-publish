@@ -72,8 +72,23 @@ def news(daily: dict) -> dict:
         stories.append({"title": s["title"], "url": s["url"], "publishers": s["publishers"],
                         "published_at": s.get("published_at"),
                         "zone": zone})
-    stories.sort(key=lambda s: s["published_at"] or "", reverse=True)
-    return {"insights": insights, "headlines": stories[:40]}
+    # evening refresh (18:00 IST) goes first; then the morning edition; one entry per URL
+    ev = read_json(APP_DATA / "news_refresh.json", {})
+    if ev and ev.get("generated_at", "") > (daily.get("meta", {}).get("generated_at") or ""):
+        ev_ins = [{"title": standalone(c), "subject": c["subject"], "area": corridors().get(c["corridor"], {}).get("name", "Bengaluru"),
+                   "zone": REGION_NAME.get(region_of(c["corridor"]), "City-wide"), "publisher": c["publisher"], "url": c["url"],
+                   "published_at": c["published_at"], "type": c["claim_type"]} for c in ev.get("claims", [])]
+        insights = (ev_ins + insights)[:12]
+        for s in ev.get("stories", []):
+            zone = REGION_NAME.get((s.get("regions") or ["unmapped"])[0], "City-wide")
+            if relevant_headline(s["title"], zone):
+                stories.append({"title": s["title"], "url": s["url"], "publishers": s["publishers"],
+                                "published_at": s.get("published_at"), "zone": zone})
+    uniq = {}
+    for h in stories:
+        uniq.setdefault(h["url"], h)
+    stories = sorted(uniq.values(), key=lambda s: s["published_at"] or "", reverse=True)
+    return {"insights": insights, "headlines": stories[:40], "evening_refresh": ev.get("generated_at") if ev else None}
 
 
 def build_site(log=None) -> dict:

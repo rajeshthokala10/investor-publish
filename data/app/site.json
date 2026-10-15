@@ -11,7 +11,7 @@
     "daily": {
       "file": "daily-brief-latest.pdf",
       "pages": 5,
-      "size_mb": 1.0,
+      "size_mb": 0.8,
       "title": "Daily brief — 2026-10-15"
     },
     "magazine": {
@@ -22,7 +22,7 @@
       "title": "Bengaluru Property Review — October 2026"
     }
   },
-  "generated_at": "2026-10-15T08:24:02+05:30",
+  "generated_at": "2026-10-15T09:03:36+05:30",
   "growth_towns": [
     {
       "claim_ids": [
@@ -784,7 +784,17 @@
     ]
   },
   "news": {
+    "evening_refresh": null,
     "headlines": [
+      {
+        "published_at": "2026-10-15T07:43:40+05:30",
+        "publishers": [
+          "The New Indian Express"
+        ],
+        "title": "Bengaluru: Domicile certificate delays hold up site applications in Karanth Layout",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmMyMkpRaTFkbzFfN3gtT2dtajZmU2FhUXN6ampiYmk3Sy1PZkJyS29OcmZjdS1tMFpoNFA2LWJqeGtIZVp1MnpIeDE0dUgwV28tXzhWM1lkNVpEeE5ydVF2ZGIwWTB3SE1aYl85M3F2X1NKZnFxSlJqMkppTmgyYWc1dFpqYy0xeUpsTjJUTkU0SV83N24wWDV6c3ozNElEUVpMdDVOWVRCZGJ2RWZGXzhqS01WbTlXTGVtbTVPOUJoWWFLczlWa0VEelVSYWVtRVJrVGRKR2R4WTDSAegBQVVfeXFMUHFDTl9fdmEtc2Z5RjFJVl9sUm5fZ3dBb1RLa3pOVWxwUW1yNExxelcwa3ltT2VVbnFNVW45eTZPRFQ3THZNa09YQXZYU1NMZGlPeDhMX29IcEstS1RCLUl6UjRyRWRyNnZ0U0ctSGwxelc4bHlFRzI2cm1MVzN4TzRyZGNTV0VRblFkcmc2aWYxWjBObzE4bEpqd2hNVDYya1M5SHVHODFibFl6ekJCTlhTM0pETWRyUTlYRy1oeTh0WmN5S2dCS2JfcnVGeGpTcHZCRThDX0wzQ1Nya3pJaVFFOW9NTjd5ZA?oc=5",
+        "zone": "City-wide"
+      },
       {
         "published_at": "2026-10-15T00:36:19+05:30",
         "publishers": [
@@ -821,6 +831,16 @@
         "title": "Karnataka high court warns Bangalore Development Authority against violating guidelines, upholds land acq",
         "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQeGhzVEdOYUFiXzRRZGhTS0N0ZG9maXowZmRQV2VzREIyOExjUXZrNDRPYlNZeXczWlVoRWtVRVZNZE9RREpmS1JYX0pTZ3pXal9XSVhRMm5YWHA4R0haT3ZRWEoxblMxdFR3akJENUh3QzdzWWk5eVk1dGNJNWUxQTRTeFRPX190aGhGMkhTMlhwcXFqUHAxM2FUdUVBcmRaUm9tT3F0ZVRsZDhXVVhlZFNIcDJEVWlTdVczMGsyYUt0emlLQWlQSERNUk80c2gxakJRSjR5bC03YTFjVkkxS2ZzWEF2RnBMUHhYSlh6YXFXQlJPMHl4eGZ5V2RYOS15UVAyYkNzZDIwYlhsd3drT21Pbm5yT1pn0gGeAkFVX3lxTE95RDJTV2gzUnlmTVREZGlvbkZraVUxUW84NHBOc3VpSjJ3M29kZzNSM0Y1S0ZWVENaLUMyNm9xT19DUlBtUDFidGd5Y0JnUHZEYldfa3R1bm53Sk1tRkJ4MFd3Um1sckx5Zm9DRXZoTlRXUHJEVHhqSDRuN2M1eG9sZFVIU1FsSWJFTXE1RVpjWTZHQUlWRFB4MHQyRjJBRjU0WEphVjc2a0N4V2hoMGtrYTA2TF83dW14bFhKbTVZQTQ1MXg0d285NGlXNHY5czltSmR0X3NJN21TYTRHRGZ2VXpNOU9zOGhqZF9EbW1uck8tSjNFSkhDRDduSklBc0NFU1d6MmdGeXRCUGVHTzRTQ2hfa3FzeUFBYjVRSEE?oc=5",
         "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-14T21:22:45+05:30",
+        "publishers": [
+          "The Hindu",
+          "thehindu.com"
+        ],
+        "title": "BMRCL begins soil testing on Sarjapur Road for proposed Namma Metro Red Line corridor",
+        "url": "https://www.thehindu.com/news/national/karnataka/bmrcl-begins-soil-testing-on-sarjapur-road-for-proposed-namma-metro-red-line-corridor/article71584808.ece",
+        "zone": "East"
       },
       {
         "published_at": "2026-10-14T20:03:36+05:30",
@@ -1084,15 +1104,6 @@
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-13T22:46:00+05:30",
-        "publishers": [
-          "The Times of India"
-        ],
-        "title": "Karnataka FDA to withdraw order on drug price chart",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGZvUXZ4Ym9jZ3pWTUE4dWtKUUphUldTZjI0RDIxcmdfME5ZRXdRX0VSQzJ5WlpXZkkyWWg1YzFKQ0hpNXlCekZmQXl0TDV0WU5JTFV2TjBiYklhQUxvQnlSbjlDMGFPQTBaSnp3Ml9zSVJSWG4tZXNKSXVmb3BOT3YyOE9RY1JrazFEYUpyZGtXTEozcnhlZktDTEh3UTN5bkZleXhKV0lrbkFNeS1JY0xHN3RSaHotY2NjQmxQRjlIam9mXzNr0gHMAUFVX3lxTE14MjFvSlhldEh4Qy1lRlVnZXJnSGVCZUtIbFRoYnV0MWd6OFJnNEd0RDEyeWxQTk5YZ0NUZERYMENfX3Bkcm9kMGRaT3VIcXJJdmN4NGNDSWhFQWlLRFhSd3k4RHV4OXp5RlY5QmdxVEZnLWVIZUJWbWhnRE1sVUdUNTNhS2pYTFF0NXY4QlFDZl9qdFB0SzZCMjZ0TDlfMHZTaUQzSzN3UGc5TnExSC1GZm1nTFBkSHBFdlg4MFp1ZVNPNGl2ZDhMOXZYYg?oc=5",
-        "zone": "City-wide"
-      },
-      {
         "published_at": "2026-10-13T21:59:00+05:30",
         "publishers": [
           "The Times of India"
@@ -1137,27 +1148,28 @@
         "title": "Bengaluru: GBA Approves Felling Of 321 Trees At Hoodi Substation For Transmission Upgrade",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS1hlTmtUS01Xajg4S0dsY2Z2NlRSSGZvb29WWVJFZy1UTGdNTmVZUGNmUkZtczEwU1FyWUxqbldkUmtxQ3VZbW1OYkdrdjF1YjhUV3dobnhpc0xRRVU4STBpSEtoOFY0cl8xcVk1dnFUYnNYWjJ6Y3VVRTd0MHNhUEI2MWJqSGxUVHNic3FEVlVQSWJ3d0NLbU1mS0JUeVE2amh1elhQdWRoMEZ3c2JXckRHeFlpRUJZcE4wWGY1Q2NCZkxlZWVkc1FfMUtHVHQxX3VpenIwZUdxMXo2cDEycGo4TjRpdW5GTTFTSVcxeWgxQdIB8gFBVV95cUxOS1hlTmtUS01Xajg4S0dsY2Z2NlRSSGZvb29WWVJFZy1UTGdNTmVZUGNmUkZtczEwU1FyWUxqbldkUmtxQ3VZbW1OYkdrdjF1YjhUV3dobnhpc0xRRVU4STBpSEtoOFY0cl8xcVk1dnFUYnNYWjJ6Y3VVRTd0MHNhUEI2MWJqSGxUVHNic3FEVlVQSWJ3d0NLbU1mS0JUeVE2amh1elhQdWRoMEZ3c2JXckRHeFlpRUJZcE4wWGY1Q2NCZkxlZWVkc1FfMUtHVHQxX3VpenIwZUdxMXo2cDEycGo4TjRpdW5GTTFTSVcxeWgxQQ?oc=5",
         "zone": "East"
-      },
-      {
-        "published_at": "2026-10-13T17:21:00+05:30",
-        "publishers": [
-          "The Daily Jagran"
-        ],
-        "title": "Bengaluru Metro: BMTC To Launch Five New Feeder Services On Upcoming Pink Line; Check Complete Route Plan Here",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbkp1ckdFMVBKNW4xVzBBdlVqV01MMnRKNUpQRHZJd1ZheXNXX3JDNnBPZnlNa0lhMXo3R2lsbkh5dWpjUjRSX08zTTNCZDlWNE43bjFKdlZIMlFCUVplcG9ORF9FSXdnZV9tenVNOFFoeDM3b3BMNElCMkZzQVRBM0JpcDZwczJJMzZwSm0tcEI2X2VUTnFlMGhuTEo4SU1RbVNxOGxkZjRKVFRzSVNDSTJIYjBIUXNybVpFSTZwNWdWblJGTUFHTVlCUFJDZ1RmODZQNlI5bzlYRzNJWE1LTEt1RkxBcnVMYTRF0gHyAUFVX3lxTFA3ZXliUTBibjNxcWlpa1o0T2tYRW5zZ0xhSjNrNWRpMks3enhCeG13bHlybENvazN3Y3prZFFrQWFQVFEtLVJCaW5WTEg1QV9oYXZHUjVWam5FeHhtM0pEdk1aQjVYWkhYTU1wRGVScndKZE9rbHBhYWVnb3VseVBremxyd0doOUJQYTJGTVUxbU5oTDN3aU1acXhiLWpHbGV2cFcyVkIySGV4Y2x4TFFjNjhUNTB5M1h2bFhwMTh1clhqQXFlSzJmcFJSMWIwYV9BaFJCY25GekZ0S3R5TkJYdnJ5SG1kMmx4NnBPYjdyY0VB?oc=5",
-        "zone": "City-wide"
       }
     ],
     "insights": [
       {
-        "area": "Bengaluru",
-        "published_at": "2026-10-14",
-        "publisher": "The Bengaluru Live",
-        "subject": "GBA road network objections process",
-        "title": "GBA road network objections process: The same notice says the 60-day period counts from publication of the notification, with no fixed last date; objections go to the Chief Town Planner at GBA Head Office or gba.masterplan@gmail.com. The DH lead says the maps were not available online (DH page blocked, headline only).",
-        "type": "policy",
-        "url": "https://thebengalurulive.com/bengaluru-road-circulation-maps-gba-invites-objections-how-to-submit-your-views/",
-        "zone": "City-wide"
+        "area": "Bannerghatta Road",
+        "published_at": "2026-10-15",
+        "publisher": "Deccan Herald",
+        "subject": "Bengaluru Metro Pink Line CMRS observations",
+        "title": "Deccan Herald reported on 15 October that the Pink Line faces 36 safety and technical deficiencies. I could not open the article, so only the headline is confirmed. Metro Rail News (13 Oct) says BMRCL received CMRS observations on 9 October and planned to submit its compliance report on 13 October, but gives no count.",
+        "type": "project_update",
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-metros-pink-line-faces-36-safety-and-technical-deficiencies-4183261",
+        "zone": "South"
+      },
+      {
+        "area": "Sarjapur Road",
+        "published_at": null,
+        "publisher": "Deccan Herald",
+        "subject": "Namma Metro Phase 3A (Red Line) geotechnical tenders",
+        "title": "Background, undated: BMRCL floated about Rs 6.86 crore of tenders for geotechnical investigations in four packages for the Sarjapur–Hebbal Phase 3A (Red Line). This is context for the 15 October lead on soil testing on Sarjapur Road, which I could not find or verify.",
+        "type": "infrastructure",
+        "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fpreliminary-work-to-begin-soon-on-namma-metro-phase-3a-sarjapur-to-hebbal-3756328",
+        "zone": "East"
       }
     ]
   },

@@ -47,7 +47,7 @@ def available() -> tuple[bool, str]:
 
 
 def run_agent(prompt: str, schema: dict, *, name: str, out_path: Path, budget_usd: float,
-              timeout_min: float, log: RunLog, tools: list[str] | None = None) -> dict:
+              timeout_min: float, log: RunLog, tools: list[str] | None = None, prompt_key: str | None = None) -> dict:
     """Run one headless agent call. Returns {ok, data, cost_usd, error}. Never raises."""
     cfg = load_config("harness")["agent"]
     cwd = out_path.parent / f".cwd-{name}"
@@ -76,7 +76,7 @@ def run_agent(prompt: str, schema: dict, *, name: str, out_path: Path, budget_us
         return {"ok": False, "data": None, "cost_usd": 0.0, "error": "bad output", "started": started}
     cost = float(envelope.get("total_cost_usd") or 0.0)
     data = envelope.get("structured_output")
-    write_json(out_path, {"task": name, "prompt_sha": sha(prompt), "started": started, "finished": finished, "cost_usd": cost,
+    write_json(out_path, {"task": name, "prompt_sha": sha(prompt), "prompt_key": prompt_key, "started": started, "finished": finished, "cost_usd": cost,
                           "subtype": envelope.get("subtype"), "is_error": envelope.get("is_error"),
                           "structured_output": data})
     if envelope.get("is_error") or data is None:

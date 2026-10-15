@@ -5,6 +5,7 @@
   weekly    weekly summary on the configured weekday
   metrics   dashboard KPIs, growth series, area prices, top builders (validated)
   site      data/app/site.json + downloads for the web app
+  refresh   evening news refresh (RSS + metro/government research, last 12 h) -> website news
   email     "Bangalore RealEstate Delta" email to EMAIL_TO + subscribers (dry run without SMTP settings)
 
 Each step is recorded in the app database (job_runs) so the website can show
@@ -60,6 +61,10 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
                 elif step == "site":
                     s = build_site(log)
                     results[step] = f"ok ({len(s['news']['headlines'])} headlines)"
+                elif step == "refresh":
+                    from harness.news_refresh import refresh
+                    r = refresh(log)
+                    results[step] = f"ok ({len(r['stories'])} headlines, {len(r['claims'])} verified items)"
                 elif step == "email":
                     from harness.mailer import send_delta
                     r = send_delta(today.isoformat(), log=log)

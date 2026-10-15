@@ -84,6 +84,20 @@
     "stage_history": [],
     "type": "policy"
   },
+  "X-213a99bc44": {
+    "claim_ids": [
+      "C-aa236f5422"
+    ],
+    "corridors": [],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-213a99bc44",
+    "last_seen": "2026-10-15",
+    "name": "Road grid notification for Bengaluru Urban areas outside GBA (BMRDA)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
   "X-21c8d0f1e5": {
     "claim_ids": [
       "C-62b4bfea4d",
@@ -98,6 +112,22 @@
     "stage": null,
     "stage_history": [],
     "type": "policy"
+  },
+  "X-24727bfb34": {
+    "claim_ids": [
+      "C-ad2aaf424c"
+    ],
+    "corridors": [
+      "varthur_gunjur"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-24727bfb34",
+    "last_seen": "2026-10-15",
+    "name": "Varthur–Gunjur road (SH-35) widening",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
   },
   "X-2603b56d32": {
     "claim_ids": [
@@ -205,20 +235,6 @@
     "infra_id": "X-34558c87b9",
     "last_seen": "magazine-2026-10",
     "name": "Metro link to Doddaballapur",
-    "notes": [],
-    "stage": null,
-    "stage_history": [],
-    "type": "infrastructure"
-  },
-  "X-3c1cdb2a11": {
-    "claim_ids": [
-      "C-13cd24bdfa"
-    ],
-    "corridors": [],
-    "first_seen": "2026-10-15",
-    "infra_id": "X-3c1cdb2a11",
-    "last_seen": "2026-10-15",
-    "name": "Industrial townships around Bengaluru",
     "notes": [],
     "stage": null,
     "stage_history": [],
@@ -360,7 +376,8 @@
   },
   "X-834561df5a": {
     "claim_ids": [
-      "C-d4e0591cc1"
+      "C-69efcf6f51",
+      "C-961687ce2f"
     ],
     "corridors": [
       "devanahalli_airport"
@@ -403,28 +420,6 @@
     "stage": null,
     "stage_history": [],
     "type": "policy"
-  },
-  "X-990aef041a": {
-    "claim_ids": [
-      "C-1f5de2ea12"
-    ],
-    "corridors": [],
-    "first_seen": "2026-10-15",
-    "infra_id": "X-990aef041a",
-    "last_seen": "2026-10-15",
-    "name": "Bengaluru 10–15 year development plan: Metro expansion by 2037",
-    "notes": [],
-    "stage": "proposed",
-    "stage_history": [
-      {
-        "claim_id": "C-1f5de2ea12",
-        "edition": "2026-10-15",
-        "event_date": "2026-10-05",
-        "published_at": "2026-10-05",
-        "stage": "proposed"
-      }
-    ],
-    "type": "infrastructure"
   },
   "X-99938224af": {
     "claim_ids": [
@@ -503,20 +498,6 @@
     "stage": null,
     "stage_history": [],
     "type": "infrastructure"
-  },
-  "X-be77fd654c": {
-    "claim_ids": [
-      "C-6137acc53a"
-    ],
-    "corridors": [],
-    "first_seen": "2026-10-15",
-    "infra_id": "X-be77fd654c",
-    "last_seen": "2026-10-15",
-    "name": "GBA road network objections process",
-    "notes": [],
-    "stage": null,
-    "stage_history": [],
-    "type": "policy"
   },
   "X-bf51deb34c": {
     "claim_ids": [
@@ -619,20 +600,6 @@
     "stage_history": [],
     "type": "infrastructure"
   },
-  "X-d28907cf52": {
-    "claim_ids": [
-      "C-2080cc6dcd"
-    ],
-    "corridors": [],
-    "first_seen": "2026-10-15",
-    "infra_id": "X-d28907cf52",
-    "last_seen": "2026-10-15",
-    "name": "GBA proposed road network (master plan) maps",
-    "notes": [],
-    "stage": null,
-    "stage_history": [],
-    "type": "policy"
-  },
   "X-d31188eaed": {
     "claim_ids": [
       "C-3d1a00ec70"
@@ -694,6 +661,22 @@
     "stage": null,
     "stage_history": [],
     "type": "infrastructure"
+  },
+  "X-e3e11f8da0": {
+    "claim_ids": [
+      "C-f95ee39e85"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-e3e11f8da0",
+    "last_seen": "2026-10-15",
+    "name": "K-RERA order on pass-through of project costs, Kengeri",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
   },
   "X-e7207b0d76": {
     "claim_ids": [
@@ -916,7 +899,10 @@
       "C-3fc3628df2",
       "C-265e562d8b",
       "C-b674f2bb50",
-      "C-2f08b887ac"
+      "C-2f08b887ac",
+      "C-8ed90f570e",
+      "C-9725810d32",
+      "C-8a66c38724"
     ],
     "corridors": [
       "hebbal_yelahanka",
@@ -926,24 +912,24 @@
     ],
     "first_seen": "2026-10-15",
     "infra_id": "sarjapur_hebbal_metro",
-    "last_seen": "magazine-2026-10",
+    "last_seen": "2026-10-15",
     "name": "Sarjapur–Hebbal metro (Phase 3A)",
     "notes": [],
-    "stage": "approved",
+    "stage": "tendered",
     "stage_history": [
-      {
-        "claim_id": "C-450f9e7f3e",
-        "edition": "2026-10-15",
-        "event_date": null,
-        "published_at": "2026-07-18",
-        "stage": "proposed"
-      },
       {
         "claim_id": "C-3fc3628df2",
         "edition": "magazine-2026-10",
         "event_date": "2025-01-01",
         "published_at": "2026-07-18",
         "stage": "approved"
+      },
+      {
+        "claim_id": "C-8a66c38724",
+        "edition": "2026-10-15",
+        "event_date": null,
+        "published_at": null,
+        "stage": "tendered"
       }
     ],
     "type": "infrastructure"
@@ -1031,7 +1017,8 @@
       "C-6b46d4e6cc",
       "C-0e60934995",
       "C-84de61d88c",
-      "C-da87dc2580"
+      "C-da87dc2580",
+      "C-fe40c889d3"
     ],
     "corridors": [
       "hebbal_yelahanka",
@@ -1039,7 +1026,7 @@
     ],
     "first_seen": "magazine-2026-10",
     "infra_id": "tunnel_road",
-    "last_seen": "magazine-2026-10",
+    "last_seen": "2026-10-15",
     "name": "Hebbal–Silk Board tunnel road",
     "notes": [],
     "stage": null,

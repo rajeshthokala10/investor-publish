@@ -1,4 +1,46 @@
 {
+  "P-020cdcc850": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Puravankara",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sathanur",
+    "lon": null,
+    "name": "Puravankara Sathanur residential project (JDA)",
+    "open_questions": [
+      "No RERA number or launch date stated",
+      "Pricing and unit mix not disclosed",
+      "The GDV is a developer estimate"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-020cdcc850",
+    "property_type": "apartment",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "signed a Joint Development Agreement (JDA) for a 12.76-acre land parcel in Sathanur",
+        "published_at": "2026-10-14",
+        "publisher": "Prop News Time (PTI)",
+        "retrieved_at": "2026-10-15T08:55:34+05:30",
+        "tier": "unknown",
+        "url": "https://propnewstime.com/latestnewsstories/MzgyNTE=/puravankara-signs-12-76-acre-jda-in-north-bengaluru-with-inr-2-500-crore-development-potential"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "about 1.90 million sq ft saleable area (total)"
+  },
   "P-03a9168ee1": {
     "charges_excluded": null,
     "charges_included": null,
@@ -109,9 +151,11 @@
     "charges_included": null,
     "confidence": "Low",
     "corridor": "unmapped",
-    "developer": "Puravankara",
+    "developer": "Puravankara Ltd",
     "first_seen": "2026-10-15",
-    "flags": [],
+    "flags": [
+      "conflict:developer: 'Puravankara' vs 'Puravankara Ltd' (https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore)"
+    ],
     "infra_links": [],
     "last_seen": "2026-10-15",
     "lat": null,
@@ -121,7 +165,9 @@
     "name": "Puravankara Sathanur JDA parcel",
     "open_questions": [
       "Product mix, launch date, RERA number not stated",
-      "GDV is a projection, not price"
+      "GDV is a projection, not price",
+      "Launch date, product mix and landowner not stated",
+      "GDV is an estimate, not a price"
     ],
     "possession": null,
     "price_observations": [],
@@ -482,14 +528,15 @@
     "developer": "Century Real Estate",
     "first_seen": "2026-10-15",
     "flags": [
+      "conflict:launch_date: '2026-07' vs '2026-10-10' (https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html)",
       "conflict:launch_date: '2026-10-10' vs '2026-07' (https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html)"
     ],
     "infra_links": [
       "Jakkur Cross metro (planned)"
     ],
-    "last_seen": "magazine-2026-10",
+    "last_seen": "2026-10-15",
     "lat": null,
-    "launch_date": "2026-07",
+    "launch_date": "2026-10-10",
     "locality": "Jakkur",
     "lon": null,
     "name": "The Astoria (Century Immencity)",
@@ -498,7 +545,10 @@
       "RERA number unverified on portal",
       "Possession date conflicting (2030 vs Feb 2031)",
       "Third-party prices conflict (₹3.85–4.25 cr; ₹17,500 psf)",
-      "RERA not mentioned"
+      "RERA not mentioned",
+      "RERA number not confirmed on rera.karnataka.gov.in",
+      "Prices not in the press release; aggregators quote Rs 4.25-15 crore, unverified",
+      "Possession date conflicting across listings (2030/2031)"
     ],
     "possession": null,
     "price_observations": [],
@@ -519,7 +569,7 @@
         "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
       }
     ],
-    "status": "pre_launch",
+    "status": "launched",
     "unit_sizes": "334 residences, 5 towers, ~6 acres; 3/4 BHK and penthouses"
   },
   "P-477ab71001": {

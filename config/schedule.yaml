@@ -1,5 +1,6 @@
 timezone: Asia/Kolkata
-daily_run_time: "06:00"        # local time in `timezone`
+daily_run_time: "06:00"        # local time in `timezone`: full research, Daily Edition PDF, website, email
+evening_run_time: "18:00"      # evening news refresh for the website (no PDF, no email)
 window_hours: 72               # each edition covers the preceding 72 hours
 weekly_summary_day: Monday     # weekly summary is generated after that day's daily run
 launchd_label: com.bengaluru-rei.daily

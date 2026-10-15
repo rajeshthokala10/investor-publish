@@ -453,8 +453,15 @@ def render_daily(ctx, d: dict) -> dict:
             f"{info}<main class='report'>{html_body}</main></body></html>")
     html_path = out_dir / f"{ed}.html"
     write_text(html_path, page)
-    from harness.pdf_edition import render_pdf
-    pages, pdf_err = render_pdf(d, meta, info, css, out_dir / f"{ed}.pdf", html_pdf)
+    # Daily Edition PDF: 5-page newspaper of development + metro news (no statistics);
+    # falls back to the condensed analyst layout if the news writer is unavailable.
+    from harness.daily_paper import render_paper, write_paper
+    paper = write_paper(ed, d, meta["window"], ctx.log)
+    if paper:
+        pages, pdf_err = render_paper(ed, paper, meta, out_dir / f"{ed}.pdf", html_pdf)
+    else:
+        from harness.pdf_edition import render_pdf
+        pages, pdf_err = render_pdf(d, meta, info, css, out_dir / f"{ed}.pdf", html_pdf)
     if pdf_err:
         ctx.log("pdf_failed", detail=pdf_err)
     else:

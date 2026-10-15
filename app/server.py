@@ -1,14 +1,11 @@
-"""Bengaluru Property Review — web application (FastAPI).
+"""Bengaluru Property Review — business website (FastAPI).
 
-Public:  GET  /                       landing page (static SPA)
-         GET  /api/site               everything the landing page renders (data/app/site.json)
-         GET  /api/news | /api/metrics | /api/builders | /api/plans
-         GET  /api/status             last refresh, job history, subscriber count
-         POST /api/subscribe          {email, name?, interests?}
+Public:  GET  /                       landing page; site data is embedded server-side (no client API calls)
+         GET  /privacy, /terms        policy pages
+         POST /subscribe              {email, name?, interests?}
          GET  /download/{file}        magazine-latest.pdf, daily-brief-latest.pdf, magazine-cover.png
-Admin (localhost only):
-         GET  /api/admin/subscribers
-         POST /api/admin/refresh      rebuild metrics + site data in the background
+Local only (this machine): /api/* data + admin endpoints, for monitoring and the batch job.
+No public API documentation is served.
 """
 from __future__ import annotations
 
@@ -16,7 +13,7 @@ import threading
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -27,7 +24,28 @@ from harness.common import read_json
 STATIC = Path(__file__).parent / "static"
 ALLOWED_DOWNLOADS = {"magazine-latest.pdf", "daily-brief-latest.pdf", "magazine-cover.png"}
 
-app = FastAPI(title="Bengaluru Property Review", docs_url="/api/docs", redoc_url=None)
+app = FastAPI(title="Bengaluru Property Review", docs_url=None, redoc_url=None, openapi_url=None)
+
+SECURITY_HEADERS = {
+    "X-Frame-Options": "DENY",                       # no embedding in other sites (also blocks frame-based scraping)
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), display-capture=()",
+    "Content-Security-Policy": ("default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; "
+                                "style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; "
+                                "img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"),
+}
+
+
+@app.middleware("http")
+async def security_headers(request: Request, call_next):
+    if request.url.path.startswith("/api/") and (request.client is None or
+                                                 request.client.host not in ("127.0.0.1", "::1", "testclient")):
+        return JSONResponse({"detail": "Not found"}, status_code=404)
+    response = await call_next(request)
+    for k, v in SECURITY_HEADERS.items():
+        response.headers.setdefault(k, v)
+    return response
 
 
 def site() -> dict:
@@ -83,6 +101,7 @@ def api_status():
             "subscribers": store.subscriber_count(), "jobs": store.last_jobs(5)}
 
 
+@app.post("/subscribe")
 @app.post("/api/subscribe")
 def api_subscribe(sub: Subscription):
     ok, msg = store.add_subscriber(sub.email, sub.name, sub.interests)
@@ -133,4 +152,36 @@ def healthz():
     return {"ok": True, "site_data": (APP_DATA / "site.json").exists()}
 
 
-app.mount("/", StaticFiles(directory=STATIC, html=True), name="static")
+def public_site() -> dict:
+    """The landing page's data, minus internal fields (job history, dropped items, raw paths)."""
+    s = dict(read_json(APP_DATA / "site.json", {}))
+    s["metro"] = read_json(STATIC.parent / "content" / "metro.json", {})
+    return s
+
+
+@app.get("/", response_class=HTMLResponse)
+def index():
+    import json as _json
+    page = (STATIC / "index.html").read_text(encoding="utf-8")
+    data = _json.dumps(public_site(), ensure_ascii=False).replace("</", "<\\/")
+    return HTMLResponse(page.replace("<!--SITE_DATA-->", f'<script id="site-data" type="application/json">{data}</script>'),
+                        headers={"Cache-Control": "no-store"})
+
+
+@app.get("/index.html")
+def index_alias():
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse("/", status_code=301)
+
+
+@app.get("/privacy", response_class=HTMLResponse)
+def privacy():
+    return HTMLResponse((STATIC / "privacy.html").read_text(encoding="utf-8"))
+
+
+@app.get("/terms", response_class=HTMLResponse)
+def terms():
+    return HTMLResponse((STATIC / "terms.html").read_text(encoding="utf-8"))
+
+
+app.mount("/", StaticFiles(directory=STATIC, html=False), name="static")

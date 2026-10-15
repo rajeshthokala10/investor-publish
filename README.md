@@ -3,7 +3,8 @@
 **Quick start**
 ```bash
 make web-install   # website at http://127.0.0.1:8787 (runs in the background)
-make schedule      # 06:00 IST batch: daily research → magazine (monthly) → weekly → metrics → website
+make schedule      # 06:00 IST batch (research → Daily Edition PDF → magazine monthly → metrics → website → email)
+                   # + 18:00 IST evening news refresh for the website
 make batch         # run the whole application now
 make help          # all commands
 ```

@@ -149,9 +149,10 @@ def main(argv=None) -> int:
     if a.cmd == "schedule":
         if a.action == "install":
             print(scheduler.install())
+            print(scheduler.install_evening())
         elif a.action == "uninstall":
             print(scheduler.uninstall())
-        print(json.dumps(scheduler.status(), indent=2, default=str))
+        print(json.dumps({**scheduler.status(), "evening": scheduler.evening_status()}, indent=2, default=str))
         return 0
     if a.cmd == "batch":
         from harness.batch import run_batch

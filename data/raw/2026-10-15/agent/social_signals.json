@@ -1,73 +1,60 @@
 {
-  "cost_usd": 0.26911399999999996,
-  "finished": "2026-10-15T05:51:23+05:30",
+  "cost_usd": 0.23449650000000002,
+  "finished": "2026-10-15T08:54:39+05:30",
   "is_error": false,
-  "prompt_sha": "e9b53a1ea4",
-  "started": "2026-10-15T05:50:46+05:30",
+  "prompt_sha": "62d2ee61ed",
+  "started": "2026-10-15T08:54:05+05:30",
   "structured_output": {
-    "claims": [
-      {
-        "claim_type": "supply_demand",
-        "event_date": null,
-        "excerpt": "the eastern corridor accounted for about 57% of Bengaluru's residential launches in January-March 2026",
-        "infra_stage": "none",
-        "locality": "Whitefield",
-        "metric": "none",
-        "period_years": null,
-        "price_basis": "na",
-        "price_kind": "na",
-        "property_type": "mixed",
-        "published_at": "2026-05-13",
-        "publisher": "The Tribune (ANI)",
-        "source_kind": "news",
-        "statement": "Background (13 May 2026, outside window): ANI/Tribune syndicated report citing a Cushman & Wakefield report says the eastern corridor accounted for about 57% of Bengaluru's residential launches in Jan-Mar 2026. Developer commentary is interested-party.",
-        "subject": "East Bengaluru residential launches Q1 2026",
-        "unit": "%",
-        "url": "https://www.tribuneindia.com/news/business/east-bengaluru-sees-surge-in-housing-launches-on-strong-demand-metro-push/",
-        "value": 57,
-        "value_max": null
-      }
-    ],
-    "notes": "No public Reddit, YouTube or LinkedIn content dated 12-15 Oct 2026 about East Bengaluru property was found. Reddit was blocked in WebFetch. YouTube returned no listings. LinkedIn needs a login. Searches returned only developer, broker and portal blogs (Sobha, Brigade, Godrej, OneCity and similar). These are interested-party marketing and none is dated in the window. The only metro items found were August 2026 reports: Blue Line trial runs targeted for October, and the full corridor delayed to about March 2028. They are outside the window and I did not record them as claims. The one background claim is dated May 2026. Result: nothing new in the window from social platforms.",
+    "claims": [],
+    "notes": "No claims reported. I found no public YouTube, LinkedIn or Reddit content about East Bengaluru property for 12-15 Oct 2026.\n\nPlatform access:\n- Reddit: WebFetch refused the domain, so r/bangalore could not be read at all.\n- LinkedIn: only the sign-in page loaded. Public posts were not reachable without logging in.\n- YouTube: the results page returned only footer text, with no video listings.\n- Searches with site: filters for all three platforms returned only developer blogs, broker blogs and listing pages. None was dated inside the window, and none could be quoted verbatim from a page I opened.\n\nPages not opened: the Cushman & Wakefield Q2 2026 PDF and the Deccan Herald East Corporation tax-auction article both returned HTTP 403. Their search snippets (C&W: East submarket 26% of Q2 2026 launches; DH: KR Puram zone auction of six properties over tax dues) are unverified by me. I did not report them because I have no verbatim excerpt or confirmed date.\n\nSearch-snippet items that were stale or undated: Abhee Ventures 45-acre Gunjur township (28 May 2026), the C&W Q1 2026 East share of 57% (13 May 2026), Mana Verdant Terraces (undated), and various Sarjapur and Budigere plot listings (undated). Pink Line opening dates differ between sources (Wikipedia, NBR, Colliers), so I made no infrastructure claim. All of these came from interested-party or aggregator sources, and none was in the window. This is a valid \"nothing new\" result for the window, but it reflects limited access to the social platforms rather than proof that nothing was posted there.",
     "projects": [],
     "queries_run": [
-      "reddit r/bangalore East Bengaluru property Whitefield Sarjapur October 2026",
-      "youtube Bangalore plots Budigere Cross Hoskote Gunjur October 2026",
-      "linkedin post Whitefield Sarjapur Road real estate October 2026",
-      "site:reddit.com r/bangalore flat buying Whitefield Varthur Panathur 2026",
-      "site:youtube.com East Bangalore real estate investment 2026 Kadugodi Hoskote Old Madras Road",
-      "Bengaluru property news East Bengaluru October 13 2026",
-      "site:linkedin.com/posts Bengaluru Whitefield real estate 2026",
-      "Bengaluru Metro Blue Line KR Puram Hebbal Pink line Outer Ring Road October 2026 property",
-      "Bangalore real estate Reddit Sarjapur Road OR Whitefield builder RERA complaint October 2026",
-      "Bengaluru East launch Devanahalli Hoskote Budigere new project launch October 2026",
-      "Bengaluru flats Whitefield price rent news this week October 2026"
+      "East Bengaluru property YouTube October 2026 Whitefield Sarjapur Budigere",
+      "reddit r/bangalore East Bangalore property plots October 2026",
+      "linkedin post Bengaluru real estate Whitefield Hoskote Gunjur October 2026",
+      "Bengaluru Pink Line Blue Line metro East October 2026 property",
+      "Sarjapur Road plots price October 2026",
+      "Bengaluru real estate news this week East Bengaluru launch",
+      "site:reddit.com/r/bangalore property Whitefield Varthur Gunjur 2026",
+      "site:youtube.com Bangalore east plots investment Budigere Cross Kadugodi 2026",
+      "site:deccanherald.com Bengaluru property East October 2026",
+      "site:linkedin.com/posts Bengaluru real estate east plotted development 2026"
     ],
     "sources_attempted": [
       {
-        "note": "WebFetch refused to fetch reddit.com; no r/bangalore threads surfaced in any search.",
-        "source": "https://www.reddit.com/r/bangalore/search/ (and /new/.json)",
+        "note": "WebFetch refused reddit.com",
+        "source": "https://www.reddit.com/r/bangalore/search/ (new, past week)",
         "status": "blocked"
       },
       {
-        "note": "Returned only YouTube navigation/footer; no video listings or dates. No YouTube results in any search.",
-        "source": "https://www.youtube.com/results?search_query=bangalore+east+property+whitefield",
+        "note": "WebFetch refused reddit.com",
+        "source": "https://www.reddit.com/r/bangalore/new/.json",
+        "status": "blocked"
+      },
+      {
+        "note": "Only footer content returned; no video results",
+        "source": "https://www.youtube.com/results?search_query=east+bangalore+property+october+2026",
         "status": "error"
       },
       {
-        "note": "Sign-in page only; site:linkedin.com/posts search returned no LinkedIn posts.",
-        "source": "https://www.linkedin.com/search/results/content/?keywords=whitefield real estate",
+        "note": "Sign-in page only",
+        "source": "https://www.linkedin.com/search/results/content/?keywords=east bengaluru real estate",
         "status": "login_required"
       },
       {
-        "note": "Dated 13 May 2026 (ANI); outside window, background only.",
-        "source": "https://www.tribuneindia.com/news/business/east-bengaluru-sees-surge-in-housing-launches-on-strong-demand-metro-push/",
-        "status": "ok"
+        "note": "HTTP 403",
+        "source": "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2026/q2/india-bengaluru-residential-q2-2026.pdf",
+        "status": "blocked"
       },
       {
-        "note": "HTTP 403.",
-        "source": "https://www.deccanherald.com/india/karnataka/bengaluru/14-acres-acquired-so-far-bengaluru-east-corporation-maintains-momentum-in-land-acquisition-3924546",
+        "note": "HTTP 403",
+        "source": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-east-corporation-latest-to-auction-properties-with-tax-dues-3921397",
         "status": "blocked"
+      },
+      {
+        "note": "No social posts from any of the three platforms surfaced in any search; results were developer/broker blogs and listings, none dated in the 12-15 Oct 2026 window",
+        "source": "WebSearch: YouTube, LinkedIn, Reddit targeted searches",
+        "status": "not_found"
       }
     ],
     "task_id": "social_signals"

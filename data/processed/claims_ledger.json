@@ -1319,6 +1319,70 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-17dcceeea6": {
+    "citation_check": {
+      "final_url": "https://bengalurumetro.in/bangalore-metro-pink-line.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-17dcceeea6",
+    "claim_key": "project_update|bannerghatta_road|na|none|pink line elevated section kalena agrahara tavarekere",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "domain:bengalurumetro.in"
+    ],
+    "domain": "bengalurumetro.in",
+    "event_date": "2026-10-08",
+    "evidenced_stage": null,
+    "excerpt": "comply with the observations and conditions set by the commissioner",
+    "fact_key": "F-8f80887ca2",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "domain:bengalurumetro.in",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kalena Agrahara",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:metro_watch",
+    "origin_group": "domain:bengalurumetro.in",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-12",
+    "publisher": "bengalurumetro.in (unofficial tracker)",
+    "region": "south",
+    "retrieved_at": "2026-10-15T09:00:26+05:30",
+    "statement": "A third-party Pink Line tracker, re-verified 12 October 2026, says the CMRS inspection of the six-station Kalena Agrahara–Tavarekere elevated section was completed on 8 October and BMRCL must comply with the commissioner's conditions before authorisation; no official opening date had been announced.",
+    "subject": "Pink Line elevated section (Kalena Agrahara–Tavarekere)",
+    "syndication_id": "SYN-2bcc705b00",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://bengalurumetro.in/bangalore-metro-pink-line.html",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-1865074501": {
     "citation_check": {
       "final_url": "https://www.sobha.com/blog/flats-in-north-bangalore-vs-east-bangalore/",
@@ -1499,6 +1563,82 @@
     "value": 12442,
     "value_max": null,
     "verification_status": "unverified"
+  },
+  "C-1af360e4e4": {
+    "citation_check": {
+      "final_url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-1af360e4e4",
+    "claim_key": "appreciation|unmapped|apartment|appreciation_pct|average residential prices q3 2026 yoy anarock",
+    "claim_type": "appreciation",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "anarock"
+    ],
+    "domain": "businesstoday.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "followed by Bengaluru at 8%.",
+    "fact_key": "F-482a124f71",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "relays:anarock"
+    ],
+    "group": "india_today",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "appreciation_pct",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "anarock",
+    "period_years": 1,
+    "price_basis": "unknown",
+    "price_kind": "analyst_estimate",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-09-29",
+    "publisher": "Business Today",
+    "recheck": {
+      "claim_id": "C-1af360e4e4",
+      "reason": "Article dated 29 Sep 2026 says NCR highest at 12% 'followed by Bengaluru at 8%'.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-1af360e4e4",
+        "reason": "Article dated 29 Sep 2026 says NCR highest at 12% 'followed by Bengaluru at 8%'.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "Anarock data reported by Business Today on 29 September 2026 showed Bengaluru's average housing prices rose 8% year-on-year in Q3 2026 (July-September), among the highest of the top seven cities.",
+    "subject": "Bengaluru average residential prices Q3 2026 YoY (Anarock)",
+    "syndication_id": "SYN-b791322391",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "%",
+    "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+    "value": 8,
+    "value_max": null,
+    "verification_status": "single_source"
   },
   "C-1b05811fe5": {
     "citation_check": {
@@ -3791,6 +3931,87 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-2f6c1f2523": {
+    "citation_check": {
+      "final_url": "https://www.thenewsminute.com/karnataka/135-km-jams-and-counting-why-bengalurus-orr-firms-want-road-works-delayed",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-2f6c1f2523",
+    "claim_key": "civic_risk|unmapped|commercial|none|orr traffic revamp dispute",
+    "claim_type": "civic_risk",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "tnm"
+    ],
+    "domain": "thenewsminute.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "deep disappointment and serious concern",
+    "fact_key": "F-f681343793",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "tnm",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Outer Ring Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_catalysts_risks",
+    "origin_group": "tnm",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": "2026-08-20",
+    "publisher": "The News Minute",
+    "recheck": {
+      "claim_id": "C-2f6c1f2523",
+      "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-2f6c1f2523",
+        "reason": "TNM article of 20 Aug 2026 reports ORRCA asking a pause of the Rs 450-crore revamp until the Blue Line is complete, and traffic police data of 13.5 km queues by 9:30 am on working days.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-2f6c1f2523",
+        "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:54:05+05:30",
+    "statement": "The News Minute reported on 20 August 2026 that ORRCA asked the GBA to pause the Rs 450-crore ORR revamp until the Blue Line is finished. Traffic police data cited puts weekday queues at about 13.5 km by 9:30 am. Background.",
+    "subject": "ORR traffic and revamp dispute",
+    "syndication_id": "SYN-365e03e3ca",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.thenewsminute.com/karnataka/135-km-jams-and-counting-why-bengalurus-orr-firms-want-road-works-delayed",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-3038dcdea1": {
     "citation_check": {
       "final_url": "https://www.onecityproperty.com/news/devanahalli-plot-investment-destination-in-bangalore",
@@ -5180,6 +5401,87 @@
     "value_max": 193.61,
     "verification_status": "unverified"
   },
+  "C-3ee4af89b4": {
+    "citation_check": {
+      "final_url": "https://swarajyamag.com/news-brief/bengaluru-namma-metro-blue-line-opening-delayed-to-2027-as-civil-works-remain-pending-along-orr-report",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-3ee4af89b4",
+    "claim_key": "project_update|south_core|na|none|namma metro blue line orr kr pura silk board",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "south_core",
+    "corroborating_groups": [
+      "swarajya"
+    ],
+    "domain": "swarajyamag.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "The deadline for starting train operations will now be pushed to 2027",
+    "fact_key": "F-e9e32111c9",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "swarajya",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Outer Ring Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_catalysts_risks",
+    "origin_group": "swarajya",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-08-16",
+    "publisher": "Swarajya",
+    "recheck": {
+      "claim_id": "C-3ee4af89b4",
+      "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-3ee4af89b4",
+        "reason": "Swarajya report of 16 Aug 2026 cites the Times of India and quotes the BMRCL official: 'The deadline for starting train operations will now be pushed to 2027'.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-3ee4af89b4",
+        "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T08:54:05+05:30",
+    "statement": "A Swarajya report on 16 August 2026, citing the Times of India, quoted a BMRCL official saying the Blue Line (KR Pura–Silk Board along the ORR) will not open for commercial service in 2026 and the deadline is pushed to 2027. Background only; it falls outside the 12–15 Oct window.",
+    "subject": "Namma Metro Blue Line (ORR, KR Pura–Silk Board)",
+    "syndication_id": "SYN-b6fe097bd1",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://swarajyamag.com/news-brief/bengaluru-namma-metro-blue-line-opening-delayed-to-2027-as-civil-works-remain-pending-along-orr-report",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-3f23db1a8d": {
     "citation_check": {
       "final_url": "https://www.thenewsminute.com/karnataka/bidadi-township-what-the-project-is-who-opposes-it-and-why",
@@ -5538,6 +5840,71 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-410346ba3f": {
+    "citation_check": {
+      "final_url": "https://metrorailnews.in/bengaluru-metro-pink-line-cmrs-inspection/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-410346ba3f",
+    "claim_key": "project_update|bannerghatta_road|na|none|metro pink line elevated section kalena agrahara tavarekere",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "metro_rail_news"
+    ],
+    "domain": "metrorailnews.in",
+    "event_date": "2026-10-08",
+    "evidenced_stage": null,
+    "excerpt": "must meet the conditions set by the safety commissioner before it can receive authorization to open the line.",
+    "fact_key": "F-00ec7a1c92",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "metro_rail_news",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Bannerghatta Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "metro_rail_news",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-09",
+    "publisher": "Metro Rail News",
+    "region": "south",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "The 7.5 km elevated Pink Line section (Kalena Agrahara–Tavarekere) completed a three-day statutory CMRS safety inspection on 6–8 October; it is not yet cleared for passengers and BMRCL must first meet the safety commissioner's conditions.",
+    "subject": "Bengaluru Metro Pink Line elevated section (Kalena Agrahara–Tavarekere)",
+    "syndication_id": "SYN-d17f0c5eef",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://metrorailnews.in/bengaluru-metro-pink-line-cmrs-inspection/",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-411c3a5eb7": {
     "citation_check": {
       "final_url": "https://swarajyamag.com/news-brief/karnataka-government-rules-out-bengalurus-second-airport-in-tumakuru-for-now",
@@ -5832,6 +6199,82 @@
     "unit": null,
     "url": "https://theprint.in/india/karnataka-govt-forms-committee-to-examine-bidadi-township/3009538/",
     "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
+  "C-44b6990bcb": {
+    "citation_check": {
+      "final_url": "https://www.tribuneindia.com/news/business/bengaluru-housing-prices-jump-24-in-q1-2026-amid-strong-demand-report/",
+      "http": 200,
+      "note": null,
+      "result": "inconclusive",
+      "share": 0.56
+    },
+    "claim_id": "C-44b6990bcb",
+    "claim_key": "price|unmapped|apartment|price_psf|average price q1 2026 proptiger",
+    "claim_type": "price",
+    "comparability": "unknown_basis|analyst_estimate",
+    "confidence": "Low",
+    "confidence_reason": "one reputable source",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "rea_india"
+    ],
+    "domain": "tribuneindia.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Average prices rose 24% year-on-year and 3% quarter-on-quarter to Rs 9,785 per sq. ft.",
+    "fact_key": "F-d1930873d4",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "outside_window",
+      "price_basis_unknown",
+      "relays:rea_india"
+    ],
+    "group": "tribune",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "price_psf",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "rea_india",
+    "period_years": 0.25,
+    "price_basis": "unknown",
+    "price_kind": "analyst_estimate",
+    "property_type": "apartment",
+    "psf_inr": 9785.0,
+    "published_at": "2026-05-27",
+    "publisher": "The Tribune (ANI)",
+    "recheck": {
+      "claim_id": "C-44b6990bcb",
+      "reason": "Page shows 24% YoY and 3% QoQ growth to Rs 9,785/sq ft and 15,603 units sold in Q1 2026, reported by ANI on 27 May 2026.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-44b6990bcb",
+        "reason": "Page shows 24% YoY and 3% QoQ growth to Rs 9,785/sq ft and 15,603 units sold in Q1 2026, reported by ANI on 27 May 2026.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "PropTiger data reported by ANI on 27 May 2026 showed Bengaluru's average housing price rose 24% year-on-year and 3% quarter-on-quarter to Rs 9,785 per sq ft in January-March 2026, with sales of 15,603 units.",
+    "subject": "Bengaluru average price Q1 2026 (PropTiger)",
+    "syndication_id": "SYN-e7f9573c9b",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR/sqft",
+    "url": "https://www.tribuneindia.com/news/business/bengaluru-housing-prices-jump-24-in-q1-2026-amid-strong-demand-report/",
+    "value": 9785,
     "value_max": null,
     "verification_status": "single_source"
   },
@@ -6527,6 +6970,71 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-4d84462380": {
+    "citation_check": {
+      "final_url": "https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-set-for-october-launch-after-railway-board-nod-6-stations-to-open-8214721.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-4d84462380",
+    "claim_key": "project_update|bannerghatta_road|na|none|pink line rolling stock approval",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "oneindia"
+    ],
+    "domain": "oneindia.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "The Railway Board has approved the operation of BEML manufactured trains on the line",
+    "fact_key": "F-adc1c5a15c",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "oneindia",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kalena Agrahara",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:metro_watch",
+    "origin_group": "oneindia",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-09-24",
+    "publisher": "Oneindia",
+    "region": "south",
+    "retrieved_at": "2026-10-15T09:00:26+05:30",
+    "statement": "Oneindia reported on 24 September that the Railway Board approved operation of BEML-built trains on the Pink Line and BMRCL hoped to start services by the second week of October, subject to CMRS clearance, with six stations in the first phase. Background; that target had not been met by the window.",
+    "subject": "Pink Line rolling stock approval",
+    "syndication_id": "SYN-591029d109",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-set-for-october-launch-after-railway-board-nod-6-stations-to-open-8214721.html",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-4d8ba1c28c": {
     "citation_check": {
       "final_url": "https://www.propnewz.com/blog/thanisandra-hennur-north-bengaluru-pricing-buyer-test-2026-05-27",
@@ -7203,6 +7711,68 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-532c598b1f": {
+    "citation_check": {
+      "final_url": "https://www.onecityproperty.com/news/devanahalli-plot-investment-destination-in-bangalore",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-532c598b1f",
+    "claim_key": "price|devanahalli_airport|plot|price_psf|devanahalli plot land rates 2019 vs 2026",
+    "claim_type": "price",
+    "comparability": "land_rate|developer_quote",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (broker_marketing)",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [],
+    "domain": "onecityproperty.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "In 2019, average plot rates in Devanahalli were approximately ₹3,500 per sq ft. In 2026, premium plotted developments near the airport corridor and Aerospace Park are transacting at ₹7,500–₹9,000 per sq ft",
+    "fact_key": "F-a1b4a524bf",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "undated"
+    ],
+    "group": "onecityproperty",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Devanahalli",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "price_psf",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "onecityproperty",
+    "period_years": 7,
+    "price_basis": "land",
+    "price_kind": "developer_quote",
+    "property_type": "plot",
+    "psf_inr": 7500.0,
+    "published_at": null,
+    "publisher": "OneCity Property",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "A June 2026-updated listing guide from a broker/portal-type site (OneCity Property) says premium plotted developments near Devanahalli's airport corridor and Aerospace Park are transacting at Rs 7,500-9,000 per sq ft in 2026 versus about Rs 3,500 in 2019; broker claim, unverified against registrations.",
+    "subject": "Devanahalli plot land rates 2019 vs 2026",
+    "syndication_id": "SYN-8ad1c38f29",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": "INR/sqft",
+    "url": "https://www.onecityproperty.com/news/devanahalli-plot-investment-destination-in-bangalore",
+    "value": 7500,
+    "value_max": 9000,
+    "verification_status": "interested_party_claim"
+  },
   "C-5345a9196f": {
     "citation_check": {
       "final_url": "https://research.jllapsites.com/appd-market-report/q2-2026-residential-bengaluru/",
@@ -7519,6 +8089,152 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-553faea96c": {
+    "citation_check": {
+      "final_url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.92
+    },
+    "claim_id": "C-553faea96c",
+    "claim_key": "project_launch|devanahalli_airport|commercial|none|conrad hilton airport hotels kalyani group",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "domain:hospitalitynet.org"
+    ],
+    "domain": "hospitalitynet.org",
+    "event_date": "2026-10-06",
+    "evidenced_stage": null,
+    "excerpt": "The hotels will form a cluster complex located in KIADB Hi-Tech Defence and Aerospace Park.",
+    "fact_key": "F-7e6ffc2720",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated",
+      "undated"
+    ],
+    "group": "domain:hospitalitynet.org",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "KIADB Hi-Tech Defence and Aerospace Park",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "domain:hospitalitynet.org",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": null,
+    "publisher": "Hospitality Net",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Hilton announced on 6 October 2026 it has signed Conrad Bengaluru Airport and Hilton Bengaluru Airport with Kalyani Group, 300 rooms each, in the KIADB Hi-Tech Defence and Aerospace Park near the airport, expected to open in 2030 (ET TravelWorld covered it 12 October; this is the primary trade report).",
+    "subject": "Conrad and Hilton Bengaluru Airport hotels (Kalyani Group)",
+    "syndication_id": "SYN-e3d3b5ceb6",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "rooms",
+    "url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+    "value": 600,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-55ac794229": {
+    "citation_check": {
+      "final_url": "https://www.businesstoday.in/india/story/work-from-home-cant-be-substitute-for-bengaluru-orr-firms-oppose-rs450-crore-road-revamp-before-metro-opens-549753-2026-08-18",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.91
+    },
+    "claim_id": "C-55ac794229",
+    "claim_key": "civic_risk|south_core|commercial|investment_inr|orr rs 450 crore white topping silk board kr puram",
+    "claim_type": "civic_risk",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "south_core",
+    "corroborating_groups": [
+      "india_today"
+    ],
+    "domain": "businesstoday.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Work From Home cannot be a substitute for effective infrastructure planning and traffic management.",
+    "fact_key": "F-25849125ec",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "india_today",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Outer Ring Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_catalysts_risks",
+    "origin_group": "india_today",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": "2026-08-18",
+    "publisher": "Business Today",
+    "recheck": {
+      "claim_id": "C-55ac794229",
+      "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-55ac794229",
+        "reason": "Page confirms ORRCA with over 500 companies, rejected WFH as a substitute, opposed the Rs 450-crore work before the Metro opens, and the minister directed an October 2026 start.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-55ac794229",
+        "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T08:54:05+05:30",
+    "statement": "Business Today reported on 18 August 2026 that the ORR Companies Association (ORRCA), representing more than 500 firms, rejected a work-from-home suggestion and opposed the Rs 450-crore ORR revamp before the Blue Line opens. The minister had directed work to start in October 2026. Background; the October start is relevant to the window, but no in-window confirmation was found.",
+    "subject": "ORR Rs 450 crore white-topping, Silk Board–KR Puram",
+    "syndication_id": "SYN-f77d3697dc",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://businesstoday.in/india/story/work-from-home-cant-be-substitute-for-bengaluru-orr-firms-oppose-rs450-crore-road-revamp-before-metro-opens-549753-2026-08-18",
+    "value": 450,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-56067526da": {
     "citation_check": {
       "final_url": "https://thesouthfirst.com/karnataka/harohalli-under-consideration-as-preferred-site-for-bengalurus-second-greenfield-airport/",
@@ -7578,6 +8294,144 @@
     "value": null,
     "value_max": null,
     "verification_status": "single_source"
+  },
+  "C-56a2b9dbc8": {
+    "citation_check": {
+      "final_url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-hold-at-260000-in-9m-cy2026;-mumbai-leads/98583",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-56a2b9dbc8",
+    "claim_key": "supply_demand|unmapped|apartment|units_sold|residential sales 9m 2026 knight frank",
+    "claim_type": "supply_demand",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "knight_frank"
+    ],
+    "domain": "constructionworld.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Sales increased 1% year on year in Mumbai and 5% in Bengaluru, while Pune was largely unchanged.",
+    "fact_key": "F-a662f31269",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "relays:knight_frank"
+    ],
+    "group": "construction_world",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_sold",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "knight_frank",
+    "period_years": 0.75,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-09",
+    "publisher": "Construction World",
+    "recheck": {
+      "claim_id": "C-56a2b9dbc8",
+      "reason": "Page reports Bengaluru at 43,140 units in Jan-Sep 2026, second behind Mumbai, with sales up 5% YoY.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-56a2b9dbc8",
+        "reason": "Page reports Bengaluru at 43,140 units in Jan-Sep 2026, second behind Mumbai, with sales up 5% YoY.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "Knight Frank data reported on 9 October 2026 showed Bengaluru recorded 43,140 housing units sold in January-September 2026, second to Mumbai, with sales up 5% year-on-year.",
+    "subject": "Bengaluru residential sales 9M 2026 (Knight Frank)",
+    "syndication_id": "SYN-086923ce4f",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "units",
+    "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-hold-at-260000-in-9m-cy2026;-mumbai-leads/98583",
+    "value": 43140,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
+  "C-57079341b2": {
+    "citation_check": {
+      "final_url": "https://realtynmore.com/shriram-properties-completes-acquisition-of-a-prime-land-on-sarjapur-main-road-to-strengthen-presence-in-south-east-bengaluru/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.89
+    },
+    "claim_id": "C-57079341b2",
+    "claim_key": "project_launch|sarjapur_road|apartment|none|shriram properties sarjapur main road high rise",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (broker_marketing)",
+    "corridor": "sarjapur_road",
+    "corroborating_groups": [],
+    "domain": "realtynmore.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "is expected to be launched during the latter part of 2026",
+    "fact_key": "F-5c50bbf385",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "realtynmore",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Sarjapur Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "realtynmore",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-02-17",
+    "publisher": "Realty n More",
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:53:43+05:30",
+    "statement": "Shriram Properties announced in February 2026 it acquired about 4 acres on Sarjapur Main Road for a premium high-rise with GDV of about Rs 550-600 crore, expected to launch in the latter part of 2026 (trade PR site; no RERA or price given).",
+    "subject": "Shriram Properties Sarjapur Main Road high-rise",
+    "syndication_id": "SYN-da17acfac5",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://realtynmore.com/shriram-properties-completes-acquisition-of-a-prime-land-on-sarjapur-main-road-to-strengthen-presence-in-south-east-bengaluru",
+    "value": null,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
   },
   "C-58887ec6a7": {
     "citation_check": {
@@ -8997,6 +9851,70 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-62cd42a223": {
+    "citation_check": {
+      "final_url": "https://www.newkerala.com/news/a/indias-q3-housing-sales-top-cities-rise-pc-394.htm",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-62cd42a223",
+    "claim_key": "supply_demand|unmapped|apartment|appreciation_pct|launches q3 2026 yoy anarock",
+    "claim_type": "supply_demand",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "anarock"
+    ],
+    "domain": "newkerala.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Hyderabad, MMR and Bengaluru saw new supply increase - by 120 per cent, 27 per cent and 17 per cent, respectively.",
+    "fact_key": "F-ecee9ecb68",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "relays:anarock"
+    ],
+    "group": "domain:newkerala.com",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "appreciation_pct",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "anarock",
+    "period_years": 1,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-09-28",
+    "publisher": "Newkerala (IANS/PTI syndication)",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "Anarock's Q3 2026 data, reported on 28 September 2026, showed Bengaluru's average prices rose 8% year-on-year and new supply (launches) rose 17% year-on-year; no absolute launch count was given.",
+    "subject": "Bengaluru new launches Q3 2026 YoY (Anarock)",
+    "syndication_id": "SYN-5863201a0b",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "% (launch growth YoY)",
+    "url": "https://www.newkerala.com/news/a/indias-q3-housing-sales-top-cities-rise-pc-394.htm",
+    "value": 17,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-6315ddff89": {
     "citation_check": {
       "final_url": "https://www.propnewz.com/blog/sarjapur-road-bengaluru-2026-price-flat-after-79-percent-run-buyer-thesis-2026-05-24",
@@ -9295,6 +10213,68 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-6893a3340e": {
+    "citation_check": {
+      "final_url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-6893a3340e",
+    "claim_key": "project_launch|unmapped|mixed|area_sqft|puravankara sathanur jda",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "aggregator_devdiscourse"
+    ],
+    "domain": "devdiscourse.com",
+    "event_date": "2026-10-12",
+    "evidenced_stage": null,
+    "excerpt": "a saleable area of approximately 1.90 million square feet (msft)",
+    "fact_key": "F-5dc459d58f",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "aggregator_devdiscourse",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sathanur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "area_sqft",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "aggregator_devdiscourse",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "mixed",
+    "psf_inr": null,
+    "published_at": "2026-10-12",
+    "publisher": "Devdiscourse",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Puravankara's Sathanur JDA is expected to yield about 1.90 million sq ft of saleable area, per the company announcement as reported on 12 October 2026.",
+    "subject": "Puravankara Sathanur JDA",
+    "syndication_id": "SYN-30ad3409a5",
+    "tier": "aggregator",
+    "total_inr": null,
+    "unit": "sqft",
+    "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+    "value": 1900000,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-68ff4ac652": {
     "citation_check": {
       "final_url": "https://www.propnewz.com/blog/hebbal-yelahanka-airport-corridor-metro-premium-2026-05-25-fe126",
@@ -9474,6 +10454,88 @@
     "value": 41,
     "value_max": null,
     "verification_status": "single_source"
+  },
+  "C-69efcf6f51": {
+    "citation_check": {
+      "final_url": "https://newskarnataka.com/bengaluru/bengaluru-sadahalli-underpass-to-ease-airport-traffic/15092026/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-69efcf6f51",
+    "claim_key": "infrastructure|devanahalli_airport|na|investment_inr|sadahalli underpass",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "High",
+    "confidence_reason": "2 independent publisher groups",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "construction_world",
+      "newskarnataka"
+    ],
+    "domain": "newskarnataka.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "at an estimated cost of ₹35 crore",
+    "fact_key": "F-b0c942ad89",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "newskarnataka",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sadahalli",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "newskarnataka",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-09-15",
+    "publisher": "News Karnataka",
+    "recheck": {
+      "claim_id": "C-69efcf6f51",
+      "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-69efcf6f51",
+        "reason": "Page dated 15 Sep 2026 reports NHAI started Sadahalli underpass work on Ballari Road at an estimated Rs 35 crore, with about one year to complete.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-69efcf6f51",
+        "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
+        "verdict": "supported"
+      }
+    ],
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Background: NHAI began work on the Sadahalli Junction underpass on Ballari/Airport Road at an estimated Rs 35 crore, with about a year expected to finish, as reported 15 September 2026.",
+    "subject": "Sadahalli underpass",
+    "syndication_id": "SYN-d7c72501db",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://newskarnataka.com/bengaluru/bengaluru-sadahalli-underpass-to-ease-airport-traffic/15092026/",
+    "value": 35,
+    "value_max": null,
+    "verification_status": "corroborated"
   },
   "C-6b46d4e6cc": {
     "citation_check": {
@@ -12103,6 +13165,86 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-8a66c38724": {
+    "citation_check": {
+      "final_url": "https://www.deccanherald.com/amp/story/india/karnataka/bengaluru/preliminary-work-to-begin-soon-on-namma-metro-phase-3a-sarjapur-to-hebbal-3756328",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-8a66c38724",
+    "claim_key": "infrastructure|sarjapur_road|na|investment_inr|namma metro phase 3a red line geotechnical tenders",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "sarjapur_road",
+    "corroborating_groups": [
+      "printers_mysore"
+    ],
+    "domain": "deccanherald.com",
+    "event_date": null,
+    "evidenced_stage": "tendered",
+    "excerpt": "BMRCL has floated tenders worth Rs 6.86 crore to carry out geotechnical investigations in four packages.",
+    "fact_key": "F-a6ed471464",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "undated"
+    ],
+    "group": "printers_mysore",
+    "infra_stage": "tendered",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sarjapur Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "printers_mysore",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": null,
+    "publisher": "Deccan Herald",
+    "recheck": {
+      "claim_id": "C-8a66c38724",
+      "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+      "verdict": "unable"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-8a66c38724",
+        "reason": "Deccan Herald AMP page returned HTTP 403, so the page could not be read.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-8a66c38724",
+        "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+        "verdict": "unable"
+      }
+    ],
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Background, undated: BMRCL floated about Rs 6.86 crore of tenders for geotechnical investigations in four packages for the Sarjapur–Hebbal Phase 3A (Red Line). This is context for the 15 October lead on soil testing on Sarjapur Road, which I could not find or verify.",
+    "subject": "Namma Metro Phase 3A (Red Line) geotechnical tenders",
+    "syndication_id": "SYN-c8acebc2c6",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fpreliminary-work-to-begin-soon-on-namma-metro-phase-3a-sarjapur-to-hebbal-3756328",
+    "value": 6.86,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-8a753aec15": {
     "citation_check": {
       "final_url": "https://newsable.asianetnews.com/business/india-office-leasing-rises-7-yoy-in-jan-sep-2026-bengaluru-leads-articleshow-cpfha99",
@@ -12341,6 +13483,68 @@
     "value_max": 19,
     "verification_status": "interested_party_claim"
   },
+  "C-8dbd43609b": {
+    "citation_check": {
+      "final_url": "https://propnewstime.com/latestnewsstories/MzgyNTE=/puravankara-signs-12-76-acre-jda-in-north-bengaluru-with-inr-2-500-crore-development-potential",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-8dbd43609b",
+    "claim_key": "project_launch|unmapped|apartment|investment_inr|puravankara sathanur jda",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "domain:propnewstime.com"
+    ],
+    "domain": "propnewstime.com",
+    "event_date": null,
+    "evidenced_stage": "announced",
+    "excerpt": "signed a Joint Development Agreement (JDA) for a 12.76-acre land parcel in Sathanur",
+    "fact_key": "F-2ef2145a57",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "domain:propnewstime.com",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sathanur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "domain:propnewstime.com",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "developer_quote",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-14",
+    "publisher": "Prop News Time (PTI)",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Puravankara signed a joint development agreement for a 12.76-acre parcel in Sathanur, North Bengaluru. It estimates a gross development value of INR 2,500 crore and about 1.90 million sq ft of saleable residential area. This is a developer announcement carried by PTI.",
+    "subject": "Puravankara Sathanur JDA",
+    "syndication_id": "SYN-5dd34511a9",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://propnewstime.com/latestnewsstories/MzgyNTE=/puravankara-signs-12-76-acre-jda-in-north-bengaluru-with-inr-2-500-crore-development-potential",
+    "value": 2500,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-8e19b3427a": {
     "citation_check": {
       "final_url": "https://tradebrains.in/money/disney-linkedin-and-other-mncs-leasing-office-space-in-bellandur-is-it-emerging-as-south-bengalurus-dominant-it-corridor/",
@@ -12404,6 +13608,71 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-8ed90f570e": {
+    "citation_check": {
+      "final_url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-8ed90f570e",
+    "claim_key": "infrastructure|sarjapur_road|na|investment_inr|namma metro red line phase 3a sarjapur hebbal",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "sarjapur_road",
+    "corroborating_groups": [
+      "deccan_chronicle"
+    ],
+    "domain": "deccanchronicle.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "reduction in cost from ₹28,405 crore to ₹25,999 crore",
+    "fact_key": "F-9734322202",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "deccan_chronicle",
+    "infra_stage": "proposed",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sarjapur Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "deccan_chronicle",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-07-18",
+    "publisher": "Deccan Chronicle",
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:53:43+05:30",
+    "statement": "Deccan Chronicle reported on 18 July 2026 that the revised DPR for Namma Metro's Sarjapur–Hebbal Red Line (Phase 3A) cut the cost from Rs 28,405 crore to Rs 25,999 crore and pushed completion to April 2033 (background for the Sarjapur Road soil-testing lead).",
+    "subject": "Namma Metro Red Line (Phase 3A) Sarjapur–Hebbal",
+    "syndication_id": "SYN-1c1e792765",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+    "value": 25999,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-8f0a1915ed": {
     "citation_check": {
       "final_url": "https://indiaseatradenews.com/collins-aerospace-opens-new-operations-centre-at-devanahalli-aerospace-park/",
@@ -12463,6 +13732,68 @@
     "unit": null,
     "url": "https://indiaseatradenews.com/collins-aerospace-opens-new-operations-centre-at-devanahalli-aerospace-park/",
     "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-8fb36ba79c": {
+    "citation_check": {
+      "final_url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-8fb36ba79c",
+    "claim_key": "transaction|unmapped|mixed|investment_inr|puravankara sathanur jda",
+    "claim_type": "transaction",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "aggregator_devdiscourse"
+    ],
+    "domain": "devdiscourse.com",
+    "event_date": "2026-10-12",
+    "evidenced_stage": null,
+    "excerpt": "has signed a Joint Development Agreement (JDA) for a 12.76-acre land parcel in Sathanur, North Bengaluru",
+    "fact_key": "F-21270614fc",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "aggregator_devdiscourse",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sathanur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "aggregator_devdiscourse",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "mixed",
+    "psf_inr": null,
+    "published_at": "2026-10-12",
+    "publisher": "Devdiscourse",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Puravankara Ltd announced on 12 October 2026 that it has signed a joint development agreement for a 12.76-acre land parcel in Sathanur, North Bengaluru, with an estimated gross development value of Rs 2,500 crore and about 1.90 million sq ft of saleable area.",
+    "subject": "Puravankara Sathanur JDA",
+    "syndication_id": "SYN-5dd34511a9",
+    "tier": "aggregator",
+    "total_inr": null,
+    "unit": "INR crore (estimated GDV, not purchase price)",
+    "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+    "value": 2500,
     "value_max": null,
     "verification_status": "unverified"
   },
@@ -13414,6 +14745,153 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-961687ce2f": {
+    "citation_check": {
+      "final_url": "https://www.constructionworld.in/transport-infrastructure/highways-and-roads-infrastructure/nhai-to-start-sadahalli-underpass-for-signal-free-airport-corridor/94352",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.83
+    },
+    "claim_id": "C-961687ce2f",
+    "claim_key": "infrastructure|devanahalli_airport|na|investment_inr|sadahalli underpass",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "High",
+    "confidence_reason": "2 independent publisher groups",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "construction_world",
+      "newskarnataka"
+    ],
+    "domain": "constructionworld.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "The 700 metre underpass will be six lanes.",
+    "fact_key": "F-a394d363b7",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "construction_world",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sadahalli",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "construction_world",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-07-15",
+    "publisher": "Construction World",
+    "recheck": {
+      "claim_id": "C-961687ce2f",
+      "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-961687ce2f",
+        "reason": "Page gives 700 m, six lanes, Rs 350 million, September 2026 excavation, 15 months of night work, dated 15 July 2026.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-961687ce2f",
+        "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Background: Construction World reported on 15 July 2026 that the Sadahalli underpass would be 700 m, six lanes, cost Rs 350 million, with excavation expected from September 2026 and night work approved for 15 months.",
+    "subject": "Sadahalli underpass",
+    "syndication_id": "SYN-3ba361c3a0",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR million",
+    "url": "https://www.constructionworld.in/transport-infrastructure/highways-and-roads-infrastructure/nhai-to-start-sadahalli-underpass-for-signal-free-airport-corridor/94352",
+    "value": 350,
+    "value_max": null,
+    "verification_status": "corroborated"
+  },
+  "C-9725810d32": {
+    "citation_check": {
+      "final_url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-9725810d32",
+    "claim_key": "infrastructure|sarjapur_road|na|none|namma metro red line phase 3a construction start",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "sarjapur_road",
+    "corroborating_groups": [
+      "deccan_chronicle"
+    ],
+    "domain": "deccanchronicle.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Construction is now targeted to begin by May 2027.",
+    "fact_key": "F-7239b99dfc",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "deccan_chronicle",
+    "infra_stage": "proposed",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sarjapur Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "deccan_chronicle",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-07-18",
+    "publisher": "Deccan Chronicle",
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:53:43+05:30",
+    "statement": "Deccan Chronicle reported that construction on the Red Line is now targeted to begin by May 2027, with the updated DPR resubmitted in April and central approval still pending (background, July 2026).",
+    "subject": "Namma Metro Red Line (Phase 3A) construction start",
+    "syndication_id": "SYN-f9dbc94156",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-975859201d": {
     "citation_check": {
       "final_url": "https://www.storyboard18.com/brand-marketing/godrej-properties-buys-20-acre-land-in-bengaluru-for-1350-crore-project-ws-l-92554.htm",
@@ -13889,6 +15367,69 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-9eb85e1165": {
+    "citation_check": {
+      "final_url": "https://www.nativeplanet.com/news/bengaluru-metro-blue-line-trial-runs-to-start-in-october-and-services-to-begin-in-2027-023179.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.9
+    },
+    "claim_id": "C-9eb85e1165",
+    "claim_key": "project_update|unmapped|na|none|namma metro blue line trial runs",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "domain:nativeplanet.com"
+    ],
+    "domain": "nativeplanet.com",
+    "event_date": null,
+    "evidenced_stage": "under_construction",
+    "excerpt": "to start trial runs of the Namma Metro Blue Line in October",
+    "fact_key": "F-31cac47fd3",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window"
+    ],
+    "group": "domain:nativeplanet.com",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Outer Ring Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_catalysts_risks",
+    "origin_group": "domain:nativeplanet.com",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-07-27",
+    "publisher": "Native Planet",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:54:05+05:30",
+    "statement": "Native Planet reported on 27 July 2026 that Minister Krishna Byre Gowda asked BMRCL to start Blue Line trial runs in October, with commercial service expected in 2027. Background; I found no confirmation that trials began in the window.",
+    "subject": "Namma Metro Blue Line trial runs",
+    "syndication_id": "SYN-b39b4225db",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.nativeplanet.com/news/bengaluru-metro-blue-line-trial-runs-to-start-in-october-and-services-to-begin-in-2027-023179.html",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-9fdf54956f": {
     "citation_check": {
       "final_url": "https://www.freepressjournal.in/business/embassy-developments-records-1800-crore-pre-sales-at-embassy-origins-launch",
@@ -14206,6 +15747,89 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-a20a3fedd5": {
+    "citation_check": {
+      "final_url": "https://swarajyamag.com/news-brief/bengaluru-namma-metro-blue-line-opening-delayed-to-2027-as-civil-works-remain-pending-along-orr-report",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.88
+    },
+    "claim_id": "C-a20a3fedd5",
+    "claim_key": "project_update|orr_east|na|none|namma metro blue line execution delays",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "independent reviews disagreed; held back pending human review: Article supports the not-feasible-in-2026 point, but describes unfinished works at Marathahalli and Central Silk Board, not specifically stations.",
+    "corridor": "orr_east",
+    "corroborating_groups": [
+      "swarajya"
+    ],
+    "domain": "swarajyamag.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "meeting the commercial operation target within 2026 is not feasible",
+    "fact_key": "F-af9347148e",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "recheck_failed",
+      "reviewer_split",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "swarajya",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Marathahalli",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_catalysts_risks",
+    "origin_group": "swarajya",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-08-16",
+    "publisher": "Swarajya",
+    "recheck": {
+      "claim_id": "C-a20a3fedd5",
+      "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-a20a3fedd5",
+        "reason": "Article supports the not-feasible-in-2026 point, but describes unfinished works at Marathahalli and Central Silk Board, not specifically stations.",
+        "verdict": "not_supported"
+      },
+      {
+        "claim_id": "C-a20a3fedd5",
+        "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:54:05+05:30",
+    "statement": "Swarajya reported on 16 August 2026 that a BMRCL official said meeting the Blue Line's commercial operation target within 2026 is not feasible. Unfinished work includes the Marathahalli and Central Silk Board stations and the depot link. Background only.",
+    "subject": "Namma Metro Blue Line execution delays",
+    "syndication_id": "SYN-dcd8a9e6d9",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://swarajyamag.com/news-brief/bengaluru-namma-metro-blue-line-opening-delayed-to-2027-as-civil-works-remain-pending-along-orr-report",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-a55a2b8965": {
     "citation_check": {
       "final_url": "https://tradebrains.in/money/south-east-bengalurus-it-boom-will-hsbc-accenture-disney-honeywell-push-property-prices-higher-in-the-bellandurpanathur-area-12668987",
@@ -14391,6 +16015,70 @@
     "value": 20,
     "value_max": null,
     "verification_status": "interested_party_claim"
+  },
+  "C-a7657b7895": {
+    "citation_check": {
+      "final_url": "https://metrorailnews.in/bengaluru-metro-pink-line-pm-inauguration-date/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-a7657b7895",
+    "claim_key": "project_update|bannerghatta_road|na|none|metro pink line inauguration",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "metro_rail_news"
+    ],
+    "domain": "metrorailnews.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Karnataka Chief Minister DK Shivakumar has sought a date from Prime Minister Narendra Modi to inaugurate",
+    "fact_key": "F-0725758fbb",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "metro_rail_news",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Bannerghatta Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "metro_rail_news",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-13",
+    "publisher": "Metro Rail News",
+    "region": "south",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Chief Minister DK Shivakumar has sought a date from PM Narendra Modi to inaugurate the 7.5 km Pink Line section. The request went to the PMO the previous week and a response is awaited. BMRCL received CMRS observations on 9 October and planned to file its compliance report on 13 October. The opening may come around Dasara, with no date confirmed.",
+    "subject": "Bengaluru Metro Pink Line inauguration",
+    "syndication_id": "SYN-9ded338dbd",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://metrorailnews.in/bengaluru-metro-pink-line-pm-inauguration-date",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
   },
   "C-a8b1ac663c": {
     "citation_check": {
@@ -14710,6 +16398,87 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-aa236f5422": {
+    "citation_check": {
+      "final_url": "https://theprint.in/india/karnataka-govt-notifies-road-grid-for-bengaluru-urban-areas-outside-gba/3056965/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-aa236f5422",
+    "claim_key": "policy|unmapped|mixed|none|road grid notification urban areas outside gba bmrda",
+    "claim_type": "policy",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "theprint"
+    ],
+    "domain": "theprint.in",
+    "event_date": "2026-09-29",
+    "evidenced_stage": null,
+    "excerpt": "Roads that were previously as narrow as 10 metres have been notified for widths of 30 metres, 45 metres and, in some cases, up to 90 metres, the GBA said.",
+    "fact_key": "F-fe26bd25fa",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "theprint",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "theprint",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "mixed",
+    "psf_inr": null,
+    "published_at": "2026-09-29",
+    "publisher": "ThePrint (PTI)",
+    "recheck": {
+      "claim_id": "C-aa236f5422",
+      "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-aa236f5422",
+        "reason": "ThePrint (29 Sep 2026) states the 30/45/up-to-90 m widths from as narrow as 10 m and that land must be left vacant for new layouts or houses.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-aa236f5422",
+        "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Background, 29 September 2026: Karnataka notified a road grid for Bengaluru Urban areas outside the GBA. Roads previously as narrow as 10 m are notified at 30 m, 45 m and up to 90 m. Land in these corridors must be left vacant when new layouts or houses are built.",
+    "subject": "Road grid notification for Bengaluru Urban areas outside GBA (BMRDA)",
+    "syndication_id": "SYN-136cf35abd",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://theprint.in/india/karnataka-govt-notifies-road-grid-for-bengaluru-urban-areas-outside-gba/3056965/",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-aa315c5c73": {
     "citation_check": {
       "final_url": "https://www.propnewz.com/blog/brigade-gunjur-jda-39-acre-whitefield-sarjapur-township-7200-cr-2026-05-19",
@@ -14767,6 +16536,336 @@
     "value": 9500,
     "value_max": 14000,
     "verification_status": "interested_party_claim"
+  },
+  "C-ac140bd726": {
+    "citation_check": {
+      "final_url": "https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-clears-safety-inspection-final-approval-awaited-8230107.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-ac140bd726",
+    "claim_key": "project_update|bannerghatta_road|na|none|pink line elevated section cmrs inspection",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "oneindia"
+    ],
+    "domain": "oneindia.com",
+    "event_date": "2026-10-08",
+    "evidenced_stage": null,
+    "excerpt": "completed the inspection on October 8",
+    "fact_key": "F-c2c5d8abae",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "oneindia",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kalena Agrahara",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:metro_watch",
+    "origin_group": "oneindia",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-09",
+    "publisher": "Oneindia",
+    "region": "south",
+    "retrieved_at": "2026-10-15T09:00:26+05:30",
+    "statement": "Oneindia reported on 9 October that CMRS Southern Circle completed its three-day inspection (6–8 October) of the 7.5-km elevated Pink Line stretch, and BMRCL must meet the commissioner's conditions before final authorisation; no opening date was given. Just before the window; background for the in-window status.",
+    "subject": "Pink Line elevated section CMRS inspection",
+    "syndication_id": "SYN-cb93b8577b",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-clears-safety-inspection-final-approval-awaited-8230107.html",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-ac9c9414ef": {
+    "citation_check": {
+      "final_url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.83
+    },
+    "claim_id": "C-ac9c9414ef",
+    "claim_key": "project_update|devanahalli_airport|commercial|none|conrad hilton airport hotels kalyani group",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "domain:hospitalitynet.org"
+    ],
+    "domain": "hospitalitynet.org",
+    "event_date": "2026-10-06",
+    "evidenced_stage": null,
+    "excerpt": "The hotels are expected to open in 2030.",
+    "fact_key": "F-9c170e7686",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "stage_not_evidenced_in_excerpt",
+      "undated"
+    ],
+    "group": "domain:hospitalitynet.org",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "KIADB Hi-Tech Defence and Aerospace Park",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "domain:hospitalitynet.org",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": null,
+    "publisher": "Hospitality Net",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Hilton said the two Kalyani Group airport hotels in Bengaluru are expected to open in 2030.",
+    "subject": "Conrad and Hilton Bengaluru Airport hotels (Kalyani Group)",
+    "syndication_id": "SYN-d698db60a3",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-ad0b40f118": {
+    "citation_check": {
+      "final_url": "https://www.newkerala.com/news/a/indias-q3-housing-sales-top-cities-rise-pc-394.htm",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-ad0b40f118",
+    "claim_key": "supply_demand|unmapped|apartment|units_sold|residential sales q3 2026 anarock",
+    "claim_type": "supply_demand",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "anarock"
+    ],
+    "domain": "newkerala.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "MMR recorded the highest sales of nearly 31,750 units, followed by Bengaluru with approximately 16,670 units.",
+    "fact_key": "F-462ea7fb02",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "relays:anarock"
+    ],
+    "group": "domain:newkerala.com",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_sold",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "anarock",
+    "period_years": 0.25,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-09-28",
+    "publisher": "Newkerala (IANS/PTI syndication)",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "Anarock data released on 28 September 2026 showed Bengaluru recorded about 16,670 housing units sold in July-September 2026, the second-highest among India's top cities after MMR.",
+    "subject": "Bengaluru residential sales Q3 2026 (Anarock)",
+    "syndication_id": "SYN-4bf99305a1",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "units",
+    "url": "https://www.newkerala.com/news/a/indias-q3-housing-sales-top-cities-rise-pc-394.htm",
+    "value": 16670,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-ad2aaf424c": {
+    "citation_check": {
+      "final_url": "https://www.propnewz.com/blog/gunjur-panathur-varthur-sarjapur-corridor-buyer-2026-05-29",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-ad2aaf424c",
+    "claim_key": "infrastructure|varthur_gunjur|na|none|varthur gunjur road sh 35 widening",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (broker_marketing)",
+    "corridor": "varthur_gunjur",
+    "corroborating_groups": [],
+    "domain": "propnewz.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "the Varthur-Gunjur road widening has slipped to 2027",
+    "fact_key": "F-f59c7452d0",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "propnewz",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Gunjur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "propnewz",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-08-26",
+    "publisher": "PropNewz",
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:53:43+05:30",
+    "statement": "The same PropNewz guide reports the Varthur–Gunjur (SH-35) road widening has slipped to 2027 amid stuck land-acquisition cases.",
+    "subject": "Varthur–Gunjur road (SH-35) widening",
+    "syndication_id": "SYN-790a59dfd6",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.propnewz.com/blog/gunjur-panathur-varthur-sarjapur-corridor-buyer-2026-05-29",
+    "value": null,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
+  },
+  "C-ad429d01df": {
+    "citation_check": {
+      "final_url": "https://newsable.asianetnews.com/amp/karnataka-news/bengaluru-metro-pink-line-cmrs-inspection-from-october-6-100-km-mark-in-sight-articleshow-egxcgh9",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-ad429d01df",
+    "claim_key": "project_update|bannerghatta_road|na|none|pink line elevated section",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "asianet"
+    ],
+    "domain": "newsable.asianetnews.com",
+    "event_date": "2026-09-18",
+    "evidenced_stage": "under_construction",
+    "excerpt": "Bengaluru Metro’s Pink Line is set for a CMRS safety inspection from October 6 to 8.",
+    "fact_key": "F-e8e665baa3",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window"
+    ],
+    "group": "asianet",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kalena Agrahara",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:metro_watch",
+    "origin_group": "asianet",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-02",
+    "publisher": "Asianet Newsable",
+    "recheck": {
+      "claim_id": "C-ad429d01df",
+      "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-ad429d01df",
+        "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T09:00:26+05:30",
+    "statement": "Asianet Newsable reported on 2 October that BMRCL applied for the CMRS inspection on 18 September and the Pink Line's 7.5-km elevated stretch would take the Namma Metro network past 100 km; Minister Krishna Byre Gowda had earlier said it would open by September 2026, a date that slipped. Background.",
+    "subject": "Pink Line elevated section",
+    "syndication_id": "SYN-354de63f6e",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://newsable.asianetnews.com/amp/karnataka-news/bengaluru-metro-pink-line-cmrs-inspection-from-october-6-100-km-mark-in-sight-articleshow-egxcgh9",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
   },
   "C-addcb93af8": {
     "citation_check": {
@@ -14964,6 +17063,68 @@
     "unit": "INR/sqft",
     "url": "https://websitemedia.anarock.com/media/Q3_2026_Pan_India_Residential_Market_Viewpoints_9cf1a7e616.pdf",
     "value": 9600,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
+  },
+  "C-aee6cff952": {
+    "citation_check": {
+      "final_url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.92
+    },
+    "claim_id": "C-aee6cff952",
+    "claim_key": "project_launch|hebbal_yelahanka|apartment|units_launched|astoria century immencity",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (developer)",
+    "corridor": "hebbal_yelahanka",
+    "corroborating_groups": [],
+    "domain": "vmpl.scnwire.com",
+    "event_date": "2026-10-10",
+    "evidenced_stage": null,
+    "excerpt": "The Astoria comprises an intentionally limited collection of 334 Neo Luxe Residences across five towers.",
+    "fact_key": "F-85a887b232",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "press_wire_scn",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Jakkur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_launched",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "press_wire_scn",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-10",
+    "publisher": "SCN Wire (developer press release)",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Century Real Estate on 10 October 2026 formally launched The Astoria, a 334-residence, five-tower project at Century Immencity in Jakkur, saying bookings since its July 2026 pre-launch as 'Codename Bluemoon' have crossed Rs 550 crore (developer claim, unverified; published just before the window).",
+    "subject": "The Astoria, Century Immencity",
+    "syndication_id": "SYN-debac7e66b",
+    "tier": "developer",
+    "total_inr": null,
+    "unit": "units",
+    "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+    "value": 334,
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
@@ -15262,6 +17423,69 @@
     "value": 15,
     "value_max": null,
     "verification_status": "unverified"
+  },
+  "C-b4e819dcfd": {
+    "citation_check": {
+      "final_url": "https://www.propnewz.com/blog/gunjur-panathur-varthur-sarjapur-corridor-buyer-2026-05-29",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-b4e819dcfd",
+    "claim_key": "price|varthur_gunjur|apartment|price_psf|gunjur apartment asking rates",
+    "claim_type": "price",
+    "comparability": "unknown_basis|asking",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (broker_marketing)",
+    "corridor": "varthur_gunjur",
+    "corroborating_groups": [],
+    "domain": "propnewz.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Gunjur apartments average roughly Rs 11,000 to 12,050 per sq ft in 2026",
+    "fact_key": "F-c8eaf9382a",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window",
+      "price_basis_unknown"
+    ],
+    "group": "propnewz",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Gunjur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "price_psf",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "propnewz",
+    "period_years": null,
+    "price_basis": "unknown",
+    "price_kind": "asking",
+    "property_type": "apartment",
+    "psf_inr": 11000.0,
+    "published_at": "2026-08-26",
+    "publisher": "PropNewz",
+    "region": "east",
+    "retrieved_at": "2026-10-15T08:53:43+05:30",
+    "statement": "A PropNewz buyer guide says Gunjur apartments average roughly Rs 11,000-12,050 per sq ft in 2026, citing listing-portal data (basis not stated; page date inconsistent: 29 May / 26 Aug 2026).",
+    "subject": "Gunjur apartment asking rates",
+    "syndication_id": "SYN-3c253bbdec",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": "INR/sqft",
+    "url": "https://www.propnewz.com/blog/gunjur-panathur-varthur-sarjapur-corridor-buyer-2026-05-29",
+    "value": 11000,
+    "value_max": 12050,
+    "verification_status": "interested_party_claim"
   },
   "C-b58f397db3": {
     "citation_check": {
@@ -16014,6 +18238,82 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-bb90c3d21a": {
+    "citation_check": {
+      "final_url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-bb90c3d21a",
+    "claim_key": "supply_demand|unmapped|apartment|units_sold|sales growth q3 2026 anarock",
+    "claim_type": "supply_demand",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "anarock"
+    ],
+    "domain": "businesstoday.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "followed by Bengaluru at 16,670 units.",
+    "fact_key": "F-c4ede3ba71",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "relays:anarock"
+    ],
+    "group": "india_today",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_sold",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "anarock",
+    "period_years": 0.25,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-09-29",
+    "publisher": "Business Today",
+    "recheck": {
+      "claim_id": "C-bb90c3d21a",
+      "reason": "Page gives Bengaluru sales of about 16,670 units, 12% annual growth, no Bengaluru inventory figure, and about 6,30,590 seven-city inventory.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-bb90c3d21a",
+        "reason": "Page gives Bengaluru sales of about 16,670 units, 12% annual growth, no Bengaluru inventory figure, and about 6,30,590 seven-city inventory.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "Business Today on 29 September 2026 reported Anarock data showing Bengaluru housing sales up 12% year-on-year in Q3 2026 to 16,670 units; no Bengaluru-specific unsold inventory figure was given (seven-city total about 6.3 lakh units).",
+    "subject": "Bengaluru sales growth Q3 2026 (Anarock)",
+    "syndication_id": "SYN-7c004aa0b9",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "units",
+    "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
+    "value": 16670,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-bc140396c9": {
     "citation_check": {
       "final_url": "https://theprint.in/india/karnataka-govt-forms-committee-to-examine-bidadi-township/3009538/",
@@ -16487,6 +18787,68 @@
     "value": 15611,
     "value_max": null,
     "verification_status": "unverified"
+  },
+  "C-bf9e4ebdd2": {
+    "citation_check": {
+      "final_url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-bf9e4ebdd2",
+    "claim_key": "supply_demand|hebbal_yelahanka|apartment|investment_inr|astoria century immencity",
+    "claim_type": "supply_demand",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (developer)",
+    "corridor": "hebbal_yelahanka",
+    "corroborating_groups": [],
+    "domain": "vmpl.scnwire.com",
+    "event_date": "2026-10-10",
+    "evidenced_stage": null,
+    "excerpt": "Since its pre-launch, the project has crossed ₹550 crore in bookings.",
+    "fact_key": "F-5d39883c4e",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "press_wire_scn",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Jakkur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "press_wire_scn",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-10",
+    "publisher": "SCN Wire (developer press release)",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Century Real Estate said The Astoria in Jakkur has crossed Rs 550 crore in bookings since its pre-launch (developer claim).",
+    "subject": "The Astoria, Century Immencity",
+    "syndication_id": "SYN-29c83eca0c",
+    "tier": "developer",
+    "total_inr": null,
+    "unit": "INR crore (bookings, developer claim)",
+    "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+    "value": 550,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
   },
   "C-c1446b6c64": {
     "citation_check": {
@@ -17072,6 +19434,85 @@
     "value": 600,
     "value_max": null,
     "verification_status": "interested_party_claim"
+  },
+  "C-c55b9ea49a": {
+    "citation_check": {
+      "final_url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-metros-pink-line-faces-36-safety-and-technical-deficiencies-4183261",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-c55b9ea49a",
+    "claim_key": "project_update|bannerghatta_road|na|none|metro pink line cmrs observations",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "printers_mysore"
+    ],
+    "domain": "deccanherald.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Bengaluru Metro’s Pink Line faces 36 safety and technical deficiencies",
+    "fact_key": "F-d9d8f9dd4d",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "printers_mysore",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Bannerghatta Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "printers_mysore",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-15",
+    "publisher": "Deccan Herald",
+    "recheck": {
+      "claim_id": "C-c55b9ea49a",
+      "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+      "verdict": "unable"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-c55b9ea49a",
+        "reason": "Deccan Herald returned HTTP 403, so the page could not be read.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-c55b9ea49a",
+        "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+        "verdict": "unable"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Deccan Herald reported on 15 October that the Pink Line faces 36 safety and technical deficiencies. I could not open the article, so only the headline is confirmed. Metro Rail News (13 Oct) says BMRCL received CMRS observations on 9 October and planned to submit its compliance report on 13 October, but gives no count.",
+    "subject": "Bengaluru Metro Pink Line CMRS observations",
+    "syndication_id": "SYN-32e429f7d6",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "deficiencies",
+    "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-metros-pink-line-faces-36-safety-and-technical-deficiencies-4183261",
+    "value": 36,
+    "value_max": null,
+    "verification_status": "single_source"
   },
   "C-c6396c19f1": {
     "citation_check": {
@@ -20710,6 +23151,70 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-ed6c22361b": {
+    "citation_check": {
+      "final_url": "https://newskarnataka.com/bengaluru/hebbal-tunnel-1072-trees-to-be-transplanted-56-felled/10102026/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-ed6c22361b",
+    "claim_key": "civic_risk|hebbal_yelahanka|na|none|hebbal short tunnel road",
+    "claim_type": "civic_risk",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "hebbal_yelahanka",
+    "corroborating_groups": [
+      "newskarnataka"
+    ],
+    "domain": "newskarnataka.com",
+    "event_date": "2026-10-10",
+    "evidenced_stage": null,
+    "excerpt": "1,072 trees identified along the project corridor are proposed to be transplanted, while 56 trees are slated to be felled.",
+    "fact_key": "F-a1c5cb3354",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "newskarnataka",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Hebbal",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "newskarnataka",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-10",
+    "publisher": "News Karnataka",
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "BDA chairman N.A. Harris said on about 10 October 2026 that 1,072 trees along the Hebbal short tunnel corridor are proposed to be transplanted and 56 felled (published just before the window).",
+    "subject": "Hebbal short tunnel road",
+    "syndication_id": "SYN-e88b6ce1b6",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "trees (1,072 transplant + 56 felled)",
+    "url": "https://newskarnataka.com/bengaluru/hebbal-tunnel-1072-trees-to-be-transplanted-56-felled/10102026/",
+    "value": 1128,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-ee3b293998": {
     "citation_check": {
       "final_url": "https://swarajyamag.com/amp/story/news-brief/bengaluru-bmrcl-studies-16-km-double-decker-metro-extension-from-kr-pura-to-hoskote-report",
@@ -21269,6 +23774,83 @@
     "value_max": 18100,
     "verification_status": "interested_party_claim"
   },
+  "C-f4fd3a0255": {
+    "citation_check": {
+      "final_url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-f4fd3a0255",
+    "claim_key": "price|unmapped|apartment|price_psf|average price q2 2026 proptiger",
+    "claim_type": "price",
+    "comparability": "unknown_basis|analyst_estimate",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "rea_india"
+    ],
+    "domain": "outlookmoney.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Bengaluru has led the price growth chart with a 26 per cent annual increase, which takes the average price up to Rs 9,931 per square foot.",
+    "fact_key": "F-902a1f2f84",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "price_basis_unknown",
+      "relays:rea_india"
+    ],
+    "group": "outlook",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": null,
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "price_psf",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:market_baseline",
+    "origin_group": "rea_india",
+    "period_years": 0.25,
+    "price_basis": "unknown",
+    "price_kind": "analyst_estimate",
+    "property_type": "apartment",
+    "psf_inr": 9931.0,
+    "published_at": "2026-08-20",
+    "publisher": "Outlook Money",
+    "recheck": {
+      "claim_id": "C-f4fd3a0255",
+      "reason": "Page shows Rs 9,931/sq ft, 26% YoY growth leading all cities, and sales down to 14,186 from 15,628 in Apr-Jun 2026 (PropTiger).",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-f4fd3a0255",
+        "reason": "Page shows Rs 9,931/sq ft, 26% YoY growth leading all cities, and sales down to 14,186 from 15,628 in Apr-Jun 2026 (PropTiger).",
+        "verdict": "supported"
+      }
+    ],
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T08:56:17+05:30",
+    "statement": "PropTiger data reported on 20 August 2026 put Bengaluru's average housing price at Rs 9,931 per sq ft in April-June 2026, up 26% year-on-year, the highest among top cities, even as sales fell to 14,186 units from 15,628 a year earlier.",
+    "subject": "Bengaluru average price Q2 2026 (PropTiger)",
+    "syndication_id": "SYN-ec25042517",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR/sqft",
+    "url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
+    "value": 9931,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-f51fd61608": {
     "citation_check": {
       "final_url": "https://scanx.trade/stock-market-news/companies/prestige-estates-projects-launches-phase-2-of-prestige-gardenia-estates-in-devanahalli-bengaluru/43304401",
@@ -21798,6 +24380,68 @@
     "value_max": 6000,
     "verification_status": "unverified"
   },
+  "C-f95ee39e85": {
+    "citation_check": {
+      "final_url": "https://propnewstime.com/latestnewsstories/MzgyOTQ=/karnataka-rera-bars-builders-from-passing-project-costs-to-homebuyers",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-f95ee39e85",
+    "claim_key": "legal|mysore_road|apartment|none|k rera order pass through project costs kengeri",
+    "claim_type": "legal",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "mysore_road",
+    "corroborating_groups": [
+      "domain:propnewstime.com"
+    ],
+    "domain": "propnewstime.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "K-RERA directed the developer to remove GST from the domestic water bill",
+    "fact_key": "F-77f6dab46a",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "domain:propnewstime.com",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kengeri",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:government_watch",
+    "origin_group": "domain:propnewstime.com",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-14",
+    "publisher": "Prop News Time",
+    "region": "west",
+    "retrieved_at": "2026-10-15T08:55:34+05:30",
+    "statement": "Karnataka RERA ruled in a Kengeri apartment case, reported 14 October, that developers remain responsible for project-related expenses until possession. It directed removal of GST on the BWSSB domestic water bill and rejected delay interest of more than 600 days from 11 February 2024 that the builder had imposed without documentary evidence. The order date is not given.",
+    "subject": "K-RERA order on pass-through of project costs, Kengeri",
+    "syndication_id": "SYN-8f7b238a9f",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://propnewstime.com/latestnewsstories/MzgyOTQ=/karnataka-rera-bars-builders-from-passing-project-costs-to-homebuyers",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-fa53f32137": {
     "citation_check": {
       "final_url": "https://www.propnewz.com/blog/life-springs-by-vaishnodevi-plots-bidadi-bangalore-review",
@@ -22151,6 +24795,86 @@
     "value": 9150,
     "value_max": null,
     "verification_status": "interested_party_claim"
+  },
+  "C-fe40c889d3": {
+    "citation_check": {
+      "final_url": "https://www.thenewsminute.com/karnataka/hebbal-lake-tunnel-hc-seeks-technical-presentation-amid-concerns-over-water-flow",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.83
+    },
+    "claim_id": "C-fe40c889d3",
+    "claim_key": "legal|hebbal_yelahanka|na|none|hebbal short tunnel road",
+    "claim_type": "legal",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "hebbal_yelahanka",
+    "corroborating_groups": [
+      "tnm"
+    ],
+    "domain": "thenewsminute.com",
+    "event_date": "2026-09-03",
+    "evidenced_stage": null,
+    "excerpt": "will not affect the lake's inflow or outflow",
+    "fact_key": "F-09c309cc4b",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window"
+    ],
+    "group": "tnm",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Hebbal",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "tnm",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-09-04",
+    "publisher": "The News Minute",
+    "recheck": {
+      "claim_id": "C-fe40c889d3",
+      "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-fe40c889d3",
+        "reason": "Page says the HC on 3 Sep 2026 asked the state to arrange a presentation that the tunnel won't affect lake flow; petitioners seek to quash the DPR and say lake land was diverted.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-fe40c889d3",
+        "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "north",
+    "retrieved_at": "2026-10-15T08:54:24+05:30",
+    "statement": "Background: The Karnataka High Court on 3 September 2026 asked the state to arrange a technical presentation showing the Hebbal short tunnel will not affect Hebbal Lake's inflow or outflow; petitioners challenge the project's DPR and say lake land was diverted.",
+    "subject": "Hebbal short tunnel road",
+    "syndication_id": "SYN-1d267cd76c",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.thenewsminute.com/karnataka/hebbal-lake-tunnel-hc-seeks-technical-presentation-amid-concerns-over-water-flow",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
   },
   "C-fe76c9ccab": {
     "citation_check": {

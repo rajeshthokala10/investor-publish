@@ -12,6 +12,9 @@ Start with `README.md`, `docs/ARCHITECTURE.md`, `docs/OPERATIONS.md`.
 - One data producer per chart series.
 - Do not send emails, publish externally or buy data without the owner's explicit approval.
 
+- The Daily Edition reports news, not statistics; keep market figures in the monthly magazine and dashboard.
+- Website: keep data embedded server-side; `/api/*` must stay local-only; keep `guard.js` deterrents and the CSP headers.
+
 ## Commands
 `make test` · `make batch` · `make site` · `make serve` · `python -m harness.cli --help`
 
