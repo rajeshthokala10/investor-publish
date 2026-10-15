@@ -1,0 +1,355 @@
+{
+  "cost_usd": 0.6441993000000001,
+  "finished": "2026-10-15T10:03:14+05:30",
+  "is_error": false,
+  "prompt_key": null,
+  "prompt_sha": "3946c680b1",
+  "started": "2026-10-15T09:59:34+05:30",
+  "structured_output": {
+    "builders": [
+      {
+        "bengaluru_presence": "Godrej Properties is among the largest national developers active in Bengaluru, with multiple residential projects in the city.",
+        "figures": [
+          {
+            "excerpt": "booking value rising 16 percent year-on-year to Rs 34,171 crore",
+            "label": "FY26 booking value",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "Free Press Journal",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "value": 34171
+          },
+          {
+            "excerpt": "The company sold 17,515 units covering 27 million square feet",
+            "label": "FY26 units sold",
+            "metric": "units_sold",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "Free Press Journal",
+            "scope": "company_wide",
+            "unit": "units",
+            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "value": 17515
+          },
+          {
+            "excerpt": "Total income rose to ₹8,410.88 crore in the last fiscal from ₹6,967.05 crore in the 2024-25 fiscal.",
+            "label": "FY26 consolidated total income",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-05-04",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/godrej-properties-q4-profit-rises-70-pc-to-650-cr-fy26-profit-grows-to-1850-cr",
+            "value": 8410.88
+          }
+        ],
+        "founders": [
+          "Adi Godrej (Chairman, Godrej Group)",
+          "Pirojsha Godrej (Executive Chairperson)"
+        ],
+        "headquarters": "Mumbai",
+        "listed": true,
+        "name": "Godrej Properties"
+      },
+      {
+        "bengaluru_presence": "Prestige is a Bengaluru-headquartered developer with its largest residential, commercial and retail portfolio in Bengaluru.",
+        "figures": [
+          {
+            "excerpt": "with sales of Rs 300,245 million (mn) and collections of Rs 185,146 mn for FY26.",
+            "label": "FY26 sales",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-05-25",
+            "publisher": "Construction World",
+            "scope": "company_wide",
+            "unit": "INR million",
+            "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/prestige-estates-posts-record-revenue-and-profit-in-fy26/92160",
+            "value": 300245
+          },
+          {
+            "excerpt": "Revenue for the year reached Rs 131,955 mn, reflecting a growth of 71 per cent year on year.",
+            "label": "FY26 revenue",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-05-25",
+            "publisher": "Construction World",
+            "scope": "company_wide",
+            "unit": "INR million",
+            "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/prestige-estates-posts-record-revenue-and-profit-in-fy26/92160",
+            "value": 131955
+          }
+        ],
+        "founders": [
+          "Razack Sattar",
+          "Irfan Razack (Chairman and Managing Director)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Prestige Group (Prestige Estates Projects)"
+      },
+      {
+        "bengaluru_presence": "Lodha has announced its entry into Bengaluru, with a project pipeline there.",
+        "figures": [
+          {
+            "excerpt": "Annual pre-sales reached ₹20,530 crore, up 16% YoY",
+            "label": "FY26 pre-sales",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-04-27",
+            "publisher": "Angel One",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://oga-prod.angelone.in/news/stocks/lodha-developers-q4-fy26-results-net-profit-rises-9-percent-on-strong-sales-and-pre-bookings",
+            "value": 20530
+          },
+          {
+            "excerpt": "Revenue grew 21.02% to ₹16,676.2 crore",
+            "label": "FY26 revenue",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-04-27",
+            "publisher": "Angel One",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://oga-prod.angelone.in/news/stocks/lodha-developers-q4-fy26-results-net-profit-rises-9-percent-on-strong-sales-and-pre-bookings",
+            "value": 16676.2
+          }
+        ],
+        "founders": [
+          "Mangal Prabhat Lodha",
+          "Abhishek Lodha (Managing Director and CEO)"
+        ],
+        "headquarters": "Mumbai",
+        "listed": true,
+        "name": "Lodha (Lodha Developers, formerly Macrotech Developers)"
+      },
+      {
+        "bengaluru_presence": "Birla Estates sells residential projects in Bengaluru as one of its key regions.",
+        "figures": [
+          {
+            "excerpt": "Booking Value remained strong at ₹81,363 Mn in FY26",
+            "label": "FY26 booking value",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-05-06",
+            "publisher": "ScanX",
+            "scope": "company_wide",
+            "unit": "INR million",
+            "url": "https://scanx.trade/stock-market-news/companies/aditya-birla-real-estate-reports-wider-q4-consolidated-loss-before-tax-at-1-8b-rupees/39601539",
+            "value": 81363
+          },
+          {
+            "excerpt": "full-year consolidated total income was ₹459.16 crore against ₹1,257.33 crore in FY25",
+            "label": "FY26 consolidated total income (continuing operations, after pulp and paper reclassification)",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-05-06",
+            "publisher": "ScanX",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://scanx.trade/stock-market-news/companies/aditya-birla-real-estate-reports-wider-q4-consolidated-loss-before-tax-at-1-8b-rupees/39601539",
+            "value": 459.16
+          }
+        ],
+        "founders": [
+          "Kumar Mangalam Birla (Chairman, Aditya Birla Group)"
+        ],
+        "headquarters": "Mumbai",
+        "listed": true,
+        "name": "Birla Estates (Aditya Birla Real Estate)"
+      },
+      {
+        "bengaluru_presence": "Sobha is Bengaluru-headquartered and has a large residential portfolio in the city.",
+        "figures": [
+          {
+            "excerpt": "The sales value for FY26 grew by 30% YoY to ₹8,135 crore, up from ₹6,276 crore in FY25.",
+            "label": "FY26 sales value",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-05-05",
+            "publisher": "Angel One",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+            "value": 8135
+          },
+          {
+            "excerpt": "Revenue grew by 60% QoQ, reaching ₹2,030 crore, compared to ₹1,270 crore in Q4 FY25, reflecting a 29% YoY increase.",
+            "label": "Q4 FY26 revenue (quarter only; full-year figure not verified)",
+            "metric": "revenue",
+            "period": "Q4 FY26",
+            "published_at": "2026-05-05",
+            "publisher": "Angel One",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+            "value": 2030
+          }
+        ],
+        "founders": [
+          "P.N.C. Menon (Founder and Chairman)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Sobha Limited"
+      },
+      {
+        "bengaluru_presence": "Brigade is Bengaluru-headquartered, with residential, office, retail and hospitality assets concentrated in the city.",
+        "figures": [
+          {
+            "excerpt": "For Brigade, FY26 pre-sales was Rs 7,424 crore, which is 5 per cent lower than FY25.",
+            "label": "FY26 pre-sales",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-05-13",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-fy26-pre-sales-dip-5-to-7424-crore-on-delays-in-fresh-supply",
+            "value": 7424
+          },
+          {
+            "excerpt": "Total income increased to Rs 5,909 crore in the last fiscal from Rs 5,313.54 crore in the 2024-25 fiscal.",
+            "label": "FY26 consolidated total income",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-05-13",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-fy26-pre-sales-dip-5-to-7424-crore-on-delays-in-fresh-supply",
+            "value": 5909
+          }
+        ],
+        "founders": [
+          "M.R. Jaishankar (Founder, Chairman and Managing Director)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Brigade Enterprises"
+      },
+      {
+        "bengaluru_presence": "Puravankara is Bengaluru-headquartered, and its Puravankara and Provident brands have a large Bengaluru portfolio.",
+        "figures": [
+          {
+            "excerpt": "The company recorded total sales of Rs. 7,407 crores in FY26, up 55 per cent from the previous fiscal.",
+            "label": "FY26 sales value",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "The Tribune",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
+            "value": 7407
+          },
+          {
+            "excerpt": "The total sales area increased to 7.25 msft from 5.67 msft in FY25",
+            "label": "FY26 sales area",
+            "metric": "sales_area",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "The Tribune",
+            "scope": "company_wide",
+            "unit": "million sq ft",
+            "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
+            "value": 7.25
+          }
+        ],
+        "founders": [
+          "Ravi Puravankara (Chairman and Managing Director)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Puravankara (Provident Housing)"
+      },
+      {
+        "bengaluru_presence": "Embassy Developments, part of the Bengaluru-based Embassy Group, has residential projects in Bengaluru, including Embassy Verde 2.",
+        "figures": [
+          {
+            "excerpt": "For FY26, consolidated revenue from operations declined 21 percent to Rupees 1,732 crore from Rupees 2,180 crore in FY25.",
+            "label": "FY26 consolidated revenue from operations",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-05-21",
+            "publisher": "Free Press Journal",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.freepressjournal.in/amp/business/embassy-developments-reports-61-revenue-decline-swings-to-loss-in-q4",
+            "value": 1732
+          }
+        ],
+        "founders": [
+          "Jitu Virwani (Chairman and Managing Director, Embassy Group)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Embassy Developments"
+      },
+      {
+        "bengaluru_presence": "Mahindra Lifespaces lists Bengaluru among the seven Indian cities of its residential portfolio.",
+        "figures": [
+          {
+            "excerpt": "sales bookings rose 21 per cent to Rs 3,405 crore last fiscal on better demand for its residential properties.",
+            "label": "FY26 residential sales bookings (pre-sales)",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": "2026-04-29",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/mahindra-lifespace-pre-sales-rise-21-to-3405-cr-in-fy26-on-strong-housing-demand",
+            "value": 3405
+          },
+          {
+            "excerpt": "Its total income nearly tripled to Rs 1,265.95 crore in the last fiscal from Rs 463.87 crore in the 2024-25 financial year.",
+            "label": "FY26 total income",
+            "metric": "revenue",
+            "period": "FY26",
+            "published_at": "2026-04-29",
+            "publisher": "Outlook Business",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://www.outlookbusiness.com/corporate/mahindra-lifespace-pre-sales-rise-21-to-3405-cr-in-fy26-on-strong-housing-demand",
+            "value": 1265.95
+          }
+        ],
+        "founders": [
+          "Mahindra Group (Anand Mahindra, Chairman, Mahindra Group)"
+        ],
+        "headquarters": "Mumbai",
+        "listed": true,
+        "name": "Mahindra Lifespaces (Mahindra Lifespace Developers)"
+      },
+      {
+        "bengaluru_presence": "Shriram Properties is Bengaluru-based, and Bengaluru is a core market for its residential projects.",
+        "figures": [
+          {
+            "excerpt": "sales bookings of Rs. 2,354 crores (~4.2 msf) during FY26",
+            "label": "FY26 sales bookings",
+            "metric": "sales_value",
+            "period": "FY26",
+            "published_at": null,
+            "publisher": "Equitybulls",
+            "scope": "company_wide",
+            "unit": "INR crore",
+            "url": "https://equitybulls.com/category.php?id=371217",
+            "value": 2354
+          }
+        ],
+        "founders": [
+          "M. Murali (Chairman and Managing Director)"
+        ],
+        "headquarters": "Bengaluru",
+        "listed": true,
+        "name": "Shriram Properties"
+      }
+    ]
+  },
+  "subtype": "success",
+  "task": "builders_top_enrich"
+}

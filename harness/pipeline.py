@@ -96,9 +96,8 @@ def collect(ctx: Ctx, plan: dict) -> dict:
         # differ on every collection, so they are not part of the key - restarts never pay twice).
         template = PROMPTS / "research_agent.md"
         key = sha(template.read_text(encoding="utf-8"), task["focus"], task["cadence"])
-        newer = prior and prior.get("finished", "") >= iso(datetime.fromtimestamp(template.stat().st_mtime, IST))
         if prior and prior.get("structured_output") and not prior.get("is_error") \
-                and (prior.get("prompt_key") == key or (not prior.get("prompt_key") and newer)):
+                and prior.get("prompt_key") == key:
             ctx.log("agent_reuse_checkpoint", task=task["id"])        # restart: do not pay twice
             return task["id"], {"ok": True, "data": prior["structured_output"], "cost_usd": 0.0,
                                 "started": prior["started"], "finished": prior["finished"], "reused": True}

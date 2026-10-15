@@ -2,6 +2,7 @@
   "cost_usd": 0.45435289999999995,
   "finished": "2026-10-15T08:56:17+05:30",
   "is_error": false,
+  "prompt_key": "fc89022677",
   "prompt_sha": "24b94feba7",
   "started": "2026-10-15T08:54:24+05:30",
   "structured_output": {

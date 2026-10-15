@@ -1,0 +1,1166 @@
+{
+  "builders": [
+    {
+      "bengaluru_presence": "Godrej Properties is a national developer with an established Bengaluru residential portfolio and ongoing launches in the city.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "In FY2026, Godrej Properties recorded a booking value of ₹34,171 crore, a 16% increase year-on-year.",
+          "label": "FY26 booking value",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-10",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://uatcdn.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
+          "value": 34171
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "This was achieved through the sale of 17,515 units covering a total area of 27 million sq. ft.",
+          "label": "FY26 units sold",
+          "metric": "units_sold",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-10",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "units",
+          "url": "https://uatcdn.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
+          "value": 17515
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "This was achieved through the sale of 17,515 units covering a total area of 27 million sq. ft.",
+          "label": "FY26 area sold",
+          "metric": "sales_area",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-10",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "million sq ft",
+          "url": "https://uatcdn.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
+          "value": 27
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "equalling its previous best quarter in Q4FY2025 with a booking value of ₹10,163 crore.",
+          "label": "Q4 FY26 booking value",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-04-10",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://uatcdn.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
+          "value": 10163
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Moving to Q4 FY26, the company's revenue from operations stood at ₹3,458 crore, up 63% year-on-year (YoY) from ₹2,122 crore.",
+          "label": "Q4 FY26 revenue from operations",
+          "metric": "revenue",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-22",
+          "publisher": "Kotak Neo",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.kotakneo.com/news/market-news/godrej-properties-q4-fy26-results-profit-dividend/",
+          "value": 3458
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Total income rose to ₹8,410.88 crore in the last fiscal from ₹6,967.05 crore in the 2024-25 fiscal.",
+          "label": "FY26 consolidated total income",
+          "metric": "revenue",
+          "period": "FY26",
+          "published_at": "2026-05-04",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/godrej-properties-q4-profit-rises-70-pc-to-650-cr-fy26-profit-grows-to-1850-cr",
+          "value": 8410.88
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "recorded a 22% year-on-year increase in booking value to Rs 8,651 crore.",
+          "label": "Booking value Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-08-04",
+          "publisher": "Realty n More",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://realtynmore.com/godrej-properties-posts-record-q1-fy27-booking/",
+          "value": 8651
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "followed by Bengaluru at Rs 8,802 crore",
+          "label": "Bengaluru booking value FY26",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-10",
+          "publisher": "Free Press Journal",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+          "value": 8802
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Bengaluru led with a booking value of ₹3,798 crores and sold area of 3.3 million sq. ft. (1,886 units).",
+          "label": "Bengaluru booking value Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-08-04",
+          "publisher": "Investywise",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://www.investywise.com/godrej-properties-q1-fy27-financial-results-presentation/",
+          "value": 3798
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Mumbai Metropolitan Region contributing Rs 10,313 crore, followed by Bengaluru at Rs 8,802 crore and NCR at Rs 7,410 crore",
+          "label": "Bengaluru booking value FY26",
+          "metric": "sales_value",
+          "period": "FY26",
+          "published_at": null,
+          "publisher": "Free Press Journal",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+          "value": 8802
+        }
+      ],
+      "founders": [
+        "Adi Godrej",
+        "Pirojsha Godrej"
+      ],
+      "fy26_bookings_crore": 34171,
+      "headquarters": "Mumbai",
+      "latest_q_bookings_crore": 10163,
+      "listed": true,
+      "name": "Godrej Properties",
+      "photos": [
+        {
+          "credit": "World Economic Forum",
+          "license": "CC BY-SA 2.0",
+          "person": "Adi Godrej",
+          "source": "https://commons.wikimedia.org/wiki/File:Adi_Godrej_01.jpg",
+          "src": "/founders/godrej-properties-adi-godrej.jpg"
+        },
+        {
+          "credit": "GodrejGroup",
+          "license": "CC BY-SA 4.0",
+          "person": "Pirojsha Godrej",
+          "source": "https://commons.wikimedia.org/wiki/File:Pirojsha_Godrej.JPG",
+          "src": "/founders/godrej-properties-pirojsha-godrej.jpg"
+        }
+      ],
+      "rank": 1,
+      "slug": "godrej-properties"
+    },
+    {
+      "bengaluru_presence": "Bengaluru is the home market of Prestige and was named among the markets that contributed most to FY26 sales.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "pre-sales or sales bookings stood at a record ₹30,024 crore in the 2025-26 fiscal",
+          "label": "FY26 pre-sales (sales bookings)",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-08",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/prestige-estates-fy26-pre-sales-rose-76-pc-to-hit-record-30024-cr",
+          "value": 30024
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "pre-sales rose 10% to ₹7,697 crore in the fourth quarter of the last fiscal",
+          "label": "Q4 FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-04-08",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/prestige-estates-fy26-pre-sales-rose-76-pc-to-hit-record-30024-cr",
+          "value": 7697
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "with sales of Rs 300,245 million (mn) and collections of Rs 185,146 mn for FY26.",
+          "label": "FY26 sales",
+          "metric": "sales_value",
+          "period": "FY26",
+          "published_at": "2026-05-25",
+          "publisher": "Construction World",
+          "scope": "company_wide",
+          "unit": "INR million",
+          "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/prestige-estates-posts-record-revenue-and-profit-in-fy26/92160",
+          "value": 300245
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Revenue for the year reached Rs 131,955 mn, reflecting a growth of 71 per cent year on year.",
+          "label": "FY26 revenue",
+          "metric": "revenue",
+          "period": "FY26",
+          "published_at": "2026-05-25",
+          "publisher": "Construction World",
+          "scope": "company_wide",
+          "unit": "INR million",
+          "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/prestige-estates-posts-record-revenue-and-profit-in-fy26/92160",
+          "value": 131955
+        }
+      ],
+      "founders": [
+        "Irfan Razack"
+      ],
+      "fy26_bookings_crore": 30024,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": 7697,
+      "listed": true,
+      "name": "Prestige Group (Prestige Estates Projects)",
+      "photos": [],
+      "rank": 2,
+      "slug": "prestige-group-prestige-estates-projects"
+    },
+    {
+      "bengaluru_presence": "Lodha added Bengaluru projects in FY26 as part of its entry into the city, per secondary reports; no Bengaluru-specific sales figure was found.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "For the entire financial year FY26, pre-sales reached ₹205.3 billion, representing a 16% year-on-year increase.",
+          "label": "FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-07",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR billion",
+          "url": "https://uatcdn.angelone.in/news/stocks/lodha-developers-reports-record-pre-sales-of-58-9-billion-in-q4fy26",
+          "value": 205.3
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "During Q4FY26, the company recorded pre-sales of ₹58.9 billion",
+          "label": "Q4 FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-04-07",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR billion",
+          "url": "https://uatcdn.angelone.in/news/stocks/lodha-developers-reports-record-pre-sales-of-58-9-billion-in-q4fy26",
+          "value": 58.9
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Annual pre-sales reached ₹20,530 crore, up 16% YoY",
+          "label": "FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "FY26",
+          "published_at": "2026-04-27",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://oga-prod.angelone.in/news/stocks/lodha-developers-q4-fy26-results-net-profit-rises-9-percent-on-strong-sales-and-pre-bookings",
+          "value": 20530
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Revenue grew 21.02% to ₹16,676.2 crore",
+          "label": "FY26 revenue",
+          "metric": "revenue",
+          "period": "FY26",
+          "published_at": "2026-04-27",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://oga-prod.angelone.in/news/stocks/lodha-developers-q4-fy26-results-net-profit-rises-9-percent-on-strong-sales-and-pre-bookings",
+          "value": 16676.2
+        }
+      ],
+      "founders": [
+        "Mangal Prabhat Lodha"
+      ],
+      "fy26_bookings_crore": 20530.0,
+      "headquarters": "Mumbai",
+      "latest_q_bookings_crore": 5890.0,
+      "listed": true,
+      "name": "Lodha (Macrotech Developers)",
+      "photos": [],
+      "rank": 3,
+      "slug": "lodha-macrotech-developers"
+    },
+    {
+      "bengaluru_presence": "Birla Estates' Bengaluru projects include Birla Trimaya and Birla Evara; an NSE filing listed five ongoing Bengaluru projects in January 2026. It is a unit of the listed Century Textiles & Industries, not separately listed.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "The company achieved a total booking value of ₹8,136 crore, driven by strong residential demand across key markets.",
+          "label": "FY26 booking value",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-23",
+          "publisher": "Investywise",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.investywise.com/aditya-birla-real-estate-fy26-annual-performance-results/",
+          "value": 8136
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "Booking Value remained strong at ₹81,363 Mn in FY26",
+          "label": "FY26 booking value",
+          "metric": "sales_value",
+          "period": "FY26",
+          "published_at": "2026-05-06",
+          "publisher": "ScanX",
+          "scope": "company_wide",
+          "unit": "INR million",
+          "url": "https://scanx.trade/stock-market-news/companies/aditya-birla-real-estate-reports-wider-q4-consolidated-loss-before-tax-at-1-8b-rupees/39601539",
+          "value": 81363
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "full-year consolidated total income was ₹459.16 crore against ₹1,257.33 crore in FY25",
+          "label": "FY26 consolidated total income (continuing operations, after pulp and paper reclassification)",
+          "metric": "revenue",
+          "period": "FY26",
+          "published_at": "2026-05-06",
+          "publisher": "ScanX",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://scanx.trade/stock-market-news/companies/aditya-birla-real-estate-reports-wider-q4-consolidated-loss-before-tax-at-1-8b-rupees/39601539",
+          "value": 459.16
+        }
+      ],
+      "founders": [
+        "Aditya Birla",
+        "Kumar Mangalam Birla"
+      ],
+      "fy26_bookings_crore": 8136,
+      "headquarters": "Mumbai",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Birla Estates (Aditya Birla Real Estate)",
+      "photos": [
+        {
+          "credit": "Aashutoshgavane",
+          "license": "CC BY-SA 4.0",
+          "person": "Kumar Mangalam Birla",
+          "source": "https://commons.wikimedia.org/wiki/File:Kumar_Mangalam_Birla.jpg",
+          "src": "/founders/birla-estates-aditya-birla-real-estate-kumar-mangalam-birla.jpg"
+        }
+      ],
+      "rank": 4,
+      "slug": "birla-estates-aditya-birla-real-estate"
+    },
+    {
+      "bengaluru_presence": "Sobha is Bengaluru-headquartered and develops residential projects across Bengaluru localities such as Whitefield, Jakkur, Bellandur and Thanisandra Main Road.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "The sales value for FY26 grew by 30% YoY to ₹8,135 crore, up from ₹6,276 crore in FY25.",
+          "label": "FY26 sales value",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-05",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+          "value": 8135
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "The quarterly sales value reached ₹2,039 crore, up by 30% YoY.",
+          "label": "Q4 FY26 sales value",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-05",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+          "value": 2039
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Sobha sold a new area of 1.33 million sq.ft, an 18% increase YoY, and launched a saleable area of 3.31 million sq.ft.",
+          "label": "Q4 FY26 new sales area",
+          "metric": "sales_area",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-05",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "million sq ft",
+          "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+          "value": 1.33
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Revenue grew by 60% QoQ, reaching ₹2,030 crore, compared to ₹1,270 crore in Q4 FY25, reflecting a 29% YoY increase.",
+          "label": "Q4 FY26 revenue (quarter only; full-year figure not verified)",
+          "metric": "revenue",
+          "period": "Q4 FY26",
+          "published_at": "2026-05-05",
+          "publisher": "Angel One",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://uatcdn.angelone.in/news/stocks/sobha-share-price-gains-over-3-after-q4-fy26-earnings-results-pat-up-124-qoq",
+          "value": 2030
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "It sold homes worth ₹3,656 crore, an increase of 76% compared with the same period last year.",
+          "label": "Sales bookings Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-07-21",
+          "publisher": "Bajaj Broking",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.bajajbroking.in/share-market-news/sobha-jumps-7percent-after-record-q1-sales-profit-triples",
+          "value": 3656
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Bengaluru contributed ₹2,067 crore, or 56.5% of total sales.",
+          "label": "Bengaluru sales value Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-07-03",
+          "publisher": "AskFuzz",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+          "value": 2067
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "achieved its highest-ever annual sales bookings of ₹8,135.9 crore during the 2025-26 fiscal",
+          "label": "Sales bookings FY26",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-04",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": 8135.9
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "reported an 11% increase in its sales bookings to ₹2,039.3 crore during the fourth quarter",
+          "label": "Sales bookings Q4 FY26",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-04-04",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": 2039.3
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Bengaluru recorded its historic best, registering sales value of ₹4,478 crore",
+          "label": "Bengaluru sales value FY26",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-04",
+          "publisher": "Outlook Business",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+          "value": 4478
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "152.69 mn sft completed; 589 Developments; 41.93 mn sft 53 projects under development",
+          "label": "Completed developments (Q4 FY26 deck)",
+          "metric": "completed_projects",
+          "period": "as of Q4 FY26 (31 Mar 2026)",
+          "published_at": null,
+          "publisher": "Sobha Limited (investor presentation)",
+          "scope": "company_wide",
+          "unit": "developments",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": 589
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "152.69 mn sft completed; 589 Developments; 41.93 mn sft 53 projects under development",
+          "label": "Projects under development (Q4 FY26 deck)",
+          "metric": "ongoing_projects",
+          "period": "as of Q4 FY26 (31 Mar 2026)",
+          "published_at": null,
+          "publisher": "Sobha Limited (investor presentation)",
+          "scope": "company_wide",
+          "unit": "projects",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": 53
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "152.69 mn sft completed, 589 developments",
+          "label": "Developments completed (Q4 FY26 deck)",
+          "metric": "total_projects",
+          "period": "as of 31 Mar 2026 (Q4 FY26)",
+          "published_at": "2026-05",
+          "publisher": "Sobha Limited (investor presentation)",
+          "scope": "company_wide",
+          "unit": "developments",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": 589
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "41.93 mn sft, 53 projects under development",
+          "label": "Projects under development",
+          "metric": "ongoing_projects",
+          "period": "as of 31 Mar 2026 (Q4 FY26)",
+          "published_at": "2026-05",
+          "publisher": "Sobha Limited (investor presentation)",
+          "scope": "company_wide",
+          "unit": "projects",
+          "url": "https://www.sobha.com/wp-content/uploads/2026/05/SOBHA-Investor-Presentation_Q4-FY2026.pdf",
+          "value": 53
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "highest-ever quarterly sales bookings of ₹3,656 crore in Q1 FY27",
+          "label": "Sales value Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-07-03",
+          "publisher": "askfuzz.ai",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://askfuzz.ai/discover/news/companies/sobha-q1-sales-bookings-hit-record-3-656-cr-up-76-yoy",
+          "value": 3656
+        }
+      ],
+      "founders": [
+        "P.N.C. Menon"
+      ],
+      "fy26_bookings_crore": 8135,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": 2039,
+      "listed": true,
+      "name": "Sobha Limited",
+      "photos": [
+        {
+          "credit": "Girish.unnithan",
+          "license": "CC BY-SA 3.0",
+          "person": "P.N.C. Menon",
+          "source": "https://commons.wikimedia.org/wiki/File:PNC_Menon_Chairman_Emeritus_Sobha_Developers.jpg",
+          "src": "/founders/sobha-limited-p-n-c-menon.jpg"
+        }
+      ],
+      "rank": 5,
+      "slug": "sobha-limited"
+    },
+    {
+      "bengaluru_presence": "Brigade is Bengaluru-headquartered, with Bengaluru as its core residential, office and hospitality market.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "supported by real estate pre-sales valued at INR 7,424 crore",
+          "label": "FY26 real estate pre-sales",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-06",
+          "publisher": "FilingReader",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://filingreader.com/news-wire/mumbai/2026-05-06/brigade-revenue-hits-inr-5909-crore-with-13-bonus-issue",
+          "value": 7424
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Brigade Enterprises reported real estate sales of 1.95 million square feet with a sales value of Rs 2,521 crore in Q4 FY26.",
+          "label": "Q4 FY26 real estate sales value",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-07",
+          "publisher": "Arihant Capital",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.arihantcapital.com/company-information/companynewsdetails/25127010307",
+          "value": 2521
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Brigade Enterprises reported real estate sales of 1.95 million square feet with a sales value of Rs 2,521 crore in Q4 FY26.",
+          "label": "Q4 FY26 real estate sales area",
+          "metric": "sales_area",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-07",
+          "publisher": "Arihant Capital",
+          "scope": "company_wide",
+          "unit": "million sq ft",
+          "url": "https://www.arihantcapital.com/company-information/companynewsdetails/25127010307",
+          "value": 1.95
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "reported an 11% year-on-year increase in consolidated revenue to INR 5,909 crore",
+          "label": "FY26 consolidated revenue",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-06",
+          "publisher": "FilingReader",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://filingreader.com/news-wire/mumbai/2026-05-06/brigade-revenue-hits-inr-5909-crore-with-13-bonus-issue",
+          "value": 5909
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Revenue from operations marginally declined 0.19% year-on-year to Rs 1,457.60 crore in the quarter ended 31 March 2026.",
+          "label": "Q4 FY26 revenue from operations",
+          "metric": "revenue",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-07",
+          "publisher": "Arihant Capital",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.arihantcapital.com/company-information/companynewsdetails/25127010307",
+          "value": 1457.6
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "Brigade's sales bookings fell 5% to ₹1,061 crore in Q1 FY27, with volumes down 22%.",
+          "label": "Pre-sales Q1 FY27",
+          "metric": "sales_value",
+          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "published_at": "2026-08-20",
+          "publisher": "Multibagg",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.multibagg.ai/market-pulse/articles/brigade-enterprises-q1fy27-profit-margins-cmt1yt7li4g8i0zpbzfsb9rdl",
+          "value": 1061
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "completed 280+ buildings amounting to over 83 million sq. ft. of developed space",
+          "label": "Buildings completed (dated, Jan 2024)",
+          "metric": "total_projects",
+          "period": "as of Jan 2024",
+          "published_at": "2024-01-08",
+          "publisher": "Brigade Enterprises (NSE press release)",
+          "scope": "company_wide",
+          "unit": "buildings (280+)",
+          "url": "https://nsearchives.nseindia.com/corporate/BRIGADE_08012024182959_PressReleaseSignedMoUworth3400Cr.pdf",
+          "value": 280
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "ongoing projects totaling 32.54 mn sft",
+          "label": "Ongoing projects area Q1 FY27",
+          "metric": "ongoing_projects",
+          "period": "as of 30 Jun 2026 (Q1 FY27)",
+          "published_at": "2026-08-13",
+          "publisher": "Investywise",
+          "scope": "company_wide",
+          "unit": "mn sft",
+          "url": "https://www.investywise.com/?p=107106",
+          "value": 32.54
+        }
+      ],
+      "founders": [
+        "M.R. Jaishankar"
+      ],
+      "fy26_bookings_crore": 7424,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": 2521,
+      "listed": true,
+      "name": "Brigade Enterprises",
+      "photos": [],
+      "rank": 6,
+      "slug": "brigade-enterprises"
+    },
+    {
+      "bengaluru_presence": "Puravankara is Bengaluru-headquartered and has acquired a 53.5-acre land parcel in Attibele Hobli, Anekal Taluka, Bengaluru.",
+      "category": "A",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "The company recorded total sales of Rs. 7,407 crores in FY26, up 55 per cent from the previous fiscal.",
+          "label": "FY26 sales value",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-13",
+          "publisher": "The Tribune",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
+          "value": 7407
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "The total sales area increased to 7.25 msft from 5.67 msft in FY25,",
+          "label": "FY26 sales area",
+          "metric": "sales_area",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-13",
+          "publisher": "The Tribune",
+          "scope": "company_wide",
+          "unit": "million sq ft",
+          "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
+          "value": 7.25
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Sales value stood at Rupees 3,547 crore, compared with Rupees 1,225 crore in the same quarter last year.",
+          "label": "Q4 FY26 sales value",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-19",
+          "publisher": "Free Press Journal",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.freepressjournal.in/amp/business/puravankara-reports-173-revenue-growth-pat-up-226-in-q4",
+          "value": 3547
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Total revenue increased 84 percent to Rupees 3,846 crore from Rupees 2,093 crore,",
+          "label": "FY26 total revenue",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-19",
+          "publisher": "Free Press Journal",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.freepressjournal.in/amp/business/puravankara-reports-173-revenue-growth-pat-up-226-in-q4",
+          "value": 3846
+        }
+      ],
+      "founders": [
+        "Ravi Puravankara"
+      ],
+      "fy26_bookings_crore": 7407,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": 3547,
+      "listed": true,
+      "name": "Puravankara (Provident Housing)",
+      "photos": [
+        {
+          "credit": "Digitaldubey",
+          "license": "CC BY-SA 4.0",
+          "person": "Ravi Puravankara",
+          "source": "https://commons.wikimedia.org/wiki/File:RaviPuravankara.jpg",
+          "src": "/founders/puravankara-provident-housing-ravi-puravankara.jpg"
+        }
+      ],
+      "rank": 7,
+      "slug": "puravankara-provident-housing"
+    },
+    {
+      "bengaluru_presence": "Embassy Developments is Bengaluru-based and attributed a FY26 pre-sales shortfall to approval delays for one Bengaluru project launch.",
+      "category": "B",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "FY26 Pre-Sales: ₹4,631 crore (up 128% YoY)",
+          "label": "FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-20",
+          "publisher": "Sahi",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://sahi.com/news/embassy-developments-reports-323-cr-q4-loss-despite-record-2-632-cr-pre-sales-milestone-3669-PE1_COR",
+          "value": 4631
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "However, operational metrics show record quarterly pre-sales of ₹2,632 crore",
+          "label": "Q4 FY26 pre-sales",
+          "metric": "sales_value",
+          "period": "Q4 FY26 (Jan-Mar 2026)",
+          "published_at": "2026-05-20",
+          "publisher": "Sahi",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://sahi.com/news/embassy-developments-reports-323-cr-q4-loss-despite-record-2-632-cr-pre-sales-milestone-3669-PE1_COR",
+          "value": 2632
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "For FY26, consolidated revenue from operations declined 21 percent to Rupees 1,732 crore from Rupees 2,180 crore in FY25.",
+          "label": "FY26 consolidated revenue from operations",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-21",
+          "publisher": "Free Press Journal",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.freepressjournal.in/amp/business/embassy-developments-reports-61-revenue-decline-swings-to-loss-in-q4",
+          "value": 1732
+        }
+      ],
+      "founders": [
+        "Jitu Virwani"
+      ],
+      "fy26_bookings_crore": 4631,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": 2632,
+      "listed": true,
+      "name": "Embassy Developments",
+      "photos": [],
+      "rank": 8,
+      "slug": "embassy-developments"
+    },
+    {
+      "bengaluru_presence": "Mahindra Lifespaces lists two ongoing Bengaluru residential projects, Mahindra Blossom (Whitefield) and Mahindra NewHaven (off Hosur Road).",
+      "category": "B",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "sales bookings rose 21 per cent to Rs 3,405 crore last fiscal.",
+          "label": "FY26 sales bookings",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-29",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/mahindra-lifespace-pre-sales-rise-21-to-3405-cr-in-fy26-on-strong-housing-demand",
+          "value": 3405
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "total income nearly tripled to Rs 1,265.95 crore in the last fiscal.",
+          "label": "FY26 total income",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-04-29",
+          "publisher": "Outlook Business",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.outlookbusiness.com/corporate/mahindra-lifespace-pre-sales-rise-21-to-3405-cr-in-fy26-on-strong-housing-demand",
+          "value": 1265.95
+        }
+      ],
+      "founders": [
+        "Anand Mahindra"
+      ],
+      "fy26_bookings_crore": 3405,
+      "headquarters": "Mumbai",
+      "latest_q_bookings_crore": null,
+      "listed": true,
+      "name": "Mahindra Lifespaces",
+      "photos": [
+        {
+          "credit": "World Economic Forum from Cologny, Switzerland",
+          "license": "CC BY-SA 2.0",
+          "person": "Anand Mahindra",
+          "source": "https://commons.wikimedia.org/wiki/File:Anand_Mahindra_(1).jpg",
+          "src": "/founders/mahindra-lifespaces-anand-mahindra.jpg"
+        }
+      ],
+      "rank": 9,
+      "slug": "mahindra-lifespaces"
+    },
+    {
+      "bengaluru_presence": "Shriram Properties is a Bengaluru-based developer with launches planned in Bengaluru, Chennai and Kolkata for FY27.",
+      "category": "B",
+      "figures": [
+        {
+          "citation": "inconclusive",
+          "excerpt": "Presales for the year were INR 2,354 crore on sales volume of 4.15 msf.",
+          "label": "FY26 presales",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-27",
+          "publisher": "Multibagg",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.multibagg.ai/market-pulse/articles/spl-fy26-94865",
+          "value": 2354
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "Presales for the year were INR 2,354 crore on sales volume of 4.15 msf.",
+          "label": "FY26 sales volume",
+          "metric": "sales_area",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-27",
+          "publisher": "Multibagg",
+          "scope": "company_wide",
+          "unit": "million sq ft",
+          "url": "https://www.multibagg.ai/market-pulse/articles/spl-fy26-94865",
+          "value": 4.15
+        },
+        {
+          "citation": "inconclusive",
+          "excerpt": "Total revenues came in at INR 1,356.9 crore, up 39 percent year on year.",
+          "label": "FY26 total revenues",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-27",
+          "publisher": "Multibagg",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://www.multibagg.ai/market-pulse/articles/spl-fy26-94865",
+          "value": 1356.9
+        }
+      ],
+      "founders": [
+        "Murali Malayappan"
+      ],
+      "fy26_bookings_crore": 2354,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": true,
+      "name": "Shriram Properties",
+      "photos": [],
+      "rank": 10,
+      "slug": "shriram-properties"
+    },
+    {
+      "bengaluru_presence": "Bengaluru was a primary growth driver for Arvind SmartSpaces in FY26, including the Arvind Skycrest launch in Bannerghatta.",
+      "category": "B",
+      "figures": [
+        {
+          "citation": "confirmed",
+          "excerpt": "Arvind SmartSpaces reported a record annual booking value of INR1,550 crores for FY26.",
+          "label": "FY26 booking value",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-29",
+          "publisher": "FilingReader",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://filingreader.com/news-wire/mumbai/2026-05-29/arvind-smartspaces-hits-record-inr1550-crore-annual-booking-value",
+          "value": 1550
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "Bengaluru operations remained a primary growth driver, contributing INR485 crores or 31% of the annual total.",
+          "label": "FY26 Bengaluru bookings",
+          "metric": "sales_value",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-29",
+          "publisher": "FilingReader",
+          "scope": "bengaluru",
+          "unit": "INR crore",
+          "url": "https://filingreader.com/news-wire/mumbai/2026-05-29/arvind-smartspaces-hits-record-inr1550-crore-annual-booking-value",
+          "value": 485
+        },
+        {
+          "citation": "confirmed",
+          "excerpt": "annual revenue dipped to INR564 crores from INR713 crores due to revenue recognition timing",
+          "label": "FY26 revenue from operations",
+          "metric": "revenue",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "published_at": "2026-05-29",
+          "publisher": "FilingReader",
+          "scope": "company_wide",
+          "unit": "INR crore",
+          "url": "https://filingreader.com/news-wire/mumbai/2026-05-29/arvind-smartspaces-hits-record-inr1550-crore-annual-booking-value",
+          "value": 564
+        }
+      ],
+      "founders": [
+        "Lalbhai family (Arvind Group)"
+      ],
+      "fy26_bookings_crore": 1550,
+      "headquarters": "Ahmedabad",
+      "latest_q_bookings_crore": null,
+      "listed": true,
+      "name": "Arvind SmartSpaces",
+      "photos": [],
+      "rank": 11,
+      "slug": "arvind-smartspaces"
+    },
+    {
+      "bengaluru_presence": "Adarsh Developers, founded in 1988, builds apartment communities in Bengaluru such as Adarsh Palace, Adarsh Greens and Adarsh Park Heights.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "B.M. Jayeshankar"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Adarsh Developers",
+      "photos": [],
+      "rank": 12,
+      "slug": "adarsh-developers"
+    },
+    {
+      "bengaluru_presence": "Assetz, founded in 2006, describes itself as one of Bengaluru's top residential developers and tied up 16 land parcels totalling over 200 acres in two years.",
+      "category": "B",
+      "figures": [],
+      "founders": [],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Assetz Property Group",
+      "photos": [],
+      "rank": 13,
+      "slug": "assetz-property-group"
+    },
+    {
+      "bengaluru_presence": "Century Real Estate is a Bengaluru developer; its Century Regalia in Indiranagar contributed about INR 1,000 crore to the top line per press coverage.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "Ravindra Pai"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Century Real Estate",
+      "photos": [
+        {
+          "credit": "Lexicographist",
+          "license": "CC0",
+          "person": "Ravindra Pai",
+          "source": "https://commons.wikimedia.org/wiki/File:RavindraPai.png",
+          "src": "/founders/century-real-estate-ravindra-pai.png"
+        }
+      ],
+      "rank": 14,
+      "slug": "century-real-estate"
+    },
+    {
+      "bengaluru_presence": "Concorde, set up in 1998, has projects including Concorde NEO on Thanisandra Main Road and Concorde Élevé on Old Madras Road, and a Hennur site planned for FY2026-27.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "B.S. Shivrama",
+        "R. Gopal Reddy"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Concorde Group",
+      "photos": [],
+      "rank": 15,
+      "slug": "concorde-group"
+    },
+    {
+      "bengaluru_presence": "DLF has a Bengaluru residential presence; no verbatim FY26 Bengaluru figure was found.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "K.P. Singh"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Gurugram",
+      "latest_q_bookings_crore": null,
+      "listed": true,
+      "name": "DLF",
+      "photos": [
+        {
+          "credit": "Zimbaskr",
+          "license": "CC BY-SA 4.0",
+          "person": "K.P. Singh",
+          "source": "https://commons.wikimedia.org/wiki/File:Kushal_Pal_Singh_Latest_Image_14th_November_2024.jpg",
+          "src": "/founders/dlf-k-p-singh.jpg"
+        }
+      ],
+      "rank": 16,
+      "slug": "dlf"
+    },
+    {
+      "bengaluru_presence": "Sattva is a Bengaluru-based group whose residential brands include Magnificia, Exotic and Serene Life.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "Bijay Agarwal"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Salarpuria Sattva Group",
+      "photos": [
+        {
+          "credit": "Namita kapoor gurgaon",
+          "license": "Public domain",
+          "person": "Bijay Agarwal",
+          "source": "https://commons.wikimedia.org/wiki/File:Bijay_Agarwal_Sattva_Group.jpg",
+          "src": "/founders/salarpuria-sattva-group-bijay-agarwal.jpg"
+        }
+      ],
+      "rank": 17,
+      "slug": "salarpuria-sattva-group"
+    },
+    {
+      "bengaluru_presence": "Tata Housing's 135+ acre Carnatica township in North Bengaluru includes Varnam Phase I (582 apartments and 48 townhouses and row houses), which crossed INR 1,000 crore in sales.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "Tata Group"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Mumbai",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Tata Housing (Tata Realty)",
+      "photos": [],
+      "rank": 18,
+      "slug": "tata-housing-tata-realty"
+    },
+    {
+      "bengaluru_presence": "Total Environment is a Bengaluru-based developer of customised, furnished homes, also active in Hyderabad and Pune.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "Kamal Sagar"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Total Environment Building Systems",
+      "photos": [],
+      "rank": 19,
+      "slug": "total-environment-building-systems"
+    },
+    {
+      "bengaluru_presence": "Vaishnavi Group is a Bengaluru developer of residential and commercial spaces; no project or sales figures were found.",
+      "category": "B",
+      "figures": [],
+      "founders": [
+        "C.N. Govindaraju"
+      ],
+      "fy26_bookings_crore": null,
+      "headquarters": "Bengaluru",
+      "latest_q_bookings_crore": null,
+      "listed": false,
+      "name": "Vaishnavi Group",
+      "photos": [],
+      "rank": 20,
+      "slug": "vaishnavi-group"
+    }
+  ],
+  "dropped": [
+    "Birla Estates (Aditya Birla Real Estate): Birla Trimaya Phase 4 bookings (Bengaluru) excerpt not on page"
+  ],
+  "generated_at": "2026-10-15T10:03:23+05:30",
+  "method": "Our classification: A-category = FY26 sales bookings of at least Rs 5,000 crore (company-wide, as reported); B-category = below that or not disclosed. Ranked by FY26 bookings, then latest-quarter bookings. Not an official rating."
+}

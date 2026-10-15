@@ -182,6 +182,69 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-01c4e307a3": {
+    "citation_check": {
+      "http": 403,
+      "note": "blocked or missing",
+      "result": "inconclusive",
+      "share": 0.0
+    },
+    "claim_id": "C-01c4e307a3",
+    "claim_key": "infrastructure|sarjapur_road|na|investment_inr|sarjapur hebbal red line phase 3a",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "sarjapur_road",
+    "corroborating_groups": [
+      "deccan_chronicle"
+    ],
+    "domain": "deccanchronicle.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Construction is now targeted to begin by May 2027.",
+    "fact_key": "F-00dfb87807",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "deccan_chronicle",
+    "infra_stage": "proposed",
+    "interested_party": false,
+    "link_status": 403,
+    "locality": "Sarjapur Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:metro_watch",
+    "origin_group": "deccan_chronicle",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-07-18",
+    "publisher": "Deccan Chronicle",
+    "region": "east",
+    "retrieved_at": "2026-10-15T09:00:26+05:30",
+    "statement": "Deccan Chronicle reported on 18 July 2026 that the Sarjapur–Hebbal Red Line is targeted to begin construction by May 2027, with a revised DPR resubmitted in April 2026 cutting the estimate from ₹28,405 crore to ₹25,999 crore, central approval pending, and completion deadline April 2033. Background for the Sarjapur Road soil-testing lead, which I could not open.",
+    "subject": "Sarjapur–Hebbal Red Line (Phase 3A)",
+    "syndication_id": "SYN-6b87b55af8",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+    "value": 25999,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-01db2d9a78": {
     "citation_check": {
       "final_url": "https://www.onecityproperty.com/news/best-plots-for-sale-in-attibele",
@@ -657,6 +720,130 @@
     "value": 10000,
     "value_max": 12500,
     "verification_status": "interested_party_claim"
+  },
+  "C-0f9ca8fac1": {
+    "citation_check": {
+      "final_url": "https://www.angelone.in/news/stocks/puravankara-share-price-in-focus-signs-jda-for-12-76-acre-land-parcel-in-bengaluru",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-0f9ca8fac1",
+    "claim_key": "transaction|unmapped|apartment|investment_inr|puravankara sathanur jda",
+    "claim_type": "transaction",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "domain:angelone.in"
+    ],
+    "domain": "angelone.in",
+    "event_date": "2026-10-12",
+    "evidenced_stage": null,
+    "excerpt": "Puravankara Limited has signed a joint development agreement for a 12.76-acre land parcel in Sathanur, North Bengaluru.",
+    "fact_key": "F-21270614fc",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "domain:angelone.in",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sathanur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "domain:angelone.in",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-12",
+    "publisher": "Angel One",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Puravankara Ltd on 12 October 2026 announced a joint development agreement for a 12.76-acre land parcel in Sathanur, North Bengaluru, with an estimated GDV of ₹2,500 crore and about 1.90 million sq ft saleable area.",
+    "subject": "Puravankara Sathanur JDA",
+    "syndication_id": "SYN-73bf54054b",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "INR crore (estimated GDV)",
+    "url": "https://www.angelone.in/news/stocks/puravankara-share-price-in-focus-signs-jda-for-12-76-acre-land-parcel-in-bengaluru",
+    "value": 2500,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-0ff71d8996": {
+    "citation_check": {
+      "final_url": "https://tradebrains.in/?s=Varthur+Panathur",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-0ff71d8996",
+    "claim_key": "appreciation|panathur_balagere|mixed|appreciation_pct|varthur panathur housing price appreciation",
+    "claim_type": "appreciation",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "panathur_balagere",
+    "corroborating_groups": [
+      "tradebrains"
+    ],
+    "domain": "tradebrains.in",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Varthur and Panathur See Strong Housing Activity with Up to 135% Price Appreciation",
+    "fact_key": "F-5911ae4e94",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "tradebrains",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Panathur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "appreciation_pct",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "tradebrains",
+    "period_years": null,
+    "price_basis": "unknown",
+    "price_kind": "analyst_estimate",
+    "property_type": "mixed",
+    "psf_inr": null,
+    "published_at": "2026-10-14",
+    "publisher": "Trade Brains",
+    "region": "east",
+    "retrieved_at": "2026-10-15T10:11:22+05:30",
+    "statement": "Trade Brains on 14 October 2026 published a piece headlined that Varthur and Panathur see strong housing activity with up to 135% price appreciation; the article body, period and data source could not be read, so the figure is unverified.",
+    "subject": "Varthur and Panathur housing price appreciation",
+    "syndication_id": "SYN-eada3867f5",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "%",
+    "url": "https://tradebrains.in/?s=Varthur+Panathur",
+    "value": 135,
+    "value_max": null,
+    "verification_status": "unverified"
   },
   "C-10d104d2e5": {
     "citation_check": {
@@ -3734,6 +3921,80 @@
     "value_max": null,
     "verification_status": "single_source"
   },
+  "C-2c2b18377d": {
+    "citation_check": {
+      "final_url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.86
+    },
+    "claim_id": "C-2c2b18377d",
+    "claim_key": "infrastructure|bannerghatta_road|na|none|bannerghatta road junction improvements dpr",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "bengaluru_live"
+    ],
+    "domain": "thebengalurulive.com",
+    "event_date": "2026-10-13",
+    "evidenced_stage": "proposed",
+    "excerpt": "the directions \"do not amount to an announcement that the proposed junction improvements have been completed.\"",
+    "fact_key": "F-04b967dfd9",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "bengaluru_live",
+    "infra_stage": "proposed",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Bannerghatta Road",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "bengaluru_live",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-13",
+    "publisher": "The Bengaluru Live",
+    "recheck": {
+      "claim_id": "C-2c2b18377d",
+      "reason": "Article dated 13 Oct 2026 reports Rao's footpath inspection, DPR request for Gottigere–Tavarekere junctions, and the 'do not amount to... completed' caveat.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-2c2b18377d",
+        "reason": "Article dated 13 Oct 2026 reports Rao's footpath inspection, DPR request for Gottigere–Tavarekere junctions, and the 'do not amount to... completed' caveat.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "GBA Chief Commissioner M Maheshwar Rao, after inspecting Bannerghatta Road footpaths around 13 October 2026, directed officials to prepare a DPR for junctions between Gottigere and Tavarekere; the Bengaluru Live notes this is a direction, not completed works.",
+    "subject": "Bannerghatta Road junction improvements DPR",
+    "syndication_id": "SYN-4d86b7403e",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-2e2f581f04": {
     "citation_check": {
       "final_url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengalurus-thanisandra-rd-sees-67-rise-in-housing-prices-sarjapur-rd-63-in-last-3-yrs-anarock-3457987",
@@ -3870,6 +4131,68 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-2ec318ce9f": {
+    "citation_check": {
+      "final_url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-2ec318ce9f",
+    "claim_key": "project_launch|hebbal_yelahanka|apartment|units_launched|century astoria jakkur",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (developer)",
+    "corridor": "hebbal_yelahanka",
+    "corroborating_groups": [],
+    "domain": "vmpl.scnwire.com",
+    "event_date": "2026-10-10",
+    "evidenced_stage": null,
+    "excerpt": "the project has crossed ₹550 crore in bookings",
+    "fact_key": "F-9f4a9ac1e1",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "press_wire_scn",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Jakkur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_launched",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "press_wire_scn",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-10",
+    "publisher": "SCN Wire (Century Real Estate press release)",
+    "region": "north",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Century Real Estate on 10 October 2026 formally introduced The Astoria at Century Immencity, a 334-residence, five-tower project of about 6 acres in Jakkur on Airport Road, saying bookings have crossed ₹550 crore since a July 2026 pre-launch under the codename Bluemoon (developer press release).",
+    "subject": "Century The Astoria, Jakkur",
+    "syndication_id": "SYN-a31535b14f",
+    "tier": "developer",
+    "total_inr": null,
+    "unit": "units",
+    "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+    "value": 334,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
+  },
   "C-2f08b887ac": {
     "citation_check": {
       "final_url": "https://newsable.asianetnews.com/gallery/karnataka-news/bengaluru-metro-phase-3a-namma-metro-phase-3a-opening-pushed-to-2033-after-major-cost-cutting-changes-0vp1ugq",
@@ -3984,7 +4307,7 @@
     "publisher": "The News Minute",
     "recheck": {
       "claim_id": "C-2f6c1f2523",
-      "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
+      "reason": "Article dated 20 Aug 2026 reports ORRCA asking for the Rs 450-crore revamp to be held pending the Blue Line and about 13.5 km queues at 9:30 am.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -3996,6 +4319,16 @@
       {
         "claim_id": "C-2f6c1f2523",
         "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-2f6c1f2523",
+        "reason": "TNM 20 Aug 2026 reports ORRCA's request to pause the Rs 450-crore revamp and the ~13.5 km queues at 9:30 am.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-2f6c1f2523",
+        "reason": "Article dated 20 Aug 2026 reports ORRCA asking for the Rs 450-crore revamp to be held pending the Blue Line and about 13.5 km queues at 9:30 am.",
         "verdict": "supported"
       }
     ],
@@ -5163,6 +5496,70 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-3b6a5028db": {
+    "citation_check": {
+      "final_url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-3b6a5028db",
+    "claim_key": "project_launch|devanahalli_airport|commercial|jobs|conrad hilton airport hotels",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "domain:hospitalitynet.org"
+    ],
+    "domain": "hospitalitynet.org",
+    "event_date": "2026-10-06",
+    "evidenced_stage": null,
+    "excerpt": "expected to open in 2030",
+    "fact_key": "F-588750a28c",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "stage_not_evidenced_in_excerpt",
+      "undated"
+    ],
+    "group": "domain:hospitalitynet.org",
+    "infra_stage": "announced",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "KIADB Hi-Tech Defence and Aerospace Park",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "jobs",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "domain:hospitalitynet.org",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": null,
+    "publisher": "Hospitality Net",
+    "region": "north",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Hospitality Net independently reports the Hilton–Kalyani Group signing of Conrad Bengaluru Airport and Hilton Bengaluru Airport, 300 rooms each, expected to open in 2030 (page dated 'October 6', year not shown).",
+    "subject": "Conrad and Hilton Bengaluru Airport hotels",
+    "syndication_id": "SYN-9c0597a835",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+    "value": null,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-3d1a00ec70": {
     "citation_check": {
       "final_url": "https://swarajyamag.com/amp/story/news-brief/hosur-international-airport-plan-draws-farmers-ire-over-land-acquisition-report",
@@ -5454,7 +5851,7 @@
     "publisher": "Swarajya",
     "recheck": {
       "claim_id": "C-3ee4af89b4",
-      "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
+      "reason": "Swarajya dated 16 Aug 2026 cites TOI and says the deadline is pushed to 2027.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -5466,6 +5863,16 @@
       {
         "claim_id": "C-3ee4af89b4",
         "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-3ee4af89b4",
+        "reason": "Swarajya 16 Aug 2026 cites TOI and says the deadline will be pushed to 2027.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-3ee4af89b4",
+        "reason": "Swarajya dated 16 Aug 2026 cites TOI and says the deadline is pushed to 2027.",
         "verdict": "supported"
       }
     ],
@@ -6357,6 +6764,69 @@
     "value": 25999,
     "value_max": null,
     "verification_status": "single_source"
+  },
+  "C-466a0a4be7": {
+    "citation_check": {
+      "final_url": "https://askfuzz.ai/discover/news/companies/arvind-smartspaces-adds-330-cr-bengaluru-project",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 0.6
+    },
+    "claim_id": "C-466a0a4be7",
+    "claim_key": "project_launch|whitefield|apartment|investment_inr|arvind smartspaces nagondanahalli project",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "whitefield",
+    "corroborating_groups": [
+      "domain:askfuzz.ai"
+    ],
+    "domain": "askfuzz.ai",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "Arvind SmartSpaces adds 330 cr Bengaluru project",
+    "fact_key": "F-a8e95eb501",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window"
+    ],
+    "group": "domain:askfuzz.ai",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Whitefield",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "domain:askfuzz.ai",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-03-10",
+    "publisher": "AskFuzz",
+    "region": "east",
+    "retrieved_at": "2026-10-15T10:11:22+05:30",
+    "statement": "Background: on 10 March 2026 Arvind SmartSpaces was reported to have launched a 2.08-acre high-rise at Nagondanahalli, Whitefield, with about 2.5 lakh sq ft saleable area and Rs 330 crore revenue potential.",
+    "subject": "Arvind SmartSpaces Nagondanahalli project",
+    "syndication_id": "SYN-cb45c6b7d9",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://askfuzz.ai/discover/news/companies/arvind-smartspaces-adds-330-cr-bengaluru-project",
+    "value": 330,
+    "value_max": null,
+    "verification_status": "unverified"
   },
   "C-4685ee9100": {
     "citation_check": {
@@ -7329,6 +7799,68 @@
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
+  "C-51b2315043": {
+    "citation_check": {
+      "final_url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-51b2315043",
+    "claim_key": "transaction|unmapped|apartment|area_sqft|puravankara sathanur jda",
+    "claim_type": "transaction",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "unmapped",
+    "corroborating_groups": [
+      "aggregator_devdiscourse"
+    ],
+    "domain": "devdiscourse.com",
+    "event_date": "2026-10-12",
+    "evidenced_stage": null,
+    "excerpt": "a saleable area of approximately 1.90 million square feet (msft)",
+    "fact_key": "F-5dc459d58f",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "aggregator_devdiscourse",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sathanur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "area_sqft",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "aggregator_devdiscourse",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-10-12",
+    "publisher": "Devdiscourse",
+    "region": "unmapped",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "A second outlet (Devdiscourse, 12 Oct 2026) reports Puravankara's Sathanur JDA has about 1.90 million sq ft saleable area and Rs 2,500 crore estimated GDV, and that FY27 business development additions total eight projects with potential GDV of ₹16,600 crore.",
+    "subject": "Puravankara Sathanur JDA",
+    "syndication_id": "SYN-e2c3f398ce",
+    "tier": "aggregator",
+    "total_inr": null,
+    "unit": "sqft saleable",
+    "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+    "value": 1900000,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
   "C-51e2cb885c": {
     "citation_check": {
       "final_url": "https://www.homebazaar.com/assetz-twin-lake-city-horamavu-8643",
@@ -8207,7 +8739,7 @@
     "publisher": "Business Today",
     "recheck": {
       "claim_id": "C-55ac794229",
-      "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
+      "reason": "Business Today of 18 Aug 2026 confirms 500+ firms, WFH rejection, a request to hold the Rs 450-crore revamp until the Blue Line operates, and the minister's October start direction.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -8219,6 +8751,16 @@
       {
         "claim_id": "C-55ac794229",
         "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-55ac794229",
+        "reason": "Page confirms ORRCA with 500+ firms rejected WFH, sought to hold the Rs 450-crore revamp until the Blue Line opens, and the minister's October start directive.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-55ac794229",
+        "reason": "Business Today of 18 Aug 2026 confirms 500+ firms, WFH rejection, a request to hold the Rs 450-crore revamp until the Blue Line operates, and the minister's October start direction.",
         "verdict": "supported"
       }
     ],
@@ -10509,7 +11051,7 @@
     "publisher": "News Karnataka",
     "recheck": {
       "claim_id": "C-69efcf6f51",
-      "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
+      "reason": "Article dated 15 Sept 2026 says NHAI has begun the Sadahalli underpass, Rs 35 crore, about a year.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -10521,6 +11063,11 @@
       {
         "claim_id": "C-69efcf6f51",
         "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-69efcf6f51",
+        "reason": "Article dated 15 Sept 2026 says NHAI has begun the Sadahalli underpass, Rs 35 crore, about a year.",
         "verdict": "supported"
       }
     ],
@@ -13048,6 +13595,80 @@
     "value_max": null,
     "verification_status": "unverified"
   },
+  "C-88ab1efd9e": {
+    "citation_check": {
+      "final_url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-88ab1efd9e",
+    "claim_key": "civic_risk|bannerghatta_road|na|none|bannerghatta road footpaths",
+    "claim_type": "civic_risk",
+    "comparability": "n/a",
+    "confidence": "Medium",
+    "confidence_reason": "one reputable source, excerpt confirmed",
+    "corridor": "bannerghatta_road",
+    "corroborating_groups": [
+      "bengaluru_live"
+    ],
+    "domain": "thebengalurulive.com",
+    "event_date": "2026-10-13",
+    "evidenced_stage": null,
+    "excerpt": "\"Missing slabs over drains are to be replaced immediately and open drains covered to reduce risks to pedestrians.\"",
+    "fact_key": "F-1d691acf66",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed"
+    ],
+    "group": "bengaluru_live",
+    "infra_stage": "none",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Kalena Agrahara",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "bengaluru_live",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-10-13",
+    "publisher": "The Bengaluru Live",
+    "recheck": {
+      "claim_id": "C-88ab1efd9e",
+      "reason": "Article reports no safe pathway near Kalena Agrahara, an order to replace missing drain slabs, and mid-block median crossings where needed.",
+      "verdict": "supported"
+    },
+    "recheck_history": [
+      {
+        "claim_id": "C-88ab1efd9e",
+        "reason": "Article reports no safe pathway near Kalena Agrahara, an order to replace missing drain slabs, and mid-block median crossings where needed.",
+        "verdict": "supported"
+      }
+    ],
+    "region": "south",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Footpath inspection on Bannerghatta Road found pedestrians lacked a safe pathway near Kalena Agrahara metro station; Rao ordered missing drain slabs replaced and mid-block median crossings where needed.",
+    "subject": "Bannerghatta Road footpaths",
+    "syndication_id": "SYN-da0dcb580a",
+    "tier": "reputable_media",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/",
+    "value": null,
+    "value_max": null,
+    "verification_status": "single_source"
+  },
   "C-8944ed599b": {
     "citation_check": {
       "final_url": "https://www.businesstoday.in/personal-finance/real-estate/story/bengaluru-emerges-as-indias-strongest-housing-market-in-q2-mumbai-dominates-sales-ncr-leads-price-growth-540257-2026-07-01",
@@ -13217,7 +13838,7 @@
     "publisher": "Deccan Herald",
     "recheck": {
       "claim_id": "C-8a66c38724",
-      "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+      "reason": "Page returned HTTP 403, so content could not be checked.",
       "verdict": "unable"
     },
     "recheck_history": [
@@ -13229,6 +13850,16 @@
       {
         "claim_id": "C-8a66c38724",
         "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-8a66c38724",
+        "reason": "Deccan Herald AMP page returned HTTP 403, so the page could not be read.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-8a66c38724",
+        "reason": "Page returned HTTP 403, so content could not be checked.",
         "verdict": "unable"
       }
     ],
@@ -13536,7 +14167,7 @@
     "retrieved_at": "2026-10-15T08:55:34+05:30",
     "statement": "Puravankara signed a joint development agreement for a 12.76-acre parcel in Sathanur, North Bengaluru. It estimates a gross development value of INR 2,500 crore and about 1.90 million sq ft of saleable residential area. This is a developer announcement carried by PTI.",
     "subject": "Puravankara Sathanur JDA",
-    "syndication_id": "SYN-5dd34511a9",
+    "syndication_id": "SYN-9d1120d26e",
     "tier": "unknown",
     "total_inr": null,
     "unit": "INR crore",
@@ -13610,11 +14241,10 @@
   },
   "C-8ed90f570e": {
     "citation_check": {
-      "final_url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
-      "http": 200,
-      "note": null,
-      "result": "confirmed",
-      "share": 1.0
+      "http": 403,
+      "note": "blocked or missing",
+      "result": "inconclusive",
+      "share": 0.0
     },
     "claim_id": "C-8ed90f570e",
     "claim_key": "infrastructure|sarjapur_road|na|investment_inr|namma metro red line phase 3a sarjapur hebbal",
@@ -13633,7 +14263,6 @@
     "fact_key": "F-9734322202",
     "first_seen": "2026-10-15",
     "flags": [
-      "citation_confirmed",
       "outside_window",
       "stage_not_evidenced_in_excerpt",
       "stage_overstated"
@@ -13641,7 +14270,7 @@
     "group": "deccan_chronicle",
     "infra_stage": "proposed",
     "interested_party": false,
-    "link_status": 200,
+    "link_status": 403,
     "locality": "Sarjapur Road",
     "marketing": {
       "guarantee_phrases": [],
@@ -14151,6 +14780,68 @@
     "unit": "units (800+)",
     "url": "https://embassygroup.com/press-release/embassy-developments-to-launch-six-residential-projects-valued-at-10300-crore-in-north-bengaluru/",
     "value": 800,
+    "value_max": null,
+    "verification_status": "interested_party_claim"
+  },
+  "C-913d5ec51e": {
+    "citation_check": {
+      "final_url": "https://www.propnewz.com/blog/brigade-gunjur-whitefield-bangalore-review-2026",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-913d5ec51e",
+    "claim_key": "project_update|varthur_gunjur|apartment|none|brigade gunjur",
+    "claim_type": "project_update",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "only interested-party source (broker_marketing)",
+    "corridor": "varthur_gunjur",
+    "corroborating_groups": [],
+    "domain": "propnewz.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "June 2026 indicated launch with K-RERA registration pending.",
+    "fact_key": "F-0dd04c8c87",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window"
+    ],
+    "group": "propnewz",
+    "infra_stage": "none",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "Gunjur",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "none",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:east_launches_prices",
+    "origin_group": "propnewz",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "apartment",
+    "psf_inr": null,
+    "published_at": "2026-08-26",
+    "publisher": "PropNewz",
+    "region": "east",
+    "retrieved_at": "2026-10-15T10:11:22+05:30",
+    "statement": "Background (updated 26 Aug 2026): a PropNewz portal blog says Brigade Enterprises' Gunjur township (39 acres, ~2,500 homes) had a June 2026 indicated launch with K-RERA registration pending; its per-sqft band is the blog's own estimate, not an official price.",
+    "subject": "Brigade Gunjur",
+    "syndication_id": "SYN-6ab2e4a9cb",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": null,
+    "url": "https://www.propnewz.com/blog/brigade-gunjur-whitefield-bangalore-review-2026",
+    "value": null,
     "value_max": null,
     "verification_status": "interested_party_claim"
   },
@@ -14799,7 +15490,7 @@
     "publisher": "Construction World",
     "recheck": {
       "claim_id": "C-961687ce2f",
-      "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
+      "reason": "Article dated 15 July 2026 gives 700 m, six lanes, Rs 350 mn, September excavation and 15 months of night work.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -14811,6 +15502,11 @@
       {
         "claim_id": "C-961687ce2f",
         "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-961687ce2f",
+        "reason": "Article dated 15 July 2026 gives 700 m, six lanes, Rs 350 mn, September excavation and 15 months of night work.",
         "verdict": "supported"
       }
     ],
@@ -14827,13 +15523,76 @@
     "value_max": null,
     "verification_status": "corroborated"
   },
-  "C-9725810d32": {
+  "C-97153a051f": {
     "citation_check": {
-      "final_url": "https://www.deccanchronicle.com/southern-states/karnataka/which-areas-will-bengaluru-metro-red-line-cover-1971936",
+      "final_url": "https://newskarnataka.com/bengaluru/bengaluru-sadahalli-underpass-to-ease-airport-traffic/15092026/",
       "http": 200,
       "note": null,
       "result": "confirmed",
       "share": 1.0
+    },
+    "claim_id": "C-97153a051f",
+    "claim_key": "infrastructure|devanahalli_airport|na|investment_inr|sadahalli underpass",
+    "claim_type": "infrastructure",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "unclassified source, no corroboration",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [
+      "newskarnataka"
+    ],
+    "domain": "newskarnataka.com",
+    "event_date": null,
+    "evidenced_stage": null,
+    "excerpt": "an estimated cost of ₹35 crore",
+    "fact_key": "F-b0c942ad89",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt"
+    ],
+    "group": "newskarnataka",
+    "infra_stage": "under_construction",
+    "interested_party": false,
+    "link_status": 200,
+    "locality": "Sadahalli",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "investment_inr",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "newskarnataka",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "na",
+    "psf_inr": null,
+    "published_at": "2026-09-15",
+    "publisher": "NewsKarnataka",
+    "region": "north",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Background (pre-window): on 15 September 2026 NewsKarnataka reported work under way on NHAI's ₹35 crore, 750-metre six-lane Sadahalli underpass on the Hebbal–airport road; other outlets give differing start dates and length.",
+    "subject": "Sadahalli underpass",
+    "syndication_id": "SYN-5b87825241",
+    "tier": "unknown",
+    "total_inr": null,
+    "unit": "INR crore",
+    "url": "https://newskarnataka.com/bengaluru/bengaluru-sadahalli-underpass-to-ease-airport-traffic/15092026/",
+    "value": 35,
+    "value_max": null,
+    "verification_status": "unverified"
+  },
+  "C-9725810d32": {
+    "citation_check": {
+      "http": 403,
+      "note": "blocked or missing",
+      "result": "inconclusive",
+      "share": 0.0
     },
     "claim_id": "C-9725810d32",
     "claim_key": "infrastructure|sarjapur_road|na|none|namma metro red line phase 3a construction start",
@@ -14852,7 +15611,6 @@
     "fact_key": "F-7239b99dfc",
     "first_seen": "2026-10-15",
     "flags": [
-      "citation_confirmed",
       "outside_window",
       "stage_not_evidenced_in_excerpt",
       "stage_overstated"
@@ -14860,7 +15618,7 @@
     "group": "deccan_chronicle",
     "infra_stage": "proposed",
     "interested_party": false,
-    "link_status": 200,
+    "link_status": 403,
     "locality": "Sarjapur Road",
     "marketing": {
       "guarantee_phrases": [],
@@ -15802,7 +16560,7 @@
     "publisher": "Swarajya",
     "recheck": {
       "claim_id": "C-a20a3fedd5",
-      "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+      "reason": "Swarajya of 16 Aug 2026 quotes the BMRCL official that a 2026 commercial-operation target is not feasible, with Marathahalli, Central Silk Board and depot link work pending.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -15814,6 +16572,16 @@
       {
         "claim_id": "C-a20a3fedd5",
         "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-a20a3fedd5",
+        "reason": "Swarajya 16 Aug 2026 quotes the official saying a 2026 target is not feasible, and lists Marathahalli, Central Silk Board and depot link as pending.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-a20a3fedd5",
+        "reason": "Swarajya of 16 Aug 2026 quotes the BMRCL official that a 2026 commercial-operation target is not feasible, with Marathahalli, Central Silk Board and depot link work pending.",
         "verdict": "supported"
       }
     ],
@@ -16451,7 +17219,7 @@
     "publisher": "ThePrint (PTI)",
     "recheck": {
       "claim_id": "C-aa236f5422",
-      "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
+      "reason": "ThePrint of 29 Sep 2026 confirms the 10 m to 30/45/90 m notification and the requirement to leave the land vacant for new layouts or houses.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -16463,6 +17231,16 @@
       {
         "claim_id": "C-aa236f5422",
         "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-aa236f5422",
+        "reason": "ThePrint 29 Sept 2026 states the road widths and that corridor land must be left vacant for new layouts/houses.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-aa236f5422",
+        "reason": "ThePrint of 29 Sep 2026 confirms the 10 m to 30/45/90 m notification and the requirement to leave the land vacant for new layouts or houses.",
         "verdict": "supported"
       }
     ],
@@ -16844,13 +17622,23 @@
     "publisher": "Asianet Newsable",
     "recheck": {
       "claim_id": "C-ad429d01df",
-      "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
+      "reason": "Article dated 2 Oct 2026 confirms the 18 Sept application, that the 7.5 km stretch would take the network past 100 km, and the missed September 2026 target.",
       "verdict": "supported"
     },
     "recheck_history": [
       {
         "claim_id": "C-ad429d01df",
         "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-ad429d01df",
+        "reason": "Article of 2 Oct 2026 confirms the 18 Sept application, crossing 100 km on opening, and the minister's September 2026 target that slipped.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-ad429d01df",
+        "reason": "Article dated 2 Oct 2026 confirms the 18 Sept application, that the 7.5 km stretch would take the network past 100 km, and the missed September 2026 target.",
         "verdict": "supported"
       }
     ],
@@ -19486,7 +20274,7 @@
     "publisher": "Deccan Herald",
     "recheck": {
       "claim_id": "C-c55b9ea49a",
-      "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+      "reason": "Page returned HTTP 403, so the 36-deficiencies claim could not be checked.",
       "verdict": "unable"
     },
     "recheck_history": [
@@ -19498,6 +20286,16 @@
       {
         "claim_id": "C-c55b9ea49a",
         "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-c55b9ea49a",
+        "reason": "Deccan Herald returned HTTP 403, so the page could not be read.",
+        "verdict": "unable"
+      },
+      {
+        "claim_id": "C-c55b9ea49a",
+        "reason": "Page returned HTTP 403, so the 36-deficiencies claim could not be checked.",
         "verdict": "unable"
       }
     ],
@@ -20347,6 +21145,70 @@
     "value": null,
     "value_max": null,
     "verification_status": "single_source"
+  },
+  "C-d0f682c996": {
+    "citation_check": {
+      "final_url": "https://therealtytoday.com/news/commercial/hilton-signs-two-300-room-hotels-with-kalyani-group-near-bengaluru-airport/",
+      "http": 200,
+      "note": null,
+      "result": "confirmed",
+      "share": 1.0
+    },
+    "claim_id": "C-d0f682c996",
+    "claim_key": "project_launch|devanahalli_airport|commercial|units_launched|conrad hilton airport hotels",
+    "claim_type": "project_launch",
+    "comparability": "n/a",
+    "confidence": "Low",
+    "confidence_reason": "the statement asserts an infrastructure stage the quoted text does not support",
+    "corridor": "devanahalli_airport",
+    "corroborating_groups": [],
+    "domain": "therealtytoday.com",
+    "event_date": "2026-10-06",
+    "evidenced_stage": null,
+    "excerpt": "300 rooms at each hotel (600 rooms in total)",
+    "fact_key": "F-9c3a8bc5a7",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "citation_confirmed",
+      "interested_party",
+      "outside_window",
+      "stage_not_evidenced_in_excerpt",
+      "stage_overstated"
+    ],
+    "group": "realty_today",
+    "infra_stage": "announced",
+    "interested_party": true,
+    "link_status": 200,
+    "locality": "KIADB Hi-Tech Defence and Aerospace Park",
+    "marketing": {
+      "guarantee_phrases": [],
+      "hype_phrases": [],
+      "marketing_score": 0.0
+    },
+    "metric": "units_launched",
+    "normalisation_note": null,
+    "novelty": "new",
+    "origin": "agent:north_south_west",
+    "origin_group": "realty_today",
+    "period_years": null,
+    "price_basis": "na",
+    "price_kind": "na",
+    "property_type": "commercial",
+    "psf_inr": null,
+    "published_at": "2026-10-06",
+    "publisher": "The Realty Today",
+    "region": "north",
+    "retrieved_at": "2026-10-15T10:12:06+05:30",
+    "statement": "Hilton announced on 6 October 2026 the signing of two 300-room hotels (Conrad and Hilton Bengaluru Airport) with Kalyani Group in KIADB Hi-Tech Defence and Aerospace Park near the airport, 600 rooms in total, due to open in 2030.",
+    "subject": "Conrad and Hilton Bengaluru Airport hotels",
+    "syndication_id": "SYN-70da1cab60",
+    "tier": "broker_marketing",
+    "total_inr": null,
+    "unit": "rooms",
+    "url": "https://therealtytoday.com/news/commercial/hilton-signs-two-300-room-hotels-with-kalyani-group-near-bengaluru-airport",
+    "value": 600,
+    "value_max": null,
+    "verification_status": "unverified"
   },
   "C-d19a15ee9f": {
     "citation_check": {
@@ -24848,7 +25710,7 @@
     "publisher": "The News Minute",
     "recheck": {
       "claim_id": "C-fe40c889d3",
-      "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
+      "reason": "Page reports the 3 Sept HC direction for a technical presentation on lake flow, the DPR challenge and lake-land diversion.",
       "verdict": "supported"
     },
     "recheck_history": [
@@ -24860,6 +25722,11 @@
       {
         "claim_id": "C-fe40c889d3",
         "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-fe40c889d3",
+        "reason": "Page reports the 3 Sept HC direction for a technical presentation on lake flow, the DPR challenge and lake-land diversion.",
         "verdict": "supported"
       }
     ],

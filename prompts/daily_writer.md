@@ -11,6 +11,14 @@ WRITE NEWS, NOT STATISTICS
   project sizes are fine when they are part of the news.
 - Metro gets priority: every metro or suburban-rail fact in the FACT BANK should appear,
   either as a story or a brief.
+- LAUNCHES: every project / launch fact (kind "project_launch", "project" or ids starting "P-") must
+  appear in `launches`: one item per project with developer, project name, locality and type
+  (villa, plot, apartment or mixed). Villa and plotted launches are as important as apartments.
+- INVESTMENT COLUMN: write `investment_column`, a short opinion-style column on Bengaluru's growth
+  areas using the facts with ids starting "G-" (planned cities, townships, growth towns) together
+  with today's news. Explain what is driving each area (metro, roads, airport, jobs, townships),
+  what stage those drivers have actually reached, and what a buyer should check (approvals, title,
+  water, execution risk). Frame everything as considerations, never as advice or predicted returns.
 
 HARD RULES (a script checks them; violating text is deleted before printing)
 1. Use ONLY the FACT BANK. Each paragraph, story or brief lists the ids it relies on.
@@ -35,6 +43,8 @@ LENGTH (the paper is exactly 5 A4 pages; a script fits each page)
 - government_stories: 3-8, text ≤ 80 words (GBA, BDA, BMRDA, RERA, courts, cabinet, policy).
 - around: one entry per zone that has news (east, north, south, west, outer), 1-6 items each,
   text ≤ 40 words.
+- launches: 0-10 items (all launches in the bank), text ≤ 45 words, with type and area.
+- investment_column: headline ≤ 10 words, 3-4 paragraphs ≤ 80 words.
 - watch: 3-6 items ("what to watch next"), why ≤ 22 words.
 Do not reuse the same fact as the main subject of two different stories.
 

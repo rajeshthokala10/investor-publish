@@ -81,6 +81,48 @@
     "status": "launched",
     "unit_sizes": null
   },
+  "P-05c203585e": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "varthur_gunjur",
+    "developer": "Brigade Enterprises",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Gunjur",
+    "lon": null,
+    "name": "Brigade Gunjur",
+    "open_questions": [
+      "Whether the project launched",
+      "RERA number",
+      "Official price and possession"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-05c203585e",
+    "property_type": "apartment",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "June 2026 indicated launch with K-RERA registration pending.",
+        "published_at": "2026-08-26",
+        "publisher": "PropNewz",
+        "retrieved_at": "2026-10-15T10:11:22+05:30",
+        "tier": "broker_marketing",
+        "url": "https://www.propnewz.com/blog/brigade-gunjur-whitefield-bangalore-review-2026"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "2, 3, 4 BHK; ~2,500 homes; 39-acre township"
+  },
   "P-08403a181d": {
     "charges_excluded": null,
     "charges_included": null,
@@ -548,7 +590,11 @@
       "RERA not mentioned",
       "RERA number not confirmed on rera.karnataka.gov.in",
       "Prices not in the press release; aggregators quote Rs 4.25-15 crore, unverified",
-      "Possession date conflicting across listings (2030/2031)"
+      "Possession date conflicting across listings (2030/2031)",
+      "RERA number not in release; aggregator listings give conflicting numbers",
+      "Prices only from aggregators (about ₹4.25–15 crore), unverified",
+      "Possession 2030/2031 per aggregators; unconfirmed",
+      "₹550 crore bookings is a developer claim"
     ],
     "possession": null,
     "price_observations": [],
@@ -570,7 +616,7 @@
       }
     ],
     "status": "launched",
-    "unit_sizes": "334 residences, 5 towers, ~6 acres; 3/4 BHK and penthouses"
+    "unit_sizes": "3, 4 BHK and penthouses (per release)"
   },
   "P-477ab71001": {
     "charges_excluded": null,
@@ -796,6 +842,47 @@
         "retrieved_at": "2026-10-15T06:22:35+05:30",
         "tier": "broker_marketing",
         "url": "https://www.propnewz.com/blog/brigade-gunjur-jda-39-acre-whitefield-sarjapur-township-7200-cr-2026-05-19"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-66ca00cad6": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Puravankara",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sathanur",
+    "lon": null,
+    "name": "Puravankara Sathanur (JDA land parcel)",
+    "open_questions": [
+      "Land acquisition only; no launch date, RERA or pricing",
+      "GDV is estimated sales potential, not revenue"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-66ca00cad6",
+    "property_type": "apartment",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "the proposed residential project has an estimated gross development value (GDV) of ₹2,500 crore",
+        "published_at": "2026-10-12",
+        "publisher": "Angel One",
+        "retrieved_at": "2026-10-15T10:12:06+05:30",
+        "tier": "unknown",
+        "url": "https://www.angelone.in/news/stocks/puravankara-share-price-in-focus-signs-jda-for-12-76-acre-land-parcel-in-bengaluru"
       }
     ],
     "status": "pre_launch",

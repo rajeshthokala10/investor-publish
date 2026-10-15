@@ -11,8 +11,10 @@ tasks:
     focus: |
       East Bengaluru residential market: Whitefield, ORR East (Marathahalli/Bellandur),
       Sarjapur Road, Varthur-Gunjur, Panathur-Balagere, Budigere Cross, KR Puram-Hoskote.
-      Find project launches, new phases, plotted developments, villa projects and
-      high-rise apartment launches; quoted prices with their basis (land / carpet /
+      Find EVERY project launch and new phase in the window - villa projects, plotted
+      developments (villa plots) and high-rise apartments - with developer, project name, locality,
+      type, size (units/plots/acres) and quoted price with basis; search developer press releases,
+      "launch" + locality, "villa" + locality, "plotted" + locality, and RERA registrations; quoted prices with their basis (land / carpet /
       built-up / super built-up); RERA numbers shown on developer or official pages;
       possession timelines; rental and resale signals.
       Check developer websites and official announcements for launches you find in news.
@@ -33,8 +35,10 @@ tasks:
     focus: |
       North (Hebbal, Yelahanka, Hennur, Thanisandra, Devanahalli, airport region),
       South (Electronic City, Hosur Road, Bannerghatta Road, Kanakapura Road) and West
-      (Mysore Road, Kengeri, Tumkur Road, Magadi Road) Bengaluru: launches, prices,
-      infrastructure and risks. Compact; prefer the most consequential items.
+      (Mysore Road, Kengeri, Tumkur Road, Magadi Road) Bengaluru: launches (villas, plotted
+      developments and apartments - list every one found with developer and locality), prices,
+      infrastructure and risks. Also Devanahalli, Doddaballapur, Hoskote, Kanakapura Road and
+      Bidadi villa/plot launches.
 
   - id: government_watch
     cadence: daily

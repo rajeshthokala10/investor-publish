@@ -167,6 +167,66 @@
     }).join("");
   }
 
+  /* ---------- top builders as slides (Top 10 / A-category / B-category) ---------- */
+  function builderSlides(data) {
+    const box = $("#builder-cards");
+    box.className = "bslider";
+    const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+    const all = data.slides;
+    const tabs = { "Top 10": all.slice(0, 10), "A-category": all.filter((b) => b.category === "A"), "B-category": all.filter((b) => b.category === "B") };
+    const slide = (b) => `
+      <article class="bslide" aria-roledescription="slide">
+        <div class="bs-left">
+          <div class="bs-rank">#${b.rank}</div>
+          <div class="bs-faces">${b.photos.length ? b.photos.map((p) => `<figure><img src="${esc(p.src)}" alt="${esc(p.person)}" loading="lazy" draggable="false">
+              <figcaption>${esc(p.person)}</figcaption></figure>`).join("")
+            : `<div class="bs-mono">${esc(initials(b.name))}</div>`}</div>
+          <h3>${esc(b.name)}</h3>
+          <p class="bs-tags"><span class="cat cat-${esc(b.category)}">${esc(b.category)}-category</span>${b.listed ? '<span class="lst">Listed</span>' : ""}<span class="hq">${esc(b.hq || "")}</span></p>
+          ${b.founders.length ? `<p class="bs-founders"><b>Founder${b.founders.length > 1 ? "s" : ""}:</b> ${esc(b.founders.join(", "))}</p>` : ""}
+          <p class="bs-presence">${esc(b.presence || "")}</p>
+        </div>
+        <div class="bs-stats">${b.stats.map((st) => `<div class="bs-stat ${st.value === "Not disclosed" ? "nd" : ""}"><span>${esc(st.label)}</span><b>${esc(st.value)}</b>
+            <small>${esc([st.period, st.scope].filter(Boolean).join(" · "))}${st.url ? ` · <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.source)}</a>` : ""}</small></div>`).join("")}
+          ${b.bengaluru.map((st) => `<div class="bs-stat blr"><span>${esc(st.label)}</span><b>${esc(st.value)}</b><small>${esc(st.period)} · <a href="${esc(st.url)}" target="_blank" rel="noopener">${esc(st.source)}</a></small></div>`).join("")}
+          ${b.photos.length ? `<p class="bs-credit">Photo${b.photos.length > 1 ? "s" : ""}: ${b.photos.map((p) => `${esc(p.credit)}, <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.license)}</a>`).join("; ")} (Wikimedia Commons)</p>` : ""}
+        </div>
+      </article>`;
+    box.innerHTML = `
+      <div class="bs-tabs" role="tablist">${Object.entries(tabs).map(([k, v], i) => `<button role="tab" aria-selected="${i === 0}" data-tab="${esc(k)}">${esc(k)} <em>${v.length}</em></button>`).join("")}</div>
+      <div class="bs-viewport"><div class="bs-track" id="bs-track"></div></div>
+      <div class="bs-nav"><button class="bs-prev" aria-label="Previous">‹</button><div class="bs-dots" id="bs-dots"></div><button class="bs-next" aria-label="Next">›</button></div>
+      <p class="bs-method">${esc(data.method || "")}</p>`;
+    let current = [], idx = 0, timer;
+    const track = $("#bs-track"), dots = $("#bs-dots");
+    const go = (i) => {
+      idx = (i + current.length) % current.length;
+      track.style.transform = `translateX(-${idx * 100}%)`;
+      [...dots.children].forEach((d, n) => d.setAttribute("aria-selected", n === idx));
+    };
+    const show = (name) => {
+      current = tabs[name]; idx = 0;
+      track.innerHTML = current.map(slide).join("");
+      dots.innerHTML = current.map((b, n) => `<button aria-label="${esc(b.name)}" title="${esc(b.name)}"></button>`).join("");
+      [...dots.children].forEach((d, n) => d.addEventListener("click", () => { go(n); restart(); }));
+      go(0);
+    };
+    const restart = () => { clearInterval(timer); timer = setInterval(() => go(idx + 1), 7000); };
+    box.querySelector(".bs-prev").addEventListener("click", () => { go(idx - 1); restart(); });
+    box.querySelector(".bs-next").addEventListener("click", () => { go(idx + 1); restart(); });
+    box.addEventListener("mouseenter", () => clearInterval(timer));
+    box.addEventListener("mouseleave", restart);
+    let x0 = null;
+    track.addEventListener("touchstart", (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener("touchend", (e) => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) go(idx + (dx < 0 ? 1 : -1)); x0 = null; restart(); });
+    box.querySelector(".bs-tabs").addEventListener("click", (e) => {
+      const t = e.target.closest("button"); if (!t) return;
+      box.querySelectorAll(".bs-tabs button").forEach((b) => b.setAttribute("aria-selected", b === t));
+      show(t.dataset.tab); restart();
+    });
+    show("Top 10"); restart();
+  }
+
   function topBuilders(list) {
     const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
     const row = (r) => `<li><span class="bl">${esc(r.label)}<small>${esc(r.period)} · ${esc(r.scope)}</small></span>
@@ -402,7 +462,8 @@
     const safe = (fn) => { try { fn(); } catch (err) { if (window.console) console.error(err); } };
     safe(() => quotes(s.quotes || [])); safe(() => heroStats(s.metrics.kpis)); safe(() => kpis(s.metrics.kpis));
     safe(() => news(s.news)); safe(() => clusters(s.clusters || [])); safe(() => growthCharts(s.metrics.series));
-    safe(() => areaChart(s.metrics.area_prices)); safe(() => (s.top_builders?.length ? topBuilders(s.top_builders) : builders(s.metrics.builders, s.metrics.tracked_developers)));
+    safe(() => areaChart(s.metrics.area_prices)); safe(() => (s.builder_slides?.slides?.length ? builderSlides(s.builder_slides)
+                 : s.top_builders?.length ? topBuilders(s.top_builders) : builders(s.metrics.builders, s.metrics.tracked_developers)));
     safe(() => plans(s.plans)); safe(() => towns(s.growth_towns, s.zones)); safe(() => magazine(s)); safe(() => status(s));
     // never show an empty band: hide any section whose content container rendered nothing
     [["#builder-cards", "#builders"], ["#plans-list", "#plans"], ["#towns-list", "#towns"], ["#charts", null], ["#kpis", null],

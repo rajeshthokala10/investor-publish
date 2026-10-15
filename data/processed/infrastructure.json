@@ -113,22 +113,6 @@
     "stage_history": [],
     "type": "policy"
   },
-  "X-24727bfb34": {
-    "claim_ids": [
-      "C-ad2aaf424c"
-    ],
-    "corridors": [
-      "varthur_gunjur"
-    ],
-    "first_seen": "2026-10-15",
-    "infra_id": "X-24727bfb34",
-    "last_seen": "2026-10-15",
-    "name": "Varthur–Gunjur road (SH-35) widening",
-    "notes": [],
-    "stage": null,
-    "stage_history": [],
-    "type": "infrastructure"
-  },
   "X-2603b56d32": {
     "claim_ids": [
       "C-3f23db1a8d",
@@ -342,6 +326,30 @@
     "stage_history": [],
     "type": "legal"
   },
+  "X-74c442e8f2": {
+    "claim_ids": [
+      "C-2c2b18377d"
+    ],
+    "corridors": [
+      "bannerghatta_road"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-74c442e8f2",
+    "last_seen": "2026-10-15",
+    "name": "Bannerghatta Road junction improvements DPR",
+    "notes": [],
+    "stage": "proposed",
+    "stage_history": [
+      {
+        "claim_id": "C-2c2b18377d",
+        "edition": "2026-10-15",
+        "event_date": "2026-10-13",
+        "published_at": "2026-10-13",
+        "stage": "proposed"
+      }
+    ],
+    "type": "infrastructure"
+  },
   "X-7853fffed3": {
     "claim_ids": [
       "C-7a01e437eb"
@@ -376,8 +384,7 @@
   },
   "X-834561df5a": {
     "claim_ids": [
-      "C-69efcf6f51",
-      "C-961687ce2f"
+      "C-97153a051f"
     ],
     "corridors": [
       "devanahalli_airport"
@@ -902,7 +909,8 @@
       "C-2f08b887ac",
       "C-8ed90f570e",
       "C-9725810d32",
-      "C-8a66c38724"
+      "C-8a66c38724",
+      "C-01c4e307a3"
     ],
     "corridors": [
       "hebbal_yelahanka",

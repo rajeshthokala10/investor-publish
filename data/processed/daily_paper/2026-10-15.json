@@ -1,14 +1,21 @@
 {
   "_meta": {
     "dropped": [
-      "development_stories: numbers not in cited claims: ['5'] :: Swan Realty launches Bodhi in Jayanagar Swan Realty has launched Bodhi",
-      "development_stories: numbers not in cited claims: ['18'] :: Puravankara signs joint development deal near Yelahanka CNBC TV18 repo"
+      "launches: numbers not in cited claims: ['5'] :: Swan Realty launches Bodhi in Jayanagar Swan Realty launched Bodhi, a "
     ],
     "edition": "2026-10-15",
-    "facts": 79,
-    "written_at": "2026-10-15T09:03:08+05:30"
+    "facts": 115,
+    "written_at": "2026-10-15T10:13:49+05:30"
   },
   "_sources": {
+    "C-2c2b18377d": {
+      "publisher": "The Bengaluru Live",
+      "url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/"
+    },
+    "C-88ab1efd9e": {
+      "publisher": "The Bengaluru Live",
+      "url": "https://thebengalurulive.com/bannerghatta-road-junction-dpr-ordered-bengaluru-footpaths-and-safe-crossings-get-priority/"
+    },
     "C-8a66c38724": {
       "publisher": "Deccan Herald",
       "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fpreliminary-work-to-begin-soon-on-namma-metro-phase-3a-sarjapur-to-hebbal-3756328"
@@ -16,6 +23,126 @@
     "C-c55b9ea49a": {
       "publisher": "Deccan Herald",
       "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-metros-pink-line-faces-36-safety-and-technical-deficiencies-4183261"
+    },
+    "G-00bc61b1": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/karnataka/harohalli-under-consideration-as-preferred-site-for-bengalurus-second-greenfield-airport/"
+    },
+    "G-03862886": {
+      "publisher": "The Quantum Insider",
+      "url": "https://thequantuminsider.com/2025/09/09/karnataka-clears-land-for-quantum-city-in-push-for-20-billion-economy/"
+    },
+    "G-04f5de9c": {
+      "publisher": "The News Minute",
+      "url": "https://www.thenewsminute.com/amp/story/karnataka/after-kwin-city-karnataka-plans-swift-city-to-expand-silicon-state-success"
+    },
+    "G-0f974071": {
+      "publisher": "The News Minute",
+      "url": "https://www.thenewsminute.com/karnataka/bidadi-township-what-the-project-is-who-opposes-it-and-why"
+    },
+    "G-1933e20d": {
+      "publisher": "Maritime Gateway",
+      "url": "https://www.maritimegateway.com/mmlp-planned-in-bengaluru/"
+    },
+    "G-1f63ae4c": {
+      "publisher": "India Infra Hub",
+      "url": "https://indiainfrahub.com/?p=31147"
+    },
+    "G-28dfff8c": {
+      "publisher": "The News Minute",
+      "url": "https://www.thenewsminute.com/karnataka/bidadi-township-what-the-project-is-who-opposes-it-and-why"
+    },
+    "G-32e4e7bf": {
+      "publisher": "The Realty Today",
+      "url": "https://therealtytoday.com/news/news/karnataka-reveals-plans-for-swift-city-near-bengaluru-expanding-the-states-tech-and-startup-ecosystem/"
+    },
+    "G-398f07fc": {
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/amp/story/news-brief/karnataka-unveils-rs-1-lakh-crore-bengaluru-infrastructure-push-plans-new-ai-city-and-second-airport"
+    },
+    "G-3bc7ae1a": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/news/karnataka-makes-u-turn-on-devanahalli-aerospace-project-fresh-notices-issued-to-farmers"
+    },
+    "G-4769c72d": {
+      "publisher": "Outlook Business",
+      "url": "https://www.outlookbusiness.com/news/cm-siddaramaiah-launches-kwin-city-says-it-will-be-a-game-changer"
+    },
+    "G-4dc40ee0": {
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/amp/story/news-brief/first-bengaluru-business-corridor-package-cleared-rs-3500-crore-madavaraballari-road-works-set-to-start"
+    },
+    "G-5809e52c": {
+      "publisher": "PropNewz",
+      "url": "https://www.propnewz.com/blog/bengaluru-bmr-10-year-plan-9-townships-312km-metro-210km-ring-road-2026-10-12"
+    },
+    "G-66766fd9": {
+      "publisher": "Maritime Gateway",
+      "url": "https://www.maritimegateway.com/mmlp-planned-in-bengaluru/"
+    },
+    "G-7cbbb252": {
+      "publisher": "The News Minute",
+      "url": "https://www.thenewsminute.com/amp/story/karnataka/after-kwin-city-karnataka-plans-swift-city-to-expand-silicon-state-success"
+    },
+    "G-805b5700": {
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/amp/story/news-brief/first-bengaluru-business-corridor-package-cleared-rs-3500-crore-madavaraballari-road-works-set-to-start"
+    },
+    "G-93e8cc65": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/news/karnataka-government-announces-quantum-city-sanctions-12-acres-land"
+    },
+    "G-945435ee": {
+      "publisher": "Asianet News",
+      "url": "https://newsable.asianetnews.com/karnataka-news/bda-site-allotment-2026-applications-for-dr-shivaram-karanth-layout-expected-to-open-by-july-end-articleshow-hkwkerg"
+    },
+    "G-a6469be8": {
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/amp/story/news-brief/first-bengaluru-business-corridor-package-cleared-rs-3500-crore-madavaraballari-road-works-set-to-start"
+    },
+    "G-a7189894": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/karnataka/harohalli-under-consideration-as-preferred-site-for-bengalurus-second-greenfield-airport/"
+    },
+    "G-aa3d5819": {
+      "publisher": "Outlook Business",
+      "url": "https://www.outlookbusiness.com/news/cm-siddaramaiah-launches-kwin-city-says-it-will-be-a-game-changer"
+    },
+    "G-ab0cff51": {
+      "publisher": "India Infra Hub",
+      "url": "https://indiainfrahub.com/?p=31147"
+    },
+    "G-acf5dae1": {
+      "publisher": "Maritime Gateway",
+      "url": "https://www.maritimegateway.com/mmlp-planned-in-bengaluru/"
+    },
+    "G-b4bd8673": {
+      "publisher": "The News Minute",
+      "url": "https://www.thenewsminute.com/karnataka/bidadi-township-what-the-project-is-who-opposes-it-and-why"
+    },
+    "G-bf642376": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/news/karnataka-makes-u-turn-on-devanahalli-aerospace-project-fresh-notices-issued-to-farmers"
+    },
+    "G-c90a5a2e": {
+      "publisher": "Asianet News",
+      "url": "https://newsable.asianetnews.com/karnataka-news/bda-site-allotment-2026-applications-for-dr-shivaram-karanth-layout-expected-to-open-by-july-end-articleshow-hkwkerg"
+    },
+    "G-ceb6c89a": {
+      "publisher": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/amp/india/karnataka-govt-drops-acquisition-of-1777-acres-for-bengaluru-aerospace-park-project-amid-farmers-protest"
+    },
+    "G-dbaff453": {
+      "publisher": "Swarajya",
+      "url": "https://swarajyamag.com/infrastructure/karnatakas-kwin-city-near-bengaluru-set-to-transform-urban-living-and-foster-innovation"
+    },
+    "G-f1b18c1f": {
+      "publisher": "The South First",
+      "url": "https://thesouthfirst.com/news/karnataka-government-announces-quantum-city-sanctions-12-acres-land"
+    },
+    "H-04c06157": {
+      "publisher": "urbanacres.in",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWNyVWNwc2ZXUWtNdV8xaUVobHZDQXM2QXVnZVBqcXdzMGlvZ1JGQVhidTlybkF5VUJBaHBJYTBjc29PZnRMakZqMmF3dms3QUwxVy1jLThtTEROT1hpek9sQ3JKc2tNQlg3OGpZTVhQUUxSTTVFRmZyckNOekYxWGt6N01BbUxzamJYOUJKUGY4M2IyYlVZMA?oc=5"
     },
     "H-07a1b1bd": {
       "publisher": "thehindu.com",
@@ -32,10 +159,6 @@
     "H-09998e92": {
       "publisher": "Deccan Herald",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcWZIcHppTW9rZU1LNkhZejA4SHlDdDFmaHhPLVZJaXJIUDRPUlNfWFFkZlZicHFJZi1JRkVkYWViaHdVdEwwb28zUUhjemtKakZ6SDdrZTFkdDRMT1VHVzVIVTZhbGp3c3huZlh1UlZ1QnVGX3pDNG1sYmlldDk0TktHazd1ZUI1NzUxY3Z3QkE2SnF0OW9GdGFkRk1oTmRGS09IZWV4NGdISkhoand1czdicnJEN2VFWGJjeWNqbFJFUkpWTGQ4OXllSmxWT01zSl81VjFPcVRzSXYyMUFpMEpyVWFnVy1aQ1hIR25yWQ?oc=5"
-    },
-    "H-0a290b8e": {
-      "publisher": "The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQaFlJQUx3dk5ET214S2NBUzBsTUtQZlFONDB4YmZMOUdtUEpvY05xek5lOFNQTVdUMDVKWGNxZnRVcTF1YW1kTEZVdFRtY09yZ1JMbzlDUEx6UEk4Q0x1SXlPQThtdHJLaTVpZmI5TFFsS0hGeW0xb3JJT3pkdjhOUWswSkZhUUFxN2tsUWVUVENUVUN0S0dNRkxuSEM3V2FHVFA2ZWtfdzd2SVItYUMzRWY2a3dJMXBxTEhLTFZSRlFfeWhpSWxmNnZTT2Y4Y2ZNRDBiRzB2X1dCUEZQUXk3anFuSlZsdVNuQU9SX3ZZZzhfWWZ6RC1WSVRaLTNHaWY3akI3LWNPQlVPeTVrTGZjb0M1b19hdFRpZ1g2SzJJVHd3a1pyY3ZMdlBjX3J2MG10TC1EWU9tWmFGZFV5QTl5bk1sYUNxYmZCWkF4MndYXzJFSlQxN0Z0QThzX0dpNTJoU0dJNlNnQ3FZWUJpVXMxbWVDaEY3bHPSAfwCQVVfeXFMTzluR3oxNmg3MjQwYndUOFdvNVQycFJCYWZCV1VLQXVLaVVvbmR5V0xUVG81V0NrTDBnWWVQYkNGSW1odWpreDBfa203RVJZc1BiTEl1WWhyYXJTM05fWVF4V0FodFl1enBhTUhLemYzbENNNjJrbWRIQlAyeVRvTGdyWEtDYy13cThTeS0xdF9ncWhVZnNSRDM0dTJpYWVBZ2M5S2lROFdkOE5fSU41V0Y3UW9JRnpWUUVQMEN5QTlhTWN6X0FobXFVYlp1U015RUNMNHJKblhPS3B6TWdFd1hrbVFHUlc4Um9zSXlsX2ExdnJqY3pIZld5RDZMbmEwZDlCMWxMOGR1UW1PdGhSRGMwZDBXOUdMbGV3R1UydzByR0NMRHhTSUtPSlphWmJHaWJvS0YyTGRFRVpkaHkwZDBTUHBrNE9XUGhObEJSNlQ2Tm12R29PQ3lveERYTHZQREFVeWo0bHZnRGZ3NXJrX0ItWnZTQ0lnMGJkZXY?oc=5"
     },
     "H-165e9ce7": {
       "publisher": "LiveLawBiz",
@@ -245,9 +368,9 @@
       "publisher": "The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV0MtMUNDaTBlQWRiR2c3ZWpZcEZrSzgzeUw0V0diQXJQbTR6a3hEZlR6d0lXRjNfNWViM0xYcXRvQjBFejJCZmV2aV9iNTVBSkk2Smt4WVkwM1hrbUljLW5RaWxaT3NlaE14cmoza3RwSldGTHdEMF9kSklTc1ZwLVpfVWp0eHBub0VCMmlXWXZWWElWUi1uZ0Jkc3pFa3pwTWdIUWNiN1VtaFVjZmlOOFZ0WFpCb1I0THhNTmNKNWvSAc4BQVVfeXFMTlhkVEFUNGFGck84cnNKY01TbzBwUjduVHdIQTVpaXlyRW5DSG1PZXV6dXlnZV9FYms4cDRnTVJYVHBua0JJWndOc1R2UWkxUUdpQjJvalhvUFVTUWczUEdKTnVLUWpTb05xOWE5ZzdRNXlHcVBjVGpYNmIwVUpfMmQ3cGIzZGRNdjd1b25xSGpGa1hWUWplZGV3M29LaHRReHdJTHUtd1djTi1wWm9MajZ4QWlSMU9CZUtKT09OUmtNRGZPaHotSkRueWJSVFE?oc=5"
     },
-    "H-bf44bd22": {
-      "publisher": "Realty Plus Magazine",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzB1al9ZbUhzMDFZOTdfMFpmajNlMjRjeC1OV0U3YjMzRWUxUWlvQkxCU2FZcEpOa3U4QlBnSGo1eVVrQlg0ZnY3c0Y1N3V0a3dramJKT2JpOGR1ZHA3Ui1PUmxlVmd3QWF4UUhQd3J3Zk5CaWdqS1BMUl9EYkJEVWk1dmcwV184b3NGY3V0d3h6X1ptOWZuQ1YxMDNhUlFORXJYR1o1NGFPd2FIaDgtMGlUeXFTT0k?oc=5"
+    "H-bc0aa89d": {
+      "publisher": "Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZHpvX3VWanpEMktVUXhyRG96QkItdmVqQW1LbWFzLW5kbVAxamo2Ung0dGVMY0xJeFNxdnNKU2hJb3pzNnpjaUhIYmstQlk4RjhFRDh5a0tFXzNEWjd2U1RBU1p0SGdwbVlod2xRQkVKRjZmaWV4b2xHaTBPdl9kd2RPUmplWXFrUkZJZXBrd3lyVUUxVk1tb2ttTTVJbzdLREdnanhzMFpONzI2bmU3QmJOQ3F1eWhLOUlRUmpWOUV2aXV1MEs4WFFfNi1xWE9GTS1EUWk4YXY4VG5DdFFnOVF3?oc=5"
     },
     "H-c0caa70d": {
       "publisher": "The Bengaluru Live",
@@ -324,6 +447,26 @@
     "H-f8c44903": {
       "publisher": "Organiser",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSGZTLXFWd2VmU0wwTS00aklEQk5GN1lMN2ZvZFhnLVp3N08zNFBXX1hTOFZkR2dTRGtDOWFrMUZzX2stMHpzRENUUTk4ZXNlMk5RQWU2SEZ6NHM4cHRDMkhSTDBNTHEya0xEMS1Ramg0aGdCZnh3TVQxQXIwd3NFR0NWZjM4aHp3dHBTaTF4TGEtTDcyWnduajFpMFBwVzVrdGZWX242X2Y4dFdiT19sWk1heUU0Z3VDTlpmWGE3cGllRGRYbU1QV2ZfVWJKUk45WURYYUlZWDdmWFR3Zm5XdmxRVy1lc1YxWTk1bnZ0UmNSWkdUZHfSAfsBQVVfeXFMUG5Md19KOGdhWWRINzBkbDdhNm1XeWk2X0otTlI0Q2Y2OVl5Z2FTU0RGQ3BWalpNUElOXzhFVGlFcWNQdm5ORldaZ2NjN1F6TFdxRjg3SUJKajh5Wm1rYkxsWTZDWURCaW5JVmNJaGdzbUNfcXp6cjNlTTJqM0VSOEplb294MXFHSExhYlJfSDhxVHJVaXdTRlN5RjRFSUE5WTh3YjRFZU54ekFvbzlNUms4OXdSdEFCX2hIdUtYU2ViUFdLcnJQb2VKckVNdFVKYmNWb2FmUFg1Y2JqNVVoMFppanp2WnIyb21VYWV2R3BhVTVtRXhlZWtxSWs?oc=5"
+    },
+    "H-fcb3d2f1": {
+      "publisher": "Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVkyVGdqcFdNSzJFQU40RzVsbGJfS3haU1h0S3lFa0twUnQzTktWMUNSSFZWaTFFRU5YNkVMYjl4M2lBSjBBcUNSZEZHSFVzYXJuVjhsTkx1eWxGZy1GbFptQXZobnpWbXpab0NUTlBDZVBRWnZPSFh1VUZpVktJYkNZWDdrYTdidnVRS0N4UTY3d3Q1NUNpdmpndzhPWGE2NVdzTVd6a0J3VEpDeUVn0gG0AUFVX3lxTE5DU2J2Uk5tUmFHVlZfU3hQWjZCRHpaeHpsZmpleWlrY2lpSDktbWFhOVFrZkh4S2RaQkVZSExXSU54N0trLW42Ti14bWd1cGJqajdXdFhfSkxtUEJZVnplWXJDS0NFT2w4M1pVdmxHY3R0UFA0ckhLTUQ3ajB0Um5wckFibkwtWjl6U1ZNLWZvVkFLUmdob0NHWVV5d3lVcXlGa25CcmRQcWk3MGJRcWlDZkRvcw?oc=5"
+    },
+    "P-a000741d": {
+      "publisher": "PropNewz",
+      "url": "https://www.propnewz.com/blog/brigade-gunjur-whitefield-bangalore-review-2026"
+    },
+    "P-c6867f88": {
+      "publisher": "Angel One",
+      "url": "https://www.angelone.in/news/stocks/puravankara-share-price-in-focus-signs-jda-for-12-76-acre-land-parcel-in-bengaluru"
+    },
+    "P-c6a485d0": {
+      "publisher": "Prop News Time (PTI)",
+      "url": "https://propnewstime.com/latestnewsstories/MzgyNTE=/puravankara-signs-12-76-acre-jda-in-north-bengaluru-with-inr-2-500-crore-development-potential"
+    },
+    "P-cdb3770d": {
+      "publisher": "SCN Wire (developer press release)",
+      "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
     }
   },
   "around": [
@@ -334,14 +477,7 @@
           "ids": [
             "H-ac529931"
           ],
-          "text": "Moneycontrol reports East Bengaluru parents have launched a petition seeking road repairs and traffic measures, citing '2 hours for 2 km'."
-        },
-        {
-          "headline": "IT employers eye Bellandur–Panathur",
-          "ids": [
-            "H-93faade3"
-          ],
-          "text": "Trade Brains asks whether HSBC, Accenture, Disney and Honeywell will lift property prices in the Bellandur–Panathur area."
+          "text": "East Bengaluru parents launched a petition seeking road repairs and traffic measures, citing \"2 hours for 2 km\", reports Moneycontrol."
         }
       ],
       "zone": "east"
@@ -349,18 +485,18 @@
     {
       "items": [
         {
-          "headline": "Hilton signs two airport hotels",
+          "headline": "Airport marks Dasara with heritage displays",
           "ids": [
-            "H-554eba89"
+            "H-87fca4b1"
           ],
-          "text": "ET TravelWorld reports Hilton has signed two Bengaluru airport hotels with Kalyani Group, adding 600 rooms."
+          "text": "Bengaluru airport showcases Karnataka's art and heritage through performances, installations and interactives for Dasara 2026, reports The Hindu."
         },
         {
-          "headline": "Assetz Twin Lake City draws Hennur buyers",
+          "headline": "Assetz Twin Lake City eyes Hennur–Horamavu",
           "ids": [
             "H-1a7cf762"
           ],
-          "text": "The Tribune reports on Assetz Twin Lake City and the Hennur–Horamavu corridor."
+          "text": "The Tribune reports on Assetz Twin Lake City and buyer interest in the Hennur–Horamavu corridor."
         }
       ],
       "zone": "north"
@@ -368,152 +504,140 @@
     {
       "items": [
         {
-          "headline": "AI in highway management",
+          "headline": "Old Mysuru Road bridge holds up traffic",
           "ids": [
-            "H-d1fe3ad7"
+            "H-1a982c8c"
           ],
-          "text": "Business Today looks at how AI is changing highway management, from the Dwarka Expressway to the Bengaluru–Mysuru road."
+          "text": "A narrow, 60-year-old bridge on Mysuru Road holds up traffic and raises safety concerns, reports Deccan Herald."
         }
       ],
-      "zone": "outer"
+      "zone": "west"
     }
   ],
   "development_stories": [
-    {
-      "headline": "Finance Department flags concerns over Hebbal tunnel road",
-      "ids": [
-        "H-3ac857bd",
-        "H-409b640c",
-        "H-526b30aa"
-      ],
-      "text": "The New Indian Express reports the Karnataka Finance Department flagged concerns over the Hebbal short tunnel road. Urban Acres separately reports that the tunnel road faces environmental questions."
-    },
-    {
-      "headline": "Karnataka cancels eight flyover tenders",
-      "ids": [
-        "H-d1f5451c",
-        "H-1891e13f"
-      ],
-      "text": "The Indian Express reports Karnataka has cancelled 8 Bengaluru flyover tenders, citing flawed clauses and financial risks. Urban Acres also reports the cancellations."
-    },
     {
       "headline": "Sadahalli underpass planned on airport road",
       "ids": [
         "H-e894ea82"
       ],
-      "text": "Urban Acres reports a ₹35 crore Sadahalli underpass project on Bengaluru's airport road."
+      "text": "Urban Acres reports a ₹35 Crore underpass project at Sadahalli on the Bengaluru airport road."
     },
     {
-      "headline": "GBA approves felling 321 trees at Hoodi substation",
+      "headline": "GBA approves felling 321 trees at Hoodi",
       "ids": [
         "H-288bc9b7",
         "H-309c4110"
       ],
-      "text": "Deccan Herald reports the GBA approved felling 321 trees for a KPTCL project. Asianet Newsable says the trees are at the Hoodi substation, for a transmission upgrade."
+      "text": "The GBA approved felling of 321 trees for a KPTCL project, reports Deccan Herald. Asianet Newsable says the trees are at Hoodi Substation, for a transmission upgrade."
     },
     {
-      "headline": "Century Real Estate launches The Astoria in Jakkur",
-      "ids": [
-        "H-a6cee4c8",
-        "H-e63b6d08",
-        "H-ea332dbf"
-      ],
-      "text": "Prop News Time reports Century Real Estate has launched the 334-home The Astoria in Jakkur, North Bengaluru."
-    },
-    {
-      "headline": "Waste and encroachments threaten Yele Mallappa Chetty Lake",
+      "headline": "Waste and encroachments threaten city lake",
       "ids": [
         "H-09998e92"
       ],
-      "text": "Deccan Herald reports waste and encroachments continue to threaten Yele Mallappa Chetty Lake in Bengaluru."
+      "text": "Waste and encroachments continue to threaten Yele Mallappa Chetty Lake, reports Deccan Herald."
+    },
+    {
+      "headline": "Hilton signs two airport hotels with Kalyani",
+      "ids": [
+        "H-554eba89"
+      ],
+      "text": "Hilton signed two Bengaluru airport hotels with Kalyani Group, adding 600 rooms, reports ET TravelWorld."
+    },
+    {
+      "headline": "Hotel brand debut and office lease",
+      "ids": [
+        "H-387765f6",
+        "H-3df481ab"
+      ],
+      "text": "The Jerusalem Post reports Dan Hotels' Bengaluru property joins Hilton's LXR brand in its India debut. Hindustan Times reports a Blackstone arm leased 4.5 lakh sq ft of office space for five years."
     }
   ],
   "front_briefs": [
     {
-      "headline": "Airport showcases Karnataka heritage for Dasara",
+      "headline": "Hebbal tunnel road draws finance questions",
       "ids": [
-        "H-87fca4b1"
+        "H-3ac857bd",
+        "H-409b640c",
+        "H-526b30aa"
       ],
-      "text": "The Hindu reports Bengaluru airport is showcasing Karnataka's art and heritage through performances, installations and interactives for Dasara 2026."
+      "text": "The New Indian Express reports the Karnataka Finance Department flagged concerns over the Hebbal short tunnel road. Urban Acres reports the tunnel road faces environmental questions."
     },
     {
-      "headline": "Dan Hotels property joins Hilton's LXR brand",
-      "ids": [
-        "H-387765f6"
-      ],
-      "text": "The Jerusalem Post reports Dan Hotels' Bengaluru property is joining Hilton's LXR brand in its India debut."
-    },
-    {
-      "headline": "Old Mysuru Road bridge holds up traffic",
-      "ids": [
-        "H-1a982c8c"
-      ],
-      "text": "Deccan Herald reports a narrow, 60-year-old bridge on Mysuru Road is holding up traffic and raising safety concerns."
-    }
-  ],
-  "government_stories": [
-    {
-      "headline": "GBA invites objections to road network maps",
+      "headline": "GBA opens road network maps for objections",
       "ids": [
         "H-8e2e7284",
         "H-26769086",
         "H-c0caa70d"
       ],
-      "text": "NammaWard reports the GBA is allowing 60 days for suggestions and objections on road network maps. Deccan Herald says the maps are not available online; The Bengaluru Live explains how to submit views."
+      "text": "The GBA has invited suggestions and objections on road network maps, with 60 days allowed, reports NammaWard. Deccan Herald says the maps were unavailable online."
     },
     {
-      "headline": "Kaveri 2.0 failure disrupts property registration",
+      "headline": "Kaveri 2.0 failure delays property services",
       "ids": [
         "H-e18023e4",
         "H-822de42d"
       ],
-      "text": "FM Bharat reports property owners face delays as a Kaveri 2.0 software failure hits GBA services. The Siasat Daily says registration was disrupted across the GBA area."
+      "text": "FM Bharat reports property owners face delays after a Kaveri 2.0 software failure hit GBA services; The Siasat Daily says registration was disrupted across the GBA area."
     },
     {
-      "headline": "BDA extends Karanth Layout deadline to October 31",
+      "headline": "Karanth Layout deadline extended",
+      "ids": [
+        "H-1d99b30a",
+        "H-9890da6c",
+        "H-04c06157"
+      ],
+      "text": "BDA extended the Shivaram Karanth Layout site application deadline to 31 October noon, reports NammaWard."
+    }
+  ],
+  "government_stories": [
+    {
+      "headline": "BDA extends Karanth Layout applications",
       "ids": [
         "H-9890da6c",
-        "H-1d99b30a",
+        "H-69fc7238",
         "H-942779e2",
-        "H-69fc7238"
+        "G-c90a5a2e",
+        "G-945435ee"
       ],
-      "text": "Deccan Herald reports BDA has extended the Shivaram Karanth Layout site application deadline to October 31. Asianet Newsable earlier reported a 15-day extension was proposed amid low applications; The New Indian Express cites domicile certificate delays."
+      "text": "BDA extended the Shivaram Karanth Layout application deadline to 31 October, reports Deccan Herald. The New Indian Express reports domicile certificate delays are holding up applications; Asianet Newsable reported a 15-day extension was proposed amid low applications."
     },
     {
-      "headline": "High Court rulings hit BDA, back Unishire attachment",
+      "headline": "High Court warns BDA, backs attachment",
       "ids": [
         "H-6f944092",
         "H-165e9ce7",
-        "H-f7b82876"
+        "H-f7b82876",
+        "H-31b3ca01"
       ],
-      "text": "The Times of India reports the Karnataka high court warned BDA against violating guidelines while upholding land acquisition. LiveLawBiz reports it upheld the Unishire attachment. Scanx reports Embassy retains 78 acres after the court set aside a KIADB order."
+      "text": "The Times of India reports the Karnataka high court warned the BDA against violating guidelines while upholding land acquisition. LiveLawBiz reports it upheld Unishire property attachment; scanx.trade says Embassy retains 78 acres after a KIADB order was set aside."
     },
     {
-      "headline": "RERA and REAT issue fresh orders",
+      "headline": "RERA rulings target builders' cost pass-through",
       "ids": [
         "H-0888d2b2",
         "H-79988a18",
         "H-93fd15ff"
       ],
-      "text": "Prop News Time reports Karnataka RERA bars builders from passing project costs to homebuyers. Deccan Herald reports RERA ordered a villa developer to fix defects within 90 days. LiveLawBiz reports REAT upheld an order directing a homebuyer to pay ₹2.45 lakh."
+      "text": "Prop News Time reports Karnataka RERA bars builders from passing project costs to homebuyers. Deccan Herald reports RERA ordered a villa developer to fix defects within 90 days. LiveLawBiz reports REAT upheld an order for a homebuyer to pay ₹2.45 Lakh."
     },
     {
-      "headline": "Apartment owners await governor's assent to new law",
+      "headline": "Apartment owners await governor's assent",
       "ids": [
         "H-1942cbb7",
         "H-c9a258cf",
         "H-f5e0373e",
         "H-67e80382"
       ],
-      "text": "The Times of India reports apartment owners met the governor while awaiting the new law. Prop News Time says they seek assent on ownership and common areas; Urban Acres calls it the KAOMA 2026 Bill."
+      "text": "Apartment owners are awaiting the governor's assent to a new law on ownership and common areas, report The Times of India and Prop News Time. Urban Acres reports the Karnataka apartment law is pending assent."
     },
     {
-      "headline": "BDA offers reward for encroachment tips",
+      "headline": "BDA offers reward on encroachment tips",
       "ids": [
         "H-3ae0c267",
         "H-07a1b1bd"
       ],
-      "text": "Deccan Herald reports BDA offers up to Rs 4 lakh for information on encroached properties. The Hindu's #THtalksBengaluru featured N.A. Haris on the BDA's vision."
+      "text": "BDA offers up to Rs 4 lakh for information on encroached properties, reports Deccan Herald. The Hindu's talk series features N.A. Haris on the BDA's vision for Bengaluru."
     },
     {
       "headline": "GBA explores AI digital twin for civic planning",
@@ -522,69 +646,161 @@
         "H-398464eb",
         "H-24987bcd"
       ],
-      "text": "Asianet Newsable reports the GBA is exploring AI-powered digital twin technology for civic planning. ORF Online has published an assessment of a year of the Greater Bengaluru Authority."
-    },
-    {
-      "headline": "Court fines land officer over delay",
-      "ids": [
-        "H-31b3ca01"
-      ],
-      "text": "The Times of India reports the Karnataka high court imposed Rs 1 lakh cost on a land officer for making a 102-year-old owner wait for justice."
+      "text": "The GBA is exploring AI-powered digital twin technology for civic planning, report Inshorts and Asianet Newsable. ORF assesses a year of the Greater Bengaluru Authority as fragmented still."
     }
   ],
-  "lead": {
-    "headline": "Pink Line faces safety scrutiny as BMRCL prepares reply",
-    "kicker": "Pink Line",
+  "investment_column": {
+    "headline": "Reading Bengaluru's growth areas by stage",
     "paragraphs": [
       {
         "ids": [
-          "C-c55b9ea49a",
-          "H-b1c0ce3c"
+          "G-28dfff8c",
+          "G-0f974071",
+          "G-ab0cff51",
+          "G-5809e52c"
         ],
-        "text": "Deccan Herald reported on 15 October that the Pink Line faces 36 safety and technical deficiencies, a day after the corridor was described as nearing launch following a safety review."
+        "text": "Bidadi's township and AI city is approved, with the GBDA as executing agency. The BMRDA's proposed integrated townships name Bidadi as pilot, and PropNewz reports industrial township land. Buyers might check approvals, title and water before treating approval as delivery."
       },
       {
         "ids": [
-          "C-c55b9ea49a"
+          "G-03862886",
+          "G-93e8cc65",
+          "G-7cbbb252",
+          "G-32e4e7bf",
+          "G-aa3d5819",
+          "G-dbaff453"
         ],
-        "text": "Metro Rail News said BMRCL received observations from the Commissioner of Metro Rail Safety on 9 October and planned to submit its compliance report on 13 October."
+        "text": "Q-City at Hesaraghatta has land sanctioned. SWIFT City, planned across 1,000 acres with 150 ft roads, and KWIN City, over 5,800 acres with a planned monorail, are only announced. Announced projects carry execution risk worth weighing."
       },
       {
         "ids": [
-          "H-d190239a",
-          "H-5ca0478f"
+          "G-ceb6c89a",
+          "G-3bc7ae1a",
+          "G-00bc61b1",
+          "G-398f07fc",
+          "G-805b5700",
+          "G-66766fd9"
         ],
-        "text": "The Hindu reported on 13 October that BMRCL would respond to the safety inspection observations next week."
+        "text": "Karnataka dropped acquisition at the Devanahalli aerospace park and the plan was reported scrapped. Harohalli is the leading contender for a second airport but remains proposed. The Bengaluru Business Corridor is awarded, while the Dobbaspet logistics hub's stage is unclear."
       },
       {
         "ids": [
-          "H-5b64f7c8"
+          "P-c6a485d0",
+          "G-c90a5a2e",
+          "H-3ac857bd"
         ],
-        "text": "Urban Acres reports the line is targeting a March 2027 launch despite delays."
+        "text": "Near the city, Puravankara's Sathanur deal and the Karanth Layout show interest is following concrete steps. Even so, the Hebbal tunnel road's flagged concerns are a reminder to check funding before relying on a driver. These are considerations, not advice."
+      }
+    ]
+  },
+  "launches": [
+    {
+      "area": "Gunjur",
+      "developer": "Brigade Enterprises",
+      "headline": "Brigade Gunjur pre-launch",
+      "ids": [
+        "P-a000741d"
+      ],
+      "text": "Brigade Enterprises lists Brigade Gunjur at pre-launch stage: 2, 3 and 4 BHK homes, about 2,500 in all, in a 39-acre township.",
+      "type": "apartment"
+    },
+    {
+      "area": "Jakkur",
+      "developer": "Century Real Estate",
+      "headline": "Century launches The Astoria in Jakkur",
+      "ids": [
+        "P-cdb3770d",
+        "H-a6cee4c8",
+        "H-e63b6d08",
+        "H-ea332dbf"
+      ],
+      "text": "Century Real Estate launched The Astoria at Century Immencity: 334 homes of 3 and 4 BHK plus penthouses, per the developer's release.",
+      "type": "apartment"
+    },
+    {
+      "area": "Sathanur",
+      "developer": "Puravankara",
+      "headline": "Puravankara plans Sathanur project on JDA land",
+      "ids": [
+        "P-c6867f88",
+        "P-c6a485d0",
+        "H-a1081f65",
+        "H-fcb3d2f1",
+        "H-e203b984"
+      ],
+      "text": "Puravankara signed a joint development agreement for a Sathanur parcel with an estimated GDV of ₹2,500 crore; the project is about 1.90 million sq ft saleable.",
+      "type": "apartment"
+    }
+  ],
+  "lead": {
+    "headline": "GBA chief orders junction plan for Bannerghatta Road",
+    "kicker": "South",
+    "paragraphs": [
+      {
+        "ids": [
+          "C-2c2b18377d"
+        ],
+        "text": "GBA Chief Commissioner M Maheshwar Rao directed officials to prepare a DPR for junctions between Gottigere and Tavarekere on Bannerghatta Road, according to The Bengaluru Live. The direction followed his inspection of the road's footpaths around 13 October. The paper notes it is a direction, not completed works."
+      },
+      {
+        "ids": [
+          "C-88ab1efd9e"
+        ],
+        "text": "The inspection found pedestrians lacked a safe pathway near Kalena Agrahara metro station, The Bengaluru Live reported. Rao ordered missing drain slabs replaced and mid-block median crossings built where needed."
+      },
+      {
+        "ids": [
+          "H-8c86d52f",
+          "H-94a8e339",
+          "H-f12a4547",
+          "H-8ec7f97b"
+        ],
+        "text": "The plan drew wide coverage. The Hindu and Deccan Herald report the GBA will prepare the DPR, NewsFirst Prime reports junction upgrades and safer footpaths are planned, and The New Indian Express reports the junctions are to be developed for smoother traffic movement."
       }
     ],
-    "standfirst": "Deccan Herald reports 36 safety and technical deficiencies on the Bannerghatta Road corridor; BMRCL is expected to respond to inspection observations next week."
+    "standfirst": "After inspecting footpaths, Chief Commissioner M Maheshwar Rao directed officials to prepare a detailed project report for junctions between Gottigere and Tavarekere."
   },
   "metro_intro": [
     {
       "ids": [
+        "C-c55b9ea49a",
         "H-d99b63f5",
         "H-d37fdfee",
-        "H-cf9321ae",
-        "H-4aa7b082"
+        "H-cf9321ae"
       ],
-      "text": "Namma Metro's Pink Line dominates the agenda, but soil testing for a proposed Red Line, a Purple Line halt, suburban rail design plans and a long-term network target also made news this week."
+      "text": "Pink Line safety clearance dominates the metro page, while BMRCL begins soil work for a proposed Red Line corridor, the Purple Line suffers a disruption and suburban rail plans advance."
     }
   ],
   "metro_stories": [
     {
-      "headline": "BMRCL begins soil testing for Red Line on Sarjapur Road",
+      "headline": "Pink Line faces 36 safety deficiencies",
+      "ids": [
+        "C-c55b9ea49a",
+        "H-bc0aa89d",
+        "H-d190239a",
+        "H-5ca0478f"
+      ],
+      "line": "pink",
+      "text": "Deccan Herald reported on 15 October that the Pink Line faces 36 safety and technical deficiencies. Metro Rail News says BMRCL received CMRS observations on 9 October and planned to submit its compliance report on 13 October. The Hindu reports BMRCL will respond next week."
+    },
+    {
+      "headline": "Pink Line launch targeted for March 2027",
+      "ids": [
+        "H-5b64f7c8",
+        "H-b1c0ce3c",
+        "H-4eaae04a"
+      ],
+      "line": "pink",
+      "text": "Urban Acres reports the Pink Line targets a March 2027 launch despite delays, and says it nears launch after the safety review. The Daily Jagran reports BMTC will launch five new feeder services on the line."
+    },
+    {
+      "headline": "BMRCL starts soil testing on Sarjapur Road",
       "ids": [
         "H-d99b63f5",
         "C-8a66c38724"
       ],
       "line": "red",
-      "text": "The Hindu reports BMRCL has begun soil testing on Sarjapur Road for the proposed Namma Metro Red Line corridor. Deccan Herald earlier reported BMRCL floated about Rs 6.86 crore of tenders for geotechnical investigations in four packages for the Sarjapur–Hebbal Phase 3A."
+      "text": "BMRCL has begun soil testing on Sarjapur Road for the proposed Namma Metro Red Line corridor, reports The Hindu. Deccan Herald earlier reported BMRCL floated about Rs 6.86 crore of tenders for geotechnical investigations in four packages for Sarjapur–Hebbal Phase 3A."
     },
     {
       "headline": "Purple Line halted after track intrusion",
@@ -595,7 +811,7 @@
       "text": "Urban Acres reports Namma Metro's Purple Line was halted after a track intrusion."
     },
     {
-      "headline": "K-RIDE to appoint design consultant for suburban rail",
+      "headline": "K-RIDE to appoint suburban rail design consultant",
       "ids": [
         "H-cf9321ae",
         "H-36f798cd"
@@ -604,82 +820,71 @@
       "text": "Metro Rail Today reports K-RIDE will appoint a Detailed Design Consultant for the Bengaluru Suburban Rail Project. The Financial Express reports a double-decker viaduct and new bridges are planned across 3 corridors."
     },
     {
-      "headline": "Karnataka eyes 400 km metro network by 2037",
+      "headline": "Metro network eyed at 400 km by 2037",
       "ids": [
         "H-4aa7b082"
       ],
       "line": "general",
-      "text": "YourStory reports Bengaluru plans to expand the metro network to 400 km by 2037, according to Krishna Byre Gowda."
-    },
-    {
-      "headline": "BMTC plans five feeder services for Pink Line",
-      "ids": [
-        "H-4eaae04a"
-      ],
-      "line": "pink",
-      "text": "The Daily Jagran reports BMTC will launch five new feeder services on the upcoming Pink Line, with a route plan published."
+      "text": "Bengaluru plans to expand its metro network to 400 km by 2037, YourStory reports, quoting Krishna Byre Gowda."
     }
   ],
   "second": {
-    "headline": "GBA moves to redesign Bannerghatta Road junctions",
-    "kicker": "Bannerghatta Road",
+    "headline": "Karnataka cancels eight Bengaluru flyover tenders",
+    "kicker": "Roads",
     "paragraphs": [
       {
         "ids": [
-          "H-8c86d52f"
+          "H-d1f5451c"
         ],
-        "text": "The Hindu reports that the GBA Chief Commissioner has directed officials to prepare a DPR for junctions along Bannerghatta Road."
+        "text": "The Karnataka government has cancelled tenders for eight Bengaluru flyover projects, reports The Indian Express, which headlines the move as a response to flawed clauses and financial risks."
       },
       {
         "ids": [
-          "H-94a8e339",
-          "H-f12a4547"
+          "H-1891e13f"
         ],
-        "text": "Deccan Herald also reports that the GBA will prepare the DPR, while NewsFirst Prime says the plan covers junction upgrades and safer footpaths."
-      },
-      {
-        "ids": [
-          "H-8ec7f97b"
-        ],
-        "text": "The New Indian Express reports the junctions are to be developed for smooth traffic movement."
+        "text": "Urban Acres also reports that tenders for eight flyover projects were cancelled across the city."
       }
     ]
   },
   "watch": [
     {
       "ids": [
-        "H-d190239a"
+        "H-d190239a",
+        "H-5ca0478f",
+        "C-c55b9ea49a"
       ],
-      "item": "BMRCL's Pink Line response",
-      "why": "The Hindu says BMRCL will respond to inspection observations next week."
+      "item": "BMRCL's Pink Line compliance response",
+      "why": "BMRCL is due to respond to the safety inspection observations, which shapes the line's opening timetable."
     },
     {
       "ids": [
-        "H-5b64f7c8"
+        "H-26769086",
+        "H-8e2e7284"
       ],
-      "item": "Pink Line launch timing",
-      "why": "Urban Acres reports a March 2027 launch target despite delays."
+      "item": "GBA road network map objections",
+      "why": "The 60-day window for suggestions and objections is open, though maps were reported unavailable online."
     },
     {
       "ids": [
-        "H-1942cbb7"
+        "H-1942cbb7",
+        "H-f5e0373e"
       ],
-      "item": "Governor's decision on apartment law",
-      "why": "Apartment owners are awaiting assent to the new law."
+      "item": "Governor's assent to apartment law",
+      "why": "Apartment owners are awaiting assent to the new law on ownership and common areas."
     },
     {
       "ids": [
-        "H-9890da6c"
+        "C-2c2b18377d"
       ],
-      "item": "Karanth Layout deadline",
-      "why": "BDA's site application deadline is now October 31."
+      "item": "Bannerghatta Road DPR",
+      "why": "The GBA has only directed a DPR for junctions; works depend on its preparation."
     },
     {
       "ids": [
-        "H-26769086"
+        "H-1d99b30a"
       ],
-      "item": "Road network map objections",
-      "why": "The GBA has opened a 60-day window for suggestions and objections."
+      "item": "Karanth Layout deadline of 31 October",
+      "why": "BDA applications close on 31 October noon after the extension."
     }
   ]
 }

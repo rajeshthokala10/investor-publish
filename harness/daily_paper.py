@@ -12,9 +12,9 @@ import json
 from pathlib import Path
 
 from harness import agent
-from harness.common import PROCESSED, PROMPTS, ROOT, iso, now_ist, read_json, sha, write_json, write_text
+from harness.common import DATA, PROCESSED, PROMPTS, ROOT, iso, now_ist, read_json, sha, write_json, write_text
 from harness.magazine_write import check_block, nums
-from harness.registry import corridors, region_of
+from harness.registry import corridors, primary_corridor, region_of
 
 PAGES = 5
 P = {"type": "object", "additionalProperties": False, "required": ["text", "ids"],
@@ -28,7 +28,7 @@ METRO_STORY = {**STORY, "required": ["headline", "text", "ids", "line"],
 SCHEMA = {
     "type": "object", "additionalProperties": False,
     "required": ["lead", "second", "front_briefs", "metro_intro", "metro_stories", "development_stories",
-                 "government_stories", "around", "watch"],
+                 "government_stories", "around", "watch", "launches", "investment_column"],
     "properties": {
         "lead": {"type": "object", "additionalProperties": False, "required": ["kicker", "headline", "standfirst", "paragraphs"],
                  "properties": {"kicker": {"type": "string"}, "headline": {"type": "string"}, "standfirst": {"type": "string"},
@@ -44,6 +44,14 @@ SCHEMA = {
         "around": {"type": "array", "items": {"type": "object", "additionalProperties": False, "required": ["zone", "items"],
                    "properties": {"zone": {"enum": ["east", "north", "south", "west", "outer"]},
                                   "items": {"type": "array", "items": STORY}}}},
+        "launches": {"type": "array", "items": {"type": "object", "additionalProperties": False,
+                     "required": ["headline", "text", "ids", "type", "area", "developer"],
+                     "properties": {"headline": {"type": "string"}, "text": {"type": "string"},
+                                    "ids": {"type": "array", "items": {"type": "string"}},
+                                    "type": {"enum": ["villa", "plot", "apartment", "mixed", "commercial"]},
+                                    "area": {"type": "string"}, "developer": {"type": "string"}}}},
+        "investment_column": {"type": "object", "additionalProperties": False, "required": ["headline", "paragraphs"],
+                              "properties": {"headline": {"type": "string"}, "paragraphs": {"type": "array", "items": P}}},
         "watch": {"type": "array", "items": {"type": "object", "additionalProperties": False, "required": ["item", "why", "ids"],
                   "properties": {"item": {"type": "string"}, "why": {"type": "string"},
                                  "ids": {"type": "array", "items": {"type": "string"}}}}},
@@ -79,7 +87,30 @@ def facts_for(d: dict) -> tuple[list[dict], dict]:
                    "period_years": None, "publisher": pub, "url": url}
         rows.append({"id": hid, "fact": s["title"], "place": zone, "zone": zone.lower().replace("city-wide", "city"),
                      "kind": "headline", "source": pub, "date": (s.get("published_at") or "")[:10]})
-    return rows[:160], by
+    # today's project records (launches / phases), including villas and plots
+    for p in d.get("projects", []):
+        pid = "P-" + sha(p.get("url", ""), p.get("name", ""), n=8)
+        text = (f"{p.get('developer') or 'A developer'} - project {p['name']} ({p.get('property_type')}, "
+                f"{(p.get('status') or '').replace('_', ' ')}) in {p.get('locality') or 'Bengaluru'}")
+        if p.get("unit_sizes"):
+            text += f"; sizes {p['unit_sizes']}"
+        by[pid] = {"claim_id": pid, "statement": text, "excerpt": (p.get("excerpt") or "") + " " + text, "subject": p["name"],
+                   "published_at": p.get("published_at"), "value": None, "value_max": None, "period_years": None,
+                   "publisher": p.get("publisher") or "", "url": p.get("url", "")}
+        rows.append({"id": pid, "fact": text, "place": p.get("locality") or "", "kind": "project",
+                     "zone": ZONE.get(region_of(primary_corridor(p.get("locality"), p.get("name"))), "city"),
+                     "source": p.get("publisher") or "", "date": p.get("published_at")})
+    # growth areas for the investment column: evidenced planned cities / clusters (evergreen context)
+    for c in read_json(DATA / "app" / "clusters.json", {}).get("clusters", []):
+        for i, f in enumerate(c.get("facts", [])[:3]):
+            gid = "G-" + sha(c["name"], i, n=8)
+            by[gid] = {"claim_id": gid, "statement": f["statement"], "excerpt": f["excerpt"], "subject": c["name"],
+                       "published_at": f.get("published_at"), "value": None, "value_max": None, "period_years": None,
+                       "publisher": f["publisher"], "url": f["url"]}
+            rows.append({"id": gid, "fact": f"{c['name']} ({c['kind']}, stage: {c['stage']}): {f['statement']}",
+                         "place": c["nearest_town"], "zone": "outer", "kind": "growth_area", "source": f["publisher"],
+                         "date": f.get("published_at")})
+    return rows[:220], by
 
 
 # ------------------------------------------------------------------------------------------- validation
@@ -106,6 +137,12 @@ def validate(paper: dict, by: dict) -> tuple[dict, list[str]]:
         z["items"] = [s for s in z["items"] if ok(s["headline"] + " " + s["text"], s["ids"], f"around.{z['zone']}")]
     paper["around"] = [z for z in paper["around"] if z["items"]]
     paper["watch"] = [w for w in paper["watch"] if ok(w["item"] + " " + w["why"], w["ids"], "watch")]
+    paper["launches"] = [l for l in paper.get("launches", []) if ok(l["headline"] + " " + l["text"], l["ids"], "launches")]
+    col = paper.get("investment_column") or {"headline": "", "paragraphs": []}
+    col["paragraphs"] = [p for p in col["paragraphs"] if ok(p["text"], p["ids"], "investment_column")]
+    if col.get("headline") and nums(col["headline"]) and not ok(col["headline"], [i for p in col["paragraphs"] for i in p["ids"]], "column.headline"):
+        col["headline"] = ""
+    paper["investment_column"] = col
     return paper, dropped
 
 
@@ -206,8 +243,9 @@ def story(s, cls="st") -> str:
 
 def _blocks(paper: dict) -> list[dict]:
     out = list(paper["lead"]["paragraphs"]) + list(paper["second"]["paragraphs"]) + list(paper["metro_intro"])
-    for k in ("front_briefs", "metro_stories", "development_stories", "government_stories", "watch"):
-        out += paper[k]
+    for k in ("front_briefs", "metro_stories", "development_stories", "government_stories", "watch", "launches"):
+        out += paper.get(k, [])
+    out += (paper.get("investment_column") or {}).get("paragraphs", [])
     for z in paper["around"]:
         out += z["items"]
     return out
@@ -377,14 +415,17 @@ def build_delta_html(paper: dict, meta: dict) -> str:
     chip = lambda lid: (f'<span class="lchip" style="background:{lines[lid]["color"]}">{e(lines[lid]["name"].split(" (")[0])}</span>'  # noqa: E731
                         if lid in lines else '<span class="lchip" style="background:#455a64">Metro</span>')
     lead, second = paper["lead"], paper["second"]
-    cover_lines = [s["headline"] for s in (paper["metro_stories"][:2] + paper["development_stories"][:1] + paper["government_stories"][:1])]
+    cover_lines = [s["headline"] for s in (paper["metro_stories"][:1] + paper.get("launches", [])[:1]
+                                           + paper["development_stories"][:1] + paper["government_stories"][:1])]
+    if (paper.get("investment_column") or {}).get("headline"):
+        cover_lines = cover_lines[:3] + ["Investment column: " + paper["investment_column"]["headline"]]
     p1 = (f'<div class="mast"><div class="mtitle">BANGALORE<br><b>REALESTATE DELTA</b></div>'
           f'<div class="missue">{e(short)}<br><small>Daily · Metro · Development · Government · Around the city</small></div></div>'
           f'<div class="cover-art">{skyline("delta" + short, 900, 380, pins=["Whitefield", "Hebbal", "Majestic", "Sarjapur", "Hoskote", "Kengeri"])}</div>'
           f'<div class="ckick">{e(lead["kicker"]).upper()}</div><h1 class="chead">{e(lead["headline"])}</h1>'
           f'<p class="csub">{e(lead["standfirst"])}</p>'
           f'<ul class="clines">' + "".join(f"<li>{e(c)}</li>" for c in cover_lines[:4]) + "</ul>"
-          f'<div class="cfoot">INSIDE · Top stories · Metro &amp; Transport · Development &amp; Government · Around Bengaluru · What to watch</div>')
+          f'<div class="cfoot">INSIDE · Top stories · Metro &amp; Transport · Launches &amp; Development · Government · Investment column · Around Bengaluru</div>')
     briefs = "".join(f'<div class="brief"><h4>{e(b["headline"])}</h4><p>{e(b["text"])}</p></div>' for b in paper["front_briefs"])
     p2 = (f'<div class="sect">TODAY’S TOP STORIES</div><h1 class="feat">{e(lead["headline"])}</h1>'
           f'<p class="stand">{e(lead["standfirst"])}</p><div class="cols2">{paras(lead["paragraphs"])}</div>'
@@ -406,16 +447,20 @@ def build_delta_html(paper: dict, meta: dict) -> str:
               "<th>Timeline</th><th>Areas</th></tr></thead><tbody>"
               + "".join(f"<tr><td><b>{e(g['project'])}</b></td><td>{e(g['status'])}</td><td>{e(g['timeline'])}</td><td>{e(g['areas'])}</td></tr>"
                         for g in pipe[:7]) + "</tbody></table>") if pipe else ""
-    p4 = (f'<div class="sect">DEVELOPMENT &amp; GOVERNMENT</div><h1 class="feat2">What is changing in the city</h1>'
-          f'<div class="two"><div><h3 class="sub">City development</h3>'
+    tcol = {"villa": "#7b3fa0", "plot": "#1baf7a", "apartment": "#2a78d6", "mixed": "#eb6834", "commercial": "#546e7a"}
+    launches = "".join(f'<div class="lcard"><span class="lchip" style="background:{tcol.get(l["type"], "#546e7a")}">{e(l["type"].upper())}</span>'
+                       f'<h4>{e(l["headline"])}</h4><p class="lmeta">{e(l["developer"])} · {e(l["area"])}</p><p>{e(l["text"])}</p></div>'
+                       for l in paper.get("launches", []))
+    p4 = (f'<div class="sect">PROJECTS, LAUNCHES &amp; DEVELOPMENT</div><h1 class="feat2">What is being built</h1>'
+          + (f'<h3 class="sub">New launches · villas, plots &amp; apartments</h3><div class="lgrid">{launches}</div>'
+             if launches else '<h3 class="sub">New launches</h3><p>No new villa, plot or apartment launches were reported in this window.</p>')
+          + '<h3 class="sub">City development</h3><div class="cols2">'
           + ("".join(f'<div class="story"><h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["development_stories"]) or "<p>No new development announcements.</p>")
-          + '</div><div><h3 class="sub">Government &amp; policy</h3>'
-          + ("".join(f'<div class="story"><h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["government_stories"]) or "<p>No new government decisions.</p>")
-          + f'</div></div>{ptable}')
+          + f'</div>{ptable}')
     zname = {"east": "EAST", "north": "NORTH", "south": "SOUTH", "west": "WEST", "outer": "BEYOND THE CITY"}
     zcol = {"east": "#2a78d6", "north": "#eb6834", "south": "#1baf7a", "west": "#eda100", "outer": "#4a3aa7"}
     zones = "".join(f'<div class="zoneblk"><div class="sect" style="color:{zcol[z["zone"]]}">{zname[z["zone"]]} BENGALURU</div>'
-                    + "".join(f'<div class="story"><h4>{e(i["headline"])}</h4><p>{e(i["text"])}</p></div>' for i in z["items"]) + "</div>"
+                    + "".join(f'<div class="story"><h4>{e(i["headline"])}</h4><p>{e(i["text"])}</p></div>' for i in z["items"][:3]) + "</div>"
                     for z in paper["around"])
     towns = issue.get("growth_towns", [])[:6]
     tcards = "".join(f'<div class="town">{skyline("dt" + t["name"], 300, 60, metro=False)}<h4>{e(t["name"])}</h4><p>{e(t["why"])}</p></div>' for t in towns)
@@ -423,13 +468,20 @@ def build_delta_html(paper: dict, meta: dict) -> str:
     cited = {i for blk in _blocks(paper) for i in blk.get("ids", [])}
     srcs = paper.get("_sources", {})
     pubs = sorted({srcs[i]["publisher"] for i in cited if i in srcs and srcs[i]["publisher"]})
-    p5 = (f'<div class="sect">AROUND BENGALURU</div><h1 class="feat2">News from every corner</h1><div class="zgrid">{zones or "<p>No area news in this window.</p>"}</div>'
-          + (f'<h3 class="sub">Growth towns to watch</h3><div class="towns">{tcards}</div>' if tcards else "")
+    col = paper.get("investment_column") or {}
+    column = (f'<div class="icol"><div class="icol-k">INVESTMENT COLUMN</div><h2>{e(col.get("headline", ""))}</h2>{paras(col.get("paragraphs", []))}'
+              f'<p class="icol-d">Considerations, not investment advice. Check approvals, title and RERA registration before buying.</p></div>'
+              if col.get("paragraphs") else "")
+    gov = "".join(f'<div class="story"><h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["government_stories"][:6])
+    p5 = (f'<div class="sect">GOVERNMENT, GROWTH AREAS &amp; AROUND BENGALURU</div><h1 class="feat2">Decisions, growth areas and the city</h1>'
+          f'<div class="two"><div><h3 class="sub">Government &amp; policy</h3>{gov or "<p>No new government decisions.</p>"}</div><div>{column}</div></div>'
+          f'<h3 class="sub">Around Bengaluru</h3><div class="zgrid">{zones or "<p>No area news in this window.</p>"}</div>'
+          
           + (f'<h3 class="sub">What to watch next</h3><ul class="watch cols2">{watch}</ul>' if watch else "")
           + f'<div class="sources"><b>Sources for this edition</b> (news from {e(w["start"][:16].replace("T", " "))} to {e(w["end"][:16].replace("T", " "))} IST): '
           + e(", ".join(pubs)) + ". News is attributed to the organisations that published it; plans and dates are as announced and can change. "
             "Information only, not investment advice.</div>")
-    labels = ["", "Top stories", "Metro & Transport", "Development & Government", "Around Bengaluru"]
+    labels = ["", "Top stories", "Metro & Transport", "Projects & Development", "Government, Growth & Around"]
     body = ""
     for n, (pg, lab) in enumerate(zip([p1, p2, p3, p4, p5], labels), 1):
         folio = "" if n == 1 else (f'<div class="folio"><span>{DELTA_NAME} · {e(date)}</span><span>{e(lab)}</span><span>{n}</span></div>')
@@ -454,6 +506,14 @@ def build_delta_html(paper: dict, meta: dict) -> str:
 .zoneblk .sect { margin-top: 4px; }
 .towns { grid-template-columns: repeat(3, 1fr); gap: 4mm; } .town h4 { margin: 4px 8px 2px; } .town p { margin: 0 8px 6px; }
 .two { gap: 6mm; }
+.lgrid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin-bottom: 6px; }
+.lcard { border: 1px solid #d9d8d2; border-top: 3px solid #0d366b; padding: 6px 8px; background: #fcfcfb; }
+.lcard h4 { font: 800 calc(13px * var(--k))/1.2 Georgia, serif; color: #0d366b; margin: 2px 0; } .lcard p { text-align: left; margin: 0 0 3px; }
+.lmeta { font: 700 calc(9px * var(--k)) Arial, sans-serif; color: #52514e; }
+.icol { background: #fdf6e3; border-left: 4px solid #eda100; padding: 8px 12px; }
+.icol-k { font: 800 10px Arial, sans-serif; letter-spacing: 2px; color: #8a5300; }
+.icol h2 { font: 800 calc(18px * var(--k))/1.15 Georgia, serif; color: #0d366b; margin: 3px 0 6px; }
+.icol p { text-align: left; } .icol-d { font: italic calc(8.5px * var(--k)) Arial, sans-serif; color: #6b6a66; }
 .mgrid { grid-template-columns: 84mm 1fr; align-items: start; }
 """
     from harness.magazine_render import FIT_JS

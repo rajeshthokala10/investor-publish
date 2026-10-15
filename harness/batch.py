@@ -75,7 +75,11 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
                     if last and (today - last).days < 7:
                         results[step] = "skipped (refreshed weekly)"
                     else:
-                        results[step] = f"ok ({len(build_builders(log).get('builders', []))} builders)"
+                        from harness.builders_top import build_top, enrich_top
+                        build_builders(log)
+                        build_top(log)
+                        n = len(enrich_top(log).get("builders", []))
+                        results[step] = f"ok (top {n} builders with A/B categories)"
                 elif step == "publish":
                     from harness.publish_content import publish_content
                     results[step] = publish_content(log)

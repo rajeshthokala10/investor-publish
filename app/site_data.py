@@ -98,6 +98,9 @@ def _fmt_value(f: dict) -> str:
         return f"₹{num} crore"
     if "bn" in u or "billion" in u:
         return f"₹{num} bn"
+    if "million" in u and ("inr" in u or "rs" in u):          # 10 million = 1 crore (display conversion)
+        cr = v / 10
+        return f"₹{cr:,.0f} crore" if float(cr).is_integer() else f"₹{cr:,.1f} crore"
     return f"{num} {f['unit']}".replace("mn sft", "mn sq ft")
 
 
@@ -124,6 +127,38 @@ def top_builders() -> list[dict]:
         out.append({"name": b["name"], "headline": b.get("headline", ""), "projects": projects[:3], "sales": sales[:4],
                     "other": other[:2], "bengaluru_projects": b.get("bengaluru_projects", [])[:5]})
     return out
+
+
+def builder_slides() -> dict:
+    """Top Bengaluru builders as slides: one stat per metric (best period), each with period + source."""
+    data = read_json(APP_DATA / "builders_top.json", {})
+    pick_order = {"total_projects": 0, "completed_projects": 1, "ongoing_projects": 2, "bengaluru_projects": 3}
+
+    def best(figs, metric, scope=None):
+        rows = [f for f in figs if f["metric"] == metric and (scope is None or f["scope"] == scope)]
+        rows.sort(key=lambda f: (not re.search(r"FY\s?26|2025-26|2026", f["period"]), f["scope"] != "company_wide"))
+        return rows[0] if rows else None
+
+    def stat(f, label):
+        if not f:
+            return {"label": label, "value": "Not disclosed", "period": "", "source": "", "url": ""}
+        return {"label": label, "value": _fmt_value(f), "period": f["period"], "source": f["publisher"], "url": f["url"],
+                "scope": "Bengaluru" if f["scope"] == "bengaluru" else "Company-wide"}
+
+    slides = []
+    for b in data.get("builders", []):
+        figs = b["figures"]
+        proj = sorted([f for f in figs if f["metric"] in pick_order], key=lambda f: pick_order[f["metric"]])
+        projects = proj[0] if proj else None
+        slides.append({"rank": b["rank"], "name": b["name"], "slug": b["slug"], "category": b["category"], "listed": b["listed"],
+                       "founders": b["founders"], "photos": b["photos"], "hq": b["headquarters"],
+                       "presence": b["bengaluru_presence"],
+                       "stats": [stat(projects, (projects["label"].split(" (")[0] if projects else "Total projects")),
+                                 stat(best(figs, "units_sold"), "Units sold"),
+                                 stat(best(figs, "revenue"), "Revenue"),
+                                 stat(best(figs, "sales_value", "company_wide"), "Sales bookings")],
+                       "bengaluru": [stat(f, f["label"].split(" (")[0]) for f in figs if f["scope"] == "bengaluru"][:2]})
+    return {"method": data.get("method", ""), "slides": slides, "generated_at": data.get("generated_at")}
 
 
 def build_site(log=None) -> dict:
@@ -160,6 +195,7 @@ def build_site(log=None) -> dict:
         "news": news(daily),
         "metrics": {k: metrics.get(k, []) for k in ("kpis", "series", "area_prices", "builders", "tracked_developers")},
         "top_builders": top_builders(),
+        "builder_slides": builder_slides(),
         "plans": issue.get("gov_rows", []),
         "growth_towns": issue.get("growth_towns", []),
         "zones": [{"zone": z["zone"], "title": z["title"], "standfirst": z["standfirst"],

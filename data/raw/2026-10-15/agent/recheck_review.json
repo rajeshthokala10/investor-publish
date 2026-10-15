@@ -1,65 +1,60 @@
 {
-  "cost_usd": 0.0782677,
-  "finished": "2026-10-15T09:01:14+05:30",
+  "cost_usd": 0.0703468,
+  "finished": "2026-10-15T10:12:46+05:30",
   "is_error": false,
   "prompt_key": null,
-  "prompt_sha": "f3f800990e",
-  "started": "2026-10-15T09:00:51+05:30",
+  "prompt_sha": "e598a46575",
+  "started": "2026-10-15T10:12:24+05:30",
   "structured_output": {
     "reviews": [
       {
-        "claim_id": "C-aa236f5422",
-        "reason": "Article dated 29 Sept 2026 confirms the notified grid, 10 m→30/45/90 m widths, and vacant-land requirement.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-55ac794229",
-        "reason": "18 Aug 2026 article confirms ORRCA (500+ firms) rejected WFH, sought hold on the Rs 450-crore revamp until Blue Line, and minister directed October start.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-fe40c889d3",
-        "reason": "Article confirms 3 Sept HC direction for technical presentation and petitioners' DPR challenge and lake-land diversion argument.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-961687ce2f",
-        "reason": "Article dated 15 Jul 2026 gives 700 m, six lanes, Rs 350 mn, September 2026 excavation, and 15 months of night work.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-2f6c1f2523",
-        "reason": "Article dated 20 Aug 2026 confirms the pause request and ~13.5 km queues at about 9:30 am.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-69efcf6f51",
-        "reason": "15 Sept 2026 article says NHAI began Sadahalli underpass work, Rs 35 crore, about one year (it says Ballari Road only).",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-3ee4af89b4",
-        "reason": "16 Aug 2026 Swarajya piece citing TOI quotes the BMRCL official on the 2026 target being infeasible and the deadline moving to 2027.",
-        "verdict": "supported"
-      },
-      {
-        "claim_id": "C-ad429d01df",
-        "reason": "2 Oct article confirms the 18 Sept application, the network passing 100 km once the stretch opens, and the minister's earlier September 2026 statement.",
+        "claim_id": "C-2c2b18377d",
+        "reason": "Article dated 13 Oct 2026 reports Rao's footpath inspection, DPR request for Gottigere–Tavarekere junctions, and the 'do not amount to... completed' caveat.",
         "verdict": "supported"
       },
       {
         "claim_id": "C-8a66c38724",
-        "reason": "Deccan Herald returned HTTP 403, so the page could not be checked.",
+        "reason": "Page returned HTTP 403, so content could not be checked.",
         "verdict": "unable"
       },
       {
         "claim_id": "C-c55b9ea49a",
-        "reason": "Deccan Herald returned HTTP 403, so the headline could not be checked.",
+        "reason": "Page returned HTTP 403, so the 36-deficiencies claim could not be checked.",
         "verdict": "unable"
       },
       {
+        "claim_id": "C-2f6c1f2523",
+        "reason": "Article dated 20 Aug 2026 reports ORRCA asking for the Rs 450-crore revamp to be held pending the Blue Line and about 13.5 km queues at 9:30 am.",
+        "verdict": "supported"
+      },
+      {
         "claim_id": "C-a20a3fedd5",
-        "reason": "Article quotes the official saying the 2026 target is not feasible and lists Marathahalli, Central Silk Board and the depot link as pending.",
+        "reason": "Swarajya of 16 Aug 2026 quotes the BMRCL official that a 2026 commercial-operation target is not feasible, with Marathahalli, Central Silk Board and depot link work pending.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-3ee4af89b4",
+        "reason": "Swarajya dated 16 Aug 2026 cites TOI and says the deadline is pushed to 2027.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-88ab1efd9e",
+        "reason": "Article reports no safe pathway near Kalena Agrahara, an order to replace missing drain slabs, and mid-block median crossings where needed.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-aa236f5422",
+        "reason": "ThePrint of 29 Sep 2026 confirms the 10 m to 30/45/90 m notification and the requirement to leave the land vacant for new layouts or houses.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-ad429d01df",
+        "reason": "Article dated 2 Oct 2026 confirms the 18 Sept application, that the 7.5 km stretch would take the network past 100 km, and the missed September 2026 target.",
+        "verdict": "supported"
+      },
+      {
+        "claim_id": "C-55ac794229",
+        "reason": "Business Today of 18 Aug 2026 confirms 500+ firms, WFH rejection, a request to hold the Rs 450-crore revamp until the Blue Line operates, and the minister's October start direction.",
         "verdict": "supported"
       }
     ]
