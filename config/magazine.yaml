@@ -1,0 +1,98 @@
+# Monthly magazine edition: a complete, evergreen guide to Bengaluru real estate.
+# Unlike the daily report, research is not restricted to 72 hours: evidence published in
+# the last `lookback_months` describing the CURRENT state of each market/plan is in scope.
+
+title: Bengaluru Property Review
+tagline: The city, its corridors and the plans reshaping them
+lookback_months: 24
+pages_target: 16            # renderer verifies the page count
+agent:
+  max_budget_usd_per_task: 2.50
+  max_budget_usd_per_run: 30.00
+  writer_budget_usd: 3.00
+  parallel_tasks: 4
+  task_timeout_minutes: 25
+citation_checks: 400
+
+tasks:
+  - id: mag_city_market
+    focus: |
+      Bengaluru city-wide residential market, latest available quarters of 2025 and 2026:
+      sales (units, value), new launches, average prices (with basis), unsold inventory,
+      months of inventory, share by budget segment, YoY changes, rental growth and yields,
+      office leasing / GCC demand. Sources: ANAROCK, Knight Frank, JLL, CBRE, Colliers,
+      PropEquity, PropTiger, NHB RESIDEX, RBI HPI, and reputable media reporting them.
+      Record the quarter/period and the producing firm for every figure.
+
+  - id: mag_east
+    focus: |
+      East Bengaluru micro-markets: Whitefield, Mahadevapura, Hoodi, KR Puram, Marathahalli,
+      Bellandur, Panathur, Varthur, Gunjur, Sarjapur Road (Kaikondrahalli to Sarjapur town,
+      Dommasandra, Chandapura link), Budigere Cross, Old Madras Road, Hoskote. For each:
+      current apartment price range (basis), plot/land rates where reported, rent levels,
+      demand drivers (tech parks, jobs), infrastructure (metro lines, roads), civic issues
+      (water, flooding, traffic), notable recent/ongoing projects.
+
+  - id: mag_north
+    focus: |
+      North Bengaluru: Hebbal, Yelahanka, Jakkur, Thanisandra, Hennur, Bagalur, Devanahalli,
+      Kempegowda airport region, Aerospace Park / ITIR, Doddaballapur, KWIN City (Knowledge
+      Wellness Innovation city), Bellary Road. Prices (basis), plot rates, rental, demand
+      drivers, airport-led growth, infrastructure, notable projects and townships.
+
+  - id: mag_south
+    focus: |
+      South Bengaluru: Electronic City, Hosur Road, Bommasandra, Chandapura, Attibele, Anekal,
+      Jigani, Bannerghatta Road, JP Nagar, Kanakapura Road (Thalaghattapura to Harohalli),
+      and the Hosur (Tamil Nadu) spill-over. Prices (basis), plot rates, rental, drivers,
+      Yellow Line metro impact, infrastructure and notable projects.
+
+  - id: mag_west
+    focus: |
+      West Bengaluru: Mysore Road, Kengeri, RR Nagar, Bidadi (Greater Bengaluru integrated
+      township / GBDA), Ramanagara / Bengaluru South district, Magadi Road, Tumkur Road,
+      Nelamangala, Peenya, Yeshwanthpur, Rajajinagar. Prices (basis), plot rates, rental,
+      drivers, Bengaluru–Mysuru expressway impact, metro Purple Line/Phase 3, projects.
+
+  - id: mag_growth_towns
+    focus: |
+      Future growth places around and outside Bengaluru: Hoskote, Devanahalli, Doddaballapur,
+      Nelamangala, Bidadi, Ramanagara, Kanakapura, Harohalli, Anekal, Attibele, Sarjapur town,
+      Chikkaballapur, Hosur. For each: why it is growing (industry, airport, highways, STRR,
+      townships), land/plot rates and how they have moved, approval authority (BMRDA, BIAAPA,
+      local planning authorities), risks (distance, water, approvals, execution).
+
+  - id: mag_gov_metro_rail
+    focus: |
+      Namma Metro network status as of 2026: every line and extension (Purple, Green, Yellow,
+      Pink, Blue Phase 2A and 2B airport line, Phase 3, Phase 3A Sarjapur–Hebbal, proposed
+      extensions e.g. to Hoskote, Bidadi, Tumkur Road, Attibele), with length, stretch,
+      current stage, latest deadline, cost. Bengaluru Suburban Rail (K-RIDE) four corridors,
+      their stages and timelines. Prefer bmrc.co.in, kride.in, government press releases.
+
+  - id: mag_gov_roads_plans
+    focus: |
+      Government plans shaping Bengaluru: Satellite Town Ring Road (STRR) status by section,
+      Peripheral Ring Road / Bengaluru Business Corridor (land acquisition, tender), tunnel
+      roads (Hebbal–Silk Board), double-decker/elevated corridors, Bengaluru–Chennai
+      expressway, second airport proposals, Greater Bengaluru Authority and new city
+      corporations, master plan / Revised Master Plan, KWIN City, SWIFT City, Bidadi GBDA
+      township, Cauvery Stage V and water projects, e-khata/B-khata, guidance value and
+      stamp duty changes, RERA Karnataka actions. Stage and date for each.
+
+  - id: mag_plots_villas
+    focus: |
+      Plotted developments and villas in and around Bengaluru: where plotted launches are
+      concentrated (Devanahalli, Hoskote, Sarjapur, Kanakapura Road, Bidadi, Nelamangala,
+      Doddaballapur, Anekal), land rates per sq ft and their growth, villa price ranges,
+      major developers active in plots/villas, BMRDA/BIAAPA approval context, buyer risks
+      (title, conversion, A-khata/B-khata), and how plots compare with apartments.
+
+  - id: mag_projects
+    focus: |
+      Notable residential launches and projects in Bengaluru in 2025-2026 by leading
+      developers (Prestige, Sobha, Brigade, Godrej Properties, Puravankara, Embassy, Total
+      Environment, Assetz, Mahindra Lifespaces, DLF, Tata Housing, Century, Shriram, Adarsh,
+      Birla Estates, Lodha): name, location, type (apartment/villa/plot), size, launch date,
+      price range with basis, RERA number where shown on official pages. Prefer developer
+      press releases, stock-exchange filings and reputable media.

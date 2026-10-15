@@ -1,0 +1,72 @@
+# Research tasks executed by the headless research agent (prompts/research_agent.md).
+# cadence: daily  -> every run, restricted to the 72-hour window
+#          baseline -> only when data/processed/market_baseline.json is older than
+#                      agent.baseline_refresh_days (historical evidence, any date)
+# lead_regions: which RSS leads (by detected region) are handed to the task.
+
+tasks:
+  - id: east_launches_prices
+    cadence: daily
+    lead_regions: [east]
+    focus: |
+      East Bengaluru residential market: Whitefield, ORR East (Marathahalli/Bellandur),
+      Sarjapur Road, Varthur-Gunjur, Panathur-Balagere, Budigere Cross, KR Puram-Hoskote.
+      Find project launches, new phases, plotted developments, villa projects and
+      high-rise apartment launches; quoted prices with their basis (land / carpet /
+      built-up / super built-up); RERA numbers shown on developer or official pages;
+      possession timelines; rental and resale signals.
+      Check developer websites and official announcements for launches you find in news.
+
+  - id: east_catalysts_risks
+    cadence: daily
+    lead_regions: [east, peripheral]
+    focus: |
+      East Bengaluru catalysts and risks: metro (Purple Line, Blue Line ORR/airport,
+      Sarjapur-Hebbal proposal), suburban rail, STRR, Peripheral Ring Road / Bengaluru
+      Business Corridor, Old Madras Road, Hoskote, office leasing and job creation in
+      Whitefield/ORR, Cauvery water supply, lake flooding (Varthur, Bellandur), traffic,
+      civic works, execution delays and oversupply.
+
+  - id: north_south_west
+    cadence: daily
+    lead_regions: [north, south, west]
+    focus: |
+      North (Hebbal, Yelahanka, Hennur, Thanisandra, Devanahalli, airport region),
+      South (Electronic City, Hosur Road, Bannerghatta Road, Kanakapura Road) and West
+      (Mysore Road, Kengeri, Tumkur Road, Magadi Road) Bengaluru: launches, prices,
+      infrastructure and risks. Compact; prefer the most consequential items.
+
+  - id: government_watch
+    cadence: daily
+    lead_regions: [east, north, south, west, peripheral, unmapped]
+    focus: |
+      Government and infrastructure actions affecting Bengaluru property: BMRCL,
+      K-RIDE, NHAI, BDA, BMRDA, Greater Bengaluru Authority and its corporations, BWSSB,
+      KIADB, Karnataka cabinet decisions, Karnataka RERA orders, stamp duty / guidance
+      value / registration changes, zoning or master-plan changes, court orders.
+      For each, identify the stage reached (proposed, announced, approved, funded,
+      tendered, awarded, under construction, operational) ONLY from the text of the
+      source, and record both publication date and the date of the underlying event.
+      Prefer the agency's own website or press release over news coverage.
+
+  - id: social_signals
+    cadence: daily
+    lead_regions: []
+    focus: |
+      Public, logged-out-accessible social and video content (YouTube, public LinkedIn
+      posts, Reddit r/bangalore discussions) about East Bengaluru property in the last
+      72 hours. Treat everything as interested-party or anecdotal. Record what is
+      claimed, by whom, and whether any official source supports it. Report which
+      platforms you could not access.
+
+  - id: market_baseline
+    cadence: baseline
+    lead_regions: []
+    focus: |
+      Historical market evidence for Bengaluru corridors (any publication date within
+      the last 3 years, describing periods within the last 6 years): average price per
+      sq ft by micro-market with basis and period; price appreciation over stated
+      periods; rental yields; unsold inventory, launches and absorption by
+      micro-market; plotted-development and villa land-rate trends. Prefer ANAROCK,
+      Knight Frank, JLL, CBRE, Colliers, PropEquity, NHB RESIDEX and reputable media
+      reporting of them. Always record the period the figure refers to.

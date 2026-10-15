@@ -1,0 +1,231 @@
+# Source registry.
+#
+# tier         -> evidence weight / interested-party status (see content_engineering/evidence_rules.md)
+# group        -> independence group. Sources in the same group are NOT independent
+#                 confirmation of each other (shared newsroom, owner or press release).
+# Domains match on suffix: "karnataka.gov.in" matches "rera.karnataka.gov.in".
+#
+# Access notes reflect checks made during implementation; the collector re-tests
+# feeds every run and logs failures to logs/source_failures.jsonl.
+
+tiers:
+  primary_official:   {weight: 1.0, interested_party: false, label: Government / statutory body}
+  regulator:          {weight: 1.0, interested_party: false, label: Regulator}
+  operator:           {weight: 0.8, interested_party: true,  label: Infrastructure operator (official but interested)}
+  reputable_media:    {weight: 0.7, interested_party: false, label: Reputable news media}
+  research_house:     {weight: 0.6, interested_party: true,  label: Property consultancy research (has brokerage business)}
+  property_portal:    {weight: 0.3, interested_party: true,  label: Property portal (listing/advertising business)}
+  developer:          {weight: 0.3, interested_party: true,  label: Developer / project marketer}
+  broker_marketing:   {weight: 0.1, interested_party: true,  label: Broker or paid promotion}
+  social_media:       {weight: 0.1, interested_party: true,  label: Social media / influencer}
+  aggregator:         {weight: 0.2, interested_party: false, label: Aggregator (resolve to original publisher)}
+  unknown:            {weight: 0.2, interested_party: false, label: Unclassified source}
+
+domains:
+  # Government, regulators, agencies
+  - {suffix: rera.karnataka.gov.in, tier: regulator, group: krera, name: Karnataka RERA}
+  - {suffix: karnataka.gov.in, tier: primary_official, group: gok, name: Government of Karnataka}
+  - {suffix: gov.in, tier: primary_official, group: goi, name: Government of India}
+  - {suffix: nic.in, tier: primary_official, group: goi, name: Government (NIC)}
+  - {suffix: pib.gov.in, tier: primary_official, group: pib, name: Press Information Bureau}
+  - {suffix: bmrc.co.in, tier: primary_official, group: bmrcl, name: BMRCL (Namma Metro)}
+  - {suffix: kride.in, tier: primary_official, group: kride, name: K-RIDE}
+  - {suffix: bbmp.gov.in, tier: primary_official, group: gba, name: BBMP / GBA}
+  - {suffix: bdabangalore.org, tier: primary_official, group: bda, name: Bangalore Development Authority}
+  - {suffix: bwssb.karnataka.gov.in, tier: primary_official, group: bwssb, name: BWSSB}
+  - {suffix: kiadb.in, tier: primary_official, group: kiadb, name: KIADB}
+  - {suffix: nhai.gov.in, tier: primary_official, group: nhai, name: NHAI}
+  - {suffix: igrs.karnataka.gov.in, tier: primary_official, group: igr, name: Karnataka Stamps & Registration}
+  - {suffix: bengaluruairport.com, tier: operator, group: bial, name: BIAL (airport operator)}
+  # Media (group = owner/newsroom family)
+  - {suffix: thehindu.com, tier: reputable_media, group: the_hindu_group, name: The Hindu}
+  - {suffix: thehindubusinessline.com, tier: reputable_media, group: the_hindu_group, name: BusinessLine}
+  - {suffix: deccanherald.com, tier: reputable_media, group: printers_mysore, name: Deccan Herald}
+  - {suffix: timesofindia.indiatimes.com, tier: reputable_media, group: times_group, name: Times of India}
+  - {suffix: economictimes.indiatimes.com, tier: reputable_media, group: times_group, name: Economic Times}
+  - {suffix: bangaloremirror.indiatimes.com, tier: reputable_media, group: times_group, name: Bangalore Mirror}
+  - {suffix: indiatimes.com, tier: reputable_media, group: times_group, name: Times Group}
+  - {suffix: hindustantimes.com, tier: reputable_media, group: ht_media, name: Hindustan Times}
+  - {suffix: livemint.com, tier: reputable_media, group: ht_media, name: Mint}
+  - {suffix: indianexpress.com, tier: reputable_media, group: indian_express, name: Indian Express}
+  - {suffix: financialexpress.com, tier: reputable_media, group: indian_express, name: Financial Express}
+  - {suffix: newindianexpress.com, tier: reputable_media, group: new_indian_express, name: New Indian Express}
+  - {suffix: business-standard.com, tier: reputable_media, group: business_standard, name: Business Standard}
+  - {suffix: moneycontrol.com, tier: reputable_media, group: network18, name: Moneycontrol}
+  - {suffix: news18.com, tier: reputable_media, group: network18, name: News18}
+  - {suffix: cnbctv18.com, tier: reputable_media, group: network18, name: CNBC-TV18}
+  - {suffix: reuters.com, tier: reputable_media, group: reuters, name: Reuters}
+  - {suffix: bloomberg.com, tier: reputable_media, group: bloomberg, name: Bloomberg}
+  - {suffix: ndtv.com, tier: reputable_media, group: ndtv, name: NDTV}
+  - {suffix: ndtvprofit.com, tier: reputable_media, group: ndtv, name: NDTV Profit}
+  - {suffix: thenewsminute.com, tier: reputable_media, group: tnm, name: The News Minute}
+  - {suffix: citizenmatters.in, tier: reputable_media, group: citizen_matters, name: Citizen Matters}
+  - {suffix: thesouthfirst.com, tier: reputable_media, group: south_first, name: South First}
+  - {suffix: indiatoday.in, tier: reputable_media, group: india_today, name: India Today}
+  - {suffix: deccanchronicle.com, tier: reputable_media, group: deccan_chronicle, name: Deccan Chronicle}
+  - {suffix: zeebiz.com, tier: reputable_media, group: zee, name: Zee Business}
+  - {suffix: ptinews.com, tier: reputable_media, group: pti, name: PTI}
+  - {suffix: businesstoday.in, tier: reputable_media, group: india_today, name: Business Today}
+  - {suffix: theprint.in, tier: reputable_media, group: theprint, name: ThePrint}
+  - {suffix: scroll.in, tier: reputable_media, group: scroll, name: Scroll}
+  - {suffix: theweek.in, tier: reputable_media, group: malayala_manorama, name: The Week}
+  - {suffix: thehansindia.com, tier: reputable_media, group: hans_india, name: The Hans India}
+  - {suffix: firstpost.com, tier: reputable_media, group: network18, name: Firstpost}
+  - {suffix: timesnownews.com, tier: reputable_media, group: times_group, name: Times Now}
+  - {suffix: newsable.asianetnews.com, tier: reputable_media, group: asianet, name: Asianet Newsable}
+  - {suffix: news9live.com, tier: reputable_media, group: tv9, name: News9}
+  - {suffix: outlookindia.com, tier: reputable_media, group: outlook, name: Outlook}
+  - {suffix: bangalorebuzz.in, tier: unknown, group: bangalore_buzz, name: Bangalore Buzz}
+  - {suffix: outlookmoney.com, tier: reputable_media, group: outlook, name: Outlook Money}
+  - {suffix: outlookbusiness.com, tier: reputable_media, group: outlook, name: Outlook Business}
+  - {suffix: tribuneindia.com, tier: reputable_media, group: tribune, name: The Tribune}
+  - {suffix: uniindia.com, tier: reputable_media, group: uni, name: United News of India}
+  - {suffix: newskarnataka.com, tier: unknown, group: newskarnataka, name: News Karnataka}
+  - {suffix: dtnext.in, tier: reputable_media, group: daily_thanthi, name: DT Next}
+  - {suffix: oneindia.com, tier: reputable_media, group: oneindia, name: Oneindia}
+  - {suffix: tradebrains.in, tier: unknown, group: tradebrains, name: Trade Brains (finance blog)}
+  - {suffix: swarajyamag.com, tier: reputable_media, group: swarajya, name: Swarajya}
+  - {suffix: etvbharat.com, tier: reputable_media, group: etv_bharat, name: ETV Bharat}
+  - {suffix: freepressjournal.in, tier: reputable_media, group: free_press_journal, name: Free Press Journal}
+  - {suffix: ianslive.in, tier: reputable_media, group: ians, name: IANS}
+  - {suffix: newsfirstprime.com, tier: reputable_media, group: newsfirst, name: NewsFirst}
+  - {suffix: indianinfrastructure.com, tier: reputable_media, group: indian_infrastructure, name: Indian Infrastructure (trade)}
+  - {suffix: onecityproperty.com, tier: broker_marketing, group: onecityproperty, name: OneCity Property (broker)}
+  - {suffix: housiey.com, tier: property_portal, group: housiey, name: Housiey (portal)}
+  - {suffix: roofandfloor.com, tier: property_portal, group: roofandfloor, name: RoofandFloor (portal)}
+  - {suffix: 1acre.in, tier: property_portal, group: oneacre, name: 1acre (land portal)}
+  - {suffix: sobha.com, tier: developer, group: dev_sobha, name: Sobha}
+  - {suffix: brigadegroup.com, tier: developer, group: dev_brigade, name: Brigade Group}
+  - {suffix: embassygroup.com, tier: developer, group: dev_embassy, name: Embassy Group}
+  - {suffix: prestigeconstructions.com, tier: developer, group: dev_prestige, name: Prestige Group}
+  - {suffix: godrejproperties.com, tier: developer, group: dev_godrej, name: Godrej Properties}
+  - {suffix: puravankara.com, tier: developer, group: dev_puravankara, name: Puravankara}
+  - {suffix: jllapsites.com, tier: research_house, group: jll, name: JLL Research}
+  - {suffix: bseindia.com, tier: primary_official, group: bse, name: BSE filings}
+  - {suffix: nseindia.com, tier: primary_official, group: nse, name: NSE filings}
+  # Realty PR / advertorial sites: publish developer releases -> interested
+  - {suffix: therealtytoday.com, tier: broker_marketing, group: realty_today, name: The Realty Today (PR site)}
+  - {suffix: realtynmore.com, tier: broker_marketing, group: realtynmore, name: Realty n More (PR site)}
+  - {suffix: propnewz.com, tier: broker_marketing, group: propnewz, name: PropNewz (PR site)}
+  - {suffix: homebazaar.com, tier: property_portal, group: homebazaar, name: HomeBazaar (portal)}
+  # Trade / civic-data publications (non-interested, own newsroom)
+  - {suffix: metrorailnews.in, tier: reputable_media, group: metro_rail_news, name: Metro Rail News (trade)}
+  - {suffix: nbmcw.com, tier: reputable_media, group: nbmcw, name: NBM&CW (trade)}
+  - {suffix: constructionworld.in, tier: reputable_media, group: construction_world, name: Construction World (trade)}
+  - {suffix: themetrorailguy.com, tier: reputable_media, group: metro_rail_guy, name: The Metro Rail Guy (trade blog)}
+  - {suffix: nammaward.in, tier: reputable_media, group: nammaward, name: NammaWard (civic data)}
+  - {suffix: thebengalurulive.com, tier: reputable_media, group: bengaluru_live, name: The Bengaluru Live}
+  # Press-release wires: the company is the source -> interested party
+  - {suffix: scnwire.com, tier: developer, group: press_wire_scn, name: SCN Wire (press release)}
+  - {suffix: prnewswire.com, tier: developer, group: press_wire_prn, name: PR Newswire (press release)}
+  - {suffix: businesswire.com, tier: developer, group: press_wire_bw, name: Business Wire (press release)}
+  - {suffix: devdiscourse.com, tier: aggregator, group: aggregator_devdiscourse, name: Devdiscourse (republishes wires)}
+  # Research houses (consultancies also broker -> interested party)
+  - {suffix: anarock.com, tier: research_house, group: anarock, name: ANAROCK}
+  - {suffix: knightfrank.co.in, tier: research_house, group: knight_frank, name: Knight Frank India}
+  - {suffix: knightfrank.com, tier: research_house, group: knight_frank, name: Knight Frank}
+  - {suffix: jll.co.in, tier: research_house, group: jll, name: JLL India}
+  - {suffix: jll.com, tier: research_house, group: jll, name: JLL}
+  - {suffix: cbre.co.in, tier: research_house, group: cbre, name: CBRE India}
+  - {suffix: colliers.com, tier: research_house, group: colliers, name: Colliers}
+  - {suffix: propequity.in, tier: research_house, group: propequity, name: PropEquity}
+  - {suffix: cushmanwakefield.com, tier: research_house, group: cushman, name: Cushman & Wakefield}
+  # Portals
+  - {suffix: 99acres.com, tier: property_portal, group: info_edge, name: 99acres}
+  - {suffix: magicbricks.com, tier: property_portal, group: times_group_portal, name: MagicBricks}
+  - {suffix: housing.com, tier: property_portal, group: rea_india, name: Housing.com}
+  - {suffix: proptiger.com, tier: property_portal, group: rea_india, name: PropTiger}
+  - {suffix: makaan.com, tier: property_portal, group: rea_india, name: Makaan}
+  - {suffix: squareyards.com, tier: property_portal, group: square_yards, name: Square Yards}
+  - {suffix: nobroker.in, tier: property_portal, group: nobroker, name: NoBroker}
+  - {suffix: commonfloor.com, tier: property_portal, group: commonfloor, name: CommonFloor}
+  - {suffix: propertypistol.com, tier: property_portal, group: propertypistol, name: PropertyPistol}
+  # Social
+  - {suffix: youtube.com, tier: social_media, group: social_youtube, name: YouTube}
+  - {suffix: x.com, tier: social_media, group: social_x, name: X}
+  - {suffix: twitter.com, tier: social_media, group: social_x, name: X}
+  - {suffix: linkedin.com, tier: social_media, group: social_linkedin, name: LinkedIn}
+  - {suffix: instagram.com, tier: social_media, group: social_instagram, name: Instagram}
+  - {suffix: reddit.com, tier: social_media, group: social_reddit, name: Reddit}
+  - {suffix: facebook.com, tier: social_media, group: social_facebook, name: Facebook}
+  # Aggregators
+  - {suffix: news.google.com, tier: aggregator, group: aggregator_google, name: Google News}
+  - {suffix: msn.com, tier: aggregator, group: aggregator_msn, name: MSN}
+  - {suffix: dailyhunt.in, tier: aggregator, group: aggregator_dailyhunt, name: Dailyhunt}
+
+# Agent-declared source kinds -> tier, used only when the domain is not in the registry.
+source_kind_tiers:
+  government: primary_official
+  regulator: regulator
+  infrastructure_agency: primary_official
+  developer: developer
+  news: unknown            # unknown news sites are not assumed reputable
+  research_report: research_house
+  property_portal: property_portal
+  broker: broker_marketing
+  social_media: social_media
+  other: unknown
+
+# Deterministic RSS collection (no login, no scraping behind auth).
+rss_feeds:
+  - {id: thehindu_bengaluru, url: "https://www.thehindu.com/news/cities/bangalore/feeder/default.rss"}
+  - {id: toi_bengaluru, url: "https://timesofindia.indiatimes.com/rssfeeds/-2128833038.cms"}
+  - {id: etrealty_top, url: "https://realty.economictimes.indiatimes.com/rss/topstories"}
+  - {id: ht_realestate, url: "https://www.hindustantimes.com/feeds/rss/real-estate/rssfeed.xml"}
+  - {id: businessline_economy, url: "https://www.thehindubusinessline.com/economy/feeder/default.rss"}
+  - {id: mint_money, url: "https://www.livemint.com/rss/money"}
+
+google_news:
+  base: "https://news.google.com/rss/search?q={q}+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+  queries:
+    # East (priority)
+    - Whitefield Bengaluru property
+    - Sarjapur Road Bengaluru
+    - Varthur Bengaluru
+    - Gunjur Bengaluru
+    - Panathur Bengaluru
+    - Budigere Bengaluru
+    - Hoskote real estate
+    - KR Puram Bengaluru metro
+    - Old Madras Road Bengaluru
+    - Marathahalli Bellandur Outer Ring Road
+    # Infrastructure & government
+    - Namma Metro BMRCL
+    - Bengaluru suburban rail K-RIDE
+    - Peripheral Ring Road Bengaluru Business Corridor
+    - Satellite Town Ring Road Bengaluru
+    - BWSSB Cauvery water Bengaluru
+    - Greater Bengaluru Authority
+    - Karnataka RERA
+    - BDA Bengaluru layout
+    - Bengaluru tunnel road
+    - Bengaluru second airport
+    - KIADB Bengaluru
+    - Bengaluru master plan zoning
+    # Market
+    - Bengaluru housing sales
+    - Bengaluru residential launch
+    - Bengaluru plotted development
+    - Bengaluru villa project launch
+    - Bengaluru property prices
+    - Bengaluru rental housing
+    # North / South / West
+    - Devanahalli real estate
+    - Hebbal Yelahanka property
+    - Hennur Thanisandra
+    - Electronic City Bengaluru property
+    - Kanakapura Road Bengaluru
+    - Bannerghatta Road Bengaluru
+    - Mysore Road Bengaluru property
+    - Tumkur Road Nelamangala
+
+# Sources the system does not access automatically, and why. Reported every run.
+known_unavailable:
+  - {source: X (Twitter), reason: Login required for search/timelines; only items surfaced by web search are used.}
+  - {source: Instagram, reason: Login required; not accessed.}
+  - {source: LinkedIn, reason: Login wall for most posts; only publicly indexed posts surfaced by web search.}
+  - {source: Kaveri/IGRS registered transaction data, reason: Per-document search requires captcha/login; no bulk registered-price feed is used.}
+  - {source: Karnataka RERA project search, reason: Interactive form + captcha; RERA numbers are recorded as "Not verified" unless an agent confirms on a publicly reachable page.}
+  - {source: Moneycontrol RSS, reason: HTTP 403 to automated requests (checked 2026-10-15).}
+  - {source: 99acres feeds/listings, reason: HTTP 403 to automated requests (checked 2026-10-15).}
+  - {source: Housing.com news feed, reason: HTTP 406 to automated requests (checked 2026-10-15).}

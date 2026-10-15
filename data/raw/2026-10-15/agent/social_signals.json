@@ -1,0 +1,77 @@
+{
+  "cost_usd": 0.26911399999999996,
+  "finished": "2026-10-15T05:51:23+05:30",
+  "is_error": false,
+  "prompt_sha": "e9b53a1ea4",
+  "started": "2026-10-15T05:50:46+05:30",
+  "structured_output": {
+    "claims": [
+      {
+        "claim_type": "supply_demand",
+        "event_date": null,
+        "excerpt": "the eastern corridor accounted for about 57% of Bengaluru's residential launches in January-March 2026",
+        "infra_stage": "none",
+        "locality": "Whitefield",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "mixed",
+        "published_at": "2026-05-13",
+        "publisher": "The Tribune (ANI)",
+        "source_kind": "news",
+        "statement": "Background (13 May 2026, outside window): ANI/Tribune syndicated report citing a Cushman & Wakefield report says the eastern corridor accounted for about 57% of Bengaluru's residential launches in Jan-Mar 2026. Developer commentary is interested-party.",
+        "subject": "East Bengaluru residential launches Q1 2026",
+        "unit": "%",
+        "url": "https://www.tribuneindia.com/news/business/east-bengaluru-sees-surge-in-housing-launches-on-strong-demand-metro-push/",
+        "value": 57,
+        "value_max": null
+      }
+    ],
+    "notes": "No public Reddit, YouTube or LinkedIn content dated 12-15 Oct 2026 about East Bengaluru property was found. Reddit was blocked in WebFetch. YouTube returned no listings. LinkedIn needs a login. Searches returned only developer, broker and portal blogs (Sobha, Brigade, Godrej, OneCity and similar). These are interested-party marketing and none is dated in the window. The only metro items found were August 2026 reports: Blue Line trial runs targeted for October, and the full corridor delayed to about March 2028. They are outside the window and I did not record them as claims. The one background claim is dated May 2026. Result: nothing new in the window from social platforms.",
+    "projects": [],
+    "queries_run": [
+      "reddit r/bangalore East Bengaluru property Whitefield Sarjapur October 2026",
+      "youtube Bangalore plots Budigere Cross Hoskote Gunjur October 2026",
+      "linkedin post Whitefield Sarjapur Road real estate October 2026",
+      "site:reddit.com r/bangalore flat buying Whitefield Varthur Panathur 2026",
+      "site:youtube.com East Bangalore real estate investment 2026 Kadugodi Hoskote Old Madras Road",
+      "Bengaluru property news East Bengaluru October 13 2026",
+      "site:linkedin.com/posts Bengaluru Whitefield real estate 2026",
+      "Bengaluru Metro Blue Line KR Puram Hebbal Pink line Outer Ring Road October 2026 property",
+      "Bangalore real estate Reddit Sarjapur Road OR Whitefield builder RERA complaint October 2026",
+      "Bengaluru East launch Devanahalli Hoskote Budigere new project launch October 2026",
+      "Bengaluru flats Whitefield price rent news this week October 2026"
+    ],
+    "sources_attempted": [
+      {
+        "note": "WebFetch refused to fetch reddit.com; no r/bangalore threads surfaced in any search.",
+        "source": "https://www.reddit.com/r/bangalore/search/ (and /new/.json)",
+        "status": "blocked"
+      },
+      {
+        "note": "Returned only YouTube navigation/footer; no video listings or dates. No YouTube results in any search.",
+        "source": "https://www.youtube.com/results?search_query=bangalore+east+property+whitefield",
+        "status": "error"
+      },
+      {
+        "note": "Sign-in page only; site:linkedin.com/posts search returned no LinkedIn posts.",
+        "source": "https://www.linkedin.com/search/results/content/?keywords=whitefield real estate",
+        "status": "login_required"
+      },
+      {
+        "note": "Dated 13 May 2026 (ANI); outside window, background only.",
+        "source": "https://www.tribuneindia.com/news/business/east-bengaluru-sees-surge-in-housing-launches-on-strong-demand-metro-push/",
+        "status": "ok"
+      },
+      {
+        "note": "HTTP 403.",
+        "source": "https://www.deccanherald.com/india/karnataka/bengaluru/14-acres-acquired-so-far-bengaluru-east-corporation-maintains-momentum-in-land-acquisition-3924546",
+        "status": "blocked"
+      }
+    ],
+    "task_id": "social_signals"
+  },
+  "subtype": "success",
+  "task": "social_signals"
+}

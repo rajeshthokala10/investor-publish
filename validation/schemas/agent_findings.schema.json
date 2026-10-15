@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AgentFindings",
+  "description": "Structured output of one research-agent task. Every claim must carry a URL and a verbatim excerpt.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["task_id", "queries_run", "sources_attempted", "claims", "projects"],
+  "properties": {
+    "task_id": {"type": "string"},
+    "queries_run": {"type": "array", "items": {"type": "string"}},
+    "sources_attempted": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "status"],
+        "properties": {
+          "source": {"type": "string"},
+          "status": {"enum": ["ok", "blocked", "login_required", "not_found", "error", "not_attempted"]},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["statement", "claim_type", "subject", "locality", "property_type", "url", "publisher",
+                     "published_at", "event_date", "excerpt", "source_kind", "metric", "value", "value_max",
+                     "unit", "period_years", "price_basis", "price_kind", "infra_stage"],
+        "properties": {
+          "statement": {"type": "string", "maxLength": 400},
+          "claim_type": {"enum": ["project_launch", "project_update", "price", "rental", "appreciation", "transaction",
+                                  "infrastructure", "policy", "legal", "employment", "supply_demand", "civic_risk", "other"]},
+          "subject": {"type": "string", "description": "Project, infrastructure item, policy or market the claim is about"},
+          "locality": {"type": ["string", "null"], "description": "Most specific Bengaluru locality named by the source"},
+          "property_type": {"enum": ["plot", "villa", "apartment", "mixed", "commercial", "na"]},
+          "url": {"type": "string"},
+          "publisher": {"type": "string"},
+          "published_at": {"type": ["string", "null"], "description": "YYYY-MM-DD as shown by the source"},
+          "event_date": {"type": ["string", "null"], "description": "YYYY-MM-DD of the underlying event if stated"},
+          "excerpt": {"type": "string", "maxLength": 600, "description": "Verbatim text copied from the source"},
+          "source_kind": {"enum": ["government", "regulator", "infrastructure_agency", "developer", "news", "research_report",
+                                   "property_portal", "broker", "social_media", "other"]},
+          "metric": {"enum": ["price_psf", "price_total", "rent_monthly", "rental_yield_pct", "appreciation_pct", "cagr_pct",
+                              "units_launched", "units_sold", "unsold_inventory", "jobs", "area_sqft", "investment_inr", "none"]},
+          "value": {"type": ["number", "null"]},
+          "value_max": {"type": ["number", "null"]},
+          "unit": {"type": ["string", "null"], "description": "e.g. INR/sqft, INR/sqyd, INR/acre, INR lakh, INR crore, %, units"},
+          "period_years": {"type": ["number", "null"], "description": "Period an appreciation figure covers"},
+          "price_basis": {"enum": ["land", "carpet", "built_up", "super_built_up", "unknown", "na"]},
+          "price_kind": {"enum": ["asking", "developer_quote", "reported_transaction", "registered_transaction", "analyst_estimate", "na"]},
+          "infra_stage": {"enum": ["proposed", "announced", "approved", "funded", "tendered", "awarded", "under_construction", "operational", "none"]}
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "developer", "locality", "property_type", "launch_date", "status", "rera_number",
+                     "rera_checked_on_portal", "unit_sizes", "price_min", "price_max", "price_unit", "price_basis",
+                     "price_kind", "charges_included", "charges_excluded", "possession", "infra_links", "lat", "lon",
+                     "url", "publisher", "published_at", "excerpt", "open_questions"],
+        "properties": {
+          "name": {"type": "string"},
+          "developer": {"type": ["string", "null"]},
+          "locality": {"type": ["string", "null"]},
+          "property_type": {"enum": ["plot", "villa", "apartment", "mixed", "commercial"]},
+          "launch_date": {"type": ["string", "null"]},
+          "status": {"enum": ["pre_launch", "launched", "new_phase", "under_construction", "ready", "completed", "stalled", "unknown"]},
+          "rera_number": {"type": ["string", "null"]},
+          "rera_checked_on_portal": {"type": "boolean"},
+          "unit_sizes": {"type": ["string", "null"]},
+          "price_min": {"type": ["number", "null"]},
+          "price_max": {"type": ["number", "null"]},
+          "price_unit": {"type": ["string", "null"]},
+          "price_basis": {"enum": ["land", "carpet", "built_up", "super_built_up", "unknown", "na"]},
+          "price_kind": {"enum": ["asking", "developer_quote", "reported_transaction", "registered_transaction", "analyst_estimate", "na"]},
+          "charges_included": {"type": ["string", "null"]},
+          "charges_excluded": {"type": ["string", "null"]},
+          "possession": {"type": ["string", "null"]},
+          "infra_links": {"type": "array", "items": {"type": "string"}},
+          "lat": {"type": ["number", "null"]},
+          "lon": {"type": ["number", "null"]},
+          "url": {"type": "string"},
+          "publisher": {"type": "string"},
+          "published_at": {"type": ["string", "null"]},
+          "excerpt": {"type": "string", "maxLength": 600},
+          "open_questions": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "notes": {"type": ["string", "null"]}
+  }
+}

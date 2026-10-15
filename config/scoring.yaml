@@ -1,0 +1,69 @@
+# Transparent scoring and scenario settings.
+# Attractiveness (1-5) and evidence confidence (High/Medium/Low) are computed
+# separately. A corridor x property-type cell is "Unranked" unless at least
+# `min_factors_for_rank` factors are backed by usable evidence.
+
+usable_statuses: [verified_primary, corroborated, single_source]   # statuses allowed to drive scores
+min_factors_for_rank: 3
+
+factors:
+  # weight: contribution to attractiveness; direction: + higher is better, - higher is worse
+  momentum:      {weight: 0.25, direction: "+", metric: cagr_pct,   bands: [2, 5, 8, 11]}       # % p.a.
+  rental_yield:  {weight: 0.15, direction: "+", metric: rental_yield_pct, bands: [2, 2.75, 3.5, 4.5]}
+  affordability: {weight: 0.15, direction: "-", metric: price_index, bands: [0.7, 0.9, 1.1, 1.4]}  # psf / city median of same basis
+  connectivity:  {weight: 0.20, direction: "+", metric: infra_points, bands: [0.3, 0.8, 1.5, 2.5]}
+  employment:    {weight: 0.10, direction: "+", metric: employment_points, bands: [0.3, 0.8, 1.5, 2.5]}
+  risk:          {weight: 0.15, direction: "-", metric: risk_points, bands: [0.3, 0.8, 1.5, 2.5]}
+
+infra_stage_points:     # evidence of stage, not of benefit; operational counts most
+  proposed: 0.05
+  announced: 0.1
+  approved: 0.2
+  funded: 0.3
+  tendered: 0.4
+  awarded: 0.5
+  under_construction: 0.7
+  operational: 1.0
+
+confidence:
+  high:   {min_factors: 5, min_strong_share: 0.5}   # strong = verified_primary or corroborated
+  medium: {min_factors: 3, min_strong_share: 0.2}
+
+scenarios:
+  min_appreciation_sources: 2      # independent groups with usable appreciation evidence
+  max_input_age_years: 6           # ignore appreciation evidence describing older periods
+  conservative_delta_pp: -3.0      # percentage points from base
+  optimistic_delta_pp: 2.0
+  floor_pct: -2.0
+  cap_pct: 12.0                    # no scenario above this, whatever the history says
+  base_haircut: 0.8                # base = 0.8 x historical median: past booms are not assumed to repeat
+  round_to: 0.5
+  horizons: [3, 5, 10]
+  inflation_pct: 4.5               # CPI assumption for real returns (RBI target 4% +/- 2)
+
+illustrative_investment:
+  # Every value below is an ASSUMPTION for illustration, not evidence. Verify
+  # current statutory rates before relying on any number.
+  purchase_price_inr: 10000000           # Rs 1 crore
+  stamp_duty_pct: 5.6                    # 5% + cess/surcharge (Karnataka, >Rs 45 lakh) - verify
+  registration_fee_pct: 1.0              # verify current IGR Karnataka schedule
+  gst_pct_under_construction_apartment: 5.0
+  legal_and_misc_pct: 0.5
+  brokerage_on_sale_pct: 2.0
+  annual_costs_pct_of_value:             # maintenance + property tax + insurance
+    plot: 0.2
+    villa: 0.8
+    apartment: 0.9
+  vacancy_months_per_year: 1.5
+  rent_collection_costs_pct_of_rent: 8   # repairs, brokerage on lettings
+  financing:
+    enabled: true
+    ltv_pct: 70
+    interest_rate_pct: 8.5
+    tenure_years: 20
+  excluded:
+    - Capital gains tax and indexation (depends on holding period and current law)
+    - Income tax on rent and any interest deductions
+    - Khata transfer, BESCOM/BWSSB deposits, club house and corpus fund charges
+    - Interiors, furnishing and major repairs
+    - Opportunity cost of the down payment

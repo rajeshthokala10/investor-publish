@@ -1,0 +1,342 @@
+{
+  "cost_usd": 0.46639699999999995,
+  "finished": "2026-10-15T05:50:46+05:30",
+  "is_error": false,
+  "prompt_sha": "50da03f22e",
+  "started": "2026-10-15T05:48:59+05:30",
+  "structured_output": {
+    "claims": [
+      {
+        "claim_type": "project_launch",
+        "event_date": null,
+        "excerpt": "Puravankara Limited signed a Joint Development Agreement for a 12.76-acre site in Sathanur, North Bengaluru. Estimated Gross Development Value is Rs 2,500 crore. Saleable area is about 1.90 million sq ft.",
+        "infra_stage": "none",
+        "locality": "Sathanur",
+        "metric": "investment_inr",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "developer_quote",
+        "property_type": "mixed",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI/VMPL press release)",
+        "source_kind": "news",
+        "statement": "Puravankara signed a JDA for a 12.76-acre land parcel in Sathanur, North Bengaluru, with estimated GDV of Rs 2,500 crore and ~1.90 million sq ft saleable area (company press release distributed via ANI).",
+        "subject": "Puravankara Sathanur JDA",
+        "unit": "INR crore",
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+        "value": 2500,
+        "value_max": null
+      },
+      {
+        "claim_type": "other",
+        "event_date": null,
+        "excerpt": "Sathanur Emerges as North Bengaluru's Next Real Estate Hotspot",
+        "infra_stage": "none",
+        "locality": "Sathanur",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "mixed",
+        "published_at": "2026-10-14",
+        "publisher": "Trade Brains",
+        "source_kind": "other",
+        "statement": "Trade Brains (finance blog) promotes Sathanur, ~4 km from Yelahanka, as an emerging hotspot on the back of the Puravankara JDA; no property prices given. Weak source.",
+        "subject": "Sathanur micro-market",
+        "unit": null,
+        "url": "https://tradebrains.in/money/?p=10674",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "project_launch",
+        "event_date": "2026-10-10",
+        "excerpt": "334 \"Neo Luxe\" residences across five towers ... Over ₹550 crore since the July 2026 pre-launch, when the project was known as Codename Bluemoon.",
+        "infra_stage": "none",
+        "locality": "Jakkur",
+        "metric": "units_launched",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "developer_quote",
+        "property_type": "apartment",
+        "published_at": "2026-10-10",
+        "publisher": "VMPL / SCN Wire (developer press release)",
+        "source_kind": "developer",
+        "statement": "Century Real Estate announced (release dated 10 Oct 2026) formal launch of The Astoria, 334 residences in Jakkur, with over Rs 550 crore bookings since July 2026 pre-launch (developer claim).",
+        "subject": "The Astoria, Century Immencity",
+        "unit": "units",
+        "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html",
+        "value": 334,
+        "value_max": null
+      },
+      {
+        "claim_type": "civic_risk",
+        "event_date": null,
+        "excerpt": "plans to transplant 1,072 trees and fell 56 others for the proposed Hebbal short-tunnel project",
+        "infra_stage": "proposed",
+        "locality": "Hebbal",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-10",
+        "publisher": "News Karnataka",
+        "source_kind": "news",
+        "statement": "BDA chairman says 1,072 trees will be transplanted and 56 felled for the Hebbal short tunnel; protests by residents continue and BDA says no lasting damage to Hebbal Lake.",
+        "subject": "Hebbal short tunnel",
+        "unit": null,
+        "url": "https://newskarnataka.com/bengaluru/hebbal-tunnel-1072-trees-to-be-transplanted-56-felled/10102026/",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "employment",
+        "event_date": "2026-10-06",
+        "excerpt": "The hotels are expected to open in 2030",
+        "infra_stage": "none",
+        "locality": "Devanahalli",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "commercial",
+        "published_at": null,
+        "publisher": "Hospitality Net",
+        "source_kind": "news",
+        "statement": "Hilton signed Conrad Bengaluru Airport and Hilton Bengaluru Airport (300 rooms each) with Kalyani Group in KIADB Hi-Tech Defence and Aerospace Park; opening expected 2030. Announcement dated 6 October (year not on page; other report says 2026) so slightly before window; ET TravelWorld covered it 12 Oct.",
+        "subject": "Hilton–Kalyani airport hotels",
+        "unit": "rooms",
+        "url": "https://www.hospitalitynet.org/news/4134748/hilton-strengthens-bengaluru-portfolio-with-signing-of-conrad-bengaluru-airport-and-hilton-bengaluru-airport-adding-600-rooms",
+        "value": 600,
+        "value_max": null
+      },
+      {
+        "claim_type": "infrastructure",
+        "event_date": null,
+        "excerpt": "The 700 metre underpass will be six lanes and the project cost is Rs 350 mn.",
+        "infra_stage": "awarded",
+        "locality": "Sadahalli",
+        "metric": "investment_inr",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-07-15",
+        "publisher": "Construction World",
+        "source_kind": "news",
+        "statement": "Background: NHAI Sadahalli underpass (700 m, six lanes, Rs 350 mn) on Ballari Road to remove the only signal on Hebbal–Sadahalli section; excavation expected Sept 2026; target before Aero India (Feb 2027). Oct 13 Urban Acres lead not verified.",
+        "subject": "Sadahalli underpass",
+        "unit": "INR million",
+        "url": "https://www.constructionworld.in/transport-infrastructure/highways-and-roads-infrastructure/nhai-to-start-sadahalli-underpass-for-signal-free-airport-corridor/94352",
+        "value": 350,
+        "value_max": null
+      },
+      {
+        "claim_type": "infrastructure",
+        "event_date": null,
+        "excerpt": "the authority has set March 2028 as the target for the entire Blue Line",
+        "infra_stage": "under_construction",
+        "locality": "Hebbal",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-08-28",
+        "publisher": "Construction World",
+        "source_kind": "news",
+        "statement": "Background: Blue Line (Silk Board–airport) full opening delayed to March 2028; Hebbal–airport section targeted Sept/Oct 2027; part of Yelahanka IAF–airport route delayed.",
+        "subject": "Namma Metro Blue Line",
+        "unit": null,
+        "url": "https://www.constructionworld.in/transport-infrastructure/aviation-and-airport-infra/bengaluru-metro-blue-line-full-opening-delayed-to-march-2028/96457",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "price",
+        "event_date": null,
+        "excerpt": "2.82 Cr onwards",
+        "infra_stage": "none",
+        "locality": "Horamavu",
+        "metric": "price_total",
+        "period_years": null,
+        "price_basis": "unknown",
+        "price_kind": "asking",
+        "property_type": "apartment",
+        "published_at": "2026-08-14",
+        "publisher": "HomeBazaar",
+        "source_kind": "property_portal",
+        "statement": "Portal listing (last updated Aug 2026) shows Assetz Twin Lake City, Horamavu/Hennur Road, from Rs 2.82 Cr; no RERA number shown. Weak source; Tribune Oct 13 lead not retrieved.",
+        "subject": "Assetz Twin Lake City",
+        "unit": "INR crore",
+        "url": "https://www.homebazaar.com/assetz-twin-lake-city-horamavu-8643",
+        "value": 2.82,
+        "value_max": null
+      }
+    ],
+    "notes": "The Hindu, New Indian Express, ET and Moneycontrol were blocked, so I could not read the original articles for these leads. They are unverified: the GBA Bannerghatta Road junction DPR (13–14 Oct), the Finance Department concerns on the Hebbal tunnel, Tejasvi Surya's 'unscientific' remark, the Jalahalli Cross underpass, the Mysuru Road bridge and the Swan Realty Bodhi launch in Jayanagar. Jayanagar is outside this task's focus. The Surya remark appears to be a recurring criticism: search results show 2025 and June 2026 versions. Search snippets say the cabinet approved Rs 2,215 crore for the Hebbal tunnel and the Mehkri Circle elevated corridor, and that the tunnel contract (about Rs 1,140 crore) was awarded in June to Rithwik Projects and AMRIL. These came from Deccan Herald via search only, so I did not claim them. The Devanahalli fatal accident (BJP worker, 14 Oct) is not real-estate relevant. No Electronic City, Hosur Road, Kanakapura Road, Kengeri or Tumkur Road items were found inside the window. Prestige Springwood (Devanahalli) was reported by blogs as an October 2026 launch, with RERA not filed as of June; this is unverified.",
+    "projects": [
+      {
+        "charges_excluded": null,
+        "charges_included": null,
+        "developer": "Century Real Estate",
+        "excerpt": "334 \"Neo Luxe\" residences across five towers ... Over ₹550 crore since the July 2026 pre-launch",
+        "infra_links": [
+          "Jakkur Cross metro (planned)"
+        ],
+        "lat": null,
+        "launch_date": "2026-10-10",
+        "locality": "Jakkur",
+        "lon": null,
+        "name": "The Astoria (Century Immencity)",
+        "open_questions": [
+          "Price not in release (aggregators cite ~Rs 4.25 cr entry; unverified)",
+          "RERA number unverified on portal",
+          "Possession date conflicting (2030 vs Feb 2031)"
+        ],
+        "possession": null,
+        "price_basis": "unknown",
+        "price_kind": "na",
+        "price_max": null,
+        "price_min": null,
+        "price_unit": null,
+        "property_type": "apartment",
+        "published_at": "2026-10-10",
+        "publisher": "VMPL / SCN Wire",
+        "rera_checked_on_portal": false,
+        "rera_number": null,
+        "status": "launched",
+        "unit_sizes": "3, 4 BHK and penthouses; 334 units, 5 towers, ~6 acres",
+        "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+      },
+      {
+        "charges_excluded": null,
+        "charges_included": null,
+        "developer": "Puravankara",
+        "excerpt": "Estimated Gross Development Value is Rs 2,500 crore. Saleable area is about 1.90 million sq ft.",
+        "infra_links": [],
+        "lat": null,
+        "launch_date": null,
+        "locality": "Sathanur",
+        "lon": null,
+        "name": "Puravankara Sathanur (JDA)",
+        "open_questions": [
+          "Launch timing, product mix, pricing and RERA not disclosed",
+          "GDV is a company estimate"
+        ],
+        "possession": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "price_max": null,
+        "price_min": null,
+        "price_unit": null,
+        "property_type": "mixed",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI)",
+        "rera_checked_on_portal": false,
+        "rera_number": null,
+        "status": "pre_launch",
+        "unit_sizes": "12.76 acres; ~1.90 mn sq ft saleable",
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
+      }
+    ],
+    "queries_run": [
+      "Hebbal short tunnel road Finance Department concerns October 2026",
+      "Sathanur Puravankara ₹2,500 crore Yelahanka",
+      "Century Real Estate The Astoria Jakkur 334 homes",
+      "Bannerghatta Road junctions DPR GBA Chief Commissioner",
+      "Sadahalli underpass airport road ₹35 crore",
+      "Electronic City Hosur Road Kanakapura Road real estate launch October 2026",
+      "Mysuru Road Kengeri Tumkur Road Magadi Road Bengaluru October 2026",
+      "Devanahalli Hennur Thanisandra plots apartments launch October 2026",
+      "Hebbal short tunnel Surya unscientific newindianexpress",
+      "GBA to prepare DPR for Bannerghatta Road junctions Deccan Herald",
+      "Karnataka Finance Department flagged concerns Hebbal short tunnel road newindianexpress",
+      "Assetz Twin Lake City Hennur Horamavu",
+      "Hilton Kalyani Group Bengaluru airport hotels 600 rooms",
+      "Narrow 60-year-old bridge Mysuru Road holds up traffic Deccan Herald",
+      "Bengaluru metro Pink Line Blue Line airport Yellow Line Electronic City update October 2026",
+      "Hebbal short tunnel 1,072 trees transplanted BDA Chairman",
+      "newindianexpress Bannerghatta Road junctions (domain-restricted)",
+      "Puravankara Sathanur JDA (domain-restricted)"
+    ],
+    "sources_attempted": [
+      {
+        "note": "WebFetch refused",
+        "source": "thehindu.com GBA Bannerghatta Road DPR article",
+        "status": "blocked"
+      },
+      {
+        "source": "thehindu.com Hebbal tunnel trees article",
+        "status": "blocked"
+      },
+      {
+        "source": "thehindu.com Jalahalli Cross underpass article",
+        "status": "blocked"
+      },
+      {
+        "note": "search domain not accessible; not found via general search",
+        "source": "newindianexpress.com (Hebbal finance dept, Surya, Bannerghatta)",
+        "status": "blocked"
+      },
+      {
+        "note": "not surfaced by search",
+        "source": "Deccan Herald Bannerghatta DPR (Oct 14)",
+        "status": "not_found"
+      },
+      {
+        "source": "Deccan Herald Mysuru Road bridge",
+        "status": "not_found"
+      },
+      {
+        "note": "403",
+        "source": "deccanherald.com Hebbal groundwork article",
+        "status": "blocked"
+      },
+      {
+        "source": "devdiscourse.com Puravankara",
+        "status": "ok"
+      },
+      {
+        "source": "vmpl.scnwire.com Century Astoria",
+        "status": "ok"
+      },
+      {
+        "note": "only partial text",
+        "source": "tradebrains.in Sathanur",
+        "status": "ok"
+      },
+      {
+        "source": "hospitalitynet.org Hilton",
+        "status": "ok"
+      },
+      {
+        "source": "newskarnataka.com Hebbal trees",
+        "status": "ok"
+      },
+      {
+        "note": "July 2026 background",
+        "source": "constructionworld.in Sadahalli",
+        "status": "ok"
+      },
+      {
+        "note": "Aug 2026 background",
+        "source": "constructionworld.in Blue Line",
+        "status": "ok"
+      },
+      {
+        "note": "portal listing",
+        "source": "homebazaar.com Assetz Twin Lake City",
+        "status": "ok"
+      },
+      {
+        "source": "economictimes/moneycontrol",
+        "status": "blocked"
+      }
+    ],
+    "task_id": "north_south_west"
+  },
+  "subtype": "success",
+  "task": "north_south_west"
+}

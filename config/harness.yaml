@@ -1,0 +1,32 @@
+# Budgets, rate limits and agent boundaries for one pipeline run.
+
+budgets:
+  max_runtime_minutes: 75        # hard deadline; remaining stages degrade to partial
+  max_http_requests: 400         # deterministic fetches (RSS + citation checks + link checks)
+  max_rss_items: 1500
+  max_citation_checks: 120       # page fetches to confirm excerpts
+  max_link_checks: 200
+
+http:
+  user_agent: "BengaluruREI-research/1.0 (personal research; respects robots and logins)"
+  timeout_seconds: 20
+  per_domain_min_interval_seconds: 2.0
+  retries: 2                     # bounded retries per request
+  backoff_seconds: [3, 9]
+
+agent:
+  enabled: true
+  command: claude                # Claude Code CLI, headless mode
+  model: sonnet                  # alias; set to null to use the CLI default
+  tools: [WebSearch, WebFetch]   # the research agent gets NO file, shell or edit tools
+  parallel_tasks: 3
+  task_timeout_minutes: 20
+  max_budget_usd_per_task: 2.00
+  max_budget_usd_per_run: 12.00   # tasks are skipped (and reported) once this is reached
+  leads_per_task: 25             # RSS headlines handed to each task as leads
+  baseline_refresh_days: 7       # market_baseline task runs only when baseline is older
+
+recheck:
+  agent_review: true             # independent LLM re-read of consequential claims
+  agent_review_max_claims: 25
+  agent_review_budget_usd: 1.50

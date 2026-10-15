@@ -1,0 +1,11 @@
+timezone: Asia/Kolkata
+daily_run_time: "06:00"        # local time in `timezone`
+window_hours: 72               # each edition covers the preceding 72 hours
+weekly_summary_day: Monday     # weekly summary is generated after that day's daily run
+launchd_label: com.bengaluru-rei.daily
+
+retries:
+  max_attempts: 3              # wrapper-level attempts for a failed scheduled run
+  backoff_minutes: [10, 30]    # wait before attempt 2, attempt 3
+
+stale_lock_minutes: 180        # a lock older than this whose PID is dead is reclaimed

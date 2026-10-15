@@ -1,0 +1,22 @@
+# "Bangalore RealEstate Delta" email, sent after each daily batch.
+# Secrets and recipient addresses live in .env (git-ignored), never here:
+#   SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD   - mail server for info@raditsoftware.com
+#   EMAIL_TO      - comma-separated always-on recipients (e.g. the owner)
+#   APP_SECRET    - random string used to sign unsubscribe links
+# Without SMTP_HOST the job runs in dry-run mode: messages are written to data/app/outbox/<edition>/ as .eml files.
+
+enabled: true
+from_address: info@raditsoftware.com
+from_name: Bengaluru Property Review
+reply_to: info@raditsoftware.com
+subject: Bangalore RealEstate Delta
+send_to_subscribers: true          # people who subscribed on the website (and have not unsubscribed)
+max_recipients_per_run: 300
+smtp:
+  port: 587
+  starttls: true                   # use port 465 + starttls: false for implicit TLS (SMTPS)
+  timeout_seconds: 30
+attachments:
+  daily_pdf: true                  # 5-page daily brief
+  magazine_pdf_when_new: true      # attach the magazine on the first email after a new issue
+site_url: http://127.0.0.1:8787    # used for links in the email; change when the site is public

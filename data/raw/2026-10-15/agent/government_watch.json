@@ -1,0 +1,301 @@
+{
+  "cost_usd": 0.6267005000000001,
+  "finished": "2026-10-15T05:52:22+05:30",
+  "is_error": false,
+  "prompt_sha": "25115b7f32",
+  "started": "2026-10-15T05:50:25+05:30",
+  "structured_output": {
+    "claims": [
+      {
+        "claim_type": "policy",
+        "event_date": "2026-10-12",
+        "excerpt": "The approval is provisional, and the maps are open for public inspection.",
+        "infra_stage": "approved",
+        "locality": null,
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-14",
+        "publisher": "The Bengaluru Live",
+        "source_kind": "news",
+        "statement": "GBA issued a notice dated 12 Oct 2026 inviting objections to proposed road network/circulation maps, provisionally approved by the state on 9 Sept 2026; 60-day window runs from publication of the notification.",
+        "subject": "GBA proposed road network (master plan) maps",
+        "unit": null,
+        "url": "https://thebengalurulive.com/bengaluru-road-circulation-maps-gba-invites-objections-how-to-submit-your-views/",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "policy",
+        "event_date": "2026-10-12",
+        "excerpt": "The notice specifies 60 days from the date of publication of the notification.",
+        "infra_stage": "none",
+        "locality": null,
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-14",
+        "publisher": "The Bengaluru Live",
+        "source_kind": "news",
+        "statement": "The same notice says the 60-day period counts from publication of the notification, with no fixed last date; objections go to the Chief Town Planner at GBA Head Office or gba.masterplan@gmail.com. The DH lead says the maps were not available online (DH page blocked, headline only).",
+        "subject": "GBA road network objections process",
+        "unit": null,
+        "url": "https://thebengalurulive.com/bengaluru-road-circulation-maps-gba-invites-objections-how-to-submit-your-views/",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "project_update",
+        "event_date": "2026-10-06",
+        "excerpt": "BMRCL has not yet received final clearance to begin commercial operations on this stretch.",
+        "infra_stage": "under_construction",
+        "locality": "Kalena Agrahara",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-07",
+        "publisher": "Metro Rail News",
+        "source_kind": "news",
+        "statement": "BMRCL's Pink Line elevated stretch Kalena Agrahara–Tavarekere (7.5 km, six stations) underwent a CMRS 3-day statutory safety inspection 6–8 Oct 2026; final clearance for commercial operations not yet received as of 7 Oct.",
+        "subject": "Namma Metro Pink Line Phase 1 elevated (Kalena Agrahara–Tavarekere)",
+        "unit": null,
+        "url": "https://metrorailnews.in/bengaluru-metro-pink-line-cmrs-safety-inspection/",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "project_update",
+        "event_date": "2026-10-08",
+        "excerpt": "subject to compliance with the safety commissioner’s observations and conditions",
+        "infra_stage": "under_construction",
+        "locality": "Tavarekere",
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-08",
+        "publisher": "The Bengaluru Live",
+        "source_kind": "news",
+        "statement": "After inspection completed (6–8 Oct), the section still needs opening authorisation subject to compliance with CMRS observations; not yet open to passengers as of 8 Oct.",
+        "subject": "Namma Metro Pink Line Phase 1 elevated opening authorisation",
+        "unit": null,
+        "url": "https://thebengalurulive.com/namma-metro-pink-line-safety-inspection-opening-authorisation/",
+        "value": null,
+        "value_max": null
+      },
+      {
+        "claim_type": "infrastructure",
+        "event_date": "2026-10-05",
+        "excerpt": "The government plans to expand Metro connectivity by an additional 312 km by 2037.",
+        "infra_stage": "proposed",
+        "locality": null,
+        "metric": "none",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-05",
+        "publisher": "The Hans India",
+        "source_kind": "news",
+        "statement": "Karnataka CM D.K. Shivakumar reviewed a 10–15 year Bengaluru development plan including an additional 312 km of Metro by 2037 and 72 km suburban rail; reported as plans/discussion, not approval. Published before the window (background).",
+        "subject": "Bengaluru 10–15 year development plan: Metro expansion by 2037",
+        "unit": "km",
+        "url": "https://www.thehansindia.com/news/cities/bengaluru/comprehensive-15-year-plan-for-bengaluru-development-cm-dk-shivakumar-1129106",
+        "value": 312,
+        "value_max": null
+      },
+      {
+        "claim_type": "infrastructure",
+        "event_date": "2026-10-05",
+        "excerpt": "Land measuring 7,900 acres has already been acquired,",
+        "infra_stage": "none",
+        "locality": null,
+        "metric": "area_sqft",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "na",
+        "published_at": "2026-10-05",
+        "publisher": "NewKerala (IANS)",
+        "source_kind": "news",
+        "statement": "Shivakumar said 7,900 acres already acquired for nine planned industrial townships (background, pre-window).",
+        "subject": "Industrial townships around Bengaluru",
+        "unit": "acres",
+        "url": "https://www.newkerala.com/news/a/bengaluru-get-15-year-development-roadmap-shivakumar-308.htm",
+        "value": 7900,
+        "value_max": null
+      },
+      {
+        "claim_type": "supply_demand",
+        "event_date": null,
+        "excerpt": "only 1,700 completed the payment process",
+        "infra_stage": "none",
+        "locality": "Shivaram Karanth Layout",
+        "metric": "units_sold",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "property_type": "plot",
+        "published_at": "2026-10-06",
+        "publisher": "Asianet Newsable",
+        "source_kind": "news",
+        "statement": "BDA Shivaram Karanth Layout: ~2,800 sites in first phase; initial deposit ₹8.7 lakh–₹29 lakh; ~5,700 collected challans but only ~1,700 paid; original deadline Oct 15, extension to Nov 15 was under consideration (pre-window; DH lead later reports extension to Oct 31 noon but page was blocked).",
+        "subject": "Dr K Shivaram Karanth Layout site allotment",
+        "unit": "applicants paid",
+        "url": "https://newsable.asianetnews.com/karnataka-news/bda-shivaram-karanth-layout-site-application-deadline-may-be-extended-to-november-15-articleshow-6rsftas",
+        "value": 1700,
+        "value_max": null
+      },
+      {
+        "claim_type": "transaction",
+        "event_date": "2026-10-12",
+        "excerpt": "an estimated Gross Development Value (GDV) of Rs 2,500 crore",
+        "infra_stage": "none",
+        "locality": "Sathanur",
+        "metric": "investment_inr",
+        "period_years": null,
+        "price_basis": "na",
+        "price_kind": "developer_quote",
+        "property_type": "mixed",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI/VMPL release)",
+        "source_kind": "developer",
+        "statement": "Puravankara signed a JDA for a 12.76-acre parcel at Sathanur, North Bengaluru; GDV Rs 2,500 crore (projected sales value, not land price); ~1.90 mn sq ft saleable.",
+        "subject": "Puravankara Sathanur JDA",
+        "unit": "INR crore (GDV)",
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+        "value": 2500,
+        "value_max": null
+      }
+    ],
+    "notes": "Thin window. Deccan Herald pages returned 403, so the BDA Karanth Layout extension to 31 Oct noon (DH, 14 Oct) and the GBA 'maps not online' headline rest on search snippets and secondary sources only. Not located despite searches: TOI story on HC warning BDA, Prop News Time 'RERA bars passing project costs', LiveLawBiz REAT ₹2.45 lakh, Urban Acres Pink Line March 2027 (search results indicate March 2027 is for the underground Dairy Circle–Nagawara section; the elevated section awaits CMRS authorisation). The YourStory '400 km by 2037' claim was not confirmed; found 312 km figure instead. No official-agency pages (BMRCL, RERA, KIADB, BWSSB, NHAI) surfaced in window. Items like Prestige Q2 ₹7,225 crore, Magicbricks demand, Varthur/Panathur appreciation were not verified and are outside the government focus.",
+    "projects": [
+      {
+        "charges_excluded": null,
+        "charges_included": null,
+        "developer": "Puravankara",
+        "excerpt": "a 12.76-acre land parcel in Sathanur, North Bengaluru",
+        "infra_links": [],
+        "lat": null,
+        "launch_date": null,
+        "locality": "Sathanur",
+        "lon": null,
+        "name": "Puravankara Sathanur JDA parcel",
+        "open_questions": [
+          "Product mix, launch date, RERA number not stated",
+          "GDV is a projection, not price"
+        ],
+        "possession": null,
+        "price_basis": "na",
+        "price_kind": "na",
+        "price_max": null,
+        "price_min": null,
+        "price_unit": null,
+        "property_type": "mixed",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI/VMPL release)",
+        "rera_checked_on_portal": false,
+        "rera_number": null,
+        "status": "pre_launch",
+        "unit_sizes": null,
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
+      }
+    ],
+    "queries_run": [
+      "BDA extends Karanth Layout site application deadline October 31",
+      "GBA invites road network objections maps unavailable online",
+      "Karnataka high court Bangalore Development Authority guidelines upholds land acquisition October 2026",
+      "Karnataka RERA bars builders from passing project costs to homebuyers",
+      "Bengaluru metro 400 km by 2037 Krishna Byre Gowda",
+      "Bengaluru Pink Line March 2027 launch BMRCL October 2026",
+      "Karnataka REAT upholds order homebuyer pay 2.45 lakh Bengaluru flat LiveLaw",
+      "Bengaluru Metro heart transport 18 minutes surgery October 2026",
+      "Greater Bengaluru Authority October 2026 road network objections corporations",
+      "NammaWard Shivaram Karanth Layout BDA application deadline extended 31 October noon",
+      "Urban Acres Bengaluru Pink Line Targets March 2027 Launch Despite Delays",
+      "site:propnewstime.com Karnataka RERA project costs homebuyers",
+      "BMRCL Pink Line Kalena Agrahara Tavarekere CMRS inspection opening date",
+      "Karnataka cabinet decision October 2026 Bengaluru",
+      "BWSSB OR KIADB OR K-RIDE OR NHAI Bengaluru October 2026",
+      "High court warns BDA violating guidelines upholds land acquisition Times of India",
+      "Karanth Layout application deadline extended October 31 BDA sites",
+      "Bengaluru guidance value stamp duty revision 2026 Karnataka",
+      "Bengaluru tunnel road Hebbal Silk Board tender October 2026",
+      "deccanherald GBA road network objections maps unavailable",
+      "Karnataka RERA order builder cannot charge homebuyers October 2026",
+      "Puravankara Sathanur Yelahanka ₹2,500 crore land deal",
+      "Prestige Estates Q2 FY27 sales bookings 7,225 crore",
+      "Namma Metro Pink Line opening CMRS authorisation Kalena Agrahara Tavarekere passengers"
+    ],
+    "sources_attempted": [
+      {
+        "note": "HTTP 403; fact seen only in search snippet, not quotable",
+        "source": "https://www.deccanherald.com/india/karnataka/bengaluru/bda-extends-karanth-layout-site-application-deadline-to-october-31-4183156",
+        "status": "blocked"
+      },
+      {
+        "note": "HTTP 403; used thebengalurulive.com instead",
+        "source": "https://www.deccanherald.com/india/karnataka/bengaluru/gba-invites-road-network-objections-but-maps-unavailable-online-4183157",
+        "status": "blocked"
+      },
+      {
+        "note": "HTTP 403",
+        "source": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fbengaluru%2Fshivaram-karanth-layout-revenue-site-holders-get-one-more-chance-to-apply-3149394",
+        "status": "blocked"
+      },
+      {
+        "source": "https://thebengalurulive.com/bengaluru-road-circulation-maps-gba-invites-objections-how-to-submit-your-views/",
+        "status": "ok"
+      },
+      {
+        "source": "https://newsable.asianetnews.com/karnataka-news/bda-shivaram-karanth-layout-site-application-deadline-may-be-extended-to-november-15-articleshow-6rsftas",
+        "status": "ok"
+      },
+      {
+        "source": "https://thebengalurulive.com/namma-metro-pink-line-safety-inspection-opening-authorisation/",
+        "status": "ok"
+      },
+      {
+        "source": "https://metrorailnews.in/bengaluru-metro-pink-line-cmrs-safety-inspection/",
+        "status": "ok"
+      },
+      {
+        "source": "https://www.thehansindia.com/news/cities/bengaluru/comprehensive-15-year-plan-for-bengaluru-development-cm-dk-shivakumar-1129106",
+        "status": "ok"
+      },
+      {
+        "source": "https://www.newkerala.com/news/a/bengaluru-get-15-year-development-roadmap-shivakumar-308.htm",
+        "status": "ok"
+      },
+      {
+        "source": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore",
+        "status": "ok"
+      },
+      {
+        "note": "April 2025 item; not the in-window TOI story",
+        "source": "https://propnewstime.com/latestnewsstories/MTcxMzk=/karnataka-hc-upholds-bda-s-land-acquisition-for-banashankari-6th-stage-layout",
+        "status": "ok"
+      },
+      {
+        "note": "Search tool surfaced no direct official pages; no budget left for direct crawling",
+        "source": "rera.karnataka.gov.in / bmrc.co.in / karnataka.gov.in",
+        "status": "not_attempted"
+      },
+      {
+        "note": "Could not locate via search",
+        "source": "Times of India HC-BDA story; LiveLawBiz REAT story; Prop News Time RERA costs story; Urban Acres Pink Line story",
+        "status": "not_found"
+      }
+    ],
+    "task_id": "government_watch"
+  },
+  "subtype": "success",
+  "task": "government_watch"
+}

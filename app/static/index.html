@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bengaluru Property Review</title>
+  <meta name="description" content="Bengaluru real estate news, market metrics, top builders, government plans and the monthly magazine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d366b'/%3E%3Cpath d='M7 25V13h5v12M14 25V7h5v18M21 25V16h5v9' fill='%23ffcf5a'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Bengaluru Property Review home">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect width="32" height="32" rx="7"/><path d="M7 25V13h5v12M14 25V7h5v18M21 25V16h5v9"/></svg></span>
+      <span class="brand-text"><b>Bengaluru</b> Property Review</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#news">News</a><a href="#metrics">Market</a><a href="#builders">Builders</a>
+      <a href="#plans">City plans</a><a href="#towns">Growth towns</a><a href="#magazine">Magazine</a>
+    </nav>
+    <a class="btn btn-gold btn-sm" href="/download/magazine-latest.pdf" id="top-download">Download magazine</a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false" id="menu-btn"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"><svg id="hero-skyline" viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice"></svg></div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Bengaluru real estate · <span id="edition-label">Today</span></p>
+          <h1 id="hero-headline">Bengaluru real estate, every morning.</h1>
+          <p class="hero-sub" id="hero-sub">News, prices, builders and the government plans reshaping the city, in one place.</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="/download/magazine-latest.pdf">Download today’s magazine</a>
+            <a class="btn btn-ghost" href="#subscribe">Subscribe free</a>
+          </div>
+          <p class="updated" id="updated">Updating…</p>
+        </div>
+        <a class="hero-cover" href="/download/magazine-latest.pdf" aria-label="Download the magazine">
+          <img id="cover-img" src="/download/magazine-cover.png" alt="Cover of the latest Bengaluru Property Review" loading="eager">
+          <span class="cover-badge" id="cover-badge">Latest issue</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="quotes" aria-label="Quotes">
+      <div class="wrap quote-wrap">
+        <svg class="qmark" viewBox="0 0 40 32" aria-hidden="true"><path d="M0 32V18C0 8 6 1 16 0v6c-5 1-8 5-8 10h8v16zm24 0V18c0-10 6-17 16-18v6c-5 1-8 5-8 10h8v16z"/></svg>
+        <figure id="quote" aria-live="polite"><blockquote></blockquote><figcaption></figcaption></figure>
+        <div class="qdots" id="qdots" role="tablist" aria-label="Choose quote"></div>
+      </div>
+    </section>
+
+    <section class="kpis wrap" id="kpis" aria-label="Key market metrics"></section>
+
+    <section class="section wrap" id="news">
+      <div class="section-head">
+        <div><p class="kicker">Today</p><h2>Bengaluru real estate news</h2></div>
+        <div class="chips" id="zone-filter" role="toolbar" aria-label="Filter by zone"></div>
+      </div>
+      <div class="news-layout">
+        <div class="insights" id="insights"></div>
+        <div class="headlines" id="headlines"></div>
+      </div>
+    </section>
+
+    <section class="section band" id="metrics">
+      <div class="wrap">
+        <div class="section-head"><div><p class="kicker">Market</p><h2>How Bengaluru is growing</h2></div>
+          <p class="section-note">Each chart uses one research firm’s figures, so trends are like-for-like.</p></div>
+        <div class="charts" id="charts"></div>
+        <div class="card area-card">
+          <div class="card-head"><h3>Price levels by area</h3><div class="legend" id="area-legend"></div></div>
+          <p class="card-note">Quoted ₹ per sq ft. Apartment rates are per built area; plot rates are per sq ft of land and are shown separately.</p>
+          <div class="chart-box tall"><canvas id="area-chart" aria-label="Price levels by area"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="builders">
+      <div class="section-head"><div><p class="kicker">Developers</p><h2>Top builders in Bengaluru</h2></div>
+        <p class="section-note">Recent launches, bookings and land deals reported in the past year.</p></div>
+      <div class="builders" id="builder-cards"></div>
+    </section>
+
+    <section class="section band dark" id="plans">
+      <div class="wrap">
+        <div class="section-head"><div><p class="kicker">Government</p><h2>What the government is planning</h2></div>
+          <p class="section-note">Metro, suburban rail, ring roads, townships, airport and governance — and where each stands.</p></div>
+        <div class="plans" id="plans-list"></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="towns">
+      <div class="section-head"><div><p class="kicker">Beyond the city</p><h2>Future growth places</h2></div>
+        <p class="section-note">Hoskote, Devanahalli, Doddaballapur, Nelamangala, Bidadi, Kanakapura, Attibele, Hosur and more.</p></div>
+      <div class="towns" id="towns-list"></div>
+      <div class="zones" id="zones"></div>
+    </section>
+
+    <section class="section band" id="magazine">
+      <div class="wrap mag-grid">
+        <div class="mag-card">
+          <img id="mag-cover" src="/download/magazine-cover.png" alt="Latest magazine cover">
+        </div>
+        <div>
+          <p class="kicker">The magazine</p>
+          <h2 id="mag-title">Bengaluru Property Review</h2>
+          <div id="mag-note" class="mag-note"></div>
+          <div class="downloads" id="downloads"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="subscribe">
+      <div class="subscribe">
+        <div>
+          <p class="kicker">Stay ahead</p>
+          <h2>Subscribe to Bengaluru Property Review</h2>
+          <p>Get the daily brief and the monthly magazine: new launches, price levels, metro and road milestones, and the growth towns to watch.</p>
+          <ul class="ticks"><li>Daily brief at 6:00 am IST</li><li>Monthly 10-page magazine</li><li>Free, unsubscribe any time</li></ul>
+        </div>
+        <form id="sub-form" novalidate>
+          <label>Email<input type="email" name="email" required placeholder="you@example.com" autocomplete="email"></label>
+          <label>Name <span class="opt">(optional)</span><input type="text" name="name" maxlength="80" autocomplete="name"></label>
+          <fieldset><legend>Interested in</legend>
+            <div class="checks">
+              <label><input type="checkbox" name="interests" value="east">East</label>
+              <label><input type="checkbox" name="interests" value="north">North</label>
+              <label><input type="checkbox" name="interests" value="south">South</label>
+              <label><input type="checkbox" name="interests" value="west">West</label>
+              <label><input type="checkbox" name="interests" value="plots">Plots</label>
+              <label><input type="checkbox" name="interests" value="villas">Villas</label>
+              <label><input type="checkbox" name="interests" value="apartments">Apartments</label>
+            </div>
+          </fieldset>
+          <button class="btn btn-navy" type="submit">Subscribe</button>
+          <p class="form-msg" id="sub-msg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap foot-grid">
+      <div><span class="brand-text light"><b>Bengaluru</b> Property Review</span>
+        <p>Independent research on Bengaluru real estate, compiled from public sources: government agencies, regulators, research firms, developers and established newspapers.</p></div>
+      <div><h4>Explore</h4><a href="#news">News</a><a href="#metrics">Market metrics</a><a href="#builders">Builders</a><a href="#plans">City plans</a></div>
+      <div><h4>Downloads</h4><a href="/download/magazine-latest.pdf">Latest magazine (PDF)</a><a href="/download/daily-brief-latest.pdf">Daily brief (PDF)</a><a href="/api/docs">API</a></div>
+      <div><h4>Status</h4><p id="status-line">—</p></div>
+    </div>
+    <p class="wrap disclaimer">Information only, not investment advice. Figures are attributed to the organisations that published them; prices are quoted levels, not valuations; plans and timelines can change.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

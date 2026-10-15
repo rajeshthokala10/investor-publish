@@ -1,0 +1,516 @@
+{
+  "brief": [
+    "C-6137acc53a"
+  ],
+  "claim_ids": [
+    "C-001f872020",
+    "C-129c0618d6",
+    "C-13cd24bdfa",
+    "C-1acaf016fe",
+    "C-1f5de2ea12",
+    "C-2080cc6dcd",
+    "C-235e4fd671",
+    "C-25b9e7653d",
+    "C-26560a07f9",
+    "C-2e2f581f04",
+    "C-3783e7919a",
+    "C-397bfc0d9e",
+    "C-450f9e7f3e",
+    "C-4685ee9100",
+    "C-48c14d7ca1",
+    "C-4ffdbeb232",
+    "C-51e2cb885c",
+    "C-529e991d12",
+    "C-52c7f9dada",
+    "C-54117a2e4c",
+    "C-5909c9e3dc",
+    "C-612829b5ec",
+    "C-6137acc53a",
+    "C-620b2dd646",
+    "C-6698e86c42",
+    "C-6bbf29ef8e",
+    "C-6eb9b59f59",
+    "C-75893559b9",
+    "C-789154fd01",
+    "C-7d7cf87fc8",
+    "C-8e19b3427a",
+    "C-90b8f187a1",
+    "C-a01a6b1fb1",
+    "C-a55a2b8965",
+    "C-a742864100",
+    "C-a9856886e4",
+    "C-addcb93af8",
+    "C-ae5431e8d0",
+    "C-b98c18d7ae",
+    "C-b9e388c703",
+    "C-ca30ef9023",
+    "C-cf503b2640",
+    "C-d02f7bfd48",
+    "C-d19a15ee9f",
+    "C-d4e0591cc1",
+    "C-d72298949f",
+    "C-d745ed735e",
+    "C-dd51842f3f",
+    "C-e61fe94622",
+    "C-e8060bd1cb",
+    "C-f18860ffba",
+    "C-f19d15fd8b",
+    "C-f44c28f4f2",
+    "C-fe76c9ccab"
+  ],
+  "edition": "2026-10-15",
+  "projects_today": [
+    "P-0fcf8e31da",
+    "P-2edf212476",
+    "P-477ab71001",
+    "P-da39cd2977"
+  ],
+  "ranks": [
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "whitefield",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "whitefield",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "whitefield",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "orr_east",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "orr_east",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "orr_east",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "varthur_gunjur",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "varthur_gunjur",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "varthur_gunjur",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "panathur_balagere",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "panathur_balagere",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "panathur_balagere",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "sarjapur_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "sarjapur_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "sarjapur_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "budigere_cross",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "budigere_cross",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "budigere_cross",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kr_puram_hoskote",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kr_puram_hoskote",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kr_puram_hoskote",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hennur_bagalur",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hennur_bagalur",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hennur_bagalur",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hebbal_yelahanka",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hebbal_yelahanka",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "hebbal_yelahanka",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "devanahalli_airport",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "devanahalli_airport",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "devanahalli_airport",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "electronic_city",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "electronic_city",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "electronic_city",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "bannerghatta_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "bannerghatta_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "bannerghatta_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kanakapura_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kanakapura_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "kanakapura_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "south_core",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "south_core",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "south_core",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "mysore_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "mysore_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "mysore_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "tumkur_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "tumkur_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "tumkur_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "magadi_road",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "magadi_road",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "magadi_road",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "west_core",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "west_core",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "west_core",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "strr",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "strr",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "strr",
+      "property_type": "apartment"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "prr_bbc",
+      "property_type": "plot"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "prr_bbc",
+      "property_type": "villa"
+    },
+    {
+      "attractiveness": null,
+      "confidence": "Low",
+      "corridor": "prr_bbc",
+      "property_type": "apartment"
+    }
+  ],
+  "stage_changes": [
+    {
+      "claim_id": "C-450f9e7f3e",
+      "corridors": [
+        "hebbal_yelahanka",
+        "orr_east",
+        "sarjapur_road",
+        "south_core"
+      ],
+      "edition": "2026-10-15",
+      "event_date": null,
+      "from": null,
+      "infra_id": "sarjapur_hebbal_metro",
+      "name": "Sarjapur–Hebbal metro (Phase 3A)",
+      "published_at": "2026-07-18",
+      "stage": "proposed"
+    },
+    {
+      "claim_id": "C-1f5de2ea12",
+      "corridors": [],
+      "edition": "2026-10-15",
+      "event_date": "2026-10-05",
+      "from": null,
+      "infra_id": "X-990aef041a",
+      "name": "Bengaluru 10–15 year development plan: Metro expansion by 2037",
+      "published_at": "2026-10-05",
+      "stage": "proposed"
+    }
+  ],
+  "status": "ok",
+  "statuses": {
+    "C-001f872020": "unverified",
+    "C-129c0618d6": "interested_party_claim",
+    "C-13cd24bdfa": "unverified",
+    "C-1acaf016fe": "unverified",
+    "C-1f5de2ea12": "single_source",
+    "C-2080cc6dcd": "unverified",
+    "C-235e4fd671": "single_source",
+    "C-25b9e7653d": "unverified",
+    "C-26560a07f9": "interested_party_claim",
+    "C-2e2f581f04": "single_source",
+    "C-3783e7919a": "single_source",
+    "C-397bfc0d9e": "unverified",
+    "C-450f9e7f3e": "single_source",
+    "C-4685ee9100": "unverified",
+    "C-48c14d7ca1": "single_source",
+    "C-4ffdbeb232": "unverified",
+    "C-51e2cb885c": "interested_party_claim",
+    "C-529e991d12": "single_source",
+    "C-52c7f9dada": "unverified",
+    "C-54117a2e4c": "single_source",
+    "C-5909c9e3dc": "single_source",
+    "C-612829b5ec": "single_source",
+    "C-6137acc53a": "single_source",
+    "C-620b2dd646": "unverified",
+    "C-6698e86c42": "interested_party_claim",
+    "C-6bbf29ef8e": "unverified",
+    "C-6eb9b59f59": "single_source",
+    "C-75893559b9": "unverified",
+    "C-789154fd01": "unverified",
+    "C-7d7cf87fc8": "unverified",
+    "C-8e19b3427a": "unverified",
+    "C-90b8f187a1": "unverified",
+    "C-a01a6b1fb1": "single_source",
+    "C-a55a2b8965": "unverified",
+    "C-a742864100": "unverified",
+    "C-a9856886e4": "single_source",
+    "C-addcb93af8": "single_source",
+    "C-ae5431e8d0": "unverified",
+    "C-b98c18d7ae": "single_source",
+    "C-b9e388c703": "single_source",
+    "C-ca30ef9023": "interested_party_claim",
+    "C-cf503b2640": "interested_party_claim",
+    "C-d02f7bfd48": "unverified",
+    "C-d19a15ee9f": "interested_party_claim",
+    "C-d4e0591cc1": "single_source",
+    "C-d72298949f": "single_source",
+    "C-d745ed735e": "interested_party_claim",
+    "C-dd51842f3f": "unverified",
+    "C-e61fe94622": "single_source",
+    "C-e8060bd1cb": "single_source",
+    "C-f18860ffba": "single_source",
+    "C-f19d15fd8b": "unverified",
+    "C-f44c28f4f2": "unverified",
+    "C-fe76c9ccab": "unverified"
+  }
+}

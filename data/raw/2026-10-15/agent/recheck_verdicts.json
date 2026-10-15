@@ -1,0 +1,278 @@
+{
+  "C-1f5de2ea12": [
+    {
+      "claim_id": "C-1f5de2ea12",
+      "reason": "Page says the CM described 10–15 year plans with 312 km of Metro by 2037 and 72 km of suburban rail as plans/proposals, not approvals.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-1f5de2ea12",
+      "reason": "Page says the government plans an additional 312 km of Metro by 2037 and the committee discussed 72 km of suburban rail, with no approval.",
+      "verdict": "supported"
+    }
+  ],
+  "C-2080cc6dcd": [
+    {
+      "claim_id": "C-2080cc6dcd",
+      "reason": "Page confirms provisional approval by a 9 Sept 2026 government order and the 60-day window, but it gives no 12 Oct 2026 notice date.",
+      "verdict": "not_supported"
+    },
+    {
+      "claim_id": "C-2080cc6dcd",
+      "reason": "Notice dated 12 Oct 2026 invites objections to maps provisionally approved by order dated 9 Sept 2026, with a 60-day window from publication.",
+      "verdict": "supported"
+    }
+  ],
+  "C-235e4fd671": [
+    {
+      "claim_id": "C-235e4fd671",
+      "reason": "Page gives about 16,670 units, +12% YoY, ranked second behind MMR.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-235e4fd671",
+      "reason": "Page gives Bengaluru sales of about 16,670 units, up 12% YoY, behind only MMR (about 31,750).",
+      "verdict": "supported"
+    }
+  ],
+  "C-2e2f581f04": [
+    {
+      "claim_id": "C-2e2f581f04",
+      "reason": "Deccan Herald page returned HTTP 403, so the claim could not be checked.",
+      "verdict": "unable"
+    },
+    {
+      "claim_id": "C-2e2f581f04",
+      "reason": "The Deccan Herald page returned HTTP 403, so the claim could not be checked.",
+      "verdict": "unable"
+    }
+  ],
+  "C-3783e7919a": [
+    {
+      "claim_id": "C-3783e7919a",
+      "reason": "Page gives about 15,285 units sold, +1% YoY and -7% QoQ for Apr–Jun 2026.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-3783e7919a",
+      "reason": "Page gives about 15,285 units sold, up 1% YoY and down 7% QoQ.",
+      "verdict": "supported"
+    }
+  ],
+  "C-450f9e7f3e": [
+    {
+      "claim_id": "C-450f9e7f3e",
+      "reason": "Page gives the DPR cut from ₹28,405 cr to ₹25,999 cr, resubmitted in April, approval expected around October, and construction targeted for May 2027.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-450f9e7f3e",
+      "reason": "Page states the DPR was cut from Rs 28,405 crore to Rs 25,999 crore, resubmitted in April, with approval expected by October and construction targeted for May 2027.",
+      "verdict": "supported"
+    }
+  ],
+  "C-48c14d7ca1": [
+    {
+      "claim_id": "C-48c14d7ca1",
+      "reason": "Page gives East Bengaluru at about 57% of Q1 2026 launches and East rents up about 6% YoY, citing Cushman & Wakefield.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-48c14d7ca1",
+      "reason": "Page dated 13 May 2026 gives about 57% of launches in the East and rentals up about 6% YoY, though the rental figure is not explicitly attributed to Cushman & Wakefield.",
+      "verdict": "supported"
+    }
+  ],
+  "C-529e991d12": [
+    {
+      "claim_id": "C-529e991d12",
+      "reason": "Page gives Sarjapur Road at Rs 10,800/sq ft in Apr–Jun 2025, up from Rs 6,050 at 2021-end.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-529e991d12",
+      "reason": "Page gives Sarjapur Road at Rs 10,800 per sq ft in Apr-Jun 2025 from Rs 6,050 at 2021-end.",
+      "verdict": "supported"
+    }
+  ],
+  "C-54117a2e4c": [
+    {
+      "claim_id": "C-54117a2e4c",
+      "reason": "Page is dated 28 Aug 2026 and gives March 2028, Silk Board–KR Puram trials in October, KR Puram–Nagawara by mid-2027, and Nagawara–Hebbal airport in Sept/Oct 2027.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-54117a2e4c",
+      "reason": "Page matches March 2028 full opening, October trials for Silk Board-KR Puram, mid-2027 for KR Puram-Nagawara and Sept/Oct 2027 for Nagawara-Hebbal airport.",
+      "verdict": "supported"
+    }
+  ],
+  "C-5909c9e3dc": [
+    {
+      "claim_id": "C-5909c9e3dc",
+      "reason": "Page gives Bengaluru as the largest market with 21,516 units sold, up 47%, in PropEquity Q2 2026 data.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-5909c9e3dc",
+      "reason": "Page says PropEquity found Bengaluru the largest market with 21,516 units sold, up 47% YoY.",
+      "verdict": "supported"
+    }
+  ],
+  "C-612829b5ec": [
+    {
+      "claim_id": "C-612829b5ec",
+      "reason": "Page gives Bengaluru Q3 2026 launches of about 17,720 units, up 17% YoY.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-612829b5ec",
+      "reason": "Page gives Bengaluru launches of 17,720 units, up 17% YoY.",
+      "verdict": "supported"
+    }
+  ],
+  "C-6137acc53a": [
+    {
+      "claim_id": "C-6137acc53a",
+      "reason": "Page confirms 60 days from publication with no fixed last date, objections to the Chief Town Planner at GBA Head Office, and gba.masterplan@gmail.com; the DH aside is not on this page but is flagged as unverified in the claim.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-6137acc53a",
+      "reason": "Notice gives 60 days from publication with no fixed last date, and objections go to the Chief Town Planner at the GBA Head Office or gba.masterplan@gmail.com; the DH part was not checked.",
+      "verdict": "supported"
+    }
+  ],
+  "C-6eb9b59f59": [
+    {
+      "claim_id": "C-6eb9b59f59",
+      "reason": "Page gives March 2028 for the full Blue Line, Sept/Oct 2027 for Nagawara–Hebbal airport, and a delayed Yelahanka IAF–airport section.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-6eb9b59f59",
+      "reason": "Page gives March 2028 for the full Blue Line, Sept/Oct 2027 for Nagawara-Hebbal airport, and a delayed Yelahanka IAF-airport section.",
+      "verdict": "supported"
+    }
+  ],
+  "C-a01a6b1fb1": [
+    {
+      "claim_id": "C-a01a6b1fb1",
+      "reason": "Page gives Bengaluru leading with 15.7 million sq ft and a 29% share in Jan–Sep 2026, with no Whitefield/ORR split.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-a01a6b1fb1",
+      "reason": "Page says Bengaluru led with 15.7 million sq ft, a 29% share, and has no Whitefield/ORR split.",
+      "verdict": "supported"
+    }
+  ],
+  "C-a9856886e4": [
+    {
+      "claim_id": "C-a9856886e4",
+      "reason": "Page gives about 2,800 first-phase sites, deposit ₹8.7–29 lakh, about 5,700 challans with about 1,700 paid, and the Oct 15 deadline possibly moving to Nov 15; the DH follow-up is flagged as unverified in the claim.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-a9856886e4",
+      "reason": "Page gives about 2,800 sites, Rs 8.7-29 lakh deposit, 5,700 challans with 1,700 paid, and a Nov 15 extension under consideration from the Oct 15 deadline; the DH Oct 31 part was not checked.",
+      "verdict": "supported"
+    }
+  ],
+  "C-addcb93af8": [
+    {
+      "claim_id": "C-addcb93af8",
+      "reason": "Page reports RERA approval for the 45-acre Gunjur project registered as Abhee City Urban Glenn (earlier Codename New Dimension), dated 10 Sept, with no RERA number or price.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-addcb93af8",
+      "reason": "Page reports RERA approval on 10 Sept 2026 for the 45-acre Gunjur project, registered as Abhee City Urban Glenn (earlier Codename New Dimension), with no RERA number or price.",
+      "verdict": "supported"
+    }
+  ],
+  "C-b98c18d7ae": [
+    {
+      "claim_id": "C-b98c18d7ae",
+      "reason": "Page gives Sarjapur Road +79% to Rs 10,800 in Apr–Jun 2025 from Rs 6,050 at 2021-end.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-b98c18d7ae",
+      "reason": "Page says Sarjapur Road rose 79% to Rs 10,800 per sq ft in Apr-Jun 2025 from Rs 6,050 at 2021-end.",
+      "verdict": "supported"
+    }
+  ],
+  "C-b9e388c703": [
+    {
+      "claim_id": "C-b9e388c703",
+      "reason": "Page cites Knight Frank for Bengaluru sales up about 5% and prices up about 4% YoY in Q1 2026.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-b9e388c703",
+      "reason": "Page shows a Knight Frank report with sales up 5% YoY and Bengaluru prices up around 4% YoY; the price figure is not explicitly attributed to Knight Frank.",
+      "verdict": "supported"
+    }
+  ],
+  "C-d4e0591cc1": [
+    {
+      "claim_id": "C-d4e0591cc1",
+      "reason": "Page gives a 700 m, six-lane, Rs 350 mn underpass removing the only signal on Hebbal–Sadahalli, with excavation in Sept 2026 and a target before Aero India in Feb 2027.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-d4e0591cc1",
+      "reason": "Page gives a 700 m, six-lane underpass costing Rs 350 mn, removing the only signal, with excavation in Sept 2026 and a target before Aero India in Feb 2027.",
+      "verdict": "supported"
+    }
+  ],
+  "C-d72298949f": [
+    {
+      "claim_id": "C-d72298949f",
+      "reason": "Page gives Thanisandra Main Road +81% to Rs 9,700 from Rs 5,345 between 2021-end and Apr–Jun 2025.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-d72298949f",
+      "reason": "Page gives Thanisandra Main Road up 81% to Rs 9,700 from Rs 5,345 per sq ft, from Anarock data.",
+      "verdict": "supported"
+    }
+  ],
+  "C-e61fe94622": [
+    {
+      "claim_id": "C-e61fe94622",
+      "reason": "Page gives launches of about 21,670 (+41%), unsold stock +34% to about 79,180 (largest rise among the seven cities), and average prices +8% YoY.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-e61fe94622",
+      "reason": "Page gives launches of about 21,670 (+41%), unsold stock up 34% to about 79,180 with the largest jump, and prices up 8% YoY.",
+      "verdict": "supported"
+    }
+  ],
+  "C-e8060bd1cb": [
+    {
+      "claim_id": "C-e8060bd1cb",
+      "reason": "Page gives 8% annual price growth for Bengaluru and no Bengaluru per-sq-ft or unsold-inventory figure.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-e8060bd1cb",
+      "reason": "Page gives Bengaluru prices up 8% YoY, second to NCR, and no Bengaluru per-sq-ft or unsold figure.",
+      "verdict": "supported"
+    }
+  ],
+  "C-f18860ffba": [
+    {
+      "claim_id": "C-f18860ffba",
+      "reason": "Page says the East corridor was about 57% of Bengaluru launches in Jan–Mar 2026, citing Cushman & Wakefield.",
+      "verdict": "supported"
+    },
+    {
+      "claim_id": "C-f18860ffba",
+      "reason": "Page, an ANI report dated 13 May 2026, cites Cushman & Wakefield for about 57% of Bengaluru's Jan-Mar 2026 launches in the eastern corridor.",
+      "verdict": "supported"
+    }
+  ]
+}

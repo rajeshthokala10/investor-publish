@@ -1,0 +1,1567 @@
+{
+  "P-03a9168ee1": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Prestige Estates Projects Ltd",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2025-05",
+    "locality": "Devanahalli",
+    "lon": null,
+    "name": "Prestige Gardenia Estates Phase 1",
+    "open_questions": [
+      "Phase 2 (about 21 acres, 195 plots, June 2026) seen only in search snippets of NSE filing; not opened"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-03a9168ee1",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Prestige Gardenia includes 516 plots with a total development area of over 1 million square feet",
+        "published_at": "2025-05-28",
+        "publisher": "Basis Point Insight",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "unknown",
+        "url": "https://www.basispointinsight.com/Story/prestige-estates-47-acre-plotted-project-in-bengaluru-sells-out-at-launch_062c8905f20b.html"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": null
+  },
+  "P-08403a181d": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Total Environment",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Doddaballapur",
+    "lon": null,
+    "name": "Tangled Up In Green",
+    "open_questions": [
+      "RERA number not seen"
+    ],
+    "possession": "completion targeted around December 2028",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 18600000.0,
+        "unit": "INR crore",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026",
+        "value": 1.86
+      },
+      {
+        "basis": "unknown",
+        "bound": "max",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 51200000.0,
+        "unit": "INR crore",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026",
+        "value": 5.12
+      }
+    ],
+    "project_id": "P-08403a181d",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "indicative prices run from roughly Rs 1.86 crore to Rs 5.12 crore.",
+        "published_at": "2026-07-24",
+        "publisher": "Square Yards",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "property_portal",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026"
+      }
+    ],
+    "status": "under_construction",
+    "unit_sizes": null
+  },
+  "P-0fcf8e31da": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Puravankara",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sathanur",
+    "lon": null,
+    "name": "Puravankara Sathanur JDA parcel",
+    "open_questions": [
+      "Product mix, launch date, RERA number not stated",
+      "GDV is a projection, not price"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-0fcf8e31da",
+    "property_type": "mixed",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "a 12.76-acre land parcel in Sathanur, North Bengaluru",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI/VMPL release)",
+        "retrieved_at": "2026-10-15T05:52:22+05:30",
+        "tier": "aggregator",
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-0ffcb026b2": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "electronic_city",
+    "developer": "Puravankara",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Bommasandra–Attibele Yellow Line extension (feasibility)"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Attibele",
+    "lon": null,
+    "name": "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
+    "open_questions": [
+      "Unit count, launch date and pricing not disclosed",
+      "No RERA registration seen"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-0ffcb026b2",
+    "property_type": "mixed",
+    "region": "south",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "acquired a plot of land totaling 53.5 acres in Anekal Taluk in Bengaluru.",
+        "published_at": "2025-12-26",
+        "publisher": "The Realty Today",
+        "retrieved_at": "2026-10-15T06:22:58+05:30",
+        "tier": "broker_marketing",
+        "url": "https://therealtytoday.com/news/residential/large-scale-acquisition-puravankara-secures-54-acres-in-anekal-bengaluru-eyeing-major-residential-development/"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-10477a595f": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "mysore_road",
+    "developer": "Provident Housing (Puravankara)",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-09-20",
+    "locality": "Kengeri",
+    "lon": null,
+    "name": "Provident Equinox Phase 6",
+    "open_questions": [
+      "Price/size not disclosed"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-10477a595f",
+    "property_type": "apartment",
+    "region": "west",
+    "rera": {
+      "checked_on": null,
+      "number": "PRM/KA/RERA/1251/310/PR/180926/008948",
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "officially registered under Karnataka RERA with registration number PRM/KA/RERA/1251/310/PR/180926/008948",
+        "published_at": "2026-09-21",
+        "publisher": "Sahi",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://www.sahi.com/news/puravankara-subsidiary-provident-housing-launches-phase-6-of-provident-equinox-in-bengaluru"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": null
+  },
+  "P-12356cfc77": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "hebbal_yelahanka",
+    "developer": "Embassy Developments",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Namma Metro Blue Line Phase 2B",
+      "Hebbal tunnel road"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Hebbal",
+    "lon": null,
+    "name": "Embassy Hebbal residential development (adjacent to Embassy Lake Terraces)",
+    "open_questions": [
+      "Launch timing was FY26 plan; confirm actual launch, price and RERA"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-12356cfc77",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "this 10-acre development",
+        "published_at": "2025-11-24",
+        "publisher": "Realty n More",
+        "retrieved_at": "2026-10-15T06:22:57+05:30",
+        "tier": "broker_marketing",
+        "url": "https://realtynmore.com/embassy-developments-to-launch-six-residential-projects-valued-at-%e2%82%b910300-crore-in-north-bengaluru"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "3 and 4 BHK"
+  },
+  "P-1c60e6578f": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "bannerghatta_road",
+    "developer": "Godrej Properties",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Pink Line (Kalena Agrahara–Nagawara)"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-06",
+    "locality": "Off Bannerghatta Road (per search summary)",
+    "lon": null,
+    "name": "Godrej Vanantara",
+    "open_questions": [
+      "Launch price per sq ft not found in reliable source (aggregators quote ~₹12,000 and ~₹1.44 cr entry; unverified)",
+      "RERA number not checked on rera.karnataka.gov.in",
+      "Possession date conflicts across aggregators (Mar vs Dec 2030)",
+      "Acres/units/GDV only from search summary (36 acres, 3.53 mn sq ft, ~₹3,700 cr) – not verified on opened page"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-1c60e6578f",
+    "property_type": "apartment",
+    "region": "south",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "More than 1,000 homes have been sold in the launch week",
+        "published_at": "2026-06-13",
+        "publisher": "Trade Brains",
+        "retrieved_at": "2026-10-15T06:22:58+05:30",
+        "tier": "unknown",
+        "url": "https://tradebrains.in/money/godrejs-new-vanantara-project-on-bannerghatta-road-sells-1000-homes-in-just-one-week/"
+      },
+      {
+        "excerpt": "has booked sales exceeding ₹2,000 crore at its newly launched Bengaluru project, Godrej Vanantara.",
+        "published_at": "2026-06-09",
+        "publisher": "Sahi",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://www.sahi.com/news/godrej-properties-sells-homes-worth-2-000-crore-during-bengaluru-vanantara-project-launch-3079-PE1_COR"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": null
+  },
+  "P-211f0bded8": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Tata Housing / Tata Realty",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Devanahalli",
+    "lon": null,
+    "name": "Tata Varnam",
+    "open_questions": [
+      "Launch date conflicts (Sept 2024 vs Sept 2026); low-reliability source"
+    ],
+    "possession": null,
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 13100000.0,
+        "unit": "INR crore (starting)",
+        "url": "https://realtypromoo.com/news/tata-realty-devanahalli-bengaluru-new-launch-residential-project-rera-registration-price-and-booking-details-devanahalli-bangalore",
+        "value": 1.31
+      }
+    ],
+    "project_id": "P-211f0bded8",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Tata Varnam Devanahalli: RERA Launch, Pricing ₹1.31",
+        "published_at": null,
+        "publisher": "RealtyPromoo",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://realtypromoo.com/news/tata-realty-devanahalli-bengaluru-new-launch-residential-project-rera-registration-price-and-booking-details-devanahalli-bangalore"
+      }
+    ],
+    "status": null,
+    "unit_sizes": null
+  },
+  "P-2552d35fbb": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Prestige Estates Projects",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "STRR"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-09-25",
+    "locality": "Devanahalli (STRR, KIADB Aerospace Park)",
+    "lon": null,
+    "name": "Prestige Parklane",
+    "open_questions": [
+      "RERA registration and environmental clearance disputed in listings"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-2552d35fbb",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "gross development value (GDV) of approximately Rs 1,750 crore",
+        "published_at": "2026-09-25",
+        "publisher": "JM Financial Services",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://www.jmfinancialservices.in/market-news-and-insights/1734003"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "1,788 homes, nine towers, 1/2/3 BHK"
+  },
+  "P-26eec4b1e2": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "south_core",
+    "developer": "Assetz Property Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-02-28",
+    "locality": "Off Hosur Main Road / HSR Layout, South-East Bengaluru",
+    "lon": null,
+    "name": "Assetz Mizumi Reserve (Phase 1)",
+    "open_questions": [
+      "Price not on fetched page; ₹2.47 cr start from CB Insights snippet only",
+      "25-acre (press) vs 11.4-acre (Squareyards) conflict"
+    ],
+    "possession": null,
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|developer_quote",
+        "edition": "magazine-2026-10",
+        "kind": "developer_quote",
+        "psf_inr": null,
+        "total_inr": 24700000.0,
+        "unit": "INR crore (starting; unverified CB Insights item)",
+        "url": "https://realtynmore.com/assetz-launches-assetz-mizumi-reserve-first-stage-of-its-large-format-integrated-township/",
+        "value": 2.47
+      }
+    ],
+    "project_id": "P-26eec4b1e2",
+    "property_type": "apartment",
+    "region": "south",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "704 premium apartments",
+        "published_at": "2026-02-25",
+        "publisher": "Realty N More",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "broker_marketing",
+        "url": "https://realtynmore.com/assetz-launches-assetz-mizumi-reserve-first-stage-of-its-large-format-integrated-township/"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "704 apartments, 5 towers, 1,901–2,477 sq ft (super built-up)"
+  },
+  "P-2edf212476": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "hebbal_yelahanka",
+    "developer": "Century Real Estate",
+    "first_seen": "2026-10-15",
+    "flags": [
+      "conflict:launch_date: '2026-10-10' vs '2026-07' (https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html)"
+    ],
+    "infra_links": [
+      "Jakkur Cross metro (planned)"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-07",
+    "locality": "Jakkur",
+    "lon": null,
+    "name": "The Astoria (Century Immencity)",
+    "open_questions": [
+      "Price not in release (aggregators cite ~Rs 4.25 cr entry; unverified)",
+      "RERA number unverified on portal",
+      "Possession date conflicting (2030 vs Feb 2031)",
+      "Third-party prices conflict (₹3.85–4.25 cr; ₹17,500 psf)",
+      "RERA not mentioned"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-2edf212476",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "334 \"Neo Luxe\" residences across five towers ... Over ₹550 crore since the July 2026 pre-launch",
+        "published_at": "2026-10-10",
+        "publisher": "VMPL / SCN Wire",
+        "retrieved_at": "2026-10-15T05:50:46+05:30",
+        "tier": "developer",
+        "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "334 residences, 5 towers, ~6 acres; 3/4 BHK and penthouses"
+  },
+  "P-477ab71001": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Puravankara",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sathanur",
+    "lon": null,
+    "name": "Puravankara Sathanur (JDA)",
+    "open_questions": [
+      "Launch timing, product mix, pricing and RERA not disclosed",
+      "GDV is a company estimate"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-477ab71001",
+    "property_type": "mixed",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Estimated Gross Development Value is Rs 2,500 crore. Saleable area is about 1.90 million sq ft.",
+        "published_at": "2026-10-12",
+        "publisher": "Devdiscourse (ANI)",
+        "retrieved_at": "2026-10-15T05:50:46+05:30",
+        "tier": "aggregator",
+        "url": "https://www.devdiscourse.com/article/business/3990762-puravankara-signs-jda-for-1276-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "12.76 acres; ~1.90 mn sq ft saleable"
+  },
+  "P-5118a46691": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "sarjapur_road",
+    "developer": "Prestige Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sarjapur Road",
+    "lon": null,
+    "name": "Prestige Great Acres",
+    "open_questions": [
+      "Status 'ready' from guide's comparison wording"
+    ],
+    "possession": null,
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 13400000.0,
+        "unit": "INR crore",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026",
+        "value": 1.34
+      },
+      {
+        "basis": "unknown",
+        "bound": "max",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 51000000.0,
+        "unit": "INR crore",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026",
+        "value": 5.1
+      }
+    ],
+    "project_id": "P-5118a46691",
+    "property_type": "plot",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Indicative prices run from roughly Rs 1.34 crore to Rs 5.10 crore.",
+        "published_at": "2026-07-24",
+        "publisher": "Square Yards",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "property_portal",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026"
+      }
+    ],
+    "status": "ready",
+    "unit_sizes": null
+  },
+  "P-5759e6b745": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "budigere_cross",
+    "developer": "Brigade Enterprises",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-03-25",
+    "locality": "Budigere Main Road, East Bengaluru",
+    "lon": null,
+    "name": "Brigade Belvedere",
+    "open_questions": [
+      "Unit sizes not on fetched page; price and RERA unknown"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-5759e6b745",
+    "property_type": "apartment",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "a 10.75-acre residential development in East Bengaluru",
+        "published_at": "2026-03-25",
+        "publisher": "Outlook Business",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "reputable_media",
+        "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-eyes-1100-cr-revenue-from-new-housing-project-in-bengaluru"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "1–3 BHK, 715 to 2,013+ sq ft (per search summary)"
+  },
+  "P-658f4151e4": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Sattva Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-03-24",
+    "locality": "North Bengaluru",
+    "lon": null,
+    "name": "Sattva City",
+    "open_questions": [
+      "Exact locality, price, RERA unknown"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-658f4151e4",
+    "property_type": "apartment",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "exceeding ₹8,600 crores",
+        "published_at": "2026-03-24",
+        "publisher": "The Realty Today",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "broker_marketing",
+        "url": "https://therealtytoday.com/news/residential/sattva-group-brings-the-15-minute-city-to-north-bengaluru-with-50-acre-integrated-community"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "2–4 BHK plus penthouse; ~2,500 units in first phase (per search summary)"
+  },
+  "P-66b7c67c83": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "varthur_gunjur",
+    "developer": "Brigade Enterprises",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Varthur–Gunjur SH-35 widening"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Gunjur",
+    "lon": null,
+    "name": "Brigade Gunjur township (JDA)",
+    "open_questions": [
+      "No K-RERA registration yet; first-phase registration expected late FY27/early FY28 per PropNewz",
+      "No Brigade price announced"
+    ],
+    "possession": "around 2030 to 2032 (PropNewz expectation)",
+    "price_observations": [],
+    "project_id": "P-66b7c67c83",
+    "property_type": "mixed",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "The Gunjur JDA announcement is an early-stage corporate disclosure, not a K-RERA-filed project launch.",
+        "published_at": "2026-05-19",
+        "publisher": "PropNewz",
+        "retrieved_at": "2026-10-15T06:22:35+05:30",
+        "tier": "broker_marketing",
+        "url": "https://www.propnewz.com/blog/brigade-gunjur-jda-39-acre-whitefield-sarjapur-township-7200-cr-2026-05-19"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-6e4004f573": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Prestige Estates Projects",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-06",
+    "locality": "Devanahalli",
+    "lon": null,
+    "name": "Prestige Gardenia Estates Phase 2",
+    "open_questions": [
+      "Third-party listings quote ~Rs 8,500 psf base (PropNewz blog) and Rs 7,250 psf + charges (Squareyards); unverified",
+      "Sold-out claim from FilingReader/BasisPoint"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-6e4004f573",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "offers 195 plots",
+        "published_at": "2026-06-18",
+        "publisher": "ScanX",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://scanx.trade/stock-market-news/companies/prestige-estates-projects-launches-phase-2-of-prestige-gardenia-estates-in-devanahalli-bengaluru/43304401"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "195 plots; ~21 acres"
+  },
+  "P-7d90ca003f": {
+    "charges_excluded": "Stamp duty and registration excluded (per listing sites)",
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "kr_puram_hoskote",
+    "developer": "Sobha Limited",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-05",
+    "locality": "Hoskote",
+    "lon": null,
+    "name": "Sobha One World – One Residences",
+    "open_questions": [
+      "Other listings quote ID ...008639 and ₹1.09–1.9 cr starts; verify on RERA portal",
+      "Page dates conflict (25 May vs 26 Aug 2026)"
+    ],
+    "possession": "RERA: 31 Jul 2032 (Ph1) to 30 Sep 2033 (Ph6)",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": 14720.0,
+        "total_inr": null,
+        "unit": "INR/sqft",
+        "url": "https://www.propnewz.com/blog/sobha-one-world-hoskote-rera-launch-2026-05-25",
+        "value": 14720
+      }
+    ],
+    "project_id": "P-7d90ca003f",
+    "property_type": "apartment",
+    "region": "east",
+    "rera": {
+      "checked_on": null,
+      "number": "PRM/KA/RERA/1250/304/PR/080526/008634",
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "The lead identifier is PRM/KA/RERA/1250/304/PR/080526/008634, with five sister phase IDs covering the other wings.",
+        "published_at": "2026-05-25",
+        "publisher": "PropNewz",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "broker_marketing",
+        "url": "https://www.propnewz.com/blog/sobha-one-world-hoskote-rera-launch-2026-05-25"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "3,484 apartments, 14 wings, 48-acre net site (PropNewz)"
+  },
+  "P-81ce20e9f7": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "kanakapura_road",
+    "developer": "Brigade Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Kanakapura Road",
+    "lon": null,
+    "name": "Brigade Kanakapura Road two-acre project (not yet named)",
+    "open_questions": [
+      "Exact micro-location, unit mix and launch timing not stated"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-81ce20e9f7",
+    "property_type": "apartment",
+    "region": "south",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "a two-acre land parcel located on Kanakapura Road in South Bengaluru",
+        "published_at": "2026-07-30",
+        "publisher": "Realty N More",
+        "retrieved_at": "2026-10-15T06:22:58+05:30",
+        "tier": "broker_marketing",
+        "url": "https://realtynmore.com/brigade-group-acquires-kanakapura-road/"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-84c0ab4293": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "sarjapur_road",
+    "developer": "Shriram Properties",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Sarjapur Main Road",
+    "lon": null,
+    "name": "Shriram Sarjapur Main Road project",
+    "open_questions": [
+      "Launch not confirmed as of Oct 2026"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-84c0ab4293",
+    "property_type": "apartment",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "The project is expected to be launched during latter part of 2026.",
+        "published_at": "2026-02-16",
+        "publisher": "Shriram Properties",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://www.shriramproperties.com/sites/default/files/assets/pdf/press_releases/SE_Intimation_Press_Release_Sarjapur_0.pdf"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": "~5 lakh sq ft saleable"
+  },
+  "P-8ba268559b": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "mysore_road",
+    "developer": "Sattva Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Namma Metro Purple Line, Jnanabharathi station"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-01-14",
+    "locality": "Mysore Road / Rajarajeshwari Nagar",
+    "lon": null,
+    "name": "Sattva Aaranya",
+    "open_questions": [
+      "Unit count: 480 (RealtyNMore) vs 418 (portal)",
+      "Possession date varies (2029/2030/2031)",
+      "Price basis and ₹15,068/sqft unverified; portal lists 4 BHK 4.4 Cr above stated max",
+      "RERA number not checked on rera.karnataka.gov.in"
+    ],
+    "possession": "Under Construction (Jan 2030) per portal; sources conflict",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 31900000.0,
+        "unit": "INR crore (base price)",
+        "url": "https://www.roofandfloor.com/bengaluru/project/sattva-aaranya-in-rajarajeshwari-nagar/8334",
+        "value": 3.19
+      },
+      {
+        "basis": "unknown",
+        "bound": "max",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 37900000.0,
+        "unit": "INR crore (base price)",
+        "url": "https://www.roofandfloor.com/bengaluru/project/sattva-aaranya-in-rajarajeshwari-nagar/8334",
+        "value": 3.79
+      }
+    ],
+    "project_id": "P-8ba268559b",
+    "property_type": "apartment",
+    "region": "west",
+    "rera": {
+      "checked_on": null,
+      "number": "PRM/KA/RERA/1251/310/PR/241225/008358",
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "3.19 Cr - 3.79 Cr (Base Price) *",
+        "published_at": null,
+        "publisher": "Roof&Floor",
+        "retrieved_at": "2026-10-15T06:25:01+05:30",
+        "tier": "unknown",
+        "url": "https://www.roofandfloor.com/bengaluru/project/sattva-aaranya-in-rajarajeshwari-nagar/8334"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "2117 - 2944 Sq.Ft (3 and 4 BHK)"
+  },
+  "P-a48c2734b6": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Embassy Developments",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Namma Metro Blue Line Phase 2B"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2025-11",
+    "locality": "Devanahalli",
+    "lon": null,
+    "name": "Embassy Springs (Greenshore, Verde Phase II)",
+    "open_questions": [
+      "Price per sq ft and RERA numbers not given",
+      "Actual launch date vs announcement"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-a48c2734b6",
+    "property_type": "mixed",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "a differentiated collection of 800+ apartments",
+        "published_at": "2025-11-24",
+        "publisher": "Realty n More",
+        "retrieved_at": "2026-10-15T06:22:57+05:30",
+        "tier": "broker_marketing",
+        "url": "https://realtynmore.com/embassy-developments-to-launch-six-residential-projects-valued-at-%e2%82%b910300-crore-in-north-bengaluru"
+      }
+    ],
+    "status": "new_phase",
+    "unit_sizes": null
+  },
+  "P-aa7b417101": {
+    "charges_excluded": null,
+    "charges_included": "all inclusive (per listing)",
+    "confidence": "Medium",
+    "corridor": "devanahalli_airport",
+    "developer": "KNS Infra",
+    "first_seen": "magazine-2026-10",
+    "flags": [
+      "conflict:developer: 'KNS' vs 'KNS Infra' (https://www.housiey.com/projects/kns-candrill)"
+    ],
+    "infra_links": [
+      "KWIN City"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Doddaballapur",
+    "lon": null,
+    "name": "KNS Candrill",
+    "open_questions": [
+      "Per-sq-ft rate not stated",
+      "RERA not verified",
+      "Sales claim is developer-reported",
+      "2400 sq ft unit at 1.19 Cr marked sold out",
+      "RERA number not seen"
+    ],
+    "possession": "RERA possession June 2029",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 6199000.0,
+        "unit": "INR lakh all-inclusive",
+        "url": "https://www.housiey.com/projects/kns-candrill",
+        "value": 61.99
+      },
+      {
+        "basis": "unknown",
+        "bound": "max",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 7688000.0,
+        "unit": "INR lakh all-inclusive",
+        "url": "https://www.housiey.com/projects/kns-candrill",
+        "value": 76.88
+      }
+    ],
+    "project_id": "P-aa7b417101",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "has successfully sold all 233 units in Phase 1 within six months",
+        "published_at": "2025-06-17",
+        "publisher": "NBM&CW",
+        "retrieved_at": "2026-10-15T06:22:57+05:30",
+        "tier": "reputable_media",
+        "url": "https://www.nbmcw.com/news/kns-candrill-sells-out-phase-1-in-doddaballapur-bengaluru-rs100-cr-sales-in-6-months.html"
+      },
+      {
+        "excerpt": "₹ 61.99 Lacs - 76.88 Lacs All inc.",
+        "published_at": null,
+        "publisher": "Housiey",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "unknown",
+        "url": "https://www.housiey.com/projects/kns-candrill"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "1200 to 2400 sq ft plots"
+  },
+  "P-ac23b44e8c": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "unmapped",
+    "developer": "Brigade Enterprises",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Manjunathanagara Metro Station (Green Line) – per search summary"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-03-26",
+    "locality": "Tumkur Main Road, Northwest Bengaluru",
+    "lon": null,
+    "name": "Brigade Lumina",
+    "open_questions": [
+      "Price, RERA unknown"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-ac23b44e8c",
+    "property_type": "apartment",
+    "region": "unmapped",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "spans 4.11 acres on Tumkur Main Road",
+        "published_at": "2026-03-26",
+        "publisher": "ScanX",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://scanx.trade/stock-market-news/companies/brigade-enterprises-launches-brigade-lumina-project-in-bengaluru-with-revenue-potential-over-7-billion/36056339"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "1,100–1,800 sq ft"
+  },
+  "P-ba00b063dd": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "hennur_bagalur",
+    "developer": "Puravankara",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Namma Metro Blue Line Phase 2B"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-03-25",
+    "locality": "Bagalur",
+    "lon": null,
+    "name": "Purva Northern Lights",
+    "open_questions": [
+      "Broker listing only; launch date, unit count (Anarock Q1 2026 reportedly 2,673 units) and RERA unverified",
+      "Price basis unknown"
+    ],
+    "possession": "2029-12",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": 11000.0,
+        "total_inr": null,
+        "unit": "INR/sqft",
+        "url": "https://www.360realtors.com/puravankara-purva-northern-lights-bagalur-bangalore-uid-7934",
+        "value": 11000
+      }
+    ],
+    "project_id": "P-ba00b063dd",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "base rate of ₹11,000 per sq.ft for Phase 1",
+        "published_at": null,
+        "publisher": "360realtors (broker listing)",
+        "retrieved_at": "2026-10-15T06:22:57+05:30",
+        "tier": "unknown",
+        "url": "https://www.360realtors.com/puravankara-purva-northern-lights-bagalur-bangalore-uid-7934"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": null
+  },
+  "P-c48106b108": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "hebbal_yelahanka",
+    "developer": "Embassy Developments",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2026-09-16",
+    "locality": "North Bengaluru (Yelahanka area)",
+    "lon": null,
+    "name": "Embassy Origins (Riverine villas + South Reserve apartments, Phase 1)",
+    "open_questions": [
+      "RERA numbers not shown",
+      "Prices not disclosed"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-c48106b108",
+    "property_type": "mixed",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Phase 1 of Embassy Origins includes two RERA-registered projects: Embassy Riverine and Embassy South Reserve.",
+        "published_at": "2026-10-05",
+        "publisher": "Free Press Journal",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "unknown",
+        "url": "https://www.freepressjournal.in/business/embassy-developments-records-1800-crore-pre-sales-at-embassy-origins-launch"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "Riverine: 217 villas 4/4.5/5 BHK (~1.1 mn sq ft); South Reserve: 855 apartments Studio–3.5 BHK (~1.5 mn sq ft)"
+  },
+  "P-c536512a5a": {
+    "charges_excluded": null,
+    "charges_included": "all inclusive (per listing)",
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Prestige Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Doddaballapur",
+    "lon": null,
+    "name": "Prestige Marigold",
+    "open_questions": [
+      "RERA not verified on portal",
+      "Listing date unknown"
+    ],
+    "possession": "RERA possession November 2027",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 10200000.0,
+        "unit": "INR crore all-inclusive",
+        "url": "https://www.housiey.com/projects/prestige-marigold",
+        "value": 1.02
+      },
+      {
+        "basis": "unknown",
+        "bound": "max",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 35200000.0,
+        "unit": "INR crore all-inclusive",
+        "url": "https://www.housiey.com/projects/prestige-marigold",
+        "value": 3.52
+      }
+    ],
+    "project_id": "P-c536512a5a",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "checked_on": null,
+      "number": "PRM/KA/RERA/1250/303/PR/171225/008346",
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "PRM/KA/RERA/1250/303/PR/171225/008346",
+        "published_at": null,
+        "publisher": "Housiey",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "unknown",
+        "url": "https://www.housiey.com/projects/prestige-marigold"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "up to 4000 sq ft"
+  },
+  "P-c57fb18c56": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "devanahalli_airport",
+    "developer": "Sumadhura",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Devanahalli",
+    "lon": null,
+    "name": "Sumadhura Panorama",
+    "open_questions": [
+      "RERA number not seen"
+    ],
+    "possession": "December 2027 targeted",
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|asking",
+        "edition": "magazine-2026-10",
+        "kind": "asking",
+        "psf_inr": null,
+        "total_inr": 9900000.0,
+        "unit": "INR lakh (lower unit start)",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026",
+        "value": 99
+      }
+    ],
+    "project_id": "P-c57fb18c56",
+    "property_type": "plot",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "Indicative prices for the lower unit start from ~Rs 99 lakh.",
+        "published_at": "2026-07-24",
+        "publisher": "Square Yards",
+        "retrieved_at": "2026-10-15T06:28:23+05:30",
+        "tier": "property_portal",
+        "url": "https://www.squareyards.com/blog/best-plots-in-bangalore-2026"
+      }
+    ],
+    "status": "under_construction",
+    "unit_sizes": null
+  },
+  "P-da39cd2977": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "varthur_gunjur",
+    "developer": "Abhee Ventures",
+    "first_seen": "2026-10-15",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "2026-10-15",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Gunjur",
+    "lon": null,
+    "name": "Abhee City Urban Glenn (Codename New Dimension)",
+    "open_questions": [
+      "RERA number not shown",
+      "Price, unit mix, launch date and possession unknown",
+      "Residential type (apartments/villas) not stated; 45 acres"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-da39cd2977",
+    "property_type": "mixed",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "officially registered as Abhee City Urban Glenn",
+        "published_at": "2026-09-10",
+        "publisher": "UNI",
+        "retrieved_at": "2026-10-15T05:50:54+05:30",
+        "tier": "reputable_media",
+        "url": "https://www.uniindia.com/business-economy/abhee-ventures-bengaluru-project/175152"
+      }
+    ],
+    "status": "pre_launch",
+    "unit_sizes": null
+  },
+  "P-ed028e20c2": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "mysore_road",
+    "developer": "Vaishnodevi",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Bengaluru-Mysuru Infrastructure Corridor",
+      "Bidadi township (GBDA)"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": null,
+    "locality": "Bidadi",
+    "lon": null,
+    "name": "Life Springs by Vaishnodevi",
+    "open_questions": [
+      "Price unpublished as of 30 Sep 2026",
+      "RERA number not verified on rera.karnataka.gov.in",
+      "Prestige City Bidadi launch expected Oct 2026 nearby"
+    ],
+    "possession": "15 July 2028 (declared)",
+    "price_observations": [],
+    "project_id": "P-ed028e20c2",
+    "property_type": "plot",
+    "region": "west",
+    "rera": {
+      "checked_on": null,
+      "number": "PRM/KA/RERA/1251/310/PR/010926/008900",
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "the plan is approved by BMICAPA, the Bengaluru-Mysuru Infrastructure Corridor Area Planning Authority",
+        "published_at": "2026-09-30",
+        "publisher": "PropNewz",
+        "retrieved_at": "2026-10-15T06:26:37+05:30",
+        "tier": "broker_marketing",
+        "url": "https://www.propnewz.com/blog/life-springs-by-vaishnodevi-plots-bidadi-bangalore-review"
+      }
+    ],
+    "status": "under_construction",
+    "unit_sizes": null
+  },
+  "P-f99971b9d6": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "whitefield",
+    "developer": "Mahindra Lifespace Developers",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [
+      "Hopefarm Channasandra metro station"
+    ],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2025-12-18",
+    "locality": "Whitefield (Hopefarm Channasandra)",
+    "lon": null,
+    "name": "Mahindra Blossom",
+    "open_questions": [
+      "Price, RERA, acres not stated"
+    ],
+    "possession": null,
+    "price_observations": [],
+    "project_id": "P-f99971b9d6",
+    "property_type": "apartment",
+    "region": "east",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "with a potential GDV of approximately INR 1,900 crore",
+        "published_at": "2025-12-18",
+        "publisher": "Realty N More",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "broker_marketing",
+        "url": "https://realtynmore.com/mahindra-lifespaces-announces-launch-of-mahindra-blossom-in-whitefield-bengaluru"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "2, 3, 3.5 & 4 BHK"
+  },
+  "P-f9b962f3a6": {
+    "charges_excluded": null,
+    "charges_included": null,
+    "confidence": "Low",
+    "corridor": "hebbal_yelahanka",
+    "developer": "Assetz Property Group",
+    "first_seen": "magazine-2026-10",
+    "flags": [],
+    "infra_links": [],
+    "last_seen": "magazine-2026-10",
+    "lat": null,
+    "launch_date": "2025-08-02",
+    "locality": "Yelahanka–Bagalur Main Road",
+    "lon": null,
+    "name": "Assetz Zen & Sato",
+    "open_questions": [
+      "RERA not shown"
+    ],
+    "possession": null,
+    "price_observations": [
+      {
+        "basis": "unknown",
+        "bound": "min",
+        "comparability": "unknown_basis|developer_quote",
+        "edition": "magazine-2026-10",
+        "kind": "developer_quote",
+        "psf_inr": null,
+        "total_inr": 29200000.0,
+        "unit": "INR crore (starting)",
+        "url": "https://therealtytoday.com/news/assetz-launches-zen-sato-premium-residential-project-in-north-bengaluru",
+        "value": 2.92
+      }
+    ],
+    "project_id": "P-f9b962f3a6",
+    "property_type": "apartment",
+    "region": "north",
+    "rera": {
+      "number": null,
+      "status": "Not verified"
+    },
+    "sources": [
+      {
+        "excerpt": "With pricing starting at ₹2.92 crore",
+        "published_at": "2025-08-04",
+        "publisher": "The Realty Today",
+        "retrieved_at": "2026-10-15T06:30:15+05:30",
+        "tier": "broker_marketing",
+        "url": "https://therealtytoday.com/news/assetz-launches-zen-sato-premium-residential-project-in-north-bengaluru"
+      }
+    ],
+    "status": "launched",
+    "unit_sizes": "412 apts, 3/4 BHK, 2,159–2,955 sq ft"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mag_city_market": {
+    "cost_usd": 0.693103,
+    "error": null,
+    "ok": true
+  },
+  "mag_east": {
+    "cost_usd": 0.8061228999999999,
+    "error": null,
+    "ok": true
+  },
+  "mag_gov_metro_rail": {
+    "cost_usd": 0.6842815999999999,
+    "error": null,
+    "ok": true
+  },
+  "mag_gov_roads_plans": {
+    "cost_usd": 0.6855515000000001,
+    "error": null,
+    "ok": true
+  },
+  "mag_growth_towns": {
+    "cost_usd": 0.9083753999999998,
+    "error": null,
+    "ok": true
+  },
+  "mag_north": {
+    "cost_usd": 0.8119125000000003,
+    "error": null,
+    "ok": true
+  },
+  "mag_plots_villas": {
+    "cost_usd": 0.586995,
+    "error": null,
+    "ok": true
+  },
+  "mag_projects": {
+    "cost_usd": 1.0573028999999998,
+    "error": null,
+    "ok": true
+  },
+  "mag_south": {
+    "cost_usd": 0.7941960999999996,
+    "error": null,
+    "ok": true
+  },
+  "mag_west": {
+    "cost_usd": 0.7224227999999999,
+    "error": null,
+    "ok": true
+  }
+}

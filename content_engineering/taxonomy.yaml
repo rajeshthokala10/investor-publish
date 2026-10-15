@@ -1,0 +1,43 @@
+# Controlled vocabulary shared by extraction, validation and report writing.
+
+property_types:
+  plot: Villa plots / plotted developments (priced on LAND area)
+  villa: Villas / independent houses in gated projects (built-up or saleable area; includes land)
+  apartment: High-rise apartments (carpet, built-up or super built-up / saleable area)
+  mixed: Projects with more than one of the above
+  commercial: Office / retail (context only, not ranked)
+  na: Not property-specific
+
+price_kinds:
+  asking: Advertised asking price (portal/listing)
+  developer_quote: Developer quotation or launch price
+  reported_transaction: Transaction price reported by media/analyst
+  registered_transaction: Registered sale deed evidence
+  analyst_estimate: Research-house or analyst estimate/average
+
+price_bases:
+  land: Per unit of land (plots)
+  carpet: Carpet area (RERA definition)
+  built_up: Built-up area
+  super_built_up: Super built-up / saleable area (includes common-area loading)
+  unknown: Basis not stated by source
+
+# Infrastructure stage ladder. A stage is accepted only when the claim excerpt
+# contains one of its evidence phrases (validation/verification.py:evidenced_stage).
+infra_stages:
+  proposed:            [proposed, revised, deadline, estimated cost, cost of, proposal, invites objections, public notice, draft, plans to, planning, feasibility, dpr, detailed project report, mooted, considering, envisaged, survey]
+  announced:           [announced, will invest, to invest, plans to invest, unveils, announces, signed, launch of, mou, memorandum of understanding, pledged, unveiled, declared, will build, to build, budget speech]
+  approved:            [approved, approval, sanctioned, cleared, nod, green signal, green light, notified, in-principle]
+  funded:              [funded, funding, loan agreement, allocated, allocation, released, crore sanctioned for, financial closure, budgetary support]
+  tendered:            [tender, tenders, bids invited, bid, rfp, request for proposal, eoi, expression of interest]
+  awarded:             [awarded, contract to, letter of acceptance, loa, bagged, won the contract, work order, l1 bidder]
+  under_construction:  [under construction, construction began, construction has begun, work in progress, civil work, foundation stone, groundbreaking, progress, "% complete", tunnel boring, viaduct, works, safety inspection, cmrs, trial run, trials]
+  operational:         [operational, opens, inaugurates, launched operations, now open, running, commuters, opened, inaugurated, commissioned, open to public, opened to traffic, commercial operations, services began, flagged off, started operations]
+
+topics:
+  launch: [launch, launched, new phase, pre-launch, unveils, introduces]
+  price: [price, per sq ft, psf, sq ft, crore, lakh, rate]
+  infrastructure: [metro, rail, road, flyover, underpass, expressway, ring road, tunnel, airport]
+  civic: [water, cauvery, flood, drain, sewage, lake, traffic, garbage, potholes]
+  policy: [rera, guidance value, stamp duty, zoning, master plan, khata, e-khata, gba, bda, bmrda, court]
+  employment: [office, leasing, campus, jobs, hiring, tech park, gcc, sez]

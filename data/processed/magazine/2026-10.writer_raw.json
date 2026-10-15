@@ -1,0 +1,966 @@
+{
+  "cost_usd": 0.2761924,
+  "finished": "2026-10-15T08:10:06+05:30",
+  "is_error": false,
+  "prompt_sha": "efbb053f3f",
+  "started": "2026-10-15T08:08:15+05:30",
+  "structured_output": {
+    "cover": {
+      "claim_ids": [
+        "C-cffc61a291",
+        "C-f68d3cf70f",
+        "C-c3a64cac00",
+        "C-43c5c656b4"
+      ],
+      "cover_lines": [
+        "Q3 sales climb as unsold stock builds",
+        "Blue Line, Pink Line and suburban rail",
+        "Bidadi township under scrutiny",
+        "Plots, villas and apartments compared"
+      ],
+      "headline": "Bengaluru Builds Out: Rail, Roads and Townships",
+      "subhead": "Sales are recovering, launches are heavy and infrastructure timelines keep shifting. What it means for buyers across the city and its fast-growing edges."
+    },
+    "editor_note": [
+      {
+        "claim_ids": [
+          "C-cffc61a291",
+          "C-5c04914d0f"
+        ],
+        "text": "The latest quarter brought a firmer market. According to ANAROCK, Bengaluru housing sales rose 12% YoY to 16,670 units in Q3 2026. The agency also says MMR and Bengaluru together accounted for 48% of total sales across the seven cities it tracks, a reminder of how much national demand now rests on these two markets."
+      },
+      {
+        "claim_ids": [
+          "C-8a753aec15",
+          "C-13929412ea"
+        ],
+        "text": "Jobs continue to underpin that demand. Colliers says Bengaluru led Jan-Sep 2026 office leasing at 15.7 million sq ft, driven partly by GCCs and flex operators. ANAROCK adds that GCCs made up 70% of the roughly 10.8 million sq ft of office absorption in H1 2026. Where offices cluster, housing follows."
+      },
+      {
+        "claim_ids": [
+          "C-c3a64cac00",
+          "C-353ff6a9c3",
+          "C-9e421472b8"
+        ],
+        "text": "Infrastructure is the other half of the story, and timelines deserve a careful read. BMRCL's Blue Line has reached 72% overall construction progress, per Business Today, yet Construction World reports the full opening has slipped to March 2028. K-RIDE says it is committed to starting suburban rail operations by December 2028. Buy for today's connectivity, not tomorrow's."
+      }
+    ],
+    "glance": [
+      {
+        "claim_ids": [
+          "C-cffc61a291",
+          "C-d95ebb0947"
+        ],
+        "text": "ANAROCK data show Bengaluru housing sales rose 12% YoY to 16,670 units in Q3 2026, from 14,835 units a year earlier. Knight Frank India puts Jan-Sep 2026 sales at 43,140 units, up 5% YoY and second only to Mumbai."
+      },
+      {
+        "claim_ids": [
+          "C-c51ea6c89d",
+          "C-ff7db99f53"
+        ],
+        "text": "Prices continue to move up. ANAROCK reports an annual rise of 8% in Q3 2026, and says average prices went from Rs 4,975 to Rs 9,450 per sq ft between 2019 and Q2 2026, while gross rental yield improved from 3.6% to 4.6%."
+      },
+      {
+        "claim_ids": [
+          "C-f68d3cf70f",
+          "C-bec237e728"
+        ],
+        "text": "Supply is the counterweight. ANAROCK says unsold stock rose 34% YoY in Q2 2026, the fastest among the top seven cities, while launches rose 41% YoY to around 21,670 units. Buyers have choice and, in many projects, room to negotiate."
+      }
+    ],
+    "gov_intro": [
+      {
+        "claim_ids": [
+          "C-4203612a17",
+          "C-c3a64cac00",
+          "C-3fc3628df2",
+          "C-240547e005"
+        ],
+        "text": "Bengaluru's transport pipeline is large but uneven. Some stretches are built and waiting for an inauguration, others are under construction, and several remain proposals awaiting central approval or feasibility reports."
+      },
+      {
+        "claim_ids": [
+          "C-353ff6a9c3",
+          "C-9e421472b8"
+        ],
+        "text": "The table below separates what is under construction from what is merely proposed. Dates are targets reported by the cited agencies and have slipped before."
+      }
+    ],
+    "gov_rows": [
+      {
+        "areas": "KR Puram, Hebbal, Yelahanka, airport",
+        "category": "metro",
+        "claim_ids": [
+          "C-c3a64cac00",
+          "C-353ff6a9c3"
+        ],
+        "project": "Namma Metro Blue Line (Silk Board–KR Pura–airport)",
+        "status": "Under construction; 72% overall progress per Business Today",
+        "timeline": "Full line March 2028 target"
+      },
+      {
+        "areas": "Sarjapur Road, Hebbal",
+        "category": "metro",
+        "claim_ids": [
+          "C-3fc3628df2",
+          "C-265e562d8b"
+        ],
+        "project": "Red Line (Phase 3A) Sarjapur–Hebbal",
+        "status": "State cabinet cleared DPR; central approval still pending",
+        "timeline": "Completion April 2033 proposed"
+      },
+      {
+        "areas": "Kalena Agrahara, Hulimavu, IIMB, Tavarekere",
+        "category": "metro",
+        "claim_ids": [
+          "C-4203612a17",
+          "C-eb92ac7878",
+          "C-9c69f41750"
+        ],
+        "project": "Pink Line elevated stretch (7.5 km)",
+        "status": "Ready; opens once inauguration date is confirmed",
+        "timeline": "Safety inspection 6–8 October"
+      },
+      {
+        "areas": "Dairy Circle, Nagawara",
+        "category": "metro",
+        "claim_ids": [
+          "C-3f62526944"
+        ],
+        "project": "Pink Line underground stretch (13.76 km)",
+        "status": "Dairy Circle to Nagawara with 12 underground stations",
+        "timeline": "Targeted March 2027"
+      },
+      {
+        "areas": "Bommasandra, Attibele",
+        "category": "metro",
+        "claim_ids": [
+          "C-240547e005"
+        ],
+        "project": "Yellow Line extension to Attibele (11 km)",
+        "status": "At feasibility report stage",
+        "timeline": "Proposed"
+      },
+      {
+        "areas": "Four corridors across the city",
+        "category": "suburban_rail",
+        "claim_ids": [
+          "C-9e421472b8"
+        ],
+        "project": "K-RIDE Bengaluru Suburban Rail",
+        "status": "Committed to start operations; original target was 2026",
+        "timeline": "December 2028 commitment"
+      },
+      {
+        "areas": "Devanahalli, Chikkabanavara, Rajanukunte",
+        "category": "suburban_rail",
+        "claim_ids": [
+          "C-1d1f7ad4d9",
+          "C-7f37f0b82e",
+          "C-4ccb01be81"
+        ],
+        "project": "K-RIDE corridors 1, 2 and 4",
+        "status": "Corridor 1 alignment approved; corridor 2 packages awarded; corridor 4 tendered",
+        "timeline": "Under way"
+      },
+      {
+        "areas": "Hoskote, Dobaspet",
+        "category": "road",
+        "claim_ids": [
+          "C-35249e08b2"
+        ],
+        "project": "Satellite Town Ring Road (STRR)",
+        "status": "80 km Dobaspet–Hoskote operational; remaining 21 km to border targeted",
+        "timeline": "November 2026 target"
+      },
+      {
+        "areas": "Hoskote, Bethamangala",
+        "category": "road",
+        "claim_ids": [
+          "C-00ee1e7f6a"
+        ],
+        "project": "Bengaluru–Chennai Expressway",
+        "status": "Karnataka's 71-km section reported opened; Tamil Nadu section faces indefinite delay",
+        "timeline": "Opened December 2025 (Karnataka)"
+      },
+      {
+        "areas": "Hebbal, Mekhri Circle",
+        "category": "road",
+        "claim_ids": [
+          "C-fce6012a2b"
+        ],
+        "project": "Hebbal–Mekhri Circle tunnel road and elevated corridor",
+        "status": "Karnataka Cabinet cleared Rs 2,215 crore project",
+        "timeline": "Cleared 4 December 2025"
+      },
+      {
+        "areas": "Hebbal, Silk Board",
+        "category": "road",
+        "claim_ids": [
+          "C-da87dc2580"
+        ],
+        "project": "Hebbal–Silk Board tunnel project",
+        "status": "Adani Enterprises lowest bidder; no award confirmed",
+        "timeline": "Tendered"
+      },
+      {
+        "areas": "Harohalli, Kanakapura Road, Nelamangala",
+        "category": "airport",
+        "claim_ids": [
+          "C-e0502b1800",
+          "C-56067526da"
+        ],
+        "project": "Second Bengaluru airport",
+        "status": "Harohalli under consideration; feasibility pending; no final site chosen",
+        "timeline": "2032-33 expected for Harohalli"
+      },
+      {
+        "areas": "Bidadi",
+        "category": "township",
+        "claim_ids": [
+          "C-43c5c656b4",
+          "C-a0f7c015eb",
+          "C-2b372f92b7"
+        ],
+        "project": "Bidadi township (GBDA)",
+        "status": "Review committee formed; farmers protesting; land notifications issued",
+        "timeline": "Report due within 30 days"
+      }
+    ],
+    "growth_intro": [
+      {
+        "claim_ids": [
+          "C-35249e08b2",
+          "C-e0502b1800",
+          "C-43c5c656b4"
+        ],
+        "text": "The city's edges are being reshaped by ring roads, airports and township plans. Some towns already have working infrastructure; others depend on proposals that remain subject to approvals, feasibility studies or court challenges. Match your time horizon to the maturity of each project."
+      }
+    ],
+    "growth_map_caption": [
+      {
+        "claim_ids": [
+          "C-35249e08b2",
+          "C-1d1f7ad4d9",
+          "C-4901998988",
+          "C-2b372f92b7"
+        ],
+        "text": "Growth is pulling outward along infrastructure lines: the STRR and Chennai corridor towards Hoskote, the airport and suburban rail towards Devanahalli, KWIN City near Doddaballapur, and the proposed Bidadi township in the south-west."
+      }
+    ],
+    "growth_towns": [
+      {
+        "claim_ids": [
+          "C-35249e08b2",
+          "C-00ee1e7f6a"
+        ],
+        "name": "Hoskote",
+        "price_text": "",
+        "risks": "Tamil Nadu section of the Chennai expressway faces indefinite delay.",
+        "why": "The 80 km Dobaspet–Hoskote STRR stretch is operational and Karnataka's 71-km expressway section was reported opened; the remaining 21 km of STRR is targeted for November 2026."
+      },
+      {
+        "claim_ids": [
+          "C-1d1f7ad4d9",
+          "C-b0c76f18db",
+          "C-9e421472b8",
+          "C-353ff6a9c3"
+        ],
+        "name": "Devanahalli",
+        "price_text": "Plots ₹6,000–10,000/sq ft",
+        "risks": "Suburban rail now committed for December 2028; Blue Line opening moved to March 2028.",
+        "why": "Airport-adjacent market where suburban rail Corridor 1 alignment has been approved by Indian Railways, with joint land measurement under way."
+      },
+      {
+        "claim_ids": [
+          "C-4901998988",
+          "C-f88befb39b",
+          "C-6f8777c289"
+        ],
+        "name": "Doddaballapur",
+        "price_text": "",
+        "risks": "Investment is at MoU stage; job and land allotment targets are plans.",
+        "why": "KWIN City is a 5,800-acre project, and Toyota Kirloskar plans a Rs 1,200 crore BizIntel Hub there; a plotted project sold 233 plots."
+      },
+      {
+        "claim_ids": [
+          "C-032a338afa",
+          "C-2a195e823f",
+          "C-56067526da"
+        ],
+        "name": "Nelamangala",
+        "price_text": "",
+        "risks": "Kunigal–Nelamangala is one second-airport option; no final site chosen.",
+        "why": "Warehouse leasing led by Nelamangala and Dabaspete, with the western corridor taking 52% of leasing in H1 2026."
+      },
+      {
+        "claim_ids": [
+          "C-2b372f92b7",
+          "C-bc140396c9",
+          "C-1e060ab70a",
+          "C-ed5c42a42c"
+        ],
+        "name": "Bidadi",
+        "price_text": "Apartments down close to 15%",
+        "risks": "Farmer protests, possible court action and a government review committee add uncertainty.",
+        "why": "A GBDA-led township with 5,462 acres notified across seven villages; total footprint of 7,481 acres across nine villages is expected."
+      },
+      {
+        "claim_ids": [
+          "C-e0502b1800",
+          "C-906f62e9af"
+        ],
+        "name": "Harohalli",
+        "price_text": "",
+        "risks": "Site subject to feasibility assessment; three locations still being examined.",
+        "why": "About 40 km from the city centre, it is under consideration for a second airport on about 9,000 acres, with completion expected 2032-33."
+      },
+      {
+        "claim_ids": [
+          "C-240547e005"
+        ],
+        "name": "Attibele",
+        "price_text": "",
+        "risks": "Metro extension remains at feasibility report stage only.",
+        "why": "BMRCL feasibility work covers an 11-km Yellow Line extension from Bommasandra to Attibele."
+      },
+      {
+        "claim_ids": [
+          "C-4a55293c38",
+          "C-0ca77d9e81",
+          "C-e4ec3d7446"
+        ],
+        "name": "Hosur",
+        "price_text": "About ₹5,086/sq ft (asking)",
+        "risks": "BMRCL says direct connection is not technically feasible; metro and airport are proposals.",
+        "why": "Tamil Nadu is pursuing a 23-km Hosur–Bommasandra metro and plans to acquire nearly 3,000 acres for an airport."
+      }
+    ],
+    "key_figures": [
+      {
+        "claim_ids": [
+          "C-cffc61a291"
+        ],
+        "context": "Units sold in Bengaluru, per ANAROCK, up from 14,835 a year earlier.",
+        "label": "Q3 2026 sales",
+        "value_text": "16,670"
+      },
+      {
+        "claim_ids": [
+          "C-cffc61a291"
+        ],
+        "context": "Year-on-year rise in Bengaluru housing sales in Q3 2026, per ANAROCK.",
+        "label": "Annual sales growth",
+        "value_text": "+12%"
+      },
+      {
+        "claim_ids": [
+          "C-d95ebb0947"
+        ],
+        "context": "Units, per Knight Frank India, up 5% YoY and second to Mumbai.",
+        "label": "Jan-Sep 2026 sales",
+        "value_text": "43,140"
+      },
+      {
+        "claim_ids": [
+          "C-ff7db99f53"
+        ],
+        "context": "ANAROCK's figure for Q2 2026, up from Rs 4,975 in 2019.",
+        "label": "Average price",
+        "value_text": "₹9,450/sq ft"
+      },
+      {
+        "claim_ids": [
+          "C-f68d3cf70f"
+        ],
+        "context": "YoY rise in Q2 2026, fastest among the top seven cities, per ANAROCK.",
+        "label": "Unsold stock",
+        "value_text": "+34%"
+      },
+      {
+        "claim_ids": [
+          "C-c3a64cac00"
+        ],
+        "context": "Overall construction progress reported by Business Today in August.",
+        "label": "Blue Line progress",
+        "value_text": "72%"
+      }
+    ],
+    "outlook": [
+      {
+        "claim_ids": [
+          "C-cffc61a291",
+          "C-c51ea6c89d",
+          "C-d95ebb0947",
+          "C-8a753aec15"
+        ],
+        "text": "Demand looks steady rather than frenzied. ANAROCK reports Bengaluru sales growth of 12% YoY in Q3 2026, with an annual price rise of 8%. Knight Frank India records 5% growth for Jan-Sep 2026. Office leasing, led by GCCs, continues to support housing demand in the east and north."
+      },
+      {
+        "claim_ids": [
+          "C-3f62526944",
+          "C-b8d7fc339a",
+          "C-353ff6a9c3",
+          "C-9e421472b8"
+        ],
+        "text": "Infrastructure will set the pace of micro-market gains. Business Today reports the Pink Line's underground stretch is targeted for March 2027 and the Blue Line's remaining construction for June 2027, while Construction World reports a full Blue Line opening in March 2028. Suburban rail operations are committed for December 2028. Treat all of these as targets."
+      }
+    ],
+    "projects": [
+      {
+        "claim_ids": [
+          "C-c99bc5e741",
+          "C-9fdf54956f"
+        ],
+        "detail": "85-acre project launched 16 Sept 2026; company reports 62% absorption of launched units and over ₹1,800 crore pre-sales.",
+        "developer": "Embassy Developments",
+        "location": "North Bengaluru",
+        "name": "Embassy Origins",
+        "type": "Villas and apartments"
+      },
+      {
+        "claim_ids": [
+          "C-de51f7e4a4",
+          "C-d6a0265647"
+        ],
+        "detail": "217 villas in 4, 4.5 and 5 BHK across about 1.1 million sq ft; RERA-registered.",
+        "developer": "Embassy Developments",
+        "location": "North Bengaluru",
+        "name": "Embassy Riverine",
+        "type": "Villas"
+      },
+      {
+        "claim_ids": [
+          "C-d6a0265647"
+        ],
+        "detail": "855 apartments, studio to 3.5 BHK, across about 1.5 million sq ft.",
+        "developer": "Embassy Developments",
+        "location": "North Bengaluru",
+        "name": "Embassy South Reserve",
+        "type": "Apartments"
+      },
+      {
+        "claim_ids": [
+          "C-90e97c38de",
+          "C-f5feeb5ed2"
+        ],
+        "detail": "800+ apartments in 2, 3 and 4 BHK; company reports bookings of about ₹860 crore in five days.",
+        "developer": "Embassy Developments",
+        "location": "North Bengaluru",
+        "name": "Embassy Greenshore (Embassy Springs)",
+        "type": "Apartments"
+      },
+      {
+        "claim_ids": [
+          "C-48d51205e0",
+          "C-34c74fe7c8"
+        ],
+        "detail": "10.75-acre development with 773 units in the initial phase; revenue potential above ₹1,100 crore.",
+        "developer": "Brigade Enterprises",
+        "location": "Budigere Road, East Bengaluru",
+        "name": "Brigade Belvedere",
+        "type": "Residential"
+      },
+      {
+        "claim_ids": [
+          "C-b04ef95da8"
+        ],
+        "detail": "334 Neo Luxe Residences across five towers on about 6 acres; bookings above ₹550 crore.",
+        "developer": "Century Real Estate",
+        "location": "Jakkur",
+        "name": "The Astoria at Century Immencity",
+        "type": "Apartments"
+      },
+      {
+        "claim_ids": [
+          "C-7f5f455186"
+        ],
+        "detail": "JDA signed for a 17.9-acre parcel with projected GDV of ₹1,600 crore.",
+        "developer": "Embassy",
+        "location": "Whitefield",
+        "name": "Embassy Whitefield parcel",
+        "type": "Joint development"
+      },
+      {
+        "claim_ids": [
+          "C-6f8777c289"
+        ],
+        "detail": "About 27 acres; developer reports all 233 Phase 1 plots sold within six months.",
+        "developer": "KNS",
+        "location": "Doddaballapur",
+        "name": "KNS Candrill",
+        "type": "Plotted development"
+      }
+    ],
+    "property_types": {
+      "apartments": [
+        {
+          "claim_ids": [
+            "C-d6a0265647",
+            "C-2a16434c7a",
+            "C-1865074501",
+            "C-dc31332410"
+          ],
+          "text": "Apartments dominate launches. Embassy South Reserve offers 855 apartments, studio to 3.5 BHK, and both Phase 1 projects are described as RERA-registered. ANAROCK puts Bengaluru gross rental yield at 4.6%, while Sobha's blog puts Hebbal at about 2%. Yeshwanthpur's 4–5% gross yield, per Brigade Group, suggests rental returns vary widely by micro-market."
+        }
+      ],
+      "plots": [
+        {
+          "claim_ids": [
+            "C-6f8777c289",
+            "C-b0c76f18db",
+            "C-19824a9075"
+          ],
+          "text": "Plotted layouts are selling in the north. KNS Candrill in Doddaballapur reports selling all 233 Phase 1 plots within six months, for over Rs 100 crore. NewsFirst Prime puts Devanahalli plots at ₹6,000–10,000 per sq ft. Plots carry the highest approval risk: BMRDA frames rules for local planning authorities but has little role in layout approval, so verify authority sanction before paying."
+        }
+      ],
+      "verdict": [
+        {
+          "claim_ids": [
+            "C-f68d3cf70f",
+            "C-19824a9075"
+          ],
+          "text": "Apartments near operating or near-complete metro lines offer the clearest value. Plots and villas on the periphery suit patient buyers who can verify approvals and absorb delays. With unsold stock rising, take time to compare projects."
+        }
+      ],
+      "villas": [
+        {
+          "claim_ids": [
+            "C-de51f7e4a4",
+            "C-b0c76f18db"
+          ],
+          "text": "Villas are concentrated in the north. Embassy Riverine, part of Embassy Origins Phase 1, offers 217 villas in 4, 4.5 and 5 BHK formats across roughly 1.1 million sq ft. NewsFirst Prime says premium villas in Devanahalli sell above ₹10,000 per sq ft."
+        }
+      ]
+    },
+    "watch_list": [
+      {
+        "claim_ids": [
+          "C-4203612a17"
+        ],
+        "item": "Pink Line elevated opening",
+        "why": "The 7.5-km stretch is ready and awaits an inauguration date from the Union government."
+      },
+      {
+        "claim_ids": [
+          "C-43c5c656b4"
+        ],
+        "item": "Bidadi review committee report",
+        "why": "The committee headed by Justice Guhanathan Narendar was to report within 30 days."
+      },
+      {
+        "claim_ids": [
+          "C-35249e08b2"
+        ],
+        "item": "STRR remaining stretch",
+        "why": "The remaining 21 km to the border is targeted for completion by November 2026."
+      },
+      {
+        "claim_ids": [
+          "C-3fc3628df2",
+          "C-265e562d8b"
+        ],
+        "item": "Red Line central approval",
+        "why": "The Sarjapur–Hebbal DPR awaits central approval, with completion proposed for April 2033."
+      },
+      {
+        "claim_ids": [
+          "C-e0502b1800",
+          "C-411c3a5eb7"
+        ],
+        "item": "Second airport site",
+        "why": "Harohalli is one option; no final site chosen and a consultant is studying shortlisted locations."
+      },
+      {
+        "claim_ids": [
+          "C-da87dc2580"
+        ],
+        "item": "Hebbal–Silk Board tunnel award",
+        "why": "Adani Enterprises is lowest bidder; no award has been confirmed."
+      },
+      {
+        "claim_ids": [
+          "C-f68d3cf70f"
+        ],
+        "item": "Unsold stock",
+        "why": "ANAROCK says it rose 34% YoY in Q2 2026, the fastest among top seven cities."
+      }
+    ],
+    "zones": [
+      {
+        "micro_markets": [
+          {
+            "claim_ids": [
+              "C-261ac4ede1",
+              "C-21ea62435b",
+              "C-7f5f455186"
+            ],
+            "drivers": "Growth shifting here per JLL; new supply and large JDA parcel.",
+            "name": "Whitefield",
+            "price_text": "Land values +23%",
+            "watch": "Blue Line commissioning and Embassy's 17.9-acre project."
+          },
+          {
+            "claim_ids": [
+              "C-261ac4ede1",
+              "C-3fc3628df2"
+            ],
+            "drivers": "JLL names it among areas where growth is shifting; Red Line proposed.",
+            "name": "Sarjapur Road",
+            "price_text": "",
+            "watch": "Central approval for the Red Line DPR."
+          },
+          {
+            "claim_ids": [
+              "C-c3a64cac00",
+              "C-f16faf3e8a",
+              "C-b8d7fc339a"
+            ],
+            "drivers": "Blue Line passes through; Outer Ring Road section trials expected.",
+            "name": "KR Puram",
+            "price_text": "",
+            "watch": "Blue Line phased commissioning from June 2027 onward."
+          },
+          {
+            "claim_ids": [
+              "C-48d51205e0"
+            ],
+            "drivers": "Brigade Belvedere: 773 units in initial phase.",
+            "name": "Budigere Road",
+            "price_text": "",
+            "watch": "Absorption of the initial phase."
+          },
+          {
+            "claim_ids": [
+              "C-35249e08b2",
+              "C-00ee1e7f6a"
+            ],
+            "drivers": "STRR stretch operational; Karnataka's 71-km expressway section reported opened.",
+            "name": "Hoskote",
+            "price_text": "",
+            "watch": "Remaining 21 km of STRR targeted November 2026."
+          }
+        ],
+        "paragraphs": [
+          {
+            "claim_ids": [
+              "C-261ac4ede1",
+              "C-9228f84fc9",
+              "C-21ea62435b"
+            ],
+            "text": "JLL's Q2 2026 report says Bengaluru prices rose 3.1% and rents 2.5% quarter-on-quarter, with growth shifting to Whitefield, Sarjapur Road and Yelahanka. The same report notes new supply was concentrated along Bellary Road, followed by Hosur Road and Whitefield. Swarajya reports Whitefield land values rose 23 per cent, though the period it covers is not fully stated."
+          },
+          {
+            "claim_ids": [
+              "C-c3a64cac00",
+              "C-b8d7fc339a",
+              "C-f16faf3e8a",
+              "C-3fc3628df2",
+              "C-265e562d8b"
+            ],
+            "text": "Metro is the east's main catalyst. Business Today reports the Blue Line, which passes KR Pura, has reached 72% overall progress, with remaining construction aimed for June 2027 before phased commissioning. Trial runs between KR Pura and HSR Layout were expected by October 2026. The Sarjapur–Hebbal Red Line is a proposal: the cabinet cleared its DPR, but central approval is pending, with completion proposed for April 2033."
+          },
+          {
+            "claim_ids": [
+              "C-48d51205e0",
+              "C-7f5f455186",
+              "C-7e1bbc6630"
+            ],
+            "text": "Developers are committing capital. Brigade Enterprises announced Brigade Belvedere on Budigere Road, a 10.75-acre development with 773 units in the initial phase. Deccan Herald reported that Embassy signed a JDA for a 17.9-acre Whitefield parcel with a projected GDV of ₹1,600 crore. Further out, Hoskote benefits from the 80 km Dobaspet–Hoskote STRR stretch, which has been operational for over two years."
+          }
+        ],
+        "standfirst": "Whitefield, Sarjapur Road and KR Puram are where JLL sees growth shifting, with metro lines and large launches shaping the next phase.",
+        "title": "East: Metro Hopes, Big Launches",
+        "zone": "east"
+      },
+      {
+        "micro_markets": [
+          {
+            "claim_ids": [
+              "C-21a92903ab",
+              "C-67c107e830",
+              "C-da87dc2580"
+            ],
+            "drivers": "Blue Line, suburban rail hub plan, tunnel road projects.",
+            "name": "Hebbal",
+            "price_text": "₹9,500–12,500/sq ft (apartments)",
+            "watch": "Tunnel tender award and Blue Line opening date."
+          },
+          {
+            "claim_ids": [
+              "C-4021caff02",
+              "C-261ac4ede1",
+              "C-1cb2bba75b"
+            ],
+            "drivers": "Blue Line route; JLL cites growth shifting here.",
+            "name": "Yelahanka",
+            "price_text": "₹7,500–9,500/sq ft (apartments)",
+            "watch": "Blue Line phased commissioning after June 2027."
+          },
+          {
+            "claim_ids": [
+              "C-b0c76f18db",
+              "C-1d1f7ad4d9"
+            ],
+            "drivers": "Airport proximity; suburban rail Corridor 1 alignment approved.",
+            "name": "Devanahalli",
+            "price_text": "Plots ₹6,000–10,000/sq ft",
+            "watch": "Land measurement progress and suburban rail timeline."
+          },
+          {
+            "claim_ids": [
+              "C-f88befb39b",
+              "C-d677ced763",
+              "C-6f8777c289"
+            ],
+            "drivers": "KWIN City, Toyota's planned investment, strong plotted-layout sales.",
+            "name": "Doddaballapur",
+            "price_text": "",
+            "watch": "Land allotment of about 300 acres to Toyota."
+          },
+          {
+            "claim_ids": [
+              "C-b04ef95da8"
+            ],
+            "drivers": "Century's Astoria: 334 residences across five towers.",
+            "name": "Jakkur",
+            "price_text": "",
+            "watch": "Construction progress after July 2026 pre-launch."
+          },
+          {
+            "claim_ids": [
+              "C-0c508fb254"
+            ],
+            "drivers": "JLL says new supply was concentrated here in Q2 2026.",
+            "name": "Bellary Road",
+            "price_text": "",
+            "watch": "Absorption of heavy new supply."
+          }
+        ],
+        "paragraphs": [
+          {
+            "claim_ids": [
+              "C-21a92903ab",
+              "C-4021caff02",
+              "C-b0c76f18db"
+            ],
+            "text": "NewsFirst Prime puts Hebbal apartments at ₹9,500–12,500 per sq ft on average and Yelahanka apartments at ₹7,500–9,500 per sq ft. For Devanahalli it cites plots at ₹6,000–10,000 per sq ft and premium villas above ₹10,000 per sq ft, with prices rising 15–20% annually. These are media estimates of asking levels, so compare against live listings before committing."
+          },
+          {
+            "claim_ids": [
+              "C-1cb2bba75b",
+              "C-353ff6a9c3",
+              "C-67c107e830",
+              "C-fce6012a2b"
+            ],
+            "text": "Connectivity is the case for the north, and the delays are the caution. The Blue Line's Phase 2B runs from KR Pura to the airport via Hebbal and Yelahanka (38.44 km), yet Construction World reports the full opening has moved to March 2028. Railway Minister Ashwini Vaishnaw said in May 2026 that suburban rail construction was progressing on all four corridors. Karnataka Cabinet cleared a Rs 2,215 crore Hebbal–Mekhri Circle project."
+          },
+          {
+            "claim_ids": [
+              "C-f88befb39b",
+              "C-c99bc5e741",
+              "C-b04ef95da8"
+            ],
+            "text": "Employment and launches add depth. South First reports Toyota Kirloskar will invest Rs 1,200 crore over five years in KWIN City, with an MoU signed. Embassy Developments launched Embassy Origins, an 85-acre project, on 16 Sept 2026 and reports 62% absorption of launched units within a week. Century Real Estate says The Astoria at Jakkur has crossed ₹550 crore in bookings."
+          }
+        ],
+        "standfirst": "Hebbal, Yelahanka and Devanahalli are drawing launches, with metro, suburban rail and KWIN City all promised, but timelines have slipped.",
+        "title": "North: Airport Belt Gathers Pace",
+        "zone": "north"
+      },
+      {
+        "micro_markets": [
+          {
+            "claim_ids": [
+              "C-922d70ee28",
+              "C-14b8cfc9c2"
+            ],
+            "drivers": "Yellow Line access and a large employment base.",
+            "name": "Electronic City",
+            "price_text": "₹7,000–7,500/sq ft near station",
+            "watch": "Whether forecast appreciation near stations materialises."
+          },
+          {
+            "claim_ids": [
+              "C-c6396c19f1",
+              "C-240547e005"
+            ],
+            "drivers": "Yellow Line terminus; extension studies under way.",
+            "name": "Bommasandra",
+            "price_text": "₹6,000–6,500/sq ft",
+            "watch": "Feasibility outcome for the Attibele extension."
+          },
+          {
+            "claim_ids": [
+              "C-240547e005"
+            ],
+            "drivers": "Proposed 11 km Yellow Line extension from Bommasandra.",
+            "name": "Attibele",
+            "price_text": "",
+            "watch": "Extension is only at feasibility stage."
+          },
+          {
+            "claim_ids": [
+              "C-74b65fbcb2"
+            ],
+            "drivers": "DPR sought for a Yellow Line extension of 11-12 km.",
+            "name": "Jigani",
+            "price_text": "",
+            "watch": "DPR completion and approval."
+          },
+          {
+            "claim_ids": [
+              "C-e4ec3d7446",
+              "C-4a55293c38",
+              "C-0ca77d9e81"
+            ],
+            "drivers": "Tamil Nadu's proposed metro and airport land acquisition.",
+            "name": "Hosur",
+            "price_text": "About ₹5,086/sq ft (asking)",
+            "watch": "Metro incompatibility and airport acquisition progress."
+          },
+          {
+            "claim_ids": [
+              "C-e0502b1800",
+              "C-906f62e9af"
+            ],
+            "drivers": "Second airport site under consideration, about 40 km from centre.",
+            "name": "Harohalli",
+            "price_text": "",
+            "watch": "Feasibility assessment and final site selection."
+          }
+        ],
+        "paragraphs": [
+          {
+            "claim_ids": [
+              "C-922d70ee28",
+              "C-c6396c19f1",
+              "C-14b8cfc9c2",
+              "C-9228f84fc9"
+            ],
+            "text": "JLL's October 2025 insight cited residential prices of INR 7,000-7,500 per sq ft near Electronic City station and INR 6,000-6,500 near Bommasandra. It anticipated appreciation of 10-15% within the following 6-12 months near Yellow Line stations, a forecast rather than an outcome. Hosur Road is also among the areas where JLL saw new supply concentrated in Q2 2026."
+          },
+          {
+            "claim_ids": [
+              "C-4203612a17",
+              "C-eb92ac7878",
+              "C-706a838c92",
+              "C-9c69f41750"
+            ],
+            "text": "The Pink Line is the nearest change. ETV Bharat reports the 7.5-km elevated stretch from Kalena Agrahara to Tavarekere is ready and will open once the Union government confirms an inauguration date. It has six stations, including Hulimavu, IIMB and an interchange at Jayadeva Hospital. A 15 August commissioning target was missed, and a safety inspection was set for 6–8 October."
+          },
+          {
+            "claim_ids": [
+              "C-240547e005",
+              "C-74b65fbcb2",
+              "C-4a55293c38",
+              "C-e0502b1800"
+            ],
+            "text": "Beyond that, plans are early. BMRCL feasibility work covers an 11-km Bommasandra–Attibele extension, and a DPR was sought for a Jigani extension of another 11-12 km. Tamil Nadu is pursuing a 23-km Hosur–Bommasandra metro, though BMRCL has said a direct connection is not technically feasible. Harohalli is under consideration for a second airport on about 9,000 acres, subject to feasibility."
+          }
+        ],
+        "standfirst": "Electronic City, Bommasandra and the Hosur Road belt rely on metro access, while Attibele, Harohalli and Hosur depend on proposals.",
+        "title": "South: Yellow Line and Pink Line",
+        "zone": "south"
+      },
+      {
+        "micro_markets": [
+          {
+            "claim_ids": [
+              "C-1e060ab70a",
+              "C-2b372f92b7",
+              "C-43c5c656b4"
+            ],
+            "drivers": "Planned GBDA township with land notifications issued.",
+            "name": "Bidadi",
+            "price_text": "Apartments down close to 15%",
+            "watch": "Review committee report, farmer litigation and acquisition pace."
+          },
+          {
+            "claim_ids": [
+              "C-032a338afa",
+              "C-56067526da"
+            ],
+            "drivers": "Warehouse leasing hub; also a second-airport option.",
+            "name": "Nelamangala",
+            "price_text": "",
+            "watch": "No final airport site chosen."
+          },
+          {
+            "claim_ids": [
+              "C-5a78da1676",
+              "C-dc31332410",
+              "C-541c38e7d9"
+            ],
+            "drivers": "Nagasandra metro access; yields of 3–4%.",
+            "name": "Tumkur Road",
+            "price_text": "₹5,500–8,500/sq ft",
+            "watch": "Further metro extension stations are only planned."
+          },
+          {
+            "claim_ids": [
+              "C-ce765d2aac"
+            ],
+            "drivers": "Established, central west market.",
+            "name": "Rajajinagar",
+            "price_text": "₹9,000–14,000/sq ft",
+            "watch": "Limited new land supply."
+          },
+          {
+            "claim_ids": [
+              "C-dc31332410"
+            ],
+            "drivers": "Gross yield of 4–5% per Brigade Group.",
+            "name": "Yeshwanthpur",
+            "price_text": "",
+            "watch": "Rental growth holding up."
+          },
+          {
+            "claim_ids": [
+              "C-ddbe529fb7",
+              "C-f26a839b08"
+            ],
+            "drivers": "Phase 3 Magadi Road corridor of 12.5 km.",
+            "name": "Kadabagere",
+            "price_text": "",
+            "watch": "Civil package awards for Phase 3."
+          }
+        ],
+        "paragraphs": [
+          {
+            "claim_ids": [
+              "C-2b372f92b7",
+              "C-9e12cdc362",
+              "C-1e060ab70a",
+              "C-43c5c656b4",
+              "C-ed5c42a42c"
+            ],
+            "text": "The Bidadi township is the west's biggest question. South First reports final notifications for 5,462 acres across seven villages, with the Greater Bengaluru Development Authority as developer, and land priced at ₹2.30 crore an acre for first payments. Swarajya reports apartment prices in Bidadi fell close to 15 per cent last year. The state has formed a review committee, and forty farmer organisations are preparing to move court."
+          },
+          {
+            "claim_ids": [
+              "C-032a338afa",
+              "C-2a195e823f"
+            ],
+            "text": "Nelamangala is the industrial story. Cushman & Wakefield data show Bengaluru warehouse leasing up 78% y/y to 3.1 MSF in H1 2026, with vacancy falling to 11% from 13%, and Nelamangala and Dabaspete leading activity. The western corridor accounted for 52% of leasing, and warehouse rentals are rising 4-5% annually."
+          },
+          {
+            "claim_ids": [
+              "C-5a78da1676",
+              "C-ce765d2aac",
+              "C-dc31332410",
+              "C-541c38e7d9",
+              "C-ddbe529fb7"
+            ],
+            "text": "In established pockets, Brigade Group puts Tumkur Road apartments at ₹5,500–8,500 per sq ft and Rajajinagar at ₹9,000–14,000. It cites gross yields of 4–5% for Yeshwanthpur against 3–4% for Tumkur Road, and notes Nagasandra station gives Tumkur Road operational metro access. Phase 3's Hosahalli–Kadabagere corridor along Magadi Road spans 12.5 km."
+          }
+        ],
+        "standfirst": "The west mixes established Tumkur Road and Rajajinagar markets with a contested Bidadi township and a booming Nelamangala warehouse belt.",
+        "title": "West: Bidadi and Warehouse Corridors",
+        "zone": "west"
+      }
+    ]
+  },
+  "subtype": "success",
+  "task": "magazine_writer_2026-10"
+}

@@ -1,0 +1,1049 @@
+{
+  "X-019fac8a20": {
+    "claim_ids": [
+      "C-bef12f3c06"
+    ],
+    "corridors": [
+      "budigere_cross"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-019fac8a20",
+    "last_seen": "magazine-2026-10",
+    "name": "Metro access, Budigere Cross",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-0b3011496d": {
+    "claim_ids": [
+      "C-38b28444bd"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-0b3011496d",
+    "last_seen": "magazine-2026-10",
+    "name": "DC conversion vs layout approval",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
+  },
+  "X-0c245a2829": {
+    "claim_ids": [
+      "C-81b2a6456c"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-0c245a2829",
+    "last_seen": "magazine-2026-10",
+    "name": "Ramanagara renamed Bengaluru South",
+    "notes": [],
+    "stage": "approved",
+    "stage_history": [
+      {
+        "claim_id": "C-81b2a6456c",
+        "edition": "magazine-2026-10",
+        "event_date": "2024-07-26",
+        "published_at": "2024-07-26",
+        "stage": "approved"
+      }
+    ],
+    "type": "policy"
+  },
+  "X-0de2fccb02": {
+    "claim_ids": [
+      "C-9e12cdc362"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-0de2fccb02",
+    "last_seen": "magazine-2026-10",
+    "name": "Bidadi township first payments",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-1833327f7c": {
+    "claim_ids": [
+      "C-3a68f75064",
+      "C-fd89b9a4f0"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-1833327f7c",
+    "last_seen": "magazine-2026-10",
+    "name": "Greater Bengaluru Integrated Township (Bidadi) land compensation",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-21c8d0f1e5": {
+    "claim_ids": [
+      "C-62b4bfea4d",
+      "C-b790c50f6d"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-21c8d0f1e5",
+    "last_seen": "magazine-2026-10",
+    "name": "Karnataka guidance value revision April 2026",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-2603b56d32": {
+    "claim_ids": [
+      "C-3f23db1a8d",
+      "C-df5ed04b71"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-2603b56d32",
+    "last_seen": "magazine-2026-10",
+    "name": "Greater Bengaluru Integrated Township (Bidadi)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-28320ce6b8": {
+    "claim_ids": [
+      "C-bd8bed6454"
+    ],
+    "corridors": [
+      "varthur_gunjur"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-28320ce6b8",
+    "last_seen": "magazine-2026-10",
+    "name": "Varthur–Gunjur road widening (SH-35)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-2a43cc6e63": {
+    "claim_ids": [
+      "C-19824a9075"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-2a43cc6e63",
+    "last_seen": "magazine-2026-10",
+    "name": "BMRDA role in layout approval",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
+  },
+  "X-2bd7ecb260": {
+    "claim_ids": [
+      "C-8b59be389c"
+    ],
+    "corridors": [
+      "kr_puram_hoskote"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-2bd7ecb260",
+    "last_seen": "magazine-2026-10",
+    "name": "KR Puram–Hoskote extension",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-2c049a21b8": {
+    "claim_ids": [
+      "C-ee3b293998"
+    ],
+    "corridors": [
+      "kr_puram_hoskote"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-2c049a21b8",
+    "last_seen": "magazine-2026-10",
+    "name": "KR Puram–Hoskote double-decker corridor",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-2e1616fa56": {
+    "claim_ids": [
+      "C-9148583abc"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-2e1616fa56",
+    "last_seen": "magazine-2026-10",
+    "name": "Metro extension to Bidadi",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-34558c87b9": {
+    "claim_ids": [
+      "C-1b05811fe5"
+    ],
+    "corridors": [
+      "devanahalli_airport"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-34558c87b9",
+    "last_seen": "magazine-2026-10",
+    "name": "Metro link to Doddaballapur",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-3c1cdb2a11": {
+    "claim_ids": [
+      "C-13cd24bdfa"
+    ],
+    "corridors": [],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-3c1cdb2a11",
+    "last_seen": "2026-10-15",
+    "name": "Industrial townships around Bengaluru",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-3d26266990": {
+    "claim_ids": [
+      "C-2adf6eb910"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-3d26266990",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru West City Corporation",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-3eb4a80684": {
+    "claim_ids": [
+      "C-240547e005"
+    ],
+    "corridors": [
+      "electronic_city"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-3eb4a80684",
+    "last_seen": "magazine-2026-10",
+    "name": "Bommasandra–Attibele and Silk Institute–Harohalli metro extensions",
+    "notes": [],
+    "stage": "proposed",
+    "stage_history": [
+      {
+        "claim_id": "C-240547e005",
+        "edition": "magazine-2026-10",
+        "event_date": null,
+        "published_at": "2026-10-05",
+        "stage": "proposed"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "X-4d7b01502f": {
+    "claim_ids": [
+      "C-8361e3dcbd"
+    ],
+    "corridors": [
+      "kr_puram_hoskote"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-4d7b01502f",
+    "last_seen": "magazine-2026-10",
+    "name": "Sobha One World – One Residences RERA",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
+  },
+  "X-4dd892dd8b": {
+    "claim_ids": [
+      "C-6de5c878a0"
+    ],
+    "corridors": [
+      "devanahalli_airport"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-4dd892dd8b",
+    "last_seen": "magazine-2026-10",
+    "name": "Devanahalli layout approvals",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-5e28d1f398": {
+    "claim_ids": [
+      "C-758fdf53d6"
+    ],
+    "corridors": [
+      "kanakapura_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-5e28d1f398",
+    "last_seen": "magazine-2026-10",
+    "name": "Green Line extension Silk Institute–Harohalli",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-62b8c1b1ea": {
+    "claim_ids": [
+      "C-e912ec23fd"
+    ],
+    "corridors": [
+      "tumkur_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-62b8c1b1ea",
+    "last_seen": "magazine-2026-10",
+    "name": "Nelamangala LPA Masterplan 2031",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
+  },
+  "X-7853fffed3": {
+    "claim_ids": [
+      "C-7a01e437eb"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-7853fffed3",
+    "last_seen": "magazine-2026-10",
+    "name": "Bidadi township / GBDA",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-7ce4ae11e8": {
+    "claim_ids": [
+      "C-a03e01302c"
+    ],
+    "corridors": [
+      "kr_puram_hoskote"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-7ce4ae11e8",
+    "last_seen": "magazine-2026-10",
+    "name": "KR Pura–Hoskote metro corridor",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-834561df5a": {
+    "claim_ids": [
+      "C-d4e0591cc1"
+    ],
+    "corridors": [
+      "devanahalli_airport"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-834561df5a",
+    "last_seen": "2026-10-15",
+    "name": "Sadahalli underpass",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-8995b1a2f6": {
+    "claim_ids": [
+      "C-5abe130c83"
+    ],
+    "corridors": [
+      "south_core"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-8995b1a2f6",
+    "last_seen": "magazine-2026-10",
+    "name": "Phase 3 JP Nagar 4th Phase–Kempapura",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-8e04b76701": {
+    "claim_ids": [
+      "C-6498e15064"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-8e04b76701",
+    "last_seen": "magazine-2026-10",
+    "name": "Greater Bengaluru Authority – five city corporations",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-990aef041a": {
+    "claim_ids": [
+      "C-1f5de2ea12"
+    ],
+    "corridors": [],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-990aef041a",
+    "last_seen": "2026-10-15",
+    "name": "Bengaluru 10–15 year development plan: Metro expansion by 2037",
+    "notes": [],
+    "stage": "proposed",
+    "stage_history": [
+      {
+        "claim_id": "C-1f5de2ea12",
+        "edition": "2026-10-15",
+        "event_date": "2026-10-05",
+        "published_at": "2026-10-05",
+        "stage": "proposed"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "X-99938224af": {
+    "claim_ids": [
+      "C-fce6012a2b"
+    ],
+    "corridors": [
+      "hebbal_yelahanka"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-99938224af",
+    "last_seen": "magazine-2026-10",
+    "name": "Hebbal–Mekhri Circle short tunnel and elevated corridor",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-9ffef920b9": {
+    "claim_ids": [
+      "C-a0f7c015eb"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-9ffef920b9",
+    "last_seen": "magazine-2026-10",
+    "name": "Bidadi township approval authority",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-b03628a24b": {
+    "claim_ids": [
+      "C-3eb2971146"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-b03628a24b",
+    "last_seen": "magazine-2026-10",
+    "name": "Madavara–Tumakuru metro cost",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-b6ad3406b8": {
+    "claim_ids": [
+      "C-56067526da"
+    ],
+    "corridors": [
+      "tumkur_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-b6ad3406b8",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru second airport shortlist (Nelamangala/Kanakapura)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-ba94b81578": {
+    "claim_ids": [
+      "C-da3a3a27f7"
+    ],
+    "corridors": [
+      "kanakapura_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-ba94b81578",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Green Line southern extension (Kanakapura Road)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-be77fd654c": {
+    "claim_ids": [
+      "C-6137acc53a"
+    ],
+    "corridors": [],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-be77fd654c",
+    "last_seen": "2026-10-15",
+    "name": "GBA road network objections process",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-bf51deb34c": {
+    "claim_ids": [
+      "C-f26a839b08"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-bf51deb34c",
+    "last_seen": "magazine-2026-10",
+    "name": "Phase 3 scope",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-bfef6954a8": {
+    "claim_ids": [
+      "C-df07c917d9"
+    ],
+    "corridors": [
+      "mysore_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-bfef6954a8",
+    "last_seen": "magazine-2026-10",
+    "name": "Bidadi layout approval authority (BMICAPA)",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-c1882f38dd": {
+    "claim_ids": [
+      "C-411c3a5eb7",
+      "C-906f62e9af"
+    ],
+    "corridors": [
+      "kanakapura_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-c1882f38dd",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru second airport",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-c556b7f69f": {
+    "claim_ids": [
+      "C-e0502b1800"
+    ],
+    "corridors": [
+      "kanakapura_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-c556b7f69f",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru second airport (Harohalli)",
+    "notes": [],
+    "stage": "proposed",
+    "stage_history": [
+      {
+        "claim_id": "C-e0502b1800",
+        "edition": "magazine-2026-10",
+        "event_date": null,
+        "published_at": "2026-07-10",
+        "stage": "proposed"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "X-ca1e640e64": {
+    "claim_ids": [
+      "C-0ca77d9e81"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-ca1e640e64",
+    "last_seen": "magazine-2026-10",
+    "name": "Hosur (Tamil Nadu) airport",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-d0c2900fff": {
+    "claim_ids": [
+      "C-1ea5def224"
+    ],
+    "corridors": [
+      "hebbal_yelahanka"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-d0c2900fff",
+    "last_seen": "magazine-2026-10",
+    "name": "Phase 3 civil tenders",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-d28907cf52": {
+    "claim_ids": [
+      "C-2080cc6dcd"
+    ],
+    "corridors": [],
+    "first_seen": "2026-10-15",
+    "infra_id": "X-d28907cf52",
+    "last_seen": "2026-10-15",
+    "name": "GBA proposed road network (master plan) maps",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "policy"
+  },
+  "X-d31188eaed": {
+    "claim_ids": [
+      "C-3d1a00ec70"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-d31188eaed",
+    "last_seen": "magazine-2026-10",
+    "name": "Proposed Hosur international airport",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-d69a44575b": {
+    "claim_ids": [
+      "C-1184a82ae2"
+    ],
+    "corridors": [
+      "kanakapura_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-d69a44575b",
+    "last_seen": "magazine-2026-10",
+    "name": "Green Line Silk Institute–Harohalli extension",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-e04fba33ae": {
+    "claim_ids": [
+      "C-541c38e7d9"
+    ],
+    "corridors": [
+      "tumkur_road"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-e04fba33ae",
+    "last_seen": "magazine-2026-10",
+    "name": "Green Line / Tumkur Road metro access",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-e1f6774322": {
+    "claim_ids": [
+      "C-4a55293c38"
+    ],
+    "corridors": [
+      "electronic_city"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-e1f6774322",
+    "last_seen": "magazine-2026-10",
+    "name": "Hosur–Bommasandra metro link",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "X-e7207b0d76": {
+    "claim_ids": [
+      "C-eac5c99cdf"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-e7207b0d76",
+    "last_seen": "magazine-2026-10",
+    "name": "Layout approval and khata checks",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "legal"
+  },
+  "X-fd7eef82e8": {
+    "claim_ids": [
+      "C-87085573aa"
+    ],
+    "corridors": [],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "X-fd7eef82e8",
+    "last_seen": "magazine-2026-10",
+    "name": "Madavara–Tumakuru metro",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "cauvery_stage5": {
+    "claim_ids": [
+      "C-0bf395a526",
+      "C-c25d0caea5"
+    ],
+    "corridors": [
+      "electronic_city",
+      "kr_puram_hoskote",
+      "orr_east",
+      "panathur_balagere",
+      "sarjapur_road",
+      "varthur_gunjur",
+      "whitefield"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "cauvery_stage5",
+    "last_seen": "magazine-2026-10",
+    "name": "Cauvery Stage V water supply",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "chennai_expressway": {
+    "claim_ids": [
+      "C-00ee1e7f6a",
+      "C-5398c179bd"
+    ],
+    "corridors": [
+      "kr_puram_hoskote"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "chennai_expressway",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru–Chennai Expressway",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "namma_metro_blue": {
+    "claim_ids": [
+      "C-6eb9b59f59",
+      "C-c3a64cac00",
+      "C-b8d7fc339a",
+      "C-ed6b379c95",
+      "C-1cb2bba75b",
+      "C-353ff6a9c3",
+      "C-d06f3a9313",
+      "C-1b46e72cc3",
+      "C-c9dd0c6526",
+      "C-f16faf3e8a",
+      "C-730a515634",
+      "C-14a3d40aef"
+    ],
+    "corridors": [
+      "devanahalli_airport",
+      "hebbal_yelahanka",
+      "hennur_bagalur",
+      "kr_puram_hoskote",
+      "orr_east",
+      "south_core"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "namma_metro_blue",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Blue Line (ORR / Airport)",
+    "notes": [],
+    "stage": "under_construction",
+    "stage_history": [
+      {
+        "claim_id": "C-c3a64cac00",
+        "edition": "magazine-2026-10",
+        "event_date": null,
+        "published_at": "2026-08-06",
+        "stage": "under_construction"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "namma_metro_phase3": {
+    "claim_ids": [
+      "C-c937c10493",
+      "C-41deada7da",
+      "C-bf7e756acb",
+      "C-ddbe529fb7"
+    ],
+    "corridors": [
+      "devanahalli_airport",
+      "magadi_road",
+      "south_core",
+      "west_core"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "namma_metro_phase3",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Phase 3",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "namma_metro_pink": {
+    "claim_ids": [
+      "C-0ec99bd59b",
+      "C-3b0929c9a4",
+      "C-eb92ac7878",
+      "C-9c69f41750"
+    ],
+    "corridors": [
+      "bannerghatta_road",
+      "hennur_bagalur"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "namma_metro_pink",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Pink Line",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "namma_metro_purple": {
+    "claim_ids": [
+      "C-d42d4c994b",
+      "C-e61adc57a2",
+      "C-b3f8d5aeb9"
+    ],
+    "corridors": [
+      "kr_puram_hoskote",
+      "mysore_road",
+      "whitefield"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "namma_metro_purple",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Purple Line",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "namma_metro_yellow": {
+    "claim_ids": [
+      "C-e6682a2b50",
+      "C-ec352bc66a",
+      "C-74b65fbcb2",
+      "C-1cb05734f0"
+    ],
+    "corridors": [
+      "electronic_city",
+      "south_core"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "namma_metro_yellow",
+    "last_seen": "magazine-2026-10",
+    "name": "Namma Metro Yellow Line",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "prr_bbc": {
+    "claim_ids": [
+      "C-2ad09aafbe",
+      "C-1515677ce6",
+      "C-f77cf1ffab",
+      "C-8864189512"
+    ],
+    "corridors": [
+      "budigere_cross",
+      "electronic_city",
+      "hebbal_yelahanka",
+      "hennur_bagalur",
+      "prr_bbc",
+      "tumkur_road",
+      "whitefield"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "prr_bbc",
+    "last_seen": "magazine-2026-10",
+    "name": "Peripheral Ring Road / Bengaluru Business Corridor",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  },
+  "sarjapur_hebbal_metro": {
+    "claim_ids": [
+      "C-450f9e7f3e",
+      "C-3fc3628df2",
+      "C-265e562d8b",
+      "C-b674f2bb50",
+      "C-2f08b887ac"
+    ],
+    "corridors": [
+      "hebbal_yelahanka",
+      "orr_east",
+      "sarjapur_road",
+      "south_core"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "sarjapur_hebbal_metro",
+    "last_seen": "magazine-2026-10",
+    "name": "Sarjapur–Hebbal metro (Phase 3A)",
+    "notes": [],
+    "stage": "approved",
+    "stage_history": [
+      {
+        "claim_id": "C-450f9e7f3e",
+        "edition": "2026-10-15",
+        "event_date": null,
+        "published_at": "2026-07-18",
+        "stage": "proposed"
+      },
+      {
+        "claim_id": "C-3fc3628df2",
+        "edition": "magazine-2026-10",
+        "event_date": "2025-01-01",
+        "published_at": "2026-07-18",
+        "stage": "approved"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "strr": {
+    "claim_ids": [
+      "C-a742864100",
+      "C-960c385f69",
+      "C-bb6cf07b90",
+      "C-35249e08b2",
+      "C-53f80fe06b",
+      "C-a926208a1c",
+      "C-7e1bbc6630",
+      "C-40fdc1928d"
+    ],
+    "corridors": [
+      "bannerghatta_road",
+      "devanahalli_airport",
+      "electronic_city",
+      "kr_puram_hoskote",
+      "mysore_road",
+      "strr",
+      "tumkur_road"
+    ],
+    "first_seen": "2026-10-15",
+    "infra_id": "strr",
+    "last_seen": "magazine-2026-10",
+    "name": "Satellite Town Ring Road",
+    "notes": [
+      "magazine-2026-10: source C-40fdc1928d describes stage 'tendered' (tracked: 'operational') - review"
+    ],
+    "stage": "operational",
+    "stage_history": [
+      {
+        "claim_id": "C-bb6cf07b90",
+        "edition": "magazine-2026-10",
+        "event_date": "2024-03-11",
+        "published_at": "2024-08-09",
+        "stage": "operational"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "suburban_rail": {
+    "claim_ids": [
+      "C-67c107e830",
+      "C-9e421472b8",
+      "C-7f37f0b82e",
+      "C-4ccb01be81",
+      "C-1d1f7ad4d9",
+      "C-aa04b8d64c",
+      "C-9e013b0621"
+    ],
+    "corridors": [
+      "devanahalli_airport",
+      "hebbal_yelahanka",
+      "hennur_bagalur",
+      "kr_puram_hoskote",
+      "mysore_road",
+      "tumkur_road",
+      "whitefield"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "suburban_rail",
+    "last_seen": "magazine-2026-10",
+    "name": "Bengaluru Suburban Rail (K-RIDE)",
+    "notes": [
+      "magazine-2026-10: source C-4ccb01be81 describes stage 'tendered' (tracked: 'awarded') - review",
+      "magazine-2026-10: source C-1d1f7ad4d9 describes stage 'approved' (tracked: 'awarded') - review"
+    ],
+    "stage": "awarded",
+    "stage_history": [
+      {
+        "claim_id": "C-7f37f0b82e",
+        "edition": "magazine-2026-10",
+        "event_date": null,
+        "published_at": "2026-06-29",
+        "stage": "awarded"
+      }
+    ],
+    "type": "infrastructure"
+  },
+  "tunnel_road": {
+    "claim_ids": [
+      "C-6b46d4e6cc",
+      "C-0e60934995",
+      "C-84de61d88c",
+      "C-da87dc2580"
+    ],
+    "corridors": [
+      "hebbal_yelahanka",
+      "south_core"
+    ],
+    "first_seen": "magazine-2026-10",
+    "infra_id": "tunnel_road",
+    "last_seen": "magazine-2026-10",
+    "name": "Hebbal–Silk Board tunnel road",
+    "notes": [],
+    "stage": null,
+    "stage_history": [],
+    "type": "infrastructure"
+  }
+}

@@ -1,0 +1,180 @@
+# Bengaluru corridor map.
+#
+# Rules (enforced by tests/test_corridors.py):
+#  * Every locality alias belongs to exactly ONE corridor (its primary corridor),
+#    so a project is counted once even if it sits between regions.
+#  * `straddles` lists other regions a corridor is commonly described under.
+#    The report mentions straddling but counts totals only under `region`.
+#  * Centroids are approximate (WGS84) and only used to flag mismatches when a
+#    project has its own map reference (distance > geo_check_km).
+#  * Matching is case-insensitive and longest-alias-first, so "Sarjapur Road"
+#    wins over "Sarjapur" and "Old Madras Road" over "Madras".
+#
+# Classification notes record WHY a corridor is placed in a region; these are
+# analyst judgements based on BBMP/GBA zone usage and common market usage, not
+# legal boundaries. Revisit when the Greater Bengaluru Authority city
+# corporations publish final ward/zone maps.
+
+geo_check_km: 6
+
+regions:
+  east:  {name: East Bengaluru, priority: 1}
+  north: {name: North Bengaluru, priority: 2}
+  south: {name: South Bengaluru, priority: 2}
+  west:  {name: West Bengaluru, priority: 2}
+  peripheral: {name: Peripheral & connecting corridors, priority: 3}
+
+corridors:
+  whitefield:
+    name: Whitefield & surroundings
+    region: east
+    centroid: [12.9698, 77.7500]
+    classification_note: Mahadevapura zone; unambiguously East.
+    aliases: [Whitefield, ITPL, ITPB, Kadugodi, Hoodi, Brookefield, Mahadevapura, Kundalahalli,
+              Nallurhalli, Hope Farm, Channasandra, Immadihalli, Belathur, Seegehalli, Kannamangala]
+  orr_east:
+    name: ORR East (Marathahalli–Bellandur)
+    region: east
+    straddles: [south]
+    centroid: [12.9400, 77.6950]
+    classification_note: Outer Ring Road tech belt; Bellandur end is often called South-East.
+    aliases: [Marathahalli, Bellandur, Kadubeesanahalli, Devarabisanahalli, Kariyammana Agrahara,
+              Doddanekundi, Munnekolala, Outer Ring Road East, ORR East, Ecospace, Embassy Tech Village]
+  varthur_gunjur:
+    name: Varthur–Gunjur
+    region: east
+    centroid: [12.9380, 77.7420]
+    classification_note: South of Whitefield; Varthur lake catchment; flood/water risk relevant.
+    aliases: [Varthur, Gunjur, Ramagondanahalli, Siddapura Varthur, Halasahalli, Kachamaranahalli, Gunjur Palya]
+  panathur_balagere:
+    name: Panathur–Balagere
+    region: east
+    centroid: [12.9350, 77.7150]
+    classification_note: Between ORR and Varthur; connected by Panathur RUB/road.
+    aliases: [Panathur, Balagere, Panathur Road, Balagere Road]
+  sarjapur_road:
+    name: Sarjapur Road
+    region: east
+    straddles: [south]
+    centroid: [12.9000, 77.7100]
+    classification_note: Starts at the ORR/Wipro junction (South-East) and runs to Sarjapur town; market listings use both East and South.
+    aliases: [Sarjapur Road, Sarjapura Road, Sarjapur, Sarjapura, Kaikondrahalli, Kasavanahalli, Carmelaram,
+              Dommasandra, Chikkakannalli, Harlur, Doddakannelli, Kodathi, Dommasandra Circle, Mullur, Haralur]
+  budigere_cross:
+    name: Budigere Cross
+    region: east
+    straddles: [north]
+    centroid: [13.0300, 77.7550]
+    classification_note: Off Old Madras Road towards Devanahalli; links East to the airport region.
+    aliases: [Budigere Cross, Budigere, Avalahalli, Bidarahalli, Mandur, Hirandahalli, Kithiganur]
+  kr_puram_hoskote:
+    name: KR Puram–Hoskote (Old Madras Road / NH-75)
+    region: east
+    centroid: [13.0400, 77.7600]
+    classification_note: Old Madras Road corridor; Hoskote is outside GBA limits (Bengaluru Rural district).
+    aliases: [KR Puram, K R Puram, Krishnarajapuram, Battarahalli, Medahalli, Virgonagar, Kattamnallur,
+              Hoskote, Old Madras Road, Tin Factory, Bhattarahalli]
+
+  hennur_bagalur:
+    name: Hennur–Thanisandra–Bagalur
+    region: north
+    straddles: [east]
+    centroid: [13.0600, 77.6450]
+    classification_note: North-East; Bagalur side is airport-adjacent.
+    aliases: [Hennur, Hennur Road, Thanisandra, Kothanur, Bagalur, Bagalur Road, Hegde Nagar, Rachenahalli, Kannur]
+  hebbal_yelahanka:
+    name: Hebbal–Yelahanka
+    region: north
+    centroid: [13.0700, 77.5950]
+    classification_note: Bellary Road (NH-44) inner-north.
+    aliases: [Hebbal, Yelahanka, Jakkur, Sahakar Nagar, Kogilu, Bellary Road, Amruthahalli, Byatarayanapura, Kodigehalli]
+  devanahalli_airport:
+    name: Devanahalli–Airport region
+    region: north
+    centroid: [13.2400, 77.7100]
+    classification_note: Kempegowda International Airport catchment incl. KIADB Aerospace/ITIR area.
+    aliases: [Devanahalli, Kempegowda International Airport, Bengaluru airport, Bettahalasur, Chikkajala,
+              Aerospace Park, KIADB Aerospace, Doddaballapur Road, Doddaballapur, Vidya Nagar Devanahalli, Sadahalli]
+
+  electronic_city:
+    name: Electronic City–Hosur Road–Chandapura
+    region: south
+    centroid: [12.8450, 77.6600]
+    classification_note: Hosur Road IT belt to the Tamil Nadu border.
+    aliases: [Electronic City, Electronics City, Hosur Road, Bommasandra, Chandapura, Attibele, Anekal,
+              Jigani, Hebbagodi, Huskur, Begur, Hongasandra]
+  bannerghatta_road:
+    name: Bannerghatta Road
+    region: south
+    centroid: [12.8800, 77.6000]
+    classification_note: Inner-south corridor along Bannerghatta Road.
+    aliases: [Bannerghatta Road, Bannerghatta, Hulimavu, Arekere, Gottigere, Kalena Agrahara]
+  kanakapura_road:
+    name: Kanakapura Road
+    region: south
+    centroid: [12.8600, 77.5400]
+    classification_note: South-west radial; Harohalli is outside GBA limits.
+    aliases: [Kanakapura Road, Thalaghattapura, Talaghattapura, Konanakunte, Harohalli, Doddakallasandra, Vajarahalli]
+  south_core:
+    name: South core (Koramangala–HSR–JP Nagar)
+    region: south
+    centroid: [12.9300, 77.6100]
+    classification_note: Established inner-south; included for liquidity benchmarks.
+    aliases: [Koramangala, HSR Layout, BTM Layout, Jayanagar, JP Nagar, J P Nagar, Banashankari, Silk Board]
+
+  mysore_road:
+    name: Mysore Road–Kengeri–Bidadi
+    region: west
+    straddles: [south]
+    centroid: [12.9200, 77.4900]
+    classification_note: South-West radial; Bidadi township is in Ramanagara/Bengaluru South district.
+    aliases: [Mysore Road, Mysuru Road, Kengeri, Bidadi, RR Nagar, Rajarajeshwari Nagar, Nayandahalli, Challaghatta]
+  tumkur_road:
+    name: Tumkur Road–Nelamangala
+    region: west
+    straddles: [north]
+    centroid: [13.0500, 77.5000]
+    classification_note: North-West industrial corridor (Peenya, NH-48).
+    aliases: [Tumkur Road, Tumakuru Road, Nelamangala, Peenya, Dasarahalli, Jalahalli, Madanayakanahalli, Makali]
+  magadi_road:
+    name: Magadi Road
+    region: west
+    centroid: [12.9800, 77.4700]
+    classification_note: West radial; Phase 3 metro (Hosahalli–Kadabagere) catchment.
+    aliases: [Magadi Road, Sunkadakatte, Tavarekere, Machohalli, Kadabagere, Hosahalli]
+  west_core:
+    name: West core (Rajajinagar–Malleshwaram–Yeshwanthpur)
+    region: west
+    centroid: [12.9950, 77.5550]
+    classification_note: Established inner-west; liquidity benchmark.
+    aliases: [Rajajinagar, Malleshwaram, Yeshwanthpur, Yeshwantpur, Vijayanagar, Basaveshwaranagar]
+
+  strr:
+    name: Satellite Town Ring Road (STRR)
+    region: peripheral
+    centroid: [12.9700, 77.6000]
+    classification_note: Outer ring through Hoskote, Dabaspet, Ramanagara, Anekal; affects several corridors.
+    aliases: [Satellite Town Ring Road, STRR, Dabaspet]
+  prr_bbc:
+    name: Peripheral Ring Road / Bengaluru Business Corridor
+    region: peripheral
+    centroid: [13.0000, 77.6000]
+    classification_note: Proposed ring between ORR and STRR; renamed Bengaluru Business Corridor.
+    aliases: [Peripheral Ring Road, Bengaluru Business Corridor, PRR, BBC corridor]
+
+# Reference mapping of named infrastructure to corridors it could affect.
+# This is NOT evidence of status. Stage is assigned only from dated evidence.
+# `match`: any phrase (case-insensitive) found in a claim's subject links it here.
+infrastructure_links:
+  namma_metro_purple:  {name: Namma Metro Purple Line, match: [purple line], corridors: [whitefield, kr_puram_hoskote, mysore_road]}
+  namma_metro_blue:    {name: Namma Metro Blue Line (ORR / Airport), match: [blue line, phase 2a, phase 2b, airport metro, silk board-kr puram, kr puram-airport], corridors: [orr_east, kr_puram_hoskote, hebbal_yelahanka, hennur_bagalur, devanahalli_airport, south_core]}
+  namma_metro_pink:    {name: Namma Metro Pink Line, match: [pink line, kalena agrahara-nagawara], corridors: [bannerghatta_road, hennur_bagalur]}
+  namma_metro_yellow:  {name: Namma Metro Yellow Line, match: [yellow line, rv road-bommasandra], corridors: [electronic_city, south_core]}
+  namma_metro_phase3:  {name: Namma Metro Phase 3, match: [metro phase 3, phase-3, phase iii, jp nagar-kempapura, hosahalli-kadabagere], corridors: [magadi_road, west_core, south_core]}
+  sarjapur_hebbal_metro: {name: Sarjapur–Hebbal metro (Phase 3A), match: [sarjapur-hebbal, sarjapur–hebbal, phase 3a, red line], corridors: [sarjapur_road, orr_east, south_core, hebbal_yelahanka]}
+  suburban_rail:       {name: Bengaluru Suburban Rail (K-RIDE), match: [suburban rail, k-ride, kride, mallige line, kanaka line, sampige line, parijata line], corridors: [whitefield, hebbal_yelahanka, devanahalli_airport, tumkur_road, mysore_road, hennur_bagalur, kr_puram_hoskote]}
+  strr:                {name: Satellite Town Ring Road, match: [satellite town ring road, strr], corridors: [strr, kr_puram_hoskote, electronic_city, devanahalli_airport, mysore_road]}
+  prr_bbc:             {name: Peripheral Ring Road / Bengaluru Business Corridor, match: [peripheral ring road, bengaluru business corridor, prr], corridors: [prr_bbc, whitefield, budigere_cross, hennur_bagalur, electronic_city, tumkur_road, hebbal_yelahanka]}
+  tunnel_road:         {name: Hebbal–Silk Board tunnel road, match: [tunnel road], corridors: [hebbal_yelahanka, south_core]}
+  chennai_expressway:  {name: Bengaluru–Chennai Expressway, match: [chennai expressway, bengaluru-chennai expressway], corridors: [kr_puram_hoskote]}
+  cauvery_stage5:      {name: Cauvery Stage V water supply, match: [cauvery stage v, cauvery stage 5, cauvery 5th stage, cauvery water], corridors: [whitefield, orr_east, varthur_gunjur, panathur_balagere, sarjapur_road, kr_puram_hoskote]}
