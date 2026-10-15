@@ -96,8 +96,9 @@ def _fmt_value(f: dict) -> str:
     num = f"{v:,.0f}" if float(v).is_integer() else f"{v:,.2f}".rstrip("0").rstrip(".")
     if "crore" in u:
         return f"₹{num} crore"
-    if "bn" in u or "billion" in u:
-        return f"₹{num} bn"
+    if "bn" in u or "billion" in u:                            # 1 billion = 100 crore (display conversion)
+        cr = v * 100
+        return f"₹{cr:,.0f} crore" if float(cr).is_integer() else f"₹{cr:,.1f} crore"
     if "million" in u and ("inr" in u or "rs" in u):          # 10 million = 1 crore (display conversion)
         cr = v / 10
         return f"₹{cr:,.0f} crore" if float(cr).is_integer() else f"₹{cr:,.1f} crore"
