@@ -1,4 +1,220 @@
 {
+  "clusters": [
+    {
+      "agency": "Bangalore Development Authority (BDA)",
+      "area": "",
+      "coords": null,
+      "distance_km": null,
+      "full_name": "Dr K Shivaram Karanth Layout (BDA)",
+      "headline": "Dr Shivaram Karanth Layout: BDA Site Allotment Moves Ahead",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "BDA layout",
+      "kind_id": "layout",
+      "name": "Dr Shivaram Karanth Layout",
+      "slug": "dr-shivaram-karanth-layout",
+      "stage": "Approved",
+      "stage_id": "approved",
+      "standfirst": "The BDA's north Bengaluru layout has High Court approval for allotment. Reports cite 2,500 sites for the public, but site and price figures conflict.",
+      "town": "Bengaluru",
+      "where": "Within Bengaluru"
+    },
+    {
+      "agency": "Bangalore Development Authority (BDA)",
+      "area": "",
+      "coords": null,
+      "distance_km": null,
+      "full_name": "Bengaluru Business Corridor (rebranded Peripheral Ring Road two)",
+      "headline": "Bengaluru Business Corridor: Rebranded Ring Road Gains Pace",
+      "investment": "₹27,000 crore",
+      "investment_kind": "Approved project cost",
+      "kind": "Corridor",
+      "kind_id": "corridor",
+      "name": "Bengaluru Business Corridor",
+      "slug": "bengaluru-business-corridor",
+      "stage": "Awarded",
+      "stage_id": "awarded",
+      "standfirst": "The BDA's corridor linking Tumakuru Road and Hosur Road has awarded its first package, with land acquisition still under way and costs estimated near Rs 27,000 crore.",
+      "town": "Bengaluru",
+      "where": "Ring corridor around the city"
+    },
+    {
+      "agency": "Karnataka Government (Industries Dept) / KIADB",
+      "area": "1,000 acres",
+      "coords": [
+        12.86,
+        77.786
+      ],
+      "distance_km": 23,
+      "full_name": "SWIFT City (Startups, Work, Innovation, Finance and Tech)",
+      "headline": "SWIFT City: Sarjapura's Planned Tech and Finance Hub",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "Tech city",
+      "kind_id": "tech_city",
+      "name": "SWIFT City",
+      "slug": "swift-city",
+      "stage": "Announced",
+      "stage_id": "announced",
+      "standfirst": "Karnataka has set aside about 1,000 acres in Sarjapura Industrial Area for SWIFT City. So far evidence is limited to announcements, with no tender or construction found.",
+      "town": "Sarjapur",
+      "where": "≈23 km from centre"
+    },
+    {
+      "agency": "Karnataka Dept of IT/BT & Science and Technology (Karnataka Quantum Mission)",
+      "area": "6.17 acres",
+      "coords": [
+        13.14,
+        77.48
+      ],
+      "distance_km": 23,
+      "full_name": "Quantum City (Q-City), Hesaraghatta",
+      "headline": "Q-City: Hesaraghatta's Quantum Ambitions Start Small",
+      "investment": "₹1,000 crore",
+      "investment_kind": "Government budget allocation",
+      "kind": "Tech city",
+      "kind_id": "tech_city",
+      "name": "Q-City",
+      "slug": "q-city",
+      "stage": "Approved",
+      "stage_id": "approved",
+      "standfirst": "Karnataka has allocated 6.17 acres at Hesaraghatta for Quantum City. The Rs 1,000 crore figure is mission funding, not a Q-City budget.",
+      "town": "Hesaraghatta",
+      "where": "≈23 km from centre"
+    },
+    {
+      "agency": "Greater Bengaluru Development Authority (GBDA)",
+      "area": "9,600 acres",
+      "coords": [
+        12.797,
+        77.39
+      ],
+      "distance_km": 31,
+      "full_name": "Greater Bengaluru Integrated Township (GBIT), Bidadi, branded 'AI City'",
+      "headline": "Bidadi Township: Bengaluru's Contested 'AI City'",
+      "investment": "₹18,133 crore",
+      "investment_kind": "Approved project cost",
+      "kind": "AI city",
+      "kind_id": "ai_city",
+      "name": "Bidadi Township / AI City",
+      "slug": "bidadi-township-ai-city",
+      "stage": "Approved",
+      "stage_id": "approved",
+      "standfirst": "The Greater Bengaluru Integrated Township is approved, but farmer opposition and inconsistent acreage and cost figures across outlets leave open questions for nearby buyers.",
+      "town": "Bidadi",
+      "where": "≈31 km from centre"
+    },
+    {
+      "agency": "KIADB",
+      "area": "",
+      "coords": [
+        13.247,
+        77.712
+      ],
+      "distance_km": 32,
+      "full_name": "KIADB Aerospace Park expansion (Hi-Tech Defence and Aerospace Park), Devanahalli",
+      "headline": "Devanahalli Aerospace Park: Land Plans Remain Unsettled",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "Aerospace & defence",
+      "kind_id": "aerospace_defence",
+      "name": "Devanahalli Aerospace Park",
+      "slug": "devanahalli-aerospace-park",
+      "stage": "Stage unclear",
+      "stage_id": "unclear",
+      "standfirst": "KIADB's aerospace park expansion near the airport has seen acquisition dropped, then fresh notices issued. Prolonged farmer protest leaves its status unclear.",
+      "town": "Devanahalli",
+      "where": "≈32 km from centre"
+    },
+    {
+      "agency": "Karnataka Government / KIADB",
+      "area": "5,800 acres",
+      "coords": [
+        13.2927,
+        77.5431
+      ],
+      "distance_km": 36,
+      "full_name": "Knowledge, Wellness and Innovation City (KWIN City)",
+      "headline": "KWIN City: Karnataka's Big Bet Near Doddaballapura",
+      "investment": "₹48,000 crore",
+      "investment_kind": "Expected investment",
+      "kind": "Knowledge city",
+      "kind_id": "knowledge_city",
+      "name": "KWIN City",
+      "slug": "kwin-city",
+      "stage": "Announced",
+      "stage_id": "announced",
+      "standfirst": "The state's proposed knowledge and innovation city spans 5,800 acres. Anchors are mostly talks, while Toyota's Rs 1,200 crore commitment is the firmest piece so far.",
+      "town": "Doddaballapur",
+      "where": "≈36 km from centre"
+    },
+    {
+      "agency": "Karnataka Government (with AAI feasibility support)",
+      "area": "9,000 acres",
+      "coords": [
+        12.68,
+        77.47
+      ],
+      "distance_km": 36,
+      "full_name": "Proposed second greenfield airport for Bengaluru, Harohalli (Kanakapura Road)",
+      "headline": "Harohalli Leads Race for Bengaluru's Second Airport",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "Airport region",
+      "kind_id": "airport_region",
+      "name": "Harohalli second airport region",
+      "slug": "harohalli-second-airport-region",
+      "stage": "Proposed",
+      "stage_id": "proposed",
+      "standfirst": "Harohalli on Kanakapura Road is the leading contender for a proposed second airport. The site is not final, and no cost has been published.",
+      "town": "Harohalli",
+      "where": "≈36 km from centre"
+    },
+    {
+      "agency": "BMRDA / Karnataka Government",
+      "area": "",
+      "coords": [
+        12.958,
+        77.224
+      ],
+      "distance_km": 42,
+      "full_name": "BMRDA integrated townships (Solur, Nandagudi) and state industrial townships plan",
+      "headline": "BMRDA Townships: Solur and Nandagudi Remain Proposals",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "Township",
+      "kind_id": "township",
+      "name": "BMRDA integrated townships",
+      "slug": "bmrda-integrated-townships",
+      "stage": "Proposed",
+      "stage_id": "proposed",
+      "standfirst": "Three integrated townships are planned around Bengaluru, with Bidadi as pilot. Solur and Nandagudi have no acreage or approvals in the sources found.",
+      "town": "Magadi",
+      "where": "≈42 km from centre"
+    },
+    {
+      "agency": "NHLML / KIADB / RVNL SPV (Bengaluru MMLP Pvt Ltd)",
+      "area": "400 acres",
+      "coords": [
+        13.255,
+        77.244
+      ],
+      "distance_km": 50,
+      "full_name": "Bengaluru Multi-Modal Logistics Park, Muddelinganahalli (Dobbaspet)",
+      "headline": "Bengaluru MMLP: Logistics Park Near Dobbaspet Faces Delay",
+      "investment": "₹1,770 crore",
+      "investment_kind": "Approved project cost",
+      "kind": "Logistics",
+      "kind_id": "logistics",
+      "name": "Bengaluru MMLP",
+      "slug": "bengaluru-mmlp",
+      "stage": "Stage unclear",
+      "stage_id": "unclear",
+      "standfirst": "The 400-acre multi-modal logistics park at Muddelinganahalli carries an estimated Rs 1,770 crore cost. Reports point to a multi-year delay, leaving its status unclear.",
+      "town": "Dobbaspet",
+      "where": "≈50 km from centre"
+    }
+  ],
   "daily": {
     "edition": "2026-10-15",
     "status": "ok",
@@ -22,7 +238,7 @@
       "title": "Bengaluru Property Review — October 2026"
     }
   },
-  "generated_at": "2026-10-15T09:07:42+05:30",
+  "generated_at": "2026-10-15T09:18:22+05:30",
   "growth_towns": [
     {
       "claim_ids": [

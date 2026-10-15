@@ -44,6 +44,10 @@ def test_landing_page_embeds_data_and_no_api_docs(client):
     assert client.get("/privacy").status_code == 200 and client.get("/terms").status_code == 200
 
 
+def test_growth_article_pages(client):
+    assert client.get("/growth/does-not-exist").status_code == 404
+
+
 def test_downloads_allow_list(client):
     r = client.get("/download/magazine-latest.pdf")
     assert r.status_code == 200 and r.headers["content-type"] == "application/pdf"

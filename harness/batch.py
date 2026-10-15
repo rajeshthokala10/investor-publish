@@ -5,6 +5,7 @@
   weekly    weekly summary on the configured weekday
   metrics   dashboard KPIs, growth series, area prices, top builders (validated)
   site      data/app/site.json + downloads for the web app
+  clusters  planned cities & growth clusters (weekly re-research) + one-page articles
   refresh   evening news refresh (RSS + metro/government research, last 12 h) -> website news
   email     "Bangalore RealEstate Delta" email to EMAIL_TO + subscribers (dry run without SMTP settings)
 
@@ -27,7 +28,7 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
     from harness.metrics_build import build_metrics
     from harness.weekly import build_weekly
 
-    steps = steps or ["daily", "magazine", "weekly", "metrics", "site", "email"]
+    steps = steps or ["daily", "magazine", "weekly", "clusters", "metrics", "site", "email"]
     lock = RunLock(LOGS / ".batch.lock")
     if not lock.acquire():
         print("Another batch is running")
@@ -61,6 +62,10 @@ def run_batch(steps: list[str] | None = None, force_magazine: bool = False) -> i
                 elif step == "site":
                     s = build_site(log)
                     results[step] = f"ok ({len(s['news']['headlines'])} headlines)"
+                elif step == "clusters":
+                    from harness.clusters import build_clusters
+                    c = build_clusters(log)            # re-researched when older than config/clusters.yaml refresh_days
+                    results[step] = f"ok ({len(c.get('clusters', []))} clusters)"
                 elif step == "refresh":
                     from harness.news_refresh import refresh
                     r = refresh(log)

@@ -174,6 +174,15 @@ def index_alias():
     return RedirectResponse("/", status_code=301)
 
 
+@app.get("/growth/{slug}", response_class=HTMLResponse)
+def growth_article(slug: str):
+    from app.articles import page
+    html_page = page(slug)
+    if html_page is None:
+        raise HTTPException(404, "Not found")
+    return HTMLResponse(html_page, headers={"Cache-Control": "no-store"})
+
+
 @app.get("/privacy", response_class=HTMLResponse)
 def privacy():
     return HTMLResponse((STATIC / "privacy.html").read_text(encoding="utf-8"))

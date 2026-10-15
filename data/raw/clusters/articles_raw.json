@@ -1,0 +1,444 @@
+{
+  "cost_usd": 0.12462,
+  "finished": "2026-10-15T09:17:28+05:30",
+  "is_error": false,
+  "prompt_key": null,
+  "prompt_sha": "0b1c29ca95",
+  "started": "2026-10-15T09:16:37+05:30",
+  "structured_output": {
+    "articles": [
+      {
+        "headline": "KWIN City: Karnataka's Big Bet Near Doddaballapura",
+        "key_facts": [
+          {
+            "label": "Area",
+            "value": "5,800 acres"
+          },
+          {
+            "label": "Agency",
+            "value": "Karnataka Government / KIADB"
+          },
+          {
+            "label": "Nearest town",
+            "value": "Doddaballapur, about 36 km"
+          },
+          {
+            "label": "Expected investment",
+            "value": "Rs 48,000 crore (minister's expectation)"
+          },
+          {
+            "label": "Toyota commitment",
+            "value": "Rs 1,200 crore, about 300 acres"
+          },
+          {
+            "label": "Stage",
+            "value": "Announced"
+          }
+        ],
+        "paragraphs": [
+          "Knowledge, Wellness and Innovation City, or KWIN City, is a planned township from the Karnataka Government and KIADB. According to Outlook Business in September 2024, it is to be spread over 5,800 acres. The project is at the announced stage.",
+          "It is located between Dobbaspete and Doddaballapura, about 36 km from Doddaballapur, near the Satellite Town Ring Road (STRR) and the Bengaluru-Pune Greenfield Expressway. Swarajya reported in October 2024 that a central monorail is planned, with stops every 800 metres.",
+          "The money involved is largely expectation. A minister expects investments worth Rs 48,000 crore and nearly one lakh jobs, which is expected investment and not government spending. The South First reported in May 2026 that Toyota Kirloskar Motor will invest Rs 1,200 crore, creating around 200 jobs.",
+          "Toyota has been allotted about 300 acres for its BizIntel Hub, a private commitment. Imperial College London's proposed R&D centre and land offered to Tata IISc Medical School are reported, not confirmed. A detailed project report for execution is reportedly still being drafted.",
+          "Nearby property could draw interest if the connectivity and anchors materialise, as backers expect. However, a reported lake buffer-zone complaint and NGT notice at Hulikunte is unresolved, and most anchors are talks or MoUs rather than committed spend."
+        ],
+        "slug": "kwin-city",
+        "standfirst": "The state's proposed knowledge and innovation city spans 5,800 acres. Anchors are mostly talks, while Toyota's Rs 1,200 crore commitment is the firmest piece so far.",
+        "whats_next": [
+          "Completion of the detailed project report",
+          "Conversion of MoUs and talks into committed investment",
+          "Outcome of the Hulikunte lake buffer-zone complaint"
+        ]
+      },
+      {
+        "headline": "SWIFT City: Sarjapura's Planned Tech and Finance Hub",
+        "key_facts": [
+          {
+            "label": "Area",
+            "value": "About 1,000 acres"
+          },
+          {
+            "label": "Agency",
+            "value": "Karnataka Industries Dept / KIADB"
+          },
+          {
+            "label": "Location",
+            "value": "Sarjapura Industrial Area"
+          },
+          {
+            "label": "Nearest town",
+            "value": "Sarjapur, about 23 km"
+          },
+          {
+            "label": "Roads",
+            "value": "150-ft connecting roads (planned)"
+          },
+          {
+            "label": "Stage",
+            "value": "Announced"
+          }
+        ],
+        "paragraphs": [
+          "SWIFT City stands for Startups, Work, Innovation, Finance and Tech, though outlets vary in how they word the acronym. It is a Karnataka Government project, led by the Industries Department with KIADB, and remains at the announced stage.",
+          "According to The News Minute in December 2024, the project is to spread across 1,000 acres near IT hubs on NH 44 and 48. It sits in the Sarjapura Industrial Area, about 23 km from Sarjapur. A link to Attibele or Anekal is not confirmed by sources found.",
+          "The News Minute reported that the government will develop SWIFT City, with details expected at Global Investors Meet 2025. The Realty Today reported that connecting roads 150 ft wide are planned. No investment figure, jobs estimate or timeline has been published in the sources found.",
+          "The area is described as including residential areas and schools alongside workplaces. No anchor companies have been named, and no tender or construction has been found.",
+          "For nearby real estate, any effect is an expectation tied to a project that is still only announced. Buyers should note that the scheme has no confirmed funding or schedule in the material available."
+        ],
+        "slug": "swift-city",
+        "standfirst": "Karnataka has set aside about 1,000 acres in Sarjapura Industrial Area for SWIFT City. So far evidence is limited to announcements, with no tender or construction found.",
+        "whats_next": [
+          "Details promised at Global Investors Meet 2025",
+          "A tender or construction start, none found yet",
+          "Confirmation of the road links"
+        ]
+      },
+      {
+        "headline": "Bidadi Township: Bengaluru's Contested 'AI City'",
+        "key_facts": [
+          {
+            "label": "Agency",
+            "value": "GBDA"
+          },
+          {
+            "label": "Area",
+            "value": "9,600 acres (cabinet approved 8,032)"
+          },
+          {
+            "label": "Distance",
+            "value": "About 31 km from Bengaluru"
+          },
+          {
+            "label": "Estimated cost",
+            "value": "Rs 18,133 crore"
+          },
+          {
+            "label": "Compensation",
+            "value": "Said to exceed Rs 3 crore per acre"
+          },
+          {
+            "label": "Stage",
+            "value": "Approved"
+          }
+        ],
+        "paragraphs": [
+          "The Greater Bengaluru Integrated Township (GBIT) at Bidadi is branded 'AI City'. The branding refers to this township and not a separate project. The Greater Bengaluru Development Authority (GBDA) is the executing agency, according to The News Minute in June 2026.",
+          "It lies in Ramanagara district, about 31 km from Bengaluru, between Bidadi and Harohalli. The News Minute reports it covers nine revenue and 16 non-revenue villages and 9,600 acres. Swarajya reported in January 2025 that the cabinet approved 8,032 acres. Metro Phase 3 is reported to be expected to reach Bidadi.",
+          "The News Minute puts the estimated project cost at Rs 18,133 crore including land acquisition, though other outlets cite higher figures. This is an estimate, not a budget outlay. A HUDCO loan line has been reported. The South First reported compensation said to exceed Rs 3 crore per acre.",
+          "The project has been approved, and The South First reported final acquisition notifications in August 2026. Over 3,500 farmers from 25 villages are opposing it, and BJP and JD(S) have raised political opposition. Land-sale-dependent financing has also been criticised.",
+          "Supporters expect the township to reshape the Bidadi belt. Because acreage and cost figures differ between outlets, and protests continue, any effect on nearby property remains an expectation rather than a certainty."
+        ],
+        "slug": "bidadi-township-ai-city",
+        "standfirst": "The Greater Bengaluru Integrated Township is approved, but farmer opposition and inconsistent acreage and cost figures across outlets leave open questions for nearby buyers.",
+        "whats_next": [
+          "Progress on final acquisition notifications",
+          "Response to farmer protests",
+          "Reported extension of Metro Phase 3 to Bidadi"
+        ]
+      },
+      {
+        "headline": "Q-City: Hesaraghatta's Quantum Ambitions Start Small",
+        "key_facts": [
+          {
+            "label": "Land allocated",
+            "value": "6.17 acres"
+          },
+          {
+            "label": "Location",
+            "value": "Hesaraghatta, northwest Bengaluru"
+          },
+          {
+            "label": "Mission fund",
+            "value": "Rs 1,000 crore (not Q-City-specific)"
+          },
+          {
+            "label": "Programme",
+            "value": "Karnataka Quantum Mission"
+          },
+          {
+            "label": "Planned",
+            "value": "Labs, incubation, HPC data centre"
+          },
+          {
+            "label": "Stage",
+            "value": "Approved"
+          }
+        ],
+        "paragraphs": [
+          "Quantum City, or Q-City, is a planned research and innovation cluster at Hesaraghatta in northwest Bengaluru. It falls under the Karnataka Quantum Mission, run by the state's IT/BT and Science and Technology departments. Its stage is approved.",
+          "According to The Quantum Insider in September 2025, 6.17 acres have been allocated at Hesaraghatta, and The South First reported that the land was sanctioned. No distance from central Bengaluru or connectivity details appear in the sources.",
+          "The South First reported a Rs 1,000 crore Karnataka Quantum Mission fund. This is mission-level money, and there is no Q-City-specific budget. Plans include research labs, startup incubation and a high-performance computing data centre for quantum workloads, per The Quantum Insider.",
+          "ETH Zurich and CERN are named as anchors, but only as discussions, according to a search summary. No agreements are described. The initial land parcel is very small.",
+          "For nearby real estate, any impact is speculative at this stage. With a small plot and no dedicated funding, observers may treat Q-City as an early marker of intent, not a major demand driver."
+        ],
+        "slug": "q-city",
+        "standfirst": "Karnataka has allocated 6.17 acres at Hesaraghatta for Quantum City. The Rs 1,000 crore figure is mission funding, not a Q-City budget.",
+        "whats_next": [
+          "Firming up of ETH Zurich and CERN discussions",
+          "Construction of labs and the data centre",
+          "Clarity on Q-City-specific funding"
+        ]
+      },
+      {
+        "headline": "Devanahalli Aerospace Park: Land Plans Remain Unsettled",
+        "key_facts": [
+          {
+            "label": "Agency",
+            "value": "KIADB"
+          },
+          {
+            "label": "Villages",
+            "value": "13, Channarayapatna hobli"
+          },
+          {
+            "label": "Acquisition dropped",
+            "value": "Over 1,777 acres"
+          },
+          {
+            "label": "Fresh notices",
+            "value": "439 acres in two villages"
+          },
+          {
+            "label": "Nearest town",
+            "value": "Devanahalli, about 32 km"
+          },
+          {
+            "label": "Stage",
+            "value": "Unclear"
+          }
+        ],
+        "paragraphs": [
+          "The KIADB Aerospace Park expansion, also called the Hi-Tech Defence and Aerospace Park, is planned around Devanahalli, near Kempegowda International Airport. The land lies in 13 villages in Channarayapatna hobli, Bengaluru Rural. Its stage is unclear.",
+          "The Free Press Journal reported in July 2025 that Karnataka dropped acquisition of over 1,777 acres in 13 villages. The South First reported in September 2025 that the plan for the aerospace park was scrapped. The nearest town, Devanahalli, is about 32 km away.",
+          "KIADB later issued fresh notices for 439 acres in two villages, according to The South First. The government says it will buy only from willing sellers. No investment figure, anchor company or timeline appears in the sources.",
+          "Farmers have staged a prolonged protest, and there are allegations of falsified consent letters. These claims are part of the reported dispute, and their outcome is not given in the sources.",
+          "For nearby property, the airport location is the main reference point. Any benefit from an aerospace park is an expectation only, and the project's shape and scale depend on how land purchase proceeds."
+        ],
+        "slug": "devanahalli-aerospace-park",
+        "standfirst": "KIADB's aerospace park expansion near the airport has seen acquisition dropped, then fresh notices issued. Prolonged farmer protest leaves its status unclear.",
+        "whats_next": [
+          "Progress on the 439-acre notices",
+          "Government purchase from willing sellers",
+          "Resolution of consent-letter allegations"
+        ]
+      },
+      {
+        "headline": "Bengaluru Business Corridor: Rebranded Ring Road Gains Pace",
+        "key_facts": [
+          {
+            "label": "Agency",
+            "value": "BDA"
+          },
+          {
+            "label": "Overall cost",
+            "value": "Nearly Rs 27,000 crore"
+          },
+          {
+            "label": "Package 1 contract",
+            "value": "About Rs 3,500 crore"
+          },
+          {
+            "label": "Package 1 stretch",
+            "value": "21 km, Madavara to Ballari Road"
+          },
+          {
+            "label": "First phase",
+            "value": "Three packages"
+          },
+          {
+            "label": "Stage",
+            "value": "Awarded"
+          }
+        ],
+        "paragraphs": [
+          "The Bengaluru Business Corridor is the rebranded Peripheral Ring Road project, run by the Bangalore Development Authority (BDA). It is planned to link Tumakuru Road and Hosur Road, passing Ballari Road. Its stage is awarded.",
+          "Swarajya reported in June 2026 that Package 1 covers a 21 km section between Madavara and Ballari Road. ETV Bharat reported in March 2026 that the first phase is split into three packages tied to land acquisition. Construction World reported on the land notification and rebranding in September 2026.",
+          "According to Swarajya, overall cost is estimated at nearly Rs 27,000 crore, mostly land acquisition. The Package 1 contract is worth about Rs 3,500 crore including maintenance. Shankara Narayana Constructions is named for Package 1, per a search summary.",
+          "Land acquisition is still ongoing, which is the main risk to progress. ETV Bharat also reported a completion deadline, but the details are not part of the information available here.",
+          "Localities along the route could see more interest if the road is delivered, as the BDA's plans imply. Township nodes along the corridor are not evidenced in sources found, so any real estate effect remains an expectation."
+        ],
+        "slug": "bengaluru-business-corridor",
+        "standfirst": "The BDA's corridor linking Tumakuru Road and Hosur Road has awarded its first package, with land acquisition still under way and costs estimated near Rs 27,000 crore.",
+        "whats_next": [
+          "Continued land acquisition",
+          "Award of the remaining packages",
+          "Progress on Package 1 construction"
+        ]
+      },
+      {
+        "headline": "Harohalli Leads Race for Bengaluru's Second Airport",
+        "key_facts": [
+          {
+            "label": "Status",
+            "value": "Proposed; site not final"
+          },
+          {
+            "label": "Location",
+            "value": "Harohalli, Kanakapura Road"
+          },
+          {
+            "label": "Distance",
+            "value": "About 36 km"
+          },
+          {
+            "label": "Expected extent",
+            "value": "About 9,000 acres"
+          },
+          {
+            "label": "Feasibility support",
+            "value": "Airports Authority of India"
+          },
+          {
+            "label": "Alternative",
+            "value": "Kunigal Road, near Nelamangala"
+          }
+        ],
+        "paragraphs": [
+          "Karnataka is drawing up plans for a second greenfield airport for Bengaluru, Swarajya reported in November 2025. The state government leads the effort, with the Airports Authority of India supporting feasibility work. The project is at the proposed stage.",
+          "The South First reported in July 2026 that Harohalli, on Kanakapura Road in Ramanagara district, is the leading contender. It is about 36 km from the city. The airport is expected to span about 9,000 acres.",
+          "The site is not final. Other shortlisted sites include Kunigal Road near Nelamangala. No cost, funding model, timeline or investor has been published in the sources found.",
+          "Risks include land acquisition cost and village displacement. The location is also close to the Bidadi township, where farmers have protested, which could complicate land assembly.",
+          "If Harohalli is chosen, some observers expect interest along Kanakapura Road, though that is speculation and not a government statement. Until a site is confirmed, nearby real estate should be read as tied to a proposal only."
+        ],
+        "slug": "harohalli-second-airport-region",
+        "standfirst": "Harohalli on Kanakapura Road is the leading contender for a proposed second airport. The site is not final, and no cost has been published.",
+        "whats_next": [
+          "Final site selection",
+          "Completion of AAI feasibility work",
+          "Publication of cost and funding plans"
+        ]
+      },
+      {
+        "headline": "Bengaluru MMLP: Logistics Park Near Dobbaspet Faces Delay",
+        "key_facts": [
+          {
+            "label": "Area",
+            "value": "400 acres"
+          },
+          {
+            "label": "Estimated cost",
+            "value": "Rs 1,770 crore (PPP)"
+          },
+          {
+            "label": "Phasing",
+            "value": "Three phases"
+          },
+          {
+            "label": "Distance",
+            "value": "About 50 km; 58 km from airport"
+          },
+          {
+            "label": "Connectivity",
+            "value": "STRR; Bengaluru-Hubli-Mumbai rail line"
+          },
+          {
+            "label": "Stage",
+            "value": "Unclear"
+          }
+        ],
+        "paragraphs": [
+          "The Bengaluru Multi-Modal Logistics Park is a freight hub at Muddelinganahalli near Dobbaspet. It is run through a special purpose vehicle, Bengaluru MMLP Pvt Ltd, involving NHLML, KIADB and Rail Vikas Nigam Limited. Its stage is unclear.",
+          "According to Maritime Gateway in September 2023, the park covers 400 acres and will be developed in three phases. It sits in Bengaluru Rural district, adjacent to a KIADB industrial area and the Satellite Town Ring Road, about 50 km from Bengaluru. The site is 58 km from Bengaluru Airport.",
+          "Maritime Gateway put the estimated cost at Rs 1,770 crore under a public-private partnership model. PATH Bengaluru Logistics Park is named as concessionaire, per a search summary. The site connects to the Bengaluru-Hubli-Mumbai rail line.",
+          "A multi-year delay has been reported. The sources found do not give a current construction status or completion date, so the timeline should be treated as uncertain.",
+          "For real estate, a logistics hub is typically watched for warehousing and industrial demand around Dobbaspet. That is an expectation only, and the distance from the city means its effect on residential areas is not described in the sources."
+        ],
+        "slug": "bengaluru-mmlp",
+        "standfirst": "The 400-acre multi-modal logistics park at Muddelinganahalli carries an estimated Rs 1,770 crore cost. Reports point to a multi-year delay, leaving its status unclear.",
+        "whats_next": [
+          "Clarity on the reported delay",
+          "Start of phase-one construction",
+          "Confirmation of concessionaire arrangements"
+        ]
+      },
+      {
+        "headline": "Dr Shivaram Karanth Layout: BDA Site Allotment Moves Ahead",
+        "key_facts": [
+          {
+            "label": "Agency",
+            "value": "BDA"
+          },
+          {
+            "label": "Location",
+            "value": "North Bengaluru"
+          },
+          {
+            "label": "Public sites",
+            "value": "2,500 (in one report)"
+          },
+          {
+            "label": "Court status",
+            "value": "High Court approved allotment"
+          },
+          {
+            "label": "Application fee",
+            "value": "Non-refundable"
+          },
+          {
+            "label": "Stage",
+            "value": "Approved"
+          }
+        ],
+        "paragraphs": [
+          "Dr K Shivaram Karanth Layout is a residential layout developed by the Bangalore Development Authority (BDA) in north Bengaluru. Unlike the infrastructure projects around it, this is a plot-allotment scheme for individual buyers. Its stage is approved.",
+          "According to Asianet News in July 2026, the High Court has approved the allotment process. One report puts the number of sites for the general public at 2,500. The same report notes that the application fee is non-refundable.",
+          "The sources give no project area, total investment or timeline, and no connectivity details are listed. Site and price figures conflict between reports, so buyers should not rely on any single number.",
+          "The layout has a litigation history, and an SC-appointed committee oversees it. These factors have shaped the pace of the project, though the sources do not detail how.",
+          "For nearby real estate, a large BDA layout could add supply of plotted housing in north Bengaluru, which is an expectation and not a stated outcome. Official BDA notifications remain the reference for sites and prices."
+        ],
+        "slug": "dr-shivaram-karanth-layout",
+        "standfirst": "The BDA's north Bengaluru layout has High Court approval for allotment. Reports cite 2,500 sites for the public, but site and price figures conflict.",
+        "whats_next": [
+          "Opening of the allotment process",
+          "Reconciliation of site and price figures",
+          "Oversight by the SC-appointed committee"
+        ]
+      },
+      {
+        "headline": "BMRDA Townships: Solur and Nandagudi Remain Proposals",
+        "key_facts": [
+          {
+            "label": "Agencies",
+            "value": "BMRDA / Karnataka Government"
+          },
+          {
+            "label": "Townships proposed",
+            "value": "Three: Bidadi, Solur, Nandagudi"
+          },
+          {
+            "label": "Pilot",
+            "value": "Bidadi"
+          },
+          {
+            "label": "Solur",
+            "value": "Near Magadi, about 42 km"
+          },
+          {
+            "label": "Ring road",
+            "value": "210 km (proposal)"
+          },
+          {
+            "label": "Stage",
+            "value": "Proposed"
+          }
+        ],
+        "paragraphs": [
+          "The Bengaluru Metropolitan Region Development Authority (BMRDA) and the Karnataka Government have proposed integrated townships on the city's outskirts. India Infra Hub reported in August 2024 that three townships are planned: Bidadi, Solur and Nandagudi. Bidadi is the pilot. The stage is proposed.",
+          "Solur is near Magadi, about 42 km from the city, and Nandagudi is in Hoskote. PropNewz reported in October 2026 on a state plan for industrial townships. The locations of the nine townships in that plan are not named.",
+          "No acreage, cost or approvals for Solur and Nandagudi appear in the sources found. The funding and timeline for the wider plan are likewise not given.",
+          "PropNewz also reported a ring road proposal of 210 km linking additional hubs. This is a proposal, and no route, cost or agency commitment is described.",
+          "If these townships proceed, nearby areas such as Magadi and Hoskote could draw interest, as proponents may expect. At present that is speculation, and Bidadi, the pilot, is the project with the most detail to watch."
+        ],
+        "slug": "bmrda-integrated-townships",
+        "standfirst": "Three integrated townships are planned around Bengaluru, with Bidadi as pilot. Solur and Nandagudi have no acreage or approvals in the sources found.",
+        "whats_next": [
+          "Naming of the nine townships' locations",
+          "Acreage and approvals for Solur and Nandagudi",
+          "Progress on the Bidadi pilot"
+        ]
+      }
+    ]
+  },
+  "subtype": "success",
+  "task": "clusters_articles"
+}

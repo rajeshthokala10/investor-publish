@@ -1,0 +1,54 @@
+# Planned cities, townships and growth clusters around Bengaluru (government-led or government-backed).
+# The research agent must find evidence for each candidate; names that cannot be evidenced are reported
+# as "not_found" and never published. Candidates are a starting list, not facts.
+refresh_days: 7
+lookback_months: 30
+candidates:
+  - KWIN City (Knowledge, Wellness and Innovation City), Doddaballapur–Dobbaspet
+  - SWIFT City (Startups, Work, Innovation, Finance and Tech), Sarjapur / Attibele / Anekal
+  - AI City proposed by the Karnataka government (check whether announced, where, and its status)
+  - Quantum City / quantum technology park proposals near Bengaluru
+  - Bengaluru Smart City Ltd (Smart Cities Mission) projects and any "smart city" township proposals
+  - KIADB Hi-Tech Defence and Aerospace Park and ITIR, Devanahalli
+  - Greater Bengaluru Integrated Township (GBDA), Bidadi
+  - Bengaluru Business Corridor / Peripheral Ring Road and its planned township nodes
+  - Global Technology / innovation districts, deep-tech parks, semiconductor or electronics clusters (e.g. Narasapura, Vemagal, Devanahalli hardware park)
+  - Harohalli industrial area and the proposed second-airport region
+  - Logistics parks (e.g. Multi-Modal Logistics Park) around Bengaluru
+  - BDA layouts in development (Dr Shivaram Karanth Layout, Kempegowda Layout, Arkavathy)
+  - Satellite towns and planning-area expansions announced by BMRDA
+
+# Approximate coordinates (WGS84) for distance-from-centre estimates (MG Road ≈ city centre).
+centre: [12.9756, 77.6066]
+places:
+  doddaballapur: [13.2927, 77.5431]
+  dobbaspet: [13.2550, 77.2440]
+  devanahalli: [13.2470, 77.7120]
+  kia airport: [13.1990, 77.7060]
+  bidadi: [12.7970, 77.3900]
+  ramanagara: [12.7210, 77.2810]
+  harohalli: [12.6800, 77.4700]
+  kanakapura: [12.5480, 77.4200]
+  sarjapur: [12.8600, 77.7860]
+  attibele: [12.7780, 77.7710]
+  anekal: [12.7080, 77.6960]
+  jigani: [12.7840, 77.6390]
+  hoskote: [13.0700, 77.7980]
+  nelamangala: [13.0980, 77.3930]
+  tumakuru: [13.3400, 77.1010]
+  narasapura: [13.1500, 78.0500]
+  vemagal: [13.1600, 78.0300]
+  kolar: [13.1360, 78.1290]
+  malur: [13.0040, 77.9380]
+  chikkaballapur: [13.4350, 77.7280]
+  hosur: [12.7400, 77.8250]
+  magadi: [12.9580, 77.2240]
+  kunigal: [13.0230, 77.0290]
+  yelahanka: [13.1000, 77.5960]
+  whitefield: [12.9700, 77.7500]
+  electronic city: [12.8450, 77.6600]
+  hebbal: [13.0360, 77.5970]
+  kengeri: [12.9080, 77.4850]
+  hesaraghatta: [13.1400, 77.4800]
+  sarjapura: [12.8600, 77.7860]
+  soladevanahalli: [13.0870, 77.5050]

@@ -69,11 +69,16 @@
   /* ---------- news ---------- */
   function news(n) {
     const ins = n.insights || [];
+    // keep the column full: when there are few insights, add a Metro Watch card from today's metro headlines
+    const metroHeads = (n.headlines || []).filter((h) => /metro|bmrcl|namma|k-ride|suburban|pink line|blue line|yellow line/i.test(h.title)).slice(0, 5);
     $("#insights").innerHTML = (ins.length ? ins.slice(0, 2) : []).map((c) => `
       <article class="insight reveal"><span class="tag">${esc(c.zone)} · ${esc(c.area)}</span>
         <h3>${esc(c.title)}</h3><p class="meta">${esc(c.publisher)} · ${esc(c.published_at || "")}</p>
         <a href="${esc(c.url)}" target="_blank" rel="noopener">Read the source →</a></article>`).join("") ||
       `<article class="insight reveal"><span class="tag">Today</span><h3>The latest Bengaluru property headlines, refreshed every morning at 6:00 IST.</h3></article>`;
+    if (ins.length < 2 && metroHeads.length)
+      $("#insights").insertAdjacentHTML("beforeend", `<article class="mwatch reveal"><span class="tag">Metro Watch</span>
+        <ul>${metroHeads.map((h) => `<li><a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.title)}</a><span>${esc((h.publishers || [])[0] || "")} · ${esc(relTime(h.published_at))}</span></li>`).join("")}</ul></article>`);
     const zones = ["All", ...new Set((n.headlines || []).map((h) => h.zone))];
     let zone = "All", shown = 10;
     const filter = $("#zone-filter");
@@ -185,14 +190,15 @@
       $("#hero-headline").textContent = m.cover.headline;
       $("#hero-sub").textContent = m.cover.subhead || $("#hero-sub").textContent;
     }
-    $("#edition-label").textContent = m.label || "Today";
-    $("#cover-badge").textContent = m.label ? `${m.label} issue` : "Latest issue";
+    const set = (sel, v) => { const el = $(sel); if (el) el.textContent = v; };
+    set("#edition-label", m.label || "Today");
+    set("#cover-badge", m.label ? `${m.label} issue` : "Latest issue");
     $("#mag-title").textContent = d.magazine?.title || "Bengaluru Property Review";
     $("#mag-note").innerHTML = (m.editor_note || []).slice(0, 2).map((p) => `<p>${esc(p.text)}</p>`).join("");
     $("#downloads").innerHTML = [d.magazine && { ...d.magazine, label: "Monthly magazine" }, d.daily && { ...d.daily, label: "Bangalore Realestate Delta · daily" }]
       .filter(Boolean).map((x) => `<div class="dl"><b>${esc(x.label)}</b><span>${esc(x.title)} · ${x.pages} pages · ${x.size_mb} MB</span>
         <a class="btn btn-navy btn-sm" href="/download/${esc(x.file)}">Download PDF</a></div>`).join("");
-    if (!d.magazine) $("#cover-img").closest("a").style.display = "none";
+    if (!d.magazine && $("#mag-cover")) $("#mag-cover").closest(".mag-card").style.display = "none";
   }
 
   function status(s) {
@@ -200,6 +206,49 @@
     const ev = s.news?.evening_refresh ? new Date(s.news.evening_refresh) : null;
     const last = ev && t && ev > t ? ev : t;
     $("#updated").textContent = last ? `Updated ${last.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" })} IST · refreshed daily at 6:00 and 18:00 IST` : "";
+  }
+
+  /* ---------- planned cities & growth clusters ---------- */
+  const KIND_COLOR = { township: "#2a78d6", knowledge_city: "#7b3fa0", tech_city: "#1f6fd1", ai_city: "#c2185b", industrial: "#eb6834",
+    aerospace_defence: "#0d366b", electronics_semiconductor: "#1baf7a", logistics: "#8d6e63", layout: "#eda100", smart_city: "#00897b",
+    corridor: "#546e7a", airport_region: "#4a3aa7", other: "#78909c" };
+  function clusters(list) {
+    const block = $("#growth");
+    if (!list.length) { block.style.display = "none"; return; }
+    const svg = $("#cluster-map"), NS = "http://www.w3.org/2000/svg", C = 260, scale = 3.9;
+    const mk = (tag, a) => { const n = document.createElementNS(NS, tag); for (const k in a) n.setAttribute(k, a[k]); svg.appendChild(n); return n; };
+    mk("rect", { width: 520, height: 520, rx: 18, fill: "#f3f7fd" });
+    [15, 30, 45, 60].forEach((r) => {
+      mk("circle", { cx: C, cy: C, r: r * scale, fill: "none", stroke: "#c9d8ee", "stroke-dasharray": "5 6" });
+      const t = mk("text", { x: C + 4, y: C - r * scale + 14, class: "gk" }); t.textContent = `${r} km`;
+    });
+    [["N", C, 18], ["S", C, 512], ["E", 508, C + 4], ["W", 10, C + 4]].forEach(([l, x, y]) => { const t = mk("text", { x, y, class: "gk", "text-anchor": "middle" }); t.textContent = l; });
+    mk("circle", { cx: C, cy: C, r: 9, fill: "#0d366b" });
+    const ct = mk("text", { x: C, y: C + 24, class: "gl", "text-anchor": "middle" }); ct.textContent = "Bengaluru";
+    const centre = [12.9756, 77.6066];
+    list.forEach((c, i) => {
+      if (!c.coords) return;
+      const dx = (c.coords[1] - centre[1]) * 111.32 * Math.cos(centre[0] * Math.PI / 180) * scale;
+      const dy = (c.coords[0] - centre[0]) * 110.57 * scale;
+      const x = Math.max(16, Math.min(504, C + dx)), y = Math.max(16, Math.min(504, C - dy));
+      const a = document.createElementNS(NS, "a"); a.setAttribute("href", `/growth/${c.slug}`); svg.appendChild(a);
+      const dot = document.createElementNS(NS, "circle");
+      Object.entries({ cx: x, cy: y, r: 9, fill: KIND_COLOR[c.kind_id] || "#78909c", stroke: "#fff", "stroke-width": 3, class: "gdot" }).forEach(([k, v]) => dot.setAttribute(k, v));
+      const title = document.createElementNS(NS, "title"); title.textContent = `${c.name} · ${c.kind} · ${c.where}`; dot.appendChild(title);
+      a.appendChild(dot);
+      const t = document.createElementNS(NS, "text");
+      Object.entries({ x: x + (x > 400 ? -12 : 12), y: y + 4 + (i % 2 ? 10 : -2), class: "gl", "text-anchor": x > 400 ? "end" : "start" }).forEach(([k, v]) => t.setAttribute(k, v));
+      t.textContent = c.name; a.appendChild(t);
+    });
+    const kinds = [...new Set(list.map((c) => c.kind_id))];
+    $("#cluster-legend").innerHTML = kinds.map((k) => `<span><i style="background:${KIND_COLOR[k] || "#78909c"}"></i>${esc(list.find((c) => c.kind_id === k).kind)}</span>`).join("");
+    $("#cluster-cards").innerHTML = list.map((c) => `
+      <a class="gcard reveal" href="/growth/${esc(c.slug)}">
+        <div class="gtop"><span class="gkind" style="background:${KIND_COLOR[c.kind_id] || "#78909c"}">${esc(c.kind)}</span><span class="gstage s-${esc(c.stage_id)}">${esc(c.stage)}</span></div>
+        <h4>${esc(c.name)}</h4>
+        <p>${esc(c.standfirst || "")}</p>
+        <div class="gmeta"><span><b>${esc(c.where)}</b></span>${c.area ? `<span><b>${esc(c.area)}</b></span>` : ""}${c.investment ? `<span><b>${esc(c.investment)}</b> ${esc(c.investment_kind ? "· " + c.investment_kind.toLowerCase() : "")}</span>` : ""}</div>
+        <span class="gread">Read the story →</span></a>`).join("");
   }
 
   function heroStats(list) {
@@ -331,11 +380,21 @@
     if (!el) return;
     const s = JSON.parse(el.textContent);
     $("#year").textContent = new Date().getFullYear();
-    if (s.metro?.lines) metro(s.metro);
+    if (s.metro?.lines) { try { metro(s.metro); } catch (err) { if (window.console) console.error(err); } }
     if (!s.metrics) return;
-    quotes(s.quotes || []); heroStats(s.metrics.kpis); kpis(s.metrics.kpis); news(s.news); growthCharts(s.metrics.series);
-    areaChart(s.metrics.area_prices); builders(s.metrics.builders, s.metrics.tracked_developers); plans(s.plans);
-    towns(s.growth_towns, s.zones); magazine(s); status(s);
+    // each section renders independently: one failure must never blank the rest of the page
+    const safe = (fn) => { try { fn(); } catch (err) { if (window.console) console.error(err); } };
+    safe(() => quotes(s.quotes || [])); safe(() => heroStats(s.metrics.kpis)); safe(() => kpis(s.metrics.kpis));
+    safe(() => news(s.news)); safe(() => clusters(s.clusters || [])); safe(() => growthCharts(s.metrics.series));
+    safe(() => areaChart(s.metrics.area_prices)); safe(() => builders(s.metrics.builders, s.metrics.tracked_developers));
+    safe(() => plans(s.plans)); safe(() => towns(s.growth_towns, s.zones)); safe(() => magazine(s)); safe(() => status(s));
+    // never show an empty band: hide any section whose content container rendered nothing
+    [["#builder-cards", "#builders"], ["#plans-list", "#plans"], ["#towns-list", "#towns"], ["#charts", null], ["#kpis", null],
+     ["#downloads", null]].forEach(([box, sec]) => {
+      const el = $(box);
+      if (el && !el.children.length) (sec ? $(sec) : el).style.display = "none";
+    });
+    if (!(s.metrics.area_prices || []).length) $(".area-card").style.display = "none";
     reveal();
   }
   main();

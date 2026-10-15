@@ -86,7 +86,7 @@ def do_scheduled() -> int:
             time.sleep(sched["retries"]["backoff_minutes"][attempt - 1] * 60)
     # rest of the application batch: monthly magazine, weekly summary, dashboard metrics, website data
     from harness.batch import run_batch
-    run_batch(["magazine", "weekly", "metrics", "site"] + (["email"] if rc == 0 else []))
+    run_batch(["magazine", "weekly", "clusters", "metrics", "site"] + (["email"] if rc == 0 else []))
     return rc
 
 

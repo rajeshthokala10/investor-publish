@@ -128,6 +128,8 @@ def build_site(log=None) -> dict:
         "zones": [{"zone": z["zone"], "title": z["title"], "standfirst": z["standfirst"],
                    "markets": z["micro_markets"]} for z in issue.get("zones", [])],
         "quotes": read_json(ROOT / "app" / "content" / "quotes.json", []),
+        "clusters": [__import__("app.articles", fromlist=["summary"]).summary(c) for c in
+                     read_json(APP_DATA / "clusters.json", {}).get("clusters", [])],
         "downloads": downloads,
     }
     write_json(APP_DATA / "site.json", site)

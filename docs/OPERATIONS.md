@@ -28,6 +28,15 @@ The daily PDF "Bangalore Realestate Delta" is a 5-page magazine in the monthly m
 
 No market statistics appear in this edition. If the writer is unavailable, the condensed analyst layout is used instead.
 
+## Planned cities & growth clusters (weekly)
+- **What:** `harness/clusters.py` researches government-planned cities and clusters (KWIN City, SWIFT City, the Bidadi township / "AI City", Q-City, the aerospace park, the MMLP logistics park, BMRDA townships, the second-airport region, the Business Corridor, BDA layouts…). Candidates are listed in `config/clusters.yaml`.
+- **What gets published:**
+  - Only clusters with quoted, citation-checked facts. Unevidenced names are listed in `not_found` and not shown.
+  - Every area, investment or job number must appear in a fact. Each investment keeps its kind (budget allocation, project cost, expected investment / MoU).
+  - Distance from MG Road is computed from approximate coordinates and labelled as approximate.
+- **Articles:** a no-tools writer produces one-page articles, which are number-checked and served at `/growth/<slug>`.
+- **Schedule:** refreshed by the batch every `refresh_days` (7). Force a refresh with `python -c "from harness.clusters import build_clusters; build_clusters(force=True)"`.
+
 ## Website content protection
 - Page data is embedded server-side. `/api/*` answers only on this machine, and no API docs are served.
 - Deterrents in `app/static/guard.js`:
