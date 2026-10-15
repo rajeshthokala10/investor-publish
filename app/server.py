@@ -22,7 +22,7 @@ from app.site_data import APP_DATA, DOWNLOADS
 from harness.common import read_json
 
 STATIC = Path(__file__).parent / "static"
-ALLOWED_DOWNLOADS = {"magazine-latest.pdf", "daily-brief-latest.pdf", "magazine-cover.png"}
+ALLOWED_DOWNLOADS = {"magazine-latest.pdf", "bangalore-realestate-delta-latest.pdf", "daily-brief-latest.pdf", "magazine-cover.png"}
 
 app = FastAPI(title="Bengaluru Property Review", docs_url=None, redoc_url=None, openapi_url=None)
 

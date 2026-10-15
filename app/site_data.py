@@ -110,8 +110,9 @@ def build_site(log=None) -> dict:
             downloads["magazine"]["cover"] = "magazine-cover.png"
     daily_pdf = daily_json.with_suffix(".pdf") if daily_json else None
     if daily_pdf and daily_pdf.exists():
-        shutil.copy2(daily_pdf, DOWNLOADS / "daily-brief-latest.pdf")
-        downloads["daily"] = {"file": "daily-brief-latest.pdf", "title": f"Daily brief — {daily_json.stem}", "pages": 5,
+        shutil.copy2(daily_pdf, DOWNLOADS / "bangalore-realestate-delta-latest.pdf")
+        shutil.copy2(daily_pdf, DOWNLOADS / "daily-brief-latest.pdf")          # old link keeps working
+        downloads["daily"] = {"file": "bangalore-realestate-delta-latest.pdf", "title": f"Bangalore Realestate Delta — {daily_json.stem}", "pages": 5,
                               "size_mb": round(daily_pdf.stat().st_size / 1e6, 1)}
 
     site = {

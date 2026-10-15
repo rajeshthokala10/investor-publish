@@ -189,7 +189,7 @@
     $("#cover-badge").textContent = m.label ? `${m.label} issue` : "Latest issue";
     $("#mag-title").textContent = d.magazine?.title || "Bengaluru Property Review";
     $("#mag-note").innerHTML = (m.editor_note || []).slice(0, 2).map((p) => `<p>${esc(p.text)}</p>`).join("");
-    $("#downloads").innerHTML = [d.magazine && { ...d.magazine, label: "Monthly magazine" }, d.daily && { ...d.daily, label: "Daily brief" }]
+    $("#downloads").innerHTML = [d.magazine && { ...d.magazine, label: "Monthly magazine" }, d.daily && { ...d.daily, label: "Bangalore Realestate Delta · daily" }]
       .filter(Boolean).map((x) => `<div class="dl"><b>${esc(x.label)}</b><span>${esc(x.title)} · ${x.pages} pages · ${x.size_mb} MB</span>
         <a class="btn btn-navy btn-sm" href="/download/${esc(x.file)}">Download PDF</a></div>`).join("");
     if (!d.magazine) $("#cover-img").closest("a").style.display = "none";

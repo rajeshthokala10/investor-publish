@@ -323,16 +323,27 @@ tbody th { font-weight: 700; color: #0d366b; }
 FIT_JS = """
 <script>
 (function () {
-  // Each page gets its own type scale: start generous, step down until nothing overflows the A4 box.
+  // Each page gets its own type scale: start generous, step down until the content's real bottom edge
+  // sits above the footer line (measured from element boxes, not scrollHeight, so print matches screen).
+  function bottom(pg) {
+    var top = pg.getBoundingClientRect().top, b = 0;
+    Array.prototype.forEach.call(pg.querySelectorAll('*'), function (el) {
+      if (el.closest('.folio') || el.closest('.cfoot')) return;
+      var r = el.getBoundingClientRect();
+      if (r.height > 0 && r.bottom - top > b) b = r.bottom - top;
+    });
+    return b;
+  }
   document.querySelectorAll('.mp').forEach(function (pg) {
+    var limit = pg.clientHeight - 64;              // keep clear of the folio (~17 mm) + safety
     var k = pg.classList.contains('cover') ? 1.0 : 1.32;
     pg.style.setProperty('--k', k);
-    while (pg.scrollHeight > pg.clientHeight + 1 && k > 0.62) {
+    while (bottom(pg) > limit && k > 0.62) {
       k = Math.round((k - 0.02) * 100) / 100;
       pg.style.setProperty('--k', k);
     }
     pg.dataset.k = k;
-    pg.dataset.overflow = pg.scrollHeight > pg.clientHeight + 1 ? '1' : '0';
+    pg.dataset.overflow = bottom(pg) > limit ? '1' : '0';
   });
 })();
 </script>

@@ -18,8 +18,8 @@
 | `com.bengaluru-rei.evening` | 18:00 IST: evening news refresh (RSS + metro/government research, last 12 h) → website news + `reports/daily/<date>-evening.md`; no PDF, no email | installed with `make schedule` |
 | `com.bengaluru-rei.web` | Website on 127.0.0.1:8787, auto-restart, starts at login | `make web-install` / `make web-stop` |
 
-## Daily Edition (06:00 IST)
-The daily PDF is a 5-page broadsheet newspaper (`harness/daily_paper.py`, prompt `prompts/daily_writer.md`):
+## Bangalore Realestate Delta — daily magazine (06:00 IST)
+The daily PDF "Bangalore Realestate Delta" is a 5-page magazine in the monthly magazine's style (`harness/daily_paper.py::build_delta_html`, prompt `prompts/daily_writer.md`): cover · top stories · Metro & Transport (network map + line board) · Development & Government (+ projects in the pipeline) · Around Bengaluru (+ growth towns, what to watch). News only, no statistics.
 - **Page 1:** front page with the lead and second stories, Metro Watch and In Brief.
 - **Page 2:** Metro & Transport, with the network map and the line status board.
 - **Page 3:** City Development, with the projects-in-the-pipeline box.

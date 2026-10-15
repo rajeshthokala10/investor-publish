@@ -417,7 +417,8 @@ CHROME = ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
 def html_pdf(html_path: Path, pdf_path: Path) -> str | None:
     for exe in CHROME:
         if Path(exe).exists() or shutil.which(exe):
-            r = subprocess.run([exe, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+            # desktop-width window: page-fit scripts must measure the print layout, not a mobile breakpoint
+            r = subprocess.run([exe, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--window-size=1200,1600",
                                 f"--print-to-pdf={pdf_path}", html_path.resolve().as_uri()],
                                capture_output=True, text=True, timeout=180)
             if pdf_path.exists() and pdf_path.stat().st_size > 0:
@@ -455,10 +456,10 @@ def render_daily(ctx, d: dict) -> dict:
     write_text(html_path, page)
     # Daily Edition PDF: 5-page newspaper of development + metro news (no statistics);
     # falls back to the condensed analyst layout if the news writer is unavailable.
-    from harness.daily_paper import render_paper, write_paper
+    from harness.daily_paper import render_delta, write_paper
     paper = write_paper(ed, d, meta["window"], ctx.log)
-    if paper:
-        pages, pdf_err = render_paper(ed, paper, meta, out_dir / f"{ed}.pdf", html_pdf)
+    if paper:   # "Bangalore Realestate Delta": magazine-style daily, news only
+        pages, pdf_err = render_delta(ed, paper, meta, out_dir / f"{ed}.pdf", html_pdf)
     else:
         from harness.pdf_edition import render_pdf
         pages, pdf_err = render_pdf(d, meta, info, css, out_dir / f"{ed}.pdf", html_pdf)

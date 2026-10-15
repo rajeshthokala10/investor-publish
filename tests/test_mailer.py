@@ -41,7 +41,7 @@ def test_dry_run_to_owner_bcc_subscribers(env):
     root, mailer, _ = env
     r = mailer.send_delta("2026-10-15")
     assert r["mode"] == "dry_run" and (r["to"], r["bcc"], r["sent"]) == (1, 1, 2)
-    assert r["attachments"] == ["2026-10-15.pdf", "bengaluru-property-review-2026-10.pdf"]
+    assert r["attachments"] == ["2026-10-15.pdf", "bengaluru-property-review-2026-10.pdf"]  # source files; attached as bangalore-realestate-delta-<date>.pdf
     raw = (root / "data/app/outbox/2026-10-15/delta.eml").read_bytes()
     msg = email.message_from_bytes(raw)
     assert msg["Subject"] == "Bangalore RealEstate Delta"

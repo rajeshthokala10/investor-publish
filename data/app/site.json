@@ -9,10 +9,10 @@
   },
   "downloads": {
     "daily": {
-      "file": "daily-brief-latest.pdf",
+      "file": "bangalore-realestate-delta-latest.pdf",
       "pages": 5,
-      "size_mb": 0.8,
-      "title": "Daily brief — 2026-10-15"
+      "size_mb": 1.5,
+      "title": "Bangalore Realestate Delta — 2026-10-15"
     },
     "magazine": {
       "cover": "magazine-cover.png",
@@ -22,7 +22,7 @@
       "title": "Bengaluru Property Review — October 2026"
     }
   },
-  "generated_at": "2026-10-15T09:03:36+05:30",
+  "generated_at": "2026-10-15T09:07:42+05:30",
   "growth_towns": [
     {
       "claim_ids": [

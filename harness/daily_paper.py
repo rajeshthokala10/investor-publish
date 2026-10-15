@@ -316,7 +316,7 @@ body { margin: 0; background: #ddd; color: #111; font-family: Georgia, "Times Ne
 .sect span { font: 900 calc(20px * var(--k)) "Times New Roman", serif; letter-spacing: 2px; }
 .cols-intro p { font-size: calc(11.5px * var(--k)); font-style: italic; }
 .metrogrid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 5mm; margin: 4px 0 8px; }
-.metro-svg { width: 100%; height: auto; display: block; border: 1px solid #ccc; border-radius: 8px; }
+.metro-svg { width: 100%; height: auto; aspect-ratio: 620 / 640; display: block; border: 1px solid #ccc; border-radius: 8px; }
 .metro-svg .ms { font: 600 8.5px Arial, sans-serif; fill: #1b2430; paint-order: stroke; stroke: #f7f9fc; stroke-width: 3px; }
 .cap { font: italic 8.5px Arial, sans-serif; color: #555; text-align: left !important; margin-top: 3px; }
 .bh { font: 800 11px Arial, sans-serif; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 4px; }
@@ -360,3 +360,115 @@ def render_paper(edition: str, paper: dict, meta: dict, out_pdf: Path, html_pdf)
     n = count_pages(out_pdf)
     clipped = [i + 1 for i, f in enumerate(fit_report(page)) if f["overflow"]]
     return n, (None if n == PAGES and not clipped else f"paper layout: {n} pages, clipped {clipped}")
+
+
+# ------------------------------------------------------------------ magazine-style daily: Bangalore Realestate Delta
+DELTA_NAME = "Bangalore Realestate Delta"
+
+
+def build_delta_html(paper: dict, meta: dict) -> str:
+    """Same visual language as the monthly magazine (harness/magazine_render.py), news only."""
+    from harness.infographic import skyline
+    from harness.magazine_render import CSS as MAG_CSS
+    date = now_ist().strftime("%A, %d %B %Y")
+    short = now_ist().strftime("%d %B %Y")
+    w = meta["window"]
+    lines = {ln["id"]: ln for ln in metro()["lines"]}
+    chip = lambda lid: (f'<span class="lchip" style="background:{lines[lid]["color"]}">{e(lines[lid]["name"].split(" (")[0])}</span>'  # noqa: E731
+                        if lid in lines else '<span class="lchip" style="background:#455a64">Metro</span>')
+    lead, second = paper["lead"], paper["second"]
+    cover_lines = [s["headline"] for s in (paper["metro_stories"][:2] + paper["development_stories"][:1] + paper["government_stories"][:1])]
+    p1 = (f'<div class="mast"><div class="mtitle">BANGALORE<br><b>REALESTATE DELTA</b></div>'
+          f'<div class="missue">{e(short)}<br><small>Daily · Metro · Development · Government · Around the city</small></div></div>'
+          f'<div class="cover-art">{skyline("delta" + short, 900, 380, pins=["Whitefield", "Hebbal", "Majestic", "Sarjapur", "Hoskote", "Kengeri"])}</div>'
+          f'<div class="ckick">{e(lead["kicker"]).upper()}</div><h1 class="chead">{e(lead["headline"])}</h1>'
+          f'<p class="csub">{e(lead["standfirst"])}</p>'
+          f'<ul class="clines">' + "".join(f"<li>{e(c)}</li>" for c in cover_lines[:4]) + "</ul>"
+          f'<div class="cfoot">INSIDE · Top stories · Metro &amp; Transport · Development &amp; Government · Around Bengaluru · What to watch</div>')
+    briefs = "".join(f'<div class="brief"><h4>{e(b["headline"])}</h4><p>{e(b["text"])}</p></div>' for b in paper["front_briefs"])
+    p2 = (f'<div class="sect">TODAY’S TOP STORIES</div><h1 class="feat">{e(lead["headline"])}</h1>'
+          f'<p class="stand">{e(lead["standfirst"])}</p><div class="cols2">{paras(lead["paragraphs"])}</div>'
+          + (f'<hr class="rule"><div class="sect">{e(second["kicker"]).upper()}</div><h2 class="feat2">{e(second["headline"])}</h2>'
+             f'<div class="cols2">{paras(second["paragraphs"])}</div>' if second["paragraphs"] else "")
+          + (f'<h3 class="sub">In brief</h3><div class="briefs3">{briefs}</div>' if briefs else ""))
+    board = "".join(f'<tr><td><i class="ldot" style="background:{r["color"]}"></i></td><td><b>{e(r["name"])}</b><br><small>{e(r["termini"])}</small></td>'
+                    f'<td><b class="st-{e(r["status"].split()[0].lower())}">{e(r["status"])}</b></td><td>{e(r["detail"])}'
+                    f'{"<br><small>" + e(r["timeline"]) + "</small>" if r["timeline"] else ""}</td></tr>' for r in line_status_rows())
+    mstories = "".join(f'<div class="mcard">{chip(s["line"])}<h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["metro_stories"])
+    p3 = (f'<div class="sect">METRO &amp; TRANSPORT</div><h1 class="feat2">Namma Metro and rail today</h1>'
+          f'<div class="lede">{paras(paper["metro_intro"])}</div>'
+          f'<div class="two mgrid"><div class="mapbox">{metro_svg()}</div><div><h3 class="sub">Where every line stands</h3>'
+          f'<table class="board">{board}</table></div></div>'
+          f'<div class="mcards">{mstories or "<p>No metro announcements in this window.</p>"}</div>')
+    issue = latest_issue()
+    pipe = [g for g in issue.get("gov_rows", []) if g["category"] in ("road", "township", "water", "airport", "governance")]
+    ptable = ("<h3 class='sub'>Projects in the pipeline</h3><table class='gov'><thead><tr><th>Project</th><th>Where it stands</th>"
+              "<th>Timeline</th><th>Areas</th></tr></thead><tbody>"
+              + "".join(f"<tr><td><b>{e(g['project'])}</b></td><td>{e(g['status'])}</td><td>{e(g['timeline'])}</td><td>{e(g['areas'])}</td></tr>"
+                        for g in pipe[:7]) + "</tbody></table>") if pipe else ""
+    p4 = (f'<div class="sect">DEVELOPMENT &amp; GOVERNMENT</div><h1 class="feat2">What is changing in the city</h1>'
+          f'<div class="two"><div><h3 class="sub">City development</h3>'
+          + ("".join(f'<div class="story"><h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["development_stories"]) or "<p>No new development announcements.</p>")
+          + '</div><div><h3 class="sub">Government &amp; policy</h3>'
+          + ("".join(f'<div class="story"><h4>{e(s["headline"])}</h4><p>{e(s["text"])}</p></div>' for s in paper["government_stories"]) or "<p>No new government decisions.</p>")
+          + f'</div></div>{ptable}')
+    zname = {"east": "EAST", "north": "NORTH", "south": "SOUTH", "west": "WEST", "outer": "BEYOND THE CITY"}
+    zcol = {"east": "#2a78d6", "north": "#eb6834", "south": "#1baf7a", "west": "#eda100", "outer": "#4a3aa7"}
+    zones = "".join(f'<div class="zoneblk"><div class="sect" style="color:{zcol[z["zone"]]}">{zname[z["zone"]]} BENGALURU</div>'
+                    + "".join(f'<div class="story"><h4>{e(i["headline"])}</h4><p>{e(i["text"])}</p></div>' for i in z["items"]) + "</div>"
+                    for z in paper["around"])
+    towns = issue.get("growth_towns", [])[:6]
+    tcards = "".join(f'<div class="town">{skyline("dt" + t["name"], 300, 60, metro=False)}<h4>{e(t["name"])}</h4><p>{e(t["why"])}</p></div>' for t in towns)
+    watch = "".join(f'<li><b>{e(x["item"])}</b> — {e(x["why"])}</li>' for x in paper["watch"])
+    cited = {i for blk in _blocks(paper) for i in blk.get("ids", [])}
+    srcs = paper.get("_sources", {})
+    pubs = sorted({srcs[i]["publisher"] for i in cited if i in srcs and srcs[i]["publisher"]})
+    p5 = (f'<div class="sect">AROUND BENGALURU</div><h1 class="feat2">News from every corner</h1><div class="zgrid">{zones or "<p>No area news in this window.</p>"}</div>'
+          + (f'<h3 class="sub">Growth towns to watch</h3><div class="towns">{tcards}</div>' if tcards else "")
+          + (f'<h3 class="sub">What to watch next</h3><ul class="watch cols2">{watch}</ul>' if watch else "")
+          + f'<div class="sources"><b>Sources for this edition</b> (news from {e(w["start"][:16].replace("T", " "))} to {e(w["end"][:16].replace("T", " "))} IST): '
+          + e(", ".join(pubs)) + ". News is attributed to the organisations that published it; plans and dates are as announced and can change. "
+            "Information only, not investment advice.</div>")
+    labels = ["", "Top stories", "Metro & Transport", "Development & Government", "Around Bengaluru"]
+    body = ""
+    for n, (pg, lab) in enumerate(zip([p1, p2, p3, p4, p5], labels), 1):
+        folio = "" if n == 1 else (f'<div class="folio"><span>{DELTA_NAME} · {e(date)}</span><span>{e(lab)}</span><span>{n}</span></div>')
+        body += f'<section class="mp{" cover" if n == 1 else ""}">{pg}{folio}</section>'
+    extra = """
+.ckick { font: 800 12px "Helvetica Neue", Arial, sans-serif; letter-spacing: 2px; color: #ffcf5a; margin: 7mm 14mm 0; }
+.cover .chead { margin-top: 2mm; }
+.mtitle b { font-size: 36px; }
+.briefs3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5mm; }
+.brief h4, .story h4, .mcard h4, .town h4 { font: 800 calc(13.5px * var(--k))/1.2 Georgia, serif; color: #0d366b; margin: 0 0 3px; }
+.brief { border-top: 3px solid #e34948; padding-top: 4px; } .brief p, .story p, .mcard p, .town p { text-align: left; }
+.story { border-bottom: 1px solid #e3e2dc; padding-bottom: 5px; margin-bottom: 6px; }
+.mapbox svg { width: 100%; height: auto; aspect-ratio: 620 / 640; border: 1px solid #d9d8d2; border-radius: 6px; }
+.metro-svg .ms { font: 600 8px Arial, sans-serif; fill: #1b2430; paint-order: stroke; stroke: #f7f9fc; stroke-width: 3px; }
+.board { font: calc(8.8px * var(--k))/1.3 "Helvetica Neue", Arial, sans-serif; }
+.board td { padding: 3px 4px; } .board small { color: #6b6a66; } .ldot { display: inline-block; width: 11px; height: 11px; border-radius: 50%; }
+.st-operational { color: #13693b; } .st-under { color: #8a5300; } .st-approved { color: #1c4f9c; } .st-proposed { color: #9b1c1c; }
+.mcards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin-top: 6px; }
+.mcard { background: #f4f8fd; border-top: 3px solid #0d366b; padding: 6px 8px; }
+.lchip { display: inline-block; font: 800 8.5px Arial, sans-serif; color: #fff; padding: 1px 6px; border-radius: 8px; margin-bottom: 3px; }
+.zgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 7mm; }
+.zoneblk .sect { margin-top: 4px; }
+.towns { grid-template-columns: repeat(3, 1fr); gap: 4mm; } .town h4 { margin: 4px 8px 2px; } .town p { margin: 0 8px 6px; }
+.two { gap: 6mm; }
+.mgrid { grid-template-columns: 84mm 1fr; align-items: start; }
+"""
+    from harness.magazine_render import FIT_JS
+    return (f"<!doctype html><html lang='en'><head><meta charset='utf-8'><title>{DELTA_NAME} — {e(short)}</title>"
+            f"<style>{MAG_CSS}{extra}:root{{--k:1}}</style></head><body>{body}{FIT_JS.replace('? 1.0 : 1.32', '? 1.0 : 1.25')}</body></html>")
+
+
+def render_delta(edition: str, paper: dict, meta: dict, out_pdf: Path, html_pdf) -> tuple[int, str | None]:
+    from harness.magazine_render import fit_report
+    from harness.pdf_edition import count_pages
+    page = out_pdf.with_suffix(".delta.html")
+    write_text(page, build_delta_html(paper, meta))
+    err = html_pdf(page, out_pdf)
+    if err:
+        return 0, err
+    n = count_pages(out_pdf)
+    clipped = [i + 1 for i, f in enumerate(fit_report(page)) if f["overflow"]]
+    return n, (None if n == PAGES and not clipped else f"delta layout: {n} pages, clipped {clipped}")

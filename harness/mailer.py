@@ -126,7 +126,7 @@ def render(dl: dict, cfg: dict, unsub_url: str) -> tuple[str, str]:
 {section("Market at a glance", f'<table role="presentation" width="100%" cellspacing="6" cellpadding="0"><tr>{kpis}</tr></table>') if dl["kpis"] else ""}
 {section("Headlines", "<ul style='padding-left:18px;margin:0'>" + items(dl["headlines"], lambda h: f"<li style='margin-bottom:6px'><a href='{e(h['url'])}' style='color:#1c5cab'>{e(h['title'])}</a> <span style='color:#6b7280;font-size:12px'>{e((h.get('publishers') or [''])[0])}</span></li>") + "</ul>") if dl["headlines"] else ""}
 <p style="margin:26px 0 0"><a href="{e(site)}" style="background:#ffcf5a;color:#0a2a54;text-decoration:none;font-weight:700;padding:11px 18px;border-radius:999px">Open the dashboard</a>
-&nbsp; <a href="{e(site)}/download/magazine-latest.pdf" style="color:#0d366b;font-weight:700">Download the {e(dl['magazine'] or 'latest')} magazine</a></p>
+&nbsp; <a href="{e(site)}/download/bangalore-realestate-delta-latest.pdf" style="color:#0d366b;font-weight:700">Today’s Bangalore Realestate Delta (PDF)</a></p>
 </td></tr>
 <tr><td style="background:#f9fafb;padding:16px 26px;font:12px/1.5 Arial,sans-serif;color:#6b7280">
 Compiled from public sources; figures are attributed to the organisations that published them. Information only, not investment advice.<br>
@@ -160,7 +160,8 @@ def build_message(to: str, dl: dict, cfg: dict, env: dict, attachments: list[Pat
     msg.set_content(text_body)
     msg.add_alternative(html_body, subtype="html")
     for p in attachments:
-        msg.add_attachment(p.read_bytes(), maintype="application", subtype="pdf", filename=p.name)
+        name = f"bangalore-realestate-delta-{p.stem}.pdf" if p.parent.name == "daily" else p.name
+        msg.add_attachment(p.read_bytes(), maintype="application", subtype="pdf", filename=name)
     return msg
 
 
