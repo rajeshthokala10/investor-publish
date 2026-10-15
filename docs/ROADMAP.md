@@ -1,8 +1,9 @@
 # Roadmap / future work
 
 ## Delivery & audience
-- [ ] Email delivery for subscribers via a transactional provider (double opt-in, unsubscribe link, bounce handling).
-      Needs explicit approval and an API key in `.env` (never in git). Hook: after `site` step in `harness/batch.py`.
+- [x] Daily "Bangalore RealEstate Delta" email (To owner, Bcc subscribers) via SMTP; dry run without credentials.
+- [ ] Double opt-in confirmation, bounce handling, automatic unsubscribe processing of replies.
+- [ ] Per-recipient sending (personal unsubscribe links) via a transactional provider once the list grows.
 - [ ] Web push / WhatsApp channel for the 6 am brief.
 - [ ] Public deployment: Dockerfile + reverse proxy (Caddy/Nginx) with HTTPS; move SQLite → Postgres if multi-instance.
 - [ ] Admin login (currently admin endpoints are localhost-only).

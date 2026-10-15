@@ -36,6 +36,18 @@
 Daily research ≈ $2–3 (cap $12), magazine ≈ $8–10 per month (cap $30), metrics ≈ $0.3/day. Caps live in
 `config/harness.yaml` and `config/magazine.yaml`. Set `agent.enabled: false` for zero-cost RSS-only days.
 
+## "Bangalore RealEstate Delta" email
+- Sent by the batch after the website refresh, once per edition.
+  - **From:** `info@raditsoftware.com`.
+  - **Subject:** "Bangalore RealEstate Delta".
+  - **To:** `EMAIL_TO` from `.env`.
+  - **Bcc:** every active subscriber. Bcc addresses go only to the SMTP envelope, never into the message headers.
+- **Settings:** `config/email.yaml` (from address, subject, attachments, site URL). Secrets and recipients live in `.env`, which is git-ignored (template: `.env.example`).
+- **Sending for real:** add `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER` and `SMTP_PASSWORD` for the info@raditsoftware.com mailbox to `.env`. Until then every run is a dry run that writes `data/app/outbox/<date>/delta.eml` and `envelope.txt`.
+- **Commands:** `make email-preview` writes a dry run; `make email` sends; `python -m harness.cli email --to you@example.com` sends a single test copy and is not logged.
+- **Attachments:** the daily 5-page PDF, plus the magazine on the first email after each new issue.
+- **Unsubscribe:** recipients reply to info@raditsoftware.com with "unsubscribe" (List-Unsubscribe mailto). Mark them with `app.store.unsubscribe(email)`, or let them use `/unsubscribe` with a signed link.
+
 ## Subscribers
-Stored locally in `data/app/app.db` (status `pending`). No email is sent automatically.
+Stored locally in `data/app/app.db`; they receive the daily delta email in Bcc unless unsubscribed.
 Export: `curl http://127.0.0.1:8787/api/admin/subscribers` (localhost only). See `docs/ROADMAP.md` for delivery.

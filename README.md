@@ -7,6 +7,9 @@ make schedule      # 06:00 IST batch: daily research → magazine (monthly) → 
 make batch         # run the whole application now
 make help          # all commands
 ```
+Email: `make email-preview` (dry run) · `make email` (sends "Bangalore RealEstate Delta" from info@raditsoftware.com;
+needs SMTP settings in `.env`, see [Operations](docs/OPERATIONS.md#bangalore-realestate-delta-email))
+
 Docs: [Architecture](docs/ARCHITECTURE.md) · [Operations](docs/OPERATIONS.md) · [API](docs/API.md) · [Roadmap](docs/ROADMAP.md)
 
 ## Web application
