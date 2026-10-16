@@ -2,7 +2,7 @@
   "area_prices": [
     {
       "area": "Sarjapur Road",
-      "basis": "apartment, ANAROCK Q2 2025 average",
+      "basis": "apartment, ANAROCK Apr-Jun 2025",
       "claim_id": "C-529e991d12",
       "high": 10800,
       "low": 10800,
@@ -12,7 +12,7 @@
     },
     {
       "area": "Thanisandra Main Road",
-      "basis": "apartment, ANAROCK Q2 2025 average",
+      "basis": "apartment, ANAROCK Q2 2025",
       "claim_id": "C-d72298949f",
       "high": 9700,
       "low": 9700,
@@ -22,7 +22,7 @@
     },
     {
       "area": "Hebbal",
-      "basis": "apartment, NewsFirst Prime average range (media estimate)",
+      "basis": "apartment, NewsFirst Prime average range",
       "claim_id": "C-21a92903ab",
       "high": 12500,
       "low": 9500,
@@ -32,7 +32,7 @@
     },
     {
       "area": "Yelahanka",
-      "basis": "apartment, NewsFirst Prime early 2026 (media estimate)",
+      "basis": "apartment, NewsFirst Prime early 2026",
       "claim_id": "C-4021caff02",
       "high": 9500,
       "low": 7500,
@@ -41,8 +41,8 @@
       "zone": "north"
     },
     {
-      "area": "Devanahalli (plots)",
-      "basis": "land, plot rates 2026 (unverified media estimate)",
+      "area": "Devanahalli",
+      "basis": "land",
       "claim_id": "C-b0c76f18db",
       "high": 10000,
       "low": 6000,
@@ -52,7 +52,7 @@
     },
     {
       "area": "Electronic City",
-      "basis": "apartment, JLL Oct 2025 near station",
+      "basis": "apartment, JLL Oct 2025",
       "claim_id": "C-922d70ee28",
       "high": 7500,
       "low": 7000,
@@ -71,18 +71,8 @@
       "zone": "south"
     },
     {
-      "area": "Tumkur Road",
-      "basis": "apartment, Brigade Group blog 2026 (developer content)",
-      "claim_id": "C-5a78da1676",
-      "high": 8500,
-      "low": 5500,
-      "source": "Brigade Group",
-      "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
-      "zone": "west"
-    },
-    {
       "area": "Rajajinagar",
-      "basis": "apartment, Brigade Group blog 2026 (developer content)",
+      "basis": "apartment, Brigade developer quote",
       "claim_id": "C-ce765d2aac",
       "high": 14000,
       "low": 9000,
@@ -91,14 +81,14 @@
       "zone": "west"
     },
     {
-      "area": "Hosur",
-      "basis": "apartment, Housing.com asking average via Sobha blog",
-      "claim_id": "C-e4ec3d7446",
-      "high": 5086,
-      "low": 5086,
-      "source": "Sobha Limited blog",
-      "url": "https://www.sobha.com/blog/real-estate-investment-opportunities-near-hosur/",
-      "zone": "outer"
+      "area": "Tumkur Road",
+      "basis": "apartment, Brigade developer quote",
+      "claim_id": "C-5a78da1676",
+      "high": 8500,
+      "low": 5500,
+      "source": "Brigade Group",
+      "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
+      "zone": "west"
     }
   ],
   "builders": [
@@ -109,8 +99,8 @@
         "C-d6a0265647",
         "C-f5feeb5ed2"
       ],
-      "headline": "Embassy Origins pre-sales topped ₹1,800 crore in the first week (company-reported).",
-      "metric_display": "₹1,800 crore",
+      "headline": "Embassy Origins pre-sales of over ₹1,800 crore in the first week",
+      "metric_display": "₹1,800 crore+",
       "metric_label": "Pre-sales, Embassy Origins (₹ crore)",
       "metric_value": 1800,
       "name": "Embassy Developments",
@@ -128,27 +118,9 @@
     },
     {
       "claim_ids": [
-        "C-48d51205e0",
-        "C-34c74fe7c8"
-      ],
-      "headline": "Announced Brigade Belvedere, 773 units in the initial phase, East Bengaluru.",
-      "metric_display": "₹1,100 crore+",
-      "metric_label": "Revenue potential (₹ crore)",
-      "metric_value": 1100,
-      "name": "Brigade Enterprises",
-      "projects": [
-        "Brigade Belvedere"
-      ],
-      "sources": [
-        "Outlook Business"
-      ],
-      "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-eyes-1100-cr-revenue-from-new-housing-project-in-bengaluru"
-    },
-    {
-      "claim_ids": [
         "C-b04ef95da8"
       ],
-      "headline": "The Astoria at Century Immencity, Jakkur, crossed ₹550 crore in bookings.",
+      "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings (developer claim)",
       "metric_display": "₹550 crore+",
       "metric_label": "Bookings (₹ crore)",
       "metric_value": 550,
@@ -163,9 +135,27 @@
     },
     {
       "claim_ids": [
+        "C-48d51205e0",
+        "C-34c74fe7c8"
+      ],
+      "headline": "Brigade Belvedere: 773 units in the initial phase, revenue potential above ₹1,100 crore",
+      "metric_display": "₹1,100 crore+",
+      "metric_label": "Revenue potential (₹ crore)",
+      "metric_value": 1100,
+      "name": "Brigade Enterprises",
+      "projects": [
+        "Brigade Belvedere"
+      ],
+      "sources": [
+        "Outlook Business"
+      ],
+      "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-eyes-1100-cr-revenue-from-new-housing-project-in-bengaluru"
+    },
+    {
+      "claim_ids": [
         "C-5f7b18197c"
       ],
-      "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27.",
+      "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27",
       "metric_display": "3 mn sq ft",
       "metric_label": "Bengaluru commercial launch (mn sq ft)",
       "metric_value": 3,
@@ -180,9 +170,9 @@
       "claim_ids": [
         "C-addcb93af8"
       ],
-      "headline": "45-acre Gunjur project received RERA approval as Abhee City Urban Glenn.",
+      "headline": "45-acre Gunjur project received RERA approval",
       "metric_display": "45 acres",
-      "metric_label": "Project size (acres)",
+      "metric_label": "Project area (acres)",
       "metric_value": 45,
       "name": "Abhee Ventures",
       "projects": [
@@ -192,33 +182,16 @@
         "UNI"
       ],
       "url": "https://www.uniindia.com/business-economy/abhee-ventures-bengaluru-project/175152"
-    },
-    {
-      "claim_ids": [
-        "C-6f8777c289"
-      ],
-      "headline": "Sold all 233 Phase 1 plots of KNS Candrill within six months (developer-reported).",
-      "metric_display": "233 plots",
-      "metric_label": "Plots sold",
-      "metric_value": 233,
-      "name": "KNS",
-      "projects": [
-        "KNS Candrill"
-      ],
-      "sources": [
-        "NBM&CW"
-      ],
-      "url": "https://www.nbmcw.com/news/kns-candrill-sells-out-phase-1-in-doddaballapur-bengaluru-rs100-cr-sales-in-6-months.html"
     }
   ],
   "dropped": [],
-  "generated_at": "2026-10-15T08:24:01+05:30",
+  "generated_at": "2026-10-16T09:07:49+05:30",
   "kpis": [
     {
       "change": "+12% YoY",
       "claim_id": "C-cffc61a291",
       "display": "16,670",
-      "label": "Housing sales (units)",
+      "label": "Housing sales",
       "period": "Q3 2026",
       "source": "Construction World",
       "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-in-top-seven-cities-rise-3-to-100000-units/97936",
@@ -228,7 +201,7 @@
       "change": "+17% YoY",
       "claim_id": "C-612829b5ec",
       "display": "17,720",
-      "label": "New launches (units)",
+      "label": "New launches",
       "period": "Q3 2026",
       "source": "Outlook Money",
       "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
@@ -246,12 +219,12 @@
     },
     {
       "change": "+8% YoY",
-      "claim_id": "C-c51ea6c89d",
+      "claim_id": "C-1af360e4e4",
       "display": "+8%",
-      "label": "Annual price growth",
+      "label": "Price growth",
       "period": "Q3 2026",
-      "source": "Outlook Money",
-      "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29",
       "value": 8
     },
     {
@@ -268,28 +241,28 @@
       "change": "+34% YoY",
       "claim_id": "C-e61fe94622",
       "display": "79,180",
-      "label": "Unsold stock (units)",
+      "label": "Unsold stock",
       "period": "Q2 2026",
       "source": "Business Today",
       "url": "https://www.businesstoday.in/amp/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03",
       "value": 79180
     },
     {
-      "change": "led top seven cities",
+      "change": "~29% share of top seven",
       "claim_id": "C-8a753aec15",
       "display": "15.7 mn sq ft",
-      "label": "Office leasing (million sq ft)",
-      "period": "Jan–Sep 2026",
+      "label": "Office leasing (sq ft)",
+      "period": "Jan-Sep 2026",
       "source": "Asianet Newsable",
       "url": "https://newsable.asianetnews.com/business/india-office-leasing-rises-7-yoy-in-jan-sep-2026-bengaluru-leads-articleshow-cpfha99",
-      "value": 15.7
+      "value": 15700000
     }
   ],
   "series": [
     {
       "chart": "line",
-      "id": "anarock-avg-price",
-      "note": "ANAROCK only; endpoints stated in one claim.",
+      "id": "anarock-price",
+      "note": "ANAROCK only.",
       "points": [
         {
           "claim_id": "C-ff7db99f53",
@@ -316,7 +289,7 @@
     },
     {
       "chart": "line",
-      "id": "anarock-rental-yield",
+      "id": "anarock-yield",
       "note": "ANAROCK only.",
       "points": [
         {
@@ -344,8 +317,8 @@
     },
     {
       "chart": "bar",
-      "id": "anarock-sales-q3",
-      "note": "ANAROCK only; Jul–Sep quarter, year earlier vs latest.",
+      "id": "anarock-sales",
+      "note": "ANAROCK only; quarterly.",
       "points": [
         {
           "claim_id": "C-cffc61a291",
@@ -354,6 +327,14 @@
           "source": "Construction World",
           "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-in-top-seven-cities-rise-3-to-100000-units/97936",
           "value": 14835
+        },
+        {
+          "claim_id": "C-29d1259931",
+          "label": "Q2 2026",
+          "sort": 2026.5,
+          "source": "Business Today",
+          "url": "https://www.businesstoday.in/personal-finance/real-estate/story/bengaluru-emerges-as-indias-strongest-housing-market-in-q2-mumbai-dominates-sales-ncr-leads-price-growth-540257-2026-07-01",
+          "value": 15285
         },
         {
           "claim_id": "C-cffc61a291",
@@ -365,15 +346,16 @@
         }
       ],
       "sources": [
+        "Business Today",
         "Construction World"
       ],
-      "title": "Bengaluru Q3 housing sales (ANAROCK)",
+      "title": "Bengaluru housing sales (ANAROCK)",
       "unit": "units"
     },
     {
       "chart": "bar",
       "id": "anarock-unsold",
-      "note": "ANAROCK only; year-end figures.",
+      "note": "ANAROCK only.",
       "points": [
         {
           "claim_id": "C-5a91e10668",
@@ -390,21 +372,30 @@
           "source": "Outlook Money (PTI)",
           "url": "https://www.outlookmoney.com/news/unsold-homes-up-4-per-cent-in-2025-across-top-7-cities-as-new-supply-outstrips-demand-anarock",
           "value": 64863
+        },
+        {
+          "claim_id": "C-e61fe94622",
+          "label": "Q2 2026",
+          "sort": 2026.5,
+          "source": "Business Today",
+          "url": "https://www.businesstoday.in/amp/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03",
+          "value": 79180
         }
       ],
       "sources": [
+        "Business Today",
         "Outlook Money (PTI)"
       ],
-      "title": "Bengaluru unsold housing stock (ANAROCK)",
+      "title": "Bengaluru unsold stock (ANAROCK)",
       "unit": "units"
     },
     {
       "chart": "line",
-      "id": "anarock-sarjapur-price",
-      "note": "ANAROCK only; end-2021 to Apr–Jun 2025.",
+      "id": "anarock-sarjapur",
+      "note": "ANAROCK only.",
       "points": [
         {
-          "claim_id": "C-529e991d12",
+          "claim_id": "C-b98c18d7ae",
           "label": "End-2021",
           "sort": 2021.99,
           "source": "Outlook Business",
@@ -412,7 +403,7 @@
           "value": 6050
         },
         {
-          "claim_id": "C-529e991d12",
+          "claim_id": "C-b98c18d7ae",
           "label": "Q2 2025",
           "sort": 2025.5,
           "source": "Outlook Business",
@@ -429,6 +420,37 @@
   ],
   "tracked_developers": [
     {
+      "developer": "Puravankara",
+      "projects": [
+        "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
+        "Puravankara Sathanur (JDA land parcel)",
+        "Puravankara Sathanur (JDA)",
+        "Puravankara Sathanur JDA parcel",
+        "Puravankara Sathanur residential project (JDA)",
+        "Purva Northern Lights"
+      ],
+      "tracked_projects": 6,
+      "types": [
+        "apartment",
+        "mixed"
+      ]
+    },
+    {
+      "developer": "Brigade Enterprises",
+      "projects": [
+        "Brigade Belvedere",
+        "Brigade Gunjur",
+        "Brigade Gunjur township (JDA)",
+        "Brigade Kanakapura Road two-acre project (not yet named)",
+        "Brigade Lumina"
+      ],
+      "tracked_projects": 5,
+      "types": [
+        "apartment",
+        "mixed"
+      ]
+    },
+    {
       "developer": "Prestige Estates Projects",
       "projects": [
         "Prestige Gardenia Estates Phase 1",
@@ -444,31 +466,15 @@
       ]
     },
     {
-      "developer": "Brigade Enterprises",
+      "developer": "Assetz Property Group",
       "projects": [
-        "Brigade Belvedere",
-        "Brigade Gunjur township (JDA)",
-        "Brigade Kanakapura Road two-acre project (not yet named)",
-        "Brigade Lumina"
+        "Assetz Mizumi Reserve (Phase 1)",
+        "Assetz Twin Lake City",
+        "Assetz Zen & Sato"
       ],
-      "tracked_projects": 4,
+      "tracked_projects": 3,
       "types": [
-        "apartment",
-        "mixed"
-      ]
-    },
-    {
-      "developer": "Puravankara",
-      "projects": [
-        "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
-        "Puravankara Sathanur (JDA)",
-        "Puravankara Sathanur JDA parcel",
-        "Purva Northern Lights"
-      ],
-      "tracked_projects": 4,
-      "types": [
-        "apartment",
-        "mixed"
+        "apartment"
       ]
     },
     {
@@ -485,10 +491,10 @@
       ]
     },
     {
-      "developer": "Assetz Property Group",
+      "developer": "Godrej Properties",
       "projects": [
-        "Assetz Mizumi Reserve (Phase 1)",
-        "Assetz Zen & Sato"
+        "Godrej Vanantara",
+        "Godrej Whitefield (working name)"
       ],
       "tracked_projects": 2,
       "types": [
@@ -520,16 +526,6 @@
       "developer": "Century Real Estate",
       "projects": [
         "The Astoria (Century Immencity)"
-      ],
-      "tracked_projects": 1,
-      "types": [
-        "apartment"
-      ]
-    },
-    {
-      "developer": "Godrej Properties",
-      "projects": [
-        "Godrej Vanantara"
       ],
       "tracked_projects": 1,
       "types": [
