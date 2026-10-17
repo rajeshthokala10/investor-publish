@@ -1242,19 +1242,19 @@
     }
   ],
   "daily": {
-    "edition": "2026-10-16",
+    "edition": "2026-10-17",
     "status": "partial",
     "window": {
-      "end": "2026-10-16T06:00:00+05:30",
-      "start": "2026-10-13T06:00:00+05:30"
+      "end": "2026-10-17T06:00:00+05:30",
+      "start": "2026-10-14T06:00:00+05:30"
     }
   },
   "downloads": {
     "daily": {
       "file": "bangalore-realestate-delta-latest.pdf",
       "pages": 5,
-      "size_mb": 1.2,
-      "title": "Bangalore Realestate Delta — 2026-10-16"
+      "size_mb": 1.3,
+      "title": "Bangalore Realestate Delta — 2026-10-17"
     },
     "magazine": {
       "cover": "magazine-cover.png",
@@ -1264,7 +1264,7 @@
       "title": "Bengaluru Property Review — October 2026"
     }
   },
-  "generated_at": "2026-10-16T09:07:58+05:30",
+  "generated_at": "2026-10-17T10:26:36+05:30",
   "growth_towns": [
     {
       "claim_ids": [
@@ -1401,7 +1401,7 @@
     "area_prices": [
       {
         "area": "Sarjapur Road",
-        "basis": "apartment, ANAROCK Apr-Jun 2025",
+        "basis": "apartment avg, ANAROCK Apr-Jun 2025",
         "claim_id": "C-529e991d12",
         "high": 10800,
         "low": 10800,
@@ -1411,7 +1411,7 @@
       },
       {
         "area": "Thanisandra Main Road",
-        "basis": "apartment, ANAROCK Q2 2025",
+        "basis": "apartment avg, ANAROCK Q2 2025",
         "claim_id": "C-d72298949f",
         "high": 9700,
         "low": 9700,
@@ -1421,7 +1421,7 @@
       },
       {
         "area": "Hebbal",
-        "basis": "apartment, NewsFirst Prime average range",
+        "basis": "apartment avg, NewsFirst Prime (media estimate)",
         "claim_id": "C-21a92903ab",
         "high": 12500,
         "low": 9500,
@@ -1440,18 +1440,8 @@
         "zone": "north"
       },
       {
-        "area": "Devanahalli",
-        "basis": "land",
-        "claim_id": "C-b0c76f18db",
-        "high": 10000,
-        "low": 6000,
-        "source": "NewsFirst Prime",
-        "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
-        "zone": "north"
-      },
-      {
         "area": "Electronic City",
-        "basis": "apartment, JLL Oct 2025",
+        "basis": "apartment near station, JLL Oct 2025",
         "claim_id": "C-922d70ee28",
         "high": 7500,
         "low": 7000,
@@ -1471,7 +1461,7 @@
       },
       {
         "area": "Rajajinagar",
-        "basis": "apartment, Brigade developer quote",
+        "basis": "apartment, Brigade blog (developer quote)",
         "claim_id": "C-ce765d2aac",
         "high": 14000,
         "low": 9000,
@@ -1481,13 +1471,33 @@
       },
       {
         "area": "Tumkur Road",
-        "basis": "apartment, Brigade developer quote",
+        "basis": "apartment, Brigade blog (developer quote)",
         "claim_id": "C-5a78da1676",
         "high": 8500,
         "low": 5500,
         "source": "Brigade Group",
         "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
         "zone": "west"
+      },
+      {
+        "area": "Devanahalli",
+        "basis": "land (plots), NewsFirst Prime 2026",
+        "claim_id": "C-b0c76f18db",
+        "high": 10000,
+        "low": 6000,
+        "source": "NewsFirst Prime",
+        "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
+        "zone": "north"
+      },
+      {
+        "area": "Attibele",
+        "basis": "land (plots), Sobha page (developer quote)",
+        "claim_id": "C-5e56916be7",
+        "high": 7500,
+        "low": 5500,
+        "source": "Sobha Limited",
+        "url": "https://www.sobha.com/blog/attibele-bangalore-real-estate-overview/",
+        "zone": "south"
       }
     ],
     "builders": [
@@ -1498,8 +1508,8 @@
           "C-d6a0265647",
           "C-f5feeb5ed2"
         ],
-        "headline": "Embassy Origins pre-sales of over ₹1,800 crore in the first week",
-        "metric_display": "₹1,800 crore+",
+        "headline": "Embassy Origins pre-sales topped ₹1,800 crore in the first week (company-reported).",
+        "metric_display": "₹1,800 crore",
         "metric_label": "Pre-sales, Embassy Origins (₹ crore)",
         "metric_value": 1800,
         "name": "Embassy Developments",
@@ -1517,31 +1527,35 @@
       },
       {
         "claim_ids": [
-          "C-b04ef95da8"
+          "C-4febabc134"
         ],
-        "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings (developer claim)",
-        "metric_display": "₹550 crore+",
-        "metric_label": "Bookings (₹ crore)",
-        "metric_value": 550,
-        "name": "Century Real Estate",
+        "headline": "Six of eight FY27 business-development projects are in Bengaluru (company statement).",
+        "metric_display": "₹16,600 crore",
+        "metric_label": "Potential GDV, 8 projects (₹ crore)",
+        "metric_value": 16600,
+        "name": "Puravankara",
         "projects": [
-          "The Astoria at Century Immencity"
+          "Sathanur",
+          "Mandur",
+          "Doddagubbi",
+          "Sanna Ammanikere",
+          "Sarjapur"
         ],
         "sources": [
-          "VMPL / ScnWire (press release)"
+          "HDFC Sky (PTI-distributed press release)"
         ],
-        "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+        "url": "https://hdfcsky.com/news/puravankara-signs-jda-for-12-76-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
       },
       {
         "claim_ids": [
-          "C-48d51205e0",
-          "C-34c74fe7c8"
+          "C-34c74fe7c8",
+          "C-48d51205e0"
         ],
-        "headline": "Brigade Belvedere: 773 units in the initial phase, revenue potential above ₹1,100 crore",
-        "metric_display": "₹1,100 crore+",
-        "metric_label": "Revenue potential (₹ crore)",
+        "headline": "Brigade Belvedere in East Bengaluru has revenue potential above ₹1,100 crore (company estimate).",
+        "metric_display": ">₹1,100 crore",
+        "metric_label": "Revenue potential, Belvedere (₹ crore)",
         "metric_value": 1100,
-        "name": "Brigade Enterprises",
+        "name": "Brigade",
         "projects": [
           "Brigade Belvedere"
         ],
@@ -1552,11 +1566,30 @@
       },
       {
         "claim_ids": [
+          "C-2ec318ce9f",
+          "C-bf9e4ebdd2"
+        ],
+        "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings since its July 2026 pre-launch (developer claim).",
+        "metric_display": ">₹550 crore",
+        "metric_label": "Bookings (₹ crore)",
+        "metric_value": 550,
+        "name": "Century Real Estate",
+        "projects": [
+          "The Astoria at Century Immencity"
+        ],
+        "sources": [
+          "SCN Wire (Century Real Estate press release)",
+          "SCN Wire (developer press release)"
+        ],
+        "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+      },
+      {
+        "claim_ids": [
           "C-5f7b18197c"
         ],
-        "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27",
+        "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27.",
         "metric_display": "3 mn sq ft",
-        "metric_label": "Bengaluru commercial launch (mn sq ft)",
+        "metric_label": "Commercial area launched (mn sq ft)",
         "metric_value": 3,
         "name": "Prestige Estates",
         "projects": [],
@@ -1564,23 +1597,6 @@
           "Outlook Business"
         ],
         "url": "https://www.outlookbusiness.com/corporate/prestige-group-launches-3-housing-projects-in-q1-with-12000-cr-revenue-potential"
-      },
-      {
-        "claim_ids": [
-          "C-addcb93af8"
-        ],
-        "headline": "45-acre Gunjur project received RERA approval",
-        "metric_display": "45 acres",
-        "metric_label": "Project area (acres)",
-        "metric_value": 45,
-        "name": "Abhee Ventures",
-        "projects": [
-          "Abhee City Urban Glenn"
-        ],
-        "sources": [
-          "UNI"
-        ],
-        "url": "https://www.uniindia.com/business-economy/abhee-ventures-bengaluru-project/175152"
       }
     ],
     "kpis": [
@@ -1605,10 +1621,10 @@
         "value": 17720
       },
       {
-        "change": "+90% since 2019 (₹4,975)",
+        "change": "from ₹4,975 in 2019",
         "claim_id": "C-ff7db99f53",
         "display": "₹9,450",
-        "label": "Average price (₹/sq ft)",
+        "label": "Average price (ANAROCK)",
         "period": "Q2 2026",
         "source": "Business Today",
         "url": "https://www.businesstoday.in/personal-finance/real-estate/story/top-housing-markets-deliver-up-to-125-price-appreciation-rental-yields-rise-by-100-bps-anarock-547053-2026-08-04",
@@ -1648,17 +1664,17 @@
         "change": "~29% share of top seven",
         "claim_id": "C-8a753aec15",
         "display": "15.7 mn sq ft",
-        "label": "Office leasing (sq ft)",
-        "period": "Jan-Sep 2026",
+        "label": "Office leasing",
+        "period": "Jan–Sep 2026",
         "source": "Asianet Newsable",
         "url": "https://newsable.asianetnews.com/business/india-office-leasing-rises-7-yoy-in-jan-sep-2026-bengaluru-leads-articleshow-cpfha99",
-        "value": 15700000
+        "value": 15.7
       }
     ],
     "series": [
       {
         "chart": "line",
-        "id": "anarock-price",
+        "id": "anarock_price",
         "note": "ANAROCK only.",
         "points": [
           {
@@ -1681,12 +1697,12 @@
         "sources": [
           "Business Today"
         ],
-        "title": "Bengaluru average residential price (ANAROCK)",
+        "title": "Average residential price, Bengaluru (ANAROCK)",
         "unit": "₹/sq ft"
       },
       {
         "chart": "line",
-        "id": "anarock-yield",
+        "id": "anarock_yield",
         "note": "ANAROCK only.",
         "points": [
           {
@@ -1709,13 +1725,13 @@
         "sources": [
           "Business Today"
         ],
-        "title": "Bengaluru gross rental yield (ANAROCK)",
+        "title": "Gross rental yield, Bengaluru (ANAROCK)",
         "unit": "%"
       },
       {
         "chart": "bar",
-        "id": "anarock-sales",
-        "note": "ANAROCK only; quarterly.",
+        "id": "anarock_sales",
+        "note": "ANAROCK only. Q3 2025 is the prior-year comparison stated in the claim.",
         "points": [
           {
             "claim_id": "C-cffc61a291",
@@ -1746,13 +1762,13 @@
           "Business Today",
           "Construction World"
         ],
-        "title": "Bengaluru housing sales (ANAROCK)",
+        "title": "Quarterly housing sales, Bengaluru (ANAROCK)",
         "unit": "units"
       },
       {
         "chart": "bar",
-        "id": "anarock-unsold",
-        "note": "ANAROCK only.",
+        "id": "anarock_unsold",
+        "note": "ANAROCK only. Points are end-2024 comparison, end-2025 and Q2 2026.",
         "points": [
           {
             "claim_id": "C-5a91e10668",
@@ -1783,55 +1799,40 @@
           "Business Today",
           "Outlook Money (PTI)"
         ],
-        "title": "Bengaluru unsold stock (ANAROCK)",
+        "title": "Unsold housing stock, Bengaluru (ANAROCK)",
         "unit": "units"
       },
       {
         "chart": "line",
-        "id": "anarock-sarjapur",
-        "note": "ANAROCK only.",
+        "id": "proptiger_price",
+        "note": "PropTiger only.",
         "points": [
           {
-            "claim_id": "C-b98c18d7ae",
-            "label": "End-2021",
-            "sort": 2021.99,
-            "source": "Outlook Business",
-            "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-            "value": 6050
+            "claim_id": "C-44b6990bcb",
+            "label": "Q1 2026",
+            "sort": 2026.25,
+            "source": "The Tribune (ANI)",
+            "url": "https://www.tribuneindia.com/news/business/bengaluru-housing-prices-jump-24-in-q1-2026-amid-strong-demand-report/",
+            "value": 9785
           },
           {
-            "claim_id": "C-b98c18d7ae",
-            "label": "Q2 2025",
-            "sort": 2025.5,
-            "source": "Outlook Business",
-            "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-            "value": 10800
+            "claim_id": "C-f4fd3a0255",
+            "label": "Q2 2026",
+            "sort": 2026.5,
+            "source": "Outlook Money",
+            "url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
+            "value": 9931
           }
         ],
         "sources": [
-          "Outlook Business"
+          "Outlook Money",
+          "The Tribune (ANI)"
         ],
-        "title": "Sarjapur Road average price (ANAROCK)",
+        "title": "Average price, Bengaluru (PropTiger)",
         "unit": "₹/sq ft"
       }
     ],
     "tracked_developers": [
-      {
-        "developer": "Puravankara",
-        "projects": [
-          "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
-          "Puravankara Sathanur (JDA land parcel)",
-          "Puravankara Sathanur (JDA)",
-          "Puravankara Sathanur JDA parcel",
-          "Puravankara Sathanur residential project (JDA)",
-          "Purva Northern Lights"
-        ],
-        "tracked_projects": 6,
-        "types": [
-          "apartment",
-          "mixed"
-        ]
-      },
       {
         "developer": "Brigade Enterprises",
         "projects": [
@@ -1839,9 +1840,26 @@
           "Brigade Gunjur",
           "Brigade Gunjur township (JDA)",
           "Brigade Kanakapura Road two-acre project (not yet named)",
-          "Brigade Lumina"
+          "Brigade Lumina",
+          "Brigade WTC Whitefield"
         ],
-        "tracked_projects": 5,
+        "tracked_projects": 7,
+        "types": [
+          "apartment",
+          "mixed"
+        ]
+      },
+      {
+        "developer": "Puravankara",
+        "projects": [
+          "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
+          "Puravankara Sathanur (JDA land parcel)",
+          "Puravankara Sathanur (JDA)",
+          "Puravankara Sathanur (JDA, name TBD)",
+          "Puravankara Sathanur JDA parcel",
+          "Puravankara Sathanur residential project (JDA)"
+        ],
+        "tracked_projects": 7,
         "types": [
           "apartment",
           "mixed"
@@ -2022,216 +2040,252 @@
     ]
   },
   "news": {
-    "evening_refresh": "2026-10-15T18:00:07+05:30",
+    "evening_refresh": "2026-10-16T18:05:58+05:30",
     "headlines": [
       {
-        "published_at": "2026-10-16T03:37:30+05:30",
-        "publishers": [
-          "Goodreturns"
-        ],
-        "title": "Bengaluru: BBMP Koramangala Ejipura Under-Construction Flyover Now has a Social Media Account",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcDVERzdsY2ZvOGRkV0djUFZZVnZXaTY1bUIwZ0dyeWQ5VGExc2JRS0ZFWHp1ZUloMFhPSFlVWTMwRjlETEw4T1dHYzJheTVIZXlNSU9WaWNXWlBrM2tfREZSbmUyRWFVNFViN3lhUlhvT3p6dGVPY3VjRG1CVXg4WVhNLXBGNTVoTklHN2t1RTQ4djJxWjhVRHBkdmJ4NnZXREt2aGxzWHhub0xtWElKSkhaYjRRVUc4b0xfQ1RUNW9Wd3lSYXFRUVlwRHVoRC1HdUJB?oc=5",
-        "zone": "South"
-      },
-      {
-        "published_at": "2026-10-16T01:10:00+05:30",
+        "published_at": "2026-10-17T04:43:10+05:30",
         "publishers": [
           "Deccan Herald"
         ],
-        "title": "GBA likely to resume khata bifurcation services on October 17",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTmhuRnRaN29xSkY2TGlhN2h1LUhzSWZpcmtiQUNYbS0zNUJleXVjVmU4eDhhakFpZjhKU2NjbGxGRFR6bkRFSlBRMDJWYUlsanpXNkltMXVFMllnMjVmNGNSd3U2ZjRvWTQ5LVpnQjg5dG5oQjRkQU5IM2hjeUZHYkZ5UGRDamh3ekNkT0J4UHJzMllIOUpqN1NuVml2RFFvUE1WWm5RTll5NjJ4b3lpam9BUW5OX3ExRWJCNWIxOEFrMWdtVlBkUzFFRWF4b3FLMU5lT1lFWQ?oc=5",
+        "title": "Apartment owners may have to wait before new law's provisions become operational in Karnataka",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSmdRYlU1WVR4Vy01SmNJbVpIVFhCZllpR1pFUXl5WVZUZnNvRXh5cjV0dVJpUVdYTm9ocTFUTjVkblFualhBNGJMUkhYSlFwYUU3M1N4bmZaNzBiLUdrYXZlWVgzUGQ3Z0o5Nnk4OTU3Y1Q1RUlVVGQtOVhhREFiVDZla29kS2FKaHdsWGUxcEdMYWlmRFQ1ZmdjV21kZFMwNzBtQmgyLVpLc2VBM0JlTU95Y25rTWRKQUtCd2UzdF9wdnRHaWMyMkFiekh3b1loSXpNdjhoU093VkhxU3c?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-16T01:04:21+05:30",
+        "published_at": "2026-10-17T02:16:00+05:30",
         "publishers": [
-          "Deccan Herald"
+          "India's News.Net"
         ],
-        "title": "Karnataka government to negotiate with Adani over tunnel road cost",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZEVUb2JScjEyV2VTZEhNTFlNTE95Q0Zua0NBa3UxcEk1QjZYQzctbW1CclA5cmR5azMtWG9XUnF1RFplcEVxbGVwVmVsVXZGYXpzb3BfWmNFRENHQXZXWWUyYy1uMjc0UGJNRlRRYkZTRmcwY29zd1BaUGxQaE9vUm5pa2dGSFpWUFNFQWtyQ295ZjFIbVZRRG1TLVc3Zlo3alIta2UtVE5KRTVjWDN5LTFEN2ktM195eGdiWFRha19Jb2x0eUxyUg?oc=5",
+        "title": "Karnataka targets KWIN City plot allotments by March, aims to attract 50,000 crore investments",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOXBQY1o1c292eE94VXc1OUVJRWM0MmEwRmJTYlQ4TWk0cmdScmMwTXFXVG1rTmFUcDFPTmRwNHAtYm1nYnRWdS1jS1Z2REswVnhWeFdZY1NyVTdBLXo5RmRTSUUtcnpuUy14dE5iaDhjZlpYNm1icDV6UjBwOHV6Mkp2RHlkWldqTU0zTVUtT01Rb0ZxQjM1eDEyRTZaWXFIV1dqUnhjZWpUaTZNT0NYWG02NldaT29wYTYyQUhmNXZqcWU1QjM2aXF1d3dQQWM?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-15T22:10:00+05:30",
+        "published_at": "2026-10-17T00:29:47+05:30",
+        "publishers": [
+          "NammaWard"
+        ],
+        "title": "GBA sets October 31 LED streetlight deadline",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONGtwczRZN0lGX3pYbGFBQnJ5UGFpTXZxa1gyZ0hmTWdSQUhLUTZTanFYX2swNHVWbmRPWkFROG51bU9rU0ZMVW4tV0xXc1pTQ1ZVREw2M2RtMmtBTVdBc3VZeWZGLVdmdXFYekZldkZoZ0E1Y3dGY18zdFBjeGZPRA?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T22:33:00+05:30",
         "publishers": [
           "The Times of India",
           "timesofindia.indiatimes.com"
         ],
-        "title": "Governor clears Karnataka Apartment Ownership Act",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcnJyUlVOS3NQZ1Zady16S3JTcGpFVVBFdElYeUVmdmdvaG8wek50c205aWw5QU9CVkNHbEMwakdmM0M1THFRWkNPRnRxNXFCRTZOeGR3eGYxaW9mOE80Z0pwTC1yV0thSUhFaEFpR3RIUkV1UkgzMEcwYmd2bmhhR1Q2UGZWU1BMa2oxaXhQeVdRajFWS3NiQUR3clFSZXBEVDVramZ5R3l4N0U5YzhLbEp0RWRRLW92TTVtOGw3VFlRR1Rn0gHKAUFVX3lxTE94cGh6ck9adXZuUHBpN2xUZF9ZY0p5YTVocHJoWUhaQXZxZnJBeUM3NXhJVG43c0Q4WmNZNnEyNTNZWEdDclJpWk5mNFlFeDI0eUlGNHBUdTctYjNmTVdQcGtFQkhLUUx6OGhNRXlHQklyVlRfZ25Dd2hqTE0tVFlTVThzOWdlSFBpaUNnemVENjRQQ2hmazFTU3BVUkY2dHhTOGg2YmdpODJrUTAzSnV6LWpOaTRGR2IzWEdMV2dXZlM5M1JDdWxVclE?oc=5",
+        "title": "Bengaluru underpass turns death trap again? Car nearly submerged after brief rain at Panathur",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZXkySVlBWGpoV00tN2lxUV9vRkZqWFlVYmdGUEEtbUJtbEc4cHNNS0hPUWdCRWoxUW13c08wcHkxT3lTckdmTTE5Y0ppZTBycVFoZE1fMm1sUHlfT0dHa1VYQ191ODUxSGNFYlhRQzFMY2VtNmhrbnp6d2NUdllGb2FEUmpNeHNGMVJMMTc2TXFEV2RjRjRKbUYteGJWdTM2cUhMR0l5NmtSdXpvRHd2MVlKY2FoeHRoMzJrTXNVTldjQU9KOTFmVzFLSVUzZzhiXzIyZndVTG91RDFyUDhzY1NCUTZ4TVpF0gHuAUFVX3lxTE5GU2l0YTBJckJKYnFzdUNEa2FRak96N2JuNkR5VkZIY01RbExsYlAyX1g1SXdmRTNJRXkxNk9xRUNDbGtFNTRWdnF1LW5DZTk3MzMzcVhxbDlwaXNIOGIwd1dYWnlzZWswNEt0WUpPaUY1OTVDeGY4Wkp1QUYyVlRZd2NBQWV5THRHV3BnU0o3SGNyYXNKTXRxVTFBUERjWXdoRHY0ckRlRmJBby1xZjFRcHBSRUxfQUQzQXRocE1fTC1xa2xCdXUxWHBDT0dwYTJBdU5mRFlwbEtma2xrNzdBT2Z0WkNkSm1HWDVrdkE?oc=5",
+        "zone": "East"
+      },
+      {
+        "published_at": "2026-10-16T22:14:40+05:30",
+        "publishers": [
+          "thehindu.com"
+        ],
+        "title": "Karnataka Dalit Entrepreneurs Association urges government to clear pending funds and land allotments",
+        "url": "https://www.thehindu.com/news/cities/bangalore/karnataka-dalit-entrepreneurs-association-urges-government-to-clear-pending-funds-and-land-allotments/article71551410.ece",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-15T19:56:42+05:30",
+        "published_at": "2026-10-16T21:12:23+05:30",
         "publishers": [
-          "Curly Tales"
+          "The News Mill"
         ],
-        "title": "Durga Puja In Bengaluru: 10 Pandals Across Koramangala, HSR Layout & Other Neighbourhoods",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSTk0QjVlcmg0aERIbWMyczNaaUdZcTFBbzBlR2FmLXJiMXJwUXVMVFptUmI0bEVJa0MxRlp5UjZLSHBtcDVJd0Q3OGE4ZzlZV3pMeW1NTUpXZmtLWVpUNko1WFkwclZRWFV1bWJtRFllMFRoQ21saXA5UmJsSFJYbWFjXzdJc3BtcExqdzNZanF2SXNfV3NjVXJSQmw1UE40Y2JJZTNTVnJLOGMtZUl2NmpBczNzcVd4cm5B0gHAAUFVX3lxTFBhTVBFekR0ZDVSeW9PR1lXUDFfTUs0RFkyUWY1aG5OR1ozaThOZFZjdUFXOWtfWklOazgzVmVxNlVKS28wVUVueU5Rc3hHZ1haSHZQYi04bUJtbTgzLU5qRVRkOHFoTG40VTdCcDU0eXNFR3lwdVgySG9xN2prcjY0UWtHWUZJVHoyb01tbi1MckRvN2pfSnY0TU1BaVpoLVRTc3BkellVd1dYdXhwQWhQYWhMSlE2VW96aGFFOFlsSA?oc=5",
-        "zone": "South"
-      },
-      {
-        "published_at": "2026-10-15T18:04:58+05:30",
-        "publishers": [
-          "Prop News Time"
-        ],
-        "title": "Nestrov plans expansion across Mumbai, Thane, Pune, Bengaluru and Hyderabad, to hire over 250 real estate advisors",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeDhLZEFTZldCOVFWRm5SSE5WZDdvdkdhLURGNVVDUHFCR0NvTVVQWTFxWGR3NmNPT2VpM0V6TnVCeFppbk1tZF9KVW9NS0JXNXlqaFcxeERtbDdGWFU5Ry1HVWRBQ3JqbE1oMC1FVHJBT0RBMlpTaW9SUGhCMEJMRTF3XzMzUFF6T0dqeTNxMkE5NDhxMXQ4YTZjWThfcUNNdkw4V1Jld25VenU1TFZjbTN3NkNOZ0NRTVNWYkN1dXBSaWR2QXA1SjlfUG1QdmhTdVlPVnZYckNjSDVRNWVLbDZjT2JMZUZKS1VvZjc5SG10cTYy?oc=5",
+        "title": "Karnataka HC issues notice on Royal Fragrances’ Bengaluru IT park land plea",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamhkX2N3SjJOdzlScEdhNXlXaUxJMXU0QmtBb0dSSzZwMVlrWUE3Z044U2h1alprdEkwY0owSmw1dTEyUlg3Q3BJYkk4Vl8tMExBNlNKejNsa21ONVd5S3k4RTJWZ0daNmFEMXprcFdXczltTjgzS0wtMl8zbjAxTTA4T1dmUlNFdkxYTW05a1FOMzVhYlpyeFdGdmtxemw1aDhaak5FMjI2am1VNW5yWGloMWFDVzVMRHNvNUcwcw?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-15T17:38:47+05:30",
+        "published_at": "2026-10-16T21:08:00+05:30",
         "publishers": [
-          "Urban Acres"
+          "ANI News"
         ],
-        "title": "Bengaluru PRR-2 Land Sale Leads to Sub-Registrar Suspension",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZzJxc1pSOXJhNFJHSjJkajI5WS16dGhPNlo1UzlsVDZLcmhUWjlMenZCQmZDZFRvTFNTMFk1ZUx0V181VnV3eV82dFZDV3AyenNHMDE5Y0tMUmdYWXh5REJHeXljdEpUTng3dHlQc2V1azNOSTMyeWhSd0c0T1JuSF9KcDRWRWhyTmc?oc=5",
-        "zone": "Outer ring"
-      },
-      {
-        "published_at": "2026-10-15T17:07:59+05:30",
-        "publishers": [
-          "English Varthabharati"
-        ],
-        "title": "BMRCL Pink Line trains show 36 shortcomings during inspection by Metro safety officer",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQXlTODd5b0lOZFNTTXFzTUo0QjJqeUMtQ2UtZW9IMVNLcnl1TFEwcmxwbXFUXzdQVmhHeXhMTHNfNmNyaWljZlVtUEJoNlFkd3VMQS0zNDdZVWlEeDNtb3J3UE9kWmYwYkp4cWZ4MzhETUZnSl93amNrYTlna3JsNHM1TDA5UGp0WEVSM2FtV29MUXhWdDFHM2pxRzhHT0VMYm9YcG1RUXp1c2FPMXZrSTZpckh0S3g0X1FSV1UyYk1EMHpWenB3dF9GNllhaUNkbFRKT1JQa9IB1wFBVV95cUxQQXlTODd5b0lOZFNTTXFzTUo0QjJqeUMtQ2UtZW9IMVNLcnl1TFEwcmxwbXFUXzdQVmhHeXhMTHNfNmNyaWljZlVtUEJoNlFkd3VMQS0zNDdZVWlEeDNtb3J3UE9kWmYwYkp4cWZ4MzhETUZnSl93amNrYTlna3JsNHM1TDA5UGp0WEVSM2FtV29MUXhWdDFHM2pxRzhHT0VMYm9YcG1RUXp1c2FPMXZrSTZpckh0S3g0X1FSV1UyYk1EMHpWenB3dF9GNllhaUNkbFRKT1JQaw?oc=5",
+        "title": "Karnataka HC issues notice on royal fragrances’ plea seeking action over Bengaluru IT Park Land",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZ0RldDdaTnp1d1dPc1JRaTNzeVdfM0hsLV96Vkw3M2dKYThreXdqejVHdG8tVTJZS3RuS0wzQXhPdkNJZ3NPaHlvTXc4clRXbi1nOVVzMFdzZHNsWlhkUWxwaG5mZlBkbmI2X3RoSDhSVzh3U0RUQWlGdHVtTkdSWlFXQzBYTFVfbE9Kcnl0NGRqd0diSXNnRF9mSmdpZ1k4M21BTWJaNHpWeHRCbmU1a3NuRWRFWkJVbHdIT0Rqa1YyQ3FMZWN2cWMyYjExZzF3d200TEZSTDNBOEZiVW9KSmh6cUdZRjBBZmp1dDd2bm5hR1J6?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-15T15:27:41+05:30",
+        "published_at": "2026-10-16T20:22:11+05:30",
         "publishers": [
-          "Urban Acres"
+          "The News Mill"
         ],
-        "title": "Bengaluru BDA Offers ₹4 Lakh Encroachment Reward",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMVlmcmxzbEpoTjBJY3NXQWxvU3prUXlyYTBSZVFBTlZwVnhkXzdXQVlhcGRpVjNNVFNGNmNubDBMeTRHUjZhSVZlVms3VkxFZTh0bEFpQmg3YmpvNGxHX3dWNV9UVDI1ZnlNQlZaSU1HMEdKSEFhd044QUtFVDZRVGN1NVRmNmNTdnhXclhrYzZubDdrWVE?oc=5",
+        "title": "Karnataka aims to complete KWIN City plot allotments by March",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdWo4Zzg1LVk5b0U1SFFXeFlabU5oaDN6VlpEci1mN2liQzdzMVcxSUdFc2NJUmNKMDAyb0M2U0JBMUNsMjFKLTF3dEVuWDVGcmRmWWdLSUJaREg0bnpZNktPMHJndmotOXJhT1AzS25lU1lOTWtWUGxiSUt5QmZTMzBNVUZkdEtHRmNESWEyMWpIUFBBNmdNSWln?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-10-15T15:05:38+05:30",
+        "published_at": "2026-10-16T19:44:04+05:30",
         "publishers": [
-          "Urban Acres"
+          "The Siasat Daily"
         ],
-        "title": "Jakkur-Amruthahalli Road Closure Worsens Bengaluru Traffic",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbUMzTW41Z2VKa1o4VFJwWUo0TmljaVJpbnEyM0RrMnNJSkxZOE5FQmlUZHBHTENRS3Z3Tnk2UkpZX2hvX2xzME1ZUjFfTWdWUUlsUExKa0g1SEQxdWk5cXhBbmpTSDdydWRPaVU1S0VOQnhOVGVWNVhwcURlMmI5TlRmWl9zdjdXUS1KNzQ3RQ?oc=5",
+        "title": "2.75 kg gold seized at Bengaluru airport, three held",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQTlhZ3lDWVFmRnRzem5EUUlpWTlaQk5CNGlUN1g4SG1iQ19EV0dKYkhRRlgtS3ZSSTQ4LXBtVEtwZ3JVSWJYbkE4c251a1lRN2NacVFONnJfcS1xdHI0cWQzV2xSTU9rRUlBTVBpLXEzN0ktYkRfTVBjY1M4WUo2eVBSS3o0UEYzMm1J0gGQAUFVX3lxTE5JeUozRERfdkRFTS1DSlh1U1lIMzhrOF9hblBuRlpXWkVDd1h2RUVBRVhfdTZyWmlYaDVtRzdJeWNfN2dEb2NwaDZPTEw5Y1RmRlFRYUNXNVY1dHU0dUNUX0dtbzJtSmE2MFRnN3M3M1RHSFVVWVFpR0ltRVZwbnUwd3YxVG0xLTJvaExMNG10Wg?oc=5",
         "zone": "North"
       },
       {
-        "published_at": "2026-10-15T14:48:25+05:30",
+        "published_at": "2026-10-16T19:16:58+05:30",
         "publishers": [
-          "Urban Acres"
+          "Asianet Newsable"
         ],
-        "title": "BDA Property Encroachment Scheme Exposes Bengaluru’s Land Governance Gap",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUTdMN1FRZi1UNF9tcWxwclVWTkh5QmRZS3Q3SzlfeUw4dE9yVDlQVWR1bmdaQ3h6dDdmSUd5YXRXYXplMlVyVW9WYXktSndJTkpQbUZ5T1JvZkJlTG1TUzlVbXgtSThlZTJfcnpsWmUzRVF0Q3hLVHlUMEh1RlRaeXZmWmhzaUdvNTlLWWEwN0ZPU1JoTTFvbkJn?oc=5",
-        "zone": "City-wide"
+        "title": "Bengaluru Metro: BMRCL Begins Soil Testing for Sarjapur-Hebbal Red Line",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWWJxRDRRQzRFc3Rzd0JhZV9TQlVzcGVOd2Ewb2hXNGNyUGpPNzJRYlNZdWpfcDZIVndxZnNBMGRtdTNsMENlbWxIRmFjVHZESzZIM28zc0xiRk5DTllWQjFCRXY4Q05mX0pxamt6N3pWTUY2Y3VZTEZJMGVUZnR1aTc3bHo1RFhrUUNUdnctOEtZOE1WX2o0NDBxM2daTFFhUVk0ZzJ6UWxlc1N1RTgtbVpZdllXaWFGeUstVXpFMFBBOG84bG1ObXpuZGoxam9mcm83Y9IB2gFBVV95cUxQLXJQTlpaazJHcjA1Ymd4c203UG1VWGVrSTZkc05xdEVkRndubGFpZGFROVRoZ0xPb29reUF1TEpqYk1pLUF4WXJGOE5NNTI0R3gxX1I2UndYcUZWUXJ4dXFwZ2tReXZ4Z1ZXandLa3J2T2hmRzI4WVJxQUJaNV9Na3owRVZrX1lON0RuTmVrYk9uOFljcTJjMnU3dFdKQUV0a3pTTXZDeEY2RXVjb2VHS0hNeVk0UHJHQkdnMEZGeU8wenh2a2FFZVhqdUwtNFE0NFhseXlzZzN0QQ?oc=5",
+        "zone": "East"
       },
       {
-        "published_at": "2026-10-15T14:39:52+05:30",
-        "publishers": [
-          "Hotelier Buzz"
-        ],
-        "title": "The Den Bengaluru Opens as India’s First LXR Hotels & Resorts Property by Hilton",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NTVQLU1RRE9tTkRpUzI3SFFXd3dDRnhueFFqMlA4bUFHTURucDhzS1d5eGxJbzRMSXRTdDhZR044NkVkQWJJZXJiTUtSRVhhTHlTN2d5czI1V1dYcmEzTlZnNmFXSDZwYXRfQi1CUktCVHQwNDZV?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-10-15T13:56:54+05:30",
-        "publishers": [
-          "Urban Acres"
-        ],
-        "title": "Quantum Research Lab Bengaluru: IISc, MIT Launch Facilities",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNm1BVXNLRW83WVlDYlY2dzlydHFYeVpXNmxDOEZxMTNZeDhaSUdLREhpT3BiY3V5US1xbEJ1WHpIZWpyUU5iZjRuNWE2VUN1X3dJQW5jVC1PSFh2YlpzR1RvSlhuR3d4S0ZDbmxSemxfTWd6MHZJUVNLT3ZnbjBjdllZRFJWM1ZGZEZGbXZ3Mnc5QQ?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-10-15T11:33:14+05:30",
-        "publishers": [
-          "ET TravelWorld"
-        ],
-        "title": "Hilton signs 2 Bengaluru Airport hotels with Kalyani Group, adds 600 rooms",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbncyWC1nRjQ2azF1UklPM1BwUVczSi1XVkhtaXZQTjE1VVluSVZFTG5nYWpMMnU4NjNQR3pMSjNDWk1mbDhxcmloQWluSmI2akJaVkJlQWJGX2ZObEJ6V1VSdnllUk91WlMxaHNfaHRrMkp3TURjc0ZIcDNRVmt6R0Q4TXB3UThIRjctTDRIMTVhVXhILU4yWlVSN2RyVU44T3JuSVJ3bjJBQUhmXzhrYVFIM2hoQzhTYlpOOVFwNjZHN3lYWHM0SmJIbmloMFdvZ0ZURkplYnN5YVVjWk5J0gHjAUFVX3lxTE1LRjh4WUJFbkx6em53clRRMXU1VlcySFBUVUhWaDhFUTBSOE5CU1l1aFBFYWFNOWxaX1lRaWt3eTgyQkdySnhuNF9IRkNsV3c3WC1VbkVwNGZUem9idzNBYjVheFhYM2s5bjhqRWYtaDlXb01jYnZNLUNQQm9ka0RpYmItMkNnTWZqdEhBNkMwcmVOdHZOQllLTktPT25VOXlhMDdxakhUVmwtQW5WR29YTFBYWUZLengxSzVyeVNkSzdldThDbWRDa25FU1I0bC1rSG5SWktvSnY0ZEVReFN1a1BJ?oc=5",
-        "zone": "North"
-      },
-      {
-        "published_at": "2026-10-15T10:30:00+05:30",
-        "publishers": [
-          "Construction Week India"
-        ],
-        "title": "Swan Realty launches Bodhi in Jayanagar, Bengaluru",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObzJ5aFNlQ3VZRE5HRlNEZGZNQ0JCUUg0VF80ekg5cE02WnRsYXUwWEJJdFFkYkNXVnNGTHhLNlZPZ3JnMVQyU2hwWDkzSDJEdnUyM1VESFBwZEpjakFBTWp4b3pUdVRUbDdncXp5RFJQMFhubWVzZVJQb1FEMGNTWWo2QThxSTVTb2RsajZneENHS2tqWDZGNVpnRnNUN1phLVVmS1VCUQ?oc=5",
-        "zone": "South"
-      },
-      {
-        "published_at": "2026-10-15T09:18:34+05:30",
-        "publishers": [
-          "The Indian Express"
-        ],
-        "title": "Bengaluru sub-registrar suspended over Peripheral Ring Road project land sale",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcHAyUVBXUFR0cTEtU1I0VUtFaGFXUTZabjBDZ3lEM0FwQ2pyTXhOTlBYek0tZTgzeFJ6ZE1vOXJ6OEhJWF9RTXJ5VWs0TDNSWkZwS2JNcGN6Ulh3Zjh3a3hnREtwR0VCeDRjT3dyczRIVmFsR1ZvZ0tra3I3SHNmdUZ2aFQ2b3d6MEJOeWhhZmJFUE1qMWw3OGpwYnA4dGdOV01Hd3ZjWWllRzlyQ0xz0gG2AUFVX3lxTE5NdVFBbjNDRUxaamN2MjBFRnlhVXU4UU5KU2NMNEJvR2JFVmQyTWF6bno1QkF0Qk9iUXV3V1lYOGowV2t2LWp1d3dZMGlzUHZuQUFtY0YtRVpEWWdkMkJjbVpSSktldkVISWhoUTZwc0hGNndUdVhvM3RBclBEVlIxbWFLM2IydWZWejdTdFl2b25rSTlITTNlTDJyOEtMUG5YRDVyX0NITzdGV293blZPWGxJTEZ3?oc=5",
-        "zone": "Outer ring"
-      },
-      {
-        "published_at": "2026-10-15T06:00:00+05:30",
-        "publishers": [
-          "The Hindu"
-        ],
-        "title": "BMRCL begins soil testing for Namma Metro Red Line",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORFZ2cDJlQjhEeFNwMk02dGZ6dDNsY2F3NTBYMlpZdnVFTG55WGVCVDZ1RGE5Mzh1OUhzVEJJMnFmdFd0c2RnaHFkZHg4djdYRFRjVmNrQzE3ZDRnQ1RrQ0w5Q1cxOG01X0tTYlhNZUxMdkkxaGEzYno5dW8zY0xlNDh0NTdqQ2xEVmxCbzMxY0R5amx0SmNNTEU3bVQxTkZidEhRcUJCdlhfZWw5ZkFMYVFRcXRRWjU5eHRCTTNacndXcUlMcFhibGo3UEY3OURaVFJlTjRzMXowZVNzNy1Mb0p3UTdKdnV3ZFHSAfABQVVfeXFMTjk5MzNfMzRRNW4xNERNcGE4bWNzaDFKTzBmME1tQS1EQXUteVh3cWVHUjFzNUxORlp2RXJGdU8zZE05bmxIbGhOREN2bVJCUFlDMVlDOFVoN0F4V05NSEwtblhvaEhEcmpYVm1NOEwtWHh2V25ReGdHTjkxd2s2UFZTXzdyQTFGS25xdk1FaGFVX2NiaWVVLVM5ZFFVeWtPLTZJLXVDaVBGSlNyRDY1bnZHZzVoNWtxWmZ6WkVKSnd2TzFuOUxsWWpzME05VWVfcHh2UDhsZW9vYVZtbkhQUmx4MVZGU19ZbkpPNUlDWFNx?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-10-15T03:46:26+05:30",
-        "publishers": [
-          "Deccan Herald"
-        ],
-        "title": "Bengaluru Metro’s Pink Line faces 36 safety and technical deficiencies",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQW15QkZVWlZFcWkwejFnY25rdm9WeUlhSUQ3aEJtc085WDNScHdSVjduMTZXNEZmN044LWYzYTBDWE9jd3RkTFZqR05xX3JqeEJmbVIzVHlSZDNpTHZHTUk0LUpxNk1sNDhVTmRZT0o0c1EzOFNFTUpMUy1pR3JicU9RT2k1aDgyZ1VlbWtxOURwSXA1aU0tb3M0VTdQMGNBUTFvS2t0N1Vnd2pWUnhpT0NBNGtlaFpFLS1tb2czZHZzZnVheVRwLWMwdlA?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-10-14T08:18:00+05:30",
-        "publishers": [
-          "The New Indian Express"
-        ],
-        "title": "Bengaluru: Bannerghatta Road junctions to be developed for smooth traffic movement",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVmQ1ZFl2SVRBWXptcS0zREhFckZWSHhzcG1MUVQwc1NPUElvNXdpZktOWnd6UXFhai1oVllrY05UMTJCckJkS2JrSUtqZDRuUXdES2NoS1pBWi1Hb2NoeFBhUUk1ek1IaF9OajBvLWdzOERHSVJ5Nzd2R2Jpa09aNkhDbG9mNmxFejU1cDFQbVUxcWt6WTE0T0lleXdacDhFRWk2bGFjd0M3SGlRenVJV1lTMExiZ1lMVDRRSGNQcURLaGp4dHYzU0hYUTZVY2dEakxEMEJ4MVVVQ2ttNmVDSjc3azMwbnF40gHoAUFVX3lxTE1WZDVkWXZJVEFZem1xLTNESEVyRlZIeHNwbUxRVDBzU09QSW81d2lmS05ad3pRcWFqLWhWWWtjTlQxMkJyQmRLYmtJS2pkNG5Rd0RLY2hLWkFaLUdvY2h4UGFRSTV6TUhoX05qMG8tZ3M4REdJUnk3N3ZHYmlrT1o2SENsb2Y2bEV6NTVwMVBtVTFxa3pZMTRPSWV5d1pwOEVFaTZsYWN3QzdIaVF6dUlXWVMwTGJnWUxUNFFIY1BxREtoanh0djNTSFhRNlVjZ0RqTEQwQngxVVVDa202ZUNKNzdrMzBucXg?oc=5",
-        "zone": "South"
-      },
-      {
-        "published_at": "2026-10-13T23:21:11+05:30",
-        "publishers": [
-          "Inshorts"
-        ],
-        "title": "GBA explores AI digital twin tech for civic issues | Tap to know more | Inshorts",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTnphZW1lTjlnOTZ4MFg3aUNHaTJwUzJYZmdXUTFfNjF2SDZ5RHkwYkNhTVZxNkczaEk2aWdUY0ViMTJjVVc3OFFZQ1JFQVJjWUFaNjJOTHl1RU9YX2dUUnk3Z1BfZl9wSHBvTTVuUWk1SmtrRkt0WWM0SzdXWC1qMlJVTE5OTExCWnlTcXhJbHZDQWlMWmJrQdIBngFBVV95cUxNLW9nWUlLY05MR3VSeTJaekFfaHVxUkhZS1FNYVlmeExPREVyN3hBU2w1ZTFlRlViM0U5eWJkYXdPNlBLazJFdFdOY0ZacTFFRzZUdzlaZ3FhOWFFX3hqNjZ2OXQ5c0FjT2ZVVWkyWlcxSXU4V1VPc1drX0FxTnFuWGMxZi05RWtJLUdvd3B2NXhLMGxHRnRzMkhaV201QQ?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-10-13T19:43:49+05:30",
+        "published_at": "2026-10-16T17:34:37+05:30",
         "publishers": [
           "The Hindu",
           "thehindu.com"
         ],
-        "title": "GBA Chief Commissioner directs officials to prepare DPR for junctions along Bannerghatta Road",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdWMyR1NyZTJOUHpuMVZsMGZIZFltZzlZNXVwWFZGbVV1LXZ3QlpkT25ZMlUtZjNiRzZUNEVBOEo1dGVZdVMyZ2NjS190NEhmV08zallkckJJLUstMm1BX0dHUm03SnM5TzUtUENyZE9iXzEzSHVkQmY3N3kyNUhYR2d0WWw3RENqWG5zeGN2WWdmeDdYQlJMc05zVnYzU0l1S1BFcEZXMUFxdW1oMXN6T1JHWUVDNUlGN0pjTVRuaTVhZndUT3hNQ0lxOWdod1Fpbjg3bFdCSFRQMDlsMlFia1M1SEt3YzBzN0h3ZFJyYm43QdIB-AFBVV95cUxQRWR2Y3Q1X0hjSlBzb3Q1eTBuU1g0NjRERk1pMzJwSTJ5WWpJeElIbjlWRDRFNWF6MzNBMHJRX3JJdmptSDVsTUlHclFxOUxGNE9XV01iaUpBRVVHcklHUDBlbWdoQWswdEgySzJnSjZveVptOHMwSVRvLUhnWjhQYjAxSlpKVTZPRXg1dnFPNXJ0UG1menA1SlJnaWc5X0o2RUE3XzZ3ZmVoTC1sLVRIWHNKcWhJbFRUazYzSVZRUERfd21raU1OdFNYLXFDaE8zeG04V1FlRjNoNENaUFZuczEwVlVQUkU2c1pFSGs1M243VWxWMWlURQ?oc=5",
+        "title": "Bengaluru Namma Metro to extend services for T20 cricket match on October 17",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXpvRElubUJRbWloZWQxYWhLcVo1bXp4bmhITDAzTmZNbnFYNzF4RGowZHdMdGxzZDQtREJjaDZSSlRvc0VzTUlFVEpNNGc0TUNoaXhWcVloZXQzRHpydDdXLXBpMS1HZlRKS2NjZ29PaWpoX2NhVUxGcnZ0aWtncXQ5eVlZRXFEYnFKSlA1ZGs1WFR3QldrZ29WRU1faGR3ckxLMHdLWFllc2VmRmpGZnNaUmhMdW9DVDlXRGxLZnBmVDdRdGIxVkxGcVZDMDNNMjhpNXhSWVM4eG_SAeIBQVVfeXFMT2pwVHZJbzFOU1Z2SmpUZXExM1RHVGY2SEFfVG5WdjJkUnhsWEtWVnIzOG5EX0FQb0xjdnpVbmJKR3ozRUFpV2c0MlNPa1FYOHpsYTNDaWFRNm9hNzVRX004U2dHekNtdVJITmQwWThzX1ZDbWtBaDJ2dFBFQWRzNkFzOENWTnZGQWk0NDVqWm5QMnN6SVY2LWZpV1BueXhkM0VPNENhUENmbVI5LXpjbWYwcmZyNG9VempBblQtQklZREJTdXAzdkc2c1Nub0E2dzlJeEtnR180X1VmcE9KOXlJZw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T16:54:57+05:30",
+        "publishers": [
+          "Trade Brains"
+        ],
+        "title": "Bengaluru Metro Expansion: Bommasandra-Hosur Metro Link vs 5 Other Proposed Routes - Which Should Get Priority and Benefit Homebuyers Most?",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVVE4bDdNUjRPdzJRRHVKTjUwZHJkZG9kc3ZYZ0p2OWpuNk5TdlpHLWQ0bFNIZVVBVVB6YjNzLU90T0FKWHBfMENaSW9reEl4SjFSak1sQVZKMlpnMDBzTkZ3dHhYRVVZc0NydlozSUJGbDJUN0tILWtpRFJ5ajBxVVlkdjlpQTE3MlVBWVlQejlmczZQSDZWaVhSLVNPYWk5VUFBNTZkV0FHMFNOLUVLRTdQUjJtMHRTWFZGdVc3OUZnUF9WWHgwUFo2czB5cHJvRFZkNDdHRndZUVNjakR6WFlLSnhhLWlpTWVJNkNZdHM2czRab1BwR0htV05ROXdNUzdF?oc=5",
         "zone": "South"
       },
       {
-        "published_at": "2026-10-13T15:06:50+05:30",
+        "published_at": "2026-10-16T16:13:13+05:30",
         "publishers": [
-          "The Tribune"
+          "Trade Brains"
         ],
-        "title": "Assetz Twin Lake City: Why 3 & 4 BHK Buyers Are Eyeing the Hennur–Horamavu Corridor",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT1lfQXVqVDJHZ3BrT1ZwdF84dDhvUUdUX2g4NmZlR2NpdjhtWUpVaGwxRjI2VExiT2UyWjdZZWMtYWs3b2VfeDBWZHpPVERSdjR1aVVIS3NBejFBM2tqMWw3X3Nqd2Z1TGNJeG1GSUo4amVwN3dJbTMwaHo5aHZQTC1yZ3YwY3BpRGczcHc5TE1pbUhvMG9qLVpwNzlQNjRtSHRZVmlMeGQ5dEZQSGlTUmFCbTUwamFhX3RPQS1TLXp0ODRiN3fSAcYBQVVfeXFMT09ZX0F1alQyR2dwa09WcHRfOHQ4b1FHVF9oODZmZUdjaXY4bVlKVWhsMUYyNlRMYk9lMlo3WWVjLWFrN29lX3gwVmR6T1REUnY0dWlVSEtzQXoxQTNrajFsN19zandmdUxjSXhtRklKOGplcDd3SW0zMGh6OWh2UEwtcmd2MGNwaURnM3B3OUxNaW1IbzBvai1acDc5UDY0bUh0WVZpTHhkOXRGUEhpU1JhQm01MGphYV90T0EtUy16dDg0Yjd3?oc=5",
+        "title": "Brigade Group Announces New World Trade Center in Whitefield: 53 Storey Towers, 2,000 Homes and Commercial Spaces - What It Means for East Bengaluru Real Estate",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOd3NzY2ZSNG4yQWxEYlgyVFBoRUNRQkhWMkZoWk1xNnhFUnVWQjJyaXpROUFKQm9kbDRkQndHVUl2bWNGcElUeGpnQW1HcWM0ckhVdG5HcFMtUTRMTHhnTHFWeFJaWkJDMXpnUi02NWVrM3MyTG1nbl82MURlSlZPMmM4X2ZzOFA3RnFsemsxcGxqZzYwZWdLdzg0VTFxdExOZ0NuVEtqMHJoc3NUWjVtRmxZdXYxai1VZHJJZDNSTHI1elo5Z2I1TThuVXctQkR1TXpWWmVMU0s4YmdyWkM5Nm1WNlgzTDZtd2dmMU5iZFNqNjVhaWNCVEVXaUVieGNrTmx2R0pUOUJrR3hlOFRVQWVITUlDUFBjbGkxT0NB?oc=5",
+        "zone": "East"
+      },
+      {
+        "published_at": "2026-10-16T15:00:37+05:30",
+        "publishers": [
+          "The Better India"
+        ],
+        "title": "Doddagubbi Lake Fish Kill: How Polluted Runoff Threatens Bengaluru’s Lakes",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRGIxd2tlVnBqdmtOQ3dKaHMtR2pKZ1FidmZoelJIbTI1THZadHFtVV92RUFhd09RaTZUUVFQZ1Zxd2FYelFVWjQwMXQ0NWNTN3JRcDdpUFcyWVBNR2JPSWdUM1VjSWdRUUlCRGlwVnFHcmd4c3gzWUs0dEljblk4aTBkYW5CRXNEbG1EbGtyN1paM3lteWxGR3hQZkJMNGJVM1RBQlZjdDBxQVp1NE9jVNIBsAFBVV95cUxQRGIxd2tlVnBqdmtOQ3dKaHMtR2pKZ1FidmZoelJIbTI1THZadHFtVV92RUFhd09RaTZUUVFQZ1Zxd2FYelFVWjQwMXQ0NWNTN3JRcDdpUFcyWVBNR2JPSWdUM1VjSWdRUUlCRGlwVnFHcmd4c3gzWUs0dEljblk4aTBkYW5CRXNEbG1EbGtyN1paM3lteWxGR3hQZkJMNGJVM1RBQlZjdDBxQVp1NE9jVA?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T13:59:47+05:30",
+        "publishers": [
+          "Urban Acres"
+        ],
+        "title": "Bengaluru Mini Buses Get Nod for Metro Connectivity",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1lFa2N5RUJ1Rko2NjBWcG1iUDFqanFFRHRyNk80STZEaWhQVTFkUFRMQVhVbXMzLWYwZjBFWl94UjBsVGpLMkZyU1l3aWNSTFZDVlRITkI0T01QZ2g3X3NnWUZaMng0dGlpLVpIWHBabWtsUlRDQldzcW5hS1Eta2N6blBOQVp4QS1CSGJvX0E?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T12:51:34+05:30",
+        "publishers": [
+          "thehindu.com"
+        ],
+        "title": "Sanjaynagar Main Road work near completion, footpath woes persist for Bengaluru residents",
+        "url": "https://www.thehindu.com/news/cities/bangalore/sanjaynagar-main-road-work-near-completion-footpath-woes-persist-for-bengaluru-residents/article71543531.ece",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T12:17:23+05:30",
+        "publishers": [
+          "thehindu.com"
+        ],
+        "title": "Bengaluru’s KIA signs sister airport agreement with Vancouver International Airport",
+        "url": "https://www.thehindu.com/news/cities/bangalore/bengalurus-kia-signs-sister-airport-agreement-with-vancouver-international-airport/article71591331.ece",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T12:10:51+05:30",
+        "publishers": [
+          "Asianet Newsable"
+        ],
+        "title": "‘Avoid Delhi, Fly To Bengaluru’: US Tourist’s Blunt Advice After Airport Experience Goes Viral (WATCH)",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNl9zdGlLUGVQN3BYR3RId1c3T2JxbzB3YmxTOTFZbmxwN29KUkNPU09mc1RSbjZ2dG16MEZjb2cxTUp6bVdmb1NRWmlKaUFYdDY0SW5oQ0VGX1ZVT0JmdVp6dDRYNnJaSWRxY0gtay1tSHdUdmhZV0g3SFZ2WG5iRVZ5M0hJR0JuZTZWTVgwalYtZGtPS2JDSWs1NzEwbWg0WjkwemJFeVlleDlRalh0S0R1MEF3SDJoM08zWWcyWXhUUjU2TW5SaXFXSGNvY2dwRUd3ZXUzcXVtMXF5WUd2WlFpMnJCVG9E0gHuAUFVX3lxTFBHY2llTlhjOXBSc0hmRWtreEpRSjYySFZyQWhjdGdLaVJhOU5nMkxqNS1Qc09oNkppRlo0dG9lNnZ6RVZfaHNlMGdkc2lfWmQ1czR4MWJvcUlOSWNpZkpmU2JRdkE1Um4wVl9Ybk9BX0htaFhudDZDTFhLelRWSnJZcTBuc1hsaE9xd2RoTmF3QkNwa1hXbFc3Z2lyY19UMzZkRXI4dDRISUtNakFzQ2hDelYzTVB1dmhoSFNIeXdKOEFEZldtTl9GdkhvZ2VPQXNOeWp3VHlqZTJSQUxpbmF5c0tEU2p5NW1vcXhSdlE?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T11:01:28+05:30",
+        "publishers": [
+          "Prop News Time"
+        ],
+        "title": "Swan Realty launches Bodhi with 24 four-bedroom residences in Bengaluru's Jayanagar",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZzdvRGI4aE0yZWVEckl6ekN0TDN5b0EtNEZES1ZKazl4Y2puSnlWbEdfVU5KbHNsbGF2NG5Ka1lOMm15YUdBNkxtNXBIa0tybXZvck54UXhBU29sT2hYQ2N5VllCSWhwb3FRS0J0aExwaW0ySjFkaFZHczZUekFZc0xOdnFudHFreWhuRElXbUZWN3hlNDNjVnRQWkczTFVXLWVZelZadUpGYjBqa0ZMR01ET292R2wwdU9IV2hyUTNTWk1WUzdTWUFQNWhjWWst?oc=5",
+        "zone": "South"
+      },
+      {
+        "published_at": "2026-10-16T09:17:00+05:30",
+        "publishers": [
+          "The Economic Times"
+        ],
+        "title": "From Data Centres to Bengaluru & Pune: 8 key trends behind $2.7 billion investment in Indian real estate in H1 FY27",
+        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOeFBrT1pyRW11YWhjWkJ4RDd4cGxBT2VJbjhRN1BtSldDdHhBcUFiT2pCQ1ZkMzRZTTZQcXhGcWl6NGRIa0g2OG43bU5nYWNibS04M29jQTFMVmNnNXVuenhUbWlyQ1RsUWNWUVF3RFE3OXRwa1d5anVLejMxOXJObVlpc1hxZUxwY1RiYUpKdHdVUGozYmtyNFB4SElYUEZnNjFEY051REIyVHlhblFaY3I4V1FQZENNMmtzZU55TVY3TjRmeDlHTk1BdWxPRHZNcmJBcHJ6eGR6cl9PVUlwNzVxWE9MZVBOVmZKeVFWVnJqNkRHeWFSUjNrb3pJVmd6TnJjR1RRTUpmTTFWZFdTamVjaVZDaENQaVhEVjNLdWZLQlRaNXpJSDZfZkQyTDN2MW43SmUycUxfYWVMbzhoc1lyUjNfMFBwdDVOMWJ6R1cyeWdnZWM2bngzc3g?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T07:40:03+05:30",
+        "publishers": [
+          "The New Indian Express"
+        ],
+        "title": "Don’t panic if your name not in voter list, says GBA chief Maheshwar Rao",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNclctR2pmWG43cnh2QzBZbmdoZUZ4UDd1TkM3RGdQQkkwM3lPX3FQeE1PNnN5UkJJdkxtTktkU0lucW9RSUc4aElMR1czbDB0d1gyVFc0VHhhN2gyZWFYQ0l4TlhkMER3SWs2VHRDLXB3em1TR1FtNnh6UFRxQnh3V05QQ044bktCNE9XLUdVcVVHNFgxWEd2Q1JpdU9vWlNabFFlbXN5UkpJUTEyM01GRHdFdkdtVFVDXzVyNEJ0SmtnajE0eEJrTk5VdkTSAdoBQVVfeXFMTzhSSGp1RnRsck9XejRQR1ZOSWRKczFud3JYNS1ianNSTUFabTFuRXhEWWRmRS16ZDJPYy1MQ3lzRHhTb1JHdFhqZF83TEFYcW9lVnNJUVE5emRFZktWdUdBRUtVX3FIdGhmQ2NBQVVleXR6NC1jMy1lb1phalNmZUZhV1JfOUVON2Y3UnM5QWYyQUhiMkhYaTc5M21IQ0RxclNnQUE3RURFTWhFVk1KcGlLZ210MGR1ZWpJdUJCbUc3RWtFN2lyaWJsTjhxbXVwMXZnV01qNFVJNFE?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T01:34:22+05:30",
+        "publishers": [
+          "Deccan Herald"
+        ],
+        "title": "Karnataka SIR | GBA to hold special drive for voter enrolment",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORVhCWEV5OWtqR2V4M21YS1ktRzFkUVRkSnF4TTZNVXppcGlFeTZqVnJBRVZzSkdUR3BzWlhPZ2hlY2x4azFvLTFLR0x3WlpuMHFIN3VXSHBkaHVSS3o2YXljR3pJYXRVOEtTakoyaEZjcy1Gd2Z2QVhqN055VExWVDBXV3M3V3Q3MVZXWmdqMlcwNHo0RWdXOFRHVUNxQjVrUnhzLXZnekVMWW5fZEZiNjJnMUltSVVnNWlOa2pVZw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T01:13:57+05:30",
+        "publishers": [
+          "Deccan Herald"
+        ],
+        "title": "Pink Line: BMRCL files compliance with CMRS's observations",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUnFobzRRZmNYdEdCeElfNk96U0duV2hTMlR5MTlwVm1aX1BJVXRPSHlZbVliYnZIcGljQnZLczBoWlhsdU5pa2NjM1VpTnBGMUx0NXJmTUNwbVFKMHpMNXZCcDljcFhoeUdWdlRfS1VLUlA0Nk5VaWpPV3hfTEx4WDQxYVhfbXZvaG9uWEM1Q1U1UjVxdUEwVnpDN0dXd0sxaW9KRkZicFJzYnQ4dDNFMzhieURnbFFCQ0Ew?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-16T01:10:45+05:30",
+        "publishers": [
+          "Deccan Herald"
+        ],
+        "title": "GBA likely to resume khata bifurcation services on October 17",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMHpwNU9zRUpNYzVkdW5JZjJwd0VCSnVURjFhQ05PUm8zWmM3eE8wRWRfaTBEMHlUeEVOMXpiWnBaNE5uZTZjTjVlMWNHQXZRaF9sVDNkcEZQSFJjTW9sbkQtQjR1c2tZbElfSno1SHUtVmNYcUJlMHFJZGZPT3gtd3VPTnhjLVR1SDlnbTNpQUI5NWhwSlRWX0xPdnlwQmZDYXVNUHRGM3VCRnpQOTlGMUdEN1lsaFQ2NElzU3NlRXNPZw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-15T19:16:39+05:30",
+        "publishers": [
+          "thehindu.com"
+        ],
+        "title": "‘Sting operation’: H.D. Kumaraswamy reaches Bengaluru Police Commissioner’s office, dares police to commence probe from him",
+        "url": "https://www.thehindu.com/news/national/karnataka/sting-operation-hd-kumaraswamy-reaches-bengaluru-police-commissioners-office-dares-police-to-commence-probe-from-him/article71587086.ece",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-10-14T19:29:00+05:30",
+        "publishers": [
+          "The Times of India"
+        ],
+        "title": "Air India Sats to provide short-term warehousing near Bengaluru airport for festive cargo demand",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOY2V1dmFSOHM0YmxXMXlLWVJzbUczQWdPNjFLMVBDdE9qdDlYZnJUWHVOMFB4Y0lLSUFaUmNabm1NTHZhV1JjMmV4YU9LZVU0eF9EY0JQWDV6aThXa1RUVklUTFBWMS1rNGE4Q3Yzc2xOVVk0M1dMYkF6OWNZcWpJQWs0R0ZUaDczOWRoZDVjeWs4SFJRN21BaFg5cVRUdlBqNENfWDdLUXZqcE8ySUVLd2phTEhIUG80RmJEWFpBZmtzaTg1dXFqZWtEdHdkZnZXekUtT3NaQzNDUlFqQzdoR1RNd2cyU0J0M085dnpYN3RIUXhqck9ocVQ5bEdQNDZ6UWNB0gGIAkFVX3lxTE1HbWdqcHVETmd0bkhJYi1LNGxvSVNNS0dlR3J6OGF2clBsMWN2a2xmMXhTZHN6SmU0MTRNbFBlbm9xMklmVm56TGZWUllUcWh1SDItcDZhLWxWMTF3cG1GSHljbzM3SkJkZU5FT3J0UEh5OVdaZTFPRWhibWlsRUJOSzZ6S281bTM5ODNjdDdQSmNGMm9EM3pidFpmNUNxX0kxMkZKWVZrQkYxb21ZLUVCdVg4SzlmYTNKb05ZVlRBWFJNV3c5MUp2YUphNC0tUGVJS3hYX1hjdG94bWtNb3hfOFpRbnh0M1A5VTNqQkExdmdzM2dGRm1jUEEyVlpTaDVKVEd6ZEN1Mg?oc=5",
         "zone": "North"
       },
       {
-        "published_at": "2026-10-13T14:38:32+05:30",
+        "published_at": "2026-10-14T12:30:00+05:30",
         "publishers": [
-          "The Hindu"
+          "Goodreturns"
         ],
-        "title": "Dasara: Bengaluru airport showcases Karnataka’s heritage",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSW9vX1dHTGdub2JBampNdEZYVmMzOFdkc3laaHNSd1lzSFFqY0pVZW01SVRyaTVtNzYtM2pKS0xIOGFuaGJ3c1BiQ2dlakw5UUJhaktSWGVrb0ZaZFRObTFnNGZrTlozN1ZPcGNWX2k4RnVDZHJCTzNTN1ppX25ueTlVUzlCU1BldzZPMWU4QnhjbnItR0NZVUZlWXY1QWFCWkd5SG9JZVVBNFNKUTFnRVBMejBOUG5XVTVseVpPTktNcHY0NUln0gHOAUFVX3lxTE9EOFBHalNzd2tRVml1ZFVqZGF2LWM4SDdZbDUtUGN4VDZBbDhaT1h0YTBmUXBrdFZsX0RiYjc5dDRjem5KMEdaTm9DN3ZMM29kV2ZHdU81M1V4cU9fZ3h1SEcwdHk0Tm45eHQ1Umx5R1M2akx6bjcwc2pYaHBUTDRyQWhHUFNJbFVPNGRYcmpyV2dlLWQ1VXBxbXp1cFpsaTZ2WmVCWmtRZlVsUVJVb1FGbnYwMlhTeDFJQ2NJT2pMMHFtaFJ6QVhOMVR3WTBR?oc=5",
-        "zone": "North"
+        "title": "Bengaluru Water Supply Cut For 60 Hours: Check Dates, Timings & Areas Affected by BWSSB Maintenance Disruption",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY1BkRTkyZ09TaUlvRXpzV241RzBkSjRKOHlUUGRQcDRWa2djdjNEZWw3M21ha2NWZUdkdVFmMmdQY0duQWpZOFhRWERPaHc3b1V4bkc4Ni0temR5aVR2dE5yT09UTmZLLVZjWVFScmVtd2dsUVZUVUl2WVUwb0txVjRvQXluLXBSa0pEUWtOdXNvbHc0ZUt4VkNxTmJoaXNza3M4NFAzWXZCMU9DSVY0a3NHOGFPZkRlRERmQlUyenhBZUtNeGZjWXdFR0ZONkFibXhfUG9fcjRZWjExWUE?oc=5",
+        "zone": "City-wide"
       }
     ],
     "insights": []

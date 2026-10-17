@@ -2,7 +2,7 @@
   "area_prices": [
     {
       "area": "Sarjapur Road",
-      "basis": "apartment, ANAROCK Apr-Jun 2025",
+      "basis": "apartment avg, ANAROCK Apr-Jun 2025",
       "claim_id": "C-529e991d12",
       "high": 10800,
       "low": 10800,
@@ -12,7 +12,7 @@
     },
     {
       "area": "Thanisandra Main Road",
-      "basis": "apartment, ANAROCK Q2 2025",
+      "basis": "apartment avg, ANAROCK Q2 2025",
       "claim_id": "C-d72298949f",
       "high": 9700,
       "low": 9700,
@@ -22,7 +22,7 @@
     },
     {
       "area": "Hebbal",
-      "basis": "apartment, NewsFirst Prime average range",
+      "basis": "apartment avg, NewsFirst Prime (media estimate)",
       "claim_id": "C-21a92903ab",
       "high": 12500,
       "low": 9500,
@@ -41,18 +41,8 @@
       "zone": "north"
     },
     {
-      "area": "Devanahalli",
-      "basis": "land",
-      "claim_id": "C-b0c76f18db",
-      "high": 10000,
-      "low": 6000,
-      "source": "NewsFirst Prime",
-      "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
-      "zone": "north"
-    },
-    {
       "area": "Electronic City",
-      "basis": "apartment, JLL Oct 2025",
+      "basis": "apartment near station, JLL Oct 2025",
       "claim_id": "C-922d70ee28",
       "high": 7500,
       "low": 7000,
@@ -72,7 +62,7 @@
     },
     {
       "area": "Rajajinagar",
-      "basis": "apartment, Brigade developer quote",
+      "basis": "apartment, Brigade blog (developer quote)",
       "claim_id": "C-ce765d2aac",
       "high": 14000,
       "low": 9000,
@@ -82,13 +72,33 @@
     },
     {
       "area": "Tumkur Road",
-      "basis": "apartment, Brigade developer quote",
+      "basis": "apartment, Brigade blog (developer quote)",
       "claim_id": "C-5a78da1676",
       "high": 8500,
       "low": 5500,
       "source": "Brigade Group",
       "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
       "zone": "west"
+    },
+    {
+      "area": "Devanahalli",
+      "basis": "land (plots), NewsFirst Prime 2026",
+      "claim_id": "C-b0c76f18db",
+      "high": 10000,
+      "low": 6000,
+      "source": "NewsFirst Prime",
+      "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
+      "zone": "north"
+    },
+    {
+      "area": "Attibele",
+      "basis": "land (plots), Sobha page (developer quote)",
+      "claim_id": "C-5e56916be7",
+      "high": 7500,
+      "low": 5500,
+      "source": "Sobha Limited",
+      "url": "https://www.sobha.com/blog/attibele-bangalore-real-estate-overview/",
+      "zone": "south"
     }
   ],
   "builders": [
@@ -99,8 +109,8 @@
         "C-d6a0265647",
         "C-f5feeb5ed2"
       ],
-      "headline": "Embassy Origins pre-sales of over ₹1,800 crore in the first week",
-      "metric_display": "₹1,800 crore+",
+      "headline": "Embassy Origins pre-sales topped ₹1,800 crore in the first week (company-reported).",
+      "metric_display": "₹1,800 crore",
       "metric_label": "Pre-sales, Embassy Origins (₹ crore)",
       "metric_value": 1800,
       "name": "Embassy Developments",
@@ -118,31 +128,35 @@
     },
     {
       "claim_ids": [
-        "C-b04ef95da8"
+        "C-4febabc134"
       ],
-      "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings (developer claim)",
-      "metric_display": "₹550 crore+",
-      "metric_label": "Bookings (₹ crore)",
-      "metric_value": 550,
-      "name": "Century Real Estate",
+      "headline": "Six of eight FY27 business-development projects are in Bengaluru (company statement).",
+      "metric_display": "₹16,600 crore",
+      "metric_label": "Potential GDV, 8 projects (₹ crore)",
+      "metric_value": 16600,
+      "name": "Puravankara",
       "projects": [
-        "The Astoria at Century Immencity"
+        "Sathanur",
+        "Mandur",
+        "Doddagubbi",
+        "Sanna Ammanikere",
+        "Sarjapur"
       ],
       "sources": [
-        "VMPL / ScnWire (press release)"
+        "HDFC Sky (PTI-distributed press release)"
       ],
-      "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+      "url": "https://hdfcsky.com/news/puravankara-signs-jda-for-12-76-acre-land-parcel-in-sathanur-bengaluru-with-potential-gdv-of-rs-2500-crore"
     },
     {
       "claim_ids": [
-        "C-48d51205e0",
-        "C-34c74fe7c8"
+        "C-34c74fe7c8",
+        "C-48d51205e0"
       ],
-      "headline": "Brigade Belvedere: 773 units in the initial phase, revenue potential above ₹1,100 crore",
-      "metric_display": "₹1,100 crore+",
-      "metric_label": "Revenue potential (₹ crore)",
+      "headline": "Brigade Belvedere in East Bengaluru has revenue potential above ₹1,100 crore (company estimate).",
+      "metric_display": ">₹1,100 crore",
+      "metric_label": "Revenue potential, Belvedere (₹ crore)",
       "metric_value": 1100,
-      "name": "Brigade Enterprises",
+      "name": "Brigade",
       "projects": [
         "Brigade Belvedere"
       ],
@@ -153,11 +167,30 @@
     },
     {
       "claim_ids": [
+        "C-2ec318ce9f",
+        "C-bf9e4ebdd2"
+      ],
+      "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings since its July 2026 pre-launch (developer claim).",
+      "metric_display": ">₹550 crore",
+      "metric_label": "Bookings (₹ crore)",
+      "metric_value": 550,
+      "name": "Century Real Estate",
+      "projects": [
+        "The Astoria at Century Immencity"
+      ],
+      "sources": [
+        "SCN Wire (Century Real Estate press release)",
+        "SCN Wire (developer press release)"
+      ],
+      "url": "https://vmpl.scnwire.com/2026/10/north-bengalurus-luxury-housing-market.html"
+    },
+    {
+      "claim_ids": [
         "C-5f7b18197c"
       ],
-      "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27",
+      "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27.",
       "metric_display": "3 mn sq ft",
-      "metric_label": "Bengaluru commercial launch (mn sq ft)",
+      "metric_label": "Commercial area launched (mn sq ft)",
       "metric_value": 3,
       "name": "Prestige Estates",
       "projects": [],
@@ -165,27 +198,10 @@
         "Outlook Business"
       ],
       "url": "https://www.outlookbusiness.com/corporate/prestige-group-launches-3-housing-projects-in-q1-with-12000-cr-revenue-potential"
-    },
-    {
-      "claim_ids": [
-        "C-addcb93af8"
-      ],
-      "headline": "45-acre Gunjur project received RERA approval",
-      "metric_display": "45 acres",
-      "metric_label": "Project area (acres)",
-      "metric_value": 45,
-      "name": "Abhee Ventures",
-      "projects": [
-        "Abhee City Urban Glenn"
-      ],
-      "sources": [
-        "UNI"
-      ],
-      "url": "https://www.uniindia.com/business-economy/abhee-ventures-bengaluru-project/175152"
     }
   ],
   "dropped": [],
-  "generated_at": "2026-10-16T09:07:49+05:30",
+  "generated_at": "2026-10-17T10:26:26+05:30",
   "kpis": [
     {
       "change": "+12% YoY",
@@ -208,10 +224,10 @@
       "value": 17720
     },
     {
-      "change": "+90% since 2019 (₹4,975)",
+      "change": "from ₹4,975 in 2019",
       "claim_id": "C-ff7db99f53",
       "display": "₹9,450",
-      "label": "Average price (₹/sq ft)",
+      "label": "Average price (ANAROCK)",
       "period": "Q2 2026",
       "source": "Business Today",
       "url": "https://www.businesstoday.in/personal-finance/real-estate/story/top-housing-markets-deliver-up-to-125-price-appreciation-rental-yields-rise-by-100-bps-anarock-547053-2026-08-04",
@@ -251,17 +267,17 @@
       "change": "~29% share of top seven",
       "claim_id": "C-8a753aec15",
       "display": "15.7 mn sq ft",
-      "label": "Office leasing (sq ft)",
-      "period": "Jan-Sep 2026",
+      "label": "Office leasing",
+      "period": "Jan–Sep 2026",
       "source": "Asianet Newsable",
       "url": "https://newsable.asianetnews.com/business/india-office-leasing-rises-7-yoy-in-jan-sep-2026-bengaluru-leads-articleshow-cpfha99",
-      "value": 15700000
+      "value": 15.7
     }
   ],
   "series": [
     {
       "chart": "line",
-      "id": "anarock-price",
+      "id": "anarock_price",
       "note": "ANAROCK only.",
       "points": [
         {
@@ -284,12 +300,12 @@
       "sources": [
         "Business Today"
       ],
-      "title": "Bengaluru average residential price (ANAROCK)",
+      "title": "Average residential price, Bengaluru (ANAROCK)",
       "unit": "₹/sq ft"
     },
     {
       "chart": "line",
-      "id": "anarock-yield",
+      "id": "anarock_yield",
       "note": "ANAROCK only.",
       "points": [
         {
@@ -312,13 +328,13 @@
       "sources": [
         "Business Today"
       ],
-      "title": "Bengaluru gross rental yield (ANAROCK)",
+      "title": "Gross rental yield, Bengaluru (ANAROCK)",
       "unit": "%"
     },
     {
       "chart": "bar",
-      "id": "anarock-sales",
-      "note": "ANAROCK only; quarterly.",
+      "id": "anarock_sales",
+      "note": "ANAROCK only. Q3 2025 is the prior-year comparison stated in the claim.",
       "points": [
         {
           "claim_id": "C-cffc61a291",
@@ -349,13 +365,13 @@
         "Business Today",
         "Construction World"
       ],
-      "title": "Bengaluru housing sales (ANAROCK)",
+      "title": "Quarterly housing sales, Bengaluru (ANAROCK)",
       "unit": "units"
     },
     {
       "chart": "bar",
-      "id": "anarock-unsold",
-      "note": "ANAROCK only.",
+      "id": "anarock_unsold",
+      "note": "ANAROCK only. Points are end-2024 comparison, end-2025 and Q2 2026.",
       "points": [
         {
           "claim_id": "C-5a91e10668",
@@ -386,55 +402,40 @@
         "Business Today",
         "Outlook Money (PTI)"
       ],
-      "title": "Bengaluru unsold stock (ANAROCK)",
+      "title": "Unsold housing stock, Bengaluru (ANAROCK)",
       "unit": "units"
     },
     {
       "chart": "line",
-      "id": "anarock-sarjapur",
-      "note": "ANAROCK only.",
+      "id": "proptiger_price",
+      "note": "PropTiger only.",
       "points": [
         {
-          "claim_id": "C-b98c18d7ae",
-          "label": "End-2021",
-          "sort": 2021.99,
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-          "value": 6050
+          "claim_id": "C-44b6990bcb",
+          "label": "Q1 2026",
+          "sort": 2026.25,
+          "source": "The Tribune (ANI)",
+          "url": "https://www.tribuneindia.com/news/business/bengaluru-housing-prices-jump-24-in-q1-2026-amid-strong-demand-report/",
+          "value": 9785
         },
         {
-          "claim_id": "C-b98c18d7ae",
-          "label": "Q2 2025",
-          "sort": 2025.5,
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-          "value": 10800
+          "claim_id": "C-f4fd3a0255",
+          "label": "Q2 2026",
+          "sort": 2026.5,
+          "source": "Outlook Money",
+          "url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
+          "value": 9931
         }
       ],
       "sources": [
-        "Outlook Business"
+        "Outlook Money",
+        "The Tribune (ANI)"
       ],
-      "title": "Sarjapur Road average price (ANAROCK)",
+      "title": "Average price, Bengaluru (PropTiger)",
       "unit": "₹/sq ft"
     }
   ],
   "tracked_developers": [
-    {
-      "developer": "Puravankara",
-      "projects": [
-        "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
-        "Puravankara Sathanur (JDA land parcel)",
-        "Puravankara Sathanur (JDA)",
-        "Puravankara Sathanur JDA parcel",
-        "Puravankara Sathanur residential project (JDA)",
-        "Purva Northern Lights"
-      ],
-      "tracked_projects": 6,
-      "types": [
-        "apartment",
-        "mixed"
-      ]
-    },
     {
       "developer": "Brigade Enterprises",
       "projects": [
@@ -442,9 +443,26 @@
         "Brigade Gunjur",
         "Brigade Gunjur township (JDA)",
         "Brigade Kanakapura Road two-acre project (not yet named)",
-        "Brigade Lumina"
+        "Brigade Lumina",
+        "Brigade WTC Whitefield"
       ],
-      "tracked_projects": 5,
+      "tracked_projects": 7,
+      "types": [
+        "apartment",
+        "mixed"
+      ]
+    },
+    {
+      "developer": "Puravankara",
+      "projects": [
+        "Puravankara Attibele Hobli 53.5-acre land parcel (project not yet named)",
+        "Puravankara Sathanur (JDA land parcel)",
+        "Puravankara Sathanur (JDA)",
+        "Puravankara Sathanur (JDA, name TBD)",
+        "Puravankara Sathanur JDA parcel",
+        "Puravankara Sathanur residential project (JDA)"
+      ],
+      "tracked_projects": 7,
       "types": [
         "apartment",
         "mixed"
