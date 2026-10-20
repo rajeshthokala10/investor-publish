@@ -1,307 +1,353 @@
 {
-  "claims": [],
-  "generated_at": "2026-10-16T18:05:58+05:30",
+  "claims": [
+    {
+      "citation_check": {
+        "final_url": "https://www.oneindia.com/bengaluru/namma-metro-pink-line-underground-and-blue-line-orr-trials-likely-in-november-8239515.html",
+        "http": 200,
+        "note": null,
+        "result": "confirmed",
+        "share": 1.0
+      },
+      "claim_id": "C-91b64e77f7",
+      "claim_key": "project_update|orr_east|na|none|blue line orr corridor trial runs byappanahalli kr pura marathahalli",
+      "claim_type": "project_update",
+      "confidence": "Medium",
+      "confidence_reason": "one reputable source, excerpt confirmed",
+      "corridor": "orr_east",
+      "corroborating_groups": [
+        "oneindia"
+      ],
+      "domain": "oneindia.com",
+      "event_date": "2026-11-15",
+      "evidenced_stage": "under_construction",
+      "excerpt": "We have completed all works except signalling.",
+      "flags": [
+        "citation_confirmed"
+      ],
+      "group": "oneindia",
+      "infra_stage": "under_construction",
+      "interested_party": false,
+      "locality": "Marathahalli",
+      "marketing": {
+        "guarantee_phrases": [],
+        "hype_phrases": [],
+        "marketing_score": 0.0
+      },
+      "metric": "none",
+      "origin": "agent:evening:metro_watch",
+      "origin_group": "oneindia",
+      "period_years": null,
+      "price_basis": "na",
+      "price_kind": "na",
+      "property_type": "na",
+      "published_at": "2026-10-19",
+      "publisher": "Oneindia",
+      "region": "east",
+      "retrieved_at": "2026-10-19T18:41:38+05:30",
+      "statement": "BMRCL is targeting trial runs of Blue Line trains between Byappanahalli depot, KR Pura and Marathahalli by 15 November; MD PC Jaffer said all works except signalling are complete and signalling integration is the key bottleneck (Oneindia, 19 October).",
+      "subject": "Blue Line ORR corridor trial runs (Byappanahalli–KR Pura–Marathahalli)",
+      "syndication_id": "SYN-7c402f8fb9",
+      "tier": "reputable_media",
+      "unit": null,
+      "url": "https://www.oneindia.com/bengaluru/namma-metro-pink-line-underground-and-blue-line-orr-trials-likely-in-november-8239515.html",
+      "value": null,
+      "value_max": null,
+      "verification_status": "single_source"
+    }
+  ],
+  "generated_at": "2026-10-19T18:03:58+05:30",
   "stories": [
     {
-      "published_at": "2026-10-16T17:34:37+05:30",
-      "publishers": [
-        "The Hindu",
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Bengaluru Namma Metro to extend services for T20 cricket match on October 17",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLXpvRElubUJRbWloZWQxYWhLcVo1bXp4bmhITDAzTmZNbnFYNzF4RGowZHdMdGxzZDQtREJjaDZSSlRvc0VzTUlFVEpNNGc0TUNoaXhWcVloZXQzRHpydDdXLXBpMS1HZlRKS2NjZ29PaWpoX2NhVUxGcnZ0aWtncXQ5eVlZRXFEYnFKSlA1ZGs1WFR3QldrZ29WRU1faGR3ckxLMHdLWFllc2VmRmpGZnNaUmhMdW9DVDlXRGxLZnBmVDdRdGIxVkxGcVZDMDNNMjhpNXhSWVM4eG_SAeIBQVVfeXFMT2pwVHZJbzFOU1Z2SmpUZXExM1RHVGY2SEFfVG5WdjJkUnhsWEtWVnIzOG5EX0FQb0xjdnpVbmJKR3ozRUFpV2c0MlNPa1FYOHpsYTNDaWFRNm9hNzVRX004U2dHekNtdVJITmQwWThzX1ZDbWtBaDJ2dFBFQWRzNkFzOENWTnZGQWk0NDVqWm5QMnN6SVY2LWZpV1BueXhkM0VPNENhUENmbVI5LXpjbWYwcmZyNG9VempBblQtQklZREJTdXAzdkc2c1Nub0E2dzlJeEtnR180X1VmcE9KOXlJZw?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T16:23:19+05:30",
+      "published_at": "2026-10-19T15:19:46+05:30",
       "publishers": [
         "thehindu.com"
       ],
       "regions": [
-        "unmapped"
+        "north"
       ],
-      "title": "Karnataka plans nine industrial townships in Bangalore Metropolitan Region",
-      "url": "https://www.thehindu.com/news/cities/bangalore/karnataka-plans-nine-industrial-townships-in-bangalore-metropolitan-region/article71548402.ece"
+      "title": "NGT halts tree felling for Hebbal Short Tunnel Project in Bengaluru",
+      "url": "https://www.thehindu.com/news/cities/bangalore/ngt-halts-tree-felling-for-hebbal-short-tunnel-project/article71597268.ece"
     },
     {
-      "published_at": "2026-10-16T16:08:45+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "south"
-      ],
-      "title": "Chandapura sees hours-long traffic jam as weekend return rush peaks",
-      "url": "https://www.thehindu.com/news/cities/bangalore/chandapura-sees-hours-long-traffic-jam-as-weekend-return-rush-peaks/article71548530.ece"
-    },
-    {
-      "published_at": "2026-10-16T15:02:51+05:30",
+      "published_at": "2026-10-19T11:01:37+05:30",
       "publishers": [
         "thehindu.com"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Beggar-free Bengaluru proposal faces opposition from queer organisation",
-      "url": "https://www.thehindu.com/news/cities/bangalore/beggar-free-bengaluru-proposal-faces-opposition-from-queer-organisation/article71547307.ece"
+      "title": "Bengaluru metro commuters raise questions over unused balance in smart cards as NCMC adoption grows",
+      "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-metro-commuters-raise-questions-over-unused-balance-in-smart-cards-as-ncmc-adoption-grows/article71600178.ece"
     },
     {
-      "published_at": "2026-10-16T14:14:00+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Telangana, Karnataka can form integrated industrial value chain: IT and Industries Minister Sridhar Babu",
-      "url": "https://www.thehindu.com/news/national/telangana/telangana-karnataka-can-form-integrated-industrial-value-chain-it-and-industries-minister-sridhar-babu/article71591609.ece"
-    },
-    {
-      "published_at": "2026-10-16T12:51:34+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Sanjaynagar Main Road work near completion, footpath woes persist for Bengaluru residents",
-      "url": "https://www.thehindu.com/news/cities/bangalore/sanjaynagar-main-road-work-near-completion-footpath-woes-persist-for-bengaluru-residents/article71543531.ece"
-    },
-    {
-      "published_at": "2026-10-16T12:17:23+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Bengaluru’s KIA signs sister airport agreement with Vancouver International Airport",
-      "url": "https://www.thehindu.com/news/cities/bangalore/bengalurus-kia-signs-sister-airport-agreement-with-vancouver-international-airport/article71591331.ece"
-    },
-    {
-      "published_at": "2026-10-16T11:30:05+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Gym trainer stabbed to death at anniversary party in Bengaluru",
-      "url": "https://www.thehindu.com/news/cities/bangalore/gym-trainer-stabbed-to-death-at-anniversary-party-in-bengaluru/article71546167.ece"
-    },
-    {
-      "published_at": "2026-10-16T10:26:05+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "east"
-      ],
-      "title": "Whitefield senior living community battles sewage, rainwater flooding",
-      "url": "https://www.thehindu.com/news/cities/bangalore/whitefield-senior-living-community-battles-sewage-rainwater-flooding/article71541106.ece"
-    },
-    {
-      "published_at": "2026-10-16T09:58:55+05:30",
-      "publishers": [
-        "thehindu.com"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Heavy rain snarls traffic, ride-hailing fares surge in Bengaluru",
-      "url": "https://www.thehindu.com/news/cities/bangalore/heavy-rain-snarls-traffic-ride-hailing-fares-surge-in-bengaluru/article71589436.ece"
-    },
-    {
-      "published_at": "2026-10-16T15:47:47+05:30",
+      "published_at": "2026-10-19T10:40:24+05:30",
       "publishers": [
         "thehindubusinessline.com"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Maharashtra, Karnataka farmers stage protests seeking revision of cane FRP, sugar MSP",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/maharashtra-karnataka-farmers-stage-protests-seeking-revision-of-cane-frp-sugar-msp/article71591768.ece"
+      "title": "SOPA sees India’s 2026 soyabean output a tad lower at 107.93 lakh tonnes; MP regains top slot of largest producer",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/sopa-sees-indias-2026-soyabean-output-a-tad-lower-at-10793-lakh-tonnes-mp-regains-top-slot-of-largest-producer/article71602084.ece"
     },
     {
-      "published_at": "2026-10-16T16:13:13+05:30",
+      "published_at": "2026-10-19T15:09:56+05:30",
       "publishers": [
-        "Trade Brains"
+        "NDTV Profit",
+        "شبكة تواصل الإخبارية"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Advocate Shot Dead In Bengaluru By Tenants From Bihar Over Unapid Rent",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fb1pkeTVMejc1aW5hbjY1ZDlEZDNrNkFIelYtbU5lRkRXUUhiejhLOUZhTXhKa3E5QUUyTVYyNjQ0c242a0xkRFFKWnRtdjk1UWE4?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T11:47:56+05:30",
+      "publishers": [
+        "The Indian Express"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Bengaluru lawyer shot dead after tenants return with ‘rent money’",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTjJhZzhLMmNqcXNaWkgzSXB2OHBOS1l1QjlmV19fVzh4SWJMdWRDcDc2YTVSTV9ld2MydGR3QjFxWTN1WlptUnlMM0dTcUJyTmthd0NvdV9CemQtMEtiUWc1QzhBNUw1SEJWa0J4Qk1iaDAyaVUxLXVfSmJic2w3ci1hc1hPa3M0bUpqLU01bmlQSGRENko1VVg1a1o5ZXlBYWt6RTRHUEhmaEZuZ0pWMDhVRTBQSnZlalHSAboBQVVfeXFMUE4yYWc4SzJjanFzWlpIM0lwdjhwTktZdUI5ZldfX1c4eEliTHVkQ3A3NmE1Uk1fZXdjMnRkd0IxcVkzdVpabVJ5TDNHU3FCck5rYXdDb3VfQnpkLTBLYlFnNUM4QTVMNUhCVmtCeEJNYmgwMmlVMS11X0piYnNsN3ItYXNYT2tzNG1Kai1NNW5pUEhkRDZKNVVYNWtaOWV5QWFrekU0R1BIZmhGbmdKVjA4VUUwUEp2ZWpR?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T12:38:25+05:30",
+      "publishers": [
+        "The South First"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Bengaluru advocate allegedly shot dead by tenants after rent dispute",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTl9mMldKS1lkU2J2V0FCNjJMYV9pOTRMelVrOFMzaDd4R1hIR21DbWhKX2U4NlBBa0JYN0lCNGNjclVsRFBMQ0hQaVRNcl9FZTE4S0hsWmVIY2JjWUhPamVVZmF5V1g1S0hUdld1aDF5UnozNDFRNkV3cmI1TzFZUFIwTzhMWkx3bV9zc2VtaUxqN2NEWTlxZXJ1S2dOOVE3QnhJaFFlSXk?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T11:49:10+05:30",
+      "publishers": [
+        "Asianet Newsable"
       ],
       "regions": [
         "east"
       ],
-      "title": "Brigade Group Announces New World Trade Center in Whitefield: 53 Storey Towers, 2,000 Homes and Commercial Spaces - What It Means for East Bengaluru Real Estate",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOd3NzY2ZSNG4yQWxEYlgyVFBoRUNRQkhWMkZoWk1xNnhFUnVWQjJyaXpROUFKQm9kbDRkQndHVUl2bWNGcElUeGpnQW1HcWM0ckhVdG5HcFMtUTRMTHhnTHFWeFJaWkJDMXpnUi02NWVrM3MyTG1nbl82MURlSlZPMmM4X2ZzOFA3RnFsemsxcGxqZzYwZWdLdzg0VTFxdExOZ0NuVEtqMHJoc3NUWjVtRmxZdXYxai1VZHJJZDNSTHI1elo5Z2I1TThuVXctQkR1TXpWWmVMU0s4YmdyWkM5Nm1WNlgzTDZtd2dmMU5iZFNqNjVhaWNCVEVXaUVieGNrTmx2R0pUOUJrR3hlOFRVQWVITUlDUFBjbGkxT0NB?oc=5"
+      "title": "Bengaluru: Advocate Shot Dead at Home in Whitefield, Property Dispute Suspected",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTTExYm9XN2Q3LXZ6TVo5VmI5RlhlZXA4a1NVM0h2OHVCUDFzM0lOaGZmU1hibC1ON0lPQ1NMN3lKZjh5bTdiSHdZUWVwajJCX1FRYmFNaFBjcDRKSE9hYlBjeU9fWG9OZGhpbmdSNmlkY2xfTGgzc1p5dnEtX29FcGVpQW4ta1FjUWNmcjJOVlNkR2pzdFNwaVdnWUF3dWpOY0ZLeEtvb3o0XzRfSTBoZ25MWmdXc3ZjaFJwWXhyNU9sSkxGeTZyenU2aFM5aGFRcHRaLUVvWkNpdmpxSFVhNWZFVm9yVnVZbHBpb2VsSmlwSG_SAfgBQVVfeXFMTXZfNXhyV2Z6U09ZTEVHZVNxakx2TlFJeEMybkE1eXJlSE5MYzZWWERpM1VDcGpoYjdLRTBDNFpwT0VJT3ZBeHZtX0ZqMm45MS1tM3lMWGd3Y0lsbC10dW1hV3RPT1ZpdkdwYjliR3VoRjMxa1MyR3QyU3FwQXVnaXZQVWg3SW04MlFpZjNCaEFCWjNnWjlvbTZQUjhPbmhSX3dsdGdXVDB2R0xhV1ZNcF9SYWN2a0J1REdhVnZXcG53RExYYjYwTGs5VF93akFla3ZSUFNVMmNGWnRUZ2lnQjd4SEQtOC1QNGpfMU5mM2wxbUFRQlJjdFY?oc=5"
     },
     {
-      "published_at": "2026-10-16T16:54:57+05:30",
+      "published_at": "2026-10-19T10:58:45+05:30",
       "publishers": [
-        "Trade Brains"
-      ],
-      "regions": [
-        "south"
-      ],
-      "title": "Bengaluru Metro Expansion: Bommasandra-Hosur Metro Link vs 5 Other Proposed Routes - Which Should Get Priority and Benefit Homebuyers Most?",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVVE4bDdNUjRPdzJRRHVKTjUwZHJkZG9kc3ZYZ0p2OWpuNk5TdlpHLWQ0bFNIZVVBVVB6YjNzLU90T0FKWHBfMENaSW9reEl4SjFSak1sQVZKMlpnMDBzTkZ3dHhYRVVZc0NydlozSUJGbDJUN0tILWtpRFJ5ajBxVVlkdjlpQTE3MlVBWVlQejlmczZQSDZWaVhSLVNPYWk5VUFBNTZkV0FHMFNOLUVLRTdQUjJtMHRTWFZGdVc3OUZnUF9WWHgwUFo2czB5cHJvRFZkNDdHRndZUVNjakR6WFlLSnhhLWlpTWVJNkNZdHM2czRab1BwR0htV05ROXdNUzdF?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T07:40:03+05:30",
-      "publishers": [
-        "The New Indian Express"
+        "India TV News",
+        "KalingaTV"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Don’t panic if your name not in voter list, says GBA chief Maheshwar Rao",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNclctR2pmWG43cnh2QzBZbmdoZUZ4UDd1TkM3RGdQQkkwM3lPX3FQeE1PNnN5UkJJdkxtTktkU0lucW9RSUc4aElMR1czbDB0d1gyVFc0VHhhN2gyZWFYQ0l4TlhkMER3SWs2VHRDLXB3em1TR1FtNnh6UFRxQnh3V05QQ044bktCNE9XLUdVcVVHNFgxWEd2Q1JpdU9vWlNabFFlbXN5UkpJUTEyM01GRHdFdkdtVFVDXzVyNEJ0SmtnajE0eEJrTk5VdkTSAdoBQVVfeXFMTzhSSGp1RnRsck9XejRQR1ZOSWRKczFud3JYNS1ianNSTUFabTFuRXhEWWRmRS16ZDJPYy1MQ3lzRHhTb1JHdFhqZF83TEFYcW9lVnNJUVE5emRFZktWdUdBRUtVX3FIdGhmQ2NBQVVleXR6NC1jMy1lb1phalNmZUZhV1JfOUVON2Y3UnM5QWYyQUhiMkhYaTc5M21IQ0RxclNnQUE3RURFTWhFVk1KcGlLZ210MGR1ZWpJdUJCbUc3RWtFN2lyaWJsTjhxbXVwMXZnV01qNFVJNFE?oc=5"
+      "title": "Rent dispute turns fatal in Bengaluru, lawyer shot dead by tenants",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmgtQ2cwMzY0MmlValhQOUJSVDNzZTE1OEY5VTVvcjVNTzBrRENJbFB2N1BqNFpkTUdNdmU3UFc3aXZnYjJjMVR2cWcxTU54SGY1ZzVDSmliQkw0ZERrU2pQaC1GdnZZMHpZaE1KVkFYZEpXd2lfZndGRnF1ZlQwak1SUnhfVDdRMld6TTkzdGU5a0tYUTZsN3BaMHBvYTdKNkNFSk1ISzlPS1pLZ3VqUjBFaWJfd9IBtgFBVV95cUxOZmgtQ2cwMzY0MmlValhQOUJSVDNzZTE1OEY5VTVvcjVNTzBrRENJbFB2N1BqNFpkTUdNdmU3UFc3aXZnYjJjMVR2cWcxTU54SGY1ZzVDSmliQkw0ZERrU2pQaC1GdnZZMHpZaE1KVkFYZEpXd2lfZndGRnF1ZlQwak1SUnhfVDdRMld6TTkzdGU5a0tYUTZsN3BaMHBvYTdKNkNFSk1ISzlPS1pLZ3VqUjBFaWJfdw?oc=5"
     },
     {
-      "published_at": "2026-10-16T15:00:37+05:30",
+      "published_at": "2026-10-19T09:11:55+05:30",
       "publishers": [
-        "The Better India"
+        "Livemint"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Doddagubbi Lake Fish Kill: How Polluted Runoff Threatens Bengaluru’s Lakes",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRGIxd2tlVnBqdmtOQ3dKaHMtR2pKZ1FidmZoelJIbTI1THZadHFtVV92RUFhd09RaTZUUVFQZ1Zxd2FYelFVWjQwMXQ0NWNTN3JRcDdpUFcyWVBNR2JPSWdUM1VjSWdRUUlCRGlwVnFHcmd4c3gzWUs0dEljblk4aTBkYW5CRXNEbG1EbGtyN1paM3lteWxGR3hQZkJMNGJVM1RBQlZjdDBxQVp1NE9jVNIBsAFBVV95cUxQRGIxd2tlVnBqdmtOQ3dKaHMtR2pKZ1FidmZoelJIbTI1THZadHFtVV92RUFhd09RaTZUUVFQZ1Zxd2FYelFVWjQwMXQ0NWNTN3JRcDdpUFcyWVBNR2JPSWdUM1VjSWdRUUlCRGlwVnFHcmd4c3gzWUs0dEljblk4aTBkYW5CRXNEbG1EbGtyN1paM3lteWxGR3hQZkJMNGJVM1RBQlZjdDBxQVp1NE9jVA?oc=5"
+      "title": "Bengaluru's Namma Metro Pink, Blue lines may open by May 2027, trial runs likely in Oct-Nov: Report",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMUdkZFF0VnZoekhjcC0wUm9yME1BY0VULW5rbHl4OUJpVHdrWEJQTGJKQW4zcnY3S0dtYy1GTkthSTBhWnp1WndJZXdrOXc3cXVPZkZVS1liV0JlaUk3Nk1TbzhjOGFHa1k2LXpfYzVCaE52RGVVLV9TSXlvLU9lVUlFZFJyZWM0TzlMelJlT0VZalNRck43ZUpfVExSVG5SZXFhV2M0S21Qel9IMXowSGpRNk41M3JGaUJyMDNpQWVPalB3ckZxWndHbm1uTmJrSTE1OU1XaXVtMUhtVWtqNTZyXzhsTHZGc2x4aW5uZ3F1MlVJaGlJ0gH8AUFVX3lxTFB6bjlrTWVIZ1d0OTlWVjZYVHFVRW1lLW9OVjJpRUhjaVpYaDI4TnpRZlZrV0xnOWthTVNHWXpTdUVxdGkzOW9qM0VXTDlKQ0hDaHBZTXR6Mm9oVGN5cFZOQnBGNkstUmNETzJKVm4yR21fN2xvYjM2NzRFNG5BUFV5NC1lcnQ5V25GdERXRGVXVTNMb3hfbEJ2YzQ2b3FmcXRrX09EcVJqcTFfVF9TTFN5a2hwZHdRbWdnZDQ5U1VIeGlVa21zZHMzRjNDajVYekFrcG94emgwZkdBMl81SlY1U19OR0JxNWdtYmI4UE1Ta3Y4a1hwUVdqa3o0TQ?oc=5"
     },
     {
-      "published_at": "2026-10-16T07:24:33+05:30",
+      "published_at": "2026-10-19T11:45:09+05:30",
       "publishers": [
-        "The New Indian Express"
+        "Oneindia"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Bengaluru: Rs 5.5 crore to transform quarry from heat island to climate-resilient park",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR1dURG5rYVFVNHR2cHpabjhRSFN6elJwcUh1dGZnaXlQc19uUUJDN1prVHdlcms4SWw1T24tVnNCYTdyZFREcGFmZUdDcWkzU1RjZk95WWEtcGxNRHJ5dUFSSjdLbXFKZ2puclh1M2taWUxSQnh0aXV1TjVuaDZTMkVoWE55dmNsWDF4bVFkMWptR1o2WFhzWFFTbGxPTmZWT3JnV0RhUHk5UDYyT3ZBSnZvN3B3X1BjYmtocVBjZWM5Wm82VG1oSlJndFVfdUZYVm8tWTFKc0VUY09VbG5J0gHsAUFVX3lxTE9LWFcwMmR4YUV0VVlPUlk4c1NZZE56UzAxOTV3bWRJRVRvc2dmSFJES2FJSHE4TnRDTXNNc0JMbTFYcU5tdlNEcXpXWFp3OFJEMzFscVRvUVp5SEEwWHlrTUtZQmpreUViZTFjVUtJUVhNdGlBMHJ2eWtxMzFDZzJyMXoxM2ZRR2FNY19lLXFpWE5mYUZab3N3LWFOdVl5M1VITFFsQy1WUUN1WVFQVjRUOV90T2tQX3JjY1JMRmpfeWxYOGdDWXptcFJwc19taVNUaEZvd0psV3gxN1AtSDVZN2FfXzd5dl9sQWxB?oc=5"
+      "title": "Namma Metro Pink Line Underground And Blue Line ORR Trials Likely In November",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUlpHblB4T0dIN1RMbzMwUFBxWDF3alN0b2pZOUhyTllxdGFITWFHTWZDcC1haF9Yaml1Zno4MkFmZ0JINDB5bDRiTjJQX2piRC1tdTRRYVFDUFZVLTN4RTF3dmZWdG9IMmp0aTM5OUN3MzRrVnJhOTZfX0VFS2tVWFBPS2tqemNHb0ZzcFFuSTZzWVhsU0t5b0JVZ1lNOFFVVGU4VFFsVnUxYWV4V0N6OGdyY2lsR2hXbk1QbVVxejV0Sk0?oc=5"
     },
     {
-      "published_at": "2026-10-16T13:00:17+05:30",
+      "published_at": "2026-10-19T15:01:38+05:30",
+      "publishers": [
+        "Manufacturing Today India"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "JJG Aero breaks ground on Rs 200 crore aerospace plant",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbHNtZXh1RzhMbXpEbV9USkU1THZRR1JqYkVSU2VuRmk3Q1dPRWN4Q1JjcE5GYTVQLW9OZVAwMVlHQTZ2VkljN3NlVEUzYWhITEltYzhfLWt5RnVMSFRnR0VfRlBLdmJzamJEU1NSV0JuSDVyR3hGbnVSZVJGeVVCRQ?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T14:02:24+05:30",
+      "publishers": [
+        "Goodreturns"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Bengaluru Water Supply Cut For 60 Hours: Check Dates, Timings & Areas Affected by BWSSB Maintenance Disruption",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPY1BkRTkyZ09TaUlvRXpzV241RzBkSjRKOHlUUGRQcDRWa2djdjNEZWw3M21ha2NWZUdkdVFmMmdQY0duQWpZOFhRWERPaHc3b1V4bkc4Ni0temR5aVR2dE5yT09UTmZLLVZjWVFScmVtd2dsUVZUVUl2WVUwb0txVjRvQXluLXBSa0pEUWtOdXNvbHc0ZUt4VkNxTmJoaXNza3M4NFAzWXZCMU9DSVY0a3NHOGFPZkRlRERmQlUyenhBZUtNeGZjWXdFR0ZONkFibXhfUG9fcjRZWjExWUE?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T13:13:18+05:30",
       "publishers": [
         "Urban Acres"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Bengaluru Rain Brings Traffic to a Standstill as Fares Surge",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcGM2YjBRbjVfVXdqY0xibk85c2poUF81QUNzanhOZ2RHTVNoalp5Z0xZdjdhb0hhMEVycEp6UFV2YUc3TkJpN1FYWHpzUm9RNVFzeFBvWC16bC1aUEptbW12YUVqSFcxZXpZVmwyRmpMOGJPZ0N4dUpmcmFzdnVNdVNBakZjMGRJRmlN?oc=5"
+      "title": "Bengaluru Plot Subdivision Goes Online for Joint A-Khata Owners",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQXZPeXJ1WmswdENQOUl5Z01sQl9vTnNOSVBMMWNTUlU4ZmRjeUx4cXM5Q2MtS1VvYU9OT1dfSFdaU3pvc1RINkpkUEhyanowc3JDZGRtNlV6Z2UxMDVhdjNwcmpzWm1VQzRrak5aTWt1XzZ0SHNIT0FqeUlLNnlGbVptVHVwOUp1ZUlJTTYzMA?oc=5"
     },
     {
-      "published_at": "2026-10-16T13:59:47+05:30",
+      "published_at": "2026-10-19T12:08:08+05:30",
       "publishers": [
-        "urbanacres.in"
+        "Urban Acres"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Bengaluru Mini Buses Get Nod for Metro Connectivity",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1lFa2N5RUJ1Rko2NjBWcG1iUDFqanFFRHRyNk80STZEaWhQVTFkUFRMQVhVbXMzLWYwZjBFWl94UjBsVGpLMkZyU1l3aWNSTFZDVlRITkI0T01QZ2g3X3NnWUZaMng0dGlpLVpIWHBabWtsUlRDQldzcW5hS1Eta2N6blBOQVp4QS1CSGJvX0E?oc=5"
+      "title": "Bengaluru A-Khata Subdivision Goes Online for Joint Plot Owners",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1FIZHBqbVBvQ2h1a2cxY0xvWVNlU1htRmlNdkxhYzZaMHRvak5oZ3pNeE8xbVVYTUthSW1kV1Jrb21SVk4zQi1ESlJzRHBVelhYX1BXX2Nvck1BVFFVUXpWLUI5RWpuVmR2RXctUGswcEFxZVFPVVRwNWp2eG92bVJSbTdjVXdqYXVMQjR0VQ?oc=5"
     },
     {
-      "published_at": "2026-10-16T09:29:12+05:30",
-      "publishers": [
-        "LiveLawBiz"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "RERA| Brochure Clause Allowing 20% Deduction On Refund Without Interest Is Unfair: Allahabad High Court",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWnlldWhCRFVwWWE0Y2t6QmxjUFFlc0t4Nk9JZ1kwTHBnejhPRjdUVV9NNEZXQnNLRWJQa0pXNXNyN284dXg0N0tlcDF1REpwWHROSUFaQlFwUnVhWC1RMG1CUXZONzNyS0JuTWF1aDJFTmo5aFRtZjRQTWJjME9jNXdVWlF6aFdBT0N3UHFPeUJIZ3dCTUpSTVdhZXNsOEZValRoc2l6aFcycXd0YXlDNk9EWERpamxuSjJiOFFOZTVWTlRrVTllQklvM0tvbmhKV1E4YTFTUFJkcVZIVlVzcEV5el9JS0wtZnfSAeoBQVVfeXFMTlp5ZXVoQkRVcFlhNGNrekJsY1BRZXNLeDZPSWdZMExwZ3o4T0Y3VFVfTTRGV0JzS0ViUGtKVzVzcjdvOHV4NDdLZXAxdURKcFh0TklBWkJRcFJ1YVgtUTBtQlF2TjczcktCbk1hdWgyRU5qOWhUbWY0UE1iYzBPYzV3VVpRemhXQU9Dd1BxT3lCSGd3Qk1KUk1XYWVzbDhGVWpUaHNpemhXMnF3dGF5QzZPRFhEaWpsbkoyYjhRTmU1Vk5Ua1U5ZUJJbzNLb25oSldROGExU1BSZHFWSFZVc3BFeXpfSUtMLWZ3?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T11:01:28+05:30",
-      "publishers": [
-        "Prop News Time"
-      ],
-      "regions": [
-        "south"
-      ],
-      "title": "Swan Realty launches Bodhi with 24 four-bedroom residences in Bengaluru's Jayanagar",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZzdvRGI4aE0yZWVEckl6ekN0TDN5b0EtNEZES1ZKazl4Y2puSnlWbEdfVU5KbHNsbGF2NG5Ka1lOMm15YUdBNkxtNXBIa0tybXZvck54UXhBU29sT2hYQ2N5VllCSWhwb3FRS0J0aExwaW0ySjFkaFZHczZUekFZc0xOdnFudHFreWhuRElXbUZWN3hlNDNjVnRQWkczTFVXLWVZelZadUpGYjBqa0ZMR01ET292R2wwdU9IV2hyUTNTWk1WUzdTWUFQNWhjWWst?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T11:29:12+05:30",
-      "publishers": [
-        "Travel Trends Today"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Akasa Air expands presence in Rajasthan with launch of Udaipur operations",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUWpTbm43VUh2Mk5EaWJ6ZFVPbHhnMFBOVzYyT1liV2JTVFZCeGxSMS12S0tKQjg4cU1SMUVCX3FBWGcyREhWejkyUm9FVmRIWDE3THktUW52dnp3dEEyRzBHb0RyUnI1N2pEYUkybklZSmRlSDVaQ2l0RWhpT0lyMFU2dDROWlRjX0JqaWFyYTdGZ3pLUTgzeFZUbER1Umx3dGlZa3NfRFR6dw?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T12:46:44+05:30",
-      "publishers": [
-        "Hotelier Buzz"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Akasa Air Expands Rajasthan Network with Launch of Udaipur Operations",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVb0M0NmM5dXZjZmh4b2FiNmdqNlFsM2NXM1ludmd5ZWhWUm50bjBwWTFQemNPV1UtTDJ1dFRlcE1SSmhoN2FYemZ3ZTU3UG4zRldxaTBMVTFVb2V6dWVBc0t6Wl9WTmQyZEZjU3RYZkZRZzJodHBv?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T12:10:51+05:30",
+      "published_at": "2026-10-19T15:01:27+05:30",
       "publishers": [
         "Asianet Newsable"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "‘Avoid Delhi, Fly To Bengaluru’: US Tourist’s Blunt Advice After Airport Experience Goes Viral (WATCH)",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNl9zdGlLUGVQN3BYR3RId1c3T2JxbzB3YmxTOTFZbmxwN29KUkNPU09mc1RSbjZ2dG16MEZjb2cxTUp6bVdmb1NRWmlKaUFYdDY0SW5oQ0VGX1ZVT0JmdVp6dDRYNnJaSWRxY0gtay1tSHdUdmhZV0g3SFZ2WG5iRVZ5M0hJR0JuZTZWTVgwalYtZGtPS2JDSWs1NzEwbWg0WjkwemJFeVlleDlRalh0S0R1MEF3SDJoM08zWWcyWXhUUjU2TW5SaXFXSGNvY2dwRUd3ZXUzcXVtMXF5WUd2WlFpMnJCVG9E0gHuAUFVX3lxTFBHY2llTlhjOXBSc0hmRWtreEpRSjYySFZyQWhjdGdLaVJhOU5nMkxqNS1Qc09oNkppRlo0dG9lNnZ6RVZfaHNlMGdkc2lfWmQ1czR4MWJvcUlOSWNpZkpmU2JRdkE1Um4wVl9Ybk9BX0htaFhudDZDTFhLelRWSnJZcTBuc1hsaE9xd2RoTmF3QkNwa1hXbFc3Z2lyY19UMzZkRXI4dDRISUtNakFzQ2hDelYzTVB1dmhoSFNIeXdKOEFEZldtTl9GdkhvZ2VPQXNOeWp3VHlqZTJSQUxpbmF5c0tEU2p5NW1vcXhSdlE?oc=5"
+      "title": "“Hopefully We Will Have a Clean City”: Kiran Mazumdar-Shaw Thanks Canadian Man for Wind Tunnel Road Cleanup",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNN0dFMm9uX0x1UWcxRjFZN2tsOTRVY0VXREkwTkY3WEpqcEtYaVJIenBJTjRsU3BHX2Vxc3NfWGRzcXpFRXgtRU5kQ3Bfal9jLTRPdk5WakVycE5hTE9QLU1TRUE3dl9NNkFHTk1jWGRJUGR2ZWt3QV9LMlFIOVJ6Tk5ybEpJOE9Lc0g1V05JaXRQQ1hNdHN5MGd2VjZfTW1CdHpyR3NpV1UyNERlZHQ5NkpHTm1FMzlxT0xfR3Mxa29oRTI1c2xGdU9nOWhqRnl5ZjVNSTVWRTh2SDg3b0U0UHdYNlpVYmtrNXlzVF9ibTJzbi1lUjAyRHBDVdIBgAJBVV95cUxOUF9sQWROWnVpRjNEVldBVi04NVFPenZrOWJnS2swTFpmMVR3Qnprb2Q2LXY2MEpFUFJxakNERldheUYxUFBfYmpXZnh4Z1ZJX1YtY1Y1NEVoMlBnOG9FY0MyRVNwZDV2Zm1KZTRzNXNtTFRRdTlwZVpnQ25ZcWFnYjkxQk5KMnF6REtmb1Ayc0lIcHdsdm1lb1NaNDhTVWRaRmpiRTBrWlJ4bFFmZ3YxSTZKbmg4a0JjMVBsdmp1WVhFVUFoOURCclFNbWRyMUN2Y3BMQmJ6U0hNZzhfamtJS3BCNlctN1NIalZTNkV4OHBFTl8tX1N6eVJmTlFjS1lI?oc=5"
     },
     {
-      "published_at": "2026-10-16T17:20:08+05:30",
+      "published_at": "2026-10-19T14:54:12+05:30",
       "publishers": [
-        "Hindustan Times"
+        "LiveLawBiz"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "House of Abhinandan Lodha enters Himachal Pradesh with luxury villa project in Mashobra near Shimla, prices start at ₹9.5 crore | Real Estate News",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOTlEzbFgwRHQzVmF1VUFWdEx5akd1cWRSUlprVjRrdllXRFJQczZncEpTQUxuUFJ1MU9Ta1Qya0s0T2VwY0VoWVNDb2tldWNRa1BTSWsteVkzb2hlUWxZN0VySjNxY2Y2QlpPaHE0ZEdJcGZlU0VqNHltMl9yS1FUYjRCRmhfdGFpQjZZUjJLUktyMWllUE5nWEhBOHBnQmdiWUJXZ0x1UkNNM21kNXhNdW4yUVdIeThDS1lFWTZ5ZWJUcms1Q2NRLXpCbmlXN0Z2UllwSzk1UHAzOG1WT1p0cl9OVFpXcXV0WUpLUzE4bDZHaFdDTmJfd0E1RTlabkZpTTR6WU50d2RnQXJoX2FOd0lrenJ2aTZV0gGeAkFVX3lxTFB3Vl90RV9RSVNPTkF6eEhjT00wcWFDb3NjRkdFQ2tyWVFYWEJDV3VxUEMxczJHemJiZTZ4YXYwV3k5b3NmWWFwdVZrblREZHJWakR3VkJmZ3p3V3h5bC12NUNOc0VlbVBzc0lpZTg2X1hMVVN3eTcydGZOTVFUOGhmMnFZWVBYb2xqZjllLUhLR1dKSGl2NmlHUlBHQk9HVndTUnFRRVhJRGtFT3ROMHVPaFJJSlE2enk5Qy00MkY2Q1ZocnFIMXA0ZUtZT1dJdjQ4OWFUcUg2eXdwRVk0NVdYWHJDYi1IUWstbEM5d0dpNGo2TkFwM0k0Z3VwaE1uS2ZScXhSZVN4Z2hPeklrd3pDMXpEQVpKVUVHYWlrX0E?oc=5"
+      "title": "LiveLawBiz RERA Weekly Digest: October 12 - October 17, 2026",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZVY5dlpYdFU0RTd2eWhYNE9BV18yOEMxbDQyS1BxR0VtM2gyUVNfUk1tTTJhcmZLek5TYUR2eHk5RTNneHRIbzIwc3loVUg4WXg0aVJVTWNIZUlMcDE3YVFIaTZ6QmZTNTExaVY1M0ZiQWFzdDhkM2dhYXVpbzVxeUtYRkI0blBWYTFWRF85V2NUNUdHcUwzcWQxaFpRSEVT0gGgAUFVX3lxTE9lVjl2Wlh0VTRFN3Z5aFg0T0FXXzI4QzFsNDJLUHFHRW0zaDJRU19STW1NMmFyZkt6TlNhRHZ4eTlFM2d4dEhvMjBzeWhVSDhZeDRpUlVNY0hlSUxwMTdhUUhpNnpCZlM1MTFpVjUzRmJBYXN0OGQzZ2FhdWlvNXF5S1hGQjRuUFZhMVZEXzlXY1Q1R0dxTDNxZDFoWlFIRVM?oc=5"
     },
     {
-      "published_at": "2026-10-16T10:15:00+05:30",
+      "published_at": "2026-10-19T10:08:00+05:30",
       "publishers": [
-        "Construction Week India"
+        "The Times of India"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Housing demand rises 8.2% QoQ in Jul-Sept ’26: Report",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFR1SGxlQlBOM3ZRREhJV0xZTnZRbGhkUUJZLXB3d1B6U0w2TnhxX3dXM2xYb3FiMnF0b0ZNa05ycXQ0RFhxaVZqdVg3YVlNYmxEYXpPbVJtbGh6MUxDV3dJaVktRGJ5NkhtVVR2SlBUQWFKdkpnRk1hQ0VTSnkxZXNkRXdtd0F3aDJmdmFGd1VKdTNSbzU4TUlGd3NkZw?oc=5"
+      "title": "Homebuyers paid Rs 2.06 crore but got no flat, builder said payments meant accepting delay; Bombay HC ord",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOc0xxTGtucGZyOVEteThPdHVDX1ZSSHhkdkVYcVRUaG5vNlpQVk1WdFBMbm03NzRGdHhhVE1zZHNWM3IyNHRoeDhJNGctQTNKYkZ3TlY0UmwyZjFvTVZZaU5odTFkOE1feHdzZUVDTkV3czY4bUZFQkhYOGZONHlNVHNzTVgzdEJaT0FuMTBqVnh4YzZ2OFd5aUJlQUJ3eWdvSmhESkFiTnpqMkZqTktoZWliUURjTW9mUTlTZ0pNTnFZa3g1ZzhaYUpQc0huYlFoV0hPMXFqcHJIQmZPMEJWR2pNSzZTVi1CTXJTMGxUZXBMYVZYVlY0Y000NkZ2OTBIdFJabC15WmdkZE1nM2JVdDR1Tl9YazZZMm84RFpieElsUmRqX1lDRnNDZW85NXJ6VTgycV95UWhCUGt0dGNrWkNYWTN5eXBuRjR5dGxjYVhMUnEtNi1FeTczeDBLY2dGcUFmUElpanF6dGlpUE1tMG1fRkhxSHBkU3Fod2VScmVMcDltSEVVSjBmaE5GRHVfVGVj0gGYA0FVX3lxTFB6SVd5MzR3TnBPOEU3Qk5RNGZRcy1Jc1BWbUFGSGFQLXdOSlhHQ0Y4bWlLOGVjcWxXTHBIM3ZiQXpzQWJZOHdYRmhlVjhlUTBrZjJEbW9OQWdTQ0U5NW5qWkxOWGZPTjlnUDRWelV0b2MxZU4yLV9kT1hhUUFVUXhJS1BDOXdGSmphai1IOHFRQTEzTW8zRUE5b2NySkItdVZ1Z3NkRkFhcTNrMktnNXIxVGtsYURkQnUzX0V2ZFppNFFwMTd0dVRMOVRYMDc2QllhemZvUXp3Rklrc3hYWHdIZGZ4eDNDa1hVdElhTnVrSkE1MzZQYy1BbWc4eTNVR0ZTMXpFZ2ptRkNjMjdYNUtXYWtuZ1N6MjU2Y3ZwMWc2SWd1cWtwNm9MYl8wVDh6RVhUQnJnTUlRbFU2b01tLXZpd2FBc3AxSE5sLXFhVUNocDdjR2l3ZGpTdTlQREZvMXNHVWtzdzZZQk5LelhaWm5ueFNPXzdEbDdRdFBlQWhpTDNhaWZobmZYRTlJai14a1NtSjZlSG1Wdg?oc=5"
     },
     {
-      "published_at": "2026-10-16T15:06:33+05:30",
+      "published_at": "2026-10-19T13:26:01+05:30",
       "publishers": [
-        "News18"
+        "Press Trust of India",
+        "TheWire.in"
+      ],
+      "regions": [
+        "south"
+      ],
+      "title": "Swan Realty Launches 'Bodhi' – an Exquisite, Low-density Residential Project in Jayanagar",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRXd5M0ljdXFTRlN5LTJHSktYWFloZnk1R3JQV0IwSW9wNHJFVE9NQ1VfZVhMNnZzcDNNQXhfM3NRSWhSMjFYbmhHSG5RWHV4RVlPSWhUR0t6bm9YYnM3TnhKbURvLUV0LTVJVWZvMlVlXzRKUTQ0OTRiZkJ2TV9aYUZrWEtwaGZzMVZZdU9jbVF6bUpYTmtwZ0NLLUNXNjBKRXlsRGxPcUlSbE9ycGFocUpvZUxBV3pEQ1ljZFJ6VFFKS0wzTm5vY2FB?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T08:36:53+05:30",
+      "publishers": [
+        "Dailyhunt"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "Housing Demand Rises 8.2% In July-September 2026 As Festive Buying Picks Up: Report",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTTFzREZIeWpURm95QnowOC1lU2tBQ0t5TEtULVRwVFA4UWdGbXpRUUU0WkQ2dVJPeG50azNJNVI0VUgxM3ZzV295Rmwydkk4d2s3UW1XUTZQZ3FFUU9uNkVpTHV4NWU5cVJtTkYxLURxY0RqcHd2ZHJWei1LN2NkZFM4WDREWWlqdTk4UjFFLWFNc3U1S1k4YzN1WHdla0Zzd290LWFidzBuUlZ2MU00blNlZnJ3cHFZdkhjcUtLSFdFVGRUMHcwV3JvU2lOZUdBT3N3OGotMnZfUDjSAdsBQVVfeXFMTU0xc0RGSHlqVEZveUJ6MDgtZVNrQUNLeUxLVC1UcFRQOFFnRm16UVFFNFpENnVST3hudGszSTVSNFVIMTN2c1dveUZsMnZJOHdrN1FtV1E2UGdxRVFPbjZFaUx1eDVlOXFSbU5GMS1EcWNEanB3dmRyVnotSzdjZGRTOFg0RFlpanU5OFIxRS1hTXN1NUtZOGMzdVh3ZWtGc3dvdC1hYncwblJWdjFNNG5TZWZyd3BxWXZIY3FLS0hXRVRkVDB3MFdyb1NpTmVHQU9zdzhqLTJ2X1A4?oc=5"
+      "title": "Bengaluru Pink Line: Underground Cost Tops Rs 1,000 Crore/km",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUXNnaUJGVnVMRjJ2WjBrdnFjd0RlemQ5aHBTVE9qN3AzbTU4VllWSVZXX2ZLR3VLSnF4RldxRXl0Y2RSa1lRVldPbzZfVFN5aUFYN1lkdmdVWnBkN3F4d3BJdkNVdFRyX2hQakFCSHF5Yzg4Sk84UEc4enVSU0NzMUI2c2ZQbmkwNk1qR3l0cFcwcDJfTTRwQ2xmYWlBY3UxZUdHQ1JMX3NhTlZELXBON2lxX2E2T1B1UGt2TXh2UVBicVpqMHpKcUpwM0UteWRIcEwya0dzbUhMRGtjLTdHMw?oc=5"
     },
     {
-      "published_at": "2026-10-16T07:02:00+05:30",
+      "published_at": "2026-10-19T16:19:24+05:30",
       "publishers": [
-        "https://www.indiagazette.com/"
+        "Deccan Chronicle"
+      ],
+      "regions": [
+        "north"
+      ],
+      "title": "Two Held With Hydroponic Ganja Worth Rs 9.67 Cr at Bengaluru Airport",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMlRrQWlyWVNxRGRFODlqekRZd1gweEhEQlMyYVZGd00wZDFqNk84UG9lY0RkdERnajVOQTVBZVg0YXAySUZxY2dETWFGeGlmd3ZxUGxIZVNJQzBYaVd3VjJ4aF9TOE9pWWg5aFpIdnhDcHpvcGNvdEtHOHZmWXBIUXJkMFljdEdQQXpNNUQ2ME5Yd294MUl5eUIzNGRrdUl1MW9OTGdSRm1xTnh3VzdZdEJSTFVuUnFlWkxNVl9TYUo3bzYtdVRDWjV5cmdvY1JPRXZF0gHTAUFVX3lxTFAyVGtBaXJZU3FEZEU4OWp6RFl3WDB4SERCUzJhVkZ3TTBkMWo2TzhQb2VjRGR0RGdqNU5BNUFlWDRhcDJJRnFjZ0RNYUZ4aWZ3dnFQbEhlU0lDMFhpV3dWMnhoX1M4T2lZaDloWkh2eENwem9wY290S0c4dmZZcEhRcmQwWWN0R1BBek01RDYwTlh3b3gxSXl5QjM0ZGt1SXUxb05MZ1JGbXFOeHdXN1l0QlJMVW5ScWVaTE1WX1NhSjdvNi11VENaNXlyZ29jUk9FdkU?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T15:37:29+05:30",
+      "publishers": [
+        "Rediff"
+      ],
+      "regions": [
+        "north"
+      ],
+      "title": "Two Arrested In Major Hydroponic Ganja Bust At Bengaluru Airport",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFE3VTNlR0NhZEc2cm5sQUQ3TFhuNVN1U0pNdEt5M1I2R3dhZ3U2MjBNWXRwTURtMkFnNWExMlVTVERVZjF3SjBmU3VGYjNtaUpJV3hQaXlORHozTHc2TVg1LXJYQ0tvQ19pSTJEeVZITTJKdkVSMEhIMTlXR1R4S3RlMmpvbXlXRUFJOXNWcGxqbFFXS3BaT0FCNllyU000c2Z3WGJuN0ktV2xCbDFn0gGyAUFVX3lxTE82SVl6cE5CVGxKeUhZTlFQUGltNGFXNGNQREZxMGpkSnVkY3IydEY0MWlpZ0JubjVMUmJvNW1jazNFZ3ZOeU85RmhWaUpnV1lrV2ItcXdQRVlQbzZNaTNlZDF3UW53RzZ6MmE4Q2hiWnU2T3VZOG50UnpWY1FENWlPc2dhYVZDZTZwdnJvajhUZmt5bE5LYWVwbG8zZk1wYlpCZDVzRldUZTdqR0QycEpsLXc?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T13:23:41+05:30",
+      "publishers": [
+        "https://safariindia.com/"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "The Festive Boom: Is It Still There? Let's Decode Gurgaon's Real Estate Market",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXBjTFBONzdjSXhUSERHQXZCNUQzWFhWUW5QOGxST24tR3lpWnhrY0RSMVJpTEt5UzlUbFNoaUx6SjFOVWtZblliVVRRQ21RTkZzUF9nLXU2UTJMdEVGYjNjRWowUjl6VmFHX1RXZUs5WEtpRUhoc0tMTXBfV2hRZGp4QzZsa2xWOFF1WDF5aS1xV1oxLTd2dks2clV5S3IxZXFjSDV0aGt1YlkxSmJINW9ObTBtU1E?oc=5"
+      "title": "Noida International Airport Begins Operations",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3VE1XLTFCZXUxVHd5UE9GX1lFenU5bC1SQ2FIN0xlSk9na0RVbW41Y2ZLR2lLZWxjQXhyc3NsVlNLalJRZDJpd1o1WkVURngxMjQ3SUktNnpsR0pURm83RHc5SmpIU1p1eTQxY2RCYXluLXV5eUZ6RGdR?oc=5"
     },
     {
-      "published_at": "2026-10-16T15:59:45+05:30",
+      "published_at": "2026-10-19T13:00:27+05:30",
+      "publishers": [
+        "Prop News Time"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Jharsuguda Airport expansion plan worth INR 2,100 crore includes longer runway and second terminal",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOT3ZjalpFUjVleUtpbUd6T196TmVoUjBlUE9yay1iQ0xIUkZKQWNOazRVT0hWWlVtSDUwakt5ZjlZUXFES3M2NUN4OWx3UE5nRDBSemNwM1JnY3ljZjFkSi1HamFMQzlWWVFlWDIwRDBpN0FyS2lXLXV3Qm5LOW1sTzM3LU5BS1VmUmVyb3NrS2IzT0lNNjk0NFlVR09hQWppYkxuNGx1MTc0NWlhQlZqaUk5bG9sdmozNmM0cXp1dVN1bEl0aW9MeFNncVQ4RzdVTXZmeGw5RFV5alk2MFJiNmQ2Vm8?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T10:36:38+05:30",
+      "publishers": [
+        "Free Press Journal"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Bengaluru Shocker: Advocate Shot Dead By 2 Tenants After Heated Row Over Unpaid Rent, Police Launch Manhunt",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeXlQYzN6SXhLSGpXSDA4dGdzSmV4ekduMmw3STJuSElaTHhoVkdScFE4X1NYbHY3QW9tQTJOLXJTdHVOR1lHbng4SXBsekg5U0lnT3loMkk2ZzZQOHhNdVZFTU10aml6STRUWEVFdkV6TEsxUmpDdWhKN3ppMWw2QjJJcWxEalRqMkpIU2FLemRYNEkxTkoxZkN2RVZqTkhiWHFDVXFvYTdPaWJXVkV6NnRJaTRUVXdPTGZjN3hoTXdsNnRhc2luOHAwbjZUMG5Ca09tZ2xOT1NuSEXSAeABQVVfeXFMT2ppVmt6OGZseVl5M0JDMl9hRmVac2JZY1RNV3d2b3NwZnc1NXNORlhRSzVGUXF1aV84SVd1OU1fVThteTJUTVBpR283Z3RsUFh6TlJqQVAwLV9yWm9idEtuZzRyY3Z4WEItYVUtSXJLOUV6bGgyZ0EyVG50R2ZNa1lNLUNtbmFBUXQ0VDRuS242X3V6T0l2VTVfYVYteUVDdUY3MTE5M1ZzSGxxVEN2WmMxXzZUa2dTeTR4YlNNcTVMYWl2RGxYVWZaQUV2VzVudnFsTGR4YXpYRmhWQ2sySG8?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T13:26:45+05:30",
+      "publishers": [
+        "Realty Plus Magazine"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "HoABL Launches Rs. 9.5 Crore Plus Luxury Villa Project in Mashobra",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY0lZRnJlVHVyVlRxbjFnT3BoSTVyZ2h0bVQzS0VFVko0NXZPOW91c2EzT252ZTZWWkNkc0swdnlSSzZIYVI3NlFPS1NQbks5ZlgyelZZQjBXR09OSnoyZ213cWtsQ3RKSXJmb1FhZlplbE5SZ3puWEdySERkMDNvamtJY1JWeU5KeVJMLW5KVm8xejlYSU03UDBYZHYzU3BTT2ZuRlllZkRzU0ZCRllNYUc1YzZYUTA?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T17:46:00+05:30",
+      "publishers": [
+        "The Times of India"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "title": "Man barges into homemaker’s house, threatens with machete over property dispute in Bengaluru",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNDRIREU4dkdLX1FMYWtUbHYxcVMwdXFmQmdIYzFuT1RCR1A0bTZhdk1WRTJJdlJ6Ml8yXzJrTFcxY3d5U1JKUUwtUUpXdW1xZWJMODk2UlEzMnBIdlJkejJxMzZ5WnJ5Z0NLVWlsemNzRlJsS2c1WDJJOVdFVkFudmRHWmdIeUJLcVBiRnR4ZnJPSV9VMVVINEZ5MTRzbVVyTVdQQ3ZHLUVQRmtZYVFybWw1cHdfcmZWV1lqZWM0dXQyLWZibHZIcGJHYndrMGE0V0lDcHZrTmFUMWVJTm04bVplaF8wY0dhU2lCTWRrdllxdUxPZnN5NUROY9IBgAJBVV95cUxNNk9vM1VWUUtDSUt6b3d6MU41NWZRbzNIc0ttRWY2cmtFVUFhMk5MRl9fTkJzWDZUbE0yM1BoQ2l3RlY1dVFDaC1GOHlCdVNCcDVGV2V1T1VmRVYtZmk3TDhuMENmbDgzbHRPMGVtdXd0MHR3ZkJ0SUFQQU45VDJleEJtQ19lTGhmbHg0aDN4NnJqTkYyNW5zZnY0TlUwQmJMUExjVXV6ZHMxZ3pyTTR3TmZQUlJlemh1UmFObVRFb1RuYTdZdk1OWkU5UHRTY0k3OUZ3cXpOWlU5WkZYZ1oyNzRSN2M1WXZxd1FkMHVxWkNvRC1ybkZIM2Iwb1ROLXFs?oc=5"
+    },
+    {
+      "published_at": "2026-10-19T15:50:49+05:30",
       "publishers": [
         "NDTV Profit"
       ],
@@ -312,64 +358,42 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpRDdicXVpMG1NSVpjTXN2bUl1aUxqdTNqdG1RR2FGQnJpVlp2QkYxTE9lcmlGNWpZWm1aZDJXOWZySFpLVXpOODkya25HLWtUNnZ4ckNEcDZ3cXlZUjNYaUhWS29wOXdVYnoxNXhxdFBZbGg4S2c?oc=5"
     },
     {
-      "published_at": "2026-10-16T10:06:20+05:30",
+      "published_at": "2026-10-19T17:15:37+05:30",
       "publishers": [
-        "Prop News Time"
+        "Trade Brains"
       ],
       "regions": [
-        "unmapped"
+        "south"
       ],
-      "title": "New Zealand home prices fall 1% in September as buyers delay property decisions",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUXJjemMwVXJ2RThTd1VIdUFIR1hobVJXNV9hU2dWc1J2YnJINGdvc0sxUDJqdkJkX3lqa3RUTGJwVEhFRy14MFV3eEpILTVsNVhiM0xHcW4tOHRsVGZCcC1FbFhFcklRbmxzd0Q0TEFrOEJDazBsVTRVT210ZlZuOWdzM2s5YTcwY2R0eVBxMDNXS2Z3dEtyUzJ0V0VYYzlUQWJJeWNiU3c4UUYtRXRPZzFtcFRzXzdLQmFTclo5UE5ER0xlMnlxOHZDOA?oc=5"
+      "title": "Hosur vs Attibele: Will the Proposed Metro Extension Boost Property Prices along the Karnataka–Tamil Nadu Border?",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWTJBNkhnUzFqVEhnaEwxQU5Qa1N2TmJLYkFzZDhFZjZQWU9zWXotQ2RUWlJXVXlvR0k4YkhXR3UtSTh4U2JPZHFnOWM3ZEZIay1fOUdnek5EN2RqdUZZQTBtS0dLVXR4bmZjVHhhaF81RlNyZVZqSUZ2aVkyYWowMjlYeTIyUDc3bEItRC1CSVhRUzkwaEt5aWNYaXNZcXJYOUI2dEpoUVRxeFF4S1c4a3VIeGJIS3VISVRmQUVlVWlTM0c1VDR1bzlIOTVJNUZLcHdZNWtZZS1JaFJOT0FLRy13?oc=5"
     },
     {
-      "published_at": "2026-10-16T09:38:25+05:30",
+      "published_at": "2026-10-19T12:55:30+05:30",
       "publishers": [
-        "The Economic Times"
+        "Daily Pioneer"
       ],
       "regions": [
         "unmapped"
       ],
-      "title": "From Data Centres to Bengaluru & Pune: 8 key trends behind $2.7 billion investment in Indian real estate in H1 FY27",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNZkNRLUFQM0l6Zk1EZm1VM1V1aExUVG1WSk9vZXplNEEtYVh5czljQ0lNanBhTjR5VUNwT2tmVGQ0MWFBX1JWQ05fUmZYTUw3ZU5TVWozdFdGOVc0QXlSTmRfTjg2VEVGRVRGbzQ3d3J1R25DbHdnVGZ5Q3NsTzlNNkROS2tXczBMbmk1SnFRYm5vVWFrMlJXVHJYQm0wTmQ5Mm9BRHhWVElQNFVkU0N0ejBidzV5ZnhCX0dwdVRrOURsMkRXVVJuVlVmUF9odjlYWWJkd3c3ZE95LXVRX1U0U21mM201d2ZGZHd4QnZfaXpSWXotZS10cVBKa1FOQnNZOHpRcXZWTUZYS0FHOU1iLWJaeVFJWXBOVHBlbHRpRDZGbWlFVGNoMkhQYksydEYxUkttS3BITFQxTUVUaVQ2SEVSWjhCYXNDYjRPeE9KYlU0NU96VndZ?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T17:15:44+05:30",
-      "publishers": [
-        "Free Press Journal"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Ranbir Kapoor Rents Out Luxury Pune Apartment For ₹4.63 Lakh Per Month, To Earn ₹1.75 Crore In 3 Years:",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSmxxekJVMjNQdVdLZGw4Z19jUGtUOWdYVHFyaE5wREU5LTFNM1h5cUQwcDNlMXdIb3JpdnI1QlFwTnduNGI4dnNiVjN3QzFmQnB6TDc0Qm1XTXYwUC0wMGFFSkg5TDB2MFEwTGZaNW0yN3d6S2NSdnRtVkVvTmRLM1ZkZzVmX2JjcThaSWRoeEVjYnFBeTVCTnFJT29GTHBTRTlrRDFQbEt0RVBlSHJnX2JFdU01VHpMaTFvdGQzQ2dvS3ZDMWRTaVJnSmVLYkZTRHAtbmd0dHNtbkNkZ0pRbWgzd0LSAeoBQVVfeXFMTVJRamx3dF94MTVoaGcxU0p5U0FzS3BxN2RVbTJBZjRvUTJGZS1yYTJISDlHWUszdUgzYkYwZmUzOENWMTUyRHYyYVJNMExob252ZmhhX3RKM3JDYXVMSHBQSkVhWWV4aHN5Y1dvT00xcHBTZnlfTHQwQUpEUjdLVDl4T1JST0xCNHJ4U1BkZlE0VEluSUZjR2JUTVI2MUZIQ3JnMTJHVUoyX0k1UDZINEpuTFpJdy1YaDJhQmlXeTVFbXdoSk1VZnNtTHJkcGxxSEZyMzZHcXlIbGtyRkp4S2lHa0xERnRkR1Rn?oc=5"
-    },
-    {
-      "published_at": "2026-10-16T12:58:07+05:30",
-      "publishers": [
-        "LiveChennai"
-      ],
-      "regions": [
-        "unmapped"
-      ],
-      "title": "Top 6 Real Estate Hotspots in Chennai: Best Areas to Buy Land for Future Growth",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxOWJsSWdibTlZdHRFbTMybDNTUVlNTWJqN0g4OHg3U0FFVWliYnFybFY4TzlZcXljZFloend6MktaaG5rM3FrY2k1WV9WZEk2U3paREM5Y0FkeUpfdGQxOXdLZHlodUZZMko1OWRrTQ?oc=5"
+      "title": "Chemical tanker overturns, catches fire on Bengaluru’s NICE Road, affects traffic for hours",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHBGVzZCRnV3OEFkV0g4dVhhYkJzUU84Q1ZzR0pvbGxFRkJXOWQ2MndCRElnNkI3VVByWnZ0QnltYjZyQU1MVEtnQkt3blJib3hkSEUwZlQ0T2dhcXd0SXJxRVJWQmdmZENIRzhWeEdQT2ZtQVI4VGxSMko4XzNwb2JHdDRnbHc5a3NLcGVfU3dDWFBLY1RtNFFCVjdaMTVlZXhBNXNzcTVwd2JsMXBXOXBOc0VrVS1rMkszTHd4Q0llYVIyMlVVaNIByAFBVV95cUxPZHBGVzZCRnV3OEFkV0g4dVhhYkJzUU84Q1ZzR0pvbGxFRkJXOWQ2MndCRElnNkI3VVByWnZ0QnltYjZyQU1MVEtnQkt3blJib3hkSEUwZlQ0T2dhcXd0SXJxRVJWQmdmZENIRzhWeEdQT2ZtQVI4VGxSMko4XzNwb2JHdDRnbHc5a3NLcGVfU3dDWFBLY1RtNFFCVjdaMTVlZXhBNXNzcTVwd2JsMXBXOXBOc0VrVS1rMkszTHd4Q0llYVIyMlVVaA?oc=5"
     }
   ],
   "tasks": {
     "government_watch": {
-      "cost_usd": 0.2820177,
-      "error": "success",
-      "ok": false
+      "cost_usd": 0.46993869999999993,
+      "error": null,
+      "ok": true
     },
     "metro_watch": {
-      "cost_usd": 0.28214870000000003,
-      "error": "success",
-      "ok": false
+      "cost_usd": 0.4057413999999999,
+      "error": null,
+      "ok": true
     }
   },
   "window": {
-    "end": "2026-10-16T18:05:58+05:30",
-    "start": "2026-10-16T06:05:58+05:30"
+    "end": "2026-10-19T18:03:58+05:30",
+    "start": "2026-10-19T06:03:58+05:30"
   }
 }
