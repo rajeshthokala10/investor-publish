@@ -1,28 +1,8 @@
 {
   "area_prices": [
     {
-      "area": "Sarjapur Road",
-      "basis": "apartment, ANAROCK Apr-Jun 2025",
-      "claim_id": "C-529e991d12",
-      "high": 10800,
-      "low": 10800,
-      "source": "Outlook Business",
-      "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-      "zone": "east"
-    },
-    {
-      "area": "Thanisandra Main Road",
-      "basis": "ANAROCK Q2 2025 average",
-      "claim_id": "C-d72298949f",
-      "high": 9700,
-      "low": 9700,
-      "source": "Outlook Business",
-      "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-      "zone": "north"
-    },
-    {
       "area": "Hebbal",
-      "basis": "apartment, media estimate (NewsFirst Prime)",
+      "basis": "apartments, average (NewsFirst Prime, Feb 2026)",
       "claim_id": "C-21a92903ab",
       "high": 12500,
       "low": 9500,
@@ -32,7 +12,7 @@
     },
     {
       "area": "Yelahanka",
-      "basis": "apartment, media estimate early 2026",
+      "basis": "apartments (NewsFirst Prime, early 2026)",
       "claim_id": "C-4021caff02",
       "high": 9500,
       "low": 7500,
@@ -41,8 +21,38 @@
       "zone": "north"
     },
     {
+      "area": "Thanisandra Main Road",
+      "basis": "apartments, average, Q2 2025 (ANAROCK)",
+      "claim_id": "C-d72298949f",
+      "high": 9700,
+      "low": 9700,
+      "source": "Outlook Business",
+      "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
+      "zone": "north"
+    },
+    {
+      "area": "Devanahalli",
+      "basis": "land (plots), 2026 media estimate",
+      "claim_id": "C-b0c76f18db",
+      "high": 10000,
+      "low": 6000,
+      "source": "NewsFirst Prime",
+      "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
+      "zone": "north"
+    },
+    {
+      "area": "Sarjapur Road",
+      "basis": "apartments, average, Apr-Jun 2025 (ANAROCK)",
+      "claim_id": "C-529e991d12",
+      "high": 10800,
+      "low": 10800,
+      "source": "Outlook Business",
+      "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
+      "zone": "east"
+    },
+    {
       "area": "Electronic City",
-      "basis": "apartment, JLL Oct 2025",
+      "basis": "apartments near station, Oct 2025 (JLL)",
       "claim_id": "C-922d70ee28",
       "high": 7500,
       "low": 7000,
@@ -52,7 +62,7 @@
     },
     {
       "area": "Bommasandra",
-      "basis": "apartment, JLL Oct 2025",
+      "basis": "apartments, Oct 2025 (JLL)",
       "claim_id": "C-c6396c19f1",
       "high": 6500,
       "low": 6000,
@@ -61,8 +71,18 @@
       "zone": "south"
     },
     {
+      "area": "Attibele",
+      "basis": "apartments, developer quote (Sobha)",
+      "claim_id": "C-0f3ab0438f",
+      "high": 12500,
+      "low": 10000,
+      "source": "Sobha Limited",
+      "url": "https://www.sobha.com/blog/attibele-bangalore-real-estate-overview/",
+      "zone": "south"
+    },
+    {
       "area": "Rajajinagar",
-      "basis": "apartment, developer quote (Brigade)",
+      "basis": "apartments, developer content (Brigade)",
       "claim_id": "C-ce765d2aac",
       "high": 14000,
       "low": 9000,
@@ -72,41 +92,33 @@
     },
     {
       "area": "Tumkur Road",
-      "basis": "apartment, developer quote (Brigade)",
+      "basis": "apartments, developer content (Brigade)",
       "claim_id": "C-5a78da1676",
       "high": 8500,
       "low": 5500,
       "source": "Brigade Group",
       "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
       "zone": "west"
-    },
-    {
-      "area": "Devanahalli",
-      "basis": "land (plots), media estimate",
-      "claim_id": "C-b0c76f18db",
-      "high": 10000,
-      "low": 6000,
-      "source": "NewsFirst Prime",
-      "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
-      "zone": "north"
     }
   ],
   "builders": [
     {
       "claim_ids": [
         "C-9fdf54956f",
-        "C-c99bc5e741",
-        "C-f5feeb5ed2"
+        "C-de51f7e4a4",
+        "C-d6a0265647",
+        "C-90e97c38de"
       ],
-      "headline": "Embassy Origins pre-sold over ₹1,800 crore in its first week.",
+      "headline": "Reported pre-sales of over ₹1,800 crore at Embassy Origins in the first week (company-reported).",
       "metric_display": "₹1,800 crore",
-      "metric_label": "Pre-sales, Embassy Origins (₹ crore)",
+      "metric_label": "Pre-sales (₹ crore)",
       "metric_value": 1800,
       "name": "Embassy Developments",
       "projects": [
         "Embassy Origins",
-        "Embassy Greenshore",
-        "Embassy Springs"
+        "Embassy Riverine",
+        "Embassy South Reserve",
+        "Embassy Greenshore"
       ],
       "sources": [
         "Embassy Group",
@@ -118,9 +130,9 @@
       "claim_ids": [
         "C-4febabc134"
       ],
-      "headline": "Six of eight FY27 business-development projects are in Bengaluru.",
+      "headline": "Eight FY27 projects with a potential GDV of ₹16,600 crore, six in Bengaluru (company statement).",
       "metric_display": "₹16,600 crore",
-      "metric_label": "Potential GDV (₹ crore, 8 projects)",
+      "metric_label": "Potential GDV (₹ crore)",
       "metric_value": 16600,
       "name": "Puravankara",
       "projects": [
@@ -140,11 +152,11 @@
         "C-34c74fe7c8",
         "C-48d51205e0"
       ],
-      "headline": "Launched Brigade Belvedere in East Bengaluru with 773 units in the initial phase.",
-      "metric_display": ">₹1,100 crore",
-      "metric_label": "Belvedere revenue potential (₹ crore)",
+      "headline": "Brigade Belvedere in East Bengaluru has revenue potential above ₹1,100 crore (company estimate).",
+      "metric_display": "₹1,100 crore",
+      "metric_label": "Revenue potential (₹ crore)",
       "metric_value": 1100,
-      "name": "Brigade",
+      "name": "Brigade Enterprises",
       "projects": [
         "Brigade Belvedere"
       ],
@@ -157,7 +169,7 @@
       "claim_ids": [
         "C-2ec318ce9f"
       ],
-      "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings (developer claim).",
+      "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings since pre-launch (developer claim).",
       "metric_display": ">₹550 crore",
       "metric_label": "Bookings (₹ crore)",
       "metric_value": 550,
@@ -174,9 +186,9 @@
       "claim_ids": [
         "C-5f7b18197c"
       ],
-      "headline": "Launched a 3 mn sq ft commercial project in Bengaluru in Q1 FY27.",
+      "headline": "Launched a 3 million sq ft commercial project in Bengaluru in Q1 FY27.",
       "metric_display": "3 mn sq ft",
-      "metric_label": "Bengaluru commercial launch (mn sq ft)",
+      "metric_label": "Developable area (mn sq ft)",
       "metric_value": 3,
       "name": "Prestige Estates",
       "projects": [],
@@ -184,53 +196,87 @@
         "Outlook Business"
       ],
       "url": "https://www.outlookbusiness.com/corporate/prestige-group-launches-3-housing-projects-in-q1-with-12000-cr-revenue-potential"
+    },
+    {
+      "claim_ids": [
+        "C-de7d9591fb"
+      ],
+      "headline": "25-acre pre-launch apartment project in Whitefield (marketing page; RERA awaited).",
+      "metric_display": "25 acres",
+      "metric_label": "Land (acres)",
+      "metric_value": 25,
+      "name": "Sattva Group",
+      "projects": [
+        "Sattva Whitefield"
+      ],
+      "sources": [
+        "sattva-whitefield.com (marketing page)"
+      ],
+      "url": "https://www.sattva-whitefield.com/"
+    },
+    {
+      "claim_ids": [
+        "C-addcb93af8"
+      ],
+      "headline": "45-acre Gunjur project received RERA approval.",
+      "metric_display": "45 acres",
+      "metric_label": "Land (acres)",
+      "metric_value": 45,
+      "name": "Abhee Ventures",
+      "projects": [
+        "Abhee City Urban Glenn"
+      ],
+      "sources": [
+        "UNI"
+      ],
+      "url": "https://www.uniindia.com/business-economy/abhee-ventures-bengaluru-project/175152"
     }
   ],
   "dropped": [],
-  "generated_at": "2026-10-20T10:03:59+05:30",
+  "generated_at": "2026-10-21T09:46:21+05:30",
   "kpis": [
     {
-      "change": "+12% YoY",
+      "change": "+12% YoY (ANAROCK)",
       "claim_id": "C-cffc61a291",
       "display": "16,670",
-      "label": "Housing sales (ANAROCK)",
+      "label": "Housing sales",
       "period": "Q3 2026",
       "source": "Construction World",
       "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-in-top-seven-cities-rise-3-to-100000-units/97936",
       "value": 16670
     },
     {
-      "change": "+17% YoY",
+      "change": "+17% YoY (ANAROCK)",
       "claim_id": "C-612829b5ec",
       "display": "17,720",
-      "label": "New launches (ANAROCK)",
+      "label": "New launches",
       "period": "Q3 2026",
       "source": "Outlook Money",
       "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
       "value": 17720
     },
     {
-      "change": "+90% since 2019 (₹4,975)",
+      "change": "+90% since 2019 (from ₹4,975)",
       "claim_id": "C-ff7db99f53",
       "display": "₹9,450",
-      "label": "Average price (ANAROCK)",
+      "label": "Average price (₹/sq ft)",
       "period": "Q2 2026",
       "source": "Business Today",
       "url": "https://www.businesstoday.in/personal-finance/real-estate/story/top-housing-markets-deliver-up-to-125-price-appreciation-rental-yields-rise-by-100-bps-anarock-547053-2026-08-04",
       "value": 9450
     },
     {
-      "change": "+8% YoY",
+      "change": "+8% YoY (ANAROCK)",
       "claim_id": "C-c51ea6c89d",
       "display": "+8%",
-      "label": "Price growth (ANAROCK)",
+      "label": "Price growth",
       "period": "Q3 2026",
       "source": "Outlook Money",
       "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
       "value": 8
     },
     {
-      "change": "from 3.6% in 2019",
+      "change": "up from 3.6% in 2019 (+100 bps)",
       "claim_id": "C-2a16434c7a",
       "display": "4.6%",
       "label": "Gross rental yield",
@@ -240,21 +286,21 @@
       "value": 4.6
     },
     {
-      "change": "+34% YoY",
+      "change": "+34% YoY (ANAROCK)",
       "claim_id": "C-e61fe94622",
       "display": "79,180",
-      "label": "Unsold stock (ANAROCK)",
+      "label": "Unsold stock",
       "period": "Q2 2026",
       "source": "Business Today",
       "url": "https://www.businesstoday.in/amp/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03",
       "value": 79180
     },
     {
-      "change": "~29% share of top seven",
+      "change": "~29% share of top seven (Colliers)",
       "claim_id": "C-8a753aec15",
       "display": "15.7 mn sq ft",
-      "label": "Office leasing (Colliers)",
-      "period": "Jan-Sep 2026",
+      "label": "Office leasing (mn sq ft)",
+      "period": "Jan–Sep 2026",
       "source": "Asianet Newsable",
       "url": "https://newsable.asianetnews.com/business/india-office-leasing-rises-7-yoy-in-jan-sep-2026-bengaluru-leads-articleshow-cpfha99",
       "value": 15.7
@@ -263,7 +309,7 @@
   "series": [
     {
       "chart": "line",
-      "id": "anarock-price",
+      "id": "anarock_price",
       "note": "ANAROCK only.",
       "points": [
         {
@@ -286,12 +332,12 @@
       "sources": [
         "Business Today"
       ],
-      "title": "Average residential price, Bengaluru (ANAROCK)",
+      "title": "Average residential price (ANAROCK)",
       "unit": "₹/sq ft"
     },
     {
       "chart": "line",
-      "id": "anarock-yield",
+      "id": "anarock_yield",
       "note": "ANAROCK only.",
       "points": [
         {
@@ -314,13 +360,13 @@
       "sources": [
         "Business Today"
       ],
-      "title": "Gross rental yield, Bengaluru (ANAROCK)",
+      "title": "Gross rental yield (ANAROCK)",
       "unit": "%"
     },
     {
       "chart": "bar",
-      "id": "anarock-sales",
-      "note": "ANAROCK only; Q3 2025 is the prior-year figure.",
+      "id": "anarock_sales",
+      "note": "ANAROCK only.",
       "points": [
         {
           "claim_id": "C-cffc61a291",
@@ -351,18 +397,18 @@
         "Business Today",
         "Construction World"
       ],
-      "title": "Quarterly housing sales, Bengaluru (ANAROCK)",
+      "title": "Housing sales (ANAROCK)",
       "unit": "units"
     },
     {
-      "chart": "bar",
-      "id": "anarock-unsold",
-      "note": "ANAROCK only.",
+      "chart": "line",
+      "id": "anarock_unsold",
+      "note": "ANAROCK only; end-2024 and end-2025 are year-end figures.",
       "points": [
         {
           "claim_id": "C-5a91e10668",
           "label": "End-2024",
-          "sort": 2024.99,
+          "sort": 2024.9,
           "source": "Outlook Money (PTI)",
           "url": "https://www.outlookmoney.com/news/unsold-homes-up-4-per-cent-in-2025-across-top-7-cities-as-new-supply-outstrips-demand-anarock",
           "value": 52807
@@ -370,7 +416,7 @@
         {
           "claim_id": "C-5a91e10668",
           "label": "End-2025",
-          "sort": 2025.99,
+          "sort": 2025.9,
           "source": "Outlook Money (PTI)",
           "url": "https://www.outlookmoney.com/news/unsold-homes-up-4-per-cent-in-2025-across-top-7-cities-as-new-supply-outstrips-demand-anarock",
           "value": 64863
@@ -388,18 +434,47 @@
         "Business Today",
         "Outlook Money (PTI)"
       ],
-      "title": "Unsold housing stock, Bengaluru (ANAROCK)",
+      "title": "Unsold housing stock (ANAROCK)",
+      "unit": "units"
+    },
+    {
+      "chart": "bar",
+      "id": "anarock_launches",
+      "note": "ANAROCK only.",
+      "points": [
+        {
+          "claim_id": "C-bec237e728",
+          "label": "Q2 2026",
+          "sort": 2026.5,
+          "source": "Business Today",
+          "url": "https://www.businesstoday.in/personal-finance/real-estate/story/bengaluru-emerges-as-indias-strongest-housing-market-in-q2-mumbai-dominates-sales-ncr-leads-price-growth-540257-2026-07-01",
+          "value": 21670
+        },
+        {
+          "claim_id": "C-612829b5ec",
+          "label": "Q3 2026",
+          "sort": 2026.75,
+          "source": "Outlook Money",
+          "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
+          "value": 17720
+        }
+      ],
+      "sources": [
+        "Business Today",
+        "Outlook Money"
+      ],
+      "title": "New launches (ANAROCK)",
       "unit": "units"
     },
     {
       "chart": "line",
-      "id": "anarock-sarjapur",
+      "id": "anarock_sarjapur",
       "note": "ANAROCK only.",
       "points": [
         {
           "claim_id": "C-b98c18d7ae",
           "label": "End-2021",
-          "sort": 2021.99,
+          "sort": 2021.9,
           "source": "Outlook Business",
           "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
           "value": 6050
@@ -508,6 +583,18 @@
       ]
     },
     {
+      "developer": "Abhee Ventures",
+      "projects": [
+        "Abhee City Urban Glenn (Codename New Dimension)",
+        "Abhee Hoskote"
+      ],
+      "tracked_projects": 2,
+      "types": [
+        "mixed",
+        "plot"
+      ]
+    },
+    {
       "developer": "Godrej Properties",
       "projects": [
         "Godrej Vanantara",
@@ -516,16 +603,6 @@
       "tracked_projects": 2,
       "types": [
         "apartment"
-      ]
-    },
-    {
-      "developer": "Abhee Ventures",
-      "projects": [
-        "Abhee City Urban Glenn (Codename New Dimension)"
-      ],
-      "tracked_projects": 1,
-      "types": [
-        "mixed"
       ]
     },
     {
