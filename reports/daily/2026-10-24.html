@@ -1,0 +1,1374 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Bengaluru REI 2026-10-24</title><style>/* Bengaluru REI report + infographic. The infographic is a fixed light "print" page
+   (like a newspaper graphic); the report body follows the viewer's theme on screen. */
+:root {
+  --navy: #0d366b; --ink: #0b0b0b; --ink-2: #52514e; --muted: #8a8984; --rule: #d9d8d2;
+  --blue-50: #eef5fe; --blue: #2a78d6; --sand: #fdf6e3; --red: #e34948; --green: #008300;
+  --bg: #ffffff; --surface: #fcfcfb; --link: #1c5cab; --code: #f0efec;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --ink: #f4f4f2; --ink-2: #c3c2b7; --muted: #9a9990; --rule: #3a3a37;
+    --bg: #161615; --surface: #1d1d1c; --link: #86b6ef; --code: #2a2a28; }
+}
+:root[data-theme="dark"] { --ink: #f4f4f2; --ink-2: #c3c2b7; --muted: #9a9990; --rule: #3a3a37;
+  --bg: #161615; --surface: #1d1d1c; --link: #86b6ef; --code: #2a2a28; }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.55 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+a { color: var(--link); }
+.blocked { background: #e34948; color: #fff; padding: 12px 16px; font-weight: 700; }
+
+/* ---------------- infographic (always light) ---------------- */
+.info { color-scheme: light; background: #fff; color: #0b0b0b; max-width: 1180px; margin: 0 auto;
+  padding: 22px 22px 14px; font-family: "Helvetica Neue", Arial, sans-serif; }
+.ihead h1 { font: 900 44px/1.02 "Georgia", "Times New Roman", serif; letter-spacing: -1px; color: #0d366b; margin: 0 0 8px; }
+.ihead h1 em { font-style: normal; color: #e34948; }
+.ihead .sub { font-size: 16px; margin: 0 0 4px; color: #0b0b0b; }
+.ihead .edition { font-size: 12px; color: #52514e; margin: 0 0 14px; }
+.row { display: grid; gap: 12px; margin-bottom: 12px; }
+.r1 { grid-template-columns: 2fr 1fr 1fr; }
+.r2, .r3 { grid-template-columns: 1.3fr 1fr 1fr; }
+.hero { border-radius: 6px; overflow: hidden; border: 1px solid #d9d8d2; }
+.sky { display: block; width: 100%; height: auto; }
+.tile { border-radius: 6px; padding: 0 0 12px; border: 1px solid #d9d8d2; overflow: hidden; }
+.tile.blue { background: #eef5fe; } .tile.sand { background: #fdf6e3; }
+.tile h4 { margin: 0 0 8px; padding: 8px 12px; background: #0d366b; color: #fff; font-size: 13px;
+  text-transform: uppercase; letter-spacing: .4px; line-height: 1.25; }
+.tile.sand h4 { background: #fdf0c8; color: #0d366b; }
+.tile-body { display: flex; gap: 10px; align-items: center; padding: 0 12px; }
+.big-ico { width: 64px; height: 64px; color: #0d366b; flex: none; }
+.num { font: 800 40px/1 "Helvetica Neue", Arial, sans-serif; color: #0d366b; }
+.tile.sand .num { color: #e34948; }
+.cap { font-size: 13px; color: #52514e; margin: 4px 0 6px; }
+.src { font-size: 11px; color: #52514e; }
+.panel { border: 1px solid #d9d8d2; border-radius: 6px; padding: 0 12px 10px; background: #fcfcfb; min-width: 0; }
+.panel h3, .strip-title { margin: 0 -12px 8px; padding: 7px 12px; background: #0d366b; color: #fff;
+  font-size: 14px; text-transform: uppercase; letter-spacing: .5px; }
+.panel.red h3 { background: #e34948; }
+.strip-title { margin: 4px 0 8px; border-radius: 4px; }
+.note { font-size: 11.5px; color: #52514e; margin: 0 0 6px; }
+.chart { width: 100%; height: auto; display: block; }
+.chart .val { font-size: 12px; font-weight: 700; fill: #0b0b0b; }
+.chart .lbl { font-size: 10.5px; fill: #52514e; }
+.chart .bar:hover path { opacity: .85; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 11px; color: #52514e; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; gap: 10px; padding: 7px 0; border-bottom: 1px dashed #d9d8d2; font-size: 13px; line-height: 1.35; }
+.list li:last-child { border-bottom: 0; }
+.list small { display: block; color: #52514e; font-size: 11px; margin-top: 2px; }
+.li-ico { width: 30px; height: 30px; flex: none; color: #e34948; }
+.li-ico.ring { color: #fff; background: #0d366b; border-radius: 50%; padding: 5px; }
+.li-ico.ok { color: #008300; } .li-ico.warn { color: #e34948; }
+.empty { color: #8a8984; font-style: italic; }
+.badge { display: inline-block; font-size: 10.5px; font-weight: 700; padding: 0 6px; border-radius: 9px; border: 1px solid; white-space: nowrap; }
+.badge.good { color: #006b00; border-color: #8cc98c; background: #eef8ee; }
+.badge.warn { color: #8a5a00; border-color: #e8c06a; background: #fff8e6; }
+.badge.serious { color: #a3440f; border-color: #eba27f; background: #fff1ea; }
+.badge.critical { color: #b42324; border-color: #ee9a99; background: #fdeeee; }
+.matrix { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.matrix th, .matrix td { padding: 4px 6px; border-bottom: 1px solid #e7e6e1; text-align: center; }
+.matrix th:first-child { text-align: left; font-weight: 600; }
+.matrix td.sc { font-weight: 800; color: #0d366b; }
+.matrix td.un { color: #8a8984; }
+.strip { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+.card { border: 1px solid #d9d8d2; border-radius: 6px; overflow: hidden; background: #fff; text-align: center; padding-bottom: 6px; }
+.card b { display: block; font-size: 12.5px; margin: 5px 4px 2px; color: #0b0b0b; }
+.card span { display: block; font-size: 10.5px; color: #52514e; padding: 0 5px; line-height: 1.3; }
+.ifoot { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; color: #52514e; margin-top: 10px;
+  border-top: 1px solid #d9d8d2; padding-top: 6px; }
+.ifoot .tag { background: #0d366b; color: #fff; padding: 2px 8px; border-radius: 3px; white-space: nowrap; }
+
+/* ---------------- report body ---------------- */
+.report { max-width: 1180px; margin: 0 auto; padding: 8px 22px 48px; }
+.report h1 { font: 800 28px/1.2 Georgia, serif; color: var(--ink); border-top: 4px solid #0d366b; padding-top: 14px; }
+.report h2 { font-size: 20px; margin-top: 34px; padding-bottom: 4px; border-bottom: 2px solid var(--rule); }
+.report h3 { font-size: 16px; margin-top: 22px; }
+.report table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 8px 0 16px; display: block; overflow-x: auto; }
+.report th, .report td { border: 1px solid var(--rule); padding: 6px 8px; vertical-align: top; text-align: left; }
+.report th { background: var(--surface); }
+.report code { background: var(--code); padding: 0 4px; border-radius: 3px; font-size: 12px; }
+.report blockquote { margin: 0; padding: 8px 14px; border-left: 4px solid #eda100; background: var(--surface); color: var(--ink-2); }
+
+@media screen and (max-width: 820px) {
+  .info, .report { padding-left: 16px; padding-right: 16px; }
+  .r1, .r2, .r3 { grid-template-columns: 1fr; }
+  .strip { grid-template-columns: repeat(2, 1fr); }
+  .ihead h1 { font-size: 30px; }
+  .ifoot { flex-direction: column; }
+}
+@page { size: A4; margin: 10mm; }
+@page cover { size: 1240px 1320px; margin: 0; }
+@media print {
+  body { background: #fff; color: #0b0b0b; font-size: 11px; }
+  .info { page: cover; width: 1240px; max-width: none; padding: 22px 30px; break-after: page; }
+  .report { max-width: none; padding: 0; }
+  .report h2 { page-break-after: avoid; }
+  .report tr { page-break-inside: avoid; }
+  .report a { color: #1c5cab; }
+}
+</style></head><body>
+<section class="info" aria-label="Edition infographic">
+  <header class="ihead">
+    <h1>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the STRR in phases by December…</h1>
+    <p class="sub">18 usable (verified, corroborated or single-source) updates in the 72 hours to 2026-10-24 06:00 IST · <span class="badge good">✓ Corroborated</span> lead item from Oneindia News</p>
+    <p class="edition">Bengaluru Real Estate Intelligence · Edition 2026-10-24 · Window 2026-10-21 06:00 → 2026-10-24 06:00 IST · Status: ok</p>
+  </header>
+  <div class="row r1">
+    <div class="hero"><svg viewBox="0 0 760 230" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="ghero20261024" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="760" height="230" fill="url(#ghero20261024)"/><path d="M0 142.6 Q228.0 119.60000000000001 456.0 138.0 T760 128.8 V230 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="59" width="25" height="125" fill="#184f95" rx="1.5"/><rect x="3" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="74" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="74" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="74" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="83" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="15" y="83" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="83" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="92" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="92" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="101" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="101" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="101" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="110" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="110" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="119" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="15" y="119" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="119" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="128" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="128" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="128" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="137" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="137" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="15" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="15" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="21" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="9" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="15" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="33" y="84" width="42" height="100" fill="#86b6ef" rx="1.5"/><rect x="36" y="90" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="90" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="90" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="90" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="99" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="60" y="99" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="108" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="48" y="108" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="108" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="60" y="108" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="108" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="60" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="48" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="60" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="135" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="144" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="144" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="144" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="48" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="162" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="48" y="162" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="162" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="36" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="48" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="81" y="98" width="45" height="86" fill="#86b6ef" rx="1.5"/><rect x="84" y="104" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="104" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="114" y="104" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="84" y="113" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="96" y="113" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="120" y="113" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="122" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="96" y="122" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="102" y="122" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="122" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="131" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="114" y="131" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="84" y="140" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="140" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="96" y="140" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="140" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="114" y="140" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="84" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="102" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="114" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="120" y="149" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="158" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="158" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="114" y="158" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="120" y="158" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="167" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="167" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="120" y="167" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="84" y="176" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="102" y="176" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="108" y="176" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="131" y="140" width="34" height="44" fill="#104281" rx="1.5"/><rect x="134" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="140" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="146" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="134" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="146" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="152" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="158" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="134" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="152" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="171" y="55" width="42" height="129" fill="#104281" rx="1.5"/><rect x="174" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="70" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="70" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="70" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="70" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="79" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="79" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="79" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="79" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="88" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="88" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="88" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="97" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="97" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="97" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="192" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="115" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="124" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="192" y="133" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="142" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="142" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="151" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="151" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="160" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="160" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="169" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="169" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="169" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="169" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="186" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="192" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="204" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="219" y="135" width="43" height="49" fill="#2a78d6" rx="1.5"/><rect x="228" y="141" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="234" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="246" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="252" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="258" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="222" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="240" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="258" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="228" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="240" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="246" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="252" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="258" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="222" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="246" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="252" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="258" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="268" y="94" width="38" height="90" fill="#256abf" rx="1.5"/><rect x="289" y="100" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="295" y="100" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="289" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="301" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="271" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="277" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="289" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="301" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="271" y="136" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="136" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="289" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="295" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="277" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="295" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="301" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="271" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="289" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="295" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="271" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="277" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="283" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="310" y="106" width="24" height="78" fill="#184f95" rx="1.5"/><rect x="313" y="112" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="112" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="112" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="313" y="121" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="121" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="121" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="130" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="139" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="139" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="313" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="157" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="166" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="325" y="166" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="319" y="175" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="338" y="131" width="38" height="53" fill="#5598e7" rx="1.5"/><rect x="341" y="137" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="347" y="137" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="371" y="137" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="359" y="146" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="341" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="359" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="365" y="155" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="359" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="365" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="371" y="164" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="341" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="347" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="353" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="365" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="371" y="173" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="382" y="90" width="38" height="94" fill="#184f95" rx="1.5"/><rect x="397" y="96" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="403" y="96" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="409" y="96" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="391" y="105" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="105" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="391" y="114" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="114" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="415" y="114" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="385" y="123" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="415" y="123" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="391" y="132" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="132" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="403" y="132" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="385" y="141" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="141" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="403" y="141" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="409" y="141" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="409" y="150" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="403" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="409" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="415" y="159" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="391" y="168" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="385" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="397" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="403" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="409" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="415" y="177" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="427" y="67" width="45" height="117" fill="#2a78d6" rx="1.5"/><rect x="436" y="73" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="73" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="73" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="73" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="73" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="82" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="82" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="82" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="91" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="91" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="100" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="100" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="430" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="109" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="430" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="118" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="430" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="127" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="136" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="136" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="136" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="454" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="145" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="430" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="154" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="430" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="436" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="466" y="163" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="442" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="448" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="460" y="172" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="478" y="91" width="34" height="93" fill="#5598e7" rx="1.5"/><rect x="487" y="97" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="97" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="487" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="106" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="505" y="115" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="481" y="124" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="124" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="505" y="124" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="481" y="133" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="493" y="142" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="493" y="151" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="151" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="505" y="151" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="487" y="160" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="493" y="160" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="505" y="160" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="169" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="487" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="499" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="505" y="178" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="519" y="96" width="34" height="88" fill="#2a78d6" rx="1.5"/><rect x="522" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="528" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="528" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="129" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="546" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="528" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="546" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="546" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="522" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="546" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="528" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="534" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="540" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="560" y="105" width="21" height="79" fill="#5598e7" rx="1.5"/><rect x="569" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="563" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="569" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="563" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="569" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="563" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="569" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="563" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="569" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="563" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="575" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="587" y="111" width="36" height="73" fill="#104281" rx="1.5"/><rect x="590" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="596" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="614" y="117" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="590" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="596" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="602" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="614" y="126" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="602" y="144" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="608" y="144" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="590" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="596" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="602" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="608" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="614" y="153" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="608" y="162" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="590" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="596" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="602" y="171" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="626" y="115" width="35" height="69" fill="#86b6ef" rx="1.5"/><rect x="635" y="121" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="121" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="635" y="130" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="647" y="130" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="130" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="629" y="139" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="635" y="139" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="139" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="635" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="641" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="647" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="148" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="635" y="157" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="157" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="647" y="166" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="166" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="635" y="175" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="647" y="175" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="653" y="175" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="668" y="119" width="33" height="65" fill="#256abf" rx="1.5"/><rect x="671" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="689" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="695" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="671" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="689" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="671" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="671" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="689" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="695" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="671" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="677" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="689" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="683" y="179" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="709" y="110" width="42" height="74" fill="#104281" rx="1.5"/><rect x="712" y="116" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="116" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="712" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="718" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="736" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="742" y="125" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="736" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="742" y="134" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="718" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="724" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="742" y="143" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="718" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="736" y="152" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="712" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="718" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="724" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="736" y="161" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="712" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="718" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="730" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="736" y="170" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="724" y="179" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="753" y="42" width="37" height="142" fill="#5598e7" rx="1.5"/><rect x="768" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="756" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="756" y="75" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="75" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="75" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="75" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="84" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="84" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="84" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="84" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="84" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="93" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="93" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="93" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="93" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="756" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="102" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="111" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="756" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="120" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="129" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="129" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="129" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="138" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="768" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="147" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="756" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="780" y="156" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="762" y="165" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="774" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="786" y="174" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="186.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="186.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="186.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="186.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="259" cy="186.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="282" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="305" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="328" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="351" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="374" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="397" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="420" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="443" cy="186.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="466" cy="186.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="489" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="512" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="535" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="558" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="581" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="604" cy="186.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="627" cy="186.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="650" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="673" cy="186.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="696" cy="186.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="719" cy="186.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="742" cy="186.0" r="7" fill="#1baf7a" opacity=".85"/><rect y="190.0" width="760" height="46.0" fill="#e7ecef"/><path d="M0 204.0 C228.0 180.0, 456.0 170.0, 760 158.0" stroke="#9aa3ab" stroke-width="9" fill="none"/><rect x="27" y="205" width="6" height="-15" fill="#b9c0c6"/><rect x="97" y="199" width="6" height="-9" fill="#b9c0c6"/><rect x="167" y="194" width="6" height="-4" fill="#b9c0c6"/><rect x="237" y="189" width="6" height="1" fill="#b9c0c6"/><rect x="307" y="185" width="6" height="5" fill="#b9c0c6"/><rect x="377" y="180" width="6" height="10" fill="#b9c0c6"/><rect x="447" y="177" width="6" height="13" fill="#b9c0c6"/><rect x="517" y="173" width="6" height="17" fill="#b9c0c6"/><rect x="587" y="170" width="6" height="20" fill="#b9c0c6"/><rect x="657" y="167" width="6" height="23" fill="#b9c0c6"/><rect x="727" y="163" width="6" height="27" fill="#b9c0c6"/><rect x="137" y="182" width="122" height="9" rx="4" fill="#4a3aa7" transform="rotate(-3 198 186)"/><g><path d="M88 56 l-7 -12 a8 8 0 1 1 14 0z" fill="#0d366b"/><circle cx="88" cy="41" r="3" fill="#fff"/><rect x="97" y="31" width="74" height="17" rx="3" fill="#fff" opacity=".92"/><text x="102" y="43" font-size="11" font-weight="600" fill="#0b0b0b">Whitefield</text></g><g><path d="M234 90 l-7 -12 a8 8 0 1 1 14 0z" fill="#0d366b"/><circle cx="234" cy="75" r="3" fill="#fff"/><rect x="243" y="65" width="61" height="17" rx="3" fill="#fff" opacity=".92"/><text x="248" y="77" font-size="11" font-weight="600" fill="#0b0b0b">KR Puram</text></g><g><path d="M380 56 l-7 -12 a8 8 0 1 1 14 0z" fill="#0d366b"/><circle cx="380" cy="41" r="3" fill="#fff"/><rect x="389" y="31" width="100" height="17" rx="3" fill="#fff" opacity=".92"/><text x="394" y="43" font-size="11" font-weight="600" fill="#0b0b0b">Budigere Cross</text></g><g><path d="M526 90 l-7 -12 a8 8 0 1 1 14 0z" fill="#0d366b"/><circle cx="526" cy="75" r="3" fill="#fff"/><rect x="535" y="65" width="55" height="17" rx="3" fill="#fff" opacity=".92"/><text x="540" y="77" font-size="11" font-weight="600" fill="#0b0b0b">Varthur</text></g><g><path d="M672 56 l-7 -12 a8 8 0 1 1 14 0z" fill="#0d366b"/><circle cx="672" cy="41" r="3" fill="#fff"/><rect x="681" y="31" width="93" height="17" rx="3" fill="#fff" opacity=".92"/><text x="686" y="43" font-size="11" font-weight="600" fill="#0b0b0b">Sarjapur Road</text></g></svg></div>
+    <div class="tile blue"><h4>Bengaluru Suburban Rail (K-RIDE)</h4><div class="tile-body"><svg class="big-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 40V10h16v30M24 40V18h12v22M4 40h36M12 15h3M17 15h3M12 21h3M17 21h3M12 27h3M17 27h3M28 23h4M28 29h4"/></svg><div><div class="num">₹23000 cr</div><div class="cap">investment</div><div class="src"><span class="badge warn">◑ Single source</span> The Bengaluru Live</div></div></div></div><div class="tile sand"><h4>Projects tracked today</h4><div class="tile-body"><svg class="big-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 40V6M10 6h26M10 12l8-6M30 6v10M27 16h6v6h-6zM4 40h16M18 40V26h14v14"/></svg><div><div class="num">7</div><div class="cap">launches, phases & updates</div><div class="src">Edition count (system data)</div></div></div></div>
+  </div>
+  <div class="row r2">
+    <div class="panel"><h3>Where the news was</h3><p class="note">Usable (sourced) updates by corridor, this edition</p><svg viewBox="0 0 520 250" class="chart" role="img" aria-label="Bar chart"><line x1="0" x2="520" y1="192" y2="192" stroke="#c3c2b7" stroke-width="1"/><g class="bar"><title>KR Puram–Hoskote (Old Madras Road / NH-75): 4 claim(s)</title><path d="M35.4 192 V30.0 q0 -4 4 -4 h38.0 q4 0 4 4 V192z" fill="#2a78d6"/><rect x="34.4" y="6" width="48.0" height="224" fill="transparent"/><text x="58.4" y="20.0" text-anchor="middle" class="val">4</text><text x="58.4" y="207" text-anchor="middle" class="lbl">KR Puram</text></g><g class="bar"><title>Bannerghatta Road: 4 claim(s)</title><path d="M136.2 192 V30.0 q0 -4 4 -4 h38.0 q4 0 4 4 V192z" fill="#1baf7a"/><rect x="135.2" y="6" width="48.0" height="224" fill="transparent"/><text x="159.2" y="20.0" text-anchor="middle" class="val">4</text><text x="159.2" y="207" text-anchor="middle" class="lbl">Bannerghatta</text><text x="159.2" y="219" text-anchor="middle" class="lbl">Road</text></g><g class="bar"><title>Hebbal–Yelahanka: 4 claim(s)</title><path d="M237.0 192 V30.0 q0 -4 4 -4 h38.0 q4 0 4 4 V192z" fill="#eb6834"/><rect x="236.0" y="6" width="48.0" height="224" fill="transparent"/><text x="260.0" y="20.0" text-anchor="middle" class="val">4</text><text x="260.0" y="207" text-anchor="middle" class="lbl">Hebbal</text></g><g class="bar"><title>ORR East (Marathahalli–Bellandur): 1 claim(s)</title><path d="M337.8 192 V154.5 q0 -4 4 -4 h38.0 q4 0 4 4 V192z" fill="#2a78d6"/><rect x="336.8" y="6" width="48.0" height="224" fill="transparent"/><text x="360.8" y="144.5" text-anchor="middle" class="val">1</text><text x="360.8" y="207" text-anchor="middle" class="lbl">ORR East</text></g><g class="bar"><title>South core (Koramangala–HSR–JP Nagar): 1 claim(s)</title><path d="M438.6 192 V154.5 q0 -4 4 -4 h38.0 q4 0 4 4 V192z" fill="#1baf7a"/><rect x="437.6" y="6" width="48.0" height="224" fill="transparent"/><text x="461.6" y="144.5" text-anchor="middle" class="val">1</text><text x="461.6" y="207" text-anchor="middle" class="lbl">South core</text></g></svg><div class="legend"><span><i style="background:#2a78d6"></i>East</span><span><i style="background:#eb6834"></i>North</span><span><i style="background:#1baf7a"></i>South</span></div></div>
+    <div class="panel"><h3>Market highlights</h3><ul class="list"><li><svg class="li-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="26" height="26" rx="5"/><path d="M9 20h26M15 27h.01M29 27h.01M14 32l-4 7M30 32l4 7"/></svg><div>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the STRR in phases by December with diversions around…<small>KR Puram–Hoskote (Old Madras Road / NH-75) · <span class="badge good">✓ Corroborated</span></small></div></li><li><svg class="li-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="26" height="26" rx="5"/><path d="M9 20h26M15 27h.01M29 27h.01M14 32l-4 7M30 32l4 7"/></svg><div>Deccan Herald on 22 October reported Minister Krishna Byre Gowda saying a Blue Line trial run between KR Puram and…<small>ORR East (Marathahalli–Bellandur) · <span class="badge warn">◑ Single source</span></small></div></li><li><svg class="li-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6c7 10 11 16 11 21a11 11 0 0 1-22 0c0-5 4-11 11-21z"/></svg><div>Minister Krishna Byre Gowda attributed Blue Line delays to a roughly year-long court stay on tree felling near KR…<small>KR Puram–Hoskote (Old Madras Road / NH-75) · <span class="badge warn">◑ Single source</span></small></div></li><li><svg class="li-ico" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 12l12 12M20 6l12 12M10 16l12-12M8 38h20M24 22 38 36"/></svg><div>The National Green Tribunal has restrained the Bangalore Development Authority from felling any trees for the Hebbal…<small>Hebbal–Yelahanka · <span class="badge warn">◑ Single source</span></small></div></li></ul></div>
+    <div class="panel"><h3>Key growth drivers</h3><ul class="list"><li><svg class="li-ico ring" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 40 20 6M28 6l4 34M24 10v4M24 20v4M24 30v4"/></svg><div>Satellite Town Ring Road<small>Stage: <b>operational</b> · Bannerghatta Road, Devanahalli–Airport region, Electronic City–Hosur Road–Chandapura</small></div></li><li><svg class="li-ico ring" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="26" height="26" rx="5"/><path d="M9 20h26M15 27h.01M29 27h.01M14 32l-4 7M30 32l4 7"/></svg><div>Namma Metro Blue Line (ORR / Airport)<small>Stage: <b>under construction</b> · Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur</small></div></li><li><svg class="li-ico ring" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="26" height="26" rx="5"/><path d="M9 20h26M15 27h.01M29 27h.01M14 32l-4 7M30 32l4 7"/></svg><div>Bengaluru Suburban Rail (K-RIDE)<small>Stage: <b>awarded</b> · Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur</small></div></li><li><svg class="li-ico ring" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="6" width="26" height="26" rx="5"/><path d="M9 20h26M15 27h.01M29 27h.01M14 32l-4 7M30 32l4 7"/></svg><div>Sarjapur–Hebbal metro (Phase 3A)<small>Stage: <b>tendered</b> · Hebbal–Yelahanka, ORR East, Sarjapur Road</small></div></li><li><svg class="li-ico ring" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 12l12 12M20 6l12 12M10 16l12-12M8 38h20M24 22 38 36"/></svg><div>Ramanagara renamed Bengaluru South<small>Stage: <b>approved</b> · </small></div></li></ul></div>
+  </div>
+  <div class="row r3">
+    <div class="panel"><h3>How much of today’s news checks out</h3><p class="note">Claims by verification status (blue = usable evidence, grey = not established).</p><svg viewBox="0 0 430 220" class="chart" role="img" aria-label="Bar chart"><line x1="0" x2="430" y1="162" y2="162" stroke="#c3c2b7" stroke-width="1"/><g class="bar"><title>Corroborated: 2</title><path d="M36.8 162 V149.0 q0 -4 4 -4 h38.0 q4 0 4 4 V162z" fill="#2a78d6"/><rect x="35.8" y="6" width="48.0" height="194" fill="transparent"/><text x="59.8" y="139.0" text-anchor="middle" class="val">2</text><text x="59.8" y="177" text-anchor="middle" class="lbl">Corroborated</text></g><g class="bar"><title>Single source: 16</title><path d="M140.2 162 V30.0 q0 -4 4 -4 h38.0 q4 0 4 4 V162z" fill="#2a78d6"/><rect x="139.2" y="6" width="48.0" height="194" fill="transparent"/><text x="163.2" y="20.0" text-anchor="middle" class="val">16</text><text x="163.2" y="177" text-anchor="middle" class="lbl">Single source</text></g><g class="bar"><title>Interested party: 1</title><path d="M243.8 162 V157.5 q0 -4 4 -4 h38.0 q4 0 4 4 V162z" fill="#8a8984"/><rect x="242.8" y="6" width="48.0" height="194" fill="transparent"/><text x="266.8" y="147.5" text-anchor="middle" class="val">1</text><text x="266.8" y="177" text-anchor="middle" class="lbl">Interested</text><text x="266.8" y="189" text-anchor="middle" class="lbl">party</text></g><g class="bar"><title>Unverified: 11</title><path d="M347.2 162 V72.5 q0 -4 4 -4 h38.0 q4 0 4 4 V162z" fill="#8a8984"/><rect x="346.2" y="6" width="48.0" height="194" fill="transparent"/><text x="370.2" y="62.5" text-anchor="middle" class="val">11</text><text x="370.2" y="177" text-anchor="middle" class="lbl">Unverified</text></g></svg><div class="legend"><span><i style="background:#2a78d6"></i>East</span><span><i style="background:#8a8984"></i>Unmapped</span></div></div>
+    <div class="panel"><h3>Plots vs villas vs apartments — East</h3>
+      <table class="matrix"><tr><th></th><th>Plots</th><th>Villas</th><th>Apts</th></tr><tr><th>Whitefield</th><td class="un">2/6</td><td class="un">2/6</td><td class="un">2/6</td></tr><tr><th>ORR East</th><td class="un">1/6</td><td class="un">1/6</td><td class="un">1/6</td></tr><tr><th>Varthur–Gunjur</th><td class="un">0/6</td><td class="un">0/6</td><td class="un">0/6</td></tr><tr><th>Panathur–Balagere</th><td class="un">1/6</td><td class="un">1/6</td><td class="sc">3.6</td></tr><tr><th>Sarjapur Road</th><td class="un">1/6</td><td class="un">1/6</td><td class="sc">3.5</td></tr><tr><th>Budigere Cross</th><td class="un">0/6</td><td class="un">0/6</td><td class="un">0/6</td></tr><tr><th>KR Puram–Hoskote</th><td class="un">2/6</td><td class="un">2/6</td><td class="un">2/6</td></tr></table>
+      <p class="note">Score 1–5 where ≥3 factors are evidenced; otherwise factors evidenced out of 6 (unranked).</p></div>
+    <div class="panel red"><h3>Outlook</h3><ul class="list"><li><svg class="li-ico warn" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6 40 38H4z"/><path d="M22 18v9M22 32h.01"/></svg><div><b>Insufficient evidence to estimate</b> growth scenarios today: no corridor has appreciation data from 2+ independent sources.</div></li><li><svg class="li-ico warn" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6 40 38H4z"/><path d="M22 18v9M22 32h.01"/></svg><div>Risk: Minister Krishna Byre Gowda on 22 October ordered officials to remove Metro barricades…</div></li><li><svg class="li-ico warn" viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 6 40 38H4z"/><path d="M22 18v9M22 32h.01"/></svg><div>Risk: The Greater Bengaluru Authority received more than 1,500 objections to the proposed…</div></li></ul></div>
+  </div>
+  <h3 class="strip-title">East Bengaluru’s key corridors</h3>
+  <div class="strip"><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gwhitefield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gwhitefield)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="19" width="12" height="53" fill="#5598e7" rx="1.5"/><rect x="3" y="25" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="19" y="38" width="10" height="34" fill="#184f95" rx="1.5"/><rect x="22" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="22" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="32" y="24" width="12" height="48" fill="#5598e7" rx="1.5"/><rect x="35" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="35" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="46" y="25" width="6" height="47" fill="#5598e7" rx="1.5"/><rect x="56" y="25" width="10" height="47" fill="#184f95" rx="1.5"/><rect x="59" y="40" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="59" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="59" y="58" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="72" y="44" width="11" height="28" fill="#5598e7" rx="1.5"/><rect x="75" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="37" width="14" height="35" fill="#5598e7" rx="1.5"/><rect x="99" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="93" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="109" y="36" width="10" height="36" fill="#2a78d6" rx="1.5"/><rect x="112" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="123" y="24" width="8" height="48" fill="#5598e7" rx="1.5"/><rect x="126" y="30" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="126" y="39" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="126" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="126" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="126" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="136" y="38" width="8" height="34" fill="#2a78d6" rx="1.5"/><rect x="139" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="139" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="150" y="26" width="9" height="46" fill="#5598e7" rx="1.5"/><rect x="153" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="153" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="153" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="166" y="20" width="11" height="52" fill="#184f95" rx="1.5"/><rect x="169" y="26" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="169" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="169" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="169" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="181" y="32" width="13" height="40" fill="#184f95" rx="1.5"/><rect x="184" y="38" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="184" y="47" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="47" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="56" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="184" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="202" y="34" width="10" height="38" fill="#256abf" rx="1.5"/><rect x="205" y="40" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="205" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="205" y="67" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="219" y="43" width="7" height="29" fill="#2a78d6" rx="1.5"/><rect x="222" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="222" y="58" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="222" y="67" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="230" y="40" width="6" height="32" fill="#2a78d6" rx="1.5"/><rect x="238" y="37" width="13" height="35" fill="#5598e7" rx="1.5"/><rect x="241" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="247" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="241" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="247" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>Whitefield &amp; surroundings</b><span>No usable update · 2 unverified claim(s)</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gorr_east" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gorr_east)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="55" width="10" height="17" fill="#5598e7" rx="1.5"/><rect x="15" y="49" width="6" height="23" fill="#256abf" rx="1.5"/><rect x="26" y="27" width="14" height="45" fill="#256abf" rx="1.5"/><rect x="35" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="29" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="35" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="35" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="46" y="18" width="8" height="54" fill="#2a78d6" rx="1.5"/><rect x="49" y="24" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="49" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="60" y="29" width="9" height="43" fill="#256abf" rx="1.5"/><rect x="63" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="76" y="55" width="12" height="17" fill="#5598e7" rx="1.5"/><rect x="79" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="96" y="48" width="9" height="24" fill="#2a78d6" rx="1.5"/><rect x="99" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="99" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="107" y="37" width="11" height="35" fill="#104281" rx="1.5"/><rect x="110" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="122" y="36" width="12" height="36" fill="#2a78d6" rx="1.5"/><rect x="125" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="125" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="141" y="19" width="14" height="53" fill="#2a78d6" rx="1.5"/><rect x="144" y="25" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="144" y="34" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="150" y="34" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="150" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="150" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="161" y="38" width="14" height="34" fill="#2a78d6" rx="1.5"/><rect x="170" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="164" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="170" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="177" y="55" width="14" height="17" fill="#256abf" rx="1.5"/><rect x="199" y="26" width="12" height="46" fill="#256abf" rx="1.5"/><rect x="202" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="202" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="202" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="218" y="46" width="7" height="26" fill="#256abf" rx="1.5"/><rect x="221" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="229" y="39" width="7" height="33" fill="#104281" rx="1.5"/><rect x="232" y="45" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="232" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="232" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>ORR East</b><span>Deccan Herald on 22 October reported Minister Krishna Byre Gowda…</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gvarthur_gunjur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gvarthur_gunjur)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="43" width="8" height="29" fill="#184f95" rx="1.5"/><rect x="10" y="42" width="9" height="30" fill="#5598e7" rx="1.5"/><rect x="13" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="24" y="42" width="10" height="30" fill="#5598e7" rx="1.5"/><rect x="27" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="27" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="40" y="29" width="12" height="43" fill="#256abf" rx="1.5"/><rect x="43" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="43" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="59" y="23" width="9" height="49" fill="#86b6ef" rx="1.5"/><rect x="62" y="47" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="76" y="29" width="9" height="43" fill="#86b6ef" rx="1.5"/><rect x="93" y="54" width="9" height="18" fill="#5598e7" rx="1.5"/><rect x="104" y="26" width="10" height="46" fill="#256abf" rx="1.5"/><rect x="107" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="121" y="29" width="14" height="43" fill="#2a78d6" rx="1.5"/><rect x="130" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="130" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="130" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="130" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="138" y="25" width="13" height="47" fill="#256abf" rx="1.5"/><rect x="141" y="40" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="147" y="40" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="141" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="141" y="58" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="156" y="54" width="8" height="18" fill="#5598e7" rx="1.5"/><rect x="171" y="26" width="7" height="46" fill="#104281" rx="1.5"/><rect x="174" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="174" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="181" y="30" width="13" height="42" fill="#256abf" rx="1.5"/><rect x="190" y="36" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="45" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="184" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="198" y="22" width="7" height="50" fill="#86b6ef" rx="1.5"/><rect x="201" y="28" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="201" y="46" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="201" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="209" y="35" width="14" height="37" fill="#2a78d6" rx="1.5"/><rect x="212" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="218" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="229" y="53" width="14" height="19" fill="#104281" rx="1.5"/><rect x="232" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>Varthur–Gunjur</b><span>No new update</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gpanathur_balagere" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gpanathur_balagere)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="37" width="11" height="35" fill="#184f95" rx="1.5"/><rect x="3" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="13" y="35" width="12" height="37" fill="#2a78d6" rx="1.5"/><rect x="16" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="16" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="16" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="27" y="21" width="8" height="51" fill="#86b6ef" rx="1.5"/><rect x="30" y="27" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="30" y="36" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="30" y="45" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="30" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="42" y="51" width="14" height="21" fill="#256abf" rx="1.5"/><rect x="45" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="51" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="64" y="31" width="11" height="41" fill="#2a78d6" rx="1.5"/><rect x="67" y="37" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="67" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="80" y="17" width="14" height="55" fill="#104281" rx="1.5"/><rect x="83" y="23" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="83" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="89" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="83" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="89" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="98" y="37" width="7" height="35" fill="#104281" rx="1.5"/><rect x="101" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="101" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="107" y="49" width="12" height="23" fill="#86b6ef" rx="1.5"/><rect x="110" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="122" y="49" width="8" height="23" fill="#104281" rx="1.5"/><rect x="135" y="20" width="8" height="52" fill="#184f95" rx="1.5"/><rect x="138" y="26" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="138" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="148" y="19" width="13" height="53" fill="#104281" rx="1.5"/><rect x="151" y="25" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="151" y="34" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="157" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="151" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="157" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="151" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="157" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="169" y="47" width="10" height="25" fill="#256abf" rx="1.5"/><rect x="172" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="187" y="34" width="13" height="38" fill="#104281" rx="1.5"/><rect x="190" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="196" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="190" y="67" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="196" y="67" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="203" y="45" width="12" height="27" fill="#2a78d6" rx="1.5"/><rect x="206" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="206" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="223" y="44" width="7" height="28" fill="#86b6ef" rx="1.5"/><rect x="226" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="226" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="237" y="56" width="7" height="16" fill="#2a78d6" rx="1.5"/><circle cx="6" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>Panathur–Balagere</b><span>No new update</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gsarjapur_road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gsarjapur_road)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="44" width="11" height="28" fill="#86b6ef" rx="1.5"/><rect x="3" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="16" y="40" width="14" height="32" fill="#104281" rx="1.5"/><rect x="19" y="46" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="25" y="46" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="25" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="19" y="64" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="33" y="54" width="11" height="18" fill="#5598e7" rx="1.5"/><rect x="36" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="47" y="23" width="7" height="49" fill="#5598e7" rx="1.5"/><rect x="50" y="29" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="50" y="38" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="50" y="47" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="50" y="56" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="50" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="61" y="46" width="6" height="26" fill="#86b6ef" rx="1.5"/><rect x="71" y="36" width="14" height="36" fill="#86b6ef" rx="1.5"/><rect x="80" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="74" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="87" y="31" width="7" height="41" fill="#104281" rx="1.5"/><rect x="90" y="37" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="46" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="90" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="102" y="18" width="8" height="54" fill="#5598e7" rx="1.5"/><rect x="105" y="24" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="105" y="33" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="105" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="105" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="105" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="118" y="45" width="7" height="27" fill="#256abf" rx="1.5"/><rect x="121" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="121" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="130" y="43" width="11" height="29" fill="#86b6ef" rx="1.5"/><rect x="146" y="39" width="10" height="33" fill="#5598e7" rx="1.5"/><rect x="149" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="161" y="27" width="7" height="45" fill="#86b6ef" rx="1.5"/><rect x="164" y="33" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="164" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="173" y="41" width="8" height="31" fill="#86b6ef" rx="1.5"/><rect x="176" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="184" y="20" width="10" height="52" fill="#2a78d6" rx="1.5"/><rect x="187" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="187" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="201" y="56" width="7" height="16" fill="#5598e7" rx="1.5"/><rect x="204" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="212" y="38" width="7" height="34" fill="#256abf" rx="1.5"/><rect x="215" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="215" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="215" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="224" y="31" width="10" height="41" fill="#5598e7" rx="1.5"/><rect x="227" y="46" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="227" y="55" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="237" y="56" width="8" height="16" fill="#256abf" rx="1.5"/><circle cx="6" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>Sarjapur Road</b><span>No usable update · 2 unverified claim(s)</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gbudigere_cross" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gbudigere_cross)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="18" width="12" height="54" fill="#256abf" rx="1.5"/><rect x="3" y="24" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="33" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="3" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="16" y="54" width="10" height="18" fill="#184f95" rx="1.5"/><rect x="34" y="50" width="12" height="22" fill="#104281" rx="1.5"/><rect x="37" y="65" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="54" y="20" width="9" height="52" fill="#5598e7" rx="1.5"/><rect x="57" y="26" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="57" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="57" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="66" y="38" width="13" height="34" fill="#184f95" rx="1.5"/><rect x="69" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="75" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="69" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="75" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="87" y="52" width="11" height="20" fill="#5598e7" rx="1.5"/><rect x="90" y="67" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="104" y="36" width="13" height="36" fill="#5598e7" rx="1.5"/><rect x="107" y="42" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="107" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="113" y="51" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="107" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="123" y="53" width="9" height="19" fill="#86b6ef" rx="1.5"/><rect x="140" y="20" width="13" height="52" fill="#86b6ef" rx="1.5"/><rect x="143" y="26" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="149" y="26" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="143" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="143" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="149" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="143" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="149" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="143" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="161" y="21" width="13" height="51" fill="#184f95" rx="1.5"/><rect x="170" y="36" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="164" y="45" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="164" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="170" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="177" y="23" width="8" height="49" fill="#256abf" rx="1.5"/><rect x="180" y="38" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="47" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="180" y="56" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="187" y="48" width="14" height="24" fill="#5598e7" rx="1.5"/><rect x="190" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="196" y="54" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="196" y="63" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="206" y="22" width="9" height="50" fill="#104281" rx="1.5"/><rect x="209" y="28" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="221" y="37" width="6" height="35" fill="#104281" rx="1.5"/><rect x="233" y="20" width="13" height="52" fill="#104281" rx="1.5"/><rect x="242" y="35" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="236" y="44" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="236" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="242" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="236" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="242" y="62" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="5" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>Budigere Cross</b><span>No new update</span></div><div class="card"><svg viewBox="0 0 240 90" class="sky" role="img" aria-label="Illustrative skyline"><defs><linearGradient id="gkr_puram_hoskote" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cde2fb"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient></defs><rect width="240" height="90" fill="url(#gkr_puram_hoskote)"/><path d="M0 55.8 Q72.0 46.800000000000004 144.0 54.0 T240 50.400000000000006 V90 H0z" fill="#b7d3f6" opacity=".6"/><rect x="0" y="56" width="12" height="16" fill="#86b6ef" rx="1.5"/><rect x="14" y="24" width="13" height="48" fill="#5598e7" rx="1.5"/><rect x="17" y="30" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="23" y="30" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="17" y="39" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="17" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="23" y="66" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="32" y="47" width="11" height="25" fill="#2a78d6" rx="1.5"/><rect x="35" y="53" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="49" y="28" width="9" height="44" fill="#86b6ef" rx="1.5"/><rect x="52" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="65" y="35" width="7" height="37" fill="#5598e7" rx="1.5"/><rect x="77" y="17" width="13" height="55" fill="#5598e7" rx="1.5"/><rect x="80" y="32" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="86" y="41" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="80" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="86" y="50" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="80" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="92" y="29" width="6" height="43" fill="#256abf" rx="1.5"/><rect x="100" y="54" width="12" height="18" fill="#5598e7" rx="1.5"/><rect x="103" y="60" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="119" y="34" width="11" height="38" fill="#5598e7" rx="1.5"/><rect x="122" y="49" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="122" y="58" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="135" y="37" width="13" height="35" fill="#86b6ef" rx="1.5"/><rect x="138" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="144" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="144" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="152" y="42" width="13" height="30" fill="#104281" rx="1.5"/><rect x="155" y="48" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="155" y="57" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="173" y="55" width="7" height="17" fill="#2a78d6" rx="1.5"/><rect x="176" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="184" y="55" width="14" height="17" fill="#5598e7" rx="1.5"/><rect x="187" y="61" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="202" y="46" width="6" height="26" fill="#104281" rx="1.5"/><rect x="215" y="44" width="8" height="28" fill="#256abf" rx="1.5"/><rect x="218" y="59" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="230" y="19" width="14" height="53" fill="#104281" rx="1.5"/><rect x="233" y="34" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="239" y="34" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="233" y="43" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><rect x="233" y="52" width="2.5" height="4" fill="#e8f1fc" opacity=".75"/><circle cx="6" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="29" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="52" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="75" cy="74.0" r="8" fill="#1baf7a" opacity=".85"/><circle cx="98" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="121" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><circle cx="144" cy="74.0" r="6" fill="#1baf7a" opacity=".85"/><circle cx="167" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="190" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="213" cy="74.0" r="9" fill="#1baf7a" opacity=".85"/><circle cx="236" cy="74.0" r="7" fill="#1baf7a" opacity=".85"/><rect y="78.0" width="240" height="18.0" fill="#e7ecef"/></svg><b>KR Puram–Hoskote</b><span>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the…</span></div></div>
+  <footer class="ifoot"><span><b>Sources:</b> Asianet Newsable, The News Minute, Deccan Herald, The Bengaluru Live, Oneindia News, Urban Acres — full citations, retrieval times and verification status in the report.</span>
+  <span class="tag">Research, not investment advice · Illustrations are generated, not photographs</span></footer>
+</section>
+<main class='report'><h1>Bengaluru Real Estate Intelligence — 2026-10-24</h1>
+<p><strong>Edition:</strong> 2026-10-24 · <strong>Window (IST):</strong> 2026-10-21T06:00:00+05:30 → 2026-10-24T06:00:00+05:30 (72 hours)<br />
+<strong>Generated:</strong> 2026-10-24T06:31:30+05:30 · <strong>Run status:</strong> <code>ok</code> — Completed with full planned coverage.</p>
+<blockquote>
+<p>Research summary, not investment advice. Forecasts are uncertain scenarios, not promised returns. Every figure carries its source and verification status; anything marked unverified is not established fact.</p>
+</blockquote>
+<h2>1. Today’s Bengaluru Property Brief</h2>
+<ul>
+<li><strong>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the STRR in phases by December with diversions around the unfinished railway overbridge at Lingadeeramallasandra; full ROB completion is expected by March 2027 (Oneindia, 23 Oct).</strong> — KR Puram–Hoskote (Old Madras Road / NH-75). ✅ Corroborated, High confidence. <a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia News</a> <code>C-2f48e5fdae</code></li>
+<li><strong>Deccan Herald on 22 October reported Minister Krishna Byre Gowda saying a Blue Line trial run between KR Puram and Marathahalli is expected by October-end (headline only; full article could not be opened). Conflicts with BMRCL MD's 19 Oct statement targeting 15 November.</strong> — ORR East (Marathahalli–Bellandur). ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-blue-line-trial-run-between-kr-puram-and-marathahalli-by-october-end-krishna-byre-gowda-4191772">Deccan Herald</a> <code>C-a8b970cc64</code></li>
+<li><strong>Minister Krishna Byre Gowda attributed Blue Line delays to a roughly year-long court stay on tree felling near KR Puram, 6–8 months lost to relocating Cauvery water and drainage lines, and work being limited to about 7 pm to early morning on the Outer Ring Road; he ordered unnecessary barricades removed on ORR where metro work is complete, calling the situation unacceptable.</strong> — KR Puram–Hoskote (Old Madras Road / NH-75). ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-b2199cd841</code></li>
+<li><strong>The National Green Tribunal has restrained the Bangalore Development Authority from felling any trees for the Hebbal Short Tunnel until the next hearing on 15 December, per The News Minute (21 Oct 2026).</strong> — Hebbal–Yelahanka. ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-597fc364fa</code></li>
+<li><strong>Minister Krishna Byre Gowda on 22 October ordered officials to remove Metro barricades on the Outer Ring Road where construction is complete, saying barricades retained without need were worsening congestion.</strong> — Unmapped location. ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a> <code>C-5f9e0a325d</code></li>
+<li><strong>Deccan Herald reported on 24 Oct that B-SMILE scaled down the proposed Indiranagar flyover/elevated road after protests (headline only; article not fetchable; details unverified).</strong> — Unmapped location. ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/b-smile-scales-down-proposed-flyover-cheer-for-indiranagar-4193468">Deccan Herald</a> <code>C-b50c9283e0</code></li>
+<li><strong>Deccan Herald reported on 24 Oct on GBA-proposed roads around lakes and rajakaluves in Bengaluru and their possible real-estate effects (headline only; article body not fetchable).</strong> — Unmapped location. ◑ Single source, Medium confidence. <a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/traffic-relief-real-estate-gains-the-hidden-dividend-of-proposed-lake-roads-4193383">Deccan Herald</a> <code>C-63d959eeeb</code></li>
+</ul>
+<h2>2. East Bengaluru Deep Dive</h2>
+<h3>Whitefield &amp; surroundings</h3>
+<p><em>Not established:</em> 2 unverified or interested-party claim(s) from Trade Brains (2) — listed in section 8, not used as evidence.</p>
+<p><strong>Projects seen in this edition</strong></p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Developer</th>
+<th>Type</th>
+<th>Status</th>
+<th>RERA</th>
+<th>Quoted price</th>
+<th>Basis / kind</th>
+<th>Possession</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://realtypromoo.com/news/sumadhura-belfort-pre-launch-tests-whitefields-mid-premium-demand">Sumadhura Belfort</a></td>
+<td>Sumadhura Infracon Pvt Ltd</td>
+<td>apartment</td>
+<td>pre_launch</td>
+<td>PRM/KA/RERA/1250/304/PR/230926/008960 — Not verified</td>
+<td>min: 1.38 INR crore (indicative, third-party listing); max: 1.85 INR crore (indicative, third-party listing)</td>
+<td>unknown / asking</td>
+<td>August 2030 (RERA)</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.sattva-whitefield.com/">Sattva Whitefield</a></td>
+<td>Sattva Group</td>
+<td>apartment</td>
+<td>pre_launch</td>
+<td>Not verified</td>
+<td>min: 1.3 INR crore (2 BHK 1.30+, 3 BHK 1.80+, estimated pre-launch); max: 1.8 INR crore (2 BHK 1.30+, 3 BHK 1.80+, estimated pre-launch)</td>
+<td>unknown / developer_quote</td>
+<td>December 2029 (estimated)</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Evergreen at Prestige Raintree Park</a></td>
+<td>Prestige Group</td>
+<td>apartment</td>
+<td>pre_launch</td>
+<td>Not verified</td>
+<td>min: 1.8 INR crore (listed start)</td>
+<td>unknown / developer_quote</td>
+<td>Not verified</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Prestige Pine Forest</a></td>
+<td>Prestige Group</td>
+<td>apartment</td>
+<td>launched</td>
+<td>Not verified</td>
+<td>min: 3.5 INR crore (approx start)</td>
+<td>unknown / developer_quote</td>
+<td>December 2028</td>
+<td>Low</td>
+</tr>
+</tbody>
+</table>
+<h3>ORR East (Marathahalli–Bellandur)</h3>
+<p><em>Also described as south Bengaluru in listings; counted once, under East.</em></p>
+<p><strong>Catalysts (infrastructure, jobs, policy)</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Deccan Herald on 22 October reported Minister Krishna Byre Gowda saying a Blue Line trial run between KR Puram and Marathahalli is expected by October-end (headline only; full article could not be opened). Conflicts with BMRCL MD's 19 Oct statement targeting 15 November.</td>
+<td>ORR East (Marathahalli–Bellandur)</td>
+<td>2026-10-22</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-blue-line-trial-run-between-kr-puram-and-marathahalli-by-october-end-krishna-byre-gowda-4191772">Deccan Herald</a> <code>C-a8b970cc64</code></td>
+</tr>
+</tbody>
+</table>
+<p><em>Not established:</em> 1 unverified or interested-party claim(s) from The Bengaluru Live (1) — listed in section 8, not used as evidence.</p>
+<h3>Varthur–Gunjur</h3>
+<p>No new evidence in the window.</p>
+<h3>Panathur–Balagere</h3>
+<p>No new evidence in the window.</p>
+<h3>Sarjapur Road</h3>
+<p><em>Also described as south Bengaluru in listings; counted once, under East.</em></p>
+<p><em>Not established:</em> 2 unverified or interested-party claim(s) from Trade Brains (1), Sobha Limited (1) — listed in section 8, not used as evidence.</p>
+<p><strong>Projects seen in this edition</strong></p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Developer</th>
+<th>Type</th>
+<th>Status</th>
+<th>RERA</th>
+<th>Quoted price</th>
+<th>Basis / kind</th>
+<th>Possession</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.sobha.com/bengaluru/sobha-altair/">Sobha Altair</a></td>
+<td>Sobha Limited</td>
+<td>apartment</td>
+<td>launched</td>
+<td>PRM/KA/RERA/1251/446/PR/070126/008388 — Not verified</td>
+<td>min: 3.6 INR crore (starting)</td>
+<td>unknown / developer_quote</td>
+<td>May 2031</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Garden Breeze at The Prestige City</a></td>
+<td>Prestige Group</td>
+<td>apartment</td>
+<td>launched</td>
+<td>Not verified</td>
+<td>min: 1.77 INR crore (listed start)</td>
+<td>unknown / developer_quote</td>
+<td>Not verified</td>
+<td>Low</td>
+</tr>
+</tbody>
+</table>
+<h3>Budigere Cross</h3>
+<p><em>Also described as north Bengaluru in listings; counted once, under East.</em>
+No new evidence in the window.</p>
+<h3>KR Puram–Hoskote (Old Madras Road / NH-75)</h3>
+<p><strong>Launches &amp; project updates</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NHAI is exploring opening the 21-km Hoskote–Hosur STRR stretch in phases as early as December, but the railway overbridge at Lingadeeramallasandra may not be complete until March 2027, with a 59-m girder launch awaiting clearances; the bottleneck has persisted over 18 months.</td>
+<td>KR Puram–Hoskote (Old Madras Road / NH-75)</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia</a> <code>C-c486323024</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Catalysts (infrastructure, jobs, policy)</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the STRR in phases by December with diversions around the unfinished railway overbridge at Lingadeeramallasandra; full ROB completion is expected by March 2027 (Oneindia, 23 Oct).</td>
+<td>KR Puram–Hoskote (Old Madras Road / NH-75)</td>
+<td>2026-10-23</td>
+<td>✅ Corroborated (High)</td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia News</a> <code>C-2f48e5fdae</code> · also: <a target="_blank" rel="noopener" href="https://urbanacres.in/strr-hoskote-hosur-stretch-may-open-partly-by-december/">Urban Acres</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Risks (civic, supply, execution)</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Minister Krishna Byre Gowda attributed Blue Line delays to a roughly year-long court stay on tree felling near KR Puram, 6–8 months lost to relocating Cauvery water and drainage lines, and work being limited to about 7 pm to early morning on the Outer Ring Road; he ordered unnecessary barricades removed on ORR where metro work is complete, calling the situation unacceptable.</td>
+<td>KR Puram–Hoskote (Old Madras Road / NH-75)</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-b2199cd841</code></td>
+</tr>
+</tbody>
+</table>
+<p><em>Not established:</em> 2 unverified or interested-party claim(s) from Asianet Newsable (1), Urban Acres (1) — listed in section 8, not used as evidence.</p>
+<h2>3. North, South and West Bengaluru</h2>
+<p><strong>North Bengaluru</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The Greater Bengaluru Authority received more than 1,500 objections to the proposed felling of 1,128 trees for the Hebbal Short Tunnel project, The News Minute reported on 21 October 2026.</td>
+<td>Hebbal–Yelahanka</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-42f972ad29</code></td>
+</tr>
+<tr>
+<td>The National Green Tribunal has restrained the Bangalore Development Authority from felling any trees for the Hebbal Short Tunnel until the next hearing on 15 December, per The News Minute (21 Oct 2026).</td>
+<td>Hebbal–Yelahanka</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-597fc364fa</code> · also: <a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a></td>
+</tr>
+<tr>
+<td>Greater Bengaluru Authority received more than 1,500 objections to the proposed felling of 1,128 trees for the Hebbal Short Tunnel project; objections will go to the tree expert committee and the BDA, which is implementing the project (TNM, 21 Oct).</td>
+<td>Hebbal–Yelahanka</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-c0204778c6</code></td>
+</tr>
+</tbody>
+</table>
+<p><em>Not established:</em> 2 unverified or interested-party claim(s) — see section 8.</p>
+<p><strong>South Bengaluru</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Greater Bengaluru Development Minister Krishna Byre Gowda said on about 22 October that the state is awaiting Union government approval to open the 7.5-km Pink Line elevated stretch (Kalena Agrahara–Tavarekere), with operating permission expected in four to five days. No opening date has been confirmed.</td>
+<td>Bannerghatta Road</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-7fe19d6980</code> · also: <a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+</tr>
+<tr>
+<td>Chief Minister D.K. Shivakumar has written to the Centre seeking an inauguration date for the Pink Line stretch and had not received a reply as of 23 October; the state plans to meet the Union Minister the following week.</td>
+<td>Bannerghatta Road</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-db847c8071</code></td>
+</tr>
+<tr>
+<td>BMRCL has been told to begin trial runs on the 19.75-km KR Puram–Central Silk Board stretch of the Blue Line by end-October 2026 and aims to open it to passengers by July 2027; the Hebbal–Airport stretch is to begin trial runs by November 2027 (per the minister's review).</td>
+<td>South core (Koramangala–HSR–JP Nagar)</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-28c1f0d7da</code></td>
+</tr>
+<tr>
+<td>The Week reported on 21 October that BMRCL is undertaking its first major overhaul of the 57 original trains, and that the Pink Line elevated section between Kalena Agrahara and Tavarekere is still awaiting safety clearance.</td>
+<td>Bannerghatta Road</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.theweek.in/news/biz-tech/2026/10/21/namma-metro-15-years-bengaluru-transit.html">The Week</a> <code>C-6190e09f47</code></td>
+</tr>
+</tbody>
+</table>
+<p><em>Not established:</em> 2 unverified or interested-party claim(s) — see section 8.</p>
+<p><strong>West Bengaluru:</strong> no new evidence in the window.</p>
+<p><strong>Peripheral &amp; connecting corridors:</strong> no new evidence in the window.</p>
+<h2>4. Plots vs Villas vs High-Rise Apartments</h2>
+<p>Scores are 1–5 from evidenced factors only (momentum, rental yield, affordability, connectivity, employment, risk). Plot prices are <strong>land rates</strong> and apartment prices are usually <strong>super built-up (saleable)</strong> rates — they are never compared as if equivalent. <em>Unranked</em> means the evidence base is too thin to score.</p>
+<table>
+<thead>
+<tr>
+<th>Corridor</th>
+<th>Plots</th>
+<th>Villas</th>
+<th>Apartments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Budigere Cross</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+</tr>
+<tr>
+<td>KR Puram–Hoskote (Old Madras Road / NH-75)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>ORR East (Marathahalli–Bellandur)</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+</tr>
+<tr>
+<td>Panathur–Balagere</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td><strong>3.6</strong> · Low conf. · #1</td>
+</tr>
+<tr>
+<td>Sarjapur Road</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td><strong>3.5</strong> · Low conf. · #2</td>
+</tr>
+<tr>
+<td>Varthur–Gunjur</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+</tr>
+<tr>
+<td>Whitefield &amp; surroundings</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Devanahalli–Airport region</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Hebbal–Yelahanka</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Hennur–Thanisandra–Bagalur</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Bannerghatta Road</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Electronic City–Hosur Road–Chandapura</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+</tr>
+<tr>
+<td>Kanakapura Road</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>South core (Koramangala–HSR–JP Nagar)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Magadi Road</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+</tr>
+<tr>
+<td>Mysore Road–Kengeri–Bidadi</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+<td>Unranked (2/6 factors)</td>
+</tr>
+<tr>
+<td>Tumkur Road–Nelamangala</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+<td>Unranked (1/6 factors)</td>
+</tr>
+<tr>
+<td>West core (Rajajinagar–Malleshwaram–Yeshwanthpur)</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+<td>Unranked (0/6 factors)</td>
+</tr>
+</tbody>
+</table>
+<p>City medians used for affordability (same basis and price kind only): unknown_basis|analyst_estimate: ₹9,931/sqft</p>
+<h2>5. Government Moves in the Last 72 Hours</h2>
+<p>Stage ladder: Proposed → Announced → Approved → Funded → Tendered → Awarded → Under construction → Operational. A stage is shown only when the quoted source text evidences it.</p>
+<table>
+<thead>
+<tr>
+<th>Development</th>
+<th>Stage (evidenced)</th>
+<th>Published / event date</th>
+<th>Corridors possibly affected</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NHAI is looking at opening the 21-km Hoskote–Hosur stretch of the STRR in phases by December with diversions around the unfinished railway overbridge at Lingadeeramallasandra; full ROB completion is expected by March 2027 (Oneindia, 23 Oct).</td>
+<td>Stage not evidenced</td>
+<td>2026-10-23 / not stated</td>
+<td>Bannerghatta Road, Devanahalli–Airport region, Electronic City–Hosur Road–Chandapura, KR Puram–Hoskote (Old Madras Road / NH-75), Mysore Road–Kengeri–Bidadi, Sa</td>
+<td>✅ Corroborated</td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia News</a> <code>C-2f48e5fdae</code></td>
+</tr>
+<tr>
+<td>Deccan Herald on 22 October reported Minister Krishna Byre Gowda saying a Blue Line trial run between KR Puram and Marathahalli is expected by October-end (headline only; full article could not be opened). Conflicts with BMRCL MD's 19 Oct statement targeting 15 November.</td>
+<td>Under Construction</td>
+<td>2026-10-22 / not stated</td>
+<td>Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur, KR Puram–Hoskote (Old Madras Road / NH-75), ORR East (Marathahalli–Bellandur), South c</td>
+<td>◑ Single source</td>
+<td><a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-blue-line-trial-run-between-kr-puram-and-marathahalli-by-october-end-krishna-byre-gowda-4191772">Deccan Herald</a> <code>C-a8b970cc64</code></td>
+</tr>
+<tr>
+<td>Minister Krishna Byre Gowda directed BMRCL to begin Blue Line trial runs on the 19.75-km KR Puram–Central Silk Board stretch by the end of October, and the section is targeted to open to passengers by July 2027, per Asianet Newsable.</td>
+<td>Stage not evidenced</td>
+<td>2026-10-23 / 2026-10-22</td>
+<td>Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur, KR Puram–Hoskote (Old Madras Road / NH-75), ORR East (Marathahalli–Bellandur), South c</td>
+<td>✖ Unverified</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-b9a9d25124</code></td>
+</tr>
+<tr>
+<td>The Bengaluru Live reported that Hebbal–airport Blue Line trains are aimed for around October–November 2027, while Asianet reported the minister set a November 2027 deadline to begin trial runs on that stretch, indicating the airport link remains over a year away.</td>
+<td>Stage not evidenced</td>
+<td>2026-10-23 / 2026-10-22</td>
+<td>Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur, KR Puram–Hoskote (Old Madras Road / NH-75), ORR East (Marathahalli–Bellandur), South c</td>
+<td>✖ Unverified</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-eed78ec5b7</code></td>
+</tr>
+<tr>
+<td>The Bengaluru Live reported the 148-km suburban rail network targets April 2030 completion at about ₹23,000 crore, as stated alongside the minister's metro review on 22 October.</td>
+<td>Stage not evidenced</td>
+<td>2026-10-22 / 2026-10-22</td>
+<td>Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur, KR Puram–Hoskote (Old Madras Road / NH-75), Mysore Road–Kengeri–Bidadi, Tumkur Road–Ne</td>
+<td>◑ Single source</td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a> <code>C-9e12295369</code></td>
+</tr>
+<tr>
+<td>The National Green Tribunal has restrained the Bangalore Development Authority from felling any trees for the Hebbal Short Tunnel until the next hearing on 15 December, per The News Minute (21 Oct 2026).</td>
+<td>—</td>
+<td>2026-10-21 / 2026-12-15</td>
+<td>Hebbal–Yelahanka</td>
+<td>◑ Single source</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-597fc364fa</code></td>
+</tr>
+<tr>
+<td>After a review of metro works, Minister Krishna Byre Gowda said BMRCL aims to open the 19.75-km KR Puram–Central Silk Board section to passengers by July 2027, with trial runs instructed to begin by end-October.</td>
+<td>Stage not evidenced</td>
+<td>2026-10-23 / 2026-10-22</td>
+<td>Devanahalli–Airport region, Hebbal–Yelahanka, Hennur–Thanisandra–Bagalur, KR Puram–Hoskote (Old Madras Road / NH-75), ORR East (Marathahalli–Bellandur), South c</td>
+<td>✖ Unverified</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-1210b5bb7e</code></td>
+</tr>
+<tr>
+<td>Chief Minister D.K. Shivakumar has written to the Centre seeking an inauguration date for the Pink Line stretch and had not received a reply as of 23 October; the state plans to meet the Union Minister the following week.</td>
+<td>—</td>
+<td>2026-10-23 / not stated</td>
+<td>Bannerghatta Road, Hennur–Thanisandra–Bagalur</td>
+<td>◑ Single source</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-db847c8071</code></td>
+</tr>
+</tbody>
+</table>
+<p><em>Priced in?</em> The system does not have registered-price time series, so it cannot measure whether an announcement is already reflected in prices. Treat corridor price claims made after an announcement as asking prices, not proof of value. Timing and dependencies are as stated by the cited source and remain uncertain until the next stage is evidenced.</p>
+<h2>6. Growth Scenarios</h2>
+<p>Formula: Future value = Purchase price × (1 + annual growth rate)^years. Real = after 4.5% assumed inflation. Capital appreciation only; rent shown separately in the illustration.</p>
+<p><strong>Insufficient evidence to estimate</strong> for every corridor and property type in this edition: no cell has appreciation evidence from at least 2 independent source groups.</p>
+<p>Unestimated cells: 60 of 60 — <em>Insufficient evidence to estimate</em>.</p>
+<h2>7. Opportunities to Investigate</h2>
+<ol>
+<li><strong>Panathur–Balagere — Apartments</strong>: attractiveness 3.6/5, evidence confidence Low. Supports: momentum 5/5, risk 4/5. Disconfirming: affordability 1/5. Missing factors: rental_yield, connectivity, employment.</li>
+<li><strong>Sarjapur Road — Apartments</strong>: attractiveness 3.5/5, evidence confidence Low. Supports: momentum 5/5. Disconfirming: connectivity 2/5. Missing factors: rental_yield, employment, risk.</li>
+</ol>
+<h2>8. Risks, Contradictions and Unverified Claims</h2>
+<p><strong>Claims that are NOT established fact</strong></p>
+<table>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Status</th>
+<th>Why</th>
+<th>Flags</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Prestige Estates Projects Ltd said it will launch residential properties worth Rs 40,000 crore in the second half of FY27 (Oct 2026–Mar 2027) across Bengaluru, Mumbai, Delhi-NCR, Chennai and Hyderabad, about 2.5 times its April–September launches; no Bengaluru localities named on this page.</td>
+<td>✖ Unverified</td>
+<td>unclassified source, no corroboration</td>
+<td>—</td>
+<td><a target="_blank" rel="noopener" href="https://indianopinion.org/prestige-group-plans-rs-40000-crore-residential-launches-in-h2-fy27/">Indian Opinion</a></td>
+</tr>
+<tr>
+<td>Trade Brains on 22 October listed Prestige Garden Breeze at The Prestige City (Sarjapur–Marathahalli Road, near Yamare) as a 10-acre, 655-apartment, four-tower project in 2/3 BHK, listed from ₹1.77 crore; it says the project was launched in September 2026 (GDV ~₹1,100 crore). Price basis not stated.</td>
+<td>✖ Unverified</td>
+<td>unclassified source, no corroboration</td>
+<td>—</td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+</tr>
+<tr>
+<td>Trade Brains on 22 October listed Prestige Pine Forest on ECC Road, Whitefield as a ~9-acre, 316-apartment, four-tower 3/4 BHK project, listed from about ₹3.50 crore with possession scheduled December 2028.</td>
+<td>✖ Unverified</td>
+<td>unclassified source, no corroboration</td>
+<td>—</td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+</tr>
+<tr>
+<td>Trade Brains on 22 October listed Evergreen at Prestige Raintree Park (24 acres, 2,000 apartments, 2/3/4 BHK, from ₹1.80 crore) and Prestige Raintree Park (21 acres, 1,520 apartments, 3/4/5 BHK, from ₹3.7 crore), both on Whitefield Main Road, among Prestige's upcoming H2 FY27 projects.</td>
+<td>✖ Unverified</td>
+<td>unclassified source, no corroboration</td>
+<td>—</td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+</tr>
+<tr>
+<td>Background: Sobha's project page lists Sobha Altair at Hadosiddapura off Sarjapur Main Road as 207 units on 3.308 acres, from ₹3.6 crore, completion May 2031, RERA PRM/KA/RERA/1251/446/PR/070126/008388 (launched early 2026; not an in-window launch).</td>
+<td>✖ Unverified</td>
+<td>excerpt not found on the cited page</td>
+<td>citation_failed, interested_party, undated</td>
+<td><a target="_blank" rel="noopener" href="https://www.sobha.com/bengaluru/sobha-altair/">Sobha Limited</a></td>
+</tr>
+<tr>
+<td>Minister Krishna Byre Gowda directed BMRCL to begin Blue Line trial runs on the 19.75-km KR Puram–Central Silk Board stretch by the end of October, and the section is targeted to open to passengers by July 2027, per Asianet Newsable.</td>
+<td>✖ Unverified</td>
+<td>the statement asserts an infrastructure stage the quoted text does not support</td>
+<td>stage_not_evidenced_in_excerpt, stage_overstated</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+</tr>
+<tr>
+<td>The Bengaluru Live reported on 22 October that Blue Line trial runs on KR Puram–Central Silk Board will start by month-end with trains moving toward Marathahalli from early November, and commercial operations are targeted for mid-next year; delays were blamed on a year-long court stay on tree felling near KR Puram, utility relocation, and night-only work.</td>
+<td>✖ Unverified</td>
+<td>excerpt not found on the cited page</td>
+<td>citation_failed</td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a></td>
+</tr>
+<tr>
+<td>The Bengaluru Live reported that Hebbal–airport Blue Line trains are aimed for around October–November 2027, while Asianet reported the minister set a November 2027 deadline to begin trial runs on that stretch, indicating the airport link remains over a year away.</td>
+<td>✖ Unverified</td>
+<td>excerpt not found on the cited page</td>
+<td>citation_failed, stage_not_evidenced_in_excerpt, stage_overstated</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+</tr>
+<tr>
+<td>Urban Acres on 22 October reported the Hoskote–Tamil Nadu border STRR stretch may partially open by December, with the girder for the opposite carriageway by March; RDSO is to conduct another inspection before clearances, and opening depends on safe traffic diversion around the overbridge works.</td>
+<td>✖ Unverified</td>
+<td>the statement asserts an infrastructure stage the quoted text does not support</td>
+<td>interested_party, stage_not_evidenced_in_excerpt, stage_overstated</td>
+<td><a target="_blank" rel="noopener" href="https://urbanacres.in/strr-hoskote-hosur-stretch-may-open-partly-by-december/">Urban Acres</a></td>
+</tr>
+<tr>
+<td>Prestige Estates plans residential launches worth over ₹40,000 crore GDV across Bengaluru, Mumbai, Delhi-NCR, Chennai and Hyderabad between October 2026 and March 2027, with no project or locality breakdown disclosed; Bengaluru was 41% of H1 FY27 sales. Lead's claim of Sarjapur/Devanahalli projects was not confirmed.</td>
+<td>⚠ Interested-party claim</td>
+<td>only interested-party source (broker_marketing)</td>
+<td>interested_party</td>
+<td><a target="_blank" rel="noopener" href="https://therealtytoday.com/news/residential/prestige-estates-plans-rs-40000-crore-in-residential-launches-for-h2-fy27">Realty Today</a></td>
+</tr>
+<tr>
+<td>Asianet Newsable reported on 23 Oct that Karnataka was awaiting Union government approval to open the Pink Line's Kalena Agrahara–Tavarekere stretch, with all trial runs complete and the CM having written to the Centre seeking an inauguration date.</td>
+<td>✖ Unverified</td>
+<td>the statement asserts an infrastructure stage the quoted text does not support</td>
+<td>stage_not_evidenced_in_excerpt, stage_overstated</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+</tr>
+<tr>
+<td>After a review of metro works, Minister Krishna Byre Gowda said BMRCL aims to open the 19.75-km KR Puram–Central Silk Board section to passengers by July 2027, with trial runs instructed to begin by end-October.</td>
+<td>✖ Unverified</td>
+<td>the statement asserts an infrastructure stage the quoted text does not support</td>
+<td>stage_not_evidenced_in_excerpt, stage_overstated</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Evidenced risks</strong></p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>Where</th>
+<th>Published</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Minister Krishna Byre Gowda on 22 October ordered officials to remove Metro barricades on the Outer Ring Road where construction is complete, saying barricades retained without need were worsening congestion.</td>
+<td>Unmapped location</td>
+<td>2026-10-22</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a> <code>C-5f9e0a325d</code></td>
+</tr>
+<tr>
+<td>The Greater Bengaluru Authority received more than 1,500 objections to the proposed felling of 1,128 trees for the Hebbal Short Tunnel project, The News Minute reported on 21 October 2026.</td>
+<td>Hebbal–Yelahanka</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-42f972ad29</code></td>
+</tr>
+<tr>
+<td>Greater Bengaluru Authority received more than 1,500 objections to the proposed felling of 1,128 trees for the Hebbal Short Tunnel project; objections will go to the tree expert committee and the BDA, which is implementing the project (TNM, 21 Oct).</td>
+<td>Hebbal–Yelahanka</td>
+<td>2026-10-21</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a> <code>C-c0204778c6</code></td>
+</tr>
+<tr>
+<td>Minister Krishna Byre Gowda attributed Blue Line delays to a roughly year-long court stay on tree felling near KR Puram, 6–8 months lost to relocating Cauvery water and drainage lines, and work being limited to about 7 pm to early morning on the Outer Ring Road; he ordered unnecessary barricades removed on ORR where metro work is complete, calling the situation unacceptable.</td>
+<td>KR Puram–Hoskote (Old Madras Road / NH-75)</td>
+<td>2026-10-23</td>
+<td>◑ Single source (Medium)</td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a> <code>C-b2199cd841</code></td>
+</tr>
+</tbody>
+</table>
+<h2>9. What Changed Since Yesterday</h2>
+<p>Compared with edition 2026-10-21:
+- 54 new claim(s), 32 usable.
+- 0 infrastructure stage change(s).</p>
+<h2>10. Sources and Coverage Gaps</h2>
+<ul>
+<li>RSS feeds collected: 42; failed: 0</li>
+<li>Research task <code>east_launches_prices</code>: ok (cost $0.63) — Thin window for confirmed East Bengaluru launches. No developer press release or RERA-portal-verified new villa, plotted or apartment launch dated 21–24 Oct 2026 was found. In-window items: Prestige's H2 FY27 pipeline coverage (22–23 Oct, Trade Brains/Indian Opinion; Trade Brains gives Whitefield and Sarjapur projects but no RERA numbers), Sattva Whitefield page update (20 Oct, just before window), and STRR Hoskote–Hosur reports (22–23 Oct). Not obtained: The Hindu Pink Line article (domain blocked), Deccan Herald Blue Line article (403; headline only), Indian Express KR Puram–Silk Board, The Bengaluru Live airport-metro piece. Metro timing conflict: minister's October-end target (DH, 22 Oct) vs BMRCL MD's 15 November target (Oneindia, 19 Oct). Unverified leads seen only in search snippets and not reported as claims: Brigade Granada (Whitefield–Hoskote Rd, 20.19-acre purchase for ₹588 crore reported 11 Sep), NVT Villas pre-launch (Varthur-Sarjapur), Brigade Gunjur. RERA numbers were not checked on rera.karnataka.gov.in; the search tool cannot access several major domains (thehindu, TOI, Moneycontrol, HT, NIE).</li>
+<li>Research task <code>east_catalysts_risks</code>: ok (cost $0.61) — The Hindu lead (Pink Line approval within five days; Blue Line trials by October-end) was blocked, but Asianet Newsable (23 Oct) and The Bengaluru Live (22 Oct) report the same minister statements. The Deccan Herald original was also blocked (403). The Indian Express KR Puram–Silk Board lead was not reachable. The Trade Brains lead's Sarjapur/Devanahalli detail was not confirmed: Realty Today gives no locality breakdown. The Blue Line trial timing conflicts: the minister said end-October (22 Oct), while the BMRCL MD said 15 November (19 Oct). I found nothing dated in the window on Varthur/Bellandur flooding, Cauvery supply, the Bengaluru Business Corridor/PRR, the Sarjapur–Hebbal metro approval, ORR white-topping start, or Whitefield leasing. Searches returned only older background, so I did not report those. The ORR white-topping dispute (ORRCA, August 2026) and the Sarjapur–Hebbal DPR (central approval pending) are stale background that I did not log as claims.</li>
+<li>Research task <code>north_south_west</code>: ok (cost $0.53) — Thin window. thehindu.com and indianexpress.com were not fetchable or searchable here, so the Hindu/IE/DH leads were not verified at source. Pink Line approval, Blue Line trial runs and airport metro timelines (Oct 22-23 leads) were not confirmed from an in-window article; only August 2026 background was found, with dates that conflict across outlets. Business Standard (22 Oct 2026) reportedly covers Bhartiya Urban and Alpine's Nikoo Homes 9 (about 1,584 units, over Rs 1,000 crore investment, North Bengaluru). The page returned 403, and promotional pages place the project at Bagalur, so I did not report it as a claim. The Prestige Olive Oak villa-plot township (Yelahanka Extension) has a listing-only launch of 10 Dec 2026, unverified. No in-window villa or plot launches were verified for Kanakapura Road, Bidadi, Hoskote, Doddaballapur, Mysore Road, Tumkur Road or Hosur Road. Leads on ganja seizures, SpiceJet delays, the Apache price and the airport video are irrelevant. The NGT order was reported by The Hindu on 19 Oct (headline only).</li>
+<li>Research task <code>government_watch</code>: ok (cost $0.54) — Thin coverage: Deccan Herald, The Hindu, Hindustan Times and Business Standard blocked WebFetch, so DH/Hindu/HT items rest on headlines or search-engine summaries only. Search summaries suggested (unverified, no verbatim excerpt available): DH 22 Oct reported B-SMILE re-tendered six flyover projects worth ~Rs 1,500 crore with fresh bids for three more due within a week; DH 24 Oct said roads of 30–100 ft around lakes would be folded into RMP 2015 with 60 days for objections. Not located: LiveLawBiz REAT article, Business Standard EMI article, Public TV e-PID article, the IBM-Bagmane lease details (IBM 2.83 lakh sq ft, Rs 343 crore over 10 years per HT headline, not verified). No in-window official BMRCL/BDA/GBA/KRERA/cabinet/stamp-duty pages found. The Asianet piece conflicts with the Hindu/DH reports only in being the sole source for the July 2027 target; treat Blue Line dates as unsettled across sources. Official agency sites were not fetched.</li>
+<li>Research task <code>metro_watch</code>: ok (cost $0.43) — Window yielded one main development: the 22–23 Oct Pink Line status (awaiting Centre's nod, BMRCL expects clearance in 4–5 days, no opening date) and new Blue Line targets. Excerpts for the Asianet claims are partly drawn from the search summary and the fetched page; the fetched page paraphrased, so verify wording before quoting. Deccan Herald (Krishna Byre Gowda review; Phase 3 Centre approval in ~20 days; Hebbal–Airport June 2027) was seen only in search snippets and blocked on fetch (403), so it is not reported as a claim; its figures conflict with Asianet (Nov 2027 vs June 2027), so flag as unresolved. No window-dated K-RIDE, fare, ridership, Red Line tender, or CMRS-authorisation news found. The B-SMILE Indiranagar flyover story was not located. bmrc.co.in and kride.in were not fetched.</li>
+<li>Research task <code>social_signals</code>: ok (cost $0.30) — No in-window (21–24 Oct 2026) social-media content found. Reddit and old.reddit were blocked to the fetch tool; YouTube search returned no results (JS-rendered); LinkedIn required login; Deccan Herald returned 403. Web searches (12 queries, including site-targeted for reddit, youtube, linkedin, thehindu) returned only developer blogs/listing pages (Sobha, Brigade, Godrej, NBR, Puravankara), which are interested-party marketing and undated or outside the window, so not reported as claims. The only relevant material is two pre-window background items on the Blue Line (ORR) metro, whose October trial-run target appears to have slipped to ~15 Nov per a 16 Oct report; no in-window confirmation that trials started. A returned snippet on Arvind SmartSpaces (Nagondanahalli, Whitefield) and Brigade Avalon launches had no shown dates and was not verified. Valid result: nothing new verified for the window.</li>
+<li>Research task <code>market_baseline</code>: ok (cost $0.44) — Baseline pass; several key pages were 403 (Deccan Herald, BusinessWorld, JLL Homes blog) and the Anarock Q2 PDF was unreadable. Not reported for lack of verbatim support: Knight Frank H1 2026 Bengaluru (27,968 sales, 34,749 launches), JLL Q2 2026 (prices +3.1% QoQ, rents +2.5% QoQ, launches concentrated on Bellary Road/Hosur Road/Whitefield), Anarock Thanisandra/Sarjapur prices (Rs 8,900 and Rs 9,850 psf at end-2024), and Devanahalli plot rates. The Devanahalli figures (about Rs 4,500–10,000 psf in 2026) came only from developer/portal blogs and are asking-price level. Rental-yield figures (about 3–5.5%) came only from developer blogs and JLL Homes, so I treated them as unverified. Sources disagree on Bengaluru Q2 2026 sales (15,285 vs 14,186 vs about 17,000) because of differing methodologies. No Colliers, CBRE, NHB RESIDEX or PropEquity Bengaluru-specific Q3 2026 figures were found. The PropEquity 16,840-unit figure is from Q3 2025, so it is not in-period.</li>
+<li>Independent recheck: 25 of 25 consequential claims reviewed; 0 downgraded</li>
+<li>Links checked: 33; unreachable: 0</li>
+<li>Claims by source tier: reputable_media 38, unknown 10, developer 2, broker_marketing 2, property_portal 1, research_house 1</li>
+</ul>
+<p><strong>Inaccessible or not-accessed sources</strong></p>
+<ul>
+<li>https://www.thehindu.com/news/national/karnataka/bengaluru-pink-line-metro-opening-approval-expected-within-five-days-blue-line-trial-runs-by-october-end/article71612366.ece: blocked — WebFetch refused the domain</li>
+<li>https://www.inkl.com/news/prestige-estates-to-launch-rs-40k-cr-worth-homes-for-sale-in-h2-of-fy27-up-2-5-times-from-apr-sep: blocked — HTTP 403</li>
+<li>https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-blue-line-trial-run-between-kr-puram-and-marathahalli-by-october-end-krishna-byre-gowda-4191772: blocked — HTTP 403; only search-result summary seen</li>
+<li>Indian Express KR Puram–Silk Board; The Bengaluru Live airport metro: not_found — Original lead articles not located</li>
+<li>Domain-filtered searches for thehindu/moneycontrol/hindustantimes/TOI/newindianexpress: blocked — Domains not accessible to search tool</li>
+<li>indianexpress.com / newindianexpress.com / thehindu.com / hindustantimes.com / moneycontrol.com / timesofindia (site-targeted searches): blocked — Domains not accessible to the search tool</li>
+<li>https://www.thehindu.com/news/cities/bangalore/greater-bengaluru-authority-receives-over-1500-objections-to-tree-felling-for-hebbal-short-tunnel/article71604304.ece: blocked — WebFetch refused thehindu.com</li>
+<li>https://www.thehindu.com/news/cities/bangalore/ngt-halts-tree-felling-for-hebbal-short-tunnel-project/article71597268.ece: blocked — WebFetch refused thehindu.com</li>
+<li>https://www.business-standard.com/industry/news/bhartiya-urban-alpine-nikoo-homes-9-north-bengaluru-project-126102200853_1.html: blocked — HTTP 403; only seen in search results</li>
+<li>Indian Express / Deccan Herald / Urban Acres / Asianet / Bengaluru Live / Trade Brains lead articles: not_found — Searched by headline; original articles not surfaced in results</li>
+<li>https://www.hindustantimes.com/real-estate/ibm-india-leases-2-83-lakh-sq-ft-of-office-space-in-bengaluru-for-343-crore-over-10-years-101792760720102.html: blocked — WebFetch refused host</li>
+<li>https://www.business-standard.com/industry/news/ibm-india-leases-2-83-lakh-sq-ft-at-bagmane-tech-park-in-bengaluru: blocked — HTTP 403 (URL guessed)</li>
+<li>https://www.deccanherald.com/india/karnataka/bengaluru/b-smile-scales-down-proposed-flyover-cheer-for-indiranagar-4193468: blocked — HTTP 403</li>
+<li>https://www.deccanherald.com/amp/story/india/karnataka/bengaluru/bengaluru-smile-re-tenders-six-flyover-projects-worth-rs-1500-crore-4190719: blocked — HTTP 403</li>
+<li>https://www.deccanherald.com/india/karnataka/bengaluru/traffic-relief-real-estate-gains-the-hidden-dividend-of-proposed-lake-roads-4193383: blocked — HTTP 403</li>
+<li>LiveLawBiz REAT article; Business Standard EMI article; Public TV e-PID article: not_found — not located via search</li>
+<li>https://www.deccanherald.com/india/karnataka/bengaluru/krishna-byre-gowda-blames-mismanaged-metro-sites-for-bengalurus-visual-disfigurement-4045540: blocked — HTTP 403; only search snippet seen, so not reported as a claim</li>
+<li>https://www.reddit.com/r/bangalore/search/: blocked — WebFetch refused reddit.com</li>
+<li>https://old.reddit.com/r/bangalore/new/: blocked — WebFetch refused old.reddit.com</li>
+<li>https://www.youtube.com/results?search_query=bangalore+east+property+whitefield: error — Only footer content returned; no video results (JS-rendered)</li>
+<li>https://www.linkedin.com/search/results/content/: login_required — Sign-in page only</li>
+<li>https://www.deccanherald.com/tags/whitefield: blocked — HTTP 403</li>
+<li>https://deccanherald.com/india/karnataka/bengaluru/bengalurus-thanisandra-rd-sees-67-rise-in-housing-prices-sarjapur-rd-63-in-last-3-yrs-anarock-3457987: blocked — HTTP 403; claim taken from search-result snippet</li>
+<li>https://businessworld.in/article/bengalurus-residential-prices-soar-57-in-5-years-inventory-overhang-hits-record-low-525091: blocked — HTTP 403</li>
+<li>https://websitemedia.anarock.com/media/Bengaluru_Q2_2026_Residential_Market_Viewpoints_b3ab22ff69.pdf: error — PDF unreadable via fetch; overhang figure from search snippet</li>
+<li>https://www.jllhomes.co.in/blogs/plotted-development-in-bengaluru-2025-prices-hotspots-policy-changes-outlook: blocked — HTTP 403</li>
+<li>X (Twitter): Login required for search/timelines; only items surfaced by web search are used.</li>
+<li>Instagram: Login required; not accessed.</li>
+<li>LinkedIn: Login wall for most posts; only publicly indexed posts surfaced by web search.</li>
+<li>Kaveri/IGRS registered transaction data: Per-document search requires captcha/login; no bulk registered-price feed is used.</li>
+<li>Karnataka RERA project search: Interactive form + captcha; RERA numbers are recorded as "Not verified" unless an agent confirms on a publicly reachable page.</li>
+<li>Moneycontrol RSS: HTTP 403 to automated requests (checked 2026-10-15).</li>
+<li>99acres feeds/listings: HTTP 403 to automated requests (checked 2026-10-15).</li>
+<li>Housing.com news feed: HTTP 406 to automated requests (checked 2026-10-15).</li>
+</ul>
+<p><strong>Headlines detected but not verified (leads only — not used as evidence)</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.thehindu.com/news/cities/bangalore/greater-bengaluru-authority-receives-over-1500-objections-to-tree-felling-for-hebbal-short-tunnel/article71604304.ece">Greater Bengaluru Authority receives around 1,600 objections to tree-felling for Hebbal Short Tunnel</a> — thehindu.com, 2026-10-23T21:51:05+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://www.thehindu.com/news/cities/bangalore/multiple-spicejet-flights-delayed-at-bengaluru-airport-passengers-face-hours-of-waiting/article71614947.ece">Multiple SpiceJet flights delayed at Bengaluru airport, leaving passengers wait for several hours</a> — thehindu.com, 2026-10-23T19:24:09+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQWDdHVnJYemtrVy1VQ2ctV0tGWUgtRGp3Mkd4TGRpVEJPaTEteUlZeW5JUEVOcWo3RnBSaFl0QkVsUW9YYTBaX1R3ZkpxRnQtcU9FYmNLeVRGZUhJNlN2a3ZwWGJhMWphNG56bjFObGdsbzA1NE9qVUtSLXZUUnVCQUtZWHFja1dGallmSHV6aXdRbWdjeVhMdUdSQk8xcHB6TW9Sc2hBS2VXSFMwOHpTYVpvRHFHeFgzSW40c3NuNGhFeGJNVklR?oc=5">Husband arrested for murdering wife, dumping body in stormwater drain in Bengaluru</a> — Udayavani, 2026-10-23T10:50:53+05:30 (+1 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://www.thehindu.com/news/national/karnataka/bengaluru-pink-line-metro-opening-approval-expected-within-five-days-blue-line-trial-runs-by-october-end/article71612366.ece">Bengaluru Pink Line Metro opening approval expected within five days; Blue Line trial runs by October-end</a> — thehindu.com, 2026-10-23T10:42:58+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQ0lrdXdqMV9EbVlsTmV5YnN0TjM1aW95TkYxYTR0VTJrVFg0ZUNKYUoweVZNSy1rSHJoREhGMlU4Z1NYSFptZTh6UUFSajZaOFdtNllEdU9DV19UaGx5VFNicXllcUp1cVQ2ejEyNHZVUDdTNUZla1JVYUlHbVJmcG5KVEVUUFl3SWRLTUptRHgzYmRJaWxmdXNTQ0tTbklrSjZtb1EwSmZkazlYOUxDOGxjZUw3WXRoTUxHVFE5WmVWd09FVGJRVlMyaHE2cFJNLXBKbjM3UVJYblhHT2JXemVsTmNsSmRDVk05Zi1JTzhQWTVPV3gtazl5NGtWMEXSAf8BQVVfeXFMUENJa3V3ajFfRG1ZbE5leWJzdE4zNWlveU5GMWE0dFUya1RYNGVDSmFKMHlWTUsta0hyaERIRjJVOGdTWEhabWU4elFBUmo2WjhXbTZZRHVPQ1dfVGhseVRTYnF5ZXFKdXFUNnoxMjR2VVA3UzVGZWtSVWFJR21SZnBuSlRFVFBZd0lkS01KbUR4M2JkSWlsZnVzU0NLU25Ja0o2bW9RMEpmZGs5WDlMQzhsY2VMN1l0aE1MR1RROVplVndPRVRiUVZTMmhxNnBSTS1wSm4zN1FSWG5YR09iV3plbE5jbEpkQ1ZNOWYtSU84UFk1T1d4LWs5eTRrVjBF?oc=5">Namma Metro Phase 3: Karnataka issues third land acquisition notification for Orange Line package</a> — The Hindu, 2026-10-21T19:16:00+05:30 (+1 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://www.thehindu.com/news/cities/bangalore/bengaluru-sewage-overflow-during-rains-causes-mass-fishkill-at-siddapura-lake/article71606198.ece">Bengaluru: Sewage overflow during rains causes mass fishkill at Siddapura lake</a> — thehindu.com, 2026-10-21T13:24:43+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR0Q4OTFvazN1N2lpakhMOWEzcGlIQ3dhQUJYalpyTkUtZko3QlZ4QUNPaHVYLWpFdUhER3hzNjAyblV0QTJ6aVBnTjB4bGx1ZUFyeUNYbVAzUDNvSHdreVJUNjBFOFgyZWhxNEZtLUI5Zkp5NDNNY2lZaVZONXVQeDNtQzFmOGVyYjJvUS1DbU5nRGlJOU1JMDAyUzlJeTNXUWphbDVEcWdaMHNGYU1DV1hwWFZqOURuNzRBaW1jTklkZlExLUdyZkhrSGstcUU5em5GLXFwRE5jLUkyZXkybURLaTVQbHdw0gHuAUFVX3lxTE13VV96TzVnS0pUa25yRDRpdFdaLVJXR0MtTmFwUUZwOVlKOGszeXpLOWVwbGVMcXR4Q0w1TDJ2bWxBend0RWxKS2lHMll2R2ZBakRJXzNUUmJkWmZGejdvMk5nWmxiNlFDZWh0WU0tQnZ2QU8tcEUwTHgtWllidTNKNWZLYm1WSDZNZ0NkUF80a2pKUmdnOHVoQkhlRXBXa25RbmhDZXVyNnM2WDdSU1ZuZ2RRVEFjYXFwazNaN0hORzgzSUpIeDllSzFIVGg3SG1aanhsd0FDeEJIbmo1TW1kMi00QmhNLWJEMThCV1E?oc=5">IBM India leases 2.83 lakh sq ft of office space in Bengaluru for ₹343 crore over 10 years / Real Estate News</a> — Hindustan Times, 2026-10-23T18:59:29+05:30 (+2 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://www.thehindubusinessline.com/economy/agri-business/livestock-sector-estimates-17-drop-in-kharif-maize-output-due-to-drought-in-karnataka-maharashtra/article71616713.ece">Livestock sector estimates 17% drop in kharif maize output due to drought in Karnataka, Maharashtra</a> — thehindubusinessline.com, 2026-10-23T21:59:23+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNlhBNlptQlVwWmVudy1Rdi1rOUxuLVVDSzIxU2RFNkU2THFKMHQzLUJKLWZlUUxlLXlrMlZWZVdxbjdhMXBKWjlyb1BDSXNoUWpxQ0tFX1lWbEp0dEdsSkRYNHRsMDItZkExZVhHSEhDeXg3S0lSTnEwUHRpZnZ3S2FpN1c1VHVsQS13RHI5Y05OeUx5cTNQaGplMnFDQjQzU0dRVHV6X3N5OW9XYmdUclpMLUoyVVV6SEZzUjFFMWVyVXlubTNCa2hPU2hsVnJDUmp6YVZ0cWpXd2c?oc=5">East Bengaluru to drive city’s Next phase of Real Estate Growth: MD of Sanjeevini Group</a> — Deccan Herald, 2026-10-22T14:10:29+05:30 (+1 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbk1ydk5pamlDTE1ZalQzVmRzc2duNmNzUmNJN0NwSS1vRnFEZXVfaGEyeF83amFORWpldDgyU21YTEpBTG8wUTlhbk9IeU04eG9nQ1BPLWJWS09yTUFKMkRZRERRSV9Mc3AyMjNJSHdnSnFUQnoxUVNZWEVYY3dSUDVSRFRyamE1bWRQUE51aXd4dmtneG1YZkxPbVJ6M0tzMVNSbzVqYlc0V3V1WlJ2Tld5OEFjTGhqUWRMTmQzeWJfYjlBTGhKWWlRWkJjcERVWnlNVTBoNNIB5AFBVV95cUxNUUUzcUNOcGxjckVfdlhkX2t5czFLcTNZMWR2M3pSZVh5VzNUU1M2UGh1bS1uVmRzRk5XSWJaV3pJNUVTbldjYU5xeGszd2o4cFhMRHhtUmNYVVVQS0daOGtQY01aYW41bDBVZDdJb2RjcEZoZVlHV0FkSGUzUzBiMzltOXhWU3FsWkpFUG9GNjZaYUdFbEpLeHNlUFBFZjBURHZjdmtzM3RwNklzbVNmVm9SOGk5ZDQzSXZFa19YVWd0bVZaSkJLSzN4VkVPSmJSUjV4TTJGQ2ZCZU55QXVpZXFBZmg?oc=5">Land scarcity drives Bengaluru’s affluent homebuyers towards newer destinations</a> — The New Indian Express, 2026-10-22T08:28:18+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUo1OUd5dDVOaDBlNmZ6OVI5TVlnTlE4MXBNOE40M1JqWVdsVUVfLU42ckRISTQyWTNTZnMzNjN6SllzLV9WM0VLeERCYW9mSGVzMGdpMU5xRTVmRHZmU3BjNGt6amduT3daU3VidzVDOGFhZDl1dklIRFFYVU8ycVlySGJRREhBQmJIdTY5N2IwZktJeHdNZEZ1ejQ1R041V0FWVTAzcHlSU1lMS3drTmpESUFxdmRVV2Z6WkpVSVNrcTQ?oc=5">Bengaluru lawyer shot dead at doorstep over rent dispute;two suspects on the run</a> — Country and Politics, 2026-10-22T02:47:14+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZk10YkdjS2ZKMFNIeldkSU51SWVKV25wUHpvd1RQVjc5dlFISnBMQzRZNmk3UzVXY0dxZ0JsYmxXblhQTmVCU1NqRDFwUWUyb0UyOWVDMXF3ajBSc1ZiSU0wMmMwcDAyWmVLMDJZZEpyWG1aLTMwSkJ5RXhKengyNkNobkYwTGtUd2lUT1pDcnh2bjk4TDgtTGFZbjZROF93WGtFejJpb09mRm92YkdDOW1wWVNzRE9kTVdpR0lVNVIzZTNadUw5OUhtUmVCcVJBa1BvVEZqY0swNlEzaGRSN1dNVTFpY1pTNG13QzNB?oc=5">Prestige Group to Launch ₹40,000 Crore Worth of Homes in H2 FY27: 6 Upcoming Projects Across Sarjapur, Devanahalli and More</a> — Trade Brains, 2026-10-22T17:00:37+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxQV3JWNVoxM3FwN29PMTk3N3UzMTRfMGdQRXl4Q1VicGZSZkFqMDZBVXVwVFZYa1BMdk96X2t4bGtsQklOSTUySXJfeHhhZ3Z3aXFuNk90Y3IyVWVwU1NQUGJ3enBlaDV4Z2dPdmx6d25TcC1rQ1BPT3lBeWlfS2VsVEdpSDlXR1FsT2NPS0NuQUwwWlVhaHVyWnRwcnM?oc=5">Bengaluru GBA Road Plan Raises Concerns Over Lakes</a> — News Karnataka, 2026-10-23T08:39:11+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM3F0MWNaUmRGdEo3QTRrSi0wVGM3Y24zMmJfb3JLODZYZldmb0ctelROMVFac3Q5Q0dEOWM0UHgwLVlQSkRveV9icU1YLTVsZXhOREliZ0I5aEs1cGpXZTZ4VkpjZ2tPUVRWMzlYZXh1VEp2Rkk4QXNSOXpCM3FpMGRjQklNQmZRRUlmaDBIQ2V3UXdYWFFwS3lQUklpTFBzcUpyalhxYV9zbEhlQ05LSDNiQk13X0dCYXRUVWVPVjFWaEhsd0VGLUdxUGF3dk5qR1RRT1NPMTB1SWhGbmlzTC05WXlxTjA1dXfSAe8BQVVfeXFMTkRNc0hBQm1Ha1Zibi11MGJWTzBpMmh5VDdLeFowT051ZS1HVjd5S2FoNUtJV05xcnhYQVFtWjJZa2g5eDc5Vk1yR1NnTnpCd25HOXdZbWR6ZVEyaGtfdUJGeTNVOXduVDRWLTFCdVljazZWTDBGY1VfV3V2MlNReWlSZ0ZOMEJWVjRPYmo5dGRLdzJVTUptQzU1bUpYUXV2QU14MlZyclBPV3h6eV9BM0NicEVBd3Flblk2emlTSTJQUkdFOUFKb0RYcWlvMmZINTVXN0FkcE82LWpQZ2pJdVFoVkR1YURXSzZUd3NOM0k?oc=5">STRR’s 21-km stretch from Hoskote to TN border likely to open partially by Dec</a> — The Times of India, 2026-10-22T20:49:00+05:30 (+1 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxON1dTQk4wV3VQSjJlQ2tPajdoWlNzVWlqUll5dXRfR19Cak1FRnEzdHd6VDJMbXFQYnkzTWZVZlBKMWJfVXllTVV6LV80U0Z2LTJKZmxzRE9qczdZZDNtc1QyM2tKYjk3dm9OX3piOWVFNVpOb2JaSlNPdHBXVUhFbTNsRG5GX2NlSTBlSmV3MlY0TDBabU9lVVlqSUlTWFVGWUttWlNZNEFwcXQ4THdlR0J4c3JfVS04aFZwcTBwMVoyWGx4?oc=5">Bengaluru’s Industrial &amp; Logistics Supply Jumps 73.3%: Check the Top 5 Micro-Markets in Demand</a> — Trade Brains, 2026-10-22T16:00:37+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPNk1pLTVvU2w0TEJpUzVsZU9PV2xyNVBIeHAwZllJMUo1dV9IbXE2eF9YNU5NMGRnZlBwSnNxQzVJS2ZmVGVGY2lMYWtwOFZBbzZJeGxqWHBvbGdubVhGOE01bGJEY1hQVjRQc3phYjNBNEN0UjdVZkNxelhOeEZURXQ3RlNrYUktOXJ5VUJrNEhBbkUwQUpzWmRveEQ1TWcwM28yNXRWVmFIbGI0ZU5qS1dGWdIBugFBVV95cUxNMUpFdS1YbGlpNGJOQ2JlZlItampPLW14SnZ6NEZyV1RWajNLME0yZ2JpbFhPbTdjWkZfMkp6eFlzMkw4cXpEamNGT3QyOGEydy1LVDRZWmJJS0l6Mi1nVlVTTFVEdmtIM19DMmxQakgyeUFaa0VSdXpUb24wbG9PaVZVaXhWdWJMU1JlQ05yWnRBaTlzTGt0RVBTWUxyMHR6WmFHaHRha2Q4bXpQdXBNRDZuNWtkNWczcEE?oc=5">Bengaluru’s KR Puram–Silk Board Metro trial runs by October end</a> — The Indian Express, 2026-10-23T09:43:49+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUHotRndjQWUtVWg4b1AzWlpjYV9CMXRCaFhwNGNBVVpLOFNLU3Q5LVBzNmNWazBMS2NfRmpMWDBBV0F3XzZpRzlKc3YzTllyOWRLWHdPUE9FWWYzSGFGSHRac1llZVFDSkJUZXVuTUZfWThTS1pmVkItY3czNnF6eEZfSkNMaE1lcDZZcmlZam9seEpsS0FMR3dKWkM0WDJDQ192Q1RkX0hPclV6a3F1QVY1dWFKbzVvc2p1MWNpNllXVU9CVzN5QmVMSHBjNXAtMFZNV0Z5QjVzdERCUktqSXNhZGhTMWJhc2RWYk94ZHZER0Y1?oc=5">Namma Metro Blue Line trial run between KR Puram and Marathahalli by October-end: Krishna Byre Gowda</a> — Deccan Herald, 2026-10-22T21:00:20+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMigwJBVV95cUxOT204d2pkQU5pcGJZQjdfX0h0QlZENzBERVVMd3FIQnQwNUE0YWtfQk9RbTctU3pxN054d0NlOGt1S0J5bkpXcUVmczhfWWhwampyZlZWSExxbmNBS3NKSkhoZGJxZ1R2dGlCNS14aUJZcXRfd0NhaTdHNjJmRUlueUVkT0dkSGltQ3poWGV6cE5OdEQ0UVBrc0gtdHEtTWJLZjhMN09kZ1NQYks0U0pzdy1sdkNkNTItbmtSMUdrVDlOSnJJaTFidDF5LUFMbTVnNTNFN01lVnZIQ1BKNXRnSkFiZXU0WlAyUUs0djdrNnZDUWZqa0JUakU1Q1BvblktQndB0gGKAkFVX3lxTE9SNXFIQVp5akRBTDNQQmZ0RWtUd2MtNTgtOFdLV0Q1LUpMS1RoUXBfaC1hUjdGNTdLbkRtc0xwYkpjZVZ1eWVSdnhjZVFrRHRybEE3RUp4V2ZORlNYVE9Vc1hsaFRLZnNMQl8yWE5tblZLMkRFVElhSXd4eGRYam9fb1UwaTlQTjQ3bkEzdmlwM1dSR3c3aU9HRDVBVVNMVkdLQldrNnJtSmdIVHpaM25UTVZaX3ZWcm9yeURIbDNMZ2dNMjhfcTZkal9rLW1MYm43bi1TaXkxVHg5SENFRE1qbG1JR2Q1eUpZcUhCUnFBOGlnbjdTenNfblZkeWVJTG1HMjdlMU5qSWV3?oc=5">Bengaluru Pink Line metro opening approval expected in 5 days</a> — The Hindu, 2026-10-22T20:44:37+05:30</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPQUlWc09UbzZSWW9LekVpdDJEdE85Y0k1bF9pWDVXZU5GclRoYWJ0WHQwZ3g4VmlHY0t5Qlh2Y3RLeHByMDQwUkloS0tsRlhSbWhMU1Y0NldnQ3FBNzJRR3EyR0JodXIwOG1zSGNKWTFKMGhyLWNXa2dKQnNzaHhXSzNQVkdzeGlVUTRfdmFsZXFDYU1vSEFfSXYyc1o5U05UYTFyR3p2akVQeXJUVmtkdEN6d1BGYUhDMnAzT1lUSQ?oc=5">Bengaluru Metro: Pink Line Nears Opening, Blue Line Trials By Oct-End &amp; Orange Line Plans</a> — Curly Tales, 2026-10-23T12:19:01+05:30 (+1 similar)</li>
+<li><a target="_blank" rel="noopener" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQnRhMExBNDMtbTNSdFdfc3ZpazVIS2NaZFh0OVRsOS02YkVvNWZxdlFiSjljYTYyNEMzNkxhZXFzWEN2MURzZmV4UXRQanpNd2ZvMTdaX2daQjNfUHhoQlhnYXpsV2RXcHQwZzdSdkYybDEyaFg4MzE1N1duQ2xBTlVSaTlYbEUzZkRv?oc=5">Bengaluru Metro Pink Line Approval May Come in 5 Days</a> — Urban Acres, 2026-10-23T03:27:06+05:30</li>
+</ul>
+<p>Noise removed: 14 duplicate/syndicated headline copies grouped; 5 repeat stories suppressed; 3 stale or undated stories excluded from 'new'.</p>
+<p><strong>Cited sources</strong></p>
+<table>
+<thead>
+<tr>
+<th>Claim</th>
+<th>Publisher</th>
+<th>Tier</th>
+<th>Published</th>
+<th>Retrieved</th>
+<th>Citation check</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>C-0613f616d7</code></td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+<td>unknown</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-0bea43a758</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.constructionworld.in/transport-infrastructure/aviation-and-airport-infra/bengaluru-metro-blue-line-full-opening-delayed-to-march-2028/96457">Construction World</a></td>
+<td>reputable_media</td>
+<td>2026-08-28</td>
+<td>2026-10-24T06:26:17+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-0e131448e9</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-1210b5bb7e</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-19722d9289</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.freepressjournal.in/business/housing-sales-steady-at-258-lakh-premium-homes-gain-as-ncr-demand-slows-knight-frank-india">Free Press Journal</a></td>
+<td>reputable_media</td>
+<td>2026-10-05</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-1cb6d89872</code></td>
+<td><a target="_blank" rel="noopener" href="https://deccanherald.com/india/karnataka/bengaluru/bengalurus-thanisandra-rd-sees-67-rise-in-housing-prices-sarjapur-rd-63-in-last-3-yrs-anarock-3457987">Deccan Herald</a></td>
+<td>reputable_media</td>
+<td>undated</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>inconclusive</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-241bb00f3d</code></td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a></td>
+<td>reputable_media</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>failed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-283f286775</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/namma-metro-pink-line-underground-and-blue-line-orr-trials-likely-in-november-8239515.html">Oneindia News</a></td>
+<td>reputable_media</td>
+<td>2026-10-19</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-28c1f0d7da</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-2a9edd22e3</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.propnewz.com/blog/bengaluru-new-launches-supply-q3-2026-buyer-2026-10-09">PropNewz</a></td>
+<td>broker_marketing</td>
+<td>2026-10-09</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>⚠ Interested-party claim</td>
+</tr>
+<tr>
+<td><code>C-2e27b18996</code></td>
+<td><a target="_blank" rel="noopener" href="https://realestateasia.com/residential/news/bengaluru-home-prices-rise-10-12-premium-segment-leads-recovery">Real Estate Asia</a></td>
+<td>unknown</td>
+<td>undated</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-2f48e5fdae</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia News</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✅ Corroborated</td>
+</tr>
+<tr>
+<td><code>C-343a440730</code></td>
+<td><a target="_blank" rel="noopener" href="https://indianopinion.org/prestige-group-plans-rs-40000-crore-residential-launches-in-h2-fy27/">Indian Opinion</a></td>
+<td>unknown</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-411bdfdc33</code></td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+<td>unknown</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-42f972ad29</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a></td>
+<td>reputable_media</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:26:17+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-4a9940cbdf</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-set-for-october-launch-after-railway-board-nod-6-stations-to-open-8214721.html">Oneindia</a></td>
+<td>reputable_media</td>
+<td>2026-09-24</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-4f17397ae6</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.nativeplanet.com/news/bengaluru-metro-to-start-trial-runs-on-pink-blue-lines-in-november-commercial-services-will-begin-024871.html">Nativeplanet</a></td>
+<td>unknown</td>
+<td>2026-10-16</td>
+<td>2026-10-24T06:28:16+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-597fc364fa</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a></td>
+<td>reputable_media</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:26:17+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-5f9e0a325d</code></td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a></td>
+<td>reputable_media</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-6190e09f47</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.theweek.in/news/biz-tech/2026/10/21/namma-metro-15-years-bengaluru-transit.html">The Week</a></td>
+<td>reputable_media</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-63d959eeeb</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/traffic-relief-real-estate-gains-the-hidden-dividend-of-proposed-lake-roads-4193383">Deccan Herald</a></td>
+<td>reputable_media</td>
+<td>2026-10-24</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-63da0e11e6</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.constructionworld.in/latest-construction-news/real-estate-news/india-office-absorption-rises-26-per-cent-in-q3/98887">Construction World</a></td>
+<td>reputable_media</td>
+<td>2026-10-16</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-66e8fb1121</code></td>
+<td><a target="_blank" rel="noopener" href="https://urbanacres.in/strr-hoskote-hosur-stretch-may-open-partly-by-december/">Urban Acres</a></td>
+<td>unknown</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✅ Corroborated</td>
+</tr>
+<tr>
+<td><code>C-6a63dc9e4b</code></td>
+<td><a target="_blank" rel="noopener" href="https://urbanacres.in/strr-hoskote-hosur-stretch-may-open-partly-by-december/">Urban Acres</a></td>
+<td>property_portal</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-6c95596cf0</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.newkerala.com/news/a/namma-metro-network-expanded-from-67-km-961-287.htm">IANS via NewKerala</a></td>
+<td>unknown</td>
+<td>2026-10-20</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>inconclusive</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-78502313bc</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.sobha.com/bengaluru/sobha-altair/">Sobha Limited</a></td>
+<td>developer</td>
+<td>undated</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>failed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-790224b500</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth">Outlook Money</a></td>
+<td>reputable_media</td>
+<td>2026-08-20</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-7fe19d6980</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-870f6db802</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth">Outlook Money</a></td>
+<td>reputable_media</td>
+<td>2026-08-20</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-8b47eeb24d</code></td>
+<td><a target="_blank" rel="noopener" href="https://therealtytoday.com/news/residential/prestige-estates-plans-rs-40000-crore-in-residential-launches-for-h2-fy27">Realty Today</a></td>
+<td>broker_marketing</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>⚠ Interested-party claim</td>
+</tr>
+<tr>
+<td><code>C-8ef4040ab2</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.businesstoday.in/amp/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03">Business Today</a></td>
+<td>reputable_media</td>
+<td>2026-07-03</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-9587dba41d</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a></td>
+<td>reputable_media</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-9e12295369</code></td>
+<td><a target="_blank" rel="noopener" href="https://thebengalurulive.com/orr-traffic-relief-minister-orders-removal-of-unneeded-metro-barricades-sets-blue-line-trial-run-targets/">The Bengaluru Live</a></td>
+<td>reputable_media</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>inconclusive</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-9fac0d9c11</code></td>
+<td><a target="_blank" rel="noopener" href="https://websitemedia.anarock.com/media/Bengaluru_Q2_2026_Residential_Market_Viewpoints_b3ab22ff69.pdf">ANAROCK</a></td>
+<td>research_house</td>
+<td>undated</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>inconclusive</td>
+<td>⚠ Interested-party claim</td>
+</tr>
+<tr>
+<td><code>C-a242eba865</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-a2b3505350</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/housing-sales-in-top-seven-cities-rise-3-to-100000-units/97936">Construction World</a></td>
+<td>reputable_media</td>
+<td>undated</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>inconclusive</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-a3f6a53637</code></td>
+<td><a target="_blank" rel="noopener" href="https://swarajyamag.com/news-brief/bengaluru-namma-metro-blue-line-opening-delayed-to-2027-as-civil-works-remain-pending-along-orr-report">Swarajya</a></td>
+<td>reputable_media</td>
+<td>2026-08-16</td>
+<td>2026-10-24T06:28:16+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-a8a0c25292</code></td>
+<td><a target="_blank" rel="noopener" href="https://tradebrains.in/money/prestige-group-to-launch-40000-crore-worth-of-homes-in-h2-fy27-6-upcoming-projects-across-sarjapur-devanahalli-and-more-12693905">Trade Brains</a></td>
+<td>unknown</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-a8b970cc64</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/namma-metro-blue-line-trial-run-between-kr-puram-and-marathahalli-by-october-end-krishna-byre-gowda-4191772">Deccan Herald</a></td>
+<td>reputable_media</td>
+<td>2026-10-22</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-a8bc7e6875</code></td>
+<td><a target="_blank" rel="noopener" href="https://biginfo.in/news/prestige-estates-launches-new-housing-project-in-bengaluru">BigInfo</a></td>
+<td>unknown</td>
+<td>2026-09-28</td>
+<td>2026-10-24T06:26:17+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-b2199cd841</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-b50c9283e0</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.deccanherald.com/india/karnataka/bengaluru/b-smile-scales-down-proposed-flyover-cheer-for-indiranagar-4193468">Deccan Herald</a></td>
+<td>reputable_media</td>
+<td>2026-10-24</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-b9a9d25124</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-bbdf76a1cf</code></td>
+<td><a target="_blank" rel="noopener" href="https://realtypromoo.com/news/sumadhura-belfort-pre-launch-tests-whitefields-mid-premium-demand">RealtyPromoo</a></td>
+<td>unknown</td>
+<td>2026-10-12</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-c0204778c6</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/hebbal-short-tunnel-project-gba-gets-over-1500-objections-to-felling-1128-trees">The News Minute</a></td>
+<td>reputable_media</td>
+<td>2026-10-21</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-c486323024</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-strr-21-km-hoskote-hosur-stretch-may-open-by-december-rob-work-till-march-2027-8241977.html">Oneindia</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-ca1a1e713a</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth">Outlook Money</a></td>
+<td>reputable_media</td>
+<td>2026-08-20</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-cdc501a8c6</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.sattva-whitefield.com/">Sattva Group (project page)</a></td>
+<td>developer</td>
+<td>2026-10-20</td>
+<td>2026-10-24T06:27:08+05:30</td>
+<td>confirmed</td>
+<td>⚠ Interested-party claim</td>
+</tr>
+<tr>
+<td><code>C-db847c8071</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-e54e7b7e0f</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.businesstoday.in/amp/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03">Business Today</a></td>
+<td>reputable_media</td>
+<td>2026-07-03</td>
+<td>2026-10-24T06:29:50+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-eed78ec5b7</code></td>
+<td><a target="_blank" rel="noopener" href="https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-awaits-centre-approval-silk-board-kr-puram-section-targeted-for-july-2027-articleshow-tbs501l">Asianet Newsable</a></td>
+<td>reputable_media</td>
+<td>2026-10-23</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>failed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-f1778ca8ce</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/bengaluru-metro-pink-line-clears-safety-inspection-final-approval-awaited-8230107.html">Oneindia</a></td>
+<td>reputable_media</td>
+<td>2026-10-09</td>
+<td>2026-10-24T06:28:12+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+<tr>
+<td><code>C-f3bd6429c3</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.oneindia.com/bengaluru/namma-metro-pink-line-underground-and-blue-line-orr-trials-likely-in-november-8239515.html">Oneindia</a></td>
+<td>reputable_media</td>
+<td>2026-10-19</td>
+<td>2026-10-24T06:26:43+05:30</td>
+<td>confirmed</td>
+<td>✖ Unverified</td>
+</tr>
+<tr>
+<td><code>C-f7439d0555</code></td>
+<td><a target="_blank" rel="noopener" href="https://www.thenewsminute.com/karnataka/dear-dk-bengaluru-residents-form-human-chains-demand-cancellation-of-flyover-tenders">The News Minute</a></td>
+<td>reputable_media</td>
+<td>2026-10-12</td>
+<td>2026-10-24T06:27:54+05:30</td>
+<td>confirmed</td>
+<td>◑ Single source</td>
+</tr>
+</tbody>
+</table></main></body></html>
