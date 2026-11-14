@@ -1,0 +1,2669 @@
+{
+  "brief_claim_ids": [],
+  "claims": [],
+  "contradictions": [],
+  "coverage": {
+    "east_catalysts_risks": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    },
+    "east_launches_prices": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    },
+    "government_watch": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    },
+    "market_baseline": {
+      "cost_usd": 0.0,
+      "error": "run agent budget exhausted",
+      "ok": false
+    },
+    "metro_watch": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    },
+    "north_south_west": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    },
+    "social_signals": {
+      "cost_usd": 2.0,
+      "error": "timeout",
+      "ok": false
+    }
+  },
+  "feeds": {
+    "failed": [
+      {
+        "reason": "no response",
+        "source": "gnews:Old Madras Road Bengaluru",
+        "url": "https://news.google.com/rss/search?q=Old+Madras+Road+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Marathahalli Bellandur Outer Ring Road",
+        "url": "https://news.google.com/rss/search?q=Marathahalli+Bellandur+Outer+Ring+Road+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Namma Metro BMRCL",
+        "url": "https://news.google.com/rss/search?q=Namma+Metro+BMRCL+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru suburban rail K-RIDE",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+suburban+rail+K-RIDE+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Peripheral Ring Road Bengaluru Business Corridor",
+        "url": "https://news.google.com/rss/search?q=Peripheral+Ring+Road+Bengaluru+Business+Corridor+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Satellite Town Ring Road Bengaluru",
+        "url": "https://news.google.com/rss/search?q=Satellite+Town+Ring+Road+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:BWSSB Cauvery water Bengaluru",
+        "url": "https://news.google.com/rss/search?q=BWSSB+Cauvery+water+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Greater Bengaluru Authority",
+        "url": "https://news.google.com/rss/search?q=Greater+Bengaluru+Authority+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Karnataka RERA",
+        "url": "https://news.google.com/rss/search?q=Karnataka+RERA+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:BDA Bengaluru layout",
+        "url": "https://news.google.com/rss/search?q=BDA+Bengaluru+layout+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru tunnel road",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+tunnel+road+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru second airport",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+second+airport+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:KIADB Bengaluru",
+        "url": "https://news.google.com/rss/search?q=KIADB+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru master plan zoning",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+master+plan+zoning+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru housing sales",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+housing+sales+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru residential launch",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+residential+launch+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru plotted development",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+plotted+development+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru villa project launch",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+villa+project+launch+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru property prices",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+property+prices+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bengaluru rental housing",
+        "url": "https://news.google.com/rss/search?q=Bengaluru+rental+housing+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Devanahalli real estate",
+        "url": "https://news.google.com/rss/search?q=Devanahalli+real+estate+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Hebbal Yelahanka property",
+        "url": "https://news.google.com/rss/search?q=Hebbal+Yelahanka+property+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Hennur Thanisandra",
+        "url": "https://news.google.com/rss/search?q=Hennur+Thanisandra+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Electronic City Bengaluru property",
+        "url": "https://news.google.com/rss/search?q=Electronic+City+Bengaluru+property+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Kanakapura Road Bengaluru",
+        "url": "https://news.google.com/rss/search?q=Kanakapura+Road+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Bannerghatta Road Bengaluru",
+        "url": "https://news.google.com/rss/search?q=Bannerghatta+Road+Bengaluru+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Mysore Road Bengaluru property",
+        "url": "https://news.google.com/rss/search?q=Mysore+Road+Bengaluru+property+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      },
+      {
+        "reason": "no response",
+        "source": "gnews:Tumkur Road Nelamangala",
+        "url": "https://news.google.com/rss/search?q=Tumkur+Road+Nelamangala+when:3d&hl=en-IN&gl=IN&ceid=IN:en"
+      }
+    ],
+    "ok": [
+      "thehindu_bengaluru",
+      "toi_bengaluru",
+      "etrealty_top",
+      "ht_realestate",
+      "businessline_economy",
+      "mint_money",
+      "gnews:Whitefield Bengaluru property",
+      "gnews:Sarjapur Road Bengaluru",
+      "gnews:Varthur Bengaluru",
+      "gnews:Gunjur Bengaluru",
+      "gnews:Panathur Bengaluru",
+      "gnews:Budigere Bengaluru",
+      "gnews:Hoskote real estate",
+      "gnews:KR Puram Bengaluru metro"
+    ]
+  },
+  "illustrations": [],
+  "meta": {
+    "changes": [
+      "Compared with edition 2026-11-11:",
+      "- 0 new claim(s), 0 usable.",
+      "- 0 infrastructure stage change(s)."
+    ],
+    "edition": "2026-11-13",
+    "gates": {
+      "hard_failures": [],
+      "passed": true,
+      "warnings": [
+        "research tasks failed or skipped: east_catalysts_risks, east_launches_prices, government_watch, market_baseline, metro_watch, north_south_west, social_signals",
+        "28 RSS feed(s) failed"
+      ]
+    },
+    "generated_at": "2026-11-14T13:32:15+05:30",
+    "status": "partial",
+    "status_text": "Completed with partial coverage (see Sources and Coverage Gaps).",
+    "window": {
+      "end": "2026-11-13T06:00:00+05:30",
+      "start": "2026-11-10T06:00:00+05:30"
+    }
+  },
+  "model": {
+    "cells": [
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "whitefield",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-9e421472b8"
+            ],
+            "score": 2,
+            "value": 0.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-63e022af4e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "whitefield",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-9e421472b8"
+            ],
+            "score": 2,
+            "value": 0.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-63e022af4e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "whitefield",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-9e421472b8"
+            ],
+            "score": 2,
+            "value": 0.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-63e022af4e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "orr_east",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "orr_east",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "orr_east",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "varthur_gunjur",
+        "factors": {
+          "risk": {
+            "claim_ids": [
+              "C-35080ac748",
+              "C-8188fbb063"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "varthur_gunjur",
+        "factors": {
+          "risk": {
+            "claim_ids": [
+              "C-35080ac748",
+              "C-8188fbb063"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "varthur_gunjur",
+        "factors": {
+          "risk": {
+            "claim_ids": [
+              "C-35080ac748",
+              "C-8188fbb063"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "panathur_balagere",
+        "factors": {
+          "risk": {
+            "claim_ids": [
+              "C-5ffb1c115b"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "panathur_balagere",
+        "factors": {
+          "risk": {
+            "claim_ids": [
+              "C-5ffb1c115b"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": 3.64,
+        "confidence": "Low",
+        "corridor": "panathur_balagere",
+        "factors": {
+          "affordability": {
+            "claim_ids": [
+              "C-5cd668ed74"
+            ],
+            "score": 1,
+            "value": 1.54
+          },
+          "momentum": {
+            "claim_ids": [
+              "C-7c8db9c532"
+            ],
+            "score": 5,
+            "value": 17.08
+          },
+          "risk": {
+            "claim_ids": [
+              "C-5ffb1c115b"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank": 4,
+        "rank_status": "Ranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [
+            "C-7c8db9c532"
+          ],
+          "reason": "1 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": null
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "sarjapur_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e"
+            ],
+            "score": 2,
+            "value": 0.4
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "sarjapur_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e"
+            ],
+            "score": 2,
+            "value": 0.4
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": 3.5,
+        "confidence": "Low",
+        "corridor": "sarjapur_road",
+        "factors": {
+          "affordability": {
+            "claim_ids": [
+              "C-529e991d12"
+            ],
+            "score": 3,
+            "value": 1.09
+          },
+          "connectivity": {
+            "claim_ids": [
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e"
+            ],
+            "score": 2,
+            "value": 0.4
+          },
+          "momentum": {
+            "claim_ids": [
+              "C-2e2f581f04",
+              "C-b98c18d7ae"
+            ],
+            "score": 5,
+            "value": 17.89
+          }
+        },
+        "property_type": "apartment",
+        "rank": 5,
+        "rank_status": "Ranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [
+            "C-2e2f581f04",
+            "C-b98c18d7ae"
+          ],
+          "reason": "1 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": null
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "budigere_cross",
+        "factors": {},
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "budigere_cross",
+        "factors": {},
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "budigere_cross",
+        "factors": {},
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kr_puram_hoskote",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-017bad3171",
+              "C-07d1a56918",
+              "C-370fd4384e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 2.4
+          },
+          "risk": {
+            "claim_ids": [
+              "C-b2199cd841"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kr_puram_hoskote",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-017bad3171",
+              "C-07d1a56918",
+              "C-370fd4384e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 2.4
+          },
+          "risk": {
+            "claim_ids": [
+              "C-b2199cd841"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kr_puram_hoskote",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-017bad3171",
+              "C-07d1a56918",
+              "C-370fd4384e",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 4,
+            "value": 2.4
+          },
+          "risk": {
+            "claim_ids": [
+              "C-b2199cd841"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "east",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hennur_bagalur",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e",
+              "C-9e421472b8",
+              "C-b8d7fc339a",
+              "C-c3a64cac00"
+            ],
+            "score": 3,
+            "value": 1.2
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hennur_bagalur",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e",
+              "C-9e421472b8",
+              "C-b8d7fc339a",
+              "C-c3a64cac00"
+            ],
+            "score": 3,
+            "value": 1.2
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hennur_bagalur",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e",
+              "C-9e421472b8",
+              "C-b8d7fc339a",
+              "C-c3a64cac00"
+            ],
+            "score": 3,
+            "value": 1.2
+          },
+          "momentum": {
+            "claim_ids": [
+              "C-1cb6d89872",
+              "C-d72298949f"
+            ],
+            "score": 5,
+            "value": 18.56
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [
+            "C-1cb6d89872",
+            "C-d72298949f"
+          ],
+          "reason": "1 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hebbal_yelahanka",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.3
+          },
+          "risk": {
+            "claim_ids": [
+              "C-42f972ad29",
+              "C-baac0723bf",
+              "C-c0204778c6"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hebbal_yelahanka",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.3
+          },
+          "risk": {
+            "claim_ids": [
+              "C-42f972ad29",
+              "C-baac0723bf",
+              "C-c0204778c6"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "hebbal_yelahanka",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-450f9e7f3e",
+              "C-67c107e830",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.3
+          },
+          "risk": {
+            "claim_ids": [
+              "C-42f972ad29",
+              "C-baac0723bf",
+              "C-c0204778c6"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": 4.11,
+        "confidence": "Low",
+        "corridor": "devanahalli_airport",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-41deada7da",
+              "C-5c4f32c303",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 5,
+            "value": 3.0
+          },
+          "employment": {
+            "claim_ids": [
+              "C-338ab10046",
+              "C-6bb5d4338d",
+              "C-a8d96a2c50"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-0ffd04d79c",
+              "C-d44b0425ef"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "plot",
+        "rank": 2,
+        "rank_status": "Ranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": null
+      },
+      {
+        "attractiveness": 4.11,
+        "confidence": "Low",
+        "corridor": "devanahalli_airport",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-41deada7da",
+              "C-5c4f32c303",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 5,
+            "value": 3.0
+          },
+          "employment": {
+            "claim_ids": [
+              "C-338ab10046",
+              "C-6bb5d4338d",
+              "C-a8d96a2c50"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-0ffd04d79c",
+              "C-d44b0425ef"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "villa",
+        "rank": 3,
+        "rank_status": "Ranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": null
+      },
+      {
+        "attractiveness": 4.11,
+        "confidence": "Low",
+        "corridor": "devanahalli_airport",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-41deada7da",
+              "C-5c4f32c303",
+              "C-67c107e830",
+              "C-6eb9b59f59",
+              "C-7f37f0b82e"
+            ],
+            "score": 5,
+            "value": 3.0
+          },
+          "employment": {
+            "claim_ids": [
+              "C-338ab10046",
+              "C-6bb5d4338d",
+              "C-a8d96a2c50"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-0ffd04d79c",
+              "C-d44b0425ef"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "apartment",
+        "rank": 1,
+        "rank_status": "Ranked",
+        "region": "north",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": null
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "electronic_city",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-240547e005",
+              "C-74b65fbcb2",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90",
+              "C-e6682a2b50"
+            ],
+            "score": 3,
+            "value": 1.1
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "electronic_city",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-240547e005",
+              "C-74b65fbcb2",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90",
+              "C-e6682a2b50"
+            ],
+            "score": 3,
+            "value": 1.1
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "electronic_city",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-240547e005",
+              "C-74b65fbcb2",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90",
+              "C-e6682a2b50"
+            ],
+            "score": 3,
+            "value": 1.1
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "bannerghatta_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-2c2b18377d",
+              "C-6eb9b59f59",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-b8d7fc339a",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.75
+          },
+          "risk": {
+            "claim_ids": [
+              "C-88ab1efd9e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "bannerghatta_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-2c2b18377d",
+              "C-6eb9b59f59",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-b8d7fc339a",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.75
+          },
+          "risk": {
+            "claim_ids": [
+              "C-88ab1efd9e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "bannerghatta_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-2c2b18377d",
+              "C-6eb9b59f59",
+              "C-960c385f69",
+              "C-a742864100",
+              "C-b8d7fc339a",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.75
+          },
+          "risk": {
+            "claim_ids": [
+              "C-88ab1efd9e"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kanakapura_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-906f62e9af",
+              "C-e0502b1800",
+              "C-e3657ddd6b"
+            ],
+            "score": 1,
+            "value": 0.1
+          },
+          "risk": {
+            "claim_ids": [
+              "C-f7439d0555"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kanakapura_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-906f62e9af",
+              "C-e0502b1800",
+              "C-e3657ddd6b"
+            ],
+            "score": 1,
+            "value": 0.1
+          },
+          "risk": {
+            "claim_ids": [
+              "C-f7439d0555"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "kanakapura_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-906f62e9af",
+              "C-e0502b1800",
+              "C-e3657ddd6b"
+            ],
+            "score": 1,
+            "value": 0.1
+          },
+          "risk": {
+            "claim_ids": [
+              "C-f7439d0555"
+            ],
+            "score": 4,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "south_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-41deada7da",
+              "C-450f9e7f3e",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.35
+          },
+          "risk": {
+            "claim_ids": [
+              "C-3182777830",
+              "C-55ac794229",
+              "C-d483037bf9"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "south_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-41deada7da",
+              "C-450f9e7f3e",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.35
+          },
+          "risk": {
+            "claim_ids": [
+              "C-3182777830",
+              "C-55ac794229",
+              "C-d483037bf9"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "south_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-0e60934995",
+              "C-265e562d8b",
+              "C-3fc3628df2",
+              "C-41deada7da",
+              "C-450f9e7f3e",
+              "C-6b46d4e6cc"
+            ],
+            "score": 4,
+            "value": 2.35
+          },
+          "risk": {
+            "claim_ids": [
+              "C-3182777830",
+              "C-55ac794229",
+              "C-d483037bf9"
+            ],
+            "score": 2,
+            "value": 1.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "south",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "mysore_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-960c385f69",
+              "C-9e421472b8",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-43c5c656b4",
+              "C-49064aaa62",
+              "C-4c7bc849ee",
+              "C-cd0cacc4d9",
+              "C-ed5c42a42c"
+            ],
+            "score": 1,
+            "value": 2.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "mysore_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-960c385f69",
+              "C-9e421472b8",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-43c5c656b4",
+              "C-49064aaa62",
+              "C-4c7bc849ee",
+              "C-cd0cacc4d9",
+              "C-ed5c42a42c"
+            ],
+            "score": 1,
+            "value": 2.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "mysore_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-960c385f69",
+              "C-9e421472b8",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 4,
+            "value": 1.5
+          },
+          "risk": {
+            "claim_ids": [
+              "C-43c5c656b4",
+              "C-49064aaa62",
+              "C-4c7bc849ee",
+              "C-cd0cacc4d9",
+              "C-ed5c42a42c"
+            ],
+            "score": 1,
+            "value": 2.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 2 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "tumkur_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-906f62e9af",
+              "C-960c385f69",
+              "C-9e421472b8"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "tumkur_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-906f62e9af",
+              "C-960c385f69",
+              "C-9e421472b8"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "tumkur_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-411c3a5eb7",
+              "C-67c107e830",
+              "C-7f37f0b82e",
+              "C-906f62e9af",
+              "C-960c385f69",
+              "C-9e421472b8"
+            ],
+            "score": 4,
+            "value": 1.6
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "magadi_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "magadi_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "magadi_road",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "west_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "west_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "west_core",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-41deada7da",
+              "C-bf7e756acb",
+              "C-c937c10493"
+            ],
+            "score": 2,
+            "value": 0.5
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "west",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "strr",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "strr",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "strr",
+        "factors": {
+          "connectivity": {
+            "claim_ids": [
+              "C-960c385f69",
+              "C-a742864100",
+              "C-bb6cf07b90"
+            ],
+            "score": 3,
+            "value": 1.0
+          }
+        },
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 1 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "prr_bbc",
+        "factors": {},
+        "property_type": "plot",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "prr_bbc",
+        "factors": {},
+        "property_type": "villa",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      },
+      {
+        "attractiveness": null,
+        "confidence": "Low",
+        "corridor": "prr_bbc",
+        "factors": {},
+        "property_type": "apartment",
+        "rank_status": "Unranked",
+        "region": "peripheral",
+        "scenarios": {
+          "evidence_claim_ids": [],
+          "reason": "0 independent appreciation source group(s); need 2",
+          "status": "Insufficient evidence to estimate"
+        },
+        "strong_evidence_share": 0.0,
+        "unranked_reason": "only 0 of 6 factors evidenced (need 3)"
+      }
+    ],
+    "price_medians": {
+      "unknown_basis|analyst_estimate": 9931
+    }
+  },
+  "projects": [],
+  "recheck": {
+    "agent_error": null,
+    "calc_errors": [],
+    "downgraded": [],
+    "links_checked": 0,
+    "links_unreachable": [],
+    "reviewed": 0,
+    "targets": 0
+  },
+  "stage_changes": [],
+  "stories": [
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T21:47:23+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-dbc468a096",
+      "title": "Tejasvi Surya disputes Karnataka’s metro funding claims, says Centre bears 53% of project cost",
+      "url": "https://www.thehindu.com/news/national/karnataka/tejasvi-surya-disputes-karnatakas-metro-funding-claims-says-centre-bears-53-of-project-cost/article71694015.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T10:51:18+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-44a207e7c4",
+      "title": "GAIL proposes ₹123-crore waste-to-biogas plant at KCDC site in Bengaluru",
+      "url": "https://www.thehindu.com/news/cities/bangalore/gail-proposes-123-crore-waste-to-biogas-plant-at-kcdc-site-in-bengaluru/article71690616.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T09:21:18+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-3d916c80ed",
+      "title": "Three Namma Metro Pink Line stations in Bengaluru to be renamed",
+      "url": "https://www.thehindu.com/news/national/karnataka/three-namma-metro-pink-line-stations-to-be-renamed/article71691029.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T22:54:41+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-67c19d2203",
+      "title": "Bengaluru taxi unions oppose Vietnamese private electric taxi aggregator’s entry into Karnataka",
+      "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-taxi-unions-oppose-vietnamese-private-electric-taxi-aggregators-entry-into-karnataka/article71690993.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T21:34:41+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-3e17411dc7",
+      "title": "Bengaluru police arrest 34 in citywide drug crackdown; narcotics worth ₹12.61 crore seized",
+      "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-police-arrest-34-in-citywide-drug-crackdown-narcotics-worth-1261-crore-seized/article71688932.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T21:29:28+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "north"
+      ],
+      "stale_flags": [],
+      "story_id": "S-e91dabc9e9",
+      "title": "Hebbal Short tunnel project threatens green corridor supporting 199 bird species: Study",
+      "url": "https://www.thehindu.com/news/cities/bangalore/hebbal-short-tunnel-project-threatens-green-corridor-supporting-199-bird-species-study/article71690025.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T21:03:04+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-2e95f586dc",
+      "title": "Bengaluru: Students to take public transport awareness campaign to metro stations",
+      "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-students-to-take-public-transport-awareness-campaign-to-metro-stations/article71690404.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T19:46:00+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-ebec2822a1",
+      "title": "Bengaluru: Man held for renting, mortgaging cars; 12 cars worth ₹1.2 crore seized",
+      "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-man-held-for-renting-mortgaging-cars-12-cars-worth-12-crore-seized/article71688899.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T17:50:05+05:30",
+      "publishers": [
+        "The Hindu",
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-066bfd18e6",
+      "title": "Karnataka bears 84% of Bengaluru metro project costs, seeks greater Centre funding",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWUZRbDZjVXZ0bkZOUUI3bmhKNVpjVWNKbmdyUGRKZDNqZTlzRE9sSGJHbUwxVlc0Y3hLMi1PcVFyZ2IxbTBfQjZVQXY4U0lPYmxsZk5VUGdnOGFRaEFkekI3UUItendyV0h4WngyaDJrRXVITEUzMEd2ay1ERTAzWTRLRGJYWTdjenVxX2c0UG9hRE85RVhhQ0tXTGdYX3haeFFYT2UtN20zZTZBVWt6a3VpQm5jbng4TDlHcjdMTk1YczJfS2JvbUJzbGhWTzBwLUhPcnZYVXlrTGJJTkVxWVJzQdIB6gFBVV95cUxNSnRKRTQtcDlQbDVMVFhmWDRxNGJkYmo3eWE1LUVUTDFKR09XUm5BY1BxYUNEYzU3ODc2bXJEU1YxQUNJcHEzcXJGQ1d2UmlJbHd1MTYyWWo2VzFxdFJzbHZFcl81N29iYTlzTVpiVzNzSG9EbkFfXy1Nb0piSjNGOXBuWkJXcVMxdFluRHhZMks3Q29hTGRBQzl0YURDWm9Mb2Vad0VOTlBQVjAzZVliQUpudEhkQnYwX1Z5QWdKQ09kUzRHb05DOHQzMTA1UllmUlMzNjRVWVdBSmQycFVwX2hsdE1TRDJDNmc?oc=5"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T19:25:11+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "west"
+      ],
+      "stale_flags": [],
+      "story_id": "S-63284cd25a",
+      "title": "Passenger jumps onto track at Vijayanagar Metro station; Purple Line services briefly disrupted",
+      "url": "https://www.thehindu.com/news/cities/bangalore/passenger-jumps-onto-track-at-vijayanagar-metro-station-purple-line-services-briefly-disrupted/article71686195.ece"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T19:19:08+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-ad95a66095",
+      "title": "Policy to promote growth of civil aviation in Karnataka to be placed before next meeting of State Cabinet for clearance",
+      "url": "https://www.thehindu.com/news/national/karnataka/policy-to-promote-growth-of-civil-aviation-in-karnataka-to-be-placed-before-next-meeting-of-state-cabinet-for-clearance/article71685980.ece"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T15:36:47+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "north"
+      ],
+      "stale_flags": [],
+      "story_id": "S-1008000d59",
+      "title": "Strict no-parking, double Cobra Beat deployment on alternative routes to ease Hebbal traffic",
+      "url": "https://www.thehindu.com/news/cities/bangalore/strict-no-parking-double-cobra-beat-deployment-on-alternative-routes-to-ease-hebbal-traffic/article71685548.ece"
+    },
+    {
+      "novelty": "update",
+      "published_at": "2026-11-10T11:59:04+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-70fbd39dfd",
+      "title": "Open letter raises objections to proposed reduction of lake, stormwater drain buffers across Karnataka",
+      "url": "https://www.thehindu.com/news/cities/bangalore/open-letter-raises-objections-to-proposed-reduction-of-lake-stormwater-drain-buffers-across-karnataka/article71682558.ece"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-09T22:19:05+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "outside_window"
+      ],
+      "story_id": "S-b0e053031c",
+      "title": "Karnataka High Court issues guidelines to BMRCL for ensuring access to remaining portion of properties acquired for metro project",
+      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-high-court-issues-guidelines-to-bmrcl-for-ensuring-access-to-remaining-portion-of-properties-acquired-for-metro-project/article71683078.ece"
+    },
+    {
+      "novelty": "update",
+      "published_at": "2026-11-09T21:26:45+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "outside_window"
+      ],
+      "story_id": "S-07c6062e06",
+      "title": "Bengaluru: Shivakumar announces 50% cut in guidance value for regularisation of BDA sites",
+      "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-shivakumar-announces-50-cut-in-guidance-value-for-regularisation-of-bda-sites/article71682832.ece"
+    },
+    {
+      "novelty": "update",
+      "published_at": "2026-11-09T21:12:56+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "north"
+      ],
+      "stale_flags": [
+        "outside_window"
+      ],
+      "story_id": "S-7eaf79c902",
+      "title": "Traffic will not be halted for Hebbal elevated corridor work: Karnataka Chief Minister",
+      "url": "https://www.thehindu.com/news/cities/bangalore/traffic-will-not-be-halted-for-hebbal-elevated-corridor-work-karnataka-chief-minister/article71683343.ece"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-09T20:36:54+05:30",
+      "publishers": [
+        "thehindu.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "outside_window"
+      ],
+      "story_id": "S-9f9f079b64",
+      "title": "Bengaluru Customs seizes 36.75 kg of hydroponic ganja worth ₹12.86 crore in three operations",
+      "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-customs-seizes-3675-kg-of-hydroponic-ganja-worth-1286-crore-in-three-operations/article71683142.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": null,
+      "publishers": [
+        "timesofindia.indiatimes.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "undated"
+      ],
+      "story_id": "S-a6c09a633e",
+      "title": "This Children’s Day, let the kids call the shots",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/this-childrens-day-let-the-kids-call-the-shots/articleshow/135766589.cms"
+    },
+    {
+      "novelty": "new",
+      "published_at": null,
+      "publishers": [
+        "timesofindia.indiatimes.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "undated"
+      ],
+      "story_id": "S-0d0945b5a8",
+      "title": "Karnataka sets Rs 7.5 lakh crore investment target for 2027-30; Global Investors Meet from April 20",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/karnataka-sets-rs-7-5-lakh-crore-investment-target-for-2027-30-global-investors-meet-from-april-20/articleshow/135780324.cms"
+    },
+    {
+      "novelty": "new",
+      "published_at": null,
+      "publishers": [
+        "timesofindia.indiatimes.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [
+        "undated"
+      ],
+      "story_id": "S-bc82725379",
+      "title": "Like waste, you can soon hand over used cooking oil to collectors, Karnataka minister UT Khader says",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/like-waste-you-can-soon-hand-over-used-cooking-oil-to-collectors-karnataka-minister-ut-khader-says/articleshow/135780261.cms"
+    },
+    {
+      "novelty": "new",
+      "published_at": null,
+      "publishers": [
+        "timesofindia.indiatimes.com"
+      ],
+      "regions": [
+        "north"
+      ],
+      "stale_flags": [
+        "undated"
+      ],
+      "story_id": "S-a841fc22c8",
+      "title": "Hebbal tunnel alignment threatens 92 tree & 199 bird species, finds rapid environmental impact assessment by Azim Premji University",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/hebbal-tunnel-alignment-threatens-92-tree-199-bird-species-finds-rapid-environmental-impact-assessment-by-azim-premji-university/articleshow/135780169.cms"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T11:11:07+05:30",
+      "publishers": [
+        "hindustantimes.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-c85775fe25",
+      "title": "Karnataka homebuyers await possession in 3,145 incomplete projects as developers miss deadlines, KRERA data shows",
+      "url": "https://www.hindustantimes.com/real-estate/karnataka-homebuyers-await-possession-in-3-145-incomplete-projects-as-developers-miss-deadlines-krera-data-shows-101794374620991.html"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T18:28:37+05:30",
+      "publishers": [
+        "thehindubusinessline.com"
+      ],
+      "regions": [
+        "south"
+      ],
+      "stale_flags": [],
+      "story_id": "S-4222b9916f",
+      "title": "PM Modi to inaugurate 7.5-km Pink Line stretch, flag off Bengaluru-Mangaluru Vande Bharat",
+      "url": "https://www.thehindubusinessline.com/economy/logistics/pm-modi-to-inaugurate-75-km-pink-line-stretch-flag-off-bengaluru-mangaluru-vande-bharat/article71693826.ece"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T11:40:15+05:30",
+      "publishers": [
+        "livemint.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-d6abe36804",
+      "title": "Gold, silver prices today, 12 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore",
+      "url": "https://www.livemint.com/money/gold-24k-22k-18k-999-fine-silver-prices-today-12-november-check-retail-rates-delhi-mumbai-bangalore-coimbatore-chennai-11794462245516.html"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-12T08:34:00+05:30",
+      "publishers": [
+        "The New Indian Express"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-6f70b191ba",
+      "title": "Bengaluru: Firecrackers land pregnant woman in ICU",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUd1UXJ5VDlGdzRZazMxSjh4b2Y5N1VuZUYxZ2lpcUxDY1VXbXNkUGU2aUYzOUo5Y3ZHZWVGdGhsWFRYYzhSbV9kcFVOaV9GSHBSeXZpbWotbkMxZWRVckswamNfMktkS005dlhTbTZEaDNvdXM5b2wwekNhdFlNVy1kZ2JxNmFEV18teGxmZEJ5Tlp0MUxTZTh2Ymo5bkpfNXZ4enFGcVd5V3lqZHZycWRXa2dVVFF6aGpHci1B0gG-AUFVX3lxTE5tR3VRcnlUOUZ3NFlrMzFKOHhvZjk3VW5lRjFnaWlxTENjVVdtc2RQZTZpRjM5SjljdkdlZUZ0aGxYVFhjOFJtX2RwVU5pX0ZIcFJ5dmltai1uQzFlZFVySzBqY18yS2RLTTl2WFNtNkRoM291czlvbDB6Q2F0WU1XLWRnYnE2YURXXy14bGZkQnlOWnQxTFNlOHZiajluSl81dnh6cUZxV3lXeWpkdnJxZFdrZ1VUUXpoakdyLUE?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T16:00:14+05:30",
+      "publishers": [
+        "Moneycontrol.com"
+      ],
+      "regions": [
+        "east",
+        "north"
+      ],
+      "stale_flags": [],
+      "story_id": "S-7fae7c6bfa",
+      "title": "Bengaluru Metro’s Hebbal-Sarjapur corridor deadline pushed to 2033 as Phase 3A awaits Centre’s nod",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMEhQNV9rem9ETmJtRF9Fbktnc19yaW9seUJQQW9PTTZYRFB0Q1Y1dnJ6MTRJdVVZYWd3SEhwV2tRV2tEU3BuUGdLY245WXotVERENFVndEppeHZoY3ByMHBpcXhJZTBQTEV1X1ozRm1jTzUtWVFHN2JTRWlCTTE2S2ZHdkJWX1lUdFVuUDFHUlduekNHLTM3UFNpeDNrb3NoUDNpTFFjNUZxTnQxZEllS1dKNjNkeVZxbWtwTnhCdGc4ZmtGbWxVNENmSUwzQXN4a25kb2c0SVI3MURyaGl4V1FPeTctdGPSAewBQVVfeXFMT0JJOENwczVBZmxraVE5XzlseUU3ZFRibXk4SGp2OVNBdVY1OVFfY1RfbndacXl6blFDZGNTT2RuWFlfUkRmRkhsaVFWZzJzZzJnMjA2Z2tzTzhZUktyelVuc0JEZHMxempZMHdiRGE1TGYyV092cFJIejNCN2dmQjhyWDdZYlliWGZzVUJSXzFYcm1zVDYxTFhjX0FKYW1iaEY2OFpidl9SRnoyNW5XeVBINkg3ams1LWtBdDN6bGw1WVJxalNfVlVxMlp6cDNmOU1NVHZWZzVjN0lxeFk2UmRRRlduSEowV0ZWY0s?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T15:27:52+05:30",
+      "publishers": [
+        "Deccan Herald"
+      ],
+      "regions": [
+        "south"
+      ],
+      "stale_flags": [],
+      "story_id": "S-56c3b7515b",
+      "title": "Bengaluru's Bannerghatta Road metro will start public service on Nov 14: Minister",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNc2JqN2M4ZlRXX2R3bkQ3eWY2a1ZkbU9Da2NUaDZEWnJBZm02c3hQeGp5YlNhMzdPLWViMFFRajA4U0pxcFJiLVBYc2VRa0xZay14eFJaQnVKMGFQN2xFVktiTHVHVnQxbG93VDlpNmk0MGRxZUxnS0FpdmhQS21tT2ZsNjRvY2NpNlFlSzk1R1BNYTh1TFZOUFktMUVia0hqVE9CeWp1ZTdoMlNPVjNFMlJDQmd0ZFpjTmN2Q0dLeml1Z3AybUlEU2wtc2R2dk5BTjhnOS14T1Y3UQ?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T22:22:18+05:30",
+      "publishers": [
+        "Moneycontrol.com"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-def317273f",
+      "title": "Bengaluru Metro: Krishna Byre Gowda targets 170-km network in 18 months, eyes 400-500 km in long term",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3U0TEpLck8wWnJQYlh5RzBRVmF2eHczaFVUaHRPRzBSLVlTN3RlRXh5bjFyNjFteUYyYkpxVGkyaXhfUERodkVwbEVpczFqOUE4cVBIU1d2aW5uUUdlcmVPbUJSSEEzWWRnRWc4ek4wUkUtcmpfQ3A2REJPWGtuNlVQYy01dGpQR1ozZzFoeXhVaGtfV1REQ0xmU0hyX19JYnE5RGF1UnVKb2JCX1pndjE2Q1N2RWlmeEFCTGhsUW9iZU84N3JObTdVMGgxc0Z5QXMtbTh2SzVPNlpKcnFJNVJYYzRGbUsx0gHuAUFVX3lxTFB4NTd0eDhybWMyUDJGbV83VlZHQXZOTWRUNEdZUzV3US1EQmZLN0JkaHdnMk13NWdnRThvZF80Vm9Zb2VUeHdIdjZDUDVXM3AxNmJqNDA5bGJNdVJYZkROb2h2c0FPWklhemJRZ09DSk9qV3dhV1RzenJBbTEtWWUzYXd3YTVoczBmRHRBT1lheXlsd0VHTlcxNndJbXQ2RnotemlKbkxORmNqLVEyTXl1Q04zSFNteG42T1V4OV8xVDhleWFIMUdHWWltY2ZmN1RMeGctekdQRy1lYV9RRlZaMXdrVV9WMHoyTEVqS3c?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T18:32:01+05:30",
+      "publishers": [
+        "The Economic Times"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-3ccde16a62",
+      "title": "PM Modi to open Pink Line stretch, taking Bengaluru metro network past 100 km",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWEhYSHVRMGZ6bGQwa2JUZzhMaEFMNi1vRFdtc0tyRkxzREpmbEhTSHBoNnhsQ2dUSU42LTBRY3doZVl6YjdnYWNiQWRQMWdGUHFBY2NEbFN3RFYyQy15Wlg2MDVERVdabW9XejNVLVhPeUJXRFlPZFN4aXlkWVdiZWN1bTRPLVpWZllPeDRaZDc4bDM4UTVWVUZrcElfamlDVThMemhWQk5ySlRHbWJpNlhpQ0FYSHY0V01zUGZUTGdvYkU5MGdiSldWQ2pUdmtQcjhPM3RTYmNicDdvWkpvQ2tEWFA2VWxjXy1maUJULVcyVl9maUHSAfsBQVVfeXFMUFYwMXZDN3I3WUZfaFRFT2NId3ZMalVzN1JfZUNVbTdmRjV2WGNfUUZ2QVRMV1ZTQ2JhNTZOb1ljNUVSaTd1bE5pdFE3aWtIRUtLdkp5anhtTWMxSlBPSmdycXQtU0NrZHJDMDVwbmg3WmdMT1FjX24yMzlzYkFQWUozM243QkdNUjhzc0xUanFMUHU5Rk83bC1fVGlHdFkwcjhRRm9qSjZGeG4xRzAwaWJlVjBMVzlEbXU2eEZqM1BOdEZEWWJHYjdrNHd3S1Aza2Y4VjVPV1dBLTFKaDR1MEQ4Tm9yay1lbFJWTHdVZ0VpMmVsaWR1UUcwVkU?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T18:59:01+05:30",
+      "publishers": [
+        "The Hindu"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-9e793845df",
+      "title": "Bengaluru fintech firm reports ₹31.43-crore cyber fraud involving 301 unauthorised transactions",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQ3pJck4wbmQ3a0tlMnp1Z0RFVnhPR1c5aGpibThoeDJoRnQ2UzhXcnFVWjhETGhvTEdYd21MRXlqaWE1MWhWUGdhT00xa0Rqcy03NkRBak1wc0dXR3pKZmZsWGZhaHNSenNYRXU4c2xyREtNbmpXbWhROHBvaWIzRTJZYUMySVdqdVUyUFZWeHI5dzd5UElIMUhPZzU3SXhaUTZKV3VYTmhPMTBkTktDeWZrM3ByVDBJbGExZ1E1VmRjYjdOakJaTVRGVDE5N1poc2xOM0VWbUpUSU5iX1ZQOXNCbWwtSWJvS2ZHQjZGb0tXeTBpTi12d2xuQdIB-wFBVV95cUxPQ3pJck4wbmQ3a0tlMnp1Z0RFVnhPR1c5aGpibThoeDJoRnQ2UzhXcnFVWjhETGhvTEdYd21MRXlqaWE1MWhWUGdhT00xa0Rqcy03NkRBak1wc0dXR3pKZmZsWGZhaHNSenNYRXU4c2xyREtNbmpXbWhROHBvaWIzRTJZYUMySVdqdVUyUFZWeHI5dzd5UElIMUhPZzU3SXhaUTZKV3VYTmhPMTBkTktDeWZrM3ByVDBJbGExZ1E1VmRjYjdOakJaTVRGVDE5N1poc2xOM0VWbUpUSU5iX1ZQOXNCbWwtSWJvS2ZHQjZGb0tXeTBpTi12d2xuQQ?oc=5"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T20:29:58+05:30",
+      "publishers": [
+        "Swarajya"
+      ],
+      "regions": [
+        "east"
+      ],
+      "stale_flags": [],
+      "story_id": "S-117641c9ab",
+      "title": "Blue Line Metro Trial Operations Move Closer To Mainline Testing With Runs From Byappanahalli To KR Puram",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYXl0dFhhVE5idUJIUWU1cDJRLW5QVjg3VVl2NjlyaDNfTGxiSjNKUUZHM1FCNEJwMEc3R01XOFVZM0NlZEkyRGxsS0hpbE5UTWNkR3RzVVJOVzhMQkRnOWY0bVFpRXpOcHU4UEt0bjZRc1ZrSmN1cEdubkJjVDQ4ZnFiNUFnc0Etd0pyUHlkckJORHRIZ2ljdFZhaTdaT1BCbERzTHZKRDBuU1hzWk1DNWtITVNSWkVtNHQzcVZaRXJNUnhoNFEtRzNYNENxSkFsa1NEdTJGQdIB5wFBVV95cUxNZVJpdVJlRHc5SUkwRmY2TTBNYmZSejhhTmRUYTBXS0paemphQ2lJZWhSX29aR28xZFljUHdiU3dnTFVEak5SMVRtZWk3Nzd1MlhDUEM1WUpSaEtzYWJyRXNsRnBhMm5oRkJZaFg4QlpqM3BMM3ctR2ZBYVpEcU91TExHUGxVaXdzY2pNWGtQaURySW5YSVRaSi1jaEtodHZxaEJXdXJtSHB4LTJvendBRFJXUEhaNXI0emM3N2VheFhidU5YTUxFdWZ3M1lmeHhHMXUyYzg2d1dsOFpEUEZLWno4WUFNQVU?oc=5"
+    },
+    {
+      "novelty": "update",
+      "published_at": "2026-11-10T23:25:13+05:30",
+      "publishers": [
+        "ET Infra"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-b6c44d29a2",
+      "title": "Bengaluru metro blue line trial runs advance towards mainline testing",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNSTJVd1Q4RjRVN2g3ZkQ3WjJUWnBoaWVObWFXYWNacDc1aHRFLVNJUUQwem5sbnFhM0pESmpJYldKS1Rzak8xRllLcXY2ajJuanZZcHhZUm15RFNqNXJkVEVIOVJyVmttWFJZWmNKWkxrWnRTQklYbHNtSVE4Q1dhTTkyMWZkTWVBS3RIbkNKeDJULUU3MjJPU29QYlFYNlRWR3A1S0xnaW9yY2I2QlEtekdRS2xsbmxHU0dnLVJvQlY1bWpHMENKVHNKbHdWQ0lHSXVhOTY5aXcxZDN5RUQtNmlLNGF4c3VFRndTT1dmUVMya3BmakVEempmMGFyR29FUjdwYWtGU1daWlRMWXZSbjBWQWhpaXFqRnJLONIB5gFBVV95cUxPQTdmYXFkUThCekl4MG1jXzJwQmxUajhPaTRKVGhhRV91NVhQcjk2eGs0Uno3Rlhwb2hUdDlDQ2Yxc0IteTRyLTQyV3paNFVUZ2RxOE53NW5OOGNqRF9iYmg1LTdJbTVMTFg3by1zT0dXdV9LUDVZbzdHNl9LX1kxWU1QUlRUQ0JWcTNLR0tjLXFWaV9aekpmYUNiMmJWWjdWTGtMZG1RYkpuZ01RSGpmWWx6VUpsMzVSTHprekpENk5TNTY1bEpnTTdoOEFXSDhfWWYyT0lLc3psY2xTaGVzUXR5aVF5dw?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T14:29:22+05:30",
+      "publishers": [
+        "CNBC TV18"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-dacfa5fbe8",
+      "title": "Bengaluru Blue Line Metro: Trial run reaches KR Pura; when commuters can expect services",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaXZoVy03bWE1cmNhMk51WTBiaXJHdEhOdWkyeFBRckJaSkFtY1R3VXFZNGZ0MXRNbFR2NXlBQlF0MGZHcmplenBhZVdtV1JxSDYwX2RHOERkZWhKcjUyc01Id1czbHlNMklqN0JwQWljdXJPRzdRa09WY3pSR21mWlVQMFZTNGE2anE3ZFB2XzZDNWExSERfTmptTHNnczNwVWxTanMzVjlkQUpUSU1SQnA3VVJSSGE5Mkt2TDdmUnctaXVKTzBRMkFn0gHPAUFVX3lxTE1peFNONlIzS1BGdTNUak5zX2t0dk1feWV1eVplYUpraUc1SVIxMnFtb1dqMlZ0YWhQVzBNMkhUV3BWNFk4TXdabERQM3BjZ2hCVnk5c29rQi1yVjBjcEhGYkpCYWlGQ0x5S3piam9JWUpsZ1pMWVRrM3ZOaHExN3RLY29RS3FZMXFMdWQ0ZTlBc0VORzYxT3huaDF2ZnpaaGlHLWlzdm5TQmZWakxRZU9FZHpiNHJMbGNmck9nUlROWGZzbGVWbGVpV3ZIdmJRSQ?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T16:53:36+05:30",
+      "publishers": [
+        "Telangana Today"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-ca401ba803",
+      "title": "Bengaluru Metro Blue Line begins trial runs, airport connectivity a step closer",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTDlkekRYN2tMeGtJWUtyZy1FcmtpVUkzX3ZhMDRNd0w2LVRrdnFIWDUwZHo2SGtHY3Vxd25WWUp2Sjhrc3ZqcXRNNkJOcGs3X21xMFVKTHVHSkU4d19ITkFCcnB4elo3bjZaVnB3Y250Zk9nX21NTWVFaXFGNFR5ODlzMDBhTTJQcGNqdU5PZHhzV2VvU1dQeGZ6XzdLNFI0THVxX0NRWl8?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T14:34:11+05:30",
+      "publishers": [
+        "The Economic Times"
+      ],
+      "regions": [
+        "east",
+        "north",
+        "south"
+      ],
+      "stale_flags": [],
+      "story_id": "S-00a58e4e17",
+      "title": "Bengaluru Metro Blue Line moves closer to airport connectivity: Train completes 6-km trial run from Byappanahalli to Doddanekundi on the 58-km corridor between Central Silk Board and Kempegowda International Airport",
+      "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUExGOXVTRWc2T1NhVmN1WlBtNW1oYlFJY1l4bnNmWm51SkdaX05tVTh1dHJQUWthSllkMTJORGhVQVVDaGZOalcyYUhPY2RVWERPcXhmRkNKa0x5aU1pLThEbE9JLW93TVBaaXMzdjBleFQ0LVRBdUNOZGVqTi1hNWppdGljN0Nub3NCbUtpWVJmcXNud1dDbGNHSFo0UU1lWmxwVHE2akVJbngwbmxBWlF4V1F2NWtWajlOc0dRT1lOMWpCbms4T29rMEtJTkVidFRVa3c2WjUzZ3hVcEhNS1d6V29NNGpoX0tuUmhPaWtkUFd3ODBwM1ZKRDZHQnFGZDlNM2dDTjE2c2FORlZIb2xOak9xOGEwZUF6aTNwbEkwWGxGVDNFOGlzU3ZyUVFTb3ZFMXUwWGRXRF9xTmFmckNtOUtUMnJMU3FPaXZreUhTeVJnanpwZHhGdGpUSklzQzUwSjBpRHYxQ1FxbXBlM2EzdTh1N1FjV3B1OEtwd0dPQ3RzNC14RmpXRTJfS3dxNVRKX3NHQU9wTmFlUVdVeTc5NWRZUTFWRkc4?oc=5"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T16:52:11+05:30",
+      "publishers": [
+        "The Bengaluru Live"
+      ],
+      "regions": [
+        "east"
+      ],
+      "stale_flags": [],
+      "story_id": "S-89da032655",
+      "title": "Blue Line Metro Trial Run Progresses From Byappanahalli Towards KR Puram and Doddanekundi: Krishna Byre Gowda",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdjZUSkJFanItUFduZjdRR2NjQ0QzWDFpOWtCNTFDZFpXcGFZVjluam9JRHJKZzFBNmhfSVpMT3U4bGJwRFVZTWR1OHo4ZVFvOEkyYjkybVRhTzlfNy0tMkZXRk9feGJ1MklQTlRhZVdlZXEzcmJPNjV1ZGh6aElzNWhNV2xhYW1xM3NfdVRhQkt6RF83NTExczdrZ0x3TjlwanlPZ2xRd3dreVNHY2d5cUhaR05jSDV5WFNxZXhPaE1CRmF4bE1ielk3MzE0MGtOeDA3UA?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T16:31:22+05:30",
+      "publishers": [
+        "The Siasat Daily"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-ee5197342e",
+      "title": "Bengaluru Blue Line Metro makes fresh headway with ORR trial run",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGFoVHZwMHYwTXhSVm1MQUxrdWdaVXRtclk1ajNzYUZtQ0s2cGdBekI4NXRzYXlsWUZQUXJrUmJ6YUVfOUxtb19mMkM3SkxfeGhtUXB4UWNnVHJkOUkwOE1Nc1JMa0o5VWMzM205UDVETmxSQ19uUFhWSUdKMlVKMTRvdXB1aHdBc3ZqZ3RXTkRoc08xcG85bXYyZlfSAaIBQVVfeXFMTjN1QjRfaWFYOXZ1U0EzVmZ4NFFXS2pkVEtfYktFeUhoQ1FuSU54Nmt2dHJ1QlIxUFN2WkJmRjlkaVZaZlJyUDRNZWV1WTZMUjJ0ODl1aWo4TEVOOGlra21fZ1NWdHFSYjAzQVV6bkZGLS1SeTlnby0xRXBSSExnQXQzdTdaNmFpQUZPamJzTVA5M0ZpUWZyX2NMcEpJX19HQXpR?oc=5"
+    },
+    {
+      "novelty": "new",
+      "published_at": "2026-11-11T22:15:10+05:30",
+      "publishers": [
+        "Asianet Newsable"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-e60ac0e035",
+      "title": "Bengaluru Metro: Blue Line Trial Runs Begin On Outer Ring Road, Public Operations Targeted For May 2027",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQLXI0MkJrVmYxS0VRWWh1eFNha25zenhGV192ckdBM0VlLUFyTzMxajFnLU9MNGpLQVRvcGhwbEZMTjFSVUx4V3VLVzdoR0REWUIwc0xQOWlRUHB1QUp3MnRoUG0xdmItcnJFWkNmREdwSTF2azMzVFN6M3lENExraUVqYVdzQjR0RFJhRHFqTi1JQnhxbnEtak1vVmdQRm1LU3JvNTZnMlJnR0VmZVNsWmllMGJIWjBwRnJvcTU0ZlN2b0luUFMxc2RyTHUyV29oWkI3YWtuYjRieFdMVnczQ2pteDRNNUdJTWZXZWlfQmFuaE000gH6AUFVX3lxTE9RdUs5a2JpMGJfWFJ3TEppa252WDVkcTFnUHA0RlhoUnVHSlNYOUxWcHo1bTZZOFF0N1dZazI5R1drU1lsSEJDcThlYlNOYV9wSEdRNFZrb0hFdHVTY0J1eklaSlVDcmNtY2pKQ0pjVVNkN29TNnBYeWU0WmFMOHpzLXlzbFh1ZmVqbFRLejc2TDFDUGF2bHpUNWJ0aDN4RGwtTUJ6YjA5Y3E1S2Z0QlNkZ0pkQV9ILUk5OFpCYldZX1ZOdmxaN1FVTW5kSGtRWVQwU1pOdzNhVEh0SFdaZ2htTVN4dzZvX3hzTHJvT3RPRE0xSkZKd0l3RUE?oc=5"
+    },
+    {
+      "novelty": "repeat",
+      "published_at": "2026-11-10T21:11:44+05:30",
+      "publishers": [
+        "Urban Acres"
+      ],
+      "regions": [
+        "unmapped"
+      ],
+      "stale_flags": [],
+      "story_id": "S-bd184790f8",
+      "title": "Namma Metro Blue Line Trial Reaches Bengaluru’s ORR Tech Corridor",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaGZSeU41dEo5WWJSdWZObXZQZ1B2M1JZcWMxSzZHSjBicVZsVG9sdDFHdDN1TlhfQVhabEFaTGdoM1k4X3g3dlpsOGZ1Qm1CYlVhbWtyX3FrRDQ3YnBITXZJajRhQVFlUFBCRGdpc3VSYnQ3M1NldTJ3UWQzME16LXVnbW4zbzFna1VaZU5Hcm0?oc=5"
+    }
+  ],
+  "unavailable": []
+}
