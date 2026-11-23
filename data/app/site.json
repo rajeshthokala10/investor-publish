@@ -1,16 +1,25 @@
 {
   "builder_slides": {
-    "generated_at": "2026-10-31T14:57:19+05:30",
+    "generated_at": "2026-11-12T06:06:39+05:30",
     "method": "Our classification: A-category = FY26 sales bookings of at least Rs 5,000 crore (company-wide, as reported); B-category = below that or not disclosed. Ranked by FY26 bookings, then latest-quarter bookings. Not an official rating.",
     "slides": [
       {
-        "bengaluru": [],
+        "bengaluru": [
+          {
+            "label": "FY26 Bengaluru booking value",
+            "period": "FY26",
+            "scope": "Bengaluru",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/godrej-properties-posts-record-fy2026-bookings-and-cash-flow/89946",
+            "value": "₹8,802 crore"
+          }
+        ],
         "category": "A",
         "founders": [
           "Adi Godrej",
           "Pirojsha Godrej"
         ],
-        "hq": "Mumbai, Maharashtra",
+        "hq": "Mumbai",
         "listed": true,
         "name": "Godrej Properties Ltd",
         "photos": [
@@ -29,7 +38,7 @@
             "src": "/founders/godrej-properties-ltd-pirojsha-godrej.jpg"
           }
         ],
-        "presence": "Godrej Properties is a national developer that has been active in Bengaluru with multiple residential projects.",
+        "presence": "Bengaluru is Godrej Properties' second-largest region by FY26 booking value after the Mumbai Metropolitan Region.",
         "rank": 1,
         "slug": "godrej-properties-ltd",
         "stats": [
@@ -44,23 +53,24 @@
             "label": "Units sold",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "Free Press Journal",
-            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/godrej-properties-posts-record-fy2026-bookings-and-cash-flow/89946",
             "value": "17,515 units"
           },
           {
             "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
+            "period": "FY26 (year ended 31 Mar 2026)",
+            "scope": "Company-wide",
+            "source": "Whalesbook",
+            "url": "https://www.whalesbook.com/corporate-news/English/real-estate/Godrej-Properties-Record-FY26-indian-rupee1850-Cr-Profit-indian-rupee34171-Cr-Booking-Value/69f847279d1c906648211016",
+            "value": "₹8,374 crore"
           },
           {
             "label": "Sales bookings",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "Free Press Journal",
-            "url": "https://www.freepressjournal.in/amp/business/godrej-properties-reports-7830-crore-operating-cash-flow-alongside-record-fy2026-bookings",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/amp/latest-construction-news/real-estate-news/godrej-properties-posts-record-fy2026-bookings-and-cash-flow/89946",
             "value": "₹34,171 crore"
           }
         ]
@@ -72,20 +82,20 @@
           "Razack Sattar",
           "Irfan Razack"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": true,
         "name": "Prestige Estates Projects Ltd (Prestige Group)",
         "photos": [],
-        "presence": "Prestige Group is headquartered in Bengaluru and is the city's largest residential developer by volume of launches.",
+        "presence": "Bengaluru is Prestige's home and principal market, alongside NCR, Mumbai, Hyderabad and Chennai.",
         "rank": 2,
         "slug": "prestige-estates-projects-ltd-prestige-group",
         "stats": [
           {
-            "label": "Projects delivered by Prestige Group",
-            "period": "as of April 2026",
+            "label": "Projects delivered as at December 2025",
+            "period": "as at December 2025",
             "scope": "Company-wide",
-            "source": "Outlook Business",
-            "url": "https://www.outlookbusiness.com/corporate/prestige-estates-fy26-pre-sales-rose-76-pc-to-hit-record-30024-cr",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/latest-construction-news/real-estate-news/prestige-estates-posts-record-fy26-pre-sales/89755",
             "value": "313 projects"
           },
           {
@@ -99,16 +109,16 @@
             "label": "Revenue",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "Chola Securities",
-            "url": "https://www.cholasecurities.com/news/hot-pursuit/prestige-estates-projects-q4-pat-jumps-900-to-rs-250-crore/1697020",
-            "value": "₹12,685.4 crore"
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/prestige-estates-posts-record-revenue-and-profit-in-fy26/92160",
+            "value": "₹13,195.5 crore"
           },
           {
             "label": "Sales bookings",
-            "period": "FY26 (Apr 2025-Mar 2026)",
+            "period": "FY26",
             "scope": "Company-wide",
-            "source": "Outlook Business",
-            "url": "https://www.outlookbusiness.com/corporate/prestige-estates-fy26-pre-sales-rose-76-pc-to-hit-record-30024-cr",
+            "source": "Free Press Journal",
+            "url": "https://www.freepressjournal.in/business/prestige-estates-surpasses-30024-crore-pre-sales-in-fy26-records-76-annual-growth",
             "value": "₹30,024 crore"
           }
         ]
@@ -117,22 +127,21 @@
         "bengaluru": [],
         "category": "A",
         "founders": [
-          "K.P. Singh",
-          "Rajiv Singh"
+          "K P Singh"
         ],
-        "hq": "New Delhi / Gurugram",
+        "hq": "Gurugram",
         "listed": true,
         "name": "DLF Ltd",
         "photos": [
           {
             "credit": "Zimbaskr",
             "license": "CC BY-SA 4.0",
-            "person": "K.P. Singh",
+            "person": "K P Singh",
             "source": "https://commons.wikimedia.org/wiki/File:Kushal_Pal_Singh_Latest_Image_14th_November_2024.jpg",
             "src": "/founders/dlf-ltd-k-p-singh.jpg"
           }
         ],
-        "presence": "DLF has Bengaluru residential presence including Garden City Enclave.",
+        "presence": "No verified DLF Bengaluru residential figures were found; DLF is primarily NCR, Mumbai and Goa based.",
         "rank": 3,
         "slug": "dlf-ltd",
         "stats": [
@@ -152,88 +161,19 @@
           },
           {
             "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
+            "period": "FY26",
+            "scope": "Company-wide",
+            "source": "Muthoot Securities",
+            "url": "https://www.muthootsecurities.com/CorporateInfo/ComNews/DLF-Ltd/25134010153",
+            "value": "₹8,194.02 crore"
           },
           {
             "label": "Sales bookings",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "Sahi",
-            "url": "https://sahi.com/news/dlf-targets-20-000-cr-fy27-sales-after-reporting-20-143-cr-fy26-bookings-2547-PE1_COR",
+            "source": "Muthoot Securities",
+            "url": "https://www.muthootsecurities.com/CorporateInfo/ComNews/DLF-Ltd/25134010153",
             "value": "₹20,143 crore"
-          }
-        ]
-      },
-      {
-        "bengaluru": [
-          {
-            "label": "Birla Evara",
-            "period": "FY26",
-            "scope": "Bengaluru",
-            "source": "Investywise",
-            "url": "https://www.investywise.com/aditya-birla-real-estate-fy26-annual-performance-results/",
-            "value": "₹1,044 crore"
-          }
-        ],
-        "category": "A",
-        "founders": [
-          "Aditya Birla",
-          "Kumar Mangalam Birla"
-        ],
-        "hq": "Mumbai, Maharashtra",
-        "listed": true,
-        "name": "Birla Estates (Aditya Birla Real Estate Ltd)",
-        "photos": [
-          {
-            "credit": "Gerd Fahrenhorst",
-            "license": "CC BY 3.0",
-            "person": "Aditya Birla",
-            "source": "https://commons.wikimedia.org/wiki/File:Aditya_Birla_Carbon_Hannover.jpg",
-            "src": "/founders/birla-estates-aditya-birla-real-estate-ltd-aditya-birla.jpg"
-          },
-          {
-            "credit": "Aashutoshgavane",
-            "license": "CC BY-SA 4.0",
-            "person": "Kumar Mangalam Birla",
-            "source": "https://commons.wikimedia.org/wiki/File:Kumar_Mangalam_Birla.jpg",
-            "src": "/founders/birla-estates-aditya-birla-real-estate-ltd-kumar-mangalam-birla.jpg"
-          }
-        ],
-        "presence": "Birla Estates has Bengaluru projects including Birla Trimaya (Devanahalli) and Birla Evara (Sarjapur).",
-        "rank": 4,
-        "slug": "birla-estates-aditya-birla-real-estate-ltd",
-        "stats": [
-          {
-            "label": "Total projects",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Units sold",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Sales bookings",
-            "period": "FY26",
-            "scope": "Company-wide",
-            "source": "Investywise",
-            "url": "https://www.investywise.com/aditya-birla-real-estate-fy26-annual-performance-results/",
-            "value": "₹8,136 crore"
           }
         ]
       },
@@ -241,31 +181,31 @@
         "bengaluru": [],
         "category": "A",
         "founders": [
-          "J.C. Sharma",
-          "Ravi Menon"
+          "Kumar Mangalam Birla",
+          "Aditya Birla"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Mumbai",
         "listed": true,
-        "name": "Sobha Limited",
+        "name": "Aditya Birla Real Estate Ltd (Birla Estates)",
         "photos": [
           {
-            "credit": "Girish.unnithan",
-            "license": "CC BY-SA 3.0",
-            "person": "J.C. Sharma",
-            "source": "https://commons.wikimedia.org/wiki/File:J_C_Sharma_Sobha_Developers.jpg",
-            "src": "/founders/sobha-limited-j-c-sharma.jpg"
+            "credit": "Aashutoshgavane",
+            "license": "CC BY-SA 4.0",
+            "person": "Kumar Mangalam Birla",
+            "source": "https://commons.wikimedia.org/wiki/File:Kumar_Mangalam_Birla.jpg",
+            "src": "/founders/aditya-birla-real-estate-ltd-birla-estates-kumar-mangalam-birla.jpg"
           },
           {
-            "credit": "Frank Neufeld (UWO)",
-            "license": "CC BY-SA 4.0",
-            "person": "Ravi Menon",
-            "source": "https://commons.wikimedia.org/wiki/File:Ravi_Menon_head.jpg",
-            "src": "/founders/sobha-limited-ravi-menon.jpg"
+            "credit": "Gerd Fahrenhorst",
+            "license": "CC BY 3.0",
+            "person": "Aditya Birla",
+            "source": "https://commons.wikimedia.org/wiki/File:Aditya_Birla_Carbon_Hannover.jpg",
+            "src": "/founders/aditya-birla-real-estate-ltd-birla-estates-aditya-birla.jpg"
           }
         ],
-        "presence": "Sobha is a Bengaluru-headquartered backward-integrated developer with a large Bengaluru residential portfolio.",
-        "rank": 5,
-        "slug": "sobha-limited",
+        "presence": "Birla Estates sells in Bengaluru through successive phases of Birla Trimaya and Birla Evara.",
+        "rank": 4,
+        "slug": "aditya-birla-real-estate-ltd-birla-estates",
         "stats": [
           {
             "label": "Total projects",
@@ -292,9 +232,81 @@
             "label": "Sales bookings",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/blog/sobha-q4-fy26-91-cr-profit-125-percent-8135-cr-fy26-sales-bengaluru-buyer-2026-05-23",
-            "value": "₹8,135 crore"
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/latest-construction-news/real-estate-news/birla-estates-posts-strong-fy26-bookings-led-by-ncr/90752",
+            "value": "₹8,136 crore"
+          }
+        ]
+      },
+      {
+        "bengaluru": [
+          {
+            "label": "Bengaluru sales H1 FY27",
+            "period": "H1 FY27 (Apr-Sep 2026)",
+            "scope": "Bengaluru",
+            "source": "Sahi",
+            "url": "https://www.sahi.com/news/sobha-achieves-record-h1-sales-of-58-62-billion-as-new-projects-boost-performance",
+            "value": "₹3,385 crore"
+          }
+        ],
+        "category": "A",
+        "founders": [
+          "Ravi Menon",
+          "J C Sharma"
+        ],
+        "hq": "Bengaluru",
+        "listed": true,
+        "name": "Sobha Limited",
+        "photos": [
+          {
+            "credit": "Frank Neufeld (UWO)",
+            "license": "CC BY-SA 4.0",
+            "person": "Ravi Menon",
+            "source": "https://commons.wikimedia.org/wiki/File:Ravi_Menon_head.jpg",
+            "src": "/founders/sobha-limited-ravi-menon.jpg"
+          },
+          {
+            "credit": "Girish.unnithan",
+            "license": "CC BY-SA 3.0",
+            "person": "J C Sharma",
+            "source": "https://commons.wikimedia.org/wiki/File:J_C_Sharma_Sobha_Developers.jpg",
+            "src": "/founders/sobha-limited-j-c-sharma.jpg"
+          }
+        ],
+        "presence": "Sobha is Bengaluru-headquartered and Bengaluru is its core residential market, among its presence in 6 cities.",
+        "rank": 5,
+        "slug": "sobha-limited",
+        "stats": [
+          {
+            "label": "Bengaluru sales H1 FY27",
+            "period": "H1 FY27 (Apr-Sep 2026)",
+            "scope": "Bengaluru",
+            "source": "Sahi",
+            "url": "https://www.sahi.com/news/sobha-achieves-record-h1-sales-of-58-62-billion-as-new-projects-boost-performance",
+            "value": "₹3,385 crore"
+          },
+          {
+            "label": "Units sold",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Revenue",
+            "period": "FY26 (year ended 31 Mar 2026)",
+            "scope": "Company-wide",
+            "source": "Investywise",
+            "url": "https://www.investywise.com/?p=78941",
+            "value": "₹5,384 crore"
+          },
+          {
+            "label": "Sales bookings",
+            "period": "FY26",
+            "scope": "Company-wide",
+            "source": "Outlook Business",
+            "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
+            "value": "₹8,135.9 crore"
           }
         ]
       },
@@ -304,20 +316,21 @@
         "founders": [
           "M.R. Jaishankar"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": true,
         "name": "Brigade Enterprises Ltd",
         "photos": [],
-        "presence": "Brigade is a Bengaluru-headquartered developer with its largest residential and commercial portfolio in the city.",
+        "presence": "Brigade is a Bengaluru-based developer with Bengaluru as its largest residential market.",
         "rank": 6,
         "slug": "brigade-enterprises-ltd",
         "stats": [
           {
-            "label": "Total projects",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
+            "label": "Projects completed",
+            "period": "as of 2026-11 (undated company page)",
+            "scope": "Company-wide",
+            "source": "Brigade Group (company website)",
+            "url": "https://www.brigadegroup.com/retail/overview",
+            "value": "280 projects (280+)"
           },
           {
             "label": "Units sold",
@@ -350,7 +363,7 @@
         "founders": [
           "Ravi Puravankara"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": true,
         "name": "Puravankara Ltd (Provident Housing)",
         "photos": [
@@ -362,57 +375,9 @@
             "src": "/founders/puravankara-ltd-provident-housing-ravi-puravankara.jpg"
           }
         ],
-        "presence": "Puravankara is a Bengaluru-headquartered developer with a large Bengaluru portfolio under the Purva and Provident brands.",
+        "presence": "Puravankara is Bengaluru-headquartered and launched new projects in Bengaluru in FY26.",
         "rank": 7,
         "slug": "puravankara-ltd-provident-housing",
-        "stats": [
-          {
-            "label": "Completed projects",
-            "period": "as of March 31, 2026",
-            "scope": "Company-wide",
-            "source": "Valorem Advisors (company factsheet)",
-            "url": "https://www.valoremadvisors.com/assets/admin/fact_file/1780668712_FY26_Puravankara_Ltd_Factsheet_v2.pdf",
-            "value": "95 projects"
-          },
-          {
-            "label": "Units sold",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Revenue",
-            "period": "FY2025-26",
-            "scope": "Company-wide",
-            "source": "InvestyWise",
-            "url": "https://www.investywise.com/puravankara-q4-fy26-results-and-strong-sales-growth/",
-            "value": "₹3,846 crore"
-          },
-          {
-            "label": "Sales bookings",
-            "period": "FY26",
-            "scope": "Company-wide",
-            "source": "The Tribune",
-            "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
-            "value": "₹7,407 crore"
-          }
-        ]
-      },
-      {
-        "bengaluru": [],
-        "category": "A",
-        "founders": [
-          "Mangal Prabhat Lodha",
-          "Abhishek Lodha"
-        ],
-        "hq": "Mumbai, Maharashtra",
-        "listed": true,
-        "name": "Lodha (Macrotech Developers Ltd)",
-        "photos": [],
-        "presence": "Lodha announced its formal Bengaluru entry as part of its FY26 business development additions.",
-        "rank": 8,
-        "slug": "lodha-macrotech-developers-ltd",
         "stats": [
           {
             "label": "Total projects",
@@ -430,19 +395,19 @@
           },
           {
             "label": "Revenue",
-            "period": "FY26",
+            "period": "FY26 (year ended 31 Mar 2026)",
             "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/blog/lodha-fy26-16676-cr-revenue-bengaluru-entry-60000-cr-pipeline-2026-05-19",
-            "value": "₹16,676.2 crore"
+            "source": "Investywise",
+            "url": "https://www.investywise.com/?p=88543",
+            "value": "₹3,846 crore"
           },
           {
             "label": "Sales bookings",
-            "period": "Q4 FY26",
+            "period": "FY26",
             "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/blog/lodha-fy26-16676-cr-revenue-bengaluru-entry-60000-cr-pipeline-2026-05-19",
-            "value": "₹5,890 crore"
+            "source": "The Tribune",
+            "url": "https://www.tribuneindia.com/news/business/puravankara-q4-sales-up-by-190-per-cent-at-rs-3547-cr-fy26-sales-up-by-55-per-cent-at-rs-7407-cr-2-2/",
+            "value": "₹7,407 crore"
           }
         ]
       },
@@ -452,12 +417,12 @@
         "founders": [
           "Jitu Virwani"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": true,
         "name": "Embassy Developments Ltd",
         "photos": [],
-        "presence": "Embassy Developments is Bengaluru-based and has Bengaluru residential projects such as Embassy Verde.",
-        "rank": 9,
+        "presence": "Embassy Developments is Bengaluru-based, part of the Embassy Group, with residential projects in Bengaluru among its pan-India portfolio.",
+        "rank": 8,
         "slug": "embassy-developments-ltd",
         "stats": [
           {
@@ -476,71 +441,19 @@
           },
           {
             "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
+            "period": "FY26 (year ended 31 Mar 2026)",
+            "scope": "Company-wide",
+            "source": "Free Press Journal",
+            "url": "https://www.freepressjournal.in/business/embassy-developments-reports-61-revenue-decline-swings-to-loss-in-q4",
+            "value": "₹1,732 crore"
           },
           {
             "label": "Sales bookings",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "Sahi",
-            "url": "https://www.sahi.com/news/embassy-developments-targets-30-presales-growth-to-8-000-crore-with-19-400-crore-launch-pipeline-3669-PE1_COR",
+            "source": "Free Press Journal",
+            "url": "https://www.freepressjournal.in/business/embassy-developments-reports-2632-crore-q4-pre-sales-with-89-qoq-growth-in-fy26",
             "value": "₹4,631 crore"
-          }
-        ]
-      },
-      {
-        "bengaluru": [],
-        "category": "B",
-        "founders": [
-          "Anand Mahindra"
-        ],
-        "hq": "Mumbai, Maharashtra",
-        "listed": true,
-        "name": "Mahindra Lifespace Developers Ltd",
-        "photos": [
-          {
-            "credit": "World Economic Forum from Cologny, Switzerland",
-            "license": "CC BY-SA 2.0",
-            "person": "Anand Mahindra",
-            "source": "https://commons.wikimedia.org/wiki/File:Anand_Mahindra_(1).jpg",
-            "src": "/founders/mahindra-lifespace-developers-ltd-anand-mahindra.jpg"
-          }
-        ],
-        "presence": "Mahindra Lifespaces has Bengaluru residential projects and recently announced a North Bengaluru land parcel development.",
-        "rank": 10,
-        "slug": "mahindra-lifespace-developers-ltd",
-        "stats": [
-          {
-            "label": "Total projects",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Units sold",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Sales bookings",
-            "period": "FY26",
-            "scope": "Company-wide",
-            "source": "Multibagg",
-            "url": "https://www.multibagg.ai/market-pulse/articles/mahindra-lifespace-fy26-sales-pat-cmrxd1hlk027v0zp74pti4rpn",
-            "value": "₹4,118 crore"
           }
         ]
       },
@@ -550,12 +463,12 @@
         "founders": [
           "M. Murali"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": true,
         "name": "Shriram Properties Ltd",
         "photos": [],
-        "presence": "Shriram Properties is described as a Bengaluru and Chennai focused developer.",
-        "rank": 11,
+        "presence": "Shriram Properties is a Bengaluru-based developer with a large South India portfolio.",
+        "rank": 9,
         "slug": "shriram-properties-ltd",
         "stats": [
           {
@@ -576,79 +489,17 @@
             "label": "Revenue",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/blog/shriram-properties-fy26-results-bengaluru-chennai-buyer-2026-06-10",
-            "value": "₹1,356.93 crore"
+            "source": "Angel One",
+            "url": "https://www.angelone.in/news/stocks/shriram-properties-q4fy26-results-reports-record-fy26-revenue-net-profit-crosses-rs-100-crore-mark-for-first-time",
+            "value": "₹1,356.9 crore"
           },
           {
             "label": "Sales bookings",
             "period": "FY26",
             "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/blog/shriram-properties-fy26-results-bengaluru-chennai-buyer-2026-06-10",
+            "source": "Angel One",
+            "url": "https://www.angelone.in/news/stocks/shriram-properties-q4fy26-results-reports-record-fy26-revenue-net-profit-crosses-rs-100-crore-mark-for-first-time",
             "value": "₹2,354 crore"
-          }
-        ]
-      },
-      {
-        "bengaluru": [
-          {
-            "label": "FY26 Bengaluru bookings",
-            "period": "FY26",
-            "scope": "Bengaluru",
-            "source": "FilingReader",
-            "url": "https://filingreader.com/news-wire/mumbai/2026-05-29/arvind-smartspaces-hits-record-inr1550-crore-annual-booking-value",
-            "value": "₹485 crore"
-          }
-        ],
-        "category": "B",
-        "founders": [
-          "Sanjay Lalbhai"
-        ],
-        "hq": "Ahmedabad, Gujarat",
-        "listed": true,
-        "name": "Arvind SmartSpaces Ltd",
-        "photos": [
-          {
-            "credit": "Haresh N Parmar",
-            "license": "CC BY-SA 4.0",
-            "person": "Sanjay Lalbhai",
-            "source": "https://commons.wikimedia.org/wiki/File:Shri_Sanjay_Lalbhai.jpg",
-            "src": "/founders/arvind-smartspaces-ltd-sanjay-lalbhai.jpg"
-          }
-        ],
-        "presence": "Bengaluru is Arvind SmartSpaces' largest market by bookings, including the Bannerghatta Road project Arvind Skycrest.",
-        "rank": 12,
-        "slug": "arvind-smartspaces-ltd",
-        "stats": [
-          {
-            "label": "Total projects",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Units sold",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Revenue",
-            "period": "",
-            "source": "",
-            "url": "",
-            "value": "Not disclosed"
-          },
-          {
-            "label": "Sales bookings",
-            "period": "FY26",
-            "scope": "Company-wide",
-            "source": "FilingReader",
-            "url": "https://filingreader.com/news-wire/mumbai/2026-05-29/arvind-smartspaces-hits-record-inr1550-crore-annual-booking-value",
-            "value": "₹1,550 crore"
           }
         ]
       },
@@ -656,14 +507,14 @@
         "bengaluru": [],
         "category": "B",
         "founders": [
-          "B.M. Jayeshankar"
+          "B M Jayeshankar"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
         "name": "Adarsh Developers",
         "photos": [],
-        "presence": "Adarsh Developers, founded in 1988, is a Bengaluru-based residential developer.",
-        "rank": 13,
+        "presence": "Adarsh Developers, founded in 1988, is a Bengaluru-based developer of apartments, villas and commercial space.",
+        "rank": 10,
         "slug": "adarsh-developers",
         "stats": [
           {
@@ -697,17 +548,78 @@
         ]
       },
       {
-        "bengaluru": [],
+        "bengaluru": [
+          {
+            "label": "FY26 Bengaluru bookings",
+            "period": "FY26",
+            "scope": "Bengaluru",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/policy-updates-and-economic-news/arvind-smartspaces-posts-record-bookings-and-strong-cash-flows/92139",
+            "value": "₹485 crore"
+          }
+        ],
         "category": "B",
         "founders": [
-          "Not confirmed across sources"
+          "Sanjay Lalbhai"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Ahmedabad",
+        "listed": true,
+        "name": "Arvind SmartSpaces Ltd",
+        "photos": [
+          {
+            "credit": "Haresh N Parmar",
+            "license": "CC BY-SA 4.0",
+            "person": "Sanjay Lalbhai",
+            "source": "https://commons.wikimedia.org/wiki/File:Shri_Sanjay_Lalbhai.jpg",
+            "src": "/founders/arvind-smartspaces-ltd-sanjay-lalbhai.jpg"
+          }
+        ],
+        "presence": "Bengaluru was Arvind SmartSpaces' largest market in FY26, contributing 31 per cent of annual bookings.",
+        "rank": 11,
+        "slug": "arvind-smartspaces-ltd",
+        "stats": [
+          {
+            "label": "Total projects",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Units sold",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Revenue",
+            "period": "FY26",
+            "scope": "Company-wide",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/policy-updates-and-economic-news/arvind-smartspaces-posts-record-bookings-and-strong-cash-flows/92139",
+            "value": "₹564 crore"
+          },
+          {
+            "label": "Sales bookings",
+            "period": "FY26",
+            "scope": "Company-wide",
+            "source": "Construction World",
+            "url": "https://www.constructionworld.in/policy-updates-and-economic-news/arvind-smartspaces-posts-record-bookings-and-strong-cash-flows/92139",
+            "value": "₹1,550 crore"
+          }
+        ]
+      },
+      {
+        "bengaluru": [],
+        "category": "B",
+        "founders": [],
+        "hq": "Bengaluru",
         "listed": false,
         "name": "Assetz Property Group",
         "photos": [],
-        "presence": "Assetz is a Bengaluru-based residential developer with projects such as Marq and Bloom & Dell.",
-        "rank": 14,
+        "presence": "Assetz focuses on Bengaluru residential projects such as Canvas & Cove, Zen & Sato and Meru & Meadow.",
+        "rank": 12,
         "slug": "assetz-property-group",
         "stats": [
           {
@@ -746,21 +658,21 @@
         "founders": [
           "Ravindra Pai"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
-        "name": "Century Real Estate",
+        "name": "Century Real Estate Holdings Pvt Ltd",
         "photos": [
           {
             "credit": "Lexicographist",
             "license": "CC0",
             "person": "Ravindra Pai",
             "source": "https://commons.wikimedia.org/wiki/File:RavindraPai.png",
-            "src": "/founders/century-real-estate-ravindra-pai.png"
+            "src": "/founders/century-real-estate-holdings-pvt-ltd-ravindra-pai.png"
           }
         ],
-        "presence": "Century Real Estate is a Bengaluru developer with residential, commercial and plotted projects.",
-        "rank": 15,
-        "slug": "century-real-estate",
+        "presence": "Century Real Estate is a Bengaluru-based group with residential, plotted and commercial projects, including a planned Hebbal office JV with Prestige.",
+        "rank": 13,
+        "slug": "century-real-estate-holdings-pvt-ltd",
         "stats": [
           {
             "label": "Total projects",
@@ -796,23 +708,120 @@
         "bengaluru": [],
         "category": "B",
         "founders": [
-          "R. Gopal Reddy"
+          "B S Shivrama",
+          "R Gopal Reddy"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
         "name": "Concorde Group",
         "photos": [],
-        "presence": "Concorde is a Bengaluru-focused developer, with its first project in Electronic City.",
-        "rank": 16,
+        "presence": "Concorde is a Bengaluru-based developer of residential and commercial space with new North Bengaluru projects.",
+        "rank": 14,
         "slug": "concorde-group",
         "stats": [
           {
-            "label": "Completed projects",
-            "period": "undated (2026 listing)",
-            "scope": "Company-wide",
-            "source": "PropNewz",
-            "url": "https://www.propnewz.com/builder/concorde-group",
-            "value": "29 projects"
+            "label": "Total projects",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Units sold",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Revenue",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Sales bookings",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          }
+        ]
+      },
+      {
+        "bengaluru": [],
+        "category": "B",
+        "founders": [
+          "Mangal Prabhat Lodha",
+          "Abhishek Lodha"
+        ],
+        "hq": "Mumbai",
+        "listed": true,
+        "name": "Lodha (Macrotech Developers Ltd)",
+        "photos": [],
+        "presence": "Lodha entered Bengaluru in 2021 and has planned multiple launches in the city.",
+        "rank": 15,
+        "slug": "lodha-macrotech-developers-ltd",
+        "stats": [
+          {
+            "label": "Total projects",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Units sold",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Revenue",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          },
+          {
+            "label": "Sales bookings",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
+          }
+        ]
+      },
+      {
+        "bengaluru": [],
+        "category": "B",
+        "founders": [
+          "Anand Mahindra"
+        ],
+        "hq": "Mumbai",
+        "listed": true,
+        "name": "Mahindra Lifespace Developers Ltd",
+        "photos": [
+          {
+            "credit": "World Economic Forum from Cologny, Switzerland",
+            "license": "CC BY-SA 2.0",
+            "person": "Anand Mahindra",
+            "source": "https://commons.wikimedia.org/wiki/File:Anand_Mahindra_(1).jpg",
+            "src": "/founders/mahindra-lifespace-developers-ltd-anand-mahindra.jpg"
+          }
+        ],
+        "presence": "Mahindra Lifespaces develops residential projects in Bengaluru among its multi-city portfolio.",
+        "rank": 16,
+        "slug": "mahindra-lifespace-developers-ltd",
+        "stats": [
+          {
+            "label": "Total projects",
+            "period": "",
+            "source": "",
+            "url": "",
+            "value": "Not disclosed"
           },
           {
             "label": "Units sold",
@@ -843,7 +852,7 @@
         "founders": [
           "Bijay Agarwal"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
         "name": "Salarpuria Sattva Group",
         "photos": [
@@ -855,7 +864,7 @@
             "src": "/founders/salarpuria-sattva-group-bijay-agarwal.jpg"
           }
         ],
-        "presence": "The group began in Bengaluru in 1993 and is headquartered there.",
+        "presence": "Sattva has residential projects across Bengaluru including Sattva Magnificia, Greenage and Forest Ridge.",
         "rank": 17,
         "slug": "salarpuria-sattva-group",
         "stats": [
@@ -892,14 +901,12 @@
       {
         "bengaluru": [],
         "category": "B",
-        "founders": [
-          "Tata Sons"
-        ],
-        "hq": "Mumbai, Maharashtra",
+        "founders": [],
+        "hq": "Mumbai",
         "listed": false,
         "name": "Tata Housing (Tata Realty)",
         "photos": [],
-        "presence": "Tata Housing launched Varnam Phase I in North Bengaluru in August 2025.",
+        "presence": "Tata Housing's Carnatica township in North Bengaluru had Varnam Phase I cross Rs 1,000 crore in sales since its August 2025 launch.",
         "rank": 18,
         "slug": "tata-housing-tata-realty",
         "stats": [
@@ -939,13 +946,13 @@
         "founders": [
           "Kamal Sagar"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
-        "name": "Total Environment Building Systems",
+        "name": "Total Environment Building Systems Pvt Ltd",
         "photos": [],
-        "presence": "Total Environment, founded in 1996, is a Bengaluru-based developer of premium apartments and villas.",
+        "presence": "Total Environment is a Bengaluru-based premium developer, also present in Hyderabad and Pune.",
         "rank": 19,
-        "slug": "total-environment-building-systems",
+        "slug": "total-environment-building-systems-pvt-ltd",
         "stats": [
           {
             "label": "Total projects",
@@ -981,13 +988,13 @@
         "bengaluru": [],
         "category": "B",
         "founders": [
-          "C.N. Govindaraju"
+          "C. N. Govindaraju"
         ],
-        "hq": "Bengaluru, Karnataka",
+        "hq": "Bengaluru",
         "listed": false,
         "name": "Vaishnavi Group",
         "photos": [],
-        "presence": "Vaishnavi Group, established in 1998, develops residential and commercial projects in Bengaluru.",
+        "presence": "Vaishnavi Group, founded in 1998, builds residential and commercial projects in Bengaluru.",
         "rank": 20,
         "slug": "vaishnavi-group",
         "stats": [
@@ -1025,7 +1032,7 @@
   },
   "clusters": [
     {
-      "agency": "Karnataka state government (Commerce & Industries; KIADB)",
+      "agency": "KIADB / Karnataka Industries Dept",
       "area": "1,000 acres",
       "coords": [
         12.86,
@@ -1033,8 +1040,8 @@
       ],
       "distance_km": 23,
       "full_name": "SWIFT City (Startups, Work, Innovation, Finance and Tech)",
-      "headline": "SWIFT City: Sarjapura's Proposed Thousand-Acre Tech Township",
-      "investment": "",
+      "headline": "SWIFT City",
+      "investment": "No investment figure found in opened sources.",
       "investment_kind": "",
       "kind": "Tech city",
       "kind_id": "tech_city",
@@ -1042,127 +1049,149 @@
       "slug": "swift-city",
       "stage": "Announced",
       "stage_id": "announced",
-      "standfirst": "The state's announced SWIFT City would bring offices, co-working, homes and schools to Sarjapura. Nothing yet shows approval or construction.",
+      "standfirst": "Planned startup/tech hub of about 1,000 acres at Sarjapur",
       "town": "Sarjapur",
       "where": "≈23 km from centre"
     },
     {
-      "agency": "Karnataka state government (Karnataka Quantum Mission)",
+      "agency": "Karnataka Science & Technology Dept",
       "area": "6.17 acres",
       "coords": [
         13.14,
         77.48
       ],
       "distance_km": 23,
-      "full_name": "Q-City, Hesaraghatta",
-      "headline": "Quantum City at Hesaraghatta Starts Small",
-      "investment": "₹1,000 crore",
-      "investment_kind": "Government budget allocation",
+      "full_name": "Quantum City (Q-City), Hesaraghatta",
+      "headline": "Q-City",
+      "investment": "State Quantum Mission is ₹1,000 crore but not Q-City specific.",
+      "investment_kind": "",
       "kind": "Tech city",
       "kind_id": "tech_city",
-      "name": "Quantum City",
-      "slug": "quantum-city",
+      "name": "Q-City",
+      "slug": "q-city",
       "stage": "Approved",
       "stage_id": "approved",
-      "standfirst": "Karnataka's Q-City has 6.17 acres sanctioned, a modest base for a project billed as a city and linked to a Rs 1,000 crore mission.",
+      "standfirst": "Hub for research labs and incubation",
       "town": "Hesaraghatta",
       "where": "≈23 km from centre"
     },
     {
+      "agency": "KIADB",
+      "area": "1,000 acres",
+      "coords": [
+        13.07,
+        77.798
+      ],
+      "distance_km": 23,
+      "full_name": "Tavarekere data centre park",
+      "headline": "Tavarekere data centre park",
+      "investment": "Not disclosed.",
+      "investment_kind": "",
+      "kind": "Cluster",
+      "kind_id": "other",
+      "name": "Tavarekere data centre park",
+      "slug": "tavarekere-data-centre-park",
+      "stage": "Proposed",
+      "stage_id": "proposed",
+      "standfirst": "Data centre park",
+      "town": "Hoskote",
+      "where": "≈23 km from centre"
+    },
+    {
       "agency": "Greater Bengaluru Development Authority (GBDA)",
-      "area": "9,600 acres",
+      "area": "7,481 acres",
       "coords": [
         12.797,
         77.39
       ],
       "distance_km": 31,
-      "full_name": "Greater Bengaluru Integrated Township (Bidadi AI Township)",
-      "headline": "Bidadi AI Township Moves Ahead Amid Opposition",
+      "full_name": "Greater Bengaluru Integrated Township (GBIT), Bidadi, marketed as AI City",
+      "headline": "Bidadi township (AI City)",
       "investment": "₹18,133 crore",
       "investment_kind": "Approved project cost",
-      "kind": "Township",
-      "kind_id": "township",
-      "name": "Bidadi AI City / GBIT",
-      "slug": "bidadi-ai-city-gbit",
-      "stage": "Under construction",
-      "stage_id": "under_construction",
-      "standfirst": "The Greater Bengaluru Integrated Township spans 9,600 acres and carries an approved cost of Rs 18,133 crore, but farmers and political parties are contesting it.",
+      "kind": "AI city",
+      "kind_id": "ai_city",
+      "name": "Bidadi township (AI City)",
+      "slug": "bidadi-township-ai-city",
+      "stage": "Approved",
+      "stage_id": "approved",
+      "standfirst": "The AI City and the Bidadi GBIT are the same project",
       "town": "Bidadi",
       "where": "≈31 km from centre"
     },
     {
-      "agency": "Karnataka state government (Commerce & Industries; KIADB)",
-      "area": "",
+      "agency": "KIADB",
+      "area": "1,777 acres",
+      "coords": [
+        13.247,
+        77.712
+      ],
+      "distance_km": 32,
+      "full_name": "KIADB Aerospace Park expansion, Devanahalli",
+      "headline": "Devanahalli Aerospace Park land",
+      "investment": "",
+      "investment_kind": "",
+      "kind": "Aerospace & defence",
+      "kind_id": "aerospace_defence",
+      "name": "Devanahalli Aerospace Park land",
+      "slug": "devanahalli-aerospace-park-land",
+      "stage": "Stage unclear",
+      "stage_id": "unclear",
+      "standfirst": "1,777-acre acquisition withdrawn",
+      "town": "Devanahalli",
+      "where": "≈32 km from centre"
+    },
+    {
+      "agency": "Karnataka Commerce & Industries Dept / KIADB",
+      "area": "5,800 acres",
       "coords": [
         13.2927,
         77.5431
       ],
       "distance_km": 36,
-      "full_name": "Knowledge, Wellbeing and Innovation City",
-      "headline": "KWIN City: A Knowledge Hub Planned Near Doddaballapura",
-      "investment": "",
-      "investment_kind": "",
+      "full_name": "Knowledge, Wellbeing and Innovation City (KWIN City)",
+      "headline": "KWIN City",
+      "investment": "₹500 crore",
+      "investment_kind": "Private commitment",
       "kind": "Knowledge city",
       "kind_id": "knowledge_city",
       "name": "KWIN City",
       "slug": "kwin-city",
       "stage": "Announced",
       "stage_id": "announced",
-      "standfirst": "The state's proposed Knowledge, Wellbeing and Innovation City targets education, research, health and start-ups. Key details, including its acreage, are reported inconsistently.",
+      "standfirst": "5,800-acre planned city between Dobbaspete and Doddaballapura",
       "town": "Doddaballapur",
       "where": "≈36 km from centre"
     },
     {
-      "agency": "Karnataka state government / AAI",
+      "agency": "Karnataka government",
       "area": "9,000 acres",
       "coords": [
         12.68,
         77.47
       ],
       "distance_km": 36,
-      "full_name": "Bengaluru second greenfield airport",
-      "headline": "Harohalli Leads Options for Bengaluru's Second Airport",
+      "full_name": "Proposed second Bengaluru greenfield airport, Harohalli",
+      "headline": "Harohalli second airport",
       "investment": "",
       "investment_kind": "",
       "kind": "Airport region",
       "kind_id": "airport_region",
-      "name": "Second airport region (Harohalli)",
-      "slug": "second-airport-region-harohalli",
+      "name": "Harohalli second airport",
+      "slug": "harohalli-second-airport",
       "stage": "Proposed",
       "stage_id": "proposed",
-      "standfirst": "A 9,000-acre site at Harohalli on Kanakapura Road is the leading option for a second airport, but feasibility is pending and nothing is final.",
+      "standfirst": "Leading contender",
       "town": "Harohalli",
       "where": "≈36 km from centre"
     },
     {
-      "agency": "NHLML / KIADB / RVNL SPV",
-      "area": "400 acres",
-      "coords": [
-        13.255,
-        77.244
-      ],
-      "distance_km": 50,
-      "full_name": "Multi-Modal Logistics Park, Muddelinganahalli (Dobbaspet)",
-      "headline": "Dobbaspet Logistics Park Awarded, Land Still Pending",
-      "investment": "₹1,770 crore",
-      "investment_kind": "Approved project cost",
-      "kind": "Logistics",
-      "kind_id": "logistics",
-      "name": "Bengaluru MMLP",
-      "slug": "bengaluru-mmlp",
-      "stage": "Awarded",
-      "stage_id": "awarded",
-      "standfirst": "The 400-acre Multi-Modal Logistics Park at Muddelinganahalli carries an estimated cost of Rs 1,770 crore and has been awarded.",
-      "town": "Dobbaspet",
-      "where": "≈50 km from centre"
-    },
-    {
-      "agency": "BDA / Bengaluru Business Corridor Ltd (BBCL)",
-      "area": "1,950 acres",
+      "agency": "Bangalore Development Authority (BDA)",
+      "area": "",
       "coords": null,
       "distance_km": null,
       "full_name": "Bengaluru Business Corridor (Peripheral Ring Road)",
-      "headline": "Business Corridor Ring Road Reaches the Tender Stage",
+      "headline": "Bengaluru Business Corridor",
       "investment": "₹3,348 crore",
       "investment_kind": "Approved project cost",
       "kind": "Corridor",
@@ -1171,44 +1200,25 @@
       "slug": "bengaluru-business-corridor",
       "stage": "Tendered",
       "stage_id": "tendered",
-      "standfirst": "The 1,950-acre Bengaluru Business Corridor, an approved Rs 3,348 crore scheme, is being tendered after two earlier tenders failed.",
+      "standfirst": "83% land acquired for phase 1",
       "town": "Bengaluru",
       "where": "Ring corridor around the city"
-    },
-    {
-      "agency": "BDA",
-      "area": "",
-      "coords": null,
-      "distance_km": null,
-      "full_name": "Dr K. Shivaram Karanth Layout",
-      "headline": "Karanth Layout: 18,400 Sites Reserved for Landowners",
-      "investment": "",
-      "investment_kind": "",
-      "kind": "BDA layout",
-      "kind_id": "layout",
-      "name": "Dr Shivaram Karanth Layout",
-      "slug": "dr-shivaram-karanth-layout",
-      "stage": "Under construction",
-      "stage_id": "under_construction",
-      "standfirst": "The BDA's Dr K. Shivaram Karanth Layout in north Bengaluru is under construction, with a large block of sites set aside for landowners.",
-      "town": "Bengaluru",
-      "where": "Within Bengaluru"
     }
   ],
   "daily": {
-    "edition": "2026-11-05",
+    "edition": "2026-11-23",
     "status": "partial",
     "window": {
-      "end": "2026-11-05T06:00:00+05:30",
-      "start": "2026-11-02T06:00:00+05:30"
+      "end": "2026-11-23T06:00:00+05:30",
+      "start": "2026-11-20T06:00:00+05:30"
     }
   },
   "downloads": {
     "daily": {
       "file": "bangalore-realestate-delta-latest.pdf",
       "pages": 5,
-      "size_mb": 1.2,
-      "title": "Bangalore Realestate Delta — 2026-11-05"
+      "size_mb": 0.9,
+      "title": "Bangalore Realestate Delta — 2026-11-23"
     },
     "magazine": {
       "cover": "magazine-cover.png",
@@ -1218,7 +1228,7 @@
       "title": "Bengaluru Property Review — November 2026"
     }
   },
-  "generated_at": "2026-11-07T15:32:16+05:30",
+  "generated_at": "2026-11-23T06:28:41+05:30",
   "growth_towns": [
     {
       "claim_ids": [
@@ -1356,28 +1366,8 @@
   "metrics": {
     "area_prices": [
       {
-        "area": "Sarjapur Road",
-        "basis": "apartment avg, ANAROCK Apr-Jun 2025",
-        "claim_id": "C-529e991d12",
-        "high": 10800,
-        "low": 10800,
-        "source": "Outlook Business",
-        "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-        "zone": "east"
-      },
-      {
-        "area": "Thanisandra Main Road",
-        "basis": "avg, ANAROCK Q2 2025",
-        "claim_id": "C-d72298949f",
-        "high": 9700,
-        "low": 9700,
-        "source": "Outlook Business",
-        "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
-        "zone": "north"
-      },
-      {
         "area": "Hebbal",
-        "basis": "apartments, media estimate",
+        "basis": "apartments, media estimate (NewsFirst Prime)",
         "claim_id": "C-21a92903ab",
         "high": 12500,
         "low": 9500,
@@ -1387,7 +1377,7 @@
       },
       {
         "area": "Yelahanka",
-        "basis": "apartments, media estimate",
+        "basis": "apartments, early 2026 media estimate",
         "claim_id": "C-4021caff02",
         "high": 9500,
         "low": 7500,
@@ -1396,8 +1386,48 @@
         "zone": "north"
       },
       {
-        "area": "Electronic City (near station)",
-        "basis": "residential, JLL Oct 2025",
+        "area": "Thanisandra Main Road",
+        "basis": "apartments, ANAROCK Q2 2025",
+        "claim_id": "C-d72298949f",
+        "high": 9700,
+        "low": 9700,
+        "source": "Outlook Business",
+        "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
+        "zone": "north"
+      },
+      {
+        "area": "Devanahalli (plots)",
+        "basis": "land, plots 2026, media estimate",
+        "claim_id": "C-b0c76f18db",
+        "high": 10000,
+        "low": 6000,
+        "source": "NewsFirst Prime",
+        "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
+        "zone": "north"
+      },
+      {
+        "area": "Whitefield",
+        "basis": "apartments, early 2026 average, developer source (Brigade)",
+        "claim_id": "C-d44d8d2a7c",
+        "high": 13000,
+        "low": 13000,
+        "source": "Brigade Group",
+        "url": "https://www.brigadegroup.com/blog/residential/buying-apartment-whitefield-bangalore-guide",
+        "zone": "east"
+      },
+      {
+        "area": "Sarjapur Road",
+        "basis": "apartments, ANAROCK Apr-Jun 2025 average",
+        "claim_id": "C-529e991d12",
+        "high": 10800,
+        "low": 10800,
+        "source": "Outlook Business",
+        "url": "https://www.outlookbusiness.com/news/bengalurus-sarjapur-road-thanisandra-main-road-see-80-rise-in-housing-prices-in-35-years",
+        "zone": "east"
+      },
+      {
+        "area": "Electronic City",
+        "basis": "apartments, JLL Oct 2025",
         "claim_id": "C-922d70ee28",
         "high": 7500,
         "low": 7000,
@@ -1407,7 +1437,7 @@
       },
       {
         "area": "Bommasandra",
-        "basis": "residential, JLL Oct 2025",
+        "basis": "apartments, JLL Oct 2025",
         "claim_id": "C-c6396c19f1",
         "high": 6500,
         "low": 6000,
@@ -1417,7 +1447,7 @@
       },
       {
         "area": "Tumkur Road",
-        "basis": "apartments, developer quote",
+        "basis": "apartments, 2026, developer content (Brigade)",
         "claim_id": "C-5a78da1676",
         "high": 8500,
         "low": 5500,
@@ -1427,33 +1457,13 @@
       },
       {
         "area": "Rajajinagar",
-        "basis": "developer quote",
+        "basis": "apartments, 2026, developer content (Brigade)",
         "claim_id": "C-ce765d2aac",
         "high": 14000,
         "low": 9000,
         "source": "Brigade Group",
         "url": "https://www.brigadegroup.com/blog/residential/tumkur-road-vs-rajajinagar-bengaluru",
         "zone": "west"
-      },
-      {
-        "area": "Devanahalli",
-        "basis": "land",
-        "claim_id": "C-b0c76f18db",
-        "high": 10000,
-        "low": 6000,
-        "source": "NewsFirst Prime",
-        "url": "https://newsfirstprime.com/bengaluru/north-bengalurus-big-3-devanahalli-hebbal-yelahanka-11134544",
-        "zone": "north"
-      },
-      {
-        "area": "Hosur",
-        "basis": "asking avg, Housing.com via Sobha",
-        "claim_id": "C-e4ec3d7446",
-        "high": 5086,
-        "low": 5086,
-        "source": "Sobha Limited blog",
-        "url": "https://www.sobha.com/blog/real-estate-investment-opportunities-near-hosur/",
-        "zone": "outer"
       }
     ],
     "builders": [
@@ -1464,9 +1474,9 @@
           "C-d6a0265647",
           "C-f5feeb5ed2"
         ],
-        "headline": "Embassy Origins drew over ₹1,800 crore pre-sales in its first week.",
+        "headline": "Embassy Origins pre-sold over ₹1,800 crore in its first week (company-reported).",
         "metric_display": "₹1,800 cr+",
-        "metric_label": "Pre-sales (₹ crore)",
+        "metric_label": "Pre-sales, first week (₹ crore)",
         "metric_value": 1800,
         "name": "Embassy Developments",
         "projects": [
@@ -1485,9 +1495,9 @@
         "claim_ids": [
           "C-79985d4736"
         ],
-        "headline": "Godrej Vanantara sold over 1,000 homes in launch week.",
+        "headline": "Godrej Vanantara sold over 1,000 homes in launch week (company-reported).",
         "metric_display": "₹2,000 cr+",
-        "metric_label": "Sales (₹ crore)",
+        "metric_label": "Launch-week sales (₹ crore)",
         "metric_value": 2000,
         "name": "Godrej Properties",
         "projects": [
@@ -1502,7 +1512,7 @@
         "claim_ids": [
           "C-b04ef95da8"
         ],
-        "headline": "The Astoria in Jakkur has crossed ₹550 crore in bookings.",
+        "headline": "The Astoria at Century Immencity has crossed ₹550 crore in bookings (developer claim).",
         "metric_display": "₹550 cr+",
         "metric_label": "Bookings (₹ crore)",
         "metric_value": 550,
@@ -1517,45 +1527,31 @@
       },
       {
         "claim_ids": [
-          "C-48d51205e0"
-        ],
-        "headline": "Brigade Belvedere is a 10.75-acre East Bengaluru launch.",
-        "metric_display": "₹1,100 cr+",
-        "metric_label": "Revenue potential (₹ crore)",
-        "metric_value": 1100,
-        "name": "Brigade Enterprises",
-        "projects": [
-          "Brigade Belvedere"
-        ],
-        "sources": [
-          "Outlook Business"
-        ],
-        "url": "https://www.outlookbusiness.com/corporate/brigade-enterprises-eyes-1100-cr-revenue-from-new-housing-project-in-bengaluru"
-      },
-      {
-        "claim_ids": [
+          "C-5f31e76fbb",
           "C-01d576be2d"
         ],
-        "headline": "Mahindra Blossom in Whitefield has a potential GDV of about ₹1,900 crore.",
-        "metric_display": "₹1,900 cr",
+        "headline": "Joint development of a 10.05-acre North Bengaluru parcel, GDV about ₹1,250 crore.",
+        "metric_display": "₹1,250 cr",
         "metric_label": "GDV (₹ crore)",
-        "metric_value": 1900,
+        "metric_value": 1250,
         "name": "Mahindra Lifespaces",
         "projects": [
-          "Mahindra Blossom"
+          "Mahindra Blossom",
+          "North Bengaluru 10.05-acre project"
         ],
         "sources": [
+          "Mahindra Group",
           "Mahindra Lifespaces"
         ],
-        "url": "https://www.mahindralifespaces.com/media/press-release/mahindra-lifespaces-announces-the-launch-of-mahindra-blossom-a-net-zero-waste-residential-project-in-whitefield-bengaluru/"
+        "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-lifespaces-to-develop-10.05-acre-land-parcel-in-north-bengaluru-with-inr-1250-crore-gdv"
       },
       {
         "claim_ids": [
           "C-4febabc134"
         ],
-        "headline": "FY27 business development of eight projects, six of them in Bengaluru.",
+        "headline": "FY27 business development: eight projects, six in Bengaluru, potential GDV ₹16,600 crore.",
         "metric_display": "₹16,600 cr",
-        "metric_label": "Potential GDV (₹ crore)",
+        "metric_label": "Potential GDV, 8 projects (₹ crore)",
         "metric_value": 16600,
         "name": "Puravankara",
         "projects": [
@@ -1574,10 +1570,10 @@
         "claim_ids": [
           "C-02f2191430"
         ],
-        "headline": "Bengaluru quarterly sales value hit a record in Oct-Dec 2025.",
-        "metric_display": "₹1,512 cr",
-        "metric_label": "Quarterly sales (₹ crore)",
-        "metric_value": 1512,
+        "headline": "Record quarterly Bengaluru sales value in Oct-Dec 2025, with SOBHA Magnus launch (company-reported).",
+        "metric_display": "₹15.12 bn",
+        "metric_label": "Bengaluru quarterly sales value (₹ bn)",
+        "metric_value": 15.12,
         "name": "Sobha Limited",
         "projects": [
           "SOBHA Magnus"
@@ -1591,18 +1587,55 @@
         "claim_ids": [
           "C-d4231c1a31"
         ],
-        "headline": "Varnam at Carnatica, Devanahalli, has sales above ₹1,000 crore since its August 2025 debut.",
-        "metric_display": "630 units",
-        "metric_label": "Units in township",
-        "metric_value": 630,
+        "headline": "Varnam at Carnatica, Devanahalli, has sales above ₹1,000 crore since its Aug 2025 debut.",
+        "metric_display": "₹1,000 cr+",
+        "metric_label": "Sales since debut (₹ crore)",
+        "metric_value": 1000,
         "name": "Tata Housing",
         "projects": [
-          "Varnam in the Carnatica"
+          "Varnam, Carnatica township"
         ],
         "sources": [
           "The Week (PTI)"
         ],
         "url": "https://www.theweek.in/wire-updates/business/2025/10/08/dcm81-tata-housing.html"
+      },
+      {
+        "claim_ids": [
+          "C-389393f67a",
+          "C-233f50e3db"
+        ],
+        "headline": "JDA for a 9.1-acre Doddagubbi parcel with GDV potential over ₹6 billion.",
+        "metric_display": "₹6 bn+",
+        "metric_label": "GDV potential (₹ bn)",
+        "metric_value": 6,
+        "name": "Shriram Properties",
+        "projects": [
+          "Doddagubbi JDA project",
+          "Sarjapur Main Road project"
+        ],
+        "sources": [
+          "Construction World",
+          "Outlook Business (PTI)"
+        ],
+        "url": "https://www.constructionworld.in/latest-construction-news/real-estate-news/shriram-properties-signs-jda-for-lake-facing-project-in-bengaluru/93386"
+      },
+      {
+        "claim_ids": [
+          "C-7ee47f1fac"
+        ],
+        "headline": "Six luxury projects planned across East and North Bengaluru.",
+        "metric_display": "₹10,000 cr",
+        "metric_label": "Combined revenue potential (₹ crore)",
+        "metric_value": 10000,
+        "name": "Sumadhura Group",
+        "projects": [
+          "Six East and North Bengaluru projects"
+        ],
+        "sources": [
+          "NBM&CW"
+        ],
+        "url": "https://www.nbmcw.com/news/sumadhura-group-to-launch-six-luxury-residential-projects-in-bengaluru-worth-rs-10-000-cr-by-fy-2026.html"
       }
     ],
     "kpis": [
@@ -1627,8 +1660,8 @@
         "value": 17720
       },
       {
-        "change": "from ₹4,975 in 2019",
-        "claim_id": "C-7240ecf45d",
+        "change": "from ₹4,975 in 2019 (+90%)",
+        "claim_id": "C-ff7db99f53",
         "display": "₹9,450",
         "label": "Average price (₹/sq ft)",
         "period": "Q2 2026",
@@ -1647,7 +1680,7 @@
         "value": 8
       },
       {
-        "change": "from 3.6% in 2019",
+        "change": "from 3.6% in 2019 (+100 bps)",
         "claim_id": "C-2a16434c7a",
         "display": "4.6%",
         "label": "Gross rental yield",
@@ -1667,7 +1700,7 @@
         "value": 79180
       },
       {
-        "change": "~29% share of top seven",
+        "change": "led top seven cities",
         "claim_id": "C-8a753aec15",
         "display": "15.7 mn sq ft",
         "label": "Office leasing (million sq ft)",
@@ -1681,10 +1714,10 @@
       {
         "chart": "line",
         "id": "anarock-price",
-        "note": "ANAROCK: Rs 4,975 in 2019 to Rs 9,450 in Q2 2026.",
+        "note": "ANAROCK data via Business Today",
         "points": [
           {
-            "claim_id": "C-7240ecf45d",
+            "claim_id": "C-ff7db99f53",
             "label": "2019",
             "sort": 2019,
             "source": "Business Today",
@@ -1692,7 +1725,7 @@
             "value": 4975
           },
           {
-            "claim_id": "C-7240ecf45d",
+            "claim_id": "C-ff7db99f53",
             "label": "Q2 2026",
             "sort": 2026.5,
             "source": "Business Today",
@@ -1709,7 +1742,7 @@
       {
         "chart": "line",
         "id": "anarock-yield",
-        "note": "ANAROCK: 3.6% in 2019 to 4.6% in Q2 2026.",
+        "note": "ANAROCK research via Business Today",
         "points": [
           {
             "claim_id": "C-2a16434c7a",
@@ -1737,7 +1770,7 @@
       {
         "chart": "bar",
         "id": "anarock-sales",
-        "note": "ANAROCK quarterly sales: Q3 2025 14,835; Q2 2026 15,285; Q3 2026 16,670.",
+        "note": "Quarterly sales as reported by ANAROCK",
         "points": [
           {
             "claim_id": "C-cffc61a291",
@@ -1748,11 +1781,11 @@
             "value": 14835
           },
           {
-            "claim_id": "C-29d1259931",
+            "claim_id": "C-cbda7f5083",
             "label": "Q2 2026",
             "sort": 2026.5,
             "source": "Business Today",
-            "url": "https://www.businesstoday.in/personal-finance/real-estate/story/bengaluru-emerges-as-indias-strongest-housing-market-in-q2-mumbai-dominates-sales-ncr-leads-price-growth-540257-2026-07-01",
+            "url": "https://www.businesstoday.in/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03",
             "value": 15285
           },
           {
@@ -1768,18 +1801,18 @@
           "Business Today",
           "Construction World"
         ],
-        "title": "Bengaluru housing sales (ANAROCK)",
+        "title": "Housing sales (ANAROCK)",
         "unit": "units"
       },
       {
         "chart": "bar",
         "id": "anarock-unsold",
-        "note": "ANAROCK: 52,807 before end-2025, 64,863 at end-2025, ~79,180 in Q2 2026.",
+        "note": "End-2024 and end-2025 from ANAROCK year-end data; Q2 2026 from Business Today",
         "points": [
           {
             "claim_id": "C-5a91e10668",
-            "label": "Prior year-end (2024)",
-            "sort": 2024.99,
+            "label": "End-2024",
+            "sort": 2025,
             "source": "Outlook Money (PTI)",
             "url": "https://www.outlookmoney.com/news/unsold-homes-up-4-per-cent-in-2025-across-top-7-cities-as-new-supply-outstrips-demand-anarock",
             "value": 52807
@@ -1787,7 +1820,7 @@
           {
             "claim_id": "C-5a91e10668",
             "label": "End-2025",
-            "sort": 2025.99,
+            "sort": 2026,
             "source": "Outlook Money (PTI)",
             "url": "https://www.outlookmoney.com/news/unsold-homes-up-4-per-cent-in-2025-across-top-7-cities-as-new-supply-outstrips-demand-anarock",
             "value": 64863
@@ -1810,16 +1843,45 @@
       },
       {
         "chart": "bar",
-        "id": "propertiger-sales",
-        "note": "PropTiger: Q2 2025 15,628 to Q2 2026 14,186.",
+        "id": "anarock-launches",
+        "note": "ANAROCK quarterly launches",
         "points": [
           {
-            "claim_id": "C-3fa339626f",
-            "label": "Q2 2025",
-            "sort": 2025.5,
+            "claim_id": "C-47422084ae",
+            "label": "Q2 2026",
+            "sort": 2026.5,
+            "source": "Business Today",
+            "url": "https://www.businesstoday.in/real-estate/story/buying-a-home-ncr-sales-fall-6-despite-surge-in-luxury-homes-bengaluru-sees-1-growth-540608-2026-07-03",
+            "value": 21670
+          },
+          {
+            "claim_id": "C-612829b5ec",
+            "label": "Q3 2026",
+            "sort": 2026.75,
             "source": "Outlook Money",
-            "url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
-            "value": 15628
+            "url": "https://www.outlookmoney.com/invest/housing-market-sees-modest-sales-growth-in-q3-as-launches-jump-18-per-cent",
+            "value": 17720
+          }
+        ],
+        "sources": [
+          "Business Today",
+          "Outlook Money"
+        ],
+        "title": "New launches (ANAROCK)",
+        "unit": "units"
+      },
+      {
+        "chart": "line",
+        "id": "proptiger-price",
+        "note": "PropTiger quarterly reports; basis not stated",
+        "points": [
+          {
+            "claim_id": "C-9f4be875a8",
+            "label": "Q1 2026",
+            "sort": 2026.25,
+            "source": "The Tribune (ANI)",
+            "url": "https://www.tribuneindia.com/news/business/bengaluru-housing-prices-jump-24-in-q1-2026-amid-strong-demand-report/",
+            "value": 9785
           },
           {
             "claim_id": "C-3fa339626f",
@@ -1827,14 +1889,15 @@
             "sort": 2026.5,
             "source": "Outlook Money",
             "url": "https://www.outlookmoney.com/invest/housing-prices-rise-across-all-top-cities-bengaluru-leads-with-26-growth",
-            "value": 14186
+            "value": 9931
           }
         ],
         "sources": [
-          "Outlook Money"
+          "Outlook Money",
+          "The Tribune (ANI)"
         ],
-        "title": "Bengaluru sales (PropTiger)",
-        "unit": "units"
+        "title": "Average price (PropTiger)",
+        "unit": "₹/sq ft"
       }
     ],
     "tracked_developers": [
@@ -1844,11 +1907,11 @@
           "Brigade Avalon",
           "Brigade Belvedere",
           "Brigade El Dorado (Aerospace Park)",
+          "Brigade Granada",
           "Brigade Gunjur",
-          "Brigade Gunjur township (JDA)",
-          "Brigade Kanakapura Road two-acre project (not yet named)"
+          "Brigade Gunjur township (JDA)"
         ],
-        "tracked_projects": 11,
+        "tracked_projects": 12,
         "types": [
           "apartment",
           "mixed",
@@ -1863,9 +1926,9 @@
           "Prestige Gardenia Estates Phase 1",
           "Prestige Gardenia Estates Phase 2",
           "Prestige Great Acres",
-          "Prestige Marigold"
+          "Prestige Grove Hills"
         ],
-        "tracked_projects": 9,
+        "tracked_projects": 10,
         "types": [
           "apartment",
           "plot",
@@ -2055,6 +2118,16 @@
         ]
       },
       {
+        "developer": "Aakruthi",
+        "projects": [
+          "Roots & Rays"
+        ],
+        "tracked_projects": 1,
+        "types": [
+          "plot"
+        ]
+      },
+      {
         "developer": "Aparna Constructions",
         "projects": [
           "Aparna Wonderwoods"
@@ -2082,6 +2155,16 @@
         "tracked_projects": 1,
         "types": [
           "apartment"
+        ]
+      },
+      {
+        "developer": "Bagmane Group",
+        "projects": [
+          "Bagmane Sierra Business District"
+        ],
+        "tracked_projects": 1,
+        "types": [
+          "commercial"
         ]
       },
       {
@@ -2125,6 +2208,16 @@
         ]
       },
       {
+        "developer": "NVT Quality Lifestyle",
+        "projects": [
+          "NVT Whispering Hues"
+        ],
+        "tracked_projects": 1,
+        "types": [
+          "villa"
+        ]
+      },
+      {
         "developer": "Opera Homes",
         "projects": [
           "Opera Epitome"
@@ -2157,276 +2250,371 @@
     ]
   },
   "news": {
-    "evening_refresh": "2026-11-07T15:27:50+05:30",
+    "evening_refresh": "2026-11-22T18:14:50+05:30",
     "headlines": [
       {
-        "published_at": "2026-11-07T14:07:01+05:30",
+        "published_at": "2026-11-23T04:04:33+05:30",
         "publishers": [
-          "Vartha Bharati"
+          "urbanacres.in"
         ],
-        "title": "Youth Congress launches sticker campaign near BJP leaders’ residences, office in Bengaluru",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTjVKbzMxRlJsQldPbVFLdHVoczZpLVRsNlZhZEZOWHNEZVRkTWNiMmVRVGVxSk45TEJoSnhFOW94VDNrdDVxLVVodVRDSUJGNUxtUS14bVl6SUlZNGFPcFo3UmRaT1FWZlltUGRyd09oUlAwMW5qZFlDY2EwSXlVNWZhVUN0VVAzMEp6TXBkQjVZNmQxRDFNU2Q1MHE2WnlTZEpKVXRkM3dNOXpBbmlhMFRjWTFaVE16cHV6YW8tN3JkSElaTWZUa3BmVkg2VThrWlZVOFF30gHbAUFVX3lxTFAxNENFSjVvb0VkT2YwZmlIbC1LUlBEbzNvUDZPZmpWOXlMWno2TVJmT21INGIzZ1ZjVjkzUktIOFc5MXk1cFhmUXdNVExxN2hpRmFHNjJHX3lfbDRFajdaaXhGSDdUeERyZkdscFl5eGxJblQ4bTNIa001ZTdGeWpBWVBaZ0U4SFM4b0dXZC04NWcxTjdaQWdHektrRWxRMF9ranZTWnBmOGNoT09SWkYtWmNVOHRfV1h3RWxsZldKVVhyQlVwempDMF9nTU1WV0pZZ3BmcHl6WHFDaw?oc=5",
+        "title": "Namma Metro finance costs exceed revenue amid rupee fall",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWHBVUDZ5UXBFbUFqS08wYjcxemQwN3VFVzloYzlnaGsxV0lVUWdMakVRYjBiTzlvUXgyZVNCMHRiNWpQdk1oX0txUXlHb0RfOU9tRUNYRUd4Nno4OGdoNk5ub3V5Z19MZDdOdXZ3WUpjVE9ZNGg5YzJZQ19MLXEzMTRJLTM4YnFGNHNKR3hBRmVOV2FfZG15UVd3UzNCdjg?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-07T13:29:59+05:30",
-        "publishers": [
-          "The Bengaluru Live"
-        ],
-        "title": "GBA to Hold e-Khata Open House at 62 ARO Offices on November 7",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUDJvT1VHTlJCa2dqN1VUMkNXdUpENEc0MENELXNKeWtDVi1WbmtyS29FM1lUTUswTjEwNFZqUHduNDJpeVhFbHZRbWwxb1N2UWZaNEpaMFc3SHk4VnJXWm92bVJFMTA2MkgxUmlrLWNnbW9uQ2ZWU3pyNklxQUFvZnBUdkpvUDZla0JwS0VmOEQyMXdvMWJB?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-07T10:50:24+05:30",
-        "publishers": [
-          "LiveLawBiz"
-        ],
-        "title": "Rajasthan REAT Refuses Delay Compensation, Finds No Proof Bangalore Flat Rent Was Loss Caused By Jaipur...",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPY1dwUnI2OVdXUkdISDkyMHRyMVlvQ3lrclNsMlNzeUdFblYtczZHT2dEeGpOazBIR3JmNWRQRldpY2dSb1JrRkdlX29sLTJta0pxa1VhZnNwbHRKb0ZVd2FxTFZBazFuYi1jX0NnV3FyRk5pOXdhd3lvdnJFVWdmQ3lSX1dIUEpRUmFmd291SkFYejZhTUpNbGM3WUZJSXl6N3lYbEUtWTgwNk8ySUhodWUtWmhpNFM5RzlDTmNKZmhuQ2ZHR2Z6bVhmTzR6dVZhSFJEcnV6SzNHOHpGLW5SVlA1MmR1YVlnc1VQU1ZrYW83OVpVUEhR0gH3AUFVX3lxTE9jV3BScjY5V1dSR0hIOTIwdHIxWW9DeWtyU2wyU3N5R0VuVi1zNkdPZ0R4ak5rMEhHcmY1ZFBGV2ljZ1JvUmtGR2Vfb2wtMm1rSnFrVWFmc3BsdEpvRlV3YXFMVkFrMW5iLWNfQ2dXcXJGTmk5d2F3eW92ckVVZ2ZDeVJfV0hQSlFSYWZ3b3VKQVh6NmFNSk1sYzdZRklJeXo3eVhsRS1ZODA2TzJJSGh1ZS1aaGk0UzlHOUNOY0pmaG5DZkdHZnptWGZPNHp1VmFIUkRydXpLM0c4ekYtblJWUDUyZHVhWWdzVVBTVmthbzc5WlVQSFE?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-07T09:11:44+05:30",
-        "publishers": [
-          "Urban Acres"
-        ],
-        "title": "Bengaluru Ring Road Project Gets ₹1,118 Crore Boost",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbWtjbVpzVXRTM1J3bld3cEdZVWpXN29hOXlwZmNsODJUS3ZVVGpVRThJNzMwcDZrbjdDUHkwWmtiZ2lhTzRDU3ZPX0RhZEF2QldIQ3ZoX1h6NTZtUDJSRnNiU3pYSUViVVR0T0dCbDdKZkFPZ0xEdnI5cjd5a0dVeXdIVm1yYzls?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-07T07:04:00+05:30",
-        "publishers": [
-          "The Times of India"
-        ],
-        "title": "More skeletons tumble out in Bengaluru family massacre: TV at full blast, property dispute, 20-year confl",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQdnFocF9aMHM5MXV1N25PcjB2OGFERzRUWFhQa1ozLXFLbVZEbDVDNHlFUUlpWFVNUnFDa3B5NWFKOWMtQzVUMjQ2RHJKZnE0T19zZDhoUVl6cFNmQnFSb1lHV29Vb01hSXlwcUY0bXdUWmJKVDlPTklwOWhobkhCMkdQaHlFb3RjQzd0RDEzTVFocWRjOTNmNFZCNGRXZVdKenp2dzY1OWxmbmJLNFpib0ZBQldQY1pIcVBQWWNLajVNR0dLYmpqOWswZlBSNnpBZm45aTktZXBRVTJzNExITkozS2t1ZmwwcTkzbFlRbUxlX2daSjY1UEZLSVd1WTdnX21EdWxhQ01pRWVVNEtNMTVqR1JOaFZJWlhXbdIBogJBVV95cUxPM1dBZjdVb1dwSURaVHl4Q2VSVmtZUEU4ODU4aDlQTi1INEozaWpVc3FSVEZvdEpvT1N4Zmc1WTVxeWZlRlI2eXJ5MDdRaDFJUGM0S2owQUxRSDByZ3F2QjVLbkE4bHBLRzRyMVZzZm9jNFM4aWJ1REgteW50clpzS3JRMTMydnVKQjVzOTMyZm5oYkRBTWkxd1p0ekVDeHo3YVRXZ3ZWNWNoNHZFTElQM3lKRnhnUFlBYmIyWWt2WjVyUjFSN0hoZzRUeWJsM09oSzBialdhVXJUcmFEV2lDMFByM0xIZzUzRERITjBBMk0wWUpDV2pFNjJ4NWZZX0xldHgxT1p0bnd5ZVVFUlotMjZYaDk5OXB5N3VybGUyUjVQZw?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-07T06:00:00+05:30",
-        "publishers": [
-          "Bangalore Mirror"
-        ],
-        "title": "Want to question GBA’s road projects? Bring the maps",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdnVBbmFuTWtKUmRaTHd1dnNrVWZTREctcGQtdUpYOFRZLXh3VjVPSjlZQVIzaV85M1Z3U2hJTTc4V0k0U2pxMzI3bVJHRFc3T2pqU0lodXZIRFNob2VrNl9YaEdybi1Bdl96LUp5OU5RSXhRUzJmaFNDcWt2ZzFGbnQ1ZEtERVB6T0J2aDdFMFMzb0RkZ0NGYWg0Wl9QWXFNNWUwYkhDRF9icTJFZC1mU05xeWFXWlBHMGFxRHJpZ1ZBaVk1MFBCV3pYONIB0AFBVV95cUxOUkRweUF5Q1Z1cUhGeUEzaDBnQXNuNG42YWJLTEFITmNqS0ZWM2t1alctSTQ5MndWV3c1UkhBOExvaXpqNDE0Y2hlenprQVJlMkNFazREeVJzRDlpelNLWlp0dFRDTWVKbW1LY3N1Uks3UUxEN3pQeGdaaEhHTjRrU3kxX1NicWVYalBudlR6TGx6Y3BtMjBSS0FBcjJvUGRIVTR4X29WM283Z01iNS1jamJVZGVjR3IycENRRmVvUzd4WVhaQ3lqQ1JFZUs1MFpq?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-07T04:42:34+05:30",
-        "publishers": [
-          "Urban Acres"
-        ],
-        "title": "Hebbal Elevated Road Work Causes Bengaluru Traffic Gridlock",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVc1b19PTmcxUWcyYUdHN0JpWWEwd1Rsd1R2cngyeW5hQmUxZEtFVkIxczJnWDZrVHVuT1dTMkpoNVpvTkhpYVNJYUdDbktoa3FhUGFLUHZ1UkN5MTBTak56aENlUGhkU19BSHpReENGY1JqSmdUbENsaGVGUEgxWTZCZ3VJR0ZnN3JtQUNn?oc=5",
-        "zone": "North"
-      },
-      {
-        "published_at": "2026-11-05T02:30:16+05:30",
-        "publishers": [
-          "Prop News Time"
-        ],
-        "title": "Bengaluru targets completion of Silk Board stormwater drain upgrade before next monsoon",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNmxleG80UGhqaGw2WmkxSjNZSHVPdy15cWlCS0c1QzlSc2lIeExMZC1LbU43VGktdW5qT2pfY2FQbUlHQ3FtU2l0UWw3ZFdxMk4yZDJNU085TlZwOEUtRHFnRk5vaWVMMUwyczVmc3k0OTVtLVJOZU1Hc2M1Q3FrMjRWWHZCZkNBazRrV1EtWnoxU0FUYnFhWF9rc2hMb3ZnSkZ5XzQ0RVlDekhCSm5QdXlJYnBFOGpDLXFzNllkMWNEeUx0aVVKcE5EdEVVUDFGaEpFMEhR?oc=5",
-        "zone": "South"
-      },
-      {
-        "published_at": "2026-11-05T01:51:47+05:30",
+        "published_at": "2026-11-23T03:26:41+05:30",
         "publishers": [
           "Deccan Herald"
         ],
-        "title": "Namma Metro Pink Line: Elevated stretch to run every 8 minutes during peak hours",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQmVCWUF5LWlpLVdnQlJSWXVwVlY3TEQzNUdMdEJ5VkRrd0ppMDloajRBb2hQQUJKMGNzczdxOTkwVzEzRHZGS2ZJZUxuRGhxUnhHa1M3MXJVejBFbU9FM0pGWlN5Q2NyLWlnYjQ1TFNJd1c1OHdvYnNlcjNQMTk1Z19QWlo4cFROM25qWTFfM1p3Vk8xUlE3VURnaldpRk9BQ3RNei1QWHB3bmdLaUpnQmlmRnIwS1dKRWF1dXdDczJ3M0M3c0VhVURIdUlOTXcxb05jTzRIbjdOUmhPeDRxYjI2NGlULTEwNnpOeTQ5Yw?oc=5",
+        "title": "Rupee slide pushes Namma Metro's finance costs above revenue",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNThXaks3LUJLOFkwNVV6STB3TTQ2a2tpQjQ5aDFsTW8yYjZaSUdFVzRRUU1XWnotLUNWTGpiSjJBWklKSWt3aU1MOTlJTHkxR0NhcGx6MllmVGQ5bmJ2UFJCUGVjY3hoTE50d3dJUFhFMmJid3hjM0JjV1lGM2lQbHhCekVDNkZqcGZHS2V6OUJ4TUNHV2pOcDhBRnlTRjhDVkJkY0VOUHI3a2pnVnY1OENzelBiX25kWGFFci05Q3JiYVRsclVkbi1mb3DSAcwBQVVfeXFMUDU4V2pLNy1CSzhZMDVVekkwd000NmtraUI0OWgxbE1vMmI2WklHRVc0UVFNV1p6LS1DVkxqYkoyQVpJSklrd2lNTDk5SUx5MUdDYXBsejJZZlRkOW5idlBSQlBlY2N4aExOdHd3SVBYRTJiYnd4YzNCY1dZRjNpUGx4QnpFQzZGanBmR0tlejlCeE1DR1dqTnA4QUZ5U0Y4Q1ZCZGNFTlByN2tqZ1Z2NThDc3pQYl9uZFhhRXItOUNyYmFUbHJVZG4tZm9w?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-05T01:26:29+05:30",
+        "published_at": "2026-11-23T02:31:26+05:30",
+        "publishers": [
+          "Urban Acres"
+        ],
+        "title": "BDA Seeks Private Partners for 45-Acre Cricket Stadium in Bengaluru",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMk5WaDFmX1M0eHdFOFAyMU9URjc4Qk1DX1NFTGloSHVaYXZUMzRkWUFLcWdlNXoyV3BVTzlEQjVLMlMxV2tfRTkwNHIwM3JBTHNyTVliLTY5Mk9zMlVPWUNlZVBFN2p6Vngwb0Q2bWN2eWtTOUNLV1BXamZLNjhXYW1aT2NJUkNkcHYxd24yZDB4eWR1XzJ5bW1Rc3ozc2l4bjgzSGtfT0psMnFaWHc?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-23T01:27:22+05:30",
         "publishers": [
           "Deccan Herald"
         ],
-        "title": "GBA to roll out phase 2 of 'Ward One' civic campaign across more than 50 wards on Nov 7",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORlA2THRNcVNXbzd2eE1uZnFjTnZSTGV6QXBBeE5pNkJnYVJ5NGZ6SmZvQ19qSzh6WHdoOWh0RGNSVG1Xc1dxQVZ4RTlTQlBfelA1SXpISUctVGx6d1YzclpuV3oyZ1dRMWdTNG5yQzVqRk1ndExsWEF5VXhuV2JrcDRROUt6UnREbzBSY3VHYkp5ZTdKeGowYlo2NWtNaFR2VFVnNngweGV5OF9jYXRqUzJJbVB6SElBUnc1WkQ0WUVZRGxZT0RibFBFNjItaHlkbkR2SzhhNzdldEU2bDhCQTNR?oc=5",
+        "title": "Two builders settle dispute over Bengaluru villa project, but what about buyers' money?",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbzI4Zi10WHNXbHRPMGl0X1BRSmFybHk1N3JucEw1eHJhcUJwdElTVXVKMU5XRHV5Zkw1bHkyTDh3VmNQNDV2dHMzVlVNMkNpQXRPeU5TLXFfVy1fYjRrX2pFdTFTZ3BzN1ZiTjZsYmtERkFVQUhiWXNnWDhjak1aQy1OejEzaUoweGluV01BUWgzdWtaQnVLOERVM2d2VC1GYlp1UW9KTHZSVHJmYzQtUXBQc2I4dVJkcHdMdVZkc2pCdHAyOVlfbtIB1gFBVV95cUxPN2d6aWFnWVd1RmEyNGRfU3AtZU4wYm85UDIxOWl5WGJLX0VoWk40WHRTalY2S0N5ajU1N2JKREtwUW9xVDNXblRDclFEYUMzZ1VaSEtjU3hha3NPQmN0VTU0LUVfZGc0elQ0M3RBZW03SnRvT1BndWhsd0ZRaXlQdzBBRURObUdOYklqZ0N2Y29XcEMteDVPY0JnSlRfTVdhNzJ1YXFrUDNWWVgzaVJtRHNLWFVHamtjYk52TmJTQlJMTjhjdXEyWU9FbFc2dEdacXBUTGJR?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-04T23:58:42+05:30",
+        "published_at": "2026-11-23T00:43:51+05:30",
         "publishers": [
-          "India Today"
+          "Deccan Herald"
         ],
-        "title": "PM to inaugurate Bengaluru Metro's Pink Line on November 13",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQXzRwZ21TSUFhbnkySTF2TVpCemFwOUxJY3U2MFpBWWowNEx4V012bFV0djI5alhBSGFWY1NGUTlCUjFyOFJQSWY1NHJWQ0loSGVHU1VqQmJwZVNtdTN3d0xUb1NDdktfVkZzSDVsN1dLa1I4WlNVWjhEcmRqTjlMems3SmdCRjdCdEZ5QlFMWDZSNDBUWW5fa1k3OVBDNjE3NWRTNVFUbV9EOVNlQkhYNkJOcjlMMjlfUk1Xd0xFa3UwUTFOMnV6Wm00QU04czRnWFJ5ek81X3g5TU5CWDROUXhR0gHnAUFVX3lxTE9uMkZPVFJfd19TMkFaa1paX3MyNDdDNEdwM1VGQ0lKSUFXLXFBZlFaTDlqbUMySUl0TDM0ZXNzOXU0czFTM0xTeDBuSXpBcEFkRkZrY3Z4WEU1Y2stWGpDcHNMNDdGTWNOcWFsYUY1ZURaNnRYUEdCdkFibmE0ZXlUd3FVdzMtaWx5WEhrQkN3a1Q2NHE5R2RNRXFSajdsVldGOTBDZ0VldWpsVnNPUXgyVXJTRnkzZ2lfZ0lDMk54N2N1aktsR29KUGJBbXRDVFRqQVdxRlpmTUZ1azhKWHpsWVM3YnNuTQ?oc=5",
+        "title": "BDA plans international cricket stadium in Karanth Layout",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVlYzalBxY3VmNE4xMi1WRFdvaWtXLVN5cUIzaHlJWlNmcG02VEh2U2xFelVIVmd1aUd4VE8xUF9HMzhOcGhWOENBaWdpNGlnU2Z5RWgtcHdjWnEzSF9GX3o2Q3o1Z01WdVFxb2hZYks1elpQbmJnNExQeXpSTG1ZZkJIWjhzX0RlckZBZS1yNFE0UUFXMHdLMlRpa1l3RkJaOVBDQW4yZFBzZFl1ZTBxTTYyZ2VDX0FOSFlDNlhWWkh0cGxQb0NmdndB0gHKAUFVX3lxTE5WVjNqUHFjdWY0TjEyLVZEV29pa1ctU3lxQjNoeUlaU2ZwbTZUSHZTbEV6VUhWZ3VpR3hUTzFQX0czOE5waFY4Q0FpZ2k0aWdTZnlFaC1wd2NacTNIX0ZfejZDejVnTVZ1UXFvaFliSzV6WlBuYmc0TFB5elJMbVlmQkhaOHNfRGVyRkFlLXI0UTRRQVcwd0syVGlrWXdGQlo5UENBbjJkUHNkWXVlMHFNNjJnZUNfQU5IWUM2WFZaSHRwbFBvQ2Z2d0E?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-04T23:13:44+05:30",
+        "published_at": "2026-11-23T00:38:21+05:30",
         "publishers": [
-          "livemint.com"
+          "Deccan Herald"
         ],
-        "title": "Bengaluru couple spends ₹9 lakh yearly on travel as biggest household expense, ₹60,000 on rent: ‘We’re not tracking…’",
-        "url": "https://www.livemint.com/money/bengaluru-couple-spends-9-lakh-yearly-on-travel-as-biggest-household-expense-60-000-on-rent-we-re-not-tracking-11793812240691.html",
+        "title": "Bengaluru Police launch city-wide raids on rowdy-sheeters after CM's directive",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMTBBLUdDOEc1MUxSMFFpSmVucHF3bjQzWGNlNnBvVFlxejNxcVNFaEN1ZV9oZDkzVFhxcFhicGU1N0RkeGJvRTVPdGltNnBGbGpPSHhDOUVPQlNzbUpQb0FXRmJkR0E0U3hoZ0pRbGxsOVpqV1E4cEdmZWlFZkl0aW4zV1ZLc2t4MHJ4TTBLTmRaR00zWlRYaWRIYWhlelRMRnNoblNXVzdteUZfQ29WSVZfX0ZUYUtORlhWR0YxOTktSGRIM0l3UkhOUVNOR1dtRTVLSHJFcVBWZjBndGxPelppM0XSAeQBQVVfeXFMUDEwQS1HQzhHNTFMUjBRaUplbnBxd240M1hjZTZwb1RZcXozcXFTRWhDdWVfaGQ5M1RYcXBYYnBlNTdEZHhib0U1T3RpbTZwRmxqT0h4QzlFT0JTc21KUG9BV0ZiZEdBNFN4aGdKUWxsbDlaaldROHBHZmVpRWZJdGluM1dWS3NreDByeE0wS05kWkdNM1pUWGlkSGFoZXpUTEZzaG5TV1c3bXlGX0NvVklWX19GVGFLTkZYVkdGMTk5LUhkSDNJd1JITlFTTkdXbUU1S0hyRXFQVmYwZ3RsT3paaTNF?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-04T19:46:08+05:30",
+        "published_at": "2026-11-22T22:39:00+05:30",
         "publishers": [
-          "The Bengaluru Live"
+          "The Times of India",
+          "timesofindia.indiatimes.com"
         ],
-        "title": "GBA Ward One Campaign to Enter Second Phase in 50+ Wards From November 7, Extended to Mid-December",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY3d4SEUxRTZnZjFoQjNvUXBGZVdUVldlQ09aQlRsVGxDdllJZWpTMUxnZ0FMMEQ5X0JkbE5UdmFjSV84YmRiNVRHY0xnUVc3NFkxYkV3M1RjUy1vd20zSlJpeHhtRXozaldraXUwWjFNaVpjN0p3N3Z3RnRqdTlnek9FMUVPbFE3cWJUOVBEczNuVmJzNXNrbVFnRWtrRUV4SFRSdXRmRmtMQQ?oc=5",
+        "title": "Crime prevention: Bengaluru police launch crackdown on rowdies",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU204WW8zWGs1TU9tSXY0LWczOUp1SElEdmZvVDJRUnNaV0JuOGZvT2tROXlIVlM2ZEd6M1pGYmU5X3J1STdTMzR0VWtsSmlXWmhVRjR4eHdJZFNBU29Xd0xudDRyNUMtWEZTSXNCUUJNWlRPNUEyYXZsV0hwb1dTc210RU04RXVrOU1PZWdQWkZVY2tzUHJaSHdNS3ZDNmplaTdlcG0zSzZrUmpkSWczSTdFUXFvUGNSYXBaQ01sYV81aHQtTGNnSUpjaWxXYUVUaTJCYdIB2gFBVV95cUxPT25MTkh2a1V2RWJZRmZDTVJNcEg1YWZuUS1CcFJKd1pPNzkySTl0NFY5Mi1mRVBtWUxCR2hPTGhnU2N0TTJXaUo2VUtPUXE1cm5ma2NVMjhJWUtsYVlNU2FNR2JIOE5HZ1lnQXp1clFQc1kxNHZGRDI5MDlhUXhFQVF1UnpYanUxeEE3YlJRSGpWVWhmMktCOVIySHRhMHRWSFJqbERWS3E3Tmw5dnBXZkZGbHZPVmZzV20tWEZ2QkIwWXMzdnk0R2V1QXdTeE1wSk8walluMG1fUQ?oc=5",
         "zone": "City-wide"
       },
       {
-        "published_at": "2026-11-04T17:38:50+05:30",
+        "published_at": "2026-11-22T21:12:44+05:30",
         "publishers": [
-          "Inshorts"
+          "thehindu.com"
         ],
-        "title": "B'luru GBA road plan raises concerns over lakes, buffer zones | Tap to know more | Inshorts",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNkxBQVkyRjJsQU9fdzhwT01rcXYyRy1udjJteG1LX1JMc1lmdFoyaXpZc2lJVjRGZVlCZnZEdTZzbGxIdjVJOHc4eDczRVBaT3dsWGRBUTIwTjJPMVh5dXJ5S0dObXJYVjBkdzJCOVpSVkVoMTkyRDNHWjRheVJKMGxUa0t4N0xTUDZNYzlCLVJhZjI1SVRnb0s3azNKTi1xLU81UXpsZ9IBrAFBVV95cUxQakVEaWJfM2RNNWhhd1VMVUt6UkNMT00yZE80M2VNXzF0Y0ZIM0IwdGhTc2lTaDUzUGRweVZjX1hCSlNSSy1XbkFfTzlQQ0V1ckdCVnhEVHRfZ2phbTVhOU85UkJwMlRnQVZqa3h5SFBiTzk5eGgxQ01TS3lETWxFSHBVVmZQZ2NXVDk2Y0tuQzJQQVZDN3JuMkJ5b1JyMW92Zy1jVWhVcVluQVlN?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T17:17:02+05:30",
-        "publishers": [
-          "Inshorts"
-        ],
-        "title": "Bengaluru Metro begins soil tests for proposed Red Line | Tap to know more | Inshorts",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYXV0aXhuM2NhWVYtY09SYzJ1R3VwSkp3dWFQaVRhdHkxcGt4cm9SVS1WS2VXVHlWMnNTa3REZlV0dGhWNmtsN3ZQWXJNd3Q2RHU3NjN1Z2dmVTRaYUMzNU5xWnhjb3BuTTBhMTJRYTZOdlVTOGlKbEM1dkNNTk9ZSzRKeTlweDFIWHB1WERtcjhIdDBnLWNSR2xMTWt4dTJDWXkwVtIBpAFBVV95cUxQYXV0aXhuM2NhWVYtY09SYzJ1R3VwSkp3dWFQaVRhdHkxcGt4cm9SVS1WS2VXVHlWMnNTa3REZlV0dGhWNmtsN3ZQWXJNd3Q2RHU3NjN1Z2dmVTRaYUMzNU5xWnhjb3BuTTBhMTJRYTZOdlVTOGlKbEM1dkNNTk9ZSzRKeTlweDFIWHB1WERtcjhIdDBnLWNSR2xMTWt4dTJDWXkwVg?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T17:14:13+05:30",
-        "publishers": [
-          "Today’s Traveller"
-        ],
-        "title": "Grand Continent Hotels Opens 33rd Property in Yelahanka, Bengaluru",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xVFhNVGF0UFZ1Vnp5dHpmR0NTUkZMWFJLSV9Da2RiLWZzemVRSjd6UjFYRmlLdnJTVE5NaENjbHhvRFdnRUdRY1NLMlZCZE9wN0VhUmFTS3J6NVEtcEF2UTgycU92R3VqaVlHSWxWU05PbEoyNUppekc5ckVaeE0?oc=5",
+        "title": "From taluk office to museum: Devanahalli’s 140-year-old heritage building to get a new lease of life",
+        "url": "https://www.thehindu.com/news/national/karnataka/from-taluk-office-to-museum-devanahallis-140-year-old-heritage-building-to-get-a-new-lease-of-life/article71731130.ece",
         "zone": "North"
       },
       {
-        "published_at": "2026-11-04T16:10:14+05:30",
+        "published_at": "2026-11-22T20:12:02+05:30",
         "publishers": [
-          "The Financial Express"
+          "The Indian Express"
         ],
-        "title": "PM Modi to inaugurate Bengaluru Metro Pink Line on Nov 13 – Full route and details",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYzM3X1ZJREpLbExwRDlCR2JjeXNQdkJKZm5LeVJqLVZCbVVxSUVDQTEtb2tqcmMxMlp1cVZsNi15c3ZBNkpDdFhrMUt2bWlBOUVkRGFjd2JneDRqNFlCQjBGYVRsa2lNZTJPcG9yazlPc3VFLU9NcVdhaUZZcjhMbF8xSnYzWWluay1USmtJSWxiSGFuMnRfc0hDa2RZeElSTXhCbG5tUUE3bmU4YVVndVhteHRrNW1aYXNjcDFwcTd1NXNBZ1VPVEo4bHI0WmMtRHlNU25IMFZHc2s2Z0800gHmAUFVX3lxTFA1VUtDejFiX0YtWmRsdkxoc01FWDdGVV9wOUlfLW9Ldkg1Rkllc1FsSUtDMy1VYUdoTTFSQXlST3U4Sk5ybGpScThHZEE3cVlCaDdhQVlJYkh0MUtpeDhuTmFBbjlDQzZndTRaN2tWRldWLWN1VFZwckJTUnp0bWNadWtzVDFEV0F6VHNsQW1faFp3REJyZUU0NWxESmhQR0xkM0ttNURBZ3owMkJFY0pyZHkyaFRudlllRDhsc0hubFp0YTc3REVTV1dKUGRHS25iRDdDdXNnZVMxdjZlTnNIVXZ3c1F3?oc=5",
-        "zone": "City-wide"
+        "title": "High drama at Bengaluru airport as Sharmila arrives to visit ‘family bungalow’, police stop her",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNG5TUXBfdzI0Vl8tdVJ1MTRWNEk3QjVWc3Rud2ZYQ2FmcU14MDFZRy1zc3RLVzVrY1RhYWFfdVlOY1ZVbEdpLVBhUGN5S2VuMXhDRE83VW1GdWtPMWpIWlBlRTg3M0tZUzZ2anFYcE9UQWtyd1V4X1VJT2pFRVF3Nklpbno1WnpIUnhXdVh1eUZtbi1XUWlPWVVGa2htT3Z3c3dCeDd6c2czUEdxYm1wY9IBsAFBVV95cUxQNG5TUXBfdzI0Vl8tdVJ1MTRWNEk3QjVWc3Rud2ZYQ2FmcU14MDFZRy1zc3RLVzVrY1RhYWFfdVlOY1ZVbEdpLVBhUGN5S2VuMXhDRE83VW1GdWtPMWpIWlBlRTg3M0tZUzZ2anFYcE9UQWtyd1V4X1VJT2pFRVF3Nklpbno1WnpIUnhXdVh1eUZtbi1XUWlPWVVGa2htT3Z3c3dCeDd6c2czUEdxYm1wYw?oc=5",
+        "zone": "North"
       },
       {
-        "published_at": "2026-11-04T15:47:30+05:30",
+        "published_at": "2026-11-22T18:45:36+05:30",
         "publishers": [
-          "ET Infra"
+          "The Indian Express"
         ],
-        "title": "NHAI gives safety makeover to junctions on Bengaluru’s Airport Road",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONEUwcm1EMmF1UHo4T0ZramZjSS1zaENZUE0zcFY4RWxjbF9GZVlqMkp1WWVEMEZWOVh4RVdlbldNSW92Mm1rVTc1WjhhR1RGZXkwUWJNT3YxVmlWcVk1Sy1razMzMXpjSU9mN1hLeXhxQmRxWHRCTXpUYnhIOHp5NjZydE5sU25RSV9nOEJsTW13c2J2OU5ZWmJJMlFYUkhnWk9WNVdwaEpmVlhNSkJSVm9CQ2ctYTdXUFNKa0NoR01PWlZwLWVsOEVtMW94WENPTmFUY9IB2gFBVV95cUxPdnZFdENkbXlONEczM21idWM1ZmczUnhHWWdEXzVhZXVfWnBTRXk1ZUItM1RuNkJWSXZMbUVpMTAyUjVmSHhvaDZTT2dadEtJRHpjMU5sWWR1dEZiS3NXSEZBWDJjN0k4bUFJdzJzS3duelRWUTZ1SUdVM1VVWDVWUDZURmZ1WkdFNng3emNkOFNWNVNtVjBCMTJ4UWNvcUVURXlMdnFPQnl1Rnl6OUxlcXlNWTNnOUU5clUzR1FFUGxScWI0RzdISTFPM3o1WmJMSlFvam91MjIzdw?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T13:32:01+05:30",
-        "publishers": [
-          "The Bengaluru Live"
-        ],
-        "title": "GBA Guarantee Committee: ₹20,632.77 Crore Spent on Five Schemes in Bengaluru, Gruha Lakshmi Re-Verification Planned",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNW1kQnJBMC1OUVFxNHdlWWpCWGF0VDRSV0VpNWlFazJLbFYzbEFwZy02Zm1rNHo2Y1dZODhrRG4yYVMzX1pIY1htOTNmM25OR2Z4QWRYbnRWdzNzZWNmT3BUU2xuQ2FEZW1aOC1UZHZXbUpURGR1bGF4MDRIWW56VFp6TjZudDkza1ZGQndOZ3BUWlFZZ0V1NGhMUC1tQ2tZNWJMSnFLM0JVMUVCZ3pTQjhGNWRPU0dCdVJrZF9uMTQ?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T13:24:00+05:30",
-        "publishers": [
-          "ANI News"
-        ],
-        "title": "Furniselan Expands Bengaluru Presence with Second Furniture Experience Centre in HBR Layout",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUHhtaG16VVhQNVY5T0xWT0Jod1JscF9Zc2NqSnJiOE9oTkVoRmF1UWVOakVXUldBc2JJUzhpbWJ0YndfdFczc2UxaVMtUkZfdmRpRktaanU2OUNsdWttZzhNSmJ2YTB1b2JXWXZVbzJiQXJyYkpTYldFa0I1cXJULWpxRFF2dkQxVTNKekRnNnlsOTZJbG5ibk5DOExjV1JkRG9JMEFrYXZOR1NhakFwVUZRZkFUdnRGSzFRc1ExajRYNl8yaHFrMWNzWUdNdWpkUHZhNTdDd2lpQQ?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T10:34:26+05:30",
-        "publishers": [
-          "Prop News Time"
-        ],
-        "title": "6 things to check before renting a home in Bengaluru’s HSR Layout",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON0tqODM1YVNZbjV4c3JyQUg2YWVaN2dFQmllS3NLa2lwbm9fbnRPdF9hamROVVF2VEFXUzdYZE0xVWdOZHdqRGZfVVpCdDJkUXYyeGQ2S0d4NDdZY2Jjdi02RnFoTERDSDhBR1FYdnJqOU9FckVmWGhSVXM2bm1GWmJYUFh1UVdvZFVENzdOWUdHamphZEUxMS05WkZ6T3FPUU5XYjBYaGxVVWw5S05sdGNtaktzQXNP?oc=5",
+        "title": "New Rs 77-crore flyover: How Bengaluru plans to decongest Konanakunte Cross",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc2ZtYXlTTW94UWJwempqYnNYZy01dTBHRWRsc2F4bksyZEoycFpnVkdRN0JzU2xVTEZINlZlNTlvOVN3WEZXUVg5MVBHSUtKY3otX3hOS3dSTjVqX1VPai0zMTF3OHBBbzJsM2o1M2pua2VDZXFpVGMtUTIyR2JmSXlVVTA1SWR3dU1MaWtZQzl6OXhLX291LW9Dc3ZZOGZPSFI0NVJzSDhBQUpmZ25xYUd4VGxSNEVla0ZfQ2NzdmdCMkJNenhJY0k2X3pPWVJD0gHXAUFVX3lxTE5odWRZd3kwVmlWUGpEdG1Ld3BBYllUbU5TVVpsbmVaYzk0a0NhbUIwOXFUNTY3T0lXd0VKZ0gxVW5HQncyTWJ4RTdLVGJENUE1NjFHMnFWd2xwTzlsTDFIU011a1RncTNDQjJmMzVwN0IzLTduWXl2T1UtOTZmemZ4MDVPUmV5MGlyVVE5RTFBWklGWnoweW1wYTI2VDMwME1CMFVOeVUwYjM1QklheWY5ekRPZm9LLTlpRDVfOXMtd2xxVGpONmlFZFU2UVl5bjJkb2pQVFZB?oc=5",
         "zone": "South"
       },
       {
-        "published_at": "2026-11-04T07:14:39+05:30",
+        "published_at": "2026-11-22T18:12:27+05:30",
+        "publishers": [
+          "NDTV"
+        ],
+        "title": "Couple Spends Rs 2.53 Lakh To Move Into 3BHK Apartment In Bengaluru, Internet Reacts",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV0JicUthR18zejd6anZ4amhhY0kwc3d4RFd0eTVQSElCTktzTzlIY1NQNHl3dHVfN1FWSk13dnJMTkZYTGF0TUpwUWpqYlZmOE04MXh2RFdKX0lnSFoxZXpmR2o3Ynh6V1hZX2R1d3lDYjdKZWRya2kxMGdiOEdqX0tnbkNpcXAtcTBOTG4wODNPOWR4cVBLUkpaOUl2allaS093T0tVd3NoNmptMHJIcFZaUnVCODhHdGYySk9B0gHGAUFVX3lxTE1Dd0pFNDR3MUpneGVQcGRLUTVORUxlM1pnTC0wc3BONkhRMGFlVjlIOGQ0djd2SVdJSjdRbVBnMkw0UkRKcm9lbzRsbUpOZk1kRVozZzBxYTlzUWZiWW1xekhTTS1UM1FyZ0NRcm0wZGZqamtUcHFoblJQS0hMNWNTb2pGRVAtbFBxNU9zekQtSDZlSGY2TEVmRFZNZlFPTHRMYWhwenBGYzVKSDgtWEZHajE1U2NXVmJXR1A1NVZBSzdTbWFWZw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-22T11:15:11+05:30",
+        "publishers": [
+          "Country and Politics"
+        ],
+        "title": "Bengaluru Police Launch Door-to-Door Crackdown on 149 Rowdy-Sheeters across city",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRmdhQXQzZUgwU2ZubDhHNDZFY3JkRy1oSTFYWXhGNFdfRjZIN0FPOUluWElQdDE3Y3lSYk9PZF9TTlRWWUlzdFpFVDA4SUN2bnJGVnhxUzNvaGNmT0djTHVRdGlOYUcxUFlfVndqMGRDT3packhzd3FlUElXdzIwWDZmcTFUTnRQTXlhVFd3cjRFbm5lcFNLenpoVG15Zml0bUNuQVBiV3pfajhwbFZuQTJRa0JHcjQ1SXc3NUJZUGhSNlBJ?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-22T09:41:49+05:30",
+        "publishers": [
+          "TaxGuru"
+        ],
+        "title": "No Income Tax or TDS on KIADB Land Acquisition Compensation: Karnataka HC",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSTJPWHFrQnpONlhKUlJZS3c5SmFyb01iV01KWDZrakpqNTlZNk5nbkJIeGQteXNaRHpRN2U2UmpBd3JxRnlpZ3VHNlVmaXhpQ3d2R0JpczZxUmtDMjNvOVR1dGpXUzdmalRtb1dzbGNvczhsSDlheV9CeGhINnAtREo0WlVLZ0k0ZDcyWXhYN25qME01VlVFcnFZZndIZXZWa3JB?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-22T08:12:01+05:30",
         "publishers": [
           "The New Indian Express"
         ],
-        "title": "GBA goes micro local with ward-level climate plans",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdjhpOUNubjJfY0VBeVVicDlkeG04bHc4T3UzV0lCeGFWTDFzUWJZb3piZG10UjhEbTBjYjFIdzllNzBJdHJZTW0wOHpZb1dqeXhnSEZnTmRmLWtGMGJjLTVwMnUza2Z6bWFYd2FvakVqYlJIVEZqZ1NBY0UteExGTzk5ZWtvSldRSDhzSTlYXzc5a1U5ZGZneHJNUmt1VF9QRXRrNFlxTURhYmdKaDdIT3JB0gG_AUFVX3lxTE5qVW5fem9QTUdmeDRQT2ZlRlhmX0ZYejRyMERZR2Vvb1lyaDYxb2ZLRGZoUU5TczhFQW5fQ0UzdGMtOHZQUmx0dFVrWHpjR18yeldOT1RZbzFxeFcwanZRZFJKbXI2dVNab05nTThXVTktVjRnYXJsOEhrNTNoOFBQNmZUYlRTYk5KVXdld2RDSTJEZnVoeXFoYll6aTlyVUNQZGhaTW5MX2hUMmhvWWh6Zk9VZGF1Mk1fY1B6U1U0?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T06:01:00+05:30",
-        "publishers": [
-          "The Hindu",
-          "thehindu.com"
-        ],
-        "title": "Ten years of RERA: 3,147 projects lapse in Karnataka, only 39% apply for completion",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOajNWMEdHeER4THJSM1lSNnhNc245OUZVUlBBMWpheC15bXQtSm5BbTNNWXUxaWFtM0RXLV9XR3UwYXVWRlZQLThDQlZIUlkwbVFsd0JxaWZzeDNSSkFoZlhhNkE4eGJHeVNOdnNVdmhTVWdSUGc5WTBjbTlRNW94SEllSTNWMzVmQnd6SVBBX0lsd2JZRTZWY0JTUmxabWxIY0ZvM3BmeDE4aDVjaF9Wem9uU1M4NWM5VVY3TVVmSldneWFId3RvcFJTTkhrOHFKaUxjNFdBdnNBendhU3ZJ0gHmAUFVX3lxTE45VnJVa0VJWUhBTzV6VExmRUxTZEtKaGxEU0ZtSXBHQUpSbkdBREJPc1VHZTFTbTJTRWNKdmVMcHhITGE3MjZ3VUlONVVjUVQ1NFgzT1dJdTlSVWRDZndSVW1KWTVGU1lxRUotVzhYRDZueTBhNjhVSGVXOGJkeWlWVGM2NUgtTFdXakpOSWs5N0FZcFd2WkotTGNIbWcxc2NXUk5rT1ZiTTZXUFNsZ3RLb0xwSktmWHhNUzRvcjdrdzhya0oxTzg2Y29HdDM0amNwUDRNUElBaDQteE12LU90UGFONE9B?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-04T00:36:25+05:30",
-        "publishers": [
-          "Deccan Herald"
-        ],
-        "title": "BTP directs transit fuel tankers to be rerouted towards STRR to ease traffic congestion",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTzBKWFRSdHZnVnNZcDBrYmZBZGQ0NHFCcjJacDBzM2NwaUhENG5CNm15NFJ5cUlhTzYwdDNpS1FNdWlFZUFfaV9Iam9tcDhmMlJ3QlF5THlxRWFDZkd4RE9XaGkxYUxhMGNVb1k0SlBfUTNYWFdaejBpODU5enpYNzRmNnBBbVc4TUJiNmR1Q3ZYbzJRYW8tR0otWFBBNUs1Y3YzX2FmVVQ2M016b1lGU0MtTXZTY05ERl9BRTNuNkp0TWZSc1ZJQXJTdjZ3LTV2WWQ0akpSRl9kNEREY09NMVpBYm4?oc=5",
-        "zone": "Outer ring"
-      },
-      {
-        "published_at": "2026-11-03T20:49:44+05:30",
-        "publishers": [
-          "The Hindu"
-        ],
-        "title": "Technical glitch disrupts passenger information systems on Namma Metro Yellow Line",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdDA3bGRYTkYtSXgtRTgtMGxDZU9URTk0YUN3a0UxS1V0aTFFazFDVFpmb05oSnFHV20yNkIzN2tVTmtJUFN1T0RZZml0ZHBITGdCbkRidGt2Ym1panJxbzFiUGdhV00teFRuRGhCRlJZR1g4aXMyamN2RERMUkRRdmQyMGpyWnFlNGFkREd2ZHBScVhtdHdHUEV4SS1iUEc5QlJzQmdtZFVaWnRQYkpnTDVDeUVIcDJaVDk0LUhxOGw3TWxlQ2M3dE4tN1piZ3dRRTdUYWFEdk5uekppdEV6ajFSRUpKaE54QzJWMtIB7AFBVV95cUxNdDA3bGRYTkYtSXgtRTgtMGxDZU9URTk0YUN3a0UxS1V0aTFFazFDVFpmb05oSnFHV20yNkIzN2tVTmtJUFN1T0RZZml0ZHBITGdCbkRidGt2Ym1panJxbzFiUGdhV00teFRuRGhCRlJZR1g4aXMyamN2RERMUkRRdmQyMGpyWnFlNGFkREd2ZHBScVhtdHdHUEV4SS1iUEc5QlJzQmdtZFVaWnRQYkpnTDVDeUVIcDJaVDk0LUhxOGw3TWxlQ2M3dE4tN1piZ3dRRTdUYWFEdk5uekppdEV6ajFSRUpKaE54QzJWMg?oc=5",
-        "zone": "City-wide"
-      },
-      {
-        "published_at": "2026-11-02T11:40:00+05:30",
-        "publishers": [
-          "The News Minute"
-        ],
-        "title": "Karnataka issues final land acquisition notification for Greater Bengaluru township",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTGdSeE14Z1haa254Vlp6cnlOV2ZIRmhrTXVJUUF5bTJCU1JxVG5LZi1iUkdfc184UXRVV0FjQkpQa1dXdmh4MkJZN1d5TVVSZXJKc1RHM3RTNGs3VGRCcDRlb3REU0hHVUVqUm1IMERBWldNa0c5Z0xLNU9kcUFOV3FiYUg3Y2h1WkRCMkdpRW5HT1VzZ1FwRzR5SkVhZllKS2VMdDFQN0M0cEJWYkRHU2g4aFc3VXNJS2lLLWo2WS1PRXNTV1RtOEVDVEFvd9IBzgFBVV95cUxOTGdSeE14Z1haa254Vlp6cnlOV2ZIRmhrTXVJUUF5bTJCU1JxVG5LZi1iUkdfc184UXRVV0FjQkpQa1dXdmh4MkJZN1d5TVVSZXJKc1RHM3RTNGs3VGRCcDRlb3REU0hHVUVqUm1IMERBWldNa0c5Z0xLNU9kcUFOV3FiYUg3Y2h1WkRCMkdpRW5HT1VzZ1FwRzR5SkVhZllKS2VMdDFQN0M0cEJWYkRHU2g4aFc3VXNJS2lLLWo2WS1PRXNTV1RtOEVDVEFvdw?oc=5",
-        "zone": "City-wide"
-      }
-    ],
-    "insights": [
-      {
-        "area": "Hebbal–Yelahanka",
-        "published_at": "2026-11-07",
-        "publisher": "Deccan Herald",
-        "subject": "Ballari Road elevated corridor (Hebbal–Mehkri Circle)",
-        "title": "Deccan Herald reported on 7 November that BDA will take up a Rs 725 crore Ballari Road elevated corridor project and that existing flyovers are to be demolished. Article body could not be opened (403); the Rs 725 crore figure differs from the Rs 2,215 crore umbrella project quoted by other outlets, so the scope is unverified.",
-        "type": "project_update",
-        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bda-to-take-up-rs-725-cr-ballari-road-elevated-corridor-project-existing-flyovers-to-be-demolished-4210727",
+        "title": "Hebbal short tunnel: Activist seeks Rahul’s intervention",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcGpmR0lCUVNIWWlSYjMxUW9Lb3RuMjFCRmRCaGpmOWk5dTY0ZnpUdy1JdGVoQlYteW1WLUhPTDhqXzVkWWhuNFFwQ1NHVktObWZ0QjdJVF80TTA1SUstSkx0b2hTU2d2OVI2eVc2MFQxVkk4NGhLa05jSWdSM0pBaHlZUzZld200NG83UU5Qa3VLX015M2ZyX0FoV05QWE5LNDlWVThzeUFsNXRMNFZydV9IUGZzSTDSAcQBQVVfeXFMT2ZHQ0FpNWc1VlZpa0RTR1d6b2NYZU5RNVVra3lrTmFZUHdJTzF1bkRQTVZBOVI4MUpTeE1HQzJlZTZJYkJETnY4eTVGdXVvamk3S0JHMk81bEl1LXFySmlKdTJ5bmtSU3I0MExhV2RTclh3RkVqZlZLVC1PVjEybzJ3QldOeWFvT1RyTU1MU3Y1N0t2MmhMQVlFX09FcURBNFBXV3d6RE9iQkh0MHRMX1EyMzliNG81QVJEY2duYmd0TmRkQw?oc=5",
         "zone": "North"
       },
       {
-        "area": "South core (Koramangala–HSR–JP Nagar)",
-        "published_at": "2026-11-07",
-        "publisher": "Deccan Herald",
-        "subject": "GBA robotic stormwater drain desilting trial",
-        "title": "Deccan Herald reported on 7 November that GBA has begun trial runs of robotic machines to clear silt from stormwater drains (stronger-source corroboration of the HSR Layout trial; body not opened).",
-        "type": "project_update",
-        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/gba-begins-trial-runs-on-robotic-machines-to-clear-silt-from-stormwater-drains-4210735",
+        "published_at": "2026-11-22T08:07:39+05:30",
+        "publishers": [
+          "Urban Acres"
+        ],
+        "title": "Jakkur e-Khata Case Raises Bengaluru Land Record Concerns",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUzd3UUhCTXdUUEt0eXFlZUFibXotWFV0dWx2eW1EZm42Qy1aLTNDRldiLV91REpSQ3hjRFJYNWU3YUhnTmQwNU9IS3hwUDc1Yzh4dlN6aV9jWW9td2hPNVA5RjhERlhRV09SN3pyZUw0bUJIVV82bWwtX3p1NEVGbV9KVnNzbU5KeWxwVTkxNXNWaW40QXJSU0VQcEY2ci1Ycnc?oc=5",
+        "zone": "North"
+      },
+      {
+        "published_at": "2026-11-22T07:59:38+05:30",
+        "publishers": [
+          "The New Indian Express"
+        ],
+        "title": "Flyover to come up at Konanakunte Cross to ease traffic congestion",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWC16QVlTWVFyM3MyZ1hCR0hlTVA3TldzdXhZRnd5QS1WRVNtOFViWGpWY191LXE5emMzdFZOamFSZ2ZHZ1F3RnJfWXktOWxwUlJYVnd2djd1WjdYTmZjSzlzTTZfYmJTSXRWbWVldGRVWko0T1dUWDBVREoxVHRtT21WUi03YmpXaWRHM292bWlUMXpGc096Q2ZqMHE1OWZ6OUk2NHJIcUdqcC1JOE1fd2tJS3dRLVJmSTZocDJuZEpUVWUzVXJr0gHUAUFVX3lxTE5IMHF0NmpESnFxX21NSGtKUHNMYkFkUmVtNUp6emlxTTMwNVNHbTFlamN1Y2VDb1oxM1NZUk9CYmtvLV9QMEVPVW5wVTFlUnVPUGpQWFVzcnM3MUdHaVZzQWtJQ1RLNXBUamprSlFZMkhEUnNzbHJoN2VGdkhUbmhCSXFZMWRWTDRVanlqZnpUTEVzNFVwYVFMZ1QtRXpsX1YtbUlpRXBTSjVRSFVOVTNJVzMzaXhYTUYzaHFPUXQ5YUwwcGw3QlBtRng2Q0NZNVdHZ2ps?oc=5",
         "zone": "South"
       },
       {
-        "area": "Bengaluru",
-        "published_at": "2026-11-07",
-        "publisher": "Deccan Herald",
-        "subject": "Vidhana Soudha permanent laser mapping system",
-        "title": "Deccan Herald reported on 7 November that GBA has drafted a Rs 15–20 crore proposal for a permanent laser mapping system at Vidhana Soudha (headline only; not property-relevant, stage appears proposal).",
-        "type": "project_update",
-        "url": "https://www.deccanherald.com/india/karnataka/bengaluru",
+        "published_at": "2026-11-22T07:56:13+05:30",
+        "publishers": [
+          "Odisha Diary"
+        ],
+        "title": "NVG Seattle makes a grand debut in Bengaluru, brings together 530+ channel partners at exclusive launch",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDY3Q1duRHRQRkZZMjBjTERhVHZSZzZueXoxVlY1a0gxV0N3SUJBTUlMMVhfWXFDeHYyckhRY0hibVhhVEc3MWlXQ2Y0Q2hvdWk3R1RLejREQUhjejNIeWhQUEczOWpOOE5qZi1wSU9vWEU0M0lRNHI3NnlCc25GMV85RjljamhRZVAxcXF0Qzh3cWpadGR5cEVGbFJiTWpWSnBTYzd2UmRwNHhVWXJ6N3JJa2lHNm5LQ2I1UXh3eUE5b2dy?oc=5",
         "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-22T06:00:00+05:30",
+        "publishers": [
+          "Bangalore Mirror"
+        ],
+        "title": "BWSSB plans biggest-ever expansion across Bengaluru",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOenpTNFJ5b3Z4V00xb21wUmlud09DenRLQ1l4VkZYT2l4TWhkb1hPb1lBRFJyeGppNldTUFRwSGtuem9BcFhxYUs4eXgwVnZ2NEI2Y0hVMDJKR3I0YzhoMzZCUW5ZUTRKb0QwOHNkMXYtak56TWh2OG13bW1haHVFS3ZHdjJjck14UG9ldnVTZmJmWDg5a0hjZWN3RnpNWXJXSEJCcDNpUHV6NmV1cExBQmxtTWxMOXNNNkt0VEswRmFPMmxDZkY1VndvYknSAdIBQVVfeXFMUGdUdkdobjAzMzJydmlTLS1DNWhZWFRoUlhDMTB0Q1lTVVBhRDJYaXdiUjFGQlZVcDZwdFJ4WlZOanVPVTRKSkFhd3QtZlBlZDFHcDBjaHVnT1B6Yms3Sl90WDFOcGdqaVZfQnJVc3dPR0pUYTR1R29qVkRDeW1ERTdWUGNPdUdRdWlReFd5Q3pNUXBfVTFNS3FJajVFNjltVjA2NnhzNHVjdTZ3WXMxRFdfVVFKbzhuQWVtUXlNYUNIcG5oU2hNa3o2MHNpZFJaanZn?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-22T02:07:57+05:30",
+        "publishers": [
+          "Urban Acres"
+        ],
+        "title": "Bengaluru Plans Rs 77-Crore Flyover at Konanakunte Cross",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM0QtYVRkMURxWjB3WmxOZTNzSFhiTjhuRHNOQ3FPX215V2lXWmI2ZzJLbDRCZzdnTjc1RF8zRUNrcTl1dC02dDRETFpiTzR6bjU0VEEyNmo2X2s4LUhyMnFXVTRxYnduZmprVWFzRG0wckVxYUN0TFExV0FlemY0NHd0MEk0OHdXdUZPYWp1M3hkOTBLbzVzSWhzVnpfNTQ?oc=5",
+        "zone": "South"
+      },
+      {
+        "published_at": "2026-11-22T01:44:39+05:30",
+        "publishers": [
+          "Deccan Herald"
+        ],
+        "title": "GBA plans flyover, skywalk to ease traffic congestion at Konanakunte Cross",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTjNmN0l4Y09qelBmTWRJOENMcmYzX1FVNzE1eGFJbFROeU1PNmlzVUNrZFVad2ZVT0Z5OG1nTFZKQUY0Y1VNZmhsdENyTnN6c1JWcHpkUWlVYzlqVWhPeHJhSml0cmRudWlLdUprejJZX1luQVE1d0ZhZXc5TkpYZTNXcG5RTk1kQkFkb3NJY2VSRDYzSGg2Q0psbnBTUzZkbFJJUXZfVDZKTkRLMS1Ua1l1b3F5ZUVld0RCVzFwdnNtNkJQbGtkajdMWjNuV2dVNlHSAd8BQVVfeXFMTlVtRnBrWU83SE41dnczN2ZEZTVqYWxJZlpSZXpHaXM4cHo2dmtDQl9LZmNaS3A2SkcxLXpSZFdHR1EtQ2MtNDVDdnhONFZlRWJYaXltMDk2MUFYSEJUdWhpUXRmN1BaajdhSzZkUU1IQlZOV3FqNk8zc1R3RF9yOVVkVV85cjJ4TjBOcmc0R2hsUWxvbDZ5dUNsaE4wMDkxNU5tTzRCeEYxdmRqRmR6c2J4aDBXSXl1dHhDSHRfVDFDTzlZeGVZWDVabFh5TE04UjhmQk9rRkNnR1RPVUVEVQ?oc=5",
+        "zone": "South"
+      },
+      {
+        "published_at": "2026-11-22T01:40:00+05:30",
+        "publishers": [
+          "The Times of India"
+        ],
+        "title": "National Public School-Sarjapur Road announces closure over land dispute in Bengaluru",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQLWV1cTh4ZHBMNlFnTHVkeFh0ZnEwXzRjb1RITVp0YURqbU10bncta2NVZGM5anRoTk1Xb2FDN2QtXzhpYXBQc3VyWXRiS1BQbE9pd0RGVWI0RkJrYWpiMFF4eXlKZkNzSkNvUzR6VEhPczBZQkt4WVJNankzTk40ZkRjWUVHcV9rUGRBanpCcVlFZldGY0U2cFQ2ZkRrWjNTTVlSei1SaGIxY2dFdl9PdGlvUXcyb0szSG9BMTVuREkzdm9zSEdLdGZja3lDYlpGQ3pwNWpINjI4dE16M2FWc01hOXI2dVpNNE1fdXZkRkY5ckNX0gH6AUFVX3lxTE80d2Q1ZTdjd0diUnB1YU1lUjQxX0UxVTBYUXdaNnRBLTgtT294U2szRDRJNEpRX0JGMmd6eEdsZnB2ZXFCd2QxUDJONnR4T0tZelNxQnkySkI5ZmoybnBpYjlIRlFWeVA5Z0hSLXloeEgyUXI3eDN5M01raExXMkU3MHQxNlg1M0lsUUZ6SlcwVEdMTEdaRXNOU283ejdTbVRKRjJQcnpMb25wcTMxVDZrZVhpQjFHM0FoSnhTbTVxUjBmTTJBNS1MQzVBNk9YWUdnRmxpR2RlUUJlR2ZFeF9DVk55N0p1a0FkUUp2c3hEaGJDN2V5Y2Y3T2c?oc=5",
+        "zone": "East"
+      },
+      {
+        "published_at": "2026-11-22T00:03:36+05:30",
+        "publishers": [
+          "Asianet Newsable"
+        ],
+        "title": "Bengaluru Metro Update: Namma Metro Blue Line Trial Runs Begin; Airport Line Targeted For March 2028 (WATCH)",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQRThuZ0tFNVpzOEprM2xma2Vrcmo4YnpWdV9aZjU3R0N3d2pKMEN0aDF4UGNRYlNaaFE4M3A4Yy1HMDNNcndEdUJkUFVBeWEtZUlzcl9fWktZamhaWGtraTJHWUdhYVdsVnFoN2NIRFdaRHhiVGUyRGljeEZCTWlGOFN3RkwtWlF3NFhNV3VXdERhQWNUSnMxLTZaSnhXTlAxMDQ0eFN2WXpqRzVmVHZKUXdiNWNxTGRTNmZvT3ZfTGN5cTAxS0ota0lnZWZYM2Uya2U0X3FSbmF2NHdTWUJLb0N3SVYzRndEQjNPa0QwWEd1d9IB8gFBVV95cUxQRThuZ0tFNVpzOEprM2xma2Vrcmo4YnpWdV9aZjU3R0N3d2pKMEN0aDF4UGNRYlNaaFE4M3A4Yy1HMDNNcndEdUJkUFVBeWEtZUlzcl9fWktZamhaWGtraTJHWUdhYVdsVnFoN2NIRFdaRHhiVGUyRGljeEZCTWlGOFN3RkwtWlF3NFhNV3VXdERhQWNUSnMxLTZaSnhXTlAxMDQ0eFN2WXpqRzVmVHZKUXdiNWNxTGRTNmZvT3ZfTGN5cTAxS0ota0lnZWZYM2Uya2U0X3FSbmF2NHdTWUJLb0N3SVYzRndEQjNPa0QwWEd1dw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T23:00:49+05:30",
+        "publishers": [
+          "Inshorts"
+        ],
+        "title": "Bengaluru to face 12-hour Cauvery water cut on November 25 | Tap to know more | Inshorts",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeDBzc1Z1a3gtd1E3WHNJOE5yN29LM1U3a04wMEF1TE11UUhGZlpva1pxY0FjYmZSdTJEZkE1N3pYU0VzWUhHV1Z2Vkx2ODBZNkkwWklmekxUSEg1VXAxakJ2Z3pkWlc5ZFg4RUo2NGpKWmpQU2tJakNHT0JaTnV3cnZURUsxWElvUG9MakoxcDRkV3V3WVF5ZDFIQkk1Vkd6TDJQTnlRUEjSAagBQVVfeXFMTngwc3NWdWt4LXdRN1hzSThOcjdvSzNVN2tOMDBBdUxNdVFIRmZab2tacWNBY2JmUnUyRGZBNTd6WFNFc1lIR1dWdlZMdjgwWTZJMFpJZnpMVEhINVVwMWpCdmd6ZFpXOWRYOEVKNjRqSlpqUFNrSWpDR09CWk51d3J2VEVLMVhJb1BvTGpKMXA0ZFd1d1lReWQxSEJJNVZHekwyUE55UVBI?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T22:58:11+05:30",
+        "publishers": [
+          "Asianet Newsable"
+        ],
+        "title": "Bengaluru Water Cut: BWSSB Announces 12-Hour Supply Disruption On November 25, Check Affected Areas",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONGF2ZkZkc0JIejFPdXA2akFrMkNBZVlIWEhCY0lRX1QxNUZFSDhYekhKSXdNVXBFRkdHbWlOR2Y5U2sxMXRLR0p0c2hjZUl0SGpPMU5fcW5tLUJoU2ZKbXVzUEU0b09Pa1NYYnJ4R1owbDlXc05tbFdxWDlnMFIxMktrWnQwRWJOWDVSei1zQWh0TjV6RUM0RjM4cmxMSHVya3JPeGRYcG16UUJ5RG5PbkJOTEZ6OUlSVE1lWUtWLXRJcDFFMkxQMlF2ZnB3UFdOYU5XRFNCMTF0UDMtNGo2NzJsZnQyZ29yWWk3X1BzeHJPdGJN0gH6AUFVX3lxTE9aTVhfazBWRVZHYjE4eXFaMF9ESEJLRVpZamV6a28tQnBlWkRyX1lmazl5T1F1bU84SlBBZkt3MU9qWThyXzNJQ3BqWDVZaG1pS3NmWGhMcjJQY1ozeEo0U05zSlFCbFRUMXl2V3NHb2tDWlhSMm9EcEFfWEpqUU0xd3NMM0hZMEZjS01BMzQ4bDRRVENaS1ZoZFhHV0hDVk01WmlCQnc2dWUtMDkxRzdwMGJPejlhcjl6aUFwNzNTY0FRUXJEVHJpeFZRU3dBWmhvWEFzZFFyM095ZnU2Z1Jkc2FqWEoySTBFcHZSbFp0VF85bjdOak9iV0E?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T21:34:11+05:30",
+        "publishers": [
+          "thehindu.com"
+        ],
+        "title": "Skywalk, flyover planned at Konanakunte Cross",
+        "url": "https://www.thehindu.com/news/national/karnataka/skywalk-flyover-planned-at-konanakunte-cross/article71729066.ece",
+        "zone": "South"
+      },
+      {
+        "published_at": "2026-11-21T21:09:10+05:30",
+        "publishers": [
+          "ET TravelWorld"
+        ],
+        "title": "IHCL opens 400th operating hotel with launch of 256-key Taj Yelahanka in Bengaluru",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQmJWZXpwYlRYZzlha2ZmcTYtaXhweGVVa2JGWDJyaWdKM0MzNnpEbHNGRU9FLXR5OG9LeEtuZ184ZDZ0ZURXTlNnbGpVaTVEbEk5Z0hzdnNuejdkVG55cWo3ZXZQS3RUcC1xNnFHMURkT3lPVzB1X1FyaVJNWGV4aWo0UlBTUjZ5MGx6bjF3TnNJcy12Nk5mNUh4X3R0dmFndWVtLTRKSHktOVJoVVdKRnBmWG45MDhaT1NaV2JWY1Q0N0hZWFB0a0h1emlHR3NRdHNvMHdsd0JZOVprckRTMU80S25LdUlz0gHsAUFVX3lxTFBDaGxMdlJWSVRYX0NrdzdmbVFYejA1OWJHV1NkSng5dVFqZUw2QUtXc0h2V2QzMm5DRmcwR00wY3FnT2MwcDJFQ3dJaWQ4OHptVmE4eHY5cWtacFp6cjhQWGNfcFpWek5mbHNPRl9aWU9qMXktWUJaSlFiR3gtaGFvUXNpRnJ3cTQ5M3hJaHlxRzVCZUJpa2hlZHhEdkdlSVhsVE5yOHZVVGtfZmkyLUNQeFl6bFFpZnFnMUVLV2tlaDY4N0RjdnVZQVdMT2lGVEtGY1Eyam84ZG1KOHpJV0hka19IQkdQYXpyWktx?oc=5",
+        "zone": "North"
+      },
+      {
+        "published_at": "2026-11-21T20:47:58+05:30",
+        "publishers": [
+          "News Karnataka"
+        ],
+        "title": "Bengaluru Metro Pink Line Underground Trials Update",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRDNOdHdJQ09hZWFHVHBfY1dmcVZGVU44cFFrTnRQbnVrVTIyMTdHbHpnNkR1eC1JbnpEN2ItWlpTbDlyRHltVDZZb2tTMnRSbFQyX3JISWZFclFUTGwtaVN2UUFyN18yUy12WWtXcjdsM1JpLW5tTTFKU1hNRHhHVDlRLUhUdmlTNDdKdkdtZlZEVktQbGdhdzlVeGpQUQ?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T19:29:23+05:30",
+        "publishers": [
+          "The Bengaluru Live"
+        ],
+        "title": "BWSSB to Shut Cauvery Pumping Stations at All Stages for 12 Hours on November 25, Asks Residents to Store Water",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3RNSVpjdjIwYTBrODFyUDZ3RmUyYnB0c2ZOSXJiT3JHUzFWaHJSZTQzSUE3OTNXV2dNeUZqc2lOdC1KSUNGS3N3MHkwYXlDcjk2clhkQnFWRm5odlFTdVVZckh0TnZuOGxMRHlqRVRwR3huanhYLXJEVTlGSUJiNGQ3VjA1NzJNa0ZOd1czaVBNcXJWLXVOTGtLNGVDR1V4elJTUmRBSG1hbFV5ZGxfTWp0bE9Jc29HQXJSRV90TDM0a0ljUWVVRGJLUTNKY1ExNlJ3aHFBbw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T19:13:38+05:30",
+        "publishers": [
+          "BW Hotelier"
+        ],
+        "title": "Marriott Executive Apartments opens second Bengaluru property in Bellandur",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcF92MGVpdDJEQmY3NGtYRkY2VE15UkFvR2FKSXlWdDdheUpKbjdIcEM0dWhKeDhITkJOSDQ0RzBZZFNGQ1A0eTNxZmltZk52T0lMOXJWT0FpR2FUdXh5TFhUNndHeDExaDlFd3o5RHJVbEpTbkkxZGFpbG15U0R1U2hMbFRBeFhjcVIxcDdtWk5PR1U5N05KMjBybHFjVnEwU1IwUnYxZ01uNWM5dEtBdUpTb1BMVW8?oc=5",
+        "zone": "East"
+      },
+      {
+        "published_at": "2026-11-21T18:29:13+05:30",
+        "publishers": [
+          "Public TV English"
+        ],
+        "title": "GBA launches e-khata campaign at 62 ARO offices in city",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOFpHaWpLNzU3VHZyRmtoTzZ5NVk3amd0ZkluZzBuaExkbFZiWHFZdzU3ZHI4NTRfaVFqSDJVaDFkb1pEczdUWTY1N3QtUTlGb05xUXNSRnRMcnI5QW1PQm5pQ0wyYW1Iend6NW9PdHdyanJ5UWNyQkdfVHBMNFBVVU80c0xHMk10ajdGQw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T17:58:42+05:30",
+        "publishers": [
+          "Public TV English"
+        ],
+        "title": "GBA to build skywalk at Sankey tank",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rbnp3NkkxSmdoLW5TUHNXVS1LMmlkY2EyMzF5TGZERzBXQW1sRGdzNDROVm9tSWdmNzdDSGNmMThNTmxGRzFkZlEydkJlRGd0LVJCM0NiZ01kZTJfWjNGWjdxUmVxVjVUQ01QOHlIRGJNZw?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T16:46:39+05:30",
+        "publishers": [
+          "Great Travel Philippines"
+        ],
+        "title": "Marriott Executive Apartments expands in Bengaluru with opening of second property",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa1duOTh1eTc0N1JjZ3BsVG5KeGRYd2lJcUczN3oyZERPYnQ2WmJGZ1VjYmhtQ3BrNU9xYm1DcWczWXo2Y1A0dWEzeWpKT3RIMEN6TzdxQ29BaEdBWTV4VkV1Z01nUDlpMms1cDNjaEdic19rRS00OGhvcVhqWDRZSUdJYWZvOVczQW1CUS1XV19PWTR3VF9OZkM3RFZqMXVQQ2FwTFhaalNubk9uc0YzbENYeG80SERUa1ZrbkNTNDUwWXN6?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T16:06:48+05:30",
+        "publishers": [
+          "hindustantimes.com"
+        ],
+        "title": "Karnataka plans 15 lakh free residential sites, one lakh houses under housing schemes",
+        "url": "https://www.hindustantimes.com/real-estate/karnataka-plans-15-lakh-free-residential-sites-one-lakh-houses-under-housing-schemes-101795255706294.html",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T12:53:37+05:30",
+        "publishers": [
+          "News Karnataka"
+        ],
+        "title": "Bengaluru road plan faces land policy hurdles",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMEhfWlY5ZkxMbnlINzRGbEZJdlV4OWc0TkJNM0s0RkN6dHpOelUyVEwxX1otdE9kNEd3dVZBUF9nZDlweTVncnhfWFFQRnpXeUdtci1XM05RVUl1NGRDNUJaYnJZdTE0eV9yaE96RVh3aDE2TU83cXB6RHp5b29qTnZNZU5rRnhnY05xeUZrYmtvT3RlTnc?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T12:31:42+05:30",
+        "publishers": [
+          "City Today News"
+        ],
+        "title": "SBI-Backed Property Expo Opens in Bengaluru on November 21",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPakI3b21YTmQ3LWEzVTJjTkhRV0RFcUlxZVdWSlVSOFdVVlE0NDVibGZVcXBNUkRRRUx3cTZ1bEVUVHBlaHI1VzFLN1VDVVd5dUU2SjdPSmJjanNEWHFiRm5yUk03cE53eDFWTWZkZHlvZ2tqekh6M0tremlCRnl4OUVxUG0xVllYZFRibC1OUndlbHFvWmRaX0dB?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T11:24:51+05:30",
+        "publishers": [
+          "Aviation Jeta"
+        ],
+        "title": "Bengaluru Airport News: KIA Tests Simultaneous Departures from Both Runways, Launch Likely on November 27",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORHJkS0dWYjczS0M0ZVk5UEpmQWdkeE9qcE5JbmYwQ09pcGRaTnAzSjA4YlZRQzViR09oZDVTNlRBb0p3VXplOEkwb2hadzBRRFFjbkZnN3RiX01fZFdXMFZ5cjhvVkVxR3ozbjJoQk5WTG9jYXd1YkVEYzRWM2tfUUhvOWF2ZU1rQmUzNFZHNWJ5NVlXYXc2eVRKZ0VjZ01zWVhPTFZPYWxTNmRRWWlSWlVkcEZtVldBY2VzN1g5QWI2SU8xeXA2OQ?oc=5",
+        "zone": "North"
+      },
+      {
+        "published_at": "2026-11-21T09:16:25+05:30",
+        "publishers": [
+          "The New Indian Express"
+        ],
+        "title": "GBA up efforts to unclog traffic bottlenecks in city",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY0xDeWo3dFdhZUE4dzdIVVBmYm1OeG5Vd3YydnBjeVRqWFlBcGZNb1F0ZmJ5cktMZGt0cTF1QVkzV0tmNWhueFdaaDF4R0hnNlFPQmR2OHN5bzltSmtPcF9xRTE1b0diTjc2Ri1PWG1qWkREUFlLNER2VGxKcVI5SS0ta1hfNGtoNWVTQnRoWVlraGtxZEF1eHNKUmVFVzBITkVnU0c2UGtYd3YyQ1VLY29BRGfSAcIBQVVfeXFMT3BwRGdnUndINDNOd0QzVDV5eUF0QTNRLU1zU2w3NlhzY0NCZFZQSk1YNVhoWUVvSVpGSnpfeHVIVjBXM2l4MTlrNjhTZEhFOWl5VVFVOEJfTV9WOXVDMzltWmEzb3BMNmpNUTYzWkxmTTIyMGo4OF9GUUI0eVZZQnBKNmxneEpjZWZIUzBMTG1YTGNhSEpPaUFxWXg3emFCT0gyVmRTb29WZkl4M0paZWRkNXo2cGdzelVRVE5rV1JwQmc?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T09:08:32+05:30",
+        "publishers": [
+          "The New Indian Express"
+        ],
+        "title": "Bengaluru: GBA to ease traffic woes in Malleswaram",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWnF4UTkzVmdtbURTMkRVckRZZkptQ2NwUGk2SEVTb3JCd1dZVlN1aG1BMm9TZno0M2pLWUI3ZkFoNnhOak5YTC1OX2pHUlBPejBaY2dUbGlqQmZrUWx1by1hdkJkbHVMNHZabDByamt2Vng5aUtsVEZFem9GUzVEYUtRS3pSTDFnNVUxS0NPTVE5MHFYd2hnd1JkdXJsWkxuYkNhc0MyZmYyOEFHSzFabdIBvgFBVV95cUxQNE1CZHBqdEhDTkUwMi04VkExTGZ4UlRJOUkxVnRiQ3hRUFNua0E2VzBma2FFSnFhTHV5NDEyS0gzQ3U5Q3RTeGpnZ1hOQ1pENlREd21OWExKMUoxUFI3ZVptS3A4UE8tSzdPTGVvaXdqRUpMNWduMGN3VDd3eEkzQVZOR2tILW04ZmM4ekU1dUVWRnZvcS1aZ0FBUENlczhDa0dyYVlSZDJURkJYQkMzaWhoUVVLTDZ3eEpLSDhB?oc=5",
+        "zone": "City-wide"
+      },
+      {
+        "published_at": "2026-11-21T06:00:00+05:30",
+        "publishers": [
+          "Bangalore Mirror"
+        ],
+        "title": "BM Property: Harohalli enters race for Bengaluru’s second airport",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYVZHbTRiSUVESGFFZjEyd1dLOVl6QkFtZllEdW91RVB1TEJYRlBtYkVZRHRKV1A4bDlNdWlwbHZ4S3NuRF9adURnNXBBNWd1ZVJJXzJNTHpCMXUyLXRhYWtta0VLR3RKN0dLcTQ5QnAxMVljQlhmaGwzcjQtYnQwMnkzcHkzcDZvY1NQNldpV0FiLUFTUVJlZXVsYS01dmk4d09tMVdNRF9XU1V1LTJfVDVGZFItd3p3UmNfV25hU1QtbTVHQk5hVTJYWXF3SUdsOUh4a2FISEl0WDc5ZGfSAeMBQVVfeXFMUGxHQ1N3Uk9UUU9rSjVDVUlOekZpV2FfaVFZVXdubUR2bjNiVWQ0Rk1nUjFGWTlZdXljWmJqYmhNel9mT3hOcFBKUWtzMlpyNURlN0VqR1NSVDFISklMYldRZnVGV1h2bFEwT2xseUtJOURUbUVpTHQ2eERBUHNPNjQzVV9nR0ZCWE1zMFhYXzhGcHV4NF9Ia2FLSXJyMGNxMHNNZWJjTjdvQ2ZHN0NuVVl3LWhDMTlnOXgtSGRLS20wd3NHRldWMXE2d3pGYnJtdGlOX2o3Z2FpNXpTS2w1QTJUR00?oc=5",
+        "zone": "South"
+      },
+      {
+        "published_at": "2026-11-21T02:05:27+05:30",
+        "publishers": [
+          "Urban Acres"
+        ],
+        "title": "Bengaluru Sky Deck: BDA Seeks Investors for Kengeri Site",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ1hfOHc3VHc0ajNWOGpoMTZXZ1ZLRWdJSmtMUk5vVXZ0TXRONk9ZZ2VwNkhIbXhNbGR2VWZ3LWJuUHVZMEQ1eHc5SU9ZQkVfbzN4UTNIRDVoYlp0NUlQdXdpMWFfUG5HUTVhSU5DMHJyMWRvLUZHUnlINWRZNmEtTEJiamhlQ1BWbG95MHNZR0VZX3luZ1QzS0loeHpDQV85TFFWMF80M1Q?oc=5",
+        "zone": "West"
       }
-    ]
+    ],
+    "insights": []
   },
   "plans": [
     {
@@ -2613,148 +2801,166 @@
   ],
   "top_builders": [
     {
-      "bengaluru_projects": [],
-      "headline": "Sobha is a Bengaluru-headquartered developer whose home market was its largest in Q1 FY27, alongside a large NCR presence.",
+      "bengaluru_projects": [
+        "Sobha One World (Hoskote)",
+        "Sobha Magnus",
+        "Sobha Altair"
+      ],
+      "headline": "",
       "name": "Sobha Limited",
       "other": [
         {
-          "label": "Sales area FY26",
-          "period": "FY26 (Apr 2025-Mar 2026)",
+          "label": "Sales area Q2 FY27",
+          "period": "Q2 FY27 (Jul-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
-          "value": "5.54 mn sq ft"
+          "source": "Sahi",
+          "url": "https://www.sahi.com/news/sobha-achieves-record-h1-sales-of-58-62-billion-as-new-projects-boost-performance",
+          "value": "1.42 million sq ft"
+        },
+        {
+          "label": "Collections H1 FY27",
+          "period": "H1 FY27 (Apr-Sep 2026)",
+          "scope": "Company-wide",
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/sobha-share-price-and-q2-fy-27-results/",
+          "value": "₹4,009 crore"
         }
       ],
-      "projects": [],
+      "projects": [
+        {
+          "label": "Bengaluru sales H1 FY27",
+          "period": "H1 FY27 (Apr-Sep 2026)",
+          "scope": "Bengaluru",
+          "source": "Sahi",
+          "url": "https://www.sahi.com/news/sobha-achieves-record-h1-sales-of-58-62-billion-as-new-projects-boost-performance",
+          "value": "₹3,385 crore"
+        }
+      ],
       "sales": [
         {
           "label": "Sales value H1 FY27",
           "period": "H1 FY27 (Apr-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/sobha-records-highest-ever-sales-value-of-rs-5-862-crore/",
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/sobha-share-price-and-q2-fy-27-results/",
           "value": "₹5,862 crore"
         },
         {
           "label": "Sales value FY26",
           "period": "FY26 (Apr 2025-Mar 2026)",
           "scope": "Company-wide",
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
-          "value": "₹8,135.9 crore"
+          "source": "Investywise",
+          "url": "https://www.investywise.com/?p=68539",
+          "value": "₹8,136 crore"
         },
         {
           "label": "Sales value Q2 FY27",
           "period": "Q2 FY27 (Jul-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/sobha-records-highest-ever-sales-value-of-rs-5-862-crore/",
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/sobha-share-price-and-q2-fy-27-results/",
           "value": "₹2,206 crore"
-        },
-        {
-          "label": "Sales value Q4 FY26",
-          "period": "Q4 FY26 (Jan-Mar 2026)",
-          "scope": "Company-wide",
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/corporate/sobha-q4-pre-sales-rise-11-pc-to-2039-cr-fy26-bookings-up-30-pc",
-          "value": "₹2,039.3 crore"
         }
       ]
     },
     {
       "bengaluru_projects": [
-        "Godrej Vanantara",
-        "Godrej Regent Park",
-        "Godrej MSR City"
+        "Godrej Vanantara (Bannerghatta Road)",
+        "Godrej Woodscapes (Budigere Cross)",
+        "Godrej MSR City (Devanahalli)",
+        "Godrej Parkshire (Hosakote)",
+        "Godrej Tiara (Yeshwanthpur)"
       ],
-      "headline": "Godrej Properties' Bengaluru launches Godrej Vanantara and Godrej Regent Park have been among its largest bookings contributors in FY27.",
+      "headline": "",
       "name": "Godrej Properties",
       "other": [
-        {
-          "label": "Collections Q2 FY27",
-          "period": "Q2 FY27 (Jul-Sep 2026)",
-          "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/godrej-properties-q2-fy27-financial-and-operational-highlights/",
-          "value": "₹5,318 crore"
-        },
         {
           "label": "Area sold Q2 FY27",
           "period": "Q2 FY27 (Jul-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/godrej-properties-q2-fy27-financial-and-operational-highlights/",
-          "value": "6.2 mn sq ft"
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/godrej-properties-q2-fy27-results-share-price-in-focus/",
+          "value": "6.2 million sq ft"
+        },
+        {
+          "label": "Collections Q2 FY27",
+          "period": "Q2 FY27 (Jul-Sep 2026)",
+          "scope": "Company-wide",
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/godrej-properties-q2-fy27-results-share-price-in-focus/",
+          "value": "₹5,318 crore"
         }
       ],
       "projects": [],
       "sales": [
         {
-          "label": "Booking value H1 FY27",
-          "period": "H1 FY27 (Apr-Sep 2026)",
-          "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/godrej-properties-q2-fy27-financial-and-operational-highlights/",
-          "value": "₹16,659 crore"
-        },
-        {
           "label": "Booking value FY26",
           "period": "FY26 (Apr 2025-Mar 2026)",
           "scope": "Company-wide",
           "source": "Angel One",
-          "url": "https://oga-prod.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
+          "url": "https://www.angelone.in/news/stocks/godrej-properties-share-price-in-focus-achieves-record-bookings-and-collections-in-fy2026",
           "value": "₹34,171 crore"
         },
         {
           "label": "Booking value Q2 FY27",
           "period": "Q2 FY27 (Jul-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/godrej-properties-q2-fy27-financial-and-operational-highlights/",
+          "source": "Kotak Neo",
+          "url": "https://www.kotakneo.com/news/stocks/godrej-properties-q2-fy27-results-share-price-in-focus/",
           "value": "₹8,008 crore"
-        },
-        {
-          "label": "Booking value Q1 FY27",
-          "period": "Q1 FY27 (Apr-Jun 2026)",
-          "scope": "Company-wide",
-          "source": "Investywise",
-          "url": "https://www.investywise.com/?p=100503",
-          "value": "₹8,651 crore"
         }
       ]
     },
     {
-      "bengaluru_projects": [],
-      "headline": "Brigade Enterprises is Bengaluru-based, with Bengaluru the largest share of its pre-sales and several new Bengaluru land parcels such as Whitefield-Hoskote and Yelahanka.",
+      "bengaluru_projects": [
+        "Brigade Cornerstone Utopia (East Bengaluru)"
+      ],
+      "headline": "Brigade Enterprises is a Bengaluru-based developer for which Bengaluru is the main market, having recently completed the Brigade Cornerstone Utopia township in East Bengaluru.",
       "name": "Brigade Enterprises",
       "other": [
         {
-          "label": "Sales volume Q1 FY27",
-          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "label": "Pre-sales area FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
           "scope": "Company-wide",
-          "source": "Angel One",
-          "url": "https://www.angelone.in/news/stocks/brigade-enterprises-share-price-in-focus-after-q1-sales-bookings-fall-5-to-1-061-crore",
-          "value": "0.74 mn sq ft"
+          "source": "Construction World",
+          "url": "https://www.constructionworld.in/latest-construction-news/real-estate-news/brigade-enterprises-records-rs-74.24-billion-pre-sales/91147",
+          "value": "6.13 million sq ft"
+        },
+        {
+          "label": "Collections FY26",
+          "period": "FY26 (Apr 2025-Mar 2026)",
+          "scope": "Company-wide",
+          "source": "Construction World",
+          "url": "https://www.constructionworld.in/latest-construction-news/real-estate-news/brigade-enterprises-records-rs-74.24-billion-pre-sales/91147",
+          "value": "₹7,476.0 crore"
         }
       ],
-      "projects": [],
+      "projects": [
+        {
+          "label": "Projects completed",
+          "period": "as of 2026-11 (undated company page)",
+          "scope": "Company-wide",
+          "source": "Brigade Group (company website)",
+          "url": "https://www.brigadegroup.com/retail/overview",
+          "value": "280 projects (280+)"
+        }
+      ],
       "sales": [
         {
           "label": "Pre-sales FY26",
           "period": "FY26 (Apr 2025-Mar 2026)",
           "scope": "Company-wide",
-          "source": "Outlook Business",
-          "url": "https://www.outlookbusiness.com/amp/story/corporate/brigade-enterprises-fy26-pre-sales-dip-5-to-7424-crore-on-delays-in-fresh-supply",
+          "source": "Investywise",
+          "url": "https://www.investywise.com/?p=80551",
           "value": "₹7,424 crore"
         },
         {
-          "label": "Sales bookings Q1 FY27",
-          "period": "Q1 FY27 (Apr-Jun 2026)",
+          "label": "Pre-sales Q2 FY27",
+          "period": "Q2 FY27 (Jul-Sep 2026)",
           "scope": "Company-wide",
-          "source": "Angel One",
-          "url": "https://www.angelone.in/news/stocks/brigade-enterprises-share-price-in-focus-after-q1-sales-bookings-fall-5-to-1-061-crore",
-          "value": "₹1,061 crore"
+          "source": "Investywise",
+          "url": "https://www.investywise.com/brigade-enterprises-investor-presentation-q2-fy27/",
+          "value": "₹1,827 crore"
         }
       ]
     }
